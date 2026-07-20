@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuebook Cast Book · </title>
+<style>
+:root{--ink:#171511;--paper:#f5f0e5;--card:#fffdf7;--line:rgba(34,28,17,.18)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eee7d7,#faf7ef 42%,#e6decd);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.topbar{position:sticky;top:0;z-index:5;background:#0b0c0a;color:#fff;padding:12px 16px;border-bottom:3px solid #c8a94b}.topbar h1{margin:0;font-family:Georgia,serif;font-size:clamp(22px,5vw,42px);letter-spacing:.04em;text-transform:uppercase}.topbar p{margin:.2rem 0 0;color:#d8ceb7;font-size:13px}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.btn{border:1px solid rgba(255,255,255,.28);border-radius:999px;background:#fff;color:#15130f;font-weight:900;letter-spacing:.035em;padding:8px 12px;cursor:pointer}.btn.dark{background:#15130f;color:#fff;border-color:#3b392f}.wrap{max-width:1000px;margin:0 auto;padding:14px}.controls{background:rgba(255,253,247,.84);border:1px solid var(--line);border-radius:16px;padding:12px;margin-bottom:14px;display:grid;gap:9px}.controls input,.controls select{width:100%;border:1px solid var(--line);border-radius:10px;padding:9px;background:white;font:inherit}.count{font-weight:900;color:#5f4b19}.perfSheet{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 10px;overflow:hidden;break-inside:avoid;page-break-inside:avoid;box-shadow:0 6px 22px rgba(36,28,15,.06)}.perfHead{padding:10px 12px;border-bottom:1px solid var(--line);-webkit-print-color-adjust:exact;print-color-adjust:exact}.perfTitle{font-family:Georgia,serif;font-size:22px;line-height:1;margin:0 0 4px;font-weight:900}.perfMeta{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:900;opacity:.86}.castLine{font-family:Georgia,"Times New Roman",serif;font-size:13.5px;line-height:1.42;padding:10px 12px}.castLine strong{font-weight:900}.coverText{font-weight:900}.orchLine{font-family:Georgia,"Times New Roman",serif;font-size:12px;line-height:1.35;padding:0 12px 10px;color:#3f3a30}.orchLabel{font-weight:900;text-transform:uppercase;letter-spacing:.05em}.notes{margin:0 12px 10px;padding:7px 9px;border-left:4px solid rgba(0,0,0,.25);background:rgba(255,255,255,.55);font-size:11px;color:#5d5343}.empty{padding:24px;text-align:center;color:#6e6453}@media(max-width:650px){.wrap{padding:9px}.perfTitle{font-size:19px}.castLine{font-size:13px}.perfSheet{border-radius:12px}}@media print{body{background:white}.topbar,.controls{display:none}.wrap{max-width:none;padding:0}.perfSheet{box-shadow:none;border:1px solid #ddd;border-radius:0;margin:0 0 5mm;page-break-inside:avoid;break-inside:avoid}.perfHead{padding:6px 8px}.perfTitle{font-size:16pt}.perfMeta{font-size:7.5pt}.castLine{font-size:9.5pt;padding:6px 8px}.orchLine{font-size:8.5pt;padding:0 8px 6px}.notes{font-size:8pt;margin:0 8px 6px} @page{margin:.45in}}
+
+
+/* === v12.10.0 compact castbook polish === */
+body{background:linear-gradient(180deg,#f8f1e2,#eee2cf)!important}.page,.perfBlock,.card{border-radius:14px!important;box-shadow:0 10px 28px rgba(35,24,10,.08)!important}.btn,button,select,input{border-radius:9px!important}.showHeader{letter-spacing:.06em!important}.castParagraph{line-height:1.38!important}.coverTag{border-radius:999px!important;padding:1px 5px!important}
+
+
+/* === v12.10.0 unified utility surface === */
+body{background:radial-gradient(circle at 10% 0,rgba(214,180,74,.14),transparent 28rem),linear-gradient(180deg,#f8f1e2,#efe3d0)!important;color:#17130f!important}
+.top,.topbar{box-shadow:0 12px 34px rgba(0,0,0,.18)!important;border-bottom:2px solid #d6b44a!important}
+.topin,.topbar{padding-top:9px!important;padding-bottom:9px!important}
+.brand,.topbar h1{font-size:18px!important;letter-spacing:.18em!important;color:#f4d34f!important}
+.btn,button{border-radius:10px!important;padding:8px 11px!important;font-size:12px!important;letter-spacing:.04em!important}
+.wrap{padding-top:18px!important}.hero,.card,.controls,.perfSheet{border-radius:16px!important;box-shadow:0 12px 34px rgba(35,24,10,.09)!important;border-color:rgba(98,73,27,.15)!important}
+.hero,.controls{background:linear-gradient(135deg,#fffdf6,#fff4d7)!important}.input,input,select{border-radius:11px!important;border-color:rgba(80,60,25,.18)!important}.grid{gap:11px!important}
+
+
+/* === v12.10.0 utility polish === */
+.top,.topbar{background:linear-gradient(90deg,#090806,#171109 55%,#261806)!important;border-bottom:1px solid rgba(216,182,71,.82)!important}.brand:after{content:none!important;display:none!important}.hero,.card,.panel,.programControls{box-shadow:0 14px 38px rgba(35,24,9,.09)!important}.btn{transition:transform .12s ease, box-shadow .12s ease}.btn:hover{transform:translateY(-1px);box-shadow:0 9px 18px rgba(0,0,0,.12)}
+.controls:before{content:"Cast Book Sections";font-weight:950;text-transform:uppercase;letter-spacing:.14em;font-size:10px;color:#6b5420}.controls select#section{border-color:rgba(200,169,75,.45)!important;background:#fffaf0!important}
+</style>
+
+<style id="build97-all-sans">
+:root{--font-ui:"Aptos Narrow","Arial Narrow","Liberation Sans Narrow","Roboto Condensed","Helvetica Neue",Arial,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}
+html,body,button,input,select,textarea,a,span,div,section,article,aside,header,footer,nav,main,table,thead,tbody,tfoot,tr,th,td,h1,h2,h3,h4,h5,h6,p,b,strong,small,summary,details,pre,code{font-family:var(--font-ui)!important;}
+</style>
+<style id="cuebook-b146-tool-shell">
+:root{--ink:#241728;--berry:#6B263F;--gold:#F2C84B;--paper:#FFF8EC;--blush:#F3E3DF;--black:#151216;--muted:#75666f;--line:rgba(36,23,40,.16);--shadow:0 10px 28px rgba(36,23,40,.08);}
+body{background:linear-gradient(180deg,var(--paper),var(--blush))!important;color:var(--black)!important}.top,.topbar{background:linear-gradient(110deg,var(--ink),#38203a 65%,var(--berry))!important;border-bottom:1px solid rgba(242,200,75,.55)!important;color:#fff!important;box-shadow:none!important}.brand:after{content:none!important}.panel,.card,.controls,.hero{background:var(--paper)!important;border-color:var(--line)!important;box-shadow:var(--shadow)!important}.btn{min-height:44px!important;border-radius:999px!important;border-color:rgba(242,200,75,.55)!important}.toolMenu{position:relative;margin-left:auto}.toolMenu summary{list-style:none;cursor:pointer;border:1px solid var(--gold);background:var(--black);color:var(--gold);border-radius:999px;padding:11px 16px;font-weight:900}.toolMenu summary::-webkit-details-marker{display:none}.toolMenuPanel{position:absolute;right:0;top:calc(100% + 8px);z-index:50;width:230px;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:10px;display:grid;gap:7px}.toolMenuPanel a{padding:10px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:900;background:#fff;border:1px solid var(--line)}.toolMenuPanel small{padding:8px 4px 2px;color:var(--muted);font-size:9px;letter-spacing:.1em;text-transform:uppercase}@media(max-width:700px){.topin,.topbar{gap:8px!important;flex-wrap:wrap!important}}
+</style><script src="data-loader.js?v=json-b164"></script></head>
+<body>
+<header class="topbar"><div><h1>Cuebook Cast Book</h1><p>Printable cast subsections by show family, covers, and production type.</p></div><div class="toolbar"><button class="btn" onclick="window.print()">Print / Save PDF</button><button class="btn" onclick="downloadWord()">Download compact .doc</button><button class="btn dark" onclick="downloadHtml()">Download HTML</button></div><details class="toolMenu"><summary>Menu</summary><div class="toolMenuPanel"><a href="index.html?v=json-b164">Dashboard</a><a href="souvenir.html?v=json-b164">Souvenir Program</a><a href="castbook.html?v=json-b164">Cast Book</a><a href="companions.html?v=json-b164">Companions</a><a href="qa.html?v=json-b164">Data Health</a><a href="logo-manager.html?v=json-b164">Logo Manager</a><small>B164 · v13.0.3</small></div></details></header>
+<main class="wrap"><section class="controls"><input id="q" placeholder="Filter by show, venue, city, date, or performer…"><select id="range"><option value="all">All performances</option><option value="lastYear">Last year</option><option value="lastFive">Last five years</option></select><select id="section"><option value="all">All cast books</option><option value="broadway">Broadway</option><option value="offbroadway">Off-Broadway</option><option value="arena">Arena Stage</option><option value="wicked">Wicked</option><option value="juliet">& Juliet</option><option value="dbh">Death Becomes Her</option><option value="six">SIX</option><option value="deh">Dear Evan Hansen</option><option value="heathers">Heathers</option><option value="waitress">Waitress</option><option value="mammamia">Mamma Mia!</option></select><select id="mode"><option value="all">Show all cast lists</option><option value="covers">Only performances with covers/special cast</option></select><select id="sort"><option value="old" selected>Oldest → newest</option><option value="new">Newest → oldest</option></select><div class="count" id="count">Loading…</div></section><div id="book"></div></main>
+<script>
+let DB=null, IDX=null;
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const vals=o=>Object.keys(o||{}).map(k=>o[k]);
+const by=(m,id)=>m&&m[String(id)];
+const fmt=d=>{if(!d)return'';let [y,m,day]=String(d).split('-').map(Number);let dt=new Date(y,m-1,day);return dt.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric',weekday:'short'});};
+function name(id){return by(DB.people,id)?.name||'Unknown'}
+function role(id){return by(DB.roles,id)?.name||'Role'}
+function show(p){return by(DB.shows,p.showId)?.title||'Untitled'}
+function venueObj(p){return by(DB.venues,p.venueId)||{}}
+function venue(p){let v=venueObj(p);return [v.name,v.city,v.state].filter(Boolean).join(' · ')}
+function prodLine(p){let s=by(DB.shows,p.showId)||{}, v=venueObj(p), bits=[]; if(s.production)bits.push(s.production); if(p.production)bits.push(p.production); if(v.name)bits.push(v.name); if(v.city||v.state)bits.push([v.city,v.state].filter(Boolean).join(', ')); return bits.filter(Boolean).join(' · ')}
+function buildIndex(){IDX={apps:{},orch:{}};(DB.appearances||[]).forEach(a=>{(IDX.apps[a.performanceId]||(IDX.apps[a.performanceId]=[])).push(a)});(DB.orchestraCredits||[]).forEach(o=>{(IDX.orch[o.performanceId]||(IDX.orch[o.performanceId]=[])).push(o)});}
+function readableCover(a){let s=String(a.coverLabel||a.coverType||'').toLowerCase(); if(s.includes('standby'))return's/b'; if(s.includes('alternate'))return'alt'; if(s.includes('swing'))return's/w'; if(s.includes('temporary')||s.includes('t/r'))return't/r'; if(s.includes('special'))return'special'; return'u/s';}
+function swingTrack(a){let raw=String(a.raw||a.roleNote||a.coverLabel||'');let m=raw.match(/(?:in|for)\s+(.+?)(?:'s|’s)\s+(?:ensemble\s+)?track/i);return m?m[1].trim():'';}
+function coverDetail(a,r){let c=readableCover(a);if(c==='s/w'){let track=swingTrack(a);return track?`*s/w Ensemble - in ${track}’s track`:'*s/w Ensemble';}return `*${c} ${r}`;}
+function isCover(a){return !!(a.coverType||a.coverLabel)}
+function themeFor(title){let t=String(title||'').toLowerCase();
+  const themes=[[/wicked/,['#dfeeda','#2e6c3a']],[/annie/,['#f8d7d7','#8b1515']],[/juliet|& juliet/,['#f7d5e8','#7a2855']],[/waitress/,['#dbeaf7','#24587a']],[/lion king/,['#f6df93','#735315']],[/evita/,['#d9e6ff','#31517d']],[/dreamgirls/,['#f1dfb8','#6d4b11']],[/matilda/,['#d9e4f6','#233f6b']],[/harry potter/,['#e8e1f4','#4b3470']],[/memphis/,['#e7e0d7','#5a3b25']],[/funny thing|forum/,['#efd4e4','#71365a']],[/calamity jane/,['#f6d4ce','#7b2b22']],[/clueless/,['#f5d7ef','#79356c']],[/titanique/,['#dce9ff','#24517a']],[/chess/,['#e7e7e7','#222']],[/are you now/,['#e4dff0','#3f315d']]];
+  for(const [re,c] of themes){if(re.test(t))return c;}
+  let h=0; for(let i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))%360; return [`hsl(${h} 45% 89%)`,`hsl(${h} 44% 28%)`];
+}
+function castItem(a){let r=role(a.roleId), n=name(a.personId); return isCover(a)?`<strong class="coverText">${esc(n)} (${esc(coverDetail(a,r))})</strong>`:`${esc(n)} (${esc(r)})`;}
+function orchestraOrder(label,index=0){let n=String(label||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();if(n.includes('associate conductor'))return 1;if(n.includes('assistant conductor'))return 2;if(n==='conductor'||n.startsWith('conductor ')||n.includes('music director conductor'))return 0;return 100+index;}
+function orchestraText(p){let orch=(IDX.orch[p.id]||[]).map((o,i)=>({o,i})).sort((a,b)=>orchestraOrder(a.o.chair,a.i)-orchestraOrder(b.o.chair,b.i)||a.i-b.i).map(x=>x.o); if(!orch.length)return''; return orch.map(o=>`${esc(o.chair)}: ${(o.personIds||[]).map(name).map(esc).join(', ')}`).join('; ');}
+function perfHtml(p){let apps=(IDX.apps[p.id]||[]).slice().sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));let title=show(p), colors=themeFor(title);let cast=apps.map(castItem).join(', ');let meta=[fmt(p.date), p.type, p.time, prodLine(p)||venue(p)].filter(Boolean).join(' • ');return `<article class="perfSheet"><header class="perfHead" style="background:${colors[0]};color:${colors[1]};border-color:${colors[1]}22"><h2 class="perfTitle">${esc(title)}</h2><div class="perfMeta">${esc(meta)}</div></header><div class="castLine">${cast||'<span class="empty">No cast stored.</span>'}</div></article>`;}
+function perfOrderWeight(p){let t=String(p.time||'').toLowerCase(); if(t.includes('mat'))return 1; if(t.includes('eve')||t.includes('night'))return 3; return 2;}
+function perfAsc(a,b){return String(a.date).localeCompare(String(b.date)) || perfOrderWeight(a)-perfOrderWeight(b) || Number(a.id||0)-Number(b.id||0);}
+function perfDesc(a,b){return String(b.date).localeCompare(String(a.date)) || perfOrderWeight(a)-perfOrderWeight(b) || Number(b.id||0)-Number(a.id||0);}
+
+function matchCastbookSection(p,sec){let t=show(p).toLowerCase(),v=venue(p).toLowerCase(),type=String(p.type||'').toLowerCase(); if(!sec||sec==='all')return true; if(sec==='broadway')return type==='broadway'; if(sec==='offbroadway')return type.indexOf('off-broadway')>=0||type.indexOf('off broadway')>=0; if(sec==='arena')return v.indexOf('arena stage')>=0; if(sec==='wicked')return t.indexOf('wicked')>=0; if(sec==='juliet')return t.indexOf('juliet')>=0; if(sec==='dbh')return t.indexOf('death becomes her')>=0; if(sec==='six')return t==='six'||t.indexOf('six')>=0; if(sec==='deh')return t.indexOf('dear evan hansen')>=0; if(sec==='heathers')return t.indexOf('heathers')>=0; if(sec==='waitress')return t.indexOf('waitress')>=0; if(sec==='mammamia')return t.indexOf('mamma mia')>=0; return true;}
+
+function filtered(){let q=document.getElementById('q').value.toLowerCase().trim();let r=document.getElementById('range').value;let section=document.getElementById('section')?.value||'all';let m=document.getElementById('mode').value;let sort=document.getElementById('sort')?.value||'old';let now=new Date();let cutoff=null;if(r==='lastYear')cutoff=new Date(now.getFullYear()-1,now.getMonth(),now.getDate());if(r==='lastFive')cutoff=new Date(now.getFullYear()-5,now.getMonth(),now.getDate());return vals(DB.performances).filter(p=>{if(cutoff&&new Date(p.date)<cutoff)return false;if(!matchCastbookSection(p,section))return false;let apps=IDX.apps[p.id]||[];if(m==='covers'&&!apps.some(isCover))return false;if(q){let hay=[show(p),venue(p),p.date,p.type,p.time,p.notes,apps.map(a=>name(a.personId)+' '+role(a.roleId)).join(' ')].join(' ').toLowerCase(); if(!hay.includes(q))return false;}return true;}).sort(sort==='new'?perfDesc:perfAsc);}
+function render(){let arr=filtered();document.getElementById('count').textContent=`${arr.length} compact cast list${arr.length===1?'':'s'}`;document.getElementById('book').innerHTML=arr.map(perfHtml).join('')||'<div class="empty">No matching performances.</div>';}
+function docHtml(){return `<!doctype html><html><head><meta charset="utf-8"><title>Theatre Dashboard Compact Castbook</title>`+document.querySelector('style').outerHTML+`
+<style id="build97-all-sans">
+:root{--font-ui:"Aptos Narrow","Arial Narrow","Liberation Sans Narrow","Roboto Condensed","Helvetica Neue",Arial,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;}
+html,body,button,input,select,textarea,a,span,div,section,article,aside,header,footer,nav,main,table,thead,tbody,tfoot,tr,th,td,h1,h2,h3,h4,h5,h6,p,b,strong,small,summary,details,pre,code{font-family:var(--font-ui)!important;}
+</style>
+</head><body><main class="wrap">${document.getElementById('book').innerHTML}</main></body></html>`}
+function downloadWord(){let blob=new Blob([docHtml()],{type:'application/msword'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='theatre-diary-compact-castbook.doc';a.click();URL.revokeObjectURL(a.href)}
+function downloadHtml(){let blob=new Blob([docHtml()],{type:'text/html'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='theatre-diary-compact-castbook.html';a.click();URL.revokeObjectURL(a.href)}
+loadCuebookData({cache:'no-store'}).then(d=>{DB=d;buildIndex();render();['q','range','section','mode','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));}).catch(e=>{document.getElementById('count').textContent='Could not load Cuebook split data: '+e.message});
+</script>
+</body></html>
