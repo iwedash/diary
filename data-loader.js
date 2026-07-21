@@ -3,7 +3,7 @@
 const DEFAULT_MANIFEST='manifest.json';
 async function cueFetchJson(path,cache){
   const join=path.includes('?')?'&':'?';
-  const res=await fetch(path+join+'v=json-b166',{cache:cache||'no-store'});
+  const res=await fetch(path+join+'v=json-b168',{cache:cache||'no-store'});
   if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);
   return res.json();
 }
