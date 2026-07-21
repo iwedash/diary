@@ -3,7 +3,7 @@
 const DEFAULT_MANIFEST='manifest.json';
 async function cueFetchJson(path,cache){
   const join=path.includes('?')?'&':'?';
-  const res=await fetch(path+join+'v=json-b165',{cache:cache||'no-store'});
+  const res=await fetch(path+join+'v=json-b166',{cache:cache||'no-store'});
   if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);
   return res.json();
 }
@@ -36,11 +36,16 @@ async function loadCuebookData(options={}){
   if(manifest.schemaVersion!==13)throw new Error(`Unsupported Cuebook schema ${manifest.schemaVersion}`);
   const base=manifestPath.slice(0,manifestPath.lastIndexOf('/')+1);
   const loaded=await Promise.all(manifest.files.map(async file=>({file,data:await cueFetchJson(base+file.path,cache)})));
-  const sourcePart=loaded.find(x=>x.file.kind==='sources');
+  const sourcePart=loaded.find(x=>
+    x.file.kind==='sources' ||
+    x.file.path==='sources.json' ||
+    (Array.isArray(x.file.collections) && x.file.collections.includes('values') && Array.isArray(x.data?.values))
+  );
   if(!sourcePart)throw new Error('Cuebook manifest is missing the source dictionary');
-  const sources=sourcePart.data.values||[];
+  const sources=Array.isArray(sourcePart.data)?sourcePart.data:(sourcePart.data.values||sourcePart.data.sources||[]);
+  if(!Array.isArray(sources))throw new Error('Cuebook source dictionary has an invalid format');
   const db={};
-  loaded.filter(x=>x.file.kind!=='sources').forEach(({data})=>Object.assign(db,data));
+  loaded.filter(x=>x!==sourcePart).forEach(({data})=>Object.assign(db,data));
   reviveSources(db,sources);
   restoreCompanions(db);
   if(!db.entities)db.entities={};
