@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b169">
+<meta name="archive-house-build" content="json-b171">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -947,7 +947,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b169"></script></head>
+<script src="data-loader.js?v=json-b171"></script></head>
 <body>
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><span class="mark">CB</span><span><b>Cuebook</b><small>Theatre performance database</small></span></a></div>
@@ -960,17 +960,17 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b169">Souvenir Program</a><a href="castbook.html?v=json-b169">Cast Book</a><a href="companions.html?v=json-b169">Companions</a>
+    <a href="souvenir.html?v=json-b171">Souvenir Program</a><a href="castbook.html?v=json-b171">Cast Book</a><a href="companions.html?v=json-b171">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B169 · v13.3.0</div>
+  <div class="menuVersion">B171 · v13.4.0</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b169';
-const VERSION='v13.3.0';
+const BUILD='json-b171';
+const VERSION='v13.4.0';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1043,7 +1043,7 @@ function yearOf(p){return String(p.date||'').slice(0,4)||'Unknown';}
 function perfTitle(p){return showTitle(p.showId);} 
 function perfMeta(p){return [fmtDate(p.date),p.time,p.type,venueName(p.venueId)].filter(Boolean).join(' · ');} 
 function seatDisplay(p){let s=p.seatLocation;if(!s)return'';if(typeof s==='string')return s;if(s.display)return s.display;return [s.section,s.area,s.side,s.row&&('Row '+s.row),s.seat&&('Seat '+s.seat),s.view].filter(Boolean).join(' · ');} 
-function attended(p){let a=p.attendedWith||p.companions||[]; if(typeof a==='string')a=[a]; return a.map(x=>typeof x==='number'?personName(x):String(x)).filter(Boolean);}
+function attended(p){let a=p.attendedWith||p.companions||[];if(typeof a==='string')a=[a];a=a.map(x=>typeof x==='number'?personName(x):String(x)).filter(Boolean);if(!a.length&&p.companionStatus==='alone')return['Alone'];return a;}
 function ticketDisplay(p){return [p.ticketType,p.ticketSource,p.ticketPrice!=null?('$'+p.ticketPrice):'',p.price].filter(Boolean).join(' · ');} 
 function markerDisplay(p){let a=[];if(Array.isArray(p.experienceMarkers))a=a.concat(p.experienceMarkers);if(p.tags){if(Array.isArray(p.tags))a=a.concat(p.tags);else a.push(p.tags);}return [...new Set(a.filter(Boolean))];}
 function labelCover(t){let m={understudy:'u/s',standby:'standby',swing:'s/w',alternate:'alt',temporary_replacement:'t/r',emergency_cover:'emergency',onstage_swing:'s/w',vacation_swing:'vacation swing',special_appearance:'special'};return m[t]||String(t||'').replace(/_/g,' ')}
@@ -1059,7 +1059,7 @@ function principalRoleStatsForShow(showId,ps){let ids=new Set(ps.map(p=>idNum(p.
 
 function link(hash,label,cls='link'){return `<a class="${cls}" href="${hash}">${esc(label)}</a>`;}
 function entityName(id){const e=E.get(String(id));return txt(e?.name)||txt(e?.displayName)||`Unlabeled ${e?.entityType||'entity'}`;}
-function entityHash(id){return '#entity?eid='+encodeURIComponent(String(id));}
+function entityHash(id){let pid=personIdFromEntityId(id);return pid?'#person-'+pid:'#entity?eid='+encodeURIComponent(String(id));}
 function entityLink(id,label=null,cls='link'){return link(entityHash(id),label||entityName(id),cls);}
 function entityIdForPerson(pid){let m=raw.entityMigrationMap?.people,id=String(idNum(pid));return m&&typeof m==='object'&&m[id]||`person:${id}`;}
 function entityIdForOrg(oid){let m=raw.entityMigrationMap?.organizations,id=String(idNum(oid));return m&&typeof m==='object'&&m[id]||`org:${id}`;}
