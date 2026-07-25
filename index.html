@@ -969,8 +969,8 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
 <script>
 (function(){
 'use strict';
-const BUILD='json-b171';
-const VERSION='v13.4.0';
+const BUILD='json-b174';
+const VERSION='v13.7.0';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1051,11 +1051,11 @@ function displayRoleName(name){return String(name||'').replace(/\s*\/\s*/g,' / '
 function isCoverBadgeLabel(tag){return /^(?:u\/s|s\/w|s\/b|alt|t\/r|emergency|vacation swing|special)$/i.test(String(tag||'').trim());}
 function badgePillHtml(tag,extra=''){if(!tag)return'';let cls=isCoverBadgeLabel(tag)?'pill cover':'pill notePill';return `<span class="${cls}${extra?' '+extra:''}">${esc(tag)}</span>`;}
 function roleNameForAppearance(a){let name=a.roleRaw||roleBaseName(a.roleId)||a.roleNormalized||'Ensemble';let p=performanceById(a.performanceId);let show=showTitle(p?.showId);let base=roleBaseName(a.roleId)||name;let alias=ROLE_ALIASES[show]||{};return alias[base]||alias[name]||base||name;}
-function gridRoleName(a){let p=performanceById(a.performanceId);let show=showTitle(p?.showId);let name=roleNameForAppearance(a);let alias=ROLE_ALIASES[show]||{};return alias[name]||name;}
+function gridRoleName(a){let p=performanceById(a.performanceId);let show=showTitle(p?.showId);let name=roleNameForAppearance(a);let alias=ROLE_ALIASES[show]||{},aliased=alias[name]||name,cfg=showGridConfig(p?.showId);if(cfg){let targets=showGridCanonicalRoles(p?.showId,aliased);if(targets.length)return targets[0];}return aliased;}
 function isPrincipalGridAppearance(a){let p=performanceById(a.performanceId);let show=showTitle(p?.showId);let rule=PRINCIPAL_RULES[show];if(rule){return rule.includes(gridRoleName(a))&&(FULL_CAST_GRID_SHOWS.has(show)||a.appearanceType==='principal');}return a.appearanceType==='principal';}
 function isEnsembleTrackAppearance(a){let rn=String(a.roleRaw||roleNameForAppearance(a)||'');return !!(a.alsoEnsemble||a.appearanceType==='ensemble'||/\/\s*ensemble\b/i.test(rn)||/\bensemble\b/i.test(a.roleRaw||''));}
 function displayAppearanceGroup(a){if(a.appearanceType==='orphan')return 'orphan';if(a.appearanceType==='background_vocalist')return 'background';if(isEnsembleTrackAppearance(a))return 'ensemble';if(a.appearanceType==='principal')return 'principal';if(a.coverType==='swing'||a.coverType==='onstage_swing'||a.appearanceType==='swing')return 'swing';return 'other';}
-function principalRoleStatsForShow(showId,ps){let ids=new Set(ps.map(p=>idNum(p.id)));let rows=apps.filter(a=>ids.has(idNum(a.performanceId))&&isPrincipalGridAppearance(a));let m=new Map();rows.forEach(a=>{let rn=gridRoleName(a);if(!m.has(rn))m.set(rn,{role:rn,appearances:0,people:new Set(),order:a.displayOrder||9999});let o=m.get(rn);o.appearances++;o.people.add(idNum(a.personId));o.order=Math.min(o.order,a.displayOrder||9999);});let arr=[...m.values()].sort((a,b)=>a.order-b.order||a.role.localeCompare(b.role));let show=showTitle(showId);if(PRINCIPAL_RULES[show]){arr=PRINCIPAL_RULES[show].filter(r=>m.has(r)).map(r=>m.get(r));}return arr;}
+function principalRoleStatsForShow(showId,ps){let ids=new Set(ps.map(p=>idNum(p.id)));let rows=apps.filter(a=>ids.has(idNum(a.performanceId))&&isPrincipalGridAppearance(a));let m=new Map();rows.forEach(a=>{let rn=gridRoleName(a);if(!m.has(rn))m.set(rn,{role:rn,appearances:0,people:new Set(),order:a.displayOrder||9999});let o=m.get(rn);o.appearances++;o.people.add(idNum(a.personId));o.order=Math.min(o.order,a.displayOrder||9999);});let arr=[...m.values()].sort((a,b)=>a.order-b.order||a.role.localeCompare(b.role));let cfg=showGridConfig(showId),show=showTitle(showId);if(cfg){arr=(cfg.tracks||[]).map(t=>t.label).filter(r=>m.has(r)).map(r=>m.get(r));}else if(PRINCIPAL_RULES[show]){arr=PRINCIPAL_RULES[show].filter(r=>m.has(r)).map(r=>m.get(r));}return arr;}
 
 function link(hash,label,cls='link'){return `<a class="${cls}" href="${hash}">${esc(label)}</a>`;}
 function entityName(id){const e=E.get(String(id));return txt(e?.name)||txt(e?.displayName)||`Unlabeled ${e?.entityType||'entity'}`;}
@@ -1404,16 +1404,18 @@ function showGridCanonicalRoles(showId,roleName){
 
 function castGridExportModel(showId,ps){
   let cfg=showGridConfig(showId);
-  let roles=cfg?(cfg.tracks||[]).map(track=>track.label):principalRoleStatsForShow(showId,ps).map(x=>x.name);
-  let roleIndex=new Map(roles.map((name,i)=>[name,i]));
+  let roles=cfg?(cfg.tracks||[]).map(track=>track.label):principalRoleStatsForShow(showId,ps).map(x=>x.role||x.name);
+  roles=[...new Map(roles.filter(Boolean).map(name=>[norm(name),name])).values()];
+  let roleIndex=new Map(roles.map((name,i)=>[norm(name),i]));
   let rows=ps.map(p=>{
     let cells=roles.map(()=>({apps:[],hasCover:false}));
     for(let a of (perfApps.get(p.id)||[])){
       let rawRole=roleBaseName(a.roleId);
       let targets=cfg?showGridCanonicalRoles(showId,rawRole):[rawRole];
       for(let canonical of targets){
-        if(!roleIndex.has(canonical))continue;
-        let cell=cells[roleIndex.get(canonical)];
+        let canonicalKey=norm(canonical);
+        if(!roleIndex.has(canonicalKey))continue;
+        let cell=cells[roleIndex.get(canonicalKey)];
         if(!cell.apps.some(existing=>existing.id===a.id))cell.apps.push(a);
         if(a.coverType||a.onstageSwing)cell.hasCover=true;
       }
