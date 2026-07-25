@@ -1,1 +1,112 @@
-{"schemaVersion":13,"build":"json-b171","version":"v13.4.0","generated":"2026-07-23T23:45:00-04:00","storage":{"mode":"split-normalized","loadMode":"parallel compatibility assembly","legacyMonolithIncluded":false,"entityStorage":"canonical people/organizations with runtime entity adapter","companionStorage":"companionLinks using personId","sourceStorage":"deduplicated source dictionary using sourceRef"},"files":[{"path":"core.json","bytes":2839065,"sha256":"d13317c7887df3dcbae3c6eebcd2234a3318bae8de18963e89dd745a765e0afe","kind":"data","collections":["meta","people","shows","venues","roles","performances","organizations","entitySchema","entityMigrationMap","entityHealth","entitySystem","showGridTracks"]},{"path":"cast.json","bytes":4840209,"sha256":"b04159e1d986ce494f6ecd628a25f685b20e0d80880725387f505e9eb1b2d920","kind":"data","collections":["appearances"]},{"path":"credits.json","bytes":1854293,"sha256":"92c4c1fa20d26fea14916b20f3c33175e5ff3e1259ec81c1cc4e628595071b5a","kind":"data","collections":["creativeCredits","aboveTitleProducers","presentingOrganizations","companionLinks"]},{"path":"program-credits.json","bytes":2936302,"sha256":"b012540a276eae02bfd56ecbd1f37a5d573fbe2e2affa04d4a9756dc37d34875","kind":"data","collections":["expandedCredits","orchestraCredits","musicStaff","marketingAndPress","ticketingRevenue","danceCaptains","fightCaptains","associateCreativeTeam","musicTechnology","specialEffects","creativeConsultants"]},{"path":"production-archive.json","bytes":1776526,"sha256":"6cec67178104ac004819661b7b73d122ff3fb92ea3bff8fd00042758d7dbbf39","kind":"data","collections":["productionManagement","coverPools","productionMetadataSnapshots","programArchive","songLists","expandedProductionStaff","productionAlternates","performanceTags","orchestra"]},{"path":"sources.json","bytes":526976,"sha256":"45f2f437690e4baf8eea384538390df30a149ae1d27d20284f17598c3006cc3b","kind":"sources","collections":["values"]}],"totalBytes":14773371,"largestFileBytes":4840209,"counts":{"performances":1111,"people":18401,"organizations":1235,"appearances":18519,"companionLinks":291,"creativeCredits":16542}}
+{
+  "schemaVersion": 13,
+  "build": "json-b172",
+  "version": "v13.5.0",
+  "generated": "2026-07-24T23:58:00-04:00",
+  "storage": {
+    "mode": "split-normalized",
+    "loadMode": "parallel compatibility assembly",
+    "legacyMonolithIncluded": false,
+    "entityStorage": "canonical people/organizations with runtime entity adapter",
+    "companionStorage": "companionLinks using personId",
+    "sourceStorage": "deduplicated source dictionary using sourceRef"
+  },
+  "files": [
+    {
+      "path": "core.json",
+      "bytes": 2853962,
+      "sha256": "08549c1fc7b1462a1298a8cb5cae914e2c951d8bbbcb051341eba9cbb03752c2",
+      "kind": "data",
+      "collections": [
+        "meta",
+        "people",
+        "shows",
+        "venues",
+        "roles",
+        "performances",
+        "organizations",
+        "entitySchema",
+        "entityMigrationMap",
+        "entityHealth",
+        "entitySystem",
+        "showGridTracks"
+      ]
+    },
+    {
+      "path": "cast.json",
+      "bytes": 4849150,
+      "sha256": "9196b64fd93d5719889cf17092df2ba69b7a4a633ebf1e63bbc0a55793a5afd7",
+      "kind": "data",
+      "collections": [
+        "appearances"
+      ]
+    },
+    {
+      "path": "credits.json",
+      "bytes": 1854342,
+      "sha256": "b5d7ff91c1feaec9ee03d7306bb76bbb4eff10c01747e075948959c2d08d02f5",
+      "kind": "data",
+      "collections": [
+        "creativeCredits",
+        "aboveTitleProducers",
+        "presentingOrganizations",
+        "companionLinks"
+      ]
+    },
+    {
+      "path": "program-credits.json",
+      "bytes": 2939182,
+      "sha256": "ef1d495698d88e65822120c50a0738cdc304363acc9a2c6fb0b0fdcd5d1e2c4c",
+      "kind": "data",
+      "collections": [
+        "expandedCredits",
+        "orchestraCredits",
+        "musicStaff",
+        "marketingAndPress",
+        "ticketingRevenue",
+        "danceCaptains",
+        "fightCaptains",
+        "associateCreativeTeam",
+        "musicTechnology",
+        "specialEffects",
+        "creativeConsultants"
+      ]
+    },
+    {
+      "path": "production-archive.json",
+      "bytes": 1787702,
+      "sha256": "c766c82a7f6eeeb7b26f64a1c96ef9bb64663646e5eafc2c5ef8322f5de5a7f8",
+      "kind": "data",
+      "collections": [
+        "productionManagement",
+        "coverPools",
+        "productionMetadataSnapshots",
+        "programArchive",
+        "songLists",
+        "expandedProductionStaff",
+        "productionAlternates",
+        "performanceTags",
+        "orchestra"
+      ]
+    },
+    {
+      "path": "sources.json",
+      "bytes": 527432,
+      "sha256": "343aa2f1ffbf3e637cfd8cc38ab4cfbe48fa4868b1a6d4558b388cc8fea14689",
+      "kind": "sources",
+      "collections": [
+        "values"
+      ]
+    }
+  ],
+  "totalBytes": 14811770,
+  "largestFileBytes": 4849150,
+  "counts": {
+    "performances": 1112,
+    "people": 18510,
+    "organizations": 1235,
+    "appearances": 18556,
+    "companionLinks": 292,
+    "creativeCredits": 16542
+  }
+}
