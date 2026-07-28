@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b187">
+<meta name="archive-house-build" content="json-b188">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -950,7 +950,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b187"></script>
+<script src="data-loader.js?v=json-b188"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1000,16 +1000,16 @@ body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transpare
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b187">Souvenir Program</a><a href="castbook.html?v=json-b187">Cast Book</a><a href="companions.html?v=json-b187">Companions</a>
+    <a href="souvenir.html?v=json-b188">Souvenir Program</a><a href="castbook.html?v=json-b188">Cast Book</a><a href="companions.html?v=json-b188">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B186 · v13.12.3</div>
+  <div class="menuVersion">B188 · v13.13.0</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b187';
+const BUILD='json-b188';
 const VERSION='v13.10.1';
 const $=s=>document.querySelector(s);
 const app=$('#app');
@@ -1079,10 +1079,11 @@ function venueName(id){const v=V.get(idNum(id));return v?[v.name,v.city].filter(
 function roleBaseName(id){const r=R.get(idNum(id));return r?.name||'';}
 function performanceById(id){return raw.performances?.[id]||raw.performances?.[String(id)]||perfs.find(p=>idNum(p.id)===idNum(id));}
 function fmtDate(d,short=false){if(!d)return'';const m=String(d).match(/^(\d{4})-(\d{2})-(\d{2})/);if(!m)return d;const dt=new Date(Number(m[1]),Number(m[2])-1,Number(m[3]));return dt.toLocaleDateString(undefined,short?{month:'short',day:'numeric'}:{month:'short',day:'numeric',year:'numeric'});} 
+function fmtPerformanceDate(d){if(!d)return'';const m=String(d).match(/^(\d{4})-(\d{2})-(\d{2})/);if(!m)return d;const dt=new Date(Number(m[1]),Number(m[2])-1,Number(m[3]));return dt.toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric',year:'numeric'});} 
 function dateObj(d){const m=String(d||'').match(/^(\d{4})-(\d{2})-(\d{2})/);return m?new Date(Number(m[1]),Number(m[2])-1,Number(m[3])):new Date(0);} 
 function yearOf(p){return String(p.date||'').slice(0,4)||'Unknown';}
 function perfTitle(p){return showTitle(p.showId);} 
-function perfMeta(p){return [fmtDate(p.date),p.time,p.type,venueName(p.venueId)].filter(Boolean).join(' · ');} 
+function perfMeta(p){return [fmtPerformanceDate(p.date),p.time,p.type,venueName(p.venueId)].filter(Boolean).join(' · ');} 
 function seatDisplay(p){let s=p.seatLocation;if(!s)return'';if(typeof s==='string')return s;if(s.display)return s.display;return [s.section,s.area,s.side,s.row&&('Row '+s.row),s.seat&&('Seat '+s.seat),s.view].filter(Boolean).join(' · ');} 
 function attended(p){let a=p.attendedWith||p.companions||[];if(typeof a==='string')a=[a];a=a.map(x=>typeof x==='number'?personName(x):String(x)).filter(Boolean);if(!a.length&&p.companionStatus==='alone')return['Alone'];return a;}
 function ticketDisplay(p){return [p.ticketType,p.ticketSource,p.ticketPrice!=null?('$'+p.ticketPrice):'',p.price].filter(Boolean).join(' · ');} 
@@ -1207,7 +1208,7 @@ function rowEntityIds(row){let ids=nameIds(row),out=[];ids.personIds.forEach(pid
 function entityDrawerList(row){let ids=rowEntityIds(row);return ids.length?`<div class="entityStack">${ids.map(x=>entityDrawer(x.eid,x.label)).join('')}</div>`:esc(row.raw||nameList(row)||'');}
 function normalizedTicketDisplay(p){let bits=[];if(p.ticketType)bits.push(p.ticketType);if(p.ticketSource)bits.push(p.ticketSource);if(p.ticketPrice!=null)bits.push(`$${p.ticketPrice}${p.ticketCurrency?` ${p.ticketCurrency}`:''}`);else if(p.price)bits.push(p.price);return bits.join(' · ');}
 function normalizedSeatDisplay(p){return seatDisplay(p)||'—';}
-function performanceFactStrip(p){let withTxt=attended(p).join(', ')||'—';let seat=normalizedSeatDisplay(p)||'—';let ticket=normalizedTicketDisplay(p)||'';let seatTicket=[seat,ticket].filter(x=>x&&x!=='—').join(' · ')||'—';let venue=venueName(p.venueId)||'—';let city=V.get(idNum(p.venueId))?.city||'';let production=p.performanceMetadata?.productionLabel||p.performanceMetadata?.productionKey||p.type||'—';return `<section class="card compactTop performanceFacts"><div class="factsPanel"><div class="fact factWide"><b>Theatre / Venue / Production</b><span>${link('#venue-'+p.venueId,venue,'link')}${city?` · ${esc(city)}`:''} · ${esc(production)}</span></div><div class="fact"><b>Date / Time</b><span>${esc([fmtDate(p.date),p.time].filter(Boolean).join(' · '))}</span></div><div class="fact"><b>With</b><span>${esc(withTxt)}</span></div><div class="fact factWide"><b>Seat / Price</b><span>${esc(seatTicket)}</span></div></div></section>`;}
+function performanceFactStrip(p){let withTxt=attended(p).join(', ')||'—';let seat=normalizedSeatDisplay(p)||'—';let ticket=normalizedTicketDisplay(p)||'';let seatTicket=[seat,ticket].filter(x=>x&&x!=='—').join(' · ')||'—';let venue=venueName(p.venueId)||'—';let city=V.get(idNum(p.venueId))?.city||'';let production=p.performanceMetadata?.productionLabel||p.performanceMetadata?.productionKey||p.type||'—';return `<section class="card compactTop performanceFacts"><div class="factsPanel"><div class="fact factWide"><b>Theatre / Venue / Production</b><span>${link('#venue-'+p.venueId,venue,'link')}${city?` · ${esc(city)}`:''} · ${esc(production)}</span></div><div class="fact"><b>Date / Time</b><span>${esc([fmtPerformanceDate(p.date),p.time].filter(Boolean).join(' · '))}</span></div><div class="fact"><b>With</b><span>${esc(withTxt)}</span></div><div class="fact factWide"><b>Seat / Price</b><span>${esc(seatTicket)}</span></div></div></section>`;}
 
 function showLink(id){return link('#show-'+id,showTitle(id),'link');}
 function perfLink(id,label){return link('#perf-'+id,label,'linkBtn');}
