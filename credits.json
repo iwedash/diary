@@ -122697,6 +122697,174 @@
       "personId": 10743,
       "credit": "Company Manager",
       "raw": "Steve Lukens"
+    },
+    {
+      "id": 17668,
+      "performanceId": 1136,
+      "personId": 1126,
+      "credit": "Book",
+      "raw": "Rachel Sheinkin",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17669,
+      "performanceId": 1136,
+      "personId": 1127,
+      "credit": "Music",
+      "raw": "William Finn",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17670,
+      "performanceId": 1136,
+      "personId": 1127,
+      "credit": "Lyrics",
+      "raw": "William Finn",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17671,
+      "performanceId": 1136,
+      "personId": 19723,
+      "credit": "Conceived by",
+      "raw": "Rebecca Feldman",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17672,
+      "performanceId": 1136,
+      "personId": 19724,
+      "credit": "Additional Material",
+      "raw": "Jay Reiss",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17673,
+      "performanceId": 1136,
+      "personId": 8883,
+      "credit": "Scenic Design",
+      "raw": "Teresa L. Williams",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17674,
+      "performanceId": 1136,
+      "personId": 1580,
+      "credit": "Costume Design",
+      "raw": "Emily Rebholz",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17675,
+      "performanceId": 1136,
+      "personId": 6764,
+      "credit": "Lighting Design",
+      "raw": "David Weiner",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17676,
+      "performanceId": 1136,
+      "personId": 6701,
+      "credit": "Sound Design",
+      "raw": "Haley Parcher",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17677,
+      "performanceId": 1136,
+      "personId": 2452,
+      "credit": "Hair, Wig, Makeup Design",
+      "raw": "Tommy Kurzman",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17678,
+      "performanceId": 1136,
+      "personId": 645,
+      "credit": "Orchestrations",
+      "raw": "Michael Starobin",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17679,
+      "performanceId": 1136,
+      "personId": 8882,
+      "credit": "Music Director",
+      "raw": "Elizabeth Doran",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17680,
+      "performanceId": 1136,
+      "personId": 19828,
+      "credit": "Associate Director",
+      "raw": "NJ Agwuna",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17681,
+      "performanceId": 1136,
+      "personId": 11242,
+      "credit": "Associate Choreographer",
+      "raw": "Niani Feelings",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17682,
+      "performanceId": 1136,
+      "personId": 1579,
+      "credit": "Music Supervision and Vocal Arrangements",
+      "raw": "Carmel Dean",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17683,
+      "performanceId": 1136,
+      "personId": 1160,
+      "credit": "Originally Directed on Broadway by",
+      "raw": "James Lapine",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17684,
+      "performanceId": 1136,
+      "personId": 1888,
+      "credit": "Director",
+      "raw": "Danny Mefford",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17685,
+      "performanceId": 1136,
+      "personId": 1888,
+      "credit": "Choreographer",
+      "raw": "Danny Mefford",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17686,
+      "performanceId": 1136,
+      "personId": 17432,
+      "credit": "Production Stage Manager",
+      "raw": "Rachel A. Zucker",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17687,
+      "performanceId": 1136,
+      "personId": 12544,
+      "credit": "Company Manager",
+      "raw": "Emmy Steele",
+      "sourceRef": 1354
+    },
+    {
+      "id": 17688,
+      "performanceId": 1136,
+      "personId": 8882,
+      "credit": "Piano-Conductor",
+      "raw": "Elizabeth Doran",
+      "sourceRef": 1354
     }
   ],
   "aboveTitleProducers": [
@@ -134081,6 +134249,556 @@
       "sourceRef": 1351,
       "category": "Producer",
       "id": 1030
+    },
+    {
+      "id": 1031,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        10144
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1032,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        9799
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1033,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        15991
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1034,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        10010
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1035,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        11565
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1036,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        12826
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1037,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        11008
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1038,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        10145
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1039,
+      "performanceId": 1136,
+      "credit": "Producer",
+      "personIds": [
+        19829
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1040,
+      "performanceId": 1136,
+      "credit": "General Arrangement",
+      "personIds": [
+        10143
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1041,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        10144
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1042,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        9799
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1043,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        15991
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1044,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        10010
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1045,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        11565
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1046,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        12826
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1047,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        11008
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1048,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        10145
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1049,
+      "performanceId": 922,
+      "credit": "Producer",
+      "personIds": [
+        19829
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1050,
+      "performanceId": 922,
+      "credit": "General Arrangement",
+      "personIds": [
+        10143
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1051,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        10144
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1052,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        9799
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1053,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        15991
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1054,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        10010
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1055,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        11565
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1056,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        12826
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1057,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        11008
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1058,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        10145
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1059,
+      "performanceId": 940,
+      "credit": "Producer",
+      "personIds": [
+        19829
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1060,
+      "performanceId": 940,
+      "credit": "General Arrangement",
+      "personIds": [
+        10143
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1061,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        10144
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1062,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        9799
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1063,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        15991
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1064,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        10010
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1065,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        11565
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1066,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        12826
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1067,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        11008
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1068,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        10145
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1069,
+      "performanceId": 966,
+      "credit": "Producer",
+      "personIds": [
+        19829
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1070,
+      "performanceId": 966,
+      "credit": "General Arrangement",
+      "personIds": [
+        10143
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1071,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        10144
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1072,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        9799
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1073,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        15991
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1074,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        10010
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1075,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        11565
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1076,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        12826
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1077,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        11008
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1078,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        10145
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1079,
+      "performanceId": 1022,
+      "credit": "Producer",
+      "personIds": [
+        19829
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
+    },
+    {
+      "id": 1080,
+      "performanceId": 1022,
+      "credit": "General Arrangement",
+      "personIds": [
+        10143
+      ],
+      "organizationIds": [],
+      "sourceRef": 1356,
+      "category": "Producer"
     }
   ],
   "presentingOrganizations": [
@@ -138474,6 +139192,12 @@
       "performanceId": 1135,
       "personId": 18762,
       "sourceRef": 1353
+    },
+    {
+      "id": 608,
+      "performanceId": 1136,
+      "personId": 11938,
+      "sourceRef": 1354
     }
   ]
 }

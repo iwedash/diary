@@ -146033,6 +146033,118 @@
       ],
       "organizationIds": [],
       "sourceRef": 1319
+    },
+    {
+      "id": 12867,
+      "performanceId": 1136,
+      "category": "Source Material",
+      "credit": "Based on C-R-E-P-U-S-C-U-L-E, an original play by",
+      "personIds": [],
+      "organizationIds": [
+        1329
+      ],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12868,
+      "performanceId": 1136,
+      "category": "Production History",
+      "credit": "Originally Directed on Broadway by",
+      "personIds": [
+        1160
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12869,
+      "performanceId": 1136,
+      "category": "Production History",
+      "credit": "Original Broadway Production Presented by",
+      "personIds": [
+        10143,
+        10010,
+        10144,
+        10145
+      ],
+      "organizationIds": [
+        64,
+        210
+      ],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12870,
+      "performanceId": 1136,
+      "category": "Production History",
+      "credit": "Original workshop co-directed by",
+      "personIds": [
+        19865,
+        19723
+      ],
+      "organizationIds": [
+        64
+      ],
+      "sourceRef": 1354,
+      "note": "Barrington Stage Company workshop credit printed in current program."
+    },
+    {
+      "id": 12871,
+      "performanceId": 1136,
+      "category": "Production Vendor",
+      "credit": "Scenery",
+      "personIds": [],
+      "organizationIds": [
+        200
+      ],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12872,
+      "performanceId": 1136,
+      "category": "Production Vendor",
+      "credit": "Lighting",
+      "personIds": [],
+      "organizationIds": [
+        533
+      ],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12873,
+      "performanceId": 1136,
+      "category": "Production Vendor",
+      "credit": "Sound",
+      "personIds": [],
+      "organizationIds": [
+        912
+      ],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12874,
+      "performanceId": 1136,
+      "category": "Production Vendor",
+      "credit": "Props Fabrication",
+      "personIds": [
+        19866,
+        19867,
+        19868,
+        19869
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354
+    },
+    {
+      "id": 12875,
+      "performanceId": 1136,
+      "category": "Production Vendor",
+      "credit": "Rehearsal Studios",
+      "personIds": [],
+      "organizationIds": [
+        1328
+      ],
+      "sourceRef": 1354
     }
   ],
   "orchestraCredits": [
@@ -195972,6 +196084,61 @@
       ],
       "organizationIds": [],
       "sourceRef": 1353
+    },
+    {
+      "id": 4916,
+      "performanceId": 1136,
+      "chair": "Conductor/Keyboard",
+      "personIds": [
+        8882
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "note": "Performance-specific lobby board confirms Elizabeth Doran conducted."
+    },
+    {
+      "id": 4917,
+      "performanceId": 1136,
+      "chair": "Associate Conductor/Keyboard 2",
+      "personIds": [
+        6885
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "note": "Printed current program roster; not independently asserted as a performance-specific substitution record."
+    },
+    {
+      "id": 4918,
+      "performanceId": 1136,
+      "chair": "Reeds",
+      "personIds": [
+        19859
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "note": "Printed current program roster; not independently asserted as a performance-specific substitution record."
+    },
+    {
+      "id": 4919,
+      "performanceId": 1136,
+      "chair": "Cello",
+      "personIds": [
+        19860
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "note": "Printed current program roster; not independently asserted as a performance-specific substitution record."
+    },
+    {
+      "id": 4920,
+      "performanceId": 1136,
+      "chair": "Drums/Percussion",
+      "personIds": [
+        18612
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "note": "Printed current program roster; not independently asserted as a performance-specific substitution record."
     }
   ],
   "musicStaff": [
@@ -204719,6 +204886,56 @@
       "organizationIds": [],
       "sourceRef": 1319,
       "category": "Music Staff"
+    },
+    {
+      "id": 796,
+      "performanceId": 1136,
+      "credit": "Music Contractor",
+      "personIds": [
+        9842
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Music Staff"
+    },
+    {
+      "id": 797,
+      "performanceId": 1136,
+      "credit": "Music Copying",
+      "personIds": [
+        10177,
+        17010
+      ],
+      "organizationIds": [
+        13
+      ],
+      "sourceRef": 1354,
+      "category": "Music Staff"
+    },
+    {
+      "id": 798,
+      "performanceId": 1136,
+      "credit": "Additional Work",
+      "personIds": [
+        12380
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Music Staff"
+    },
+    {
+      "id": 799,
+      "performanceId": 1136,
+      "credit": "Keyboard Programming",
+      "personIds": [
+        9838,
+        19861
+      ],
+      "organizationIds": [
+        53
+      ],
+      "sourceRef": 1354,
+      "category": "Music Staff"
     }
   ],
   "marketingAndPress": [
@@ -212380,6 +212597,35 @@
       ],
       "sourceRef": 1319,
       "category": "Major Production Credits"
+    },
+    {
+      "id": 612,
+      "performanceId": 1136,
+      "credit": "Press Representative",
+      "personIds": [
+        12461,
+        12115,
+        12464,
+        12462,
+        12463,
+        12465
+      ],
+      "organizationIds": [
+        120
+      ],
+      "sourceRef": 1354,
+      "category": "Press"
+    },
+    {
+      "id": 613,
+      "performanceId": 1136,
+      "credit": "Advertising & Marketing",
+      "personIds": [],
+      "organizationIds": [
+        17
+      ],
+      "sourceRef": 1354,
+      "category": "Advertising & Marketing"
     }
   ],
   "ticketingRevenue": [
@@ -213050,6 +213296,20 @@
       "organizationIds": [],
       "sourceRef": 1319,
       "category": "Ticketing"
+    },
+    {
+      "id": 59,
+      "performanceId": 1136,
+      "credit": "Ticketing & Revenue Strategy",
+      "personIds": [
+        19858,
+        19745
+      ],
+      "organizationIds": [
+        227
+      ],
+      "sourceRef": 1354,
+      "category": "Ticketing & Revenue Strategy"
     }
   ],
   "danceCaptains": [
@@ -233214,6 +233474,72 @@
       "organizationIds": [],
       "sourceRef": 1319,
       "category": "Music Staff"
+    },
+    {
+      "id": 1597,
+      "performanceId": 1136,
+      "credit": "Associate Director",
+      "personIds": [
+        19828
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
+    },
+    {
+      "id": 1598,
+      "performanceId": 1136,
+      "credit": "Associate Choreographer",
+      "personIds": [
+        11242
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
+    },
+    {
+      "id": 1599,
+      "performanceId": 1136,
+      "credit": "Associate Scenic Designer",
+      "personIds": [
+        19832
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
+    },
+    {
+      "id": 1600,
+      "performanceId": 1136,
+      "credit": "Associate Costume Designer",
+      "personIds": [
+        19833
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
+    },
+    {
+      "id": 1601,
+      "performanceId": 1136,
+      "credit": "Associate Lighting Designer",
+      "personIds": [
+        19834
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
+    },
+    {
+      "id": 1602,
+      "performanceId": 1136,
+      "credit": "Associate Sound Designer",
+      "personIds": [
+        19835
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Associate Creative Team"
     }
   ],
   "musicTechnology": [

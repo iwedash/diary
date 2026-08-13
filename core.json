@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_195_FULL_UPLOAD.zip",
-    "generated": "2026-08-11T23:05:00-04:00",
-    "rowCount": 1133,
-    "performanceCount": 1133,
-    "peopleCount": 19284,
+    "sourceFile": "Cuebook_Build_196_FULL_UPLOAD.zip",
+    "generated": "2026-08-13T12:01:00-04:00",
+    "rowCount": 1134,
+    "performanceCount": 1134,
+    "peopleCount": 19329,
     "showCount": 500,
     "venueCount": 189,
     "roleCount": 5906,
-    "appearanceCount": 18687,
-    "creativeCreditCount": 16861,
-    "notesCount": 458,
-    "updated": "2026-08-11",
-    "notes": "Implemented queued Heathers temporary-replacement/grid normalization and added & Juliet — August 11, 2026 with actual ATP cast, Aaron Byrnes companion, and performance-specific band.",
-    "updatedBy": "OpenAI / Isaac approved queue implementation",
-    "updatedAt": "2026-08-11T23:05:00-04:00",
+    "appearanceCount": 18696,
+    "creativeCreditCount": 16882,
+    "notesCount": 468,
+    "updated": "2026-08-13",
+    "notes": "Added The 25th Annual Putnam County Spelling Bee — August 12, 2026 from Isaac-supplied current program/lobby board; corrected & Juliet August 11 seat/ticket details.",
+    "updatedBy": "OpenAI / Isaac direct implementation",
+    "updatedAt": "2026-08-13T09:50:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "theatre-dashboard-v15-VERIFIED.zip",
-    "version": "v13.21.0",
-    "build": "json-b196",
-    "buildTime": "2026-08-11T23:05:00-04:00",
-    "buildDate": "2026-08-11",
+    "version": "v13.23.0",
+    "build": "json-b198",
+    "buildTime": "2026-08-13T09:50:00-04:00",
+    "buildDate": "2026-08-13",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "13.21.0",
-    "lastUpdated": "2026-08-11",
+    "buildVersion": "13.22.0",
+    "lastUpdated": "2026-08-13",
     "normalizationMerged": true,
     "roleMergeCount": 51,
     "principalRulesUpdated": true,
@@ -67,7 +67,7 @@
       "sourceRef": 0,
       "verifiedField": "conductorVerified"
     },
-    "lastUpdatedNote": "Build 196 implements the Heathers cleanup queue and adds & Juliet on August 11, 2026 from Isaac-supplied ATP cast and actual band.",
+    "lastUpdatedNote": "Build 197 adds Spelling Bee on August 12, 2026 and updates & Juliet on August 11, 2026 to F 3 / Comp.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -2011,6 +2011,56 @@
         ]
       },
       "summary": "Executed the complete post-Build-195 queue and added the August 11 & Juliet attendance; seat/ticket fields left blank."
+    },
+    "build197QueueImplementation": {
+      "sourceBase": "json-b196",
+      "dataChanged": true,
+      "uiChanged": false,
+      "sourceRefs": [
+        1354,
+        1355
+      ],
+      "newPerformance": "The 25th Annual Putnam County Spelling Bee — 2026-08-12 — Off-Broadway",
+      "performanceId": 1136,
+      "julietCorrection": "& Juliet — 2026-08-11 — F 3; Comp; Aaron Byrnes",
+      "spellingBeeActualChange": "Fennell Hogan understudy Leaf replaces printed regular Justin Cooley; Nina White current Olive; Elizabeth Doran conducted.",
+      "heldSpellings": [
+        "Cecilia Snow vs Cecelia Snow",
+        "STEWERT PRODUCTIONS, LLC vs Stewart Productions, LLC"
+      ],
+      "summary": "Implemented all source-clear requested changes; two spelling-normalization questions remain explicitly held rather than guessed."
+    },
+    "build198QueueImplementation": {
+      "sourceBase": "json-b197",
+      "dataChanged": true,
+      "uiChanged": false,
+      "sourceRef": 1356,
+      "performancesTouched": [
+        922,
+        940,
+        966,
+        1022,
+        1136
+      ],
+      "canonicalNameCorrections": [
+        {
+          "personId": 9072,
+          "from": "Cecelia Snow",
+          "to": "Cecilia Snow",
+          "aliasPreserved": "Cecelia Snow"
+        },
+        {
+          "personMerge": {
+            "from": 16105,
+            "to": 12459
+          },
+          "canonical": "Bethany Weinstein Stewart",
+          "aliasPreserved": "Bethany Weinstein Stewert"
+        }
+      ],
+      "organizationNormalization": "Stewart Productions, LLC retained as canonical; printed STEWERT treated as source typo.",
+      "producerPropagation": "Current New World Stages Spelling Bee title-page producer roster applied to all five New World Stages attendance entries.",
+      "summary": "Resolved Build 197 spelling holds and propagated only the explicitly approved stable producer roster across the same New World Stages Spelling Bee production."
     }
   },
   "people": {
@@ -11234,7 +11284,8 @@
       "sortName": "James Lapine",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "1161": {
@@ -72664,7 +72715,9 @@
       "name": "Elizabeth Doran",
       "sortName": "Elizabeth Doran",
       "kinds": [
-        "creative"
+        "creative",
+        "musician",
+        "orchestra"
       ]
     },
     "8883": {
@@ -74144,11 +74197,23 @@
     },
     "9072": {
       "id": 9072,
-      "name": "Cecelia Snow",
-      "sortName": "Cecelia Snow",
+      "name": "Cecilia Snow",
+      "sortName": "Cecilia Snow",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Cecelia Snow"
+      ],
+      "aliasDetails": [
+        {
+          "alias": "Cecelia Snow",
+          "visibility": "public",
+          "note": "Prior Cuebook/source spelling; canonicalized to Cecilia Snow by Isaac on 2026-08-13.",
+          "sourceId": 1356
+        }
+      ],
+      "displayName": "Cecilia Snow"
     },
     "9073": {
       "id": 9073,
@@ -80045,7 +80110,8 @@
       "kinds": [
         "creative",
         "production",
-        "staff"
+        "staff",
+        "producer"
       ],
       "sortName": "Aaron Glick"
     },
@@ -83146,7 +83212,8 @@
       "kinds": [
         "creative",
         "staff",
-        "production"
+        "production",
+        "producer"
       ]
     },
     "10145": {
@@ -83156,7 +83223,8 @@
       "kinds": [
         "creative",
         "production",
-        "staff"
+        "staff",
+        "producer"
       ]
     },
     "10146": {
@@ -85678,7 +85746,8 @@
       "sortName": "Joseph Haggerty",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "10440": {
@@ -86237,7 +86306,8 @@
       "sortName": "Katie Curran",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "10506": {
@@ -86492,7 +86562,8 @@
         "creative",
         "musician",
         "orchestra",
-        "staff"
+        "staff",
+        "production"
       ]
     },
     "10537": {
@@ -86502,7 +86573,9 @@
       "kinds": [
         "creative",
         "musician",
-        "orchestra"
+        "orchestra",
+        "production",
+        "staff"
       ]
     },
     "10538": {
@@ -88087,7 +88160,8 @@
         "creative",
         "musician",
         "orchestra",
-        "staff"
+        "staff",
+        "production"
       ]
     },
     "10722": {
@@ -88749,7 +88823,9 @@
       "name": "Brenden Friedel",
       "sortName": "Brenden Friedel",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "10799": {
@@ -90598,7 +90674,9 @@
       "id": 11008,
       "name": "Rachel Sussman",
       "kinds": [
-        "creative"
+        "creative",
+        "producer",
+        "production"
       ],
       "sortName": "Rachel Sussman"
     },
@@ -92752,7 +92830,8 @@
       "sortName": "Niani Feelings",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "11243": {
@@ -92898,7 +92977,8 @@
       "sortName": "Geoff Josselson",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ],
       "aliases": [
         "Geoff Josselson, C.S.A."
@@ -95690,7 +95770,8 @@
         "creative",
         "production",
         "staff",
-        "general management"
+        "general management",
+        "producer"
       ]
     },
     "11566": {
@@ -99429,7 +99510,8 @@
       "kinds": [
         "creative",
         "person",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "11974": {
@@ -103122,7 +103204,9 @@
       "kinds": [
         "creative",
         "orchestra",
-        "musician"
+        "musician",
+        "production",
+        "staff"
       ],
       "sortName": "Timothy Hanson"
     },
@@ -103829,9 +103913,22 @@
       "id": 12459,
       "name": "Bethany Weinstein Stewart",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ],
-      "sortName": "Bethany Weinstein Stewart"
+      "sortName": "Bethany Weinstein Stewart",
+      "aliases": [
+        "Bethany Weinstein Stewert"
+      ],
+      "aliasDetails": [
+        {
+          "alias": "Bethany Weinstein Stewert",
+          "visibility": "public",
+          "note": "Printed/source typo normalized to Bethany Weinstein Stewart.",
+          "sourceId": 1356
+        }
+      ]
     },
     "12460": {
       "id": 12460,
@@ -103858,7 +103955,8 @@
       "kinds": [
         "creative",
         "person",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Caitlin Brightman"
     },
@@ -103868,7 +103966,8 @@
       "kinds": [
         "creative",
         "person",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Danaley Silan"
     },
@@ -103878,7 +103977,8 @@
       "kinds": [
         "creative",
         "person",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Shea McGovern"
     },
@@ -103888,7 +103988,8 @@
       "kinds": [
         "creative",
         "person",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Elizabeth Erb"
     },
@@ -104342,7 +104443,8 @@
       "name": "Jenelle Russell",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Jenelle Russell"
     },
@@ -104506,7 +104608,8 @@
       "name": "Matthew Krawiec",
       "kinds": [
         "creative",
-        "staff"
+        "staff",
+        "production"
       ],
       "sortName": "Matthew Krawiec"
     },
@@ -104524,7 +104627,9 @@
       "id": 12538,
       "name": "Michael Manasseh",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ],
       "sortName": "Michael Manasseh"
     },
@@ -104571,7 +104676,8 @@
       "name": "Emmy Steele",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Emmy Steele"
     },
@@ -104580,7 +104686,8 @@
       "name": "Abi Steinberg",
       "kinds": [
         "creative",
-        "staff"
+        "staff",
+        "production"
       ],
       "sortName": "Abi Steinberg"
     },
@@ -104589,7 +104696,8 @@
       "name": "Owen Towns",
       "kinds": [
         "creative",
-        "staff"
+        "staff",
+        "production"
       ],
       "sortName": "Owen Towns"
     },
@@ -106986,7 +107094,8 @@
       "kinds": [
         "creative",
         "production",
-        "staff"
+        "staff",
+        "producer"
       ],
       "sortName": "Debra Martin Chase"
     },
@@ -124104,7 +124213,8 @@
       "kinds": [
         "person",
         "production",
-        "creative"
+        "creative",
+        "staff"
       ]
     },
     "14766": {
@@ -124114,7 +124224,8 @@
       "kinds": [
         "person",
         "production",
-        "creative"
+        "creative",
+        "staff"
       ]
     },
     "14767": {
@@ -132835,7 +132946,8 @@
       "sortName": "Felicia Rudolph",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "15764": {
@@ -134936,7 +135048,8 @@
       "kinds": [
         "production",
         "staff",
-        "creative"
+        "creative",
+        "producer"
       ]
     },
     "15992": {
@@ -135956,16 +136069,6 @@
       "kinds": [
         "creative",
         "staff"
-      ]
-    },
-    "16105": {
-      "id": 16105,
-      "name": "Bethany Weinstein Stewert",
-      "sortName": "Bethany Weinstein Stewert",
-      "kinds": [
-        "production",
-        "staff",
-        "creative"
       ]
     },
     "16106": {
@@ -144020,7 +144123,9 @@
       "kinds": [
         "creative",
         "musician",
-        "orchestra"
+        "orchestra",
+        "production",
+        "staff"
       ]
     },
     "17011": {
@@ -158250,7 +158355,8 @@
       "sortName": "João Branco Chaves",
       "kinds": [
         "staff",
-        "creative"
+        "creative",
+        "production"
       ]
     },
     "18562": {
@@ -158322,7 +158428,8 @@
       "sortName": "Spencer Stern",
       "kinds": [
         "staff",
-        "creative"
+        "creative",
+        "production"
       ]
     },
     "18570": {
@@ -158668,7 +158775,8 @@
       "sortName": "Mike Dobson",
       "kinds": [
         "creative",
-        "musician"
+        "musician",
+        "orchestra"
       ]
     },
     "18613": {
@@ -165355,7 +165463,9 @@
       "name": "Samantha Shoffner",
       "sortName": "Samantha Shoffner",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "19373": {
@@ -165696,7 +165806,8 @@
       "sortName": "Ryan Lopresti",
       "kinds": [
         "production",
-        "staff"
+        "staff",
+        "creative"
       ]
     },
     "19411": {
@@ -168393,7 +168504,8 @@
       "sortName": "Rebecca Feldman",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "19724": {
@@ -169332,6 +169444,443 @@
       "kinds": [
         "musician",
         "orchestra"
+      ]
+    },
+    "19825": {
+      "id": 19825,
+      "name": "Fennell Hogan",
+      "sortName": "Fennell Hogan",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19826": {
+      "id": 19826,
+      "name": "Jon Cryer",
+      "sortName": "Jon Cryer",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19827": {
+      "id": 19827,
+      "name": "Laura Marano",
+      "sortName": "Laura Marano",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19828": {
+      "id": 19828,
+      "name": "NJ Agwuna",
+      "sortName": "NJ Agwuna",
+      "kinds": [
+        "creative",
+        "production"
+      ]
+    },
+    "19829": {
+      "id": 19829,
+      "name": "Ryan Solomon",
+      "sortName": "Ryan Solomon",
+      "kinds": [
+        "producer",
+        "production",
+        "creative"
+      ]
+    },
+    "19830": {
+      "id": 19830,
+      "name": "Tiffany Chalothorn",
+      "sortName": "Tiffany Chalothorn",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19831": {
+      "id": 19831,
+      "name": "Chris Steckel",
+      "sortName": "Chris Steckel",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19832": {
+      "id": 19832,
+      "name": "Marcelo Martínez García",
+      "sortName": "Marcelo Martínez García",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19833": {
+      "id": 19833,
+      "name": "Maeve Rose",
+      "sortName": "Maeve Rose",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19834": {
+      "id": 19834,
+      "name": "David Sexton",
+      "sortName": "David Sexton",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19835": {
+      "id": 19835,
+      "name": "Carl “C.J.” Whitaker",
+      "sortName": "Carl “C.J.” Whitaker",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19836": {
+      "id": 19836,
+      "name": "Heather Hardin",
+      "sortName": "Heather Hardin",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19837": {
+      "id": 19837,
+      "name": "Mia Wilson",
+      "sortName": "Mia Wilson",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19838": {
+      "id": 19838,
+      "name": "Jake Heinrichs",
+      "sortName": "Jake Heinrichs",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19839": {
+      "id": 19839,
+      "name": "Mikelle Kelly",
+      "sortName": "Mikelle Kelly",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19840": {
+      "id": 19840,
+      "name": "Jarod Castellblanco",
+      "sortName": "Jarod Castellblanco",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19841": {
+      "id": 19841,
+      "name": "Harrison Freni",
+      "sortName": "Harrison Freni",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19842": {
+      "id": 19842,
+      "name": "Jessica Dunn",
+      "sortName": "Jessica Dunn",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19843": {
+      "id": 19843,
+      "name": "Abigail Hall",
+      "sortName": "Abigail Hall",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19844": {
+      "id": 19844,
+      "name": "Corbin Lenard",
+      "sortName": "Corbin Lenard",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19845": {
+      "id": 19845,
+      "name": "Alyssa Yang",
+      "sortName": "Alyssa Yang",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19846": {
+      "id": 19846,
+      "name": "Emily Harmse",
+      "sortName": "Emily Harmse",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19847": {
+      "id": 19847,
+      "name": "Kristi D’Arrigo",
+      "sortName": "Kristi D’Arrigo",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19848": {
+      "id": 19848,
+      "name": "R. Dennis Steele",
+      "sortName": "R. Dennis Steele",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19849": {
+      "id": 19849,
+      "name": "Ally Blueweiss",
+      "sortName": "Ally Blueweiss",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19850": {
+      "id": 19850,
+      "name": "Michael Altboum",
+      "sortName": "Michael Altboum",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19851": {
+      "id": 19851,
+      "name": "Maggie Sendlenski",
+      "sortName": "Maggie Sendlenski",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19852": {
+      "id": 19852,
+      "name": "Kymberli Tahiro Smith",
+      "sortName": "Kymberli Tahiro Smith",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19853": {
+      "id": 19853,
+      "name": "Rebecca La Fazio",
+      "sortName": "Rebecca La Fazio",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19854": {
+      "id": 19854,
+      "name": "Gabriela Veciano",
+      "sortName": "Gabriela Veciano",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19855": {
+      "id": 19855,
+      "name": "Alec Richards",
+      "sortName": "Alec Richards",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19856": {
+      "id": 19856,
+      "name": "Michael Ronca",
+      "sortName": "Michael Ronca",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19857": {
+      "id": 19857,
+      "name": "Zach De Brino",
+      "sortName": "Zach De Brino",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19858": {
+      "id": 19858,
+      "name": "Greg Arst",
+      "sortName": "Greg Arst",
+      "kinds": [
+        "production",
+        "staff"
+      ]
+    },
+    "19859": {
+      "id": 19859,
+      "name": "Dave Mann",
+      "sortName": "Dave Mann",
+      "kinds": [
+        "musician",
+        "orchestra",
+        "creative"
+      ]
+    },
+    "19860": {
+      "id": 19860,
+      "name": "Sasha Ono",
+      "sortName": "Sasha Ono",
+      "kinds": [
+        "musician",
+        "orchestra",
+        "creative"
+      ]
+    },
+    "19861": {
+      "id": 19861,
+      "name": "Sam Strobin",
+      "sortName": "Sam Strobin",
+      "kinds": [
+        "creative",
+        "musician",
+        "production",
+        "staff"
+      ]
+    },
+    "19862": {
+      "id": 19862,
+      "name": "Jahbril Cook",
+      "sortName": "Jahbril Cook",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19863": {
+      "id": 19863,
+      "name": "Vanessa Magula",
+      "sortName": "Vanessa Magula",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19864": {
+      "id": 19864,
+      "name": "Emily N. Rudolph",
+      "sortName": "Emily N. Rudolph",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "19865": {
+      "id": 19865,
+      "name": "Michael Barakiva",
+      "sortName": "Michael Barakiva",
+      "kinds": [
+        "creative",
+        "production",
+        "staff"
+      ]
+    },
+    "19866": {
+      "id": 19866,
+      "name": "Rudy Guerrero",
+      "sortName": "Rudy Guerrero",
+      "kinds": [
+        "creative",
+        "production",
+        "staff"
+      ]
+    },
+    "19867": {
+      "id": 19867,
+      "name": "Samantha Tutasi",
+      "sortName": "Samantha Tutasi",
+      "kinds": [
+        "creative",
+        "production",
+        "staff"
+      ]
+    },
+    "19868": {
+      "id": 19868,
+      "name": "Rachel Terry",
+      "sortName": "Rachel Terry",
+      "kinds": [
+        "creative",
+        "production",
+        "staff"
+      ]
+    },
+    "19869": {
+      "id": 19869,
+      "name": "Mike Bennett",
+      "sortName": "Mike Bennett",
+      "kinds": [
+        "creative",
+        "production",
+        "staff"
       ]
     }
   },
@@ -218323,7 +218872,7 @@
       "time": "Evening",
       "startTime": "7:00 PM",
       "curtainTime": "7:00 PM",
-      "notes": "Tuesday 7:00 PM performance. Attended with Aaron Byrnes. Zalah Vallien performed as understudy Juliet; Daniel J. Maldonado performed as understudy Romeo; Alaina Vi Maderal was swing on for Elsa Keefe's Portia/Benvolio track and appeared as Gwynne/Portia/Benvolio; TJ Tapp was swing on for Zalah Vallien's Rosaline track and appeared as Margaret/Rosaline. Performance-specific band supplied by Isaac: Adam Laird conducted; Jessica Park and Caleb Burhans were on the violin chairs. Adam Laird is the production's regular Associate Conductor/Keyboard covering the main conductor chair rather than an outside pit sub.",
+      "notes": "Tuesday 7:00 PM performance. Attended with Aaron Byrnes. Zalah Vallien performed as understudy Juliet; Daniel J. Maldonado performed as understudy Romeo; Alaina Vi Maderal was swing on for Elsa Keefe's Portia/Benvolio track and appeared as Gwynne/Portia/Benvolio; TJ Tapp was swing on for Zalah Vallien's Rosaline track and appeared as Margaret/Rosaline. Performance-specific band supplied by Isaac: Adam Laird conducted; Jessica Park and Caleb Burhans were on the violin chairs. Adam Laird is the production's regular Associate Conductor/Keyboard covering the main conductor chair rather than an outside pit sub. Row F, Seat 3; comp.",
       "sourceRef": 1353,
       "conductor": "Adam Laird",
       "conductorVerified": true,
@@ -218354,7 +218903,10 @@
             "person": "Caleb Burhans",
             "status": "performance-specific substitute"
           }
-        ]
+        ],
+        "seatNote": "F 3",
+        "ticketNote": "Comp",
+        "ticketCorrectionSourceRef": 1355
       },
       "programArchiveText": {
         "performanceId": 1135,
@@ -218364,7 +218916,88 @@
           "cast": "Actual Performing Cast supplied by Isaac from Playbill At This Performance. Zalah Vallien on as Juliet; Daniel J. Maldonado on as Romeo; Alaina Vi Maderal covering Elsa Keefe’s Portia/Benvolio track; TJ Tapp covering Zalah Vallien’s Rosaline track.",
           "orchestra": "Actual nine-person band supplied by Isaac. Adam Laird conducted; Haley Bennett Keys 2; Brian Holtz bass; Mike Bono (source: Michael Bono) guitar; Sam Merrick drums; Jessica Park violin; Caleb Burhans violin 2; Ina Paris viola; Michael Haas cello.",
           "production": "Stable structured production credits are copied from the recent July 21, 2026 Broadway program snapshot; no new production-staff facts inferred from the ATP cast text.",
-          "attendance": "Attended with Aaron Byrnes. 7:00 PM. Seat and ticket details not supplied."
+          "attendance": "Attended with Aaron Byrnes. Tuesday 7:00 PM. Row F, Seat 3; comp."
+        }
+      },
+      "seatLocation": {
+        "row": "F",
+        "seat": "3",
+        "display": "F 3"
+      },
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ]
+    },
+    "1136": {
+      "id": 1136,
+      "showId": 25,
+      "date": "2026-08-12",
+      "venueId": 36,
+      "type": "Off-Broadway",
+      "time": "Evening",
+      "notes": "Attended with Brendan Padgett. Row E, Seat 114; $49 Rush. Fennell Hogan performed as understudy Leaf Coneybear. Elizabeth Doran conducted.",
+      "sourceRef": 1354,
+      "seatLocation": {
+        "row": "E",
+        "seat": "114",
+        "display": "E 114"
+      },
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Rush Seat"
+      ],
+      "tags": [
+        "Rush Seat"
+      ],
+      "conductor": "Elizabeth Doran",
+      "conductorVerified": true,
+      "performanceMetadata": {
+        "productionLabel": "Off-Broadway · New World Stages",
+        "productionKey": "spelling-bee-off-broadway-new-world-stages-2025-2026",
+        "companion": "Brendan Padgett",
+        "companions": [
+          "Brendan Padgett"
+        ],
+        "attendanceSource": "Isaac's direct report",
+        "attendanceSourceRef": 1354,
+        "actualCastSource": "Printed cast page plus performance-specific lobby board supplied by Isaac",
+        "programSource": "Current title/cast/understudy/musician/staff pages supplied by Isaac",
+        "runtime": "Approximately 1 hour 45 minutes",
+        "canonicalNameResolutions": [
+          "Cecilia Snow canonical; Cecelia Snow preserved as alias.",
+          "Stewart Productions, LLC canonical; printed STEWERT treated as typo/source variant.",
+          "Bethany Weinstein Stewart canonical; Stewert duplicate merged."
+        ],
+        "producerRosterAppliedAcrossNWSAttendances": [
+          922,
+          940,
+          966,
+          1022,
+          1136
+        ],
+        "canonicalResolutionSourceRef": 1356
+      },
+      "programArchiveText": {
+        "performanceId": 1136,
+        "sourceRef": 1356,
+        "dateCaptured": "2026-08-12",
+        "sections": {
+          "attendance": "Evening; Brendan Padgett; Row E, Seat 114; $49 Rush.",
+          "cast": "Current printed company used as the base. Fennell Hogan replaced printed regular Justin Cooley as Leaf Coneybear and is marked Understudy. Nina White is the current printed Olive Ostrovsky.",
+          "covers": "Current printed understudy assignments captured separately from actual appearances. Fennell Hogan is additionally confirmed by Isaac as an understudy for Leaf. Cecilia Snow is canonical and is linked to the printed Rona Lisa Peretti, Logainne Schwartzandgrubenierre, and Olive Ostrovsky cover assignments.",
+          "orchestra": "Printed current musicians captured as program roster. Lobby board specifically confirms Elizabeth Doran conducted this performance.",
+          "production": "Current title-page creatives/producers and show-specific management, staff, marketing/press, legal, ticketing, business support and vendors captured from supplied pages. Stewart Productions, LLC is canonical for the printed STEWERT variant; Bethany Weinstein Stewart is canonical. New World Stages building staff and Special Thanks excluded.",
+          "runtime": "Approximately 1 hour and 45 minutes."
         }
       }
     }
@@ -218793,7 +219426,8 @@
       "name": "Randy Cohen Keyboards LLC",
       "sortName": "Randy Cohen Keyboards LLC",
       "kinds": [
-        "organization"
+        "organization",
+        "music technology"
       ]
     },
     "54": {
@@ -219394,7 +220028,8 @@
       "kind": "organization",
       "sortName": "Vivacity Media Group",
       "kinds": [
-        "organization"
+        "organization",
+        "press"
       ]
     },
     "121": {
@@ -220000,7 +220635,8 @@
       "name": "WithumSmith+Brown",
       "sortName": "WithumSmith+Brown",
       "kinds": [
-        "organization"
+        "organization",
+        "accounting"
       ]
     },
     "196": {
@@ -220040,7 +220676,8 @@
       "name": "Tom Carroll Scenery",
       "sortName": "Tom Carroll Scenery",
       "kinds": [
-        "organization"
+        "organization",
+        "scenery"
       ]
     },
     "201": {
@@ -220256,7 +220893,8 @@
       "name": "Tanna Inc.",
       "sortName": "Tanna Inc.",
       "kinds": [
-        "organization"
+        "organization",
+        "ticketing"
       ]
     },
     "228": {
@@ -220602,7 +221240,8 @@
       "name": "Klaris",
       "sortName": "Klaris",
       "kinds": [
-        "organization"
+        "organization",
+        "legal"
       ]
     },
     "270": {
@@ -221157,7 +221796,8 @@
       "name": "Checks & Balances",
       "sortName": "Checks & Balances",
       "kinds": [
-        "organization"
+        "organization",
+        "payroll"
       ]
     },
     "339": {
@@ -222722,7 +223362,8 @@
       "name": "Christie Lites",
       "sortName": "Christie Lites",
       "kinds": [
-        "organization"
+        "organization",
+        "lighting"
       ]
     },
     "534": {
@@ -224486,7 +225127,8 @@
       "name": "MVMT Physical Therapy",
       "sortName": "MVMT Physical Therapy",
       "kinds": [
-        "organization"
+        "organization",
+        "physical therapy"
       ]
     },
     "769": {
@@ -225519,7 +226161,8 @@
       "name": "PRG Audio",
       "sortName": "PRG Audio",
       "kinds": [
-        "organization"
+        "organization",
+        "sound"
       ]
     },
     "913": {
@@ -225743,7 +226386,8 @@
       "name": "Geoff Josselson Casting",
       "sortName": "Geoff Josselson Casting",
       "kinds": [
-        "organization"
+        "organization",
+        "casting"
       ]
     },
     "941": {
@@ -226714,7 +227358,8 @@
       "name": "Araca Merchandise",
       "sortName": "Araca Merchandise",
       "kinds": [
-        "organization"
+        "organization",
+        "merchandising"
       ]
     },
     "1062": {
@@ -228913,6 +229558,42 @@
       "kinds": [
         "organization"
       ]
+    },
+    "1326": {
+      "id": 1326,
+      "name": "Customers Banks",
+      "sortName": "Customers Banks",
+      "kinds": [
+        "organization",
+        "banking"
+      ]
+    },
+    "1327": {
+      "id": 1327,
+      "name": "Albert G. Ruben, A Relation Company",
+      "sortName": "Albert G. Ruben, A Relation Company",
+      "kinds": [
+        "organization",
+        "insurance"
+      ]
+    },
+    "1328": {
+      "id": 1328,
+      "name": "Gibney Dance Studios",
+      "sortName": "Gibney Dance Studios",
+      "kinds": [
+        "organization",
+        "rehearsal"
+      ]
+    },
+    "1329": {
+      "id": 1329,
+      "name": "The Farm",
+      "sortName": "The Farm",
+      "kinds": [
+        "organization",
+        "source material"
+      ]
     }
   },
   "entitySchema": {
@@ -228940,7 +229621,8 @@
     "people": {
       "4606": "person:6717",
       "15731": "person:18530",
-      "6784": "person:7794"
+      "6784": "person:7794",
+      "16105": "person:12459"
     },
     "organizations": {},
     "personConvention": "person:<legacyPeopleId>",

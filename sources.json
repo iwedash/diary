@@ -3530,6 +3530,46 @@
       "bandSource": "Performance-specific BAND lineup supplied directly by Isaac.",
       "pitSubReview": "Compared with the current Broadway regular orchestra roster already preserved in Cuebook and current IBDB production personnel. Adam Laird is the production Associate Conductor/Keyboard covering the main conductor chair; Jessica Park and Caleb Burhans are performance-specific violin substitutions. Haley Bennett, Brian Holtz, Mike Bono, Sam Merrick, Ina Paris, and Michael Haas are regular production musicians.",
       "note": "No seat, price, or ticket type inferred. Production/program credits copied only from the recent 2026-07-21 Broadway program snapshot where unchanged; actual cast and band are performance-specific to 2026-08-11."
+    },
+    {
+      "title": "The 25th Annual Putnam County Spelling Bee — August 12, 2026 attendance and current program",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-12",
+      "attendance": "Evening; Row E, Seat 114; $49 USD; Rush; attended with Brendan Padgett.",
+      "actualCastSource": "Current printed cast page plus New World Stages lobby board supplied by Isaac. Lobby board confirms Fennell Hogan on for Leaf Coneybear and Elizabeth Doran conducting. Isaac directly identified Fennell Hogan as an understudy.",
+      "programSource": "Current title, cast/understudy/musician, and show-staff pages supplied by Isaac.",
+      "files": [
+        "0B1404E0-D035-4836-B284-AFB5D2A14F19.jpeg",
+        "0FF9CA0B-2DEE-4D74-996F-6C614A0C888A.jpeg",
+        "504A5B96-07EF-4A78-B7BC-F4E97131E56D.jpeg",
+        "82E474FA-9138-40EB-9B8C-9FD94F5F8588.jpeg"
+      ],
+      "notes": "Justin Cooley is not counted as seen because the performance board names Fennell Hogan as Leaf. Nina White is the printed/current Olive. Special Thanks and New World Stages building-only staff were excluded. Two spelling conflicts were intentionally held: printed Cecilia Snow vs existing Cecelia Snow, and printed STEWERT PRODUCTIONS, LLC vs existing Stewart Productions, LLC."
+    },
+    {
+      "title": "& Juliet — August 11, 2026 ticket/seat correction",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-13",
+      "attendanceCorrection": "Row F, Seat 3; Comp; attended with Aaron Byrnes. Existing August 11 cast and band remain unchanged."
+    },
+    {
+      "title": "The 25th Annual Putnam County Spelling Bee — canonical spelling decisions and New World Stages producer propagation",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-13",
+      "decisions": [
+        "Cecilia Snow is the correct canonical spelling; preserve Cecelia Snow as a prior/source alias.",
+        "Stewart Productions, LLC is the correct canonical company spelling; printed STEWERT is treated as a typo/source variant.",
+        "Bethany Weinstein Stewart is the canonical person record; the Stewert duplicate is a typo and may be merged.",
+        "The current New World Stages producer roster may be applied to all New World Stages Spelling Bee attendance entries."
+      ],
+      "appliesToPerformanceIds": [
+        922,
+        940,
+        966,
+        1022,
+        1136
+      ],
+      "programSourceRef": 1354
     }
   ]
 }

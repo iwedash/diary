@@ -30905,7 +30905,7 @@
       "performanceId": 906,
       "credit": "Production Management",
       "personIds": [
-        16105
+        12459
       ],
       "organizationIds": [],
       "sourceRef": 1023,
@@ -58836,6 +58836,607 @@
       "organizationIds": [],
       "sourceRef": 1319,
       "category": "General Management"
+    },
+    {
+      "id": 5060,
+      "performanceId": 1136,
+      "credit": "General Management",
+      "personIds": [
+        11067,
+        11483,
+        9769,
+        9768
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5061,
+      "performanceId": 1136,
+      "credit": "Company Manager",
+      "personIds": [
+        12544
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Company Management"
+    },
+    {
+      "id": 5062,
+      "performanceId": 1136,
+      "credit": "Assistant Company Manager",
+      "personIds": [
+        15996
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Company Management"
+    },
+    {
+      "id": 5063,
+      "performanceId": 1136,
+      "credit": "Production Management",
+      "personIds": [
+        12459,
+        10505
+      ],
+      "organizationIds": [
+        364
+      ],
+      "sourceRef": 1356,
+      "category": "Production Management"
+    },
+    {
+      "id": 5064,
+      "performanceId": 1136,
+      "credit": "Legal",
+      "personIds": [
+        11973,
+        14766,
+        14765
+      ],
+      "organizationIds": [
+        269
+      ],
+      "sourceRef": 1354,
+      "category": "Legal"
+    },
+    {
+      "id": 5065,
+      "performanceId": 1136,
+      "credit": "Casting",
+      "personIds": [
+        11259,
+        15763,
+        19830
+      ],
+      "organizationIds": [
+        940
+      ],
+      "sourceRef": 1354,
+      "category": "Casting"
+    },
+    {
+      "id": 5066,
+      "performanceId": 1136,
+      "credit": "Production Stage Manager",
+      "personIds": [
+        17432
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5067,
+      "performanceId": 1136,
+      "credit": "Stage Manager",
+      "personIds": [
+        19831
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5068,
+      "performanceId": 1136,
+      "credit": "Assistant Director",
+      "personIds": [
+        11242
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5069,
+      "performanceId": 1136,
+      "credit": "Associate Scenic Designer",
+      "personIds": [
+        19832
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5070,
+      "performanceId": 1136,
+      "credit": "Associate Costume Designer",
+      "personIds": [
+        19833
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5071,
+      "performanceId": 1136,
+      "credit": "Associate Lighting Designer",
+      "personIds": [
+        19834
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5072,
+      "performanceId": 1136,
+      "credit": "Associate Sound Designer",
+      "personIds": [
+        19835
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5073,
+      "performanceId": 1136,
+      "credit": "Hair, Wig, Makeup Assistant",
+      "personIds": [
+        19836
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5074,
+      "performanceId": 1136,
+      "credit": "Production Carpenter",
+      "personIds": [
+        19410
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5075,
+      "performanceId": 1136,
+      "credit": "Deck Carpenter/Props",
+      "personIds": [
+        19837
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5076,
+      "performanceId": 1136,
+      "credit": "Production Electrician",
+      "personIds": [
+        19838
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5077,
+      "performanceId": 1136,
+      "credit": "Assistant Production Electrician",
+      "personIds": [
+        19839
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5078,
+      "performanceId": 1136,
+      "credit": "Production Audio",
+      "personIds": [
+        10798,
+        10439
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5079,
+      "performanceId": 1136,
+      "credit": "Production Props Supervisor",
+      "personIds": [
+        19372
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5080,
+      "performanceId": 1136,
+      "credit": "Assistant Production Props Supervisor",
+      "personIds": [
+        19840
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5081,
+      "performanceId": 1136,
+      "credit": "Lighting Programmer",
+      "personIds": [
+        19841
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5082,
+      "performanceId": 1136,
+      "credit": "Spotlight Operator",
+      "personIds": [
+        19842
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5083,
+      "performanceId": 1136,
+      "credit": "Lighting Board Operator",
+      "personIds": [
+        19843
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5084,
+      "performanceId": 1136,
+      "credit": "Sound Mixer/A1",
+      "personIds": [
+        19843
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5085,
+      "performanceId": 1136,
+      "credit": "Deck Sound/A2",
+      "personIds": [
+        19844
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5086,
+      "performanceId": 1136,
+      "credit": "Associate Keyboard Programmers",
+      "personIds": [
+        19845
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5087,
+      "performanceId": 1136,
+      "credit": "Dresser & Hair",
+      "personIds": [
+        10721,
+        10536
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5088,
+      "performanceId": 1136,
+      "credit": "Voiceover",
+      "personIds": [
+        19846
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5089,
+      "performanceId": 1136,
+      "credit": "Wranglers",
+      "personIds": [
+        19847,
+        19848
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5090,
+      "performanceId": 1136,
+      "credit": "Wardrobe, Hair, Makeup",
+      "personIds": [
+        10537
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Wardrobe"
+    },
+    {
+      "id": 5091,
+      "performanceId": 1136,
+      "credit": "Sponsorship Consultant",
+      "personIds": [
+        19849
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Business Support"
+    },
+    {
+      "id": 5092,
+      "performanceId": 1136,
+      "credit": "Culture Strategist",
+      "personIds": [
+        15969
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Business Support"
+    },
+    {
+      "id": 5093,
+      "performanceId": 1136,
+      "credit": "321 Finance Director",
+      "personIds": [
+        10902
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5094,
+      "performanceId": 1136,
+      "credit": "321 Operations Director",
+      "personIds": [
+        15970
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5095,
+      "performanceId": 1136,
+      "credit": "321 Director of Touring",
+      "personIds": [
+        11481
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5096,
+      "performanceId": 1136,
+      "credit": "321 Contracts Administrator",
+      "personIds": [
+        12515
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5097,
+      "performanceId": 1136,
+      "credit": "321 Theatrical Management Staff",
+      "personIds": [
+        19850,
+        18561,
+        11069,
+        12529,
+        12530,
+        12531,
+        12532,
+        12533,
+        11416,
+        12535,
+        12536,
+        12537,
+        12538,
+        12539,
+        12540,
+        12541,
+        11651,
+        11733,
+        12516,
+        19851,
+        19852,
+        12545,
+        18569,
+        12546,
+        12547,
+        12548
+      ],
+      "organizationIds": [
+        3
+      ],
+      "sourceRef": 1354,
+      "category": "General Management"
+    },
+    {
+      "id": 5098,
+      "performanceId": 1136,
+      "credit": "Accountant",
+      "personIds": [
+        11749,
+        14788,
+        14790,
+        14789,
+        14791
+      ],
+      "organizationIds": [
+        195
+      ],
+      "sourceRef": 1354,
+      "category": "Business Services"
+    },
+    {
+      "id": 5099,
+      "performanceId": 1136,
+      "credit": "Merchandising",
+      "personIds": [],
+      "organizationIds": [
+        1061
+      ],
+      "sourceRef": 1354,
+      "category": "Business Services"
+    },
+    {
+      "id": 5100,
+      "performanceId": 1136,
+      "credit": "Banking",
+      "personIds": [],
+      "organizationIds": [
+        1326
+      ],
+      "sourceRef": 1354,
+      "category": "Business Services"
+    },
+    {
+      "id": 5101,
+      "performanceId": 1136,
+      "credit": "Payroll Service",
+      "personIds": [],
+      "organizationIds": [
+        338
+      ],
+      "sourceRef": 1354,
+      "category": "Business Services"
+    },
+    {
+      "id": 5102,
+      "performanceId": 1136,
+      "credit": "Insurance",
+      "personIds": [
+        19853
+      ],
+      "organizationIds": [
+        1327
+      ],
+      "sourceRef": 1354,
+      "category": "Business Services"
+    },
+    {
+      "id": 5103,
+      "performanceId": 1136,
+      "credit": "Production Photographer",
+      "personIds": [
+        13721
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5104,
+      "performanceId": 1136,
+      "credit": "Physical Therapy",
+      "personIds": [],
+      "organizationIds": [
+        768
+      ],
+      "sourceRef": 1354,
+      "category": "Production Support"
+    },
+    {
+      "id": 5105,
+      "performanceId": 1136,
+      "credit": "Producing Assistant",
+      "personIds": [
+        19854
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5106,
+      "performanceId": 1136,
+      "credit": "Assistant to the Company Managers",
+      "personIds": [
+        19855
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Company Management"
+    },
+    {
+      "id": 5107,
+      "performanceId": 1136,
+      "credit": "Bookwriting Fellow",
+      "personIds": [
+        19856
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5108,
+      "performanceId": 1136,
+      "credit": "Production Assistant",
+      "personIds": [
+        19857
+      ],
+      "organizationIds": [],
+      "sourceRef": 1354,
+      "category": "Production Staff"
     }
   ],
   "coverPools": [
@@ -87916,6 +88517,108 @@
       ],
       "coverType": "understudy",
       "sourceRef": 1319
+    },
+    {
+      "id": 2675,
+      "performanceId": 1136,
+      "role": "Mitch Mahoney",
+      "personIds": [
+        9073,
+        1718
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2676,
+      "performanceId": 1136,
+      "role": "Vice Principal Douglas Panch",
+      "personIds": [
+        9073,
+        1718
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2677,
+      "performanceId": 1136,
+      "role": "William Barfée",
+      "personIds": [
+        9073,
+        19862
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2678,
+      "performanceId": 1136,
+      "role": "Leaf Coneybear",
+      "personIds": [
+        19862,
+        1718,
+        19825
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2679,
+      "performanceId": 1136,
+      "role": "Chip Tolentino",
+      "personIds": [
+        19862,
+        1718
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2680,
+      "performanceId": 1136,
+      "role": "Rona Lisa Peretti",
+      "personIds": [
+        19863,
+        9072
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1356
+    },
+    {
+      "id": 2681,
+      "performanceId": 1136,
+      "role": "Marcy Park",
+      "personIds": [
+        19863,
+        19864
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1354
+    },
+    {
+      "id": 2682,
+      "performanceId": 1136,
+      "role": "Logainne Schwartzandgrubenierre",
+      "personIds": [
+        19863,
+        19864,
+        9072
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1356
+    },
+    {
+      "id": 2683,
+      "performanceId": 1136,
+      "role": "Olive Ostrovsky",
+      "personIds": [
+        19863,
+        19864,
+        9072
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1356
     }
   ],
   "productionMetadataSnapshots": [
@@ -89902,8 +90605,43 @@
       "id": 283,
       "performanceId": 1135,
       "label": "& Juliet Broadway 2026-08-11 / Stephen Sondheim Theatre",
-      "summary": "Actual ATP cast and performance-specific band supplied by Isaac; attended with Aaron Byrnes. Stable structured production credits copied from the July 21 Broadway program snapshot.",
+      "summary": "Actual ATP cast and performance-specific band supplied by Isaac; attended with Aaron Byrnes; Row F, Seat 3; comp. Stable structured production credits copied from the July 21 Broadway program snapshot.",
       "sourceRef": 1353
+    },
+    {
+      "id": 284,
+      "performanceId": 1136,
+      "label": "August 12, 2026 Spelling Bee program and attendance",
+      "summary": "E 114; $49 Rush; Brendan Padgett; Fennell Hogan understudy Leaf; Nina White current Olive; Elizabeth Doran conducting; current show-specific program credits captured with two spelling conflicts held.",
+      "sourceRef": 1354
+    },
+    {
+      "id": 285,
+      "performanceId": 922,
+      "label": "Current New World Stages producer roster",
+      "summary": "Producer roster applied across the same New World Stages Spelling Bee production by Isaac’s explicit 2026-08-13 direction; no cast or cover assignments were propagated.",
+      "sourceRef": 1356
+    },
+    {
+      "id": 286,
+      "performanceId": 940,
+      "label": "Current New World Stages producer roster",
+      "summary": "Producer roster applied across the same New World Stages Spelling Bee production by Isaac’s explicit 2026-08-13 direction; no cast or cover assignments were propagated.",
+      "sourceRef": 1356
+    },
+    {
+      "id": 287,
+      "performanceId": 966,
+      "label": "Current New World Stages producer roster",
+      "summary": "Producer roster applied across the same New World Stages Spelling Bee production by Isaac’s explicit 2026-08-13 direction; no cast or cover assignments were propagated.",
+      "sourceRef": 1356
+    },
+    {
+      "id": 288,
+      "performanceId": 1022,
+      "label": "Current New World Stages producer roster",
+      "summary": "Producer roster applied across the same New World Stages Spelling Bee production by Isaac’s explicit 2026-08-13 direction; no cast or cover assignments were propagated.",
+      "sourceRef": 1356
     }
   ],
   "programArchive": [
@@ -91442,8 +92180,22 @@
         "songs": "Current musical-number list copied from the July 21, 2026 Broadway program snapshot.",
         "orchestra": "Actual nine-person performance band supplied by Isaac; pit deviations recorded in orchestra notes/metadata.",
         "production": "Stable structured production credits copied from the July 21, 2026 Broadway program snapshot.",
-        "attendance": "Aaron Byrnes; Tuesday 7:00 PM; seat/ticket unknown."
+        "attendance": "Aaron Byrnes; Tuesday 7:00 PM; Row F, Seat 3; comp."
       }
+    },
+    {
+      "id": 117,
+      "performanceId": 1136,
+      "dateCaptured": "2026-08-12",
+      "sections": {
+        "attendance": "Evening; Brendan Padgett; Row E, Seat 114; $49 Rush.",
+        "cast": "Current printed company used as the base. Fennell Hogan replaced printed regular Justin Cooley as Leaf Coneybear and is marked Understudy. Nina White is the current printed Olive Ostrovsky.",
+        "covers": "Current printed understudy assignments captured separately from actual appearances. Fennell Hogan is additionally confirmed by Isaac as an understudy for Leaf. Cecilia Snow is canonical and is linked to the printed Rona Lisa Peretti, Logainne Schwartzandgrubenierre, and Olive Ostrovsky cover assignments.",
+        "orchestra": "Printed current musicians captured as program roster. Lobby board specifically confirms Elizabeth Doran conducted this performance.",
+        "production": "Current title-page creatives/producers and show-specific management, staff, marketing/press, legal, ticketing, business support and vendors captured from supplied pages. Stewart Productions, LLC is canonical for the printed STEWERT variant; Bethany Weinstein Stewart is canonical. New World Stages building staff and Special Thanks excluded.",
+        "runtime": "Approximately 1 hour and 45 minutes."
+      },
+      "sourceRef": 1356
     }
   ],
   "songLists": [
