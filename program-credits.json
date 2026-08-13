@@ -145006,6 +145006,1033 @@
       ],
       "sourceRef": 1352,
       "category": "Production Vendors"
+    },
+    {
+      "id": 12775,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Associate Director",
+      "personIds": [
+        9947
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12776,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Production Stage Manager",
+      "personIds": [
+        10742
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12777,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Company Manager",
+      "personIds": [
+        10743
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12778,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "General Management",
+      "personIds": [],
+      "organizationIds": [
+        122
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12779,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Production Management",
+      "personIds": [],
+      "organizationIds": [
+        15
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12780,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "General Press Representative",
+      "personIds": [],
+      "organizationIds": [
+        121
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12781,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Advertising, Marketing & Website",
+      "personIds": [],
+      "organizationIds": [
+        45
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12782,
+      "performanceId": 1135,
+      "category": "Major Production Credits",
+      "credit": "Casting",
+      "personIds": [
+        9470,
+        8870,
+        9477
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12783,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10546
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12784,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10547
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12785,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10548
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12786,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10550
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12787,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10745
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12788,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10549
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12789,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10746
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12790,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10555
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12791,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10747
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12792,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10748
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12793,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10559
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12794,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        12989
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12795,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10554
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12796,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10750
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12797,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10751
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12798,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10752
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12799,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10753
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12800,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10754
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12801,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10755
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12802,
+      "performanceId": 1135,
+      "category": "Company Manager",
+      "credit": "Associate Company Manager",
+      "personIds": [
+        10561
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12803,
+      "performanceId": 1135,
+      "category": "Stage Management",
+      "credit": "Stage Manager",
+      "personIds": [
+        10756
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12804,
+      "performanceId": 1135,
+      "category": "Stage Management",
+      "credit": "Assistant Stage Manager",
+      "personIds": [
+        10757
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12805,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Assistant Director",
+      "personIds": [
+        9947
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12806,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Choreographer",
+      "personIds": [
+        10758
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12807,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Originating U.S. Associate Choreographer",
+      "personIds": [
+        9556
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12808,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Scenic Designer",
+      "personIds": [
+        4047,
+        9186
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12809,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Scenic Typography Artist",
+      "personIds": [
+        9950
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12810,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Costume Designer",
+      "personIds": [
+        9951,
+        9952
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12811,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Lighting Designer",
+      "personIds": [
+        10584
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12812,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Moving Light Programmers",
+      "personIds": [
+        9954,
+        10759
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12813,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Sound Designer",
+      "personIds": [
+        10760
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12814,
+      "performanceId": 1135,
+      "category": "Additional Creative",
+      "credit": "Associate Hair/Wigs & Makeup Designer",
+      "personIds": [
+        9957
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12815,
+      "performanceId": 1135,
+      "category": "Specialty",
+      "credit": "Pyrotechnic Consultant",
+      "personIds": [
+        9958
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12816,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Production Carpenter",
+      "personIds": [
+        10585
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12817,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Production Electrician",
+      "personIds": [
+        10586
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12818,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Head Carpenter",
+      "personIds": [
+        10761
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12819,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Deck Automation",
+      "personIds": [
+        10762
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12820,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Head Electrician",
+      "personIds": [
+        10763
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12821,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Head Sound",
+      "personIds": [
+        10764
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12822,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Assistant Sound",
+      "personIds": [
+        10597
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12823,
+      "performanceId": 1135,
+      "category": "Wardrobe",
+      "credit": "Wardrobe Supervisor",
+      "personIds": [
+        10765
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12824,
+      "performanceId": 1135,
+      "category": "Wardrobe",
+      "credit": "Assistant Wardrobe Supervisor",
+      "personIds": [
+        10766
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12825,
+      "performanceId": 1135,
+      "category": "Hair/Wigs",
+      "credit": "Hair Supervisor",
+      "personIds": [
+        10767
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12826,
+      "performanceId": 1135,
+      "category": "Hair/Wigs",
+      "credit": "Assistant Hair Supervisor",
+      "personIds": [
+        10768
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12827,
+      "performanceId": 1135,
+      "category": "Coaching",
+      "credit": "Dialect Coach",
+      "personIds": [
+        10428
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12828,
+      "performanceId": 1135,
+      "category": "Coaching",
+      "credit": "Intimacy Director",
+      "personIds": [
+        9466
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12829,
+      "performanceId": 1135,
+      "category": "Ticketing",
+      "credit": "Ticketing Director",
+      "personIds": [
+        12989
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12830,
+      "performanceId": 1135,
+      "category": "Ticketing",
+      "credit": "Ticketing Manager",
+      "personIds": [
+        10751
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12831,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "Associate General Manager",
+      "personIds": [
+        10745
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12832,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "Assistant General Manager",
+      "personIds": [
+        10750
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12833,
+      "performanceId": 1135,
+      "category": "Finance",
+      "credit": "Comptroller",
+      "personIds": [
+        10746,
+        10559
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12834,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        175
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12835,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        176
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12836,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        177
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12837,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        178
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12838,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        179
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12839,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        180
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12840,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        181
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12841,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        29
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12842,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        30
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12843,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        182
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12844,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        31
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12845,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        183
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12846,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        32
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12847,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        124
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12848,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        184
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12849,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        125
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12850,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        126
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12851,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        185
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12852,
+      "performanceId": 1135,
+      "category": "Producers",
+      "credit": "Above-title Producer/Organization",
+      "personIds": [],
+      "organizationIds": [
+        33
+      ],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12853,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Assistant Carpenter",
+      "personIds": [
+        10924
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12854,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Assistant Props",
+      "personIds": [
+        10925
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12855,
+      "performanceId": 1135,
+      "category": "Wardrobe",
+      "credit": "Dressers",
+      "personIds": [
+        10926,
+        10927,
+        10928,
+        10929
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12856,
+      "performanceId": 1135,
+      "category": "Wardrobe",
+      "credit": "Stitcher",
+      "personIds": [
+        10930
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12857,
+      "performanceId": 1135,
+      "category": "Production",
+      "credit": "Technical Production Assistants",
+      "personIds": [
+        10611,
+        10612
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12858,
+      "performanceId": 1135,
+      "category": "Casting",
+      "credit": "Canadian Casting Consultant",
+      "personIds": [
+        10931
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12859,
+      "performanceId": 1135,
+      "category": "General Management",
+      "credit": "RCI Theatricals Interns",
+      "personIds": [
+        10932,
+        10933,
+        10934
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12860,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Music Coordinator",
+      "personIds": [
+        9659
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12861,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Music Copying",
+      "personIds": [
+        10738,
+        9942,
+        9943
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12862,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Pre-Broadway Copying",
+      "personIds": [
+        9944
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12863,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Music Technology & Ableton System Design",
+      "personIds": [
+        9945
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12864,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "U.S. Music Technology",
+      "personIds": [
+        9838,
+        10740
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12865,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Additional Ableton Programming & Music Production",
+      "personIds": [
+        9946
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
+    },
+    {
+      "id": 12866,
+      "performanceId": 1135,
+      "category": "Music Staff",
+      "credit": "Vocal Coach/Consultant",
+      "personIds": [
+        10741
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319
     }
   ],
   "orchestraCredits": [
@@ -194851,6 +195878,100 @@
       "organizationIds": [],
       "sourceRef": 1351,
       "id": 4906
+    },
+    {
+      "id": 4907,
+      "performanceId": 1135,
+      "chair": "Conductor",
+      "personIds": [
+        9698
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353,
+      "note": "Regular Associate Conductor/Keyboard covering main conductor chair"
+    },
+    {
+      "id": 4908,
+      "performanceId": 1135,
+      "chair": "Keys 2",
+      "personIds": [
+        4216
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353
+    },
+    {
+      "id": 4909,
+      "performanceId": 1135,
+      "chair": "Bass",
+      "personIds": [
+        9936
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353
+    },
+    {
+      "id": 4910,
+      "performanceId": 1135,
+      "chair": "Guitar",
+      "personIds": [
+        9935
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353,
+      "note": "Source band list uses Michael Bono; canonical person is Mike Bono"
+    },
+    {
+      "id": 4911,
+      "performanceId": 1135,
+      "chair": "Drums",
+      "personIds": [
+        9937
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353
+    },
+    {
+      "id": 4912,
+      "performanceId": 1135,
+      "chair": "Violin 1",
+      "personIds": [
+        19824
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353,
+      "note": "Performance-specific substitute for regular Violin 1 / Concertmaster chair"
+    },
+    {
+      "id": 4913,
+      "performanceId": 1135,
+      "chair": "Violin 2",
+      "personIds": [
+        17523
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353,
+      "note": "Performance-specific substitute for regular Violin 2 chair"
+    },
+    {
+      "id": 4914,
+      "performanceId": 1135,
+      "chair": "Viola",
+      "personIds": [
+        9940
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353
+    },
+    {
+      "id": 4915,
+      "performanceId": 1135,
+      "chair": "Cello",
+      "personIds": [
+        9941
+      ],
+      "organizationIds": [],
+      "sourceRef": 1353
     }
   ],
   "musicStaff": [
@@ -203540,6 +204661,64 @@
       "sourceRef": 1351,
       "category": "Music Staff",
       "id": 790
+    },
+    {
+      "id": 791,
+      "performanceId": 1135,
+      "credit": "Music Coordinator",
+      "personIds": [
+        9659
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
+    },
+    {
+      "id": 792,
+      "performanceId": 1135,
+      "credit": "Music Copying",
+      "personIds": [
+        10738,
+        9942,
+        9943
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
+    },
+    {
+      "id": 793,
+      "performanceId": 1135,
+      "credit": "Music Technology & Ableton System Design",
+      "personIds": [
+        9945
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
+    },
+    {
+      "id": 794,
+      "performanceId": 1135,
+      "credit": "U.S. Music Technology",
+      "personIds": [
+        9838,
+        10740
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
+    },
+    {
+      "id": 795,
+      "performanceId": 1135,
+      "credit": "Additional Ableton Programming & Music Production",
+      "personIds": [
+        9946
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
     }
   ],
   "marketingAndPress": [
@@ -211179,6 +212358,28 @@
       "organizationIds": [],
       "sourceRef": 1352,
       "category": "Digital & Social Media"
+    },
+    {
+      "id": 610,
+      "performanceId": 1135,
+      "credit": "General Press Representative",
+      "personIds": [],
+      "organizationIds": [
+        121
+      ],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 611,
+      "performanceId": 1135,
+      "credit": "Advertising, Marketing & Website",
+      "personIds": [],
+      "organizationIds": [
+        45
+      ],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
     }
   ],
   "ticketingRevenue": [
@@ -211827,6 +213028,28 @@
       "sourceRef": 1351,
       "category": "Ticketing & Revenue Strategy",
       "id": 56
+    },
+    {
+      "id": 57,
+      "performanceId": 1135,
+      "credit": "Ticketing Director",
+      "personIds": [
+        12989
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Ticketing"
+    },
+    {
+      "id": 58,
+      "performanceId": 1135,
+      "credit": "Ticketing Manager",
+      "personIds": [
+        10751
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Ticketing"
     }
   ],
   "danceCaptains": [
@@ -213741,6 +214964,20 @@
       ],
       "sourceRef": 1351,
       "id": 244
+    },
+    {
+      "id": 245,
+      "performanceId": 1135,
+      "personId": 8729,
+      "note": "Dance Captain",
+      "sourceRef": 1319
+    },
+    {
+      "id": 246,
+      "performanceId": 1135,
+      "personId": 8646,
+      "note": "Assistant Dance Captain",
+      "sourceRef": 1319
     }
   ],
   "fightCaptains": [
@@ -231810,6 +233047,173 @@
       "organizationIds": [],
       "sourceRef": 1352,
       "category": "Design Associates"
+    },
+    {
+      "id": 1582,
+      "performanceId": 1135,
+      "credit": "Associate Director",
+      "personIds": [
+        9947
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 1583,
+      "performanceId": 1135,
+      "credit": "Assistant Director",
+      "personIds": [
+        9947
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1584,
+      "performanceId": 1135,
+      "credit": "Associate Choreographer",
+      "personIds": [
+        10758
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1585,
+      "performanceId": 1135,
+      "credit": "Originating U.S. Associate Choreographer",
+      "personIds": [
+        9556
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1586,
+      "performanceId": 1135,
+      "credit": "Associate Scenic Designer",
+      "personIds": [
+        4047,
+        9186
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1587,
+      "performanceId": 1135,
+      "credit": "Associate Costume Designer",
+      "personIds": [
+        9951,
+        9952
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1588,
+      "performanceId": 1135,
+      "credit": "Associate Lighting Designer",
+      "personIds": [
+        10584
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1589,
+      "performanceId": 1135,
+      "credit": "Associate Sound Designer",
+      "personIds": [
+        10760
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1590,
+      "performanceId": 1135,
+      "credit": "Associate Hair/Wigs & Makeup Designer",
+      "personIds": [
+        9957
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Additional Creative"
+    },
+    {
+      "id": 1591,
+      "performanceId": 1135,
+      "credit": "Pyrotechnic Consultant",
+      "personIds": [
+        9958
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Specialty"
+    },
+    {
+      "id": 1592,
+      "performanceId": 1135,
+      "credit": "Assistant Sound",
+      "personIds": [
+        10597
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Production"
+    },
+    {
+      "id": 1593,
+      "performanceId": 1135,
+      "credit": "Assistant Hair Supervisor",
+      "personIds": [
+        10768
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Hair/Wigs"
+    },
+    {
+      "id": 1594,
+      "performanceId": 1135,
+      "credit": "Dialect Coach",
+      "personIds": [
+        10428
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Coaching"
+    },
+    {
+      "id": 1595,
+      "performanceId": 1135,
+      "credit": "Intimacy Director",
+      "personIds": [
+        9466
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Coaching"
+    },
+    {
+      "id": 1596,
+      "performanceId": 1135,
+      "credit": "Vocal Coach/Consultant",
+      "personIds": [
+        10741
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Music Staff"
     }
   ],
   "musicTechnology": [

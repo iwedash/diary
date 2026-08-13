@@ -58502,6 +58502,340 @@
       ],
       "sourceRef": 1352,
       "category": "Insurance"
+    },
+    {
+      "id": 5030,
+      "performanceId": 1135,
+      "credit": "Production Stage Manager",
+      "personIds": [
+        10742
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 5031,
+      "performanceId": 1135,
+      "credit": "Company Manager",
+      "personIds": [
+        10743
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 5032,
+      "performanceId": 1135,
+      "credit": "Production Management",
+      "personIds": [],
+      "organizationIds": [
+        15
+      ],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 5033,
+      "performanceId": 1135,
+      "credit": "Casting",
+      "personIds": [
+        9470,
+        8870,
+        9477
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Major Production Credits"
+    },
+    {
+      "id": 5034,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10546
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5035,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10547
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5036,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10548
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5037,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10550
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5038,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10745
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5039,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10549
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5040,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10746
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5041,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10555
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5042,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10747
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5043,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10748
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5044,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10559
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5045,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        12989
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5046,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10554
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5047,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10750
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5048,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10751
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5049,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10752
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5050,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10753
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5051,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10754
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5052,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Staff",
+      "personIds": [
+        10755
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5053,
+      "performanceId": 1135,
+      "credit": "Associate Company Manager",
+      "personIds": [
+        10561
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Company Manager"
+    },
+    {
+      "id": 5054,
+      "performanceId": 1135,
+      "credit": "Stage Manager",
+      "personIds": [
+        10756
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5055,
+      "performanceId": 1135,
+      "credit": "Assistant Stage Manager",
+      "personIds": [
+        10757
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5056,
+      "performanceId": 1135,
+      "credit": "Associate General Manager",
+      "personIds": [
+        10745
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5057,
+      "performanceId": 1135,
+      "credit": "Assistant General Manager",
+      "personIds": [
+        10750
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
+    },
+    {
+      "id": 5058,
+      "performanceId": 1135,
+      "credit": "Canadian Casting Consultant",
+      "personIds": [
+        10931
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "Casting"
+    },
+    {
+      "id": 5059,
+      "performanceId": 1135,
+      "credit": "RCI Theatricals Interns",
+      "personIds": [
+        10932,
+        10933,
+        10934
+      ],
+      "organizationIds": [],
+      "sourceRef": 1319,
+      "category": "General Management"
     }
   ],
   "coverPools": [
@@ -87492,6 +87826,96 @@
       ],
       "coverType": "understudy",
       "sourceRef": 1352
+    },
+    {
+      "id": 2667,
+      "performanceId": 1135,
+      "role": "Juliet",
+      "personIds": [
+        8647,
+        8650
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2668,
+      "performanceId": 1135,
+      "role": "Anne",
+      "personIds": [
+        9000,
+        2415
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2669,
+      "performanceId": 1135,
+      "role": "Shakespeare",
+      "personIds": [
+        7085,
+        8642,
+        5704
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2670,
+      "performanceId": 1135,
+      "role": "Lance",
+      "personIds": [
+        7085,
+        5704
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2671,
+      "performanceId": 1135,
+      "role": "May",
+      "personIds": [
+        7502,
+        8643
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2672,
+      "performanceId": 1135,
+      "role": "Romeo",
+      "personIds": [
+        7088,
+        5704
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2673,
+      "performanceId": 1135,
+      "role": "Angélique",
+      "personIds": [
+        9000,
+        2415
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
+    },
+    {
+      "id": 2674,
+      "performanceId": 1135,
+      "role": "François",
+      "personIds": [
+        7502,
+        7088,
+        5234
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1319
     }
   ],
   "productionMetadataSnapshots": [
@@ -89473,6 +89897,13 @@
       "label": "August 8, 2026 An American Daughter program and attendance",
       "summary": "Evening; A 114; $35 TodayTix Rush; current cast, understudies, and supplied show-specific program credits.",
       "sourceRef": 1352
+    },
+    {
+      "id": 283,
+      "performanceId": 1135,
+      "label": "& Juliet Broadway 2026-08-11 / Stephen Sondheim Theatre",
+      "summary": "Actual ATP cast and performance-specific band supplied by Isaac; attended with Aaron Byrnes. Stable structured production credits copied from the July 21 Broadway program snapshot.",
+      "sourceRef": 1353
     }
   ],
   "programArchive": [
@@ -90999,6 +91430,20 @@
         "exclusions": "La Femme corporate-only staff/boards, Signature building staff, Special Thanks, and obscured lower-page credits were excluded."
       },
       "sourceRef": 1352
+    },
+    {
+      "id": 116,
+      "performanceId": 1135,
+      "sourceRef": 1353,
+      "dateCaptured": "2026-08-11",
+      "sections": {
+        "cast": "Actual Performing Cast supplied by Isaac; four performance-specific cover movements recorded in appearances.",
+        "covers": "Existing current principal cover pool copied from the July 21, 2026 Broadway program snapshot; only ATP-confirmed cover performers marked onstage.",
+        "songs": "Current musical-number list copied from the July 21, 2026 Broadway program snapshot.",
+        "orchestra": "Actual nine-person performance band supplied by Isaac; pit deviations recorded in orchestra notes/metadata.",
+        "production": "Stable structured production credits copied from the July 21, 2026 Broadway program snapshot.",
+        "attendance": "Aaron Byrnes; Tuesday 7:00 PM; seat/ticket unknown."
+      }
     }
   ],
   "songLists": [
@@ -142676,6 +143121,296 @@
       "displayOrder": 23,
       "sourceRef": 1351,
       "id": 4002
+    },
+    {
+      "id": 4003,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Larger Than Life",
+      "performers": [],
+      "displayOrder": 1,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4004,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "I Want It That Way",
+      "performers": [],
+      "displayOrder": 2,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4005,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Baby One More Time",
+      "performers": [],
+      "displayOrder": 3,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4006,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Show Me the Meaning of Being Lonely",
+      "performers": [],
+      "displayOrder": 4,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4007,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Domino",
+      "performers": [],
+      "displayOrder": 5,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4008,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Show Me Love",
+      "performers": [],
+      "displayOrder": 6,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4009,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Blow",
+      "performers": [],
+      "displayOrder": 7,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4010,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "I'm Not a Girl, Not Yet a Woman",
+      "performers": [],
+      "displayOrder": 8,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4011,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Overprotected",
+      "performers": [],
+      "displayOrder": 9,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4012,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Confident",
+      "performers": [],
+      "displayOrder": 10,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4013,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Teenage Dream/Break Free",
+      "performers": [],
+      "displayOrder": 11,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4014,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "Oops! … I Did It Again",
+      "performers": [],
+      "displayOrder": 12,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4015,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "I Kissed a Girl",
+      "performers": [],
+      "displayOrder": 13,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4016,
+      "performanceId": 1135,
+      "act": "Act I",
+      "location": "",
+      "title": "It's My Life",
+      "performers": [],
+      "displayOrder": 14,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4017,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Love Me Like You Do",
+      "performers": [],
+      "displayOrder": 15,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4018,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Since U Been Gone",
+      "performers": [],
+      "displayOrder": 16,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4019,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Whataya Want From Me",
+      "performers": [],
+      "displayOrder": 17,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4020,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "One More Try",
+      "performers": [],
+      "displayOrder": 18,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4021,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Problem/Can’t Feel My Face",
+      "performers": [],
+      "displayOrder": 19,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4022,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "That’s the Way It Is",
+      "performers": [],
+      "displayOrder": 20,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4023,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Everybody (Backstreet’s Back)",
+      "performers": [],
+      "displayOrder": 21,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4024,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "As Long As You Love Me",
+      "performers": [],
+      "displayOrder": 22,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4025,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "It’s Gonna Be Me",
+      "performers": [],
+      "displayOrder": 23,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4026,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Stronger",
+      "performers": [],
+      "displayOrder": 24,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4027,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Shape of My Heart",
+      "performers": [],
+      "displayOrder": 25,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4028,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Fuckin’ Perfect",
+      "performers": [],
+      "displayOrder": 26,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4029,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Roar",
+      "performers": [],
+      "displayOrder": 27,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4030,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "I Want It That Way (Reprise)",
+      "performers": [],
+      "displayOrder": 28,
+      "sourceRef": 1319
+    },
+    {
+      "id": 4031,
+      "performanceId": 1135,
+      "act": "Act II",
+      "location": "",
+      "title": "Can’t Stop the Feeling!",
+      "performers": [],
+      "displayOrder": 29,
+      "sourceRef": 1319
     }
   ],
   "expandedProductionStaff": [],

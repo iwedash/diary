@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_194_FULL_UPLOAD.zip",
-    "generated": "2026-08-08T20:39:00-04:00",
-    "rowCount": 1132,
-    "performanceCount": 1132,
-    "peopleCount": 19283,
+    "sourceFile": "Cuebook_Build_195_FULL_UPLOAD.zip",
+    "generated": "2026-08-11T23:05:00-04:00",
+    "rowCount": 1133,
+    "performanceCount": 1133,
+    "peopleCount": 19284,
     "showCount": 500,
     "venueCount": 189,
     "roleCount": 5906,
-    "appearanceCount": 18667,
-    "creativeCreditCount": 16843,
+    "appearanceCount": 18687,
+    "creativeCreditCount": 16861,
     "notesCount": 458,
-    "updated": "2026-08-08",
-    "notes": "Added An American Daughter — August 8, 2026 with attendance, actual printed cast, understudy pool, and legible show-specific program credits.",
-    "updatedBy": "OpenAI / Isaac approved running-queue implementation",
-    "updatedAt": "2026-08-08T20:39:00-04:00",
+    "updated": "2026-08-11",
+    "notes": "Implemented queued Heathers temporary-replacement/grid normalization and added & Juliet — August 11, 2026 with actual ATP cast, Aaron Byrnes companion, and performance-specific band.",
+    "updatedBy": "OpenAI / Isaac approved queue implementation",
+    "updatedAt": "2026-08-11T23:05:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "theatre-dashboard-v15-VERIFIED.zip",
-    "version": "v13.20.0",
-    "build": "json-b195",
-    "buildTime": "2026-08-08T20:39:00-04:00",
-    "buildDate": "2026-08-08",
+    "version": "v13.21.0",
+    "build": "json-b196",
+    "buildTime": "2026-08-11T23:05:00-04:00",
+    "buildDate": "2026-08-11",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "13.20.0",
-    "lastUpdated": "2026-08-08",
+    "buildVersion": "13.21.0",
+    "lastUpdated": "2026-08-11",
     "normalizationMerged": true,
     "roleMergeCount": 51,
     "principalRulesUpdated": true,
@@ -67,7 +67,7 @@
       "sourceRef": 0,
       "verifiedField": "conductorVerified"
     },
-    "lastUpdatedNote": "Build 195 adds An American Daughter on August 8, 2026 from Isaac-supplied current program pages and direct ticket details.",
+    "lastUpdatedNote": "Build 196 implements the Heathers cleanup queue and adds & Juliet on August 11, 2026 from Isaac-supplied ATP cast and actual band.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -491,6 +491,11 @@
         "version": "v13.18.0",
         "date": "2026-08-03",
         "summary": "Implemented verified post-Build-191 entry corrections, approved role normalization, program expansions, ticket metadata, Little Shop status cleanup, and restored Stats/People helpers. Unresolved audit sections remain excluded."
+      },
+      {
+        "version": "v13.21.0",
+        "date": "2026-08-11",
+        "notes": "Build 196: Heathers Kiara Michelle Lee temporary-replacement corrections and principal-only grid normalization; added & Juliet 2026-08-11 with Aaron Byrnes, ATP cast, and actual band."
       }
     ],
     "normalizationNotesV32604": {
@@ -1980,6 +1985,32 @@
       "newPerformance": "An American Daughter — 2026-08-08 — Off-Broadway",
       "performanceId": 1134,
       "summary": "Added direct attendance details, printed actual cast, understudy roster, and legible show-specific program credits from Isaac-supplied pages; no obscured or building-only credits inferred."
+    },
+    "build196QueueImplementation": {
+      "sourceBase": "json-b195",
+      "dataChanged": true,
+      "uiChanged": false,
+      "sourceRef": 1353,
+      "performancesTouched": [
+        933,
+        946,
+        1135
+      ],
+      "newPerformance": "& Juliet — 2026-08-11 — Broadway",
+      "companion": "Aaron Byrnes",
+      "heathersGridNormalized": true,
+      "heathersTemporaryReplacementCorrections": [
+        933,
+        946
+      ],
+      "pitSubReview": {
+        "associateConductorOnMainChair": "Adam Laird",
+        "performanceSpecificViolinSubs": [
+          "Jessica Park",
+          "Caleb Burhans"
+        ]
+      },
+      "summary": "Executed the complete post-Build-195 queue and added the August 11 & Juliet attendance; seat/ticket fields left blank."
     }
   },
   "people": {
@@ -81283,7 +81314,10 @@
         "musician",
         "orchestra"
       ],
-      "sortName": "Mike Bono"
+      "sortName": "Mike Bono",
+      "aliases": [
+        "Michael Bono"
+      ]
     },
     "9936": {
       "id": 9936,
@@ -169290,6 +169324,15 @@
         "production",
         "staff"
       ]
+    },
+    "19824": {
+      "id": 19824,
+      "name": "Jessica Park",
+      "sortName": "Jessica Park",
+      "kinds": [
+        "musician",
+        "orchestra"
+      ]
     }
   },
   "shows": {
@@ -218270,6 +218313,60 @@
         },
         "notes": "Corporate/building-only staff, board/advisory members, special thanks, and obscured names were excluded rather than inferred."
       }
+    },
+    "1135": {
+      "id": 1135,
+      "showId": 283,
+      "date": "2026-08-11",
+      "venueId": 18,
+      "type": "Broadway",
+      "time": "Evening",
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "notes": "Tuesday 7:00 PM performance. Attended with Aaron Byrnes. Zalah Vallien performed as understudy Juliet; Daniel J. Maldonado performed as understudy Romeo; Alaina Vi Maderal was swing on for Elsa Keefe's Portia/Benvolio track and appeared as Gwynne/Portia/Benvolio; TJ Tapp was swing on for Zalah Vallien's Rosaline track and appeared as Margaret/Rosaline. Performance-specific band supplied by Isaac: Adam Laird conducted; Jessica Park and Caleb Burhans were on the violin chairs. Adam Laird is the production's regular Associate Conductor/Keyboard covering the main conductor chair rather than an outside pit sub.",
+      "sourceRef": 1353,
+      "conductor": "Adam Laird",
+      "conductorVerified": true,
+      "performanceMetadata": {
+        "productionLabel": "Broadway",
+        "productionKey": "and-juliet-broadway-2026",
+        "companion": "Aaron Byrnes",
+        "companions": [
+          "Aaron Byrnes"
+        ],
+        "attendanceSource": "Isaac's direct report",
+        "attendanceSourceRef": 1353,
+        "actualCastSource": "Playbill At This Performance text and Performing Cast list supplied by Isaac",
+        "bandSource": "Performance-specific BAND lineup supplied by Isaac",
+        "pitSubstitutions": [
+          {
+            "chair": "Conductor",
+            "person": "Adam Laird",
+            "status": "regular associate conductor covering main conductor chair"
+          },
+          {
+            "chair": "Violin 1",
+            "person": "Jessica Park",
+            "status": "performance-specific substitute"
+          },
+          {
+            "chair": "Violin 2",
+            "person": "Caleb Burhans",
+            "status": "performance-specific substitute"
+          }
+        ]
+      },
+      "programArchiveText": {
+        "performanceId": 1135,
+        "sourceRef": 1353,
+        "dateCaptured": "2026-08-11",
+        "sections": {
+          "cast": "Actual Performing Cast supplied by Isaac from Playbill At This Performance. Zalah Vallien on as Juliet; Daniel J. Maldonado on as Romeo; Alaina Vi Maderal covering Elsa Keefe’s Portia/Benvolio track; TJ Tapp covering Zalah Vallien’s Rosaline track.",
+          "orchestra": "Actual nine-person band supplied by Isaac. Adam Laird conducted; Haley Bennett Keys 2; Brian Holtz bass; Mike Bono (source: Michael Bono) guitar; Sam Merrick drums; Jessica Park violin; Caleb Burhans violin 2; Ina Paris viola; Michael Haas cello.",
+          "production": "Stable structured production credits are copied from the recent July 21, 2026 Broadway program snapshot; no new production-staff facts inferred from the ATP cast text.",
+          "attendance": "Attended with Aaron Byrnes. 7:00 PM. Seat and ticket details not supplied."
+        }
+      }
     }
   },
   "organizations": {
@@ -229132,7 +229229,10 @@
         {
           "label": "JD",
           "aliases": [
-            "JD"
+            "JD",
+            "Jason “J.D.” Dean",
+            "Jason 'J.D.' Dean",
+            "Jason J.D. Dean"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -229157,6 +229257,17 @@
           "label": "Heather McNamara",
           "aliases": [
             "Heather McNamara"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Ms. Fleming / Veronica’s Mom",
+          "aliases": [
+            "Ms. Fleming / Veronica’s Mom",
+            "Ms. Fleming/Veronica's Mom",
+            "Ms. Fleming / Veronica's Mom",
+            "Veronica's Mom/Miss Fleming"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -229188,8 +229299,9 @@
         {
           "label": "Ram’s Dad / Big Bud Dean / Coach Ripper",
           "aliases": [
+            "Ram’s Dad / Big Bud Dean / Coach Ripper",
             "Ram's Dad/Big Bud Dean/Coach Ripper",
-            "Ram’s Dad / Big Bud Dean / Coach Ripper"
+            "Coach Ripper / Ram’s Dad / Big Bud Dean"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -229197,67 +229309,9 @@
         {
           "label": "Kurt’s Dad / Veronica’s Dad / Principal Gowan",
           "aliases": [
+            "Kurt’s Dad / Veronica’s Dad / Principal Gowan",
             "Kurt's Dad/Veronica's Dad/Principal Gowan",
-            "Kurt’s Dad / Veronica’s Dad / Principal Gowan"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Ms. Fleming / Veronica’s Mom",
-          "aliases": [
-            "Veronica's Mom/Miss Fleming",
-            "Ms. Fleming / Veronica’s Mom"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Beleaguered Geek",
-          "aliases": [
-            "Beleaguered Geek"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Preppy Stud",
-          "aliases": [
-            "Preppy Stud"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Hipster Dork",
-          "aliases": [
-            "Hipster Dork"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Stoner Chick",
-          "aliases": [
-            "Stoner Chick"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "New Wave Party Girl",
-          "aliases": [
-            "New Wave Girl",
-            "New Wave Party Girl"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Young Republican",
-          "aliases": [
-            "Young Republicanette",
-            "Young Republican"
+            "Principal Gowan / Veronica’s Dad / Kurt’s Dad"
           ],
           "scope": "universal",
           "confidence": "confirmed"

@@ -122571,6 +122571,132 @@
       "credit": "Casting Director",
       "raw": "An American Daughter August 8, 2026 program supplied by Isaac",
       "sourceRef": 1352
+    },
+    {
+      "id": 17650,
+      "performanceId": 1135,
+      "personId": 5980,
+      "credit": "Book",
+      "raw": "David West Read"
+    },
+    {
+      "id": 17651,
+      "performanceId": 1135,
+      "personId": 5981,
+      "credit": "Music and Lyrics",
+      "raw": "Max Martin"
+    },
+    {
+      "id": 17652,
+      "performanceId": 1135,
+      "personId": 5985,
+      "credit": "Scenic Design",
+      "raw": "Soutra Gilmour"
+    },
+    {
+      "id": 17653,
+      "performanceId": 1135,
+      "personId": 1833,
+      "credit": "Costume Design",
+      "raw": "Paloma Young"
+    },
+    {
+      "id": 17654,
+      "performanceId": 1135,
+      "personId": 4693,
+      "credit": "Lighting Design",
+      "raw": "Howard Hudson"
+    },
+    {
+      "id": 17655,
+      "performanceId": 1135,
+      "personId": 3253,
+      "credit": "Sound Design",
+      "raw": "Gareth Owen"
+    },
+    {
+      "id": 17656,
+      "performanceId": 1135,
+      "personId": 3987,
+      "credit": "Video & Projection Design",
+      "raw": "Andrzej Goulding"
+    },
+    {
+      "id": 17657,
+      "performanceId": 1135,
+      "personId": 2488,
+      "credit": "Hair/Wig & Makeup Design",
+      "raw": "J. Jared Janas"
+    },
+    {
+      "id": 17658,
+      "performanceId": 1135,
+      "personId": 7094,
+      "credit": "Music Director / Additional Orchestrations & Arrangements",
+      "raw": "Dominic Fallacaro"
+    },
+    {
+      "id": 17659,
+      "performanceId": 1135,
+      "personId": 9659,
+      "credit": "Music Coordinator",
+      "raw": "Michael Aarons"
+    },
+    {
+      "id": 17660,
+      "performanceId": 1135,
+      "personId": 9470,
+      "credit": "Casting",
+      "raw": "Stephen Kopel"
+    },
+    {
+      "id": 17661,
+      "performanceId": 1135,
+      "personId": 8870,
+      "credit": "Casting",
+      "raw": "Carrie Gardner"
+    },
+    {
+      "id": 17662,
+      "performanceId": 1135,
+      "personId": 9947,
+      "credit": "Associate Director",
+      "raw": "Susanna Wolk"
+    },
+    {
+      "id": 17663,
+      "performanceId": 1135,
+      "personId": 5984,
+      "credit": "Music Supervisor / Orchestrations and Arrangements",
+      "raw": "Bill Sherman"
+    },
+    {
+      "id": 17664,
+      "performanceId": 1135,
+      "personId": 5983,
+      "credit": "Choreographer",
+      "raw": "Jennifer Weber"
+    },
+    {
+      "id": 17665,
+      "performanceId": 1135,
+      "personId": 5982,
+      "credit": "Director",
+      "raw": "Luke Sheppard"
+    },
+    {
+      "id": 17666,
+      "performanceId": 1135,
+      "personId": 10742,
+      "credit": "Production Stage Manager",
+      "raw": "Rachel Bauder"
+    },
+    {
+      "id": 17667,
+      "performanceId": 1135,
+      "personId": 10743,
+      "credit": "Company Manager",
+      "raw": "Steve Lukens"
     }
   ],
   "aboveTitleProducers": [
@@ -138342,6 +138468,12 @@
       "personId": 18852,
       "sourceRef": 1350,
       "id": 606
+    },
+    {
+      "id": 607,
+      "performanceId": 1135,
+      "personId": 18762,
+      "sourceRef": 1353
     }
   ]
 }
