@@ -59437,6 +59437,1184 @@
       "organizationIds": [],
       "sourceRef": 1354,
       "category": "Production Staff"
+    },
+    {
+      "id": 5109,
+      "performanceId": 1137,
+      "credit": "General Management",
+      "personIds": [
+        9804,
+        12107,
+        12108,
+        12203
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "Management"
+    },
+    {
+      "id": 5110,
+      "performanceId": 1137,
+      "credit": "General Manager",
+      "personIds": [
+        16211
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Management"
+    },
+    {
+      "id": 5111,
+      "performanceId": 1137,
+      "credit": "Associate General Manager",
+      "personIds": [
+        16212
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Management"
+    },
+    {
+      "id": 5112,
+      "performanceId": 1137,
+      "credit": "Assistant General Manager",
+      "personIds": [
+        16213
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Management"
+    },
+    {
+      "id": 5113,
+      "performanceId": 1137,
+      "credit": "Company Manager",
+      "personIds": [
+        16214
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Company Management"
+    },
+    {
+      "id": 5114,
+      "performanceId": 1137,
+      "credit": "Assistant Company Manager",
+      "personIds": [
+        11300
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Company Management"
+    },
+    {
+      "id": 5115,
+      "performanceId": 1137,
+      "credit": "Company Management Fellow",
+      "personIds": [
+        11778
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Company Management"
+    },
+    {
+      "id": 5116,
+      "performanceId": 1137,
+      "credit": "Production Management",
+      "personIds": [
+        11969,
+        10566,
+        10567,
+        10573,
+        10568,
+        10569,
+        10570,
+        10571,
+        16215,
+        11486,
+        11487,
+        10612,
+        12900,
+        12902
+      ],
+      "organizationIds": [
+        15
+      ],
+      "sourceRef": 1357,
+      "category": "Production Management"
+    },
+    {
+      "id": 5117,
+      "performanceId": 1137,
+      "credit": "Production Stage Manager",
+      "personIds": [
+        10984
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5118,
+      "performanceId": 1137,
+      "credit": "Stage Manager",
+      "personIds": [
+        16216
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5119,
+      "performanceId": 1137,
+      "credit": "Assistant Stage Manager",
+      "personIds": [
+        16217,
+        10728
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5120,
+      "performanceId": 1137,
+      "credit": "Assistant Director",
+      "personIds": [
+        16219
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5121,
+      "performanceId": 1137,
+      "credit": "Assistant Choreographer",
+      "personIds": [
+        16220
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5122,
+      "performanceId": 1137,
+      "credit": "Associate Set Designer",
+      "personIds": [
+        12836
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5123,
+      "performanceId": 1137,
+      "credit": "Assistant Set Designer",
+      "personIds": [
+        16221
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5124,
+      "performanceId": 1137,
+      "credit": "Associate Costume Designer",
+      "personIds": [
+        11978
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5125,
+      "performanceId": 1137,
+      "credit": "Assistant Costume Designer",
+      "personIds": [
+        16222,
+        10055,
+        11977
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5126,
+      "performanceId": 1137,
+      "credit": "Costume Assistant",
+      "personIds": [
+        16223
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5127,
+      "performanceId": 1137,
+      "credit": "Associate Lighting Designer",
+      "personIds": [
+        11954
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5128,
+      "performanceId": 1137,
+      "credit": "Assistant Lighting Designer",
+      "personIds": [
+        10058,
+        16224
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5129,
+      "performanceId": 1137,
+      "credit": "Associate Sound Designer",
+      "personIds": [
+        16225
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5130,
+      "performanceId": 1137,
+      "credit": "Associate Hair & Wig Designer",
+      "personIds": [
+        16226
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5131,
+      "performanceId": 1137,
+      "credit": "Associate Make Up Designer",
+      "personIds": [
+        16227
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff"
+    },
+    {
+      "id": 5132,
+      "performanceId": 1137,
+      "credit": "Flying by Foy",
+      "personIds": [
+        16228,
+        16229,
+        16230,
+        16231
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Aerial / Flying"
+    },
+    {
+      "performanceId": 1137,
+      "credit": "MainStage Associate Programmer",
+      "personIds": [
+        16366
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5133
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Physical Therapy",
+      "personIds": [],
+      "organizationIds": [
+        132
+      ],
+      "sourceRef": 1357,
+      "category": "Health / Physical Therapy",
+      "id": 5134
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Physical Therapist",
+      "personIds": [
+        19870
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Health / Physical Therapy",
+      "id": 5135
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Medical Director",
+      "personIds": [
+        19871
+      ],
+      "organizationIds": [
+        930
+      ],
+      "sourceRef": 1357,
+      "category": "Health / Medical",
+      "id": 5136
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Lighting DMC",
+      "personIds": [
+        19872
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Lighting",
+      "id": 5137
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Moving Light Programmer",
+      "personIds": [
+        11956
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Lighting",
+      "id": 5138
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Special Effects & Performer Tracking Programmers",
+      "personIds": [
+        9955,
+        19841
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Special Effects",
+      "id": 5139
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Production Carpenter",
+      "personIds": [
+        10585
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry",
+      "id": 5140
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant to Production Carpenter",
+      "personIds": [
+        10611
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry",
+      "id": 5141
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Advance Flyman",
+      "personIds": [
+        16167
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry / Flying",
+      "id": 5142
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Head Carpenter",
+      "personIds": [
+        19873
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry",
+      "id": 5143
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant Carpenter / Deck Auto Operator",
+      "personIds": [
+        19874
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry",
+      "id": 5144
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant Carpenter / Foy Operator",
+      "personIds": [
+        19875
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry / Flying",
+      "id": 5145
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Deck Carpenters",
+      "personIds": [
+        19876,
+        19877
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Carpentry",
+      "id": 5146
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Production Electrician",
+      "personIds": [
+        15770
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Electrics",
+      "id": 5147
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Advance Electricians",
+      "personIds": [
+        19878,
+        19879
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Electrics",
+      "id": 5148
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Head Electrician",
+      "personIds": [
+        19880
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Electrics",
+      "id": 5149
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Pyrotechnician / Deck Electrician",
+      "personIds": [
+        19881
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Electrics / Special Effects",
+      "id": 5150
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Lead Followspot Operator",
+      "personIds": [
+        18806
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Lighting",
+      "id": 5151
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Followspot Operators",
+      "personIds": [
+        19882,
+        17264
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Lighting",
+      "id": 5152
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Production Sound Supervisors",
+      "personIds": [
+        19883,
+        15885
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Sound",
+      "id": 5153
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Head Audio / A1",
+      "personIds": [
+        19884
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Sound",
+      "id": 5154
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant Sound",
+      "personIds": [
+        14437
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Sound",
+      "id": 5155
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Deck Sound",
+      "personIds": [
+        19885
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Sound",
+      "id": 5156
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Production Props Supervisors",
+      "personIds": [
+        8851,
+        8836
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Props",
+      "id": 5157
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Associate Production Props Supervisor",
+      "personIds": [
+        19886
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Props",
+      "id": 5158
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Head Properties",
+      "personIds": [
+        18641
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Props",
+      "id": 5159
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant Props",
+      "personIds": [
+        19887
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Props",
+      "id": 5160
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Deck Props",
+      "personIds": [
+        19888,
+        19889
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Props",
+      "id": 5161
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Pre-Viz Animator",
+      "personIds": [
+        19890
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5162
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Wardrobe Supervisor",
+      "personIds": [
+        10600
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Wardrobe",
+      "id": 5163
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Assistant Wardrobe Supervisor",
+      "personIds": [
+        19891
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Wardrobe",
+      "id": 5164
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Dressers",
+      "personIds": [
+        19892,
+        19893,
+        18461,
+        19894,
+        10608,
+        10894
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Wardrobe",
+      "id": 5165
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Stitchers",
+      "personIds": [
+        10610,
+        19895
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Wardrobe",
+      "id": 5166
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Laundry",
+      "personIds": [
+        18251
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Wardrobe",
+      "id": 5167
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Wigs, Hair and Makeup Supervisor",
+      "personIds": [
+        19896
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Hair / Wig / Makeup",
+      "id": 5168
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Makeup Supervisor",
+      "personIds": [
+        19897
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Hair / Wig / Makeup",
+      "id": 5169
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Wigs, Hair and Makeup Stylists",
+      "personIds": [
+        19898,
+        19899
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Hair / Wig / Makeup",
+      "id": 5170
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Child Guardian",
+      "personIds": [
+        19900
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5171
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Script Supervisor / Production Assistant",
+      "personIds": [
+        16706
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5172
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Music Assistant",
+      "personIds": [
+        19901
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Music Staff",
+      "id": 5173
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Production Assistants",
+      "personIds": [
+        19902,
+        19903
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5174
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Technical Production Assistant",
+      "personIds": [
+        19505
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5175
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Aerial Assistant",
+      "personIds": [
+        19904
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Aerial",
+      "id": 5176
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Music Clearance and Licensing",
+      "personIds": [
+        19905,
+        18744
+      ],
+      "organizationIds": [
+        1251
+      ],
+      "sourceRef": 1357,
+      "category": "Music Licensing",
+      "id": 5177
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Music Licensing Associate",
+      "personIds": [
+        19906
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Music Licensing",
+      "id": 5178
+    },
+    {
+      "performanceId": 1137,
+      "credit": "MainBrain Supervisor",
+      "personIds": [
+        10656
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Music Technology",
+      "id": 5179
+    },
+    {
+      "performanceId": 1137,
+      "credit": "MainBrain Associate Programmer",
+      "personIds": [
+        16365
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Music Technology",
+      "id": 5180
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Electronic Drum Associate Programmer",
+      "personIds": [
+        19907
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Music Technology",
+      "id": 5181
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Accountant",
+      "personIds": [
+        11749,
+        14788,
+        19908,
+        19909,
+        19910
+      ],
+      "organizationIds": [
+        195
+      ],
+      "sourceRef": 1357,
+      "category": "Accounting",
+      "id": 5182
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Comptroller",
+      "personIds": [
+        15009,
+        19911
+      ],
+      "organizationIds": [
+        194
+      ],
+      "sourceRef": 1357,
+      "category": "Accounting",
+      "id": 5183
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Bespoke General Managers",
+      "personIds": [
+        12896,
+        12109
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "General Management",
+      "id": 5184
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Bespoke Associate General Managers",
+      "personIds": [
+        16811,
+        13658
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "General Management",
+      "id": 5185
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Bespoke Assistant General Managers",
+      "personIds": [
+        16833,
+        12897
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "General Management",
+      "id": 5186
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Bespoke Office Manager",
+      "personIds": [
+        19912
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "General Management",
+      "id": 5187
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Bespoke General Management Interns",
+      "personIds": [
+        19913,
+        19914
+      ],
+      "organizationIds": [
+        43
+      ],
+      "sourceRef": 1357,
+      "category": "General Management",
+      "id": 5188
+    },
+    {
+      "performanceId": 1137,
+      "credit": "People & Culture Partner",
+      "personIds": [
+        19915
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Business Services",
+      "id": 5189
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Grant and Tax Credit Manager",
+      "personIds": [
+        16864
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Business Services",
+      "id": 5190
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Insurance",
+      "personIds": [
+        12950,
+        19916
+      ],
+      "organizationIds": [
+        1330
+      ],
+      "sourceRef": 1357,
+      "category": "Insurance",
+      "id": 5191
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Banking",
+      "personIds": [],
+      "organizationIds": [
+        133
+      ],
+      "sourceRef": 1357,
+      "category": "Business Services",
+      "id": 5192
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Payroll",
+      "personIds": [],
+      "organizationIds": [
+        455
+      ],
+      "sourceRef": 1357,
+      "category": "Payroll",
+      "id": 5193
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Travel / Housing",
+      "personIds": [],
+      "organizationIds": [
+        137,
+        670,
+        1331
+      ],
+      "sourceRef": 1357,
+      "category": "Travel / Housing",
+      "id": 5194
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Corporate Housing",
+      "personIds": [],
+      "organizationIds": [
+        1332
+      ],
+      "sourceRef": 1357,
+      "category": "Travel / Housing",
+      "id": 5195
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Vocal Coaches",
+      "personIds": [
+        19917,
+        18830
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Vocal / Music",
+      "id": 5196
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Unit Photographer",
+      "personIds": [
+        10914
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Photography",
+      "id": 5197
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Merchandising",
+      "personIds": [],
+      "organizationIds": [
+        534
+      ],
+      "sourceRef": 1357,
+      "category": "Merchandising",
+      "id": 5198
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Opening Night Coordination",
+      "personIds": [
+        15913
+      ],
+      "organizationIds": [
+        980
+      ],
+      "sourceRef": 1357,
+      "category": "Production Staff",
+      "id": 5199
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Executive Producer",
+      "personIds": [
+        12107
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producing",
+      "id": 5200
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Executive Producer",
+      "personIds": [
+        12107
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producing",
+      "id": 5201
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Executive Producer",
+      "personIds": [
+        12107
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producing",
+      "id": 5202
+    },
+    {
+      "id": 5203,
+      "performanceId": 1138,
+      "credit": "Production Stage Manager",
+      "personIds": [
+        11426
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5204,
+      "performanceId": 1138,
+      "credit": "Stage Manager",
+      "personIds": [
+        16911
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5205,
+      "performanceId": 1138,
+      "credit": "Assistant Stage Manager",
+      "personIds": [
+        11429
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5206,
+      "performanceId": 1139,
+      "credit": "Production Stage Manager",
+      "personIds": [
+        11426
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5207,
+      "performanceId": 1139,
+      "credit": "Stage Manager",
+      "personIds": [
+        16911
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
+    },
+    {
+      "id": 5208,
+      "performanceId": 1139,
+      "credit": "Assistant Stage Manager",
+      "personIds": [
+        11429
+      ],
+      "organizationIds": [],
+      "sourceRef": 1040,
+      "category": "Stage Management"
     }
   ],
   "coverPools": [
@@ -88619,6 +89797,284 @@
       ],
       "coverType": "understudy",
       "sourceRef": 1356
+    },
+    {
+      "id": 2684,
+      "performanceId": 1137,
+      "role": "Swing",
+      "personIds": [
+        1656,
+        7541,
+        16194,
+        16195,
+        16196
+      ],
+      "coverType": "swing",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2685,
+      "performanceId": 1137,
+      "role": "Michael Emerson",
+      "personIds": [
+        16195,
+        8842
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2686,
+      "performanceId": 1137,
+      "role": "David",
+      "personIds": [
+        7717,
+        16196
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2687,
+      "performanceId": 1137,
+      "role": "Lucy Emerson",
+      "personIds": [
+        9332,
+        2201
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2688,
+      "performanceId": 1137,
+      "role": "Sam Emerson",
+      "personIds": [
+        9330,
+        9333
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2689,
+      "performanceId": 1137,
+      "role": "Star",
+      "personIds": [
+        7409,
+        16194
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2690,
+      "performanceId": 1137,
+      "role": "Max",
+      "personIds": [
+        2955,
+        8673
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2691,
+      "performanceId": 1137,
+      "role": "Alan Frog",
+      "personIds": [
+        1656,
+        16194
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2692,
+      "performanceId": 1137,
+      "role": "Edgar Frog",
+      "personIds": [
+        9330,
+        9333
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2693,
+      "performanceId": 1137,
+      "role": "Marko",
+      "personIds": [
+        7541,
+        9331,
+        16196
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2694,
+      "performanceId": 1137,
+      "role": "Dwayne",
+      "personIds": [
+        7541,
+        9331,
+        16196
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2695,
+      "performanceId": 1137,
+      "role": "Paul",
+      "personIds": [
+        7541,
+        9331,
+        16196
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1357
+    },
+    {
+      "id": 2696,
+      "performanceId": 1138,
+      "role": "Céline Dion / Rose DeWitt Bukater / Molly Brown",
+      "personIds": [
+        9669
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2697,
+      "performanceId": 1138,
+      "role": "Céline Dion",
+      "personIds": [
+        7734
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2698,
+      "performanceId": 1138,
+      "role": "Jack Dawson / Cal Hockley / Tour Guide / The Seaman / Iceberg",
+      "personIds": [
+        9255
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2699,
+      "performanceId": 1138,
+      "role": "Jack Dawson / Cal Hockley / Ruth DeWitt Bukater / Victor Garber / Luigi",
+      "personIds": [
+        3057
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2700,
+      "performanceId": 1138,
+      "role": "Ruth DeWitt Bukater / Victor Garber / Luigi / Tour Guide / The Seaman / Iceberg",
+      "personIds": [
+        6483
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2701,
+      "performanceId": 1138,
+      "role": "Rose DeWitt Bukater / Molly Brown",
+      "personIds": [
+        9256
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "performanceId": 1138,
+      "role": "Iceberg / Jack Dawson / Victor Garber",
+      "personIds": [
+        7736
+      ],
+      "coverType": "vacation_swing",
+      "sourceRef": 1346,
+      "id": 2702
+    },
+    {
+      "id": 2703,
+      "performanceId": 1139,
+      "role": "Céline Dion / Rose DeWitt Bukater / Molly Brown",
+      "personIds": [
+        9669
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2704,
+      "performanceId": 1139,
+      "role": "Céline Dion",
+      "personIds": [
+        7734
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2705,
+      "performanceId": 1139,
+      "role": "Jack Dawson / Cal Hockley / Tour Guide / The Seaman / Iceberg",
+      "personIds": [
+        9255
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2706,
+      "performanceId": 1139,
+      "role": "Jack Dawson / Cal Hockley / Ruth DeWitt Bukater / Victor Garber / Luigi",
+      "personIds": [
+        3057
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2707,
+      "performanceId": 1139,
+      "role": "Ruth DeWitt Bukater / Victor Garber / Luigi / Tour Guide / The Seaman / Iceberg",
+      "personIds": [
+        6483
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "id": 2708,
+      "performanceId": 1139,
+      "role": "Rose DeWitt Bukater / Molly Brown",
+      "personIds": [
+        9256
+      ],
+      "coverType": "understudy",
+      "sourceRef": 1248
+    },
+    {
+      "performanceId": 1139,
+      "role": "Iceberg / Jack Dawson / Victor Garber",
+      "personIds": [
+        7736
+      ],
+      "coverType": "vacation_swing",
+      "sourceRef": 1346,
+      "id": 2709
     }
   ],
   "productionMetadataSnapshots": [
@@ -90642,6 +92098,27 @@
       "label": "Current New World Stages producer roster",
       "summary": "Producer roster applied across the same New World Stages Spelling Bee production by Isaac’s explicit 2026-08-13 direction; no cast or cover assignments were propagated.",
       "sourceRef": 1356
+    },
+    {
+      "performanceId": 1137,
+      "label": "The Lost Boys Broadway 2026-08-15",
+      "summary": "Current Playbill and lobby board supplied by Isaac. Liesie Kelly on as understudy Star; Jacklyn Riha conducted; current ASM roster Amy Castro and Lee Micklin; current program staff snapshot captured. One 15-minute intermission.",
+      "sourceRef": 1357,
+      "id": 289
+    },
+    {
+      "performanceId": 1138,
+      "label": "Titanique Broadway — 2026-08-14",
+      "summary": "C 14, Theatr App, $58. Brad Greer u/s Victor/Luigi; Tess Marshall u/s Molly; Kyle Ramar Freeman u/s Tour Guide/The Seaman/Iceberg; Terrence Williams Jr. V/S in Sara Gallo’s Background Vocalist track; Russell Daniels temporary replacement Ruth; Geoffrey Ko conducted; “Bye, Karoline!” audience singalong.",
+      "sourceRef": 1358,
+      "id": 290
+    },
+    {
+      "performanceId": 1139,
+      "label": "Titanique Broadway — 2026-08-15 evening",
+      "summary": "A 2; $49 Rush; with Alex Parra. Sara Gallo back in the regular Background Vocalist lineup; Russell Daniels temporary replacement Ruth. No actual conductor supplied.",
+      "sourceRef": 1359,
+      "id": 291
     }
   ],
   "programArchive": [
@@ -92196,6 +93673,50 @@
         "runtime": "Approximately 1 hour and 45 minutes."
       },
       "sourceRef": 1356
+    },
+    {
+      "performanceId": 1137,
+      "dateCaptured": "2026-08-15",
+      "sourceRef": 1357,
+      "sections": {
+        "attendance": "Matinee; Orchestra Z 123; $45; companion and ticket type not supplied.",
+        "cast": "Current printed cast used as base. Performance board confirms Liesie Kelly replaced Maria Wirries as Star and is marked Understudy. No other substitutions were announced in the supplied performance-specific source.",
+        "covers": "Current printed swings and understudy matrix captured separately from actual appearances.",
+        "conductor": "Performance board confirms Jacklyn Riha conducted.",
+        "production": "Current title-page creative/producer credits and current show-specific production/staff pages captured. Building-only Palace/Nederlander personnel are not treated as show credits solely because they operate the venue.",
+        "songs": "Current musical-number list captured; one 15-minute intermission."
+      },
+      "notes": "Current supplied program and lobby board.",
+      "id": 118
+    },
+    {
+      "performanceId": 1138,
+      "dateCaptured": "2026-08-15",
+      "sourceRef": 1358,
+      "sections": {
+        "attendance": "Friday, August 14, 2026 at 7:30 PM; C 14; Theatr App; $58; companion not supplied.",
+        "cast": "Actual cast uses the current Broadway regular roster except the supplied performance-specific changes: Brad Greer as Victor Garber / Luigi, Tess Marshall as Molly Brown, Kyle Ramar Freeman as Tour Guide / The Seaman / Iceberg, Terrence Williams Jr. as Background Vocalist in Sara Gallo’s track, and Russell Daniels as temporary replacement Ruth.",
+        "covers": "Brad Greer, Tess Marshall, and Kyle Ramar Freeman are marked Understudy. Terrence Williams Jr. is marked Vacation Swing (V/S) and linked to Sara Gallo’s Background Vocalist track. Russell Daniels is marked Temporary Replacement.",
+        "conductor": "Isaac confirms Geoffrey Ko conducted.",
+        "production": "Production/program credits follow the current same-production Aug. 1 snapshot; performance-specific cast/conductor information is controlled by the Aug. 14 source.",
+        "performanceNote": "Improv / audience interaction: “Bye, Karoline!” audience singalong."
+      },
+      "notes": "At This Performance screenshots + Isaac direct track/status/conductor note; same-production program structure based on Aug. 1 snapshot.",
+      "id": 119
+    },
+    {
+      "performanceId": 1139,
+      "dateCaptured": "2026-08-16",
+      "sourceRef": 1359,
+      "sections": {
+        "attendance": "Saturday, August 15, 2026 at 8:00 PM; A 2; $49 Rush; attended with Alex Parra.",
+        "cast": "Marla Mindelle as Céline Dion; Russell Daniels as temporary replacement Ruth DeWitt Bukater; Deborah Cox as Molly Brown; Melissa Barrera as Rose DeWitt Bukater; Frankie Grande as Victor Garber / Luigi; John Riddle as Cal Hockley; Constantine Rousouli as Jack Dawson; Layton Williams as Tour Guide / The Seaman / Iceberg; Sara Gallo, Polanco Jones Jr., and Kristina Leopold as Background Vocalists.",
+        "covers": "Russell Daniels is marked Temporary Replacement. Current cover pool is retained as listed-only company information and is not counted as seen unless present in the actual cast.",
+        "production": "Production/program credits follow the current same-production Aug. 14 snapshot.",
+        "conductor": "No performance-specific conductor was supplied; none is inferred."
+      },
+      "notes": "Current same-production program structure carried forward; performance-specific attendance/cast controlled by Source 1359.",
+      "id": 120
     }
   ],
   "songLists": [
@@ -144163,6 +145684,364 @@
       "performers": [],
       "displayOrder": 29,
       "sourceRef": 1319
+    },
+    {
+      "id": 4032,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "No More Monsters",
+      "performers": [
+        "Lucy",
+        "Michael",
+        "Sam",
+        "Ensemble"
+      ],
+      "displayOrder": 1,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4033,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Lose Yourself",
+      "performers": [
+        "Michael",
+        "Ensemble"
+      ],
+      "displayOrder": 2,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4034,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Have to Have You",
+      "performers": [
+        "David",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Star",
+        "Michael",
+        "Ensemble"
+      ],
+      "displayOrder": 3,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4035,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Murder Capital of the World",
+      "performers": [
+        "Alan",
+        "Edgar",
+        "Ensemble"
+      ],
+      "displayOrder": 4,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4036,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Hurt a Little",
+      "performers": [
+        "Star",
+        "Michael"
+      ],
+      "displayOrder": 5,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4037,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Time to Kill",
+      "performers": [
+        "David",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 6,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4038,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "The Good Part",
+      "performers": [
+        "Lucy",
+        "Ensemble"
+      ],
+      "displayOrder": 7,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4039,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Now, Forever",
+      "performers": [
+        "Star",
+        "Michael"
+      ],
+      "displayOrder": 8,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4040,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Lost Boy",
+      "performers": [
+        "David",
+        "Michael",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 9,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4041,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "My Heart With You",
+      "performers": [
+        "David",
+        "Star",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 10,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4042,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Belong to Someone",
+      "performers": [
+        "Michael",
+        "David",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 11,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4043,
+      "performanceId": 1137,
+      "act": "Act I",
+      "location": "",
+      "title": "Secret Comes Out",
+      "performers": [
+        "David",
+        "Star",
+        "Michael",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 12,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4044,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "My Brother Is A…",
+      "performers": [
+        "Sam",
+        "Alan",
+        "Edgar",
+        "Ensemble"
+      ],
+      "displayOrder": 13,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4045,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Wild",
+      "performers": [
+        "Lucy",
+        "Max",
+        "Ensemble"
+      ],
+      "displayOrder": 14,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4046,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Belong To Someone (reprise)",
+      "performers": [
+        "David",
+        "Marko",
+        "Dwayne",
+        "Paul"
+      ],
+      "displayOrder": 15,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4047,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "You Belong to Me",
+      "performers": [
+        "Father",
+        "David",
+        "Marko",
+        "Dwayne",
+        "Paul",
+        "Ensemble"
+      ],
+      "displayOrder": 16,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4048,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "War",
+      "performers": [
+        "Star",
+        "Ensemble"
+      ],
+      "displayOrder": 17,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4049,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Mom’s Boyfriend Is A…",
+      "performers": [
+        "Alan",
+        "Edgar",
+        "Sam",
+        "Ensemble"
+      ],
+      "displayOrder": 18,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4050,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Lose Yourself (reprise)",
+      "performers": [
+        "Lucy",
+        "Michael",
+        "Star"
+      ],
+      "displayOrder": 19,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4051,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Michael",
+      "performers": [
+        "Lucy"
+      ],
+      "displayOrder": 20,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4052,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "Superpower",
+      "performers": [
+        "Sam",
+        "Ensemble"
+      ],
+      "displayOrder": 21,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4053,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "No More Monsters (reprise)",
+      "performers": [
+        "Sam",
+        "Alan",
+        "Edgar",
+        "Michael",
+        "Star",
+        "Ensemble"
+      ],
+      "displayOrder": 22,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4054,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "The Reckoning",
+      "performers": [
+        "David",
+        "Michael",
+        "Star",
+        "Max",
+        "Lucy",
+        "Ensemble"
+      ],
+      "displayOrder": 23,
+      "sourceRef": 1357
+    },
+    {
+      "id": 4055,
+      "performanceId": 1137,
+      "act": "Act II",
+      "location": "",
+      "title": "If We Make It Through the Night",
+      "performers": [
+        "Full Company"
+      ],
+      "displayOrder": 24,
+      "sourceRef": 1357
     }
   ],
   "expandedProductionStaff": [],
@@ -144689,12 +146568,12 @@
     {
       "performanceId": 1132,
       "personId": 8711,
-      "assignment": "Regular principal",
-      "assignmentType": "regular_principal",
-      "productionWide": true,
-      "sourceRef": 1346,
+      "assignment": "Temporary replacement",
+      "assignmentType": "temporary_replacement",
+      "productionWide": false,
+      "sourceRef": 1358,
       "role": "Ruth DeWitt Bukater",
-      "note": "Current company return documented by supplied welcome insert.",
+      "note": "Temporary replacement for Jim Parsons during the announced August 1–16 coverage period.",
       "id": 36
     },
     {
@@ -145197,6 +147076,50 @@
       "productionWide": true,
       "sourceRef": 1348,
       "note": "Printed company assignment; not evidence of an appearance at this attended performance."
+    },
+    {
+      "performanceId": 1138,
+      "personId": 7736,
+      "assignment": "Vacation swing",
+      "assignmentType": "vacation_swing",
+      "productionWide": true,
+      "sourceRef": 1358,
+      "role": "Iceberg / Jack Dawson / Victor Garber",
+      "note": "Printed current company assignment; not an actual appearance unless separately listed in cast.",
+      "id": 87
+    },
+    {
+      "performanceId": 1138,
+      "personId": 8711,
+      "assignment": "Temporary replacement",
+      "assignmentType": "temporary_replacement",
+      "productionWide": false,
+      "sourceRef": 1358,
+      "role": "Ruth DeWitt Bukater",
+      "note": "Temporary replacement for Jim Parsons during the announced August 1–16 coverage period.",
+      "id": 88
+    },
+    {
+      "performanceId": 1139,
+      "personId": 7736,
+      "assignment": "Vacation swing",
+      "assignmentType": "vacation_swing",
+      "productionWide": true,
+      "sourceRef": 1358,
+      "role": "Iceberg / Jack Dawson / Victor Garber",
+      "note": "Printed current company assignment; not an actual appearance unless separately listed in cast.",
+      "id": 89
+    },
+    {
+      "performanceId": 1139,
+      "personId": 8711,
+      "assignment": "Temporary replacement",
+      "assignmentType": "temporary_replacement",
+      "productionWide": false,
+      "sourceRef": 1359,
+      "role": "Ruth DeWitt Bukater",
+      "note": "Temporary replacement for Jim Parsons during the announced August 1–16 coverage period; onstage at this performance.",
+      "id": 90
     }
   ]
 }

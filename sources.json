@@ -3570,6 +3570,62 @@
         1136
       ],
       "programSourceRef": 1354
+    },
+    {
+      "title": "The Lost Boys — August 15, 2026 matinee, current Playbill/lobby board, and approved retroactive production cleanup",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-15",
+      "attendance": "Matinee; Orchestra Z 123; $45 USD; companion and ticket type not supplied.",
+      "actualCastSource": "Current printed cast page plus performance-specific lobby board supplied by Isaac. Lobby board confirms Liesie Kelly on as Star and Jacklyn Riha conducting.",
+      "programSource": "Current title page, cast/covers page, musical-numbers/captains page, and current production/staff pages supplied by Isaac.",
+      "files": [
+        "D668BB1B-79C3-419D-82FF-86EA509ED19F.jpeg",
+        "8C561682-02F2-45B0-9970-A7E170F0F798.jpeg",
+        "E83EBB7D-35B7-40D0-A9FC-38590EEBE0E9.jpeg",
+        "E5B6E26E-D489-4218-9AF3-11819A7BF49F.jpeg",
+        "F18E7055-6D62-4219-A785-9851BE3C00B1.jpeg",
+        "DC397380-5D29-4904-9356-3A9FC56F512D.jpeg",
+        "35A5D1CE-FB5F-4F41-A69D-36846AAA7448.jpeg",
+        "DB6B98B0-27A0-4B8B-B7AA-95327B702BE6.jpeg"
+      ],
+      "officialCorroboration": "IBDB current Broadway production page corroborates the production-wide producer roster, principal creative team, Kyler England spelling, and original/regular production staffing. Current user-supplied program controls the Aug. 15 performance-specific cast, conductor, and current stage-management roster.",
+      "retroactiveDirection": "Isaac explicitly authorized updates that make sense retroactively. Production-wide producer credits and the verified Kyler England spelling are applied to prior Cuebook attendances of this same Broadway production. Current mutable crew/stage-management assignments are not backdated without evidence."
+    },
+    {
+      "title": "Titanique — August 14, 2026 attendance, performance substitutions, conductor, and audience-improv note",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-15",
+      "attendance": "Friday, August 14, 2026 at 7:30 PM; C 14; Theatr App; $58 USD; companion not supplied.",
+      "actualCastSource": "Playbill At This Performance screenshots supplied by Isaac identify Brad Greer as Victor Garber/Luigi, Tess Marshall as Molly Brown, Kyle Ramar Freeman as Tour Guide/The Seaman/Iceberg, and Terrence Williams Jr. as Background Vocalist. Isaac directly confirms Terrence was in Sara Gallo’s Background Vocalist track, Russell Daniels remained the temporary replacement Ruth, and Geoffrey Ko conducted.",
+      "regularRosterCorroboration": "Current official Broadway Titanique cast materials list Marla Mindelle (Celine Dion), Melissa Barrera (Rose), Deborah Cox (Molly), Frankie Grande (Victor/Luigi), Jim Parsons (Ruth), John Riddle (Cal), Constantine Rousouli (Jack), Layton Williams (Iceberg), with Sara Gallo, Polanco Jones Jr., and Kristina Leopold as Background Vocalists; July 27, 2026 published company notice documents Russell Daniels covering Ruth Aug. 1–16 and Terrence Williams Jr. joining as Vacation Swing.",
+      "files": [
+        "8AE78244-602B-49AF-B7EB-BACDA20E1719.jpeg",
+        "F2107CB4-07D8-48AF-BAC7-165B108F9C44.png"
+      ],
+      "performanceSpecificChanges": [
+        "Brad Greer — Victor Garber / Luigi — Understudy",
+        "Tess Marshall — Molly Brown — Understudy",
+        "Kyle Ramar Freeman — Tour Guide / The Seaman / Iceberg — Understudy",
+        "Terrence Williams Jr. — Background Vocalist — Vacation Swing (V/S), in Sara Gallo’s track",
+        "Russell Daniels — Ruth DeWitt Bukater — Temporary Replacement",
+        "Geoffrey Ko — Conductor"
+      ],
+      "performanceNote": "Improv / audience interaction: “Bye, Karoline!” audience singalong.",
+      "retroactiveCorrection": "The August 1, 2026 Russell Daniels Ruth appearance is corrected to Temporary Replacement, consistent with Isaac’s direct description and the published Aug. 1–16 coverage period.",
+      "displayRule": "Vacation Swing should display compactly as V/S; Vacation Cover remains distinct as V/C."
+    },
+    {
+      "title": "Titanique — August 15, 2026 evening attendance and cast",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-16",
+      "attendance": "Saturday, August 15, 2026 evening; Row A, Seat 2; $49 USD Rush; attended with Alex Parra.",
+      "actualCastSource": "Isaac directly confirms Sara Gallo was back in the performance. Recast performance record for Saturday, August 15, 2026 at 8:00 PM corroborates the full on-stage lineup: Marla Mindelle, Russell Daniels, Deborah Cox, Melissa Barrera, Frankie Grande, John Riddle, Constantine Rousouli, Layton Williams, Sara Gallo, Kristina Leopold, and Polanco Jones Jr.",
+      "scheduleCorroboration": "Official Titanique Broadway schedule lists Saturday, August 15, 2026 performances at 3:00 PM and 8:00 PM; Isaac described this attendance as tonight/evening, so the performance is the 8:00 PM show.",
+      "externalSources": [
+        "https://titaniquebroadway.com/",
+        "https://www.recast.show/shows/titanique-broadway/2026-08-15-evening"
+      ],
+      "notes": "No conductor or performance-specific improv note was supplied for this attendance. Production/program structure is carried from the current same-production snapshot, but orchestra roster is not treated as proof of the actual conductor or pit personnel."
     }
   ]
 }

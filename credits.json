@@ -108982,28 +108982,28 @@
       "performanceId": 1021,
       "personId": 2489,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 15989,
       "performanceId": 1021,
       "personId": 16199,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 15990,
       "performanceId": 1021,
       "personId": 10805,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 15991,
       "performanceId": 1021,
       "personId": 16200,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 15992,
@@ -109173,28 +109173,28 @@
       "performanceId": 1088,
       "personId": 2489,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 16016,
       "performanceId": 1088,
       "personId": 16199,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 16017,
       "performanceId": 1088,
       "personId": 10805,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 16018,
       "performanceId": 1088,
       "personId": 16200,
       "credit": "Orchestrations & Arrangements",
-      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kylter England"
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England"
     },
     {
       "id": 16019,
@@ -122865,6 +122865,472 @@
       "credit": "Piano-Conductor",
       "raw": "Elizabeth Doran",
       "sourceRef": 1354
+    },
+    {
+      "id": 17689,
+      "performanceId": 1137,
+      "personId": 9334,
+      "credit": "Book",
+      "raw": "David Hornsby and Chris Hoch",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17690,
+      "performanceId": 1137,
+      "personId": 3945,
+      "credit": "Book",
+      "raw": "David Hornsby and Chris Hoch",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17691,
+      "performanceId": 1137,
+      "personId": 9335,
+      "credit": "Music",
+      "raw": "The Rescues",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17692,
+      "performanceId": 1137,
+      "personId": 9335,
+      "credit": "Lyrics",
+      "raw": "The Rescues",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17693,
+      "performanceId": 1137,
+      "personId": 4209,
+      "credit": "Director",
+      "raw": "Michael Arden",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17694,
+      "performanceId": 1137,
+      "personId": 8832,
+      "credit": "Choreography & Aerial Choreography",
+      "raw": "Lauren Yalango-Grant and Christopher Cree Grant",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17695,
+      "performanceId": 1137,
+      "personId": 8833,
+      "credit": "Choreography & Aerial Choreography",
+      "raw": "Lauren Yalango-Grant and Christopher Cree Grant",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17696,
+      "performanceId": 1137,
+      "personId": 2489,
+      "credit": "Music Supervision",
+      "raw": "Ethan Popp",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17697,
+      "performanceId": 1137,
+      "personId": 9336,
+      "credit": "Music Director",
+      "raw": "Julie McBride",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17698,
+      "performanceId": 1137,
+      "personId": 4212,
+      "credit": "Scenic Design",
+      "raw": "Dane Laffrey",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17699,
+      "performanceId": 1137,
+      "personId": 9337,
+      "credit": "Costume Design",
+      "raw": "Ryan Park",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17700,
+      "performanceId": 1137,
+      "personId": 1876,
+      "credit": "Lighting Design",
+      "raw": "Jen Schriever and Michael Arden",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17701,
+      "performanceId": 1137,
+      "personId": 4209,
+      "credit": "Lighting Design",
+      "raw": "Jen Schriever and Michael Arden",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17702,
+      "performanceId": 1137,
+      "personId": 7726,
+      "credit": "Sound Design",
+      "raw": "Adam Fisher",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17703,
+      "performanceId": 1137,
+      "personId": 243,
+      "credit": "Hair & Wig Design",
+      "raw": "David Brian Brown",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17704,
+      "performanceId": 1137,
+      "personId": 9338,
+      "credit": "Makeup Design",
+      "raw": "Christina Grant",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17705,
+      "performanceId": 1137,
+      "personId": 16197,
+      "credit": "Aerial Design",
+      "raw": "Gwyneth Larsen and Billy Mulholland",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17706,
+      "performanceId": 1137,
+      "personId": 16198,
+      "credit": "Aerial Design",
+      "raw": "Gwyneth Larsen and Billy Mulholland",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17707,
+      "performanceId": 1137,
+      "credit": "Fight Direction",
+      "raw": "Sordelet Inc.",
+      "organizationIds": [
+        987
+      ],
+      "sourceRef": 1357
+    },
+    {
+      "id": 17708,
+      "performanceId": 1137,
+      "personId": 9958,
+      "credit": "Special Effects Design",
+      "raw": "Markus Maurette",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17709,
+      "performanceId": 1137,
+      "personId": 2489,
+      "credit": "Orchestrations & Arrangements",
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17710,
+      "performanceId": 1137,
+      "personId": 16199,
+      "credit": "Orchestrations & Arrangements",
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17711,
+      "performanceId": 1137,
+      "personId": 10805,
+      "credit": "Orchestrations & Arrangements",
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17712,
+      "performanceId": 1137,
+      "personId": 16200,
+      "credit": "Orchestrations & Arrangements",
+      "raw": "Ethan Popp, Adrianne \"AG\" Gonzalez, Gabriel Mann, Kyler England",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17713,
+      "performanceId": 1137,
+      "personId": 9335,
+      "credit": "Vocal Arrangements",
+      "raw": "The Rescues",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17714,
+      "performanceId": 1137,
+      "personId": 16201,
+      "credit": "Dramaturgy",
+      "raw": "Jenna Clark Embrey",
+      "sourceRef": 1357
+    },
+    {
+      "id": 17715,
+      "performanceId": 1137,
+      "personId": 11964,
+      "credit": "Casting",
+      "raw": "The Telsey Office; Kristian Charbonier, CSA",
+      "sourceRef": 1357
+    },
+    {
+      "performanceId": 1137,
+      "personId": 16202,
+      "credit": "Conductor",
+      "raw": "Jacklyn Riha — conductor at this performance",
+      "sourceRef": 1357,
+      "id": 17716
+    },
+    {
+      "id": 17717,
+      "performanceId": 1138,
+      "personId": 7737,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17718,
+      "performanceId": 1138,
+      "personId": 502,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17719,
+      "performanceId": 1138,
+      "personId": 7738,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17720,
+      "performanceId": 1138,
+      "personId": 7283,
+      "credit": "Choreographer",
+      "raw": "Ellenore Scott",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17721,
+      "performanceId": 1138,
+      "personId": 6243,
+      "credit": "Conductor",
+      "raw": "Geoffrey Ko",
+      "sourceRef": 1042
+    },
+    {
+      "id": 17722,
+      "performanceId": 1138,
+      "personId": 2209,
+      "credit": "Costume Design",
+      "raw": "Alejo Vietti",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17723,
+      "performanceId": 1138,
+      "personId": 7737,
+      "credit": "Director",
+      "raw": "Tye Blue",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17724,
+      "performanceId": 1138,
+      "personId": 378,
+      "credit": "Hair/Wig",
+      "raw": "Charles G. LaPointe",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17725,
+      "performanceId": 1138,
+      "personId": 7742,
+      "credit": "Lighting Design",
+      "raw": "Paige Seber",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17726,
+      "performanceId": 1138,
+      "personId": 9257,
+      "credit": "Music",
+      "raw": "Céline Dion",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17727,
+      "performanceId": 1138,
+      "personId": 6243,
+      "credit": "Music Director",
+      "raw": "Geoffrey Ko",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17728,
+      "performanceId": 1138,
+      "personId": 7740,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17729,
+      "performanceId": 1138,
+      "personId": 8004,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17730,
+      "performanceId": 1138,
+      "personId": 9258,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17731,
+      "performanceId": 1138,
+      "personId": 7743,
+      "credit": "Sound Design",
+      "raw": "Lawrence Schober",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17732,
+      "performanceId": 1139,
+      "personId": 7737,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17733,
+      "performanceId": 1139,
+      "personId": 502,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17734,
+      "performanceId": 1139,
+      "personId": 7738,
+      "credit": "Book",
+      "raw": "Tye Blue & Marla Mindelle & Constantine Rousouli",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17735,
+      "performanceId": 1139,
+      "personId": 7283,
+      "credit": "Choreographer",
+      "raw": "Ellenore Scott",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17736,
+      "performanceId": 1139,
+      "personId": 6243,
+      "credit": "Conductor",
+      "raw": "Geoffrey Ko",
+      "sourceRef": 1042
+    },
+    {
+      "id": 17737,
+      "performanceId": 1139,
+      "personId": 2209,
+      "credit": "Costume Design",
+      "raw": "Alejo Vietti",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17738,
+      "performanceId": 1139,
+      "personId": 7737,
+      "credit": "Director",
+      "raw": "Tye Blue",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17739,
+      "performanceId": 1139,
+      "personId": 378,
+      "credit": "Hair/Wig",
+      "raw": "Charles G. LaPointe",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17740,
+      "performanceId": 1139,
+      "personId": 7742,
+      "credit": "Lighting Design",
+      "raw": "Paige Seber",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17741,
+      "performanceId": 1139,
+      "personId": 9257,
+      "credit": "Music",
+      "raw": "Céline Dion",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17742,
+      "performanceId": 1139,
+      "personId": 6243,
+      "credit": "Music Director",
+      "raw": "Geoffrey Ko",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17743,
+      "performanceId": 1139,
+      "personId": 7740,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17744,
+      "performanceId": 1139,
+      "personId": 8004,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17745,
+      "performanceId": 1139,
+      "personId": 9258,
+      "credit": "Scenic Design",
+      "raw": "Gabriel Hainer Evansohn & Grace Laubacher & Iron Bloom Creative Production",
+      "sourceRef": 1041
+    },
+    {
+      "id": 17746,
+      "performanceId": 1139,
+      "personId": 7743,
+      "credit": "Sound Design",
+      "raw": "Lawrence Schober",
+      "sourceRef": 1041
     }
   ],
   "aboveTitleProducers": [
@@ -134799,6 +135265,1845 @@
       "organizationIds": [],
       "sourceRef": 1356,
       "category": "Producer"
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Lead Producer",
+      "personIds": [
+        19918,
+        19919,
+        19920
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "id": 1081
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        170
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James L. Nederlander",
+      "id": 1082
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        390
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "At Rise Creative",
+      "id": 1083
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1333
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Ayesha & Stephen Curry",
+      "id": 1084
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1334
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Lauren Shuler Donner",
+      "id": 1085
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1335
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Neil Patrick Harris",
+      "id": 1086
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1336
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Douglas Sills",
+      "id": 1087
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1337
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Slash",
+      "id": 1088
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1338
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Kiefer Sutherland",
+      "id": 1089
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1339
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Steve Young",
+      "id": 1090
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1340
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Amy & Grady Burnett",
+      "id": 1091
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1341
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Allison Bloom & Gabriel Mann",
+      "id": 1092
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1342
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Hunter Arnold / Broadway Strategic Return Fund",
+      "id": 1093
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        6
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Eastern Standard Time",
+      "id": 1094
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1343
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "DJD Productions / ZK Productions",
+      "id": 1095
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1344
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jay Marcus / Carl Moellenberg",
+      "id": 1096
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1345
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stark Sands",
+      "id": 1097
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1346
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jordan Silver / Kerri Mandelbaum",
+      "id": 1098
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1347
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James Bolosh & Hillary Wyatt",
+      "id": 1099
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1348
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Decca Broadway / Federal Films",
+      "id": 1100
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        189
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Creative Partners Productions",
+      "id": 1101
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        30
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Independent Presenters Network",
+      "id": 1102
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        51
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The John Gore Organization",
+      "id": 1103
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1349
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stewart F. Lane / Bonnie Comley / Leah Lane",
+      "id": 1104
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1350
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Greg & Lisa Love",
+      "id": 1105
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1351
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "MacPac Entertainment",
+      "id": 1106
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1352
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Murray Entertainment, Inc.",
+      "id": 1107
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1353
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Oddly Specific Productions",
+      "id": 1108
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        391
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The Shubert Organization",
+      "id": 1109
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1354
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Toho Co. Ltd.",
+      "id": 1110
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1355
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "We R Broadway Artists Alliance",
+      "id": 1111
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        772
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stage Entertainment",
+      "id": 1112
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1356
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Carrie & Joe Staley",
+      "id": 1113
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1357
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "W Thompson Family",
+      "id": 1114
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1358
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Drew Elhamalawy / Kirsten & David Abdo",
+      "id": 1115
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1359
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Brandon Blaser / Davis-Carroll",
+      "id": 1116
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1360
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Crossroads Live / Marla McNally Phillips",
+      "id": 1117
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1361
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Anthony & Maria Diaco / D’Angora Padgett Productions",
+      "id": 1118
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1362
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nancy Glass / Handler-Pawliuk Family",
+      "id": 1119
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1363
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Grove Entertainment / KLive Entertainment",
+      "id": 1120
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1364
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Howard-DePhillips / Jamie Stone O’Brien",
+      "id": 1121
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1365
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Pam Hurst-Della Pietra & Stephen Della Pietra / Polly & Ed Han",
+      "id": 1122
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1366
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Willette Klausner / Waikit Lau",
+      "id": 1123
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1367
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Knudsen-Weissberger Productions / April Dovey Productions",
+      "id": 1124
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1368
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nabatoff-Caise / Sean Nyberg",
+      "id": 1125
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1369
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Andy Raab / Ratelle-Eliason",
+      "id": 1126
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1370
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Orfeh / Braedon Young",
+      "id": 1127
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1371
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "David & Megan Scacco / Jason & Sarah Sobel",
+      "id": 1128
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1372
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jason Taylor / Michael Graf",
+      "id": 1129
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1373
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "An 11:11 Experience",
+      "id": 1130
+    },
+    {
+      "performanceId": 1021,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        28
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Warner Bros. Theatre Ventures",
+      "id": 1131
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Lead Producer",
+      "personIds": [
+        19918,
+        19919,
+        19920
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "id": 1132
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        170
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James L. Nederlander",
+      "id": 1133
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        390
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "At Rise Creative",
+      "id": 1134
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1333
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Ayesha & Stephen Curry",
+      "id": 1135
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1334
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Lauren Shuler Donner",
+      "id": 1136
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1335
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Neil Patrick Harris",
+      "id": 1137
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1336
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Douglas Sills",
+      "id": 1138
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1337
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Slash",
+      "id": 1139
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1338
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Kiefer Sutherland",
+      "id": 1140
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1339
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Steve Young",
+      "id": 1141
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1340
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Amy & Grady Burnett",
+      "id": 1142
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1341
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Allison Bloom & Gabriel Mann",
+      "id": 1143
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1342
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Hunter Arnold / Broadway Strategic Return Fund",
+      "id": 1144
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        6
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Eastern Standard Time",
+      "id": 1145
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1343
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "DJD Productions / ZK Productions",
+      "id": 1146
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1344
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jay Marcus / Carl Moellenberg",
+      "id": 1147
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1345
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stark Sands",
+      "id": 1148
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1346
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jordan Silver / Kerri Mandelbaum",
+      "id": 1149
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1347
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James Bolosh & Hillary Wyatt",
+      "id": 1150
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1348
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Decca Broadway / Federal Films",
+      "id": 1151
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        189
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Creative Partners Productions",
+      "id": 1152
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        30
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Independent Presenters Network",
+      "id": 1153
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        51
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The John Gore Organization",
+      "id": 1154
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1349
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stewart F. Lane / Bonnie Comley / Leah Lane",
+      "id": 1155
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1350
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Greg & Lisa Love",
+      "id": 1156
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1351
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "MacPac Entertainment",
+      "id": 1157
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1352
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Murray Entertainment, Inc.",
+      "id": 1158
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1353
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Oddly Specific Productions",
+      "id": 1159
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        391
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The Shubert Organization",
+      "id": 1160
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1354
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Toho Co. Ltd.",
+      "id": 1161
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1355
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "We R Broadway Artists Alliance",
+      "id": 1162
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        772
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stage Entertainment",
+      "id": 1163
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1356
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Carrie & Joe Staley",
+      "id": 1164
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1357
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "W Thompson Family",
+      "id": 1165
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1358
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Drew Elhamalawy / Kirsten & David Abdo",
+      "id": 1166
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1359
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Brandon Blaser / Davis-Carroll",
+      "id": 1167
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1360
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Crossroads Live / Marla McNally Phillips",
+      "id": 1168
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1361
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Anthony & Maria Diaco / D’Angora Padgett Productions",
+      "id": 1169
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1362
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nancy Glass / Handler-Pawliuk Family",
+      "id": 1170
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1363
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Grove Entertainment / KLive Entertainment",
+      "id": 1171
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1364
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Howard-DePhillips / Jamie Stone O’Brien",
+      "id": 1172
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1365
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Pam Hurst-Della Pietra & Stephen Della Pietra / Polly & Ed Han",
+      "id": 1173
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1366
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Willette Klausner / Waikit Lau",
+      "id": 1174
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1367
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Knudsen-Weissberger Productions / April Dovey Productions",
+      "id": 1175
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1368
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nabatoff-Caise / Sean Nyberg",
+      "id": 1176
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1369
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Andy Raab / Ratelle-Eliason",
+      "id": 1177
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1370
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Orfeh / Braedon Young",
+      "id": 1178
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1371
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "David & Megan Scacco / Jason & Sarah Sobel",
+      "id": 1179
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1372
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jason Taylor / Michael Graf",
+      "id": 1180
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1373
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "An 11:11 Experience",
+      "id": 1181
+    },
+    {
+      "performanceId": 1088,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        28
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Warner Bros. Theatre Ventures",
+      "id": 1182
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Lead Producer",
+      "personIds": [
+        19918,
+        19919,
+        19920
+      ],
+      "organizationIds": [],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "id": 1183
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        170
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James L. Nederlander",
+      "id": 1184
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        390
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "At Rise Creative",
+      "id": 1185
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1333
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Ayesha & Stephen Curry",
+      "id": 1186
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1334
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Lauren Shuler Donner",
+      "id": 1187
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1335
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Neil Patrick Harris",
+      "id": 1188
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1336
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Douglas Sills",
+      "id": 1189
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1337
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Slash",
+      "id": 1190
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1338
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Kiefer Sutherland",
+      "id": 1191
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1339
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Steve Young",
+      "id": 1192
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1340
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Amy & Grady Burnett",
+      "id": 1193
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1341
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Allison Bloom & Gabriel Mann",
+      "id": 1194
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1342
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Hunter Arnold / Broadway Strategic Return Fund",
+      "id": 1195
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        6
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Eastern Standard Time",
+      "id": 1196
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1343
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "DJD Productions / ZK Productions",
+      "id": 1197
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1344
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jay Marcus / Carl Moellenberg",
+      "id": 1198
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1345
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stark Sands",
+      "id": 1199
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1346
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jordan Silver / Kerri Mandelbaum",
+      "id": 1200
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1347
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "James Bolosh & Hillary Wyatt",
+      "id": 1201
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1348
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Decca Broadway / Federal Films",
+      "id": 1202
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        189
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Creative Partners Productions",
+      "id": 1203
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        30
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Independent Presenters Network",
+      "id": 1204
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        51
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The John Gore Organization",
+      "id": 1205
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1349
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stewart F. Lane / Bonnie Comley / Leah Lane",
+      "id": 1206
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1350
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Greg & Lisa Love",
+      "id": 1207
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1351
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "MacPac Entertainment",
+      "id": 1208
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1352
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Murray Entertainment, Inc.",
+      "id": 1209
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1353
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Oddly Specific Productions",
+      "id": 1210
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        391
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "The Shubert Organization",
+      "id": 1211
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1354
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Toho Co. Ltd.",
+      "id": 1212
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1355
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "We R Broadway Artists Alliance",
+      "id": 1213
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        772
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Stage Entertainment",
+      "id": 1214
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1356
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Carrie & Joe Staley",
+      "id": 1215
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1357
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "W Thompson Family",
+      "id": 1216
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1358
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Drew Elhamalawy / Kirsten & David Abdo",
+      "id": 1217
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1359
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Brandon Blaser / Davis-Carroll",
+      "id": 1218
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1360
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Crossroads Live / Marla McNally Phillips",
+      "id": 1219
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1361
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Anthony & Maria Diaco / D’Angora Padgett Productions",
+      "id": 1220
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1362
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nancy Glass / Handler-Pawliuk Family",
+      "id": 1221
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1363
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Grove Entertainment / KLive Entertainment",
+      "id": 1222
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1364
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Howard-DePhillips / Jamie Stone O’Brien",
+      "id": 1223
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1365
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Pam Hurst-Della Pietra & Stephen Della Pietra / Polly & Ed Han",
+      "id": 1224
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1366
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Willette Klausner / Waikit Lau",
+      "id": 1225
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1367
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Knudsen-Weissberger Productions / April Dovey Productions",
+      "id": 1226
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1368
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Nabatoff-Caise / Sean Nyberg",
+      "id": 1227
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1369
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Andy Raab / Ratelle-Eliason",
+      "id": 1228
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1370
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Orfeh / Braedon Young",
+      "id": 1229
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1371
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "David & Megan Scacco / Jason & Sarah Sobel",
+      "id": 1230
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1372
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Jason Taylor / Michael Graf",
+      "id": 1231
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        1373
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "An 11:11 Experience",
+      "id": 1232
+    },
+    {
+      "performanceId": 1137,
+      "credit": "Co-Producer",
+      "personIds": [],
+      "organizationIds": [
+        28
+      ],
+      "sourceRef": 1357,
+      "category": "Producer",
+      "raw": "Warner Bros. Theatre Ventures",
+      "id": 1233
     }
   ],
   "presentingOrganizations": [
@@ -139198,6 +141503,11 @@
       "performanceId": 1136,
       "personId": 11938,
       "sourceRef": 1354
+    },
+    {
+      "id": 609,
+      "performanceId": 1139,
+      "personId": 18855
     }
   ]
 }

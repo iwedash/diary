@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_196_FULL_UPLOAD.zip",
-    "generated": "2026-08-13T12:01:00-04:00",
-    "rowCount": 1134,
-    "performanceCount": 1134,
-    "peopleCount": 19329,
+    "sourceFile": "Cuebook_Build_200_FULL_UPLOAD.zip",
+    "generated": "2026-08-16T00:15:00-04:00",
+    "rowCount": 1137,
+    "performanceCount": 1137,
+    "peopleCount": 19379,
     "showCount": 500,
     "venueCount": 189,
     "roleCount": 5906,
-    "appearanceCount": 18696,
-    "creativeCreditCount": 16882,
-    "notesCount": 468,
-    "updated": "2026-08-13",
-    "notes": "Added The 25th Annual Putnam County Spelling Bee — August 12, 2026 from Isaac-supplied current program/lobby board; corrected & Juliet August 11 seat/ticket details.",
+    "appearanceCount": 18740,
+    "creativeCreditCount": 16940,
+    "notesCount": 469,
+    "updated": "2026-08-16",
+    "notes": "Added Titanique Broadway 2026-08-15 evening attendance with Alex Parra, A 2, $49 Rush, and verified current cast with Sara Gallo back in.",
     "updatedBy": "OpenAI / Isaac direct implementation",
-    "updatedAt": "2026-08-13T09:50:00-04:00",
+    "updatedAt": "2026-08-16T00:15:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "theatre-dashboard-v15-VERIFIED.zip",
-    "version": "v13.23.0",
-    "build": "json-b198",
-    "buildTime": "2026-08-13T09:50:00-04:00",
-    "buildDate": "2026-08-13",
+    "version": "v13.26.0",
+    "build": "json-b201",
+    "buildTime": "2026-08-16T00:15:00-04:00",
+    "buildDate": "2026-08-16",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "13.22.0",
-    "lastUpdated": "2026-08-13",
+    "buildVersion": "13.26.0",
+    "lastUpdated": "2026-08-16",
     "normalizationMerged": true,
     "roleMergeCount": 51,
     "principalRulesUpdated": true,
@@ -67,7 +67,7 @@
       "sourceRef": 0,
       "verifiedField": "conductorVerified"
     },
-    "lastUpdatedNote": "Build 197 adds Spelling Bee on August 12, 2026 and updates & Juliet on August 11, 2026 to F 3 / Comp.",
+    "lastUpdatedNote": "Build 201 adds Titanique Broadway on August 15, 2026 evening: A 2, $49 Rush, with Alex Parra; Sara Gallo back in the regular Background Vocalist lineup; Russell Daniels remains Temporary Replacement Ruth.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -496,6 +496,35 @@
         "version": "v13.21.0",
         "date": "2026-08-11",
         "notes": "Build 196: Heathers Kiara Michelle Lee temporary-replacement corrections and principal-only grid normalization; added & Juliet 2026-08-11 with Aaron Byrnes, ATP cast, and actual band."
+      },
+      {
+        "build200Titanique": {
+          "sourceBase": "json-b199",
+          "dataChanged": true,
+          "uiChanged": true,
+          "sourceRef": 1358,
+          "newPerformanceId": 1138,
+          "newPerformance": "Titanique — 2026-08-14 — Broadway",
+          "seat": "C 14",
+          "ticketType": "Theatr App",
+          "ticketPrice": 58,
+          "performanceSpecificCovers": [
+            "Brad Greer — u/s Victor Garber / Luigi",
+            "Tess Marshall — u/s Molly Brown",
+            "Kyle Ramar Freeman — u/s Tour Guide / The Seaman / Iceberg",
+            "Terrence Williams Jr. — V/S Background Vocalist in Sara Gallo track",
+            "Russell Daniels — t/r Ruth DeWitt Bukater"
+          ],
+          "conductor": "Geoffrey Ko",
+          "performanceNote": "“Bye, Karoline!” audience singalong",
+          "retroactiveCorrection": "2026-08-01 Russell Daniels Ruth marked Temporary Replacement",
+          "uiChange": "Vacation Swing compact badge V/S; Vacation Cover V/C."
+        }
+      },
+      {
+        "version": "v13.26.0",
+        "date": "2026-08-16",
+        "notes": "Added Titanique Broadway 2026-08-15 evening attendance: A 2, $49 Rush, with Alex Parra; current actual cast corroborated, including Sara Gallo back in and Russell Daniels as temporary replacement Ruth. No conductor inferred."
       }
     ],
     "normalizationNotesV32604": {
@@ -81567,6 +81596,7 @@
       "name": "Scott Tusing",
       "kinds": [
         "creative",
+        "production",
         "staff"
       ],
       "sortName": "Scott Tusing"
@@ -87141,7 +87171,8 @@
       "sortName": "Lisa Preston",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "10601": {
@@ -87197,7 +87228,9 @@
       "name": "Rhiannon Randall",
       "sortName": "Rhiannon Randall",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "10610": {
@@ -87215,7 +87248,9 @@
       "name": "Patricia Masera",
       "sortName": "Patricia Masera",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "10612": {
@@ -87620,7 +87655,9 @@
       "kinds": [
         "creative",
         "musician",
-        "orchestra"
+        "orchestra",
+        "production",
+        "staff"
       ]
     },
     "10657": {
@@ -99364,7 +99401,9 @@
       "name": "Ben Fichthorn",
       "sortName": "Ben Fichthorn",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "11957": {
@@ -100673,6 +100712,7 @@
       "name": "Devin Keudell",
       "kinds": [
         "creative",
+        "producer",
         "production",
         "staff"
       ],
@@ -100693,7 +100733,8 @@
       "name": "Kate Egan",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ],
       "sortName": "Kate Egan"
     },
@@ -108204,6 +108245,7 @@
       "sortName": "Rebecca La Fazia",
       "kinds": [
         "creative",
+        "production",
         "staff"
       ]
     },
@@ -121229,7 +121271,9 @@
       "id": 14437,
       "name": "Gaven Wedemeyer",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ],
       "sortName": "Gaven Wedemeyer"
     },
@@ -134053,7 +134097,8 @@
       "sortName": "Jake Scudder",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "15886": {
@@ -134306,8 +134351,9 @@
       "name": "Ryan Hill",
       "sortName": "Ryan Hill",
       "kinds": [
+        "creative",
         "production",
-        "creative"
+        "staff"
       ]
     },
     "15914": {
@@ -136924,10 +136970,13 @@
     },
     "16200": {
       "id": 16200,
-      "name": "Kylter England",
-      "sortName": "Kylter England",
+      "name": "Kyler England",
+      "sortName": "Kyler England",
       "kinds": [
         "creative"
+      ],
+      "aliases": [
+        "Kylter England"
       ]
     },
     "16201": {
@@ -137090,9 +137139,9 @@
       "name": "Amy Castro",
       "sortName": "Amy Castro",
       "kinds": [
+        "creative",
         "production",
-        "staff",
-        "creative"
+        "staff"
       ]
     },
     "16218": {
@@ -138385,7 +138434,9 @@
       "sortName": "Sharon Ahn",
       "kinds": [
         "creative",
-        "musician"
+        "musician",
+        "production",
+        "staff"
       ]
     },
     "16366": {
@@ -138394,7 +138445,9 @@
       "sortName": "Jacob Rose",
       "kinds": [
         "creative",
-        "musician"
+        "musician",
+        "production",
+        "staff"
       ]
     },
     "16367": {
@@ -141545,7 +141598,8 @@
       "sortName": "Teruya, Karlie",
       "kinds": [
         "creative",
-        "production"
+        "production",
+        "staff"
       ]
     },
     "16707": {
@@ -142409,7 +142463,9 @@
       "name": "Taylor Courtney",
       "sortName": "Taylor Courtney",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "16812": {
@@ -142591,7 +142647,9 @@
       "name": "Kiana Alexander",
       "sortName": "Kiana Alexander",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "16834": {
@@ -142843,7 +142901,9 @@
       "name": "David Van Zyll de Jong",
       "sortName": "David Van Zyll de Jong",
       "kinds": [
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "16865": {
@@ -146283,9 +146343,9 @@
       "name": "Karissa Riehl",
       "sortName": "Karissa Riehl",
       "kinds": [
+        "creative",
         "production",
-        "staff",
-        "creative"
+        "staff"
       ]
     },
     "17265": {
@@ -155643,8 +155703,9 @@
       "name": "Amy Kaskeski",
       "sortName": "Amy Kaskeski",
       "kinds": [
-        "staff",
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "18252": {
@@ -157461,8 +157522,9 @@
       "name": "Jeannie Naughton",
       "sortName": "Jeannie Naughton",
       "kinds": [
-        "staff",
-        "creative"
+        "creative",
+        "production",
+        "staff"
       ]
     },
     "18462": {
@@ -159027,8 +159089,9 @@
       "name": "Zack Tomilo",
       "sortName": "Zack Tomilo",
       "kinds": [
+        "creative",
         "production",
-        "creative"
+        "staff"
       ]
     },
     "18642": {
@@ -159946,8 +160009,9 @@
       "name": "Lisa Moberly",
       "sortName": "Lisa Moberly",
       "kinds": [
+        "creative",
         "production",
-        "creative"
+        "staff"
       ]
     },
     "18745": {
@@ -166606,6 +166670,8 @@
       "name": "Sierra Hoss",
       "sortName": "Sierra Hoss",
       "kinds": [
+        "creative",
+        "production",
         "staff"
       ]
     },
@@ -169604,9 +169670,9 @@
       "name": "Harrison Freni",
       "sortName": "Harrison Freni",
       "kinds": [
+        "creative",
         "production",
-        "staff",
-        "creative"
+        "staff"
       ]
     },
     "19842": {
@@ -169881,6 +169947,513 @@
         "creative",
         "production",
         "staff"
+      ]
+    },
+    "19870": {
+      "id": 19870,
+      "name": "Stephen Nolan, PT, DPT",
+      "sortName": "Stephen Nolan, PT, DPT",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19871": {
+      "id": 19871,
+      "name": "Melody Hrubes, MD",
+      "sortName": "Melody Hrubes, MD",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19872": {
+      "id": 19872,
+      "name": "Alayo Oloko",
+      "sortName": "Alayo Oloko",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19873": {
+      "id": 19873,
+      "name": "Dave Fulton",
+      "sortName": "Dave Fulton",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19874": {
+      "id": 19874,
+      "name": "Michael L. Shepp, Jr.",
+      "sortName": "Michael L. Shepp, Jr.",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19875": {
+      "id": 19875,
+      "name": "Adam Farber",
+      "sortName": "Adam Farber",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19876": {
+      "id": 19876,
+      "name": "Steve Loehle",
+      "sortName": "Steve Loehle",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19877": {
+      "id": 19877,
+      "name": "Chris Pravata",
+      "sortName": "Chris Pravata",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19878": {
+      "id": 19878,
+      "name": "Will Hansen",
+      "sortName": "Will Hansen",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19879": {
+      "id": 19879,
+      "name": "Anastasia Sioris",
+      "sortName": "Anastasia Sioris",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19880": {
+      "id": 19880,
+      "name": "Erik Plath",
+      "sortName": "Erik Plath",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19881": {
+      "id": 19881,
+      "name": "Megan Frazier",
+      "sortName": "Megan Frazier",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19882": {
+      "id": 19882,
+      "name": "Stephanie Palmer",
+      "sortName": "Stephanie Palmer",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19883": {
+      "id": 19883,
+      "name": "Mike Wojchik",
+      "sortName": "Mike Wojchik",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19884": {
+      "id": 19884,
+      "name": "Allison Ebling",
+      "sortName": "Allison Ebling",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19885": {
+      "id": 19885,
+      "name": "Rob Bass",
+      "sortName": "Rob Bass",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19886": {
+      "id": 19886,
+      "name": "Vicki Ayers",
+      "sortName": "Vicki Ayers",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19887": {
+      "id": 19887,
+      "name": "Matt Mezick",
+      "sortName": "Matt Mezick",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19888": {
+      "id": 19888,
+      "name": "Pedro Montes De Oca Jr.",
+      "sortName": "Pedro Montes De Oca Jr.",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19889": {
+      "id": 19889,
+      "name": "Daniel DePaulo",
+      "sortName": "Daniel DePaulo",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19890": {
+      "id": 19890,
+      "name": "Jem Hodgson",
+      "sortName": "Jem Hodgson",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19891": {
+      "id": 19891,
+      "name": "Jay Gil",
+      "sortName": "Jay Gil",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19892": {
+      "id": 19892,
+      "name": "LJ Behlmann",
+      "sortName": "LJ Behlmann",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19893": {
+      "id": 19893,
+      "name": "Travis Bihn",
+      "sortName": "Travis Bihn",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19894": {
+      "id": 19894,
+      "name": "Phylistia Nikki Phillips",
+      "sortName": "Phylistia Nikki Phillips",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19895": {
+      "id": 19895,
+      "name": "Steph Cathro",
+      "sortName": "Steph Cathro",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19896": {
+      "id": 19896,
+      "name": "Antoinette Massiah",
+      "sortName": "Antoinette Massiah",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19897": {
+      "id": 19897,
+      "name": "Jill Sawyer",
+      "sortName": "Jill Sawyer",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19898": {
+      "id": 19898,
+      "name": "Cherice Simmons",
+      "sortName": "Cherice Simmons",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19899": {
+      "id": 19899,
+      "name": "Jalyn Riggleman",
+      "sortName": "Jalyn Riggleman",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19900": {
+      "id": 19900,
+      "name": "Jill A. Valentine",
+      "sortName": "Jill A. Valentine",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19901": {
+      "id": 19901,
+      "name": "Kevin Leahy",
+      "sortName": "Kevin Leahy",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19902": {
+      "id": 19902,
+      "name": "Lexey Glouberman",
+      "sortName": "Lexey Glouberman",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19903": {
+      "id": 19903,
+      "name": "Pedro Hernandez",
+      "sortName": "Pedro Hernandez",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19904": {
+      "id": 19904,
+      "name": "Rebecca Magazine",
+      "sortName": "Rebecca Magazine",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19905": {
+      "id": 19905,
+      "name": "Janet Billig Rich",
+      "sortName": "Janet Billig Rich",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19906": {
+      "id": 19906,
+      "name": "Valerie Joan Braatten",
+      "sortName": "Valerie Joan Braatten",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19907": {
+      "id": 19907,
+      "name": "Sam Nasar",
+      "sortName": "Sam Nasar",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19908": {
+      "id": 19908,
+      "name": "Scott Bartlof",
+      "sortName": "Scott Bartlof",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19909": {
+      "id": 19909,
+      "name": "Anthony W Moore",
+      "sortName": "Anthony W Moore",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19910": {
+      "id": 19910,
+      "name": "Lara Waldner, CPA",
+      "sortName": "Lara Waldner, CPA",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19911": {
+      "id": 19911,
+      "name": "Jessica Anigpeye",
+      "sortName": "Jessica Anigpeye",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19912": {
+      "id": 19912,
+      "name": "Jae Weit",
+      "sortName": "Jae Weit",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19913": {
+      "id": 19913,
+      "name": "Madeleine DiGaetano",
+      "sortName": "Madeleine DiGaetano",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19914": {
+      "id": 19914,
+      "name": "Ava Moye",
+      "sortName": "Ava Moye",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19915": {
+      "id": 19915,
+      "name": "Tiffanie A. Claude",
+      "sortName": "Tiffanie A. Claude",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19916": {
+      "id": 19916,
+      "name": "Kaylee McNitt",
+      "sortName": "Kaylee McNitt",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19917": {
+      "id": 19917,
+      "name": "Deric Rosenblatt",
+      "sortName": "Deric Rosenblatt",
+      "kinds": [
+        "production",
+        "staff",
+        "creative"
+      ]
+    },
+    "19918": {
+      "id": 19918,
+      "name": "James Carpinello",
+      "sortName": "James Carpinello",
+      "kinds": [
+        "producer",
+        "creative"
+      ]
+    },
+    "19919": {
+      "id": 19919,
+      "name": "Marcus Chait",
+      "sortName": "Marcus Chait",
+      "kinds": [
+        "producer",
+        "creative"
+      ]
+    },
+    "19920": {
+      "id": 19920,
+      "name": "Patrick Wilson",
+      "sortName": "Patrick Wilson",
+      "kinds": [
+        "producer",
+        "creative"
       ]
     }
   },
@@ -216044,7 +216617,12 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Current entry updated from Playbill Vault screenshots; no at-this-performance substitution slip supplied, so cover pool is listed-only metadata.",
-      "sourceRef": 886
+      "sourceRef": 886,
+      "performanceMetadata": {
+        "producerRosterSourceRef": 1357,
+        "productionWideProducerRosterConfirmed": "Current Aug. 15 Playbill + IBDB; applied retroactively at Isaac’s direction.",
+        "canonicalSpellingCorrection": "Kyler England (prior Cuebook typo: Kylter England), confirmed by current Playbill and IBDB."
+      }
     },
     "1022": {
       "id": 1022,
@@ -217185,7 +217763,12 @@
       "ticketCurrency": "USD",
       "ticketType": "Partial View",
       "startTime": "8:00 PM",
-      "curtainTime": "8:00 PM"
+      "curtainTime": "8:00 PM",
+      "performanceMetadata": {
+        "producerRosterSourceRef": 1357,
+        "productionWideProducerRosterConfirmed": "Current Aug. 15 Playbill + IBDB; applied retroactively at Isaac’s direction.",
+        "canonicalSpellingCorrection": "Kyler England (prior Cuebook typo: Kylter England), confirmed by current Playbill and IBDB."
+      }
     },
     "1089": {
       "id": 1089,
@@ -218721,7 +219304,7 @@
       "venueId": 26,
       "type": "Broadway",
       "time": "Evening",
-      "notes": "Saturday evening performance. Seat A 3. Attended with Steve Hohne. Tess Marshall performed as understudy Céline Dion; Deborah Cox returned as Molly Brown; Russell Daniels performed as Ruth DeWitt Bukater; Sara Gallo, Polanco Jones Jr., and Kristina Leopold were the regular Background Vocalists. All other actual cast and program structure follow the July 27, 2026 entry, with the current company update supplied by Isaac. Ticket type and price were not supplied.",
+      "notes": "Saturday evening performance. Seat A 3. Attended with Steve Hohne. Tess Marshall performed as understudy Céline Dion; Deborah Cox returned as Molly Brown; Russell Daniels performed as temporary replacement Ruth DeWitt Bukater; Sara Gallo, Polanco Jones Jr., and Kristina Leopold were the regular Background Vocalists. All other actual cast and program structure follow the July 27, 2026 entry, with the current company update supplied by Isaac. Ticket type and price were not supplied.",
       "seatLocation": {
         "row": "A",
         "seat": "3",
@@ -218741,10 +219324,12 @@
         "companion": "Steve Hohne",
         "actualConductorSupplied": false,
         "currentCompanyUpdates": [
-          "Russell Daniels — Ruth DeWitt Bukater",
+          "Russell Daniels — Ruth DeWitt Bukater — Temporary Replacement",
           "Terrence Williams Jr. — vacation swing / u/s Iceberg, Jack, Victor"
         ],
-        "backgroundVocalistTrackNote": "Regular Background Vocalists: Sara Gallo, Polanco Jones Jr., and Kristina Leopold."
+        "backgroundVocalistTrackNote": "Regular Background Vocalists: Sara Gallo, Polanco Jones Jr., and Kristina Leopold.",
+        "russellDanielsStatus": "Temporary Replacement Ruth DeWitt Bukater; Aug. 1–16 coverage period, corrected in Build 200.",
+        "russellDanielsStatusSourceRef": 1358
       },
       "sourceRef": 1346,
       "programArchiveText": {
@@ -218752,8 +219337,8 @@
         "sourceRef": 1346,
         "dateCaptured": "2026-08-01",
         "sections": {
-          "cast": "Actual exception: Tess Marshall as Céline Dion. Deborah Cox returned as Molly Brown. Russell Daniels performed as Ruth DeWitt Bukater. Sara Gallo, Polanco Jones Jr., and Kristina Leopold were the regular Background Vocalists. Remaining principals follow the copied prior entry.",
-          "covers": "Tess Marshall is marked as an actual understudy appearance as Céline Dion. Terrence Williams Jr. is stored as a printed vacation swing / understudy assignment only, not as an actual appearance.",
+          "cast": "Actual exception: Tess Marshall as Céline Dion. Deborah Cox returned as Molly Brown. Russell Daniels performed as temporary replacement Ruth DeWitt Bukater. Sara Gallo, Polanco Jones Jr., and Kristina Leopold were the regular Background Vocalists. Remaining principals follow the copied prior entry.",
+          "covers": "Tess Marshall is marked as an actual understudy appearance as Céline Dion. Russell Daniels is marked Temporary Replacement Ruth for the announced Aug. 1–16 coverage period. Terrence Williams Jr. is stored as a printed Vacation Swing assignment only at this Aug. 1 performance, not as an actual appearance.",
           "production": "Complete Broadway production/program structure copied from performance 1129 at Isaac’s direction, with current company welcome insert captured.",
           "attendance": "Saturday evening; A 3; attended with Steve Hohne. Ticket type and price not supplied."
         }
@@ -218999,6 +219584,160 @@
           "production": "Current title-page creatives/producers and show-specific management, staff, marketing/press, legal, ticketing, business support and vendors captured from supplied pages. Stewart Productions, LLC is canonical for the printed STEWERT variant; Bethany Weinstein Stewart is canonical. New World Stages building staff and Special Thanks excluded.",
           "runtime": "Approximately 1 hour and 45 minutes."
         }
+      }
+    },
+    "1137": {
+      "id": 1137,
+      "showId": 467,
+      "date": "2026-08-15",
+      "venueId": 12,
+      "type": "Broadway",
+      "time": "Matinee",
+      "notes": "Saturday matinee. Orchestra Z 123; $45. Liesie Kelly performed as understudy Star in place of printed regular Maria Wirries. Jacklyn Riha conducted. Current printed cast/covers, captains, songs, title page and production/staff pages supplied by Isaac. Companion and ticket type not supplied.",
+      "sourceRef": 1357,
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "Z",
+        "seat": "123",
+        "display": "Orchestra Z 123"
+      },
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "conductor": "Jacklyn Riha",
+      "conductorVerified": true,
+      "performanceMetadata": {
+        "productionLabel": "Broadway · Palace Theatre",
+        "productionKey": "lost-boys-broadway-2026",
+        "attendanceSource": "Isaac direct report and supplied current Playbill/lobby board",
+        "attendanceSourceRef": 1357,
+        "actualCastSource": "Current printed cast plus performance-specific lobby board",
+        "programSource": "Current Playbill pages supplied 2026-08-15",
+        "intermission": "One 15-minute intermission",
+        "setting": "Santa Carla, California — 1987",
+        "retroactiveProductionCleanup": "Production-wide producer roster and Kyler England spelling also applied to earlier attendances of this same Broadway production.",
+        "producerRosterSourceRef": 1357,
+        "productionWideProducerRosterConfirmed": "Current Aug. 15 Playbill + IBDB; applied retroactively at Isaac’s direction.",
+        "canonicalSpellingCorrection": "Kyler England (prior Cuebook typo: Kylter England), confirmed by current Playbill and IBDB."
+      },
+      "programArchiveText": {
+        "performanceId": 1137,
+        "sourceRef": 1357,
+        "dateCaptured": "2026-08-15",
+        "sections": {
+          "attendance": "Matinee; Orchestra Z 123; $45; companion and ticket type not supplied.",
+          "cast": "Current printed cast used as base. Performance board confirms Liesie Kelly replaced Maria Wirries as Star and is marked Understudy. No other substitutions were announced in the supplied performance-specific source.",
+          "covers": "Current printed swings and understudy matrix captured separately from actual appearances.",
+          "conductor": "Performance board confirms Jacklyn Riha conducted.",
+          "production": "Current title-page creative/producer credits and current show-specific production/staff pages captured. Building-only Palace/Nederlander personnel are not treated as show credits solely because they operate the venue.",
+          "songs": "Current musical-number list captured; one 15-minute intermission."
+        }
+      }
+    },
+    "1138": {
+      "id": 1138,
+      "showId": 387,
+      "date": "2026-08-14",
+      "venueId": 26,
+      "type": "Broadway",
+      "time": "Evening",
+      "exactTime": "7:30 PM",
+      "notes": "Friday 7:30 PM performance. Seat C 14; $58 via Theatr App. Performance-specific Playbill changes: Brad Greer as understudy Victor Garber / Luigi; Tess Marshall as understudy Molly Brown; Kyle Ramar Freeman as understudy Tour Guide / The Seaman / Iceberg; Terrence Williams Jr. as Vacation Swing Background Vocalist in Sara Gallo’s track. Russell Daniels remained the temporary replacement Ruth DeWitt Bukater. Geoffrey Ko conducted. Improv/audience interaction: “Bye, Karoline!” audience singalong.",
+      "sourceRef": 1358,
+      "seatLocation": {
+        "row": "C",
+        "seat": "14",
+        "display": "C 14"
+      },
+      "ticketType": "Theatr App",
+      "ticketPrice": 58.0,
+      "ticketCurrency": "USD",
+      "conductor": "Geoffrey Ko",
+      "conductorVerified": true,
+      "performanceMetadata": {
+        "intermission": "None",
+        "productionKey": "titanique-broadway",
+        "productionLabel": "Broadway",
+        "orchestraProductionKey": "titanique-broadway",
+        "programBasePerformanceId": 1132,
+        "programSource": "Current Broadway production/program structure copied from the August 1, 2026 same-production snapshot; current official roster corroborated against the supplied Aug. 14 At This Performance changes.",
+        "actualCastSource": "Isaac-supplied Playbill At This Performance screenshots + Isaac direct track/conductor/status confirmation + current official Broadway roster for unchanged regular tracks.",
+        "attendanceSource": "Isaac direct report",
+        "attendanceSourceRef": 1358,
+        "ticketNote": "C 14; Theatr App; $58 USD.",
+        "actualConductorSupplied": true,
+        "conductor": "Geoffrey Ko",
+        "backgroundVocalistTrackNote": "Terrence Williams Jr. performed as Vacation Swing (V/S) in Sara Gallo’s Background Vocalist track. Polanco Jones Jr. and Kristina Leopold remained the other regular Background Vocalists.",
+        "russellDanielsStatus": "Temporary Replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period.",
+        "improvNote": "“Bye, Karoline!” audience singalong."
+      },
+      "programArchiveText": {
+        "performanceId": 1138,
+        "sourceRef": 1358,
+        "dateCaptured": "2026-08-15",
+        "sections": {
+          "attendance": "Friday, August 14, 2026 at 7:30 PM; C 14; Theatr App; $58; companion not supplied.",
+          "cast": "Actual cast uses the current Broadway regular roster except the supplied performance-specific changes: Brad Greer as Victor Garber / Luigi, Tess Marshall as Molly Brown, Kyle Ramar Freeman as Tour Guide / The Seaman / Iceberg, Terrence Williams Jr. as Background Vocalist in Sara Gallo’s track, and Russell Daniels as temporary replacement Ruth.",
+          "covers": "Brad Greer, Tess Marshall, and Kyle Ramar Freeman are marked Understudy. Terrence Williams Jr. is marked Vacation Swing (V/S) and linked to Sara Gallo’s Background Vocalist track. Russell Daniels is marked Temporary Replacement.",
+          "conductor": "Isaac confirms Geoffrey Ko conducted.",
+          "production": "Production/program credits follow the current same-production Aug. 1 snapshot; performance-specific cast/conductor information is controlled by the Aug. 14 source.",
+          "performanceNote": "Improv / audience interaction: “Bye, Karoline!” audience singalong."
+        },
+        "notes": "No companion supplied. No additional substitutions beyond the supplied At This Performance notices and direct track/status corrections were introduced."
+      }
+    },
+    "1139": {
+      "id": 1139,
+      "showId": 387,
+      "date": "2026-08-15",
+      "venueId": 26,
+      "type": "Broadway",
+      "time": "Evening",
+      "exactTime": "8:00 PM",
+      "notes": "Saturday 8:00 PM performance. Row A, Seat 2; $49 Rush; attended with Alex Parra. Isaac directly confirms Sara Gallo was back in the Background Vocalist lineup. Full on-stage cast is corroborated by the dated Recast performance record. Russell Daniels remained the temporary replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period. No actual conductor was supplied, so none is inferred.",
+      "sourceRef": 1359,
+      "seatLocation": {
+        "row": "A",
+        "seat": "2",
+        "display": "A 2"
+      },
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "ticketPrice": 49.0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Rush"
+      ],
+      "tags": [
+        "Rush"
+      ],
+      "performanceMetadata": {
+        "intermission": "None",
+        "productionKey": "titanique-broadway",
+        "productionLabel": "Broadway",
+        "orchestraProductionKey": "titanique-broadway",
+        "programBasePerformanceId": 1138,
+        "programSource": "Current same-production program structure carried from the August 14, 2026 Titanique Broadway snapshot; current cast controlled by the August 15 attendance source.",
+        "actualCastSource": "Isaac direct report (Sara Gallo back in) plus dated Recast Aug. 15, 2026 evening performance record for the full on-stage lineup.",
+        "attendanceSource": "Isaac direct report",
+        "attendanceSourceRef": 1359,
+        "ticketNote": "A 2; $49 Rush; attended with Alex Parra.",
+        "companion": "Alex Parra",
+        "backgroundVocalistTrackNote": "Regular Background Vocalists: Sara Gallo, Polanco Jones Jr., and Kristina Leopold.",
+        "russellDanielsStatus": "Temporary Replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period.",
+        "actualConductorSupplied": false
+      },
+      "programArchiveText": {
+        "performanceId": 1139,
+        "sourceRef": 1359,
+        "dateCaptured": "2026-08-16",
+        "sections": {
+          "attendance": "Saturday, August 15, 2026 at 8:00 PM; A 2; $49 Rush; attended with Alex Parra.",
+          "cast": "Marla Mindelle as Céline Dion; Russell Daniels as temporary replacement Ruth DeWitt Bukater; Deborah Cox as Molly Brown; Melissa Barrera as Rose DeWitt Bukater; Frankie Grande as Victor Garber / Luigi; John Riddle as Cal Hockley; Constantine Rousouli as Jack Dawson; Layton Williams as Tour Guide / The Seaman / Iceberg; Sara Gallo, Polanco Jones Jr., and Kristina Leopold as Background Vocalists.",
+          "covers": "Russell Daniels is marked Temporary Replacement. Current cover pool is retained as listed-only company information and is not counted as seen unless present in the actual cast.",
+          "production": "Production/program credits follow the current same-production Aug. 14 snapshot.",
+          "conductor": "No performance-specific conductor was supplied; none is inferred."
+        },
+        "notes": "Isaac direct attendance report plus dated performance/schedule corroboration. No unsupported conductor or pit personnel inferred."
       }
     }
   },
@@ -229593,6 +230332,399 @@
       "kinds": [
         "organization",
         "source material"
+      ]
+    },
+    "1330": {
+      "id": 1330,
+      "name": "Relation Insurance Services Inc.",
+      "sortName": "Relation Insurance Services Inc.",
+      "kinds": [
+        "organization"
+      ]
+    },
+    "1331": {
+      "id": 1331,
+      "name": "Debco Travel Inc.",
+      "sortName": "Debco Travel Inc.",
+      "kinds": [
+        "organization"
+      ]
+    },
+    "1332": {
+      "id": 1332,
+      "name": "ABA IDEAL",
+      "sortName": "ABA IDEAL",
+      "kinds": [
+        "organization"
+      ]
+    },
+    "1333": {
+      "id": 1333,
+      "name": "Ayesha & Stephen Curry",
+      "sortName": "Ayesha & Stephen Curry",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1334": {
+      "id": 1334,
+      "name": "Lauren Shuler Donner",
+      "sortName": "Lauren Shuler Donner",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1335": {
+      "id": 1335,
+      "name": "Neil Patrick Harris",
+      "sortName": "Neil Patrick Harris",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1336": {
+      "id": 1336,
+      "name": "Douglas Sills",
+      "sortName": "Douglas Sills",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1337": {
+      "id": 1337,
+      "name": "Slash",
+      "sortName": "Slash",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1338": {
+      "id": 1338,
+      "name": "Kiefer Sutherland",
+      "sortName": "Kiefer Sutherland",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1339": {
+      "id": 1339,
+      "name": "Steve Young",
+      "sortName": "Steve Young",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1340": {
+      "id": 1340,
+      "name": "Amy & Grady Burnett",
+      "sortName": "Amy & Grady Burnett",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1341": {
+      "id": 1341,
+      "name": "Allison Bloom & Gabriel Mann",
+      "sortName": "Allison Bloom & Gabriel Mann",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1342": {
+      "id": 1342,
+      "name": "Hunter Arnold / Broadway Strategic Return Fund",
+      "sortName": "Hunter Arnold / Broadway Strategic Return Fund",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1343": {
+      "id": 1343,
+      "name": "DJD Productions / ZK Productions",
+      "sortName": "DJD Productions / ZK Productions",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1344": {
+      "id": 1344,
+      "name": "Jay Marcus / Carl Moellenberg",
+      "sortName": "Jay Marcus / Carl Moellenberg",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1345": {
+      "id": 1345,
+      "name": "Stark Sands",
+      "sortName": "Stark Sands",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1346": {
+      "id": 1346,
+      "name": "Jordan Silver / Kerri Mandelbaum",
+      "sortName": "Jordan Silver / Kerri Mandelbaum",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1347": {
+      "id": 1347,
+      "name": "James Bolosh & Hillary Wyatt",
+      "sortName": "James Bolosh & Hillary Wyatt",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1348": {
+      "id": 1348,
+      "name": "Decca Broadway / Federal Films",
+      "sortName": "Decca Broadway / Federal Films",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1349": {
+      "id": 1349,
+      "name": "Stewart F. Lane / Bonnie Comley / Leah Lane",
+      "sortName": "Stewart F. Lane / Bonnie Comley / Leah Lane",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1350": {
+      "id": 1350,
+      "name": "Greg & Lisa Love",
+      "sortName": "Greg & Lisa Love",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1351": {
+      "id": 1351,
+      "name": "MacPac Entertainment",
+      "sortName": "MacPac Entertainment",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1352": {
+      "id": 1352,
+      "name": "Murray Entertainment, Inc.",
+      "sortName": "Murray Entertainment, Inc.",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1353": {
+      "id": 1353,
+      "name": "Oddly Specific Productions",
+      "sortName": "Oddly Specific Productions",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1354": {
+      "id": 1354,
+      "name": "Toho Co. Ltd.",
+      "sortName": "Toho Co. Ltd.",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1355": {
+      "id": 1355,
+      "name": "We R Broadway Artists Alliance",
+      "sortName": "We R Broadway Artists Alliance",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1356": {
+      "id": 1356,
+      "name": "Carrie & Joe Staley",
+      "sortName": "Carrie & Joe Staley",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1357": {
+      "id": 1357,
+      "name": "W Thompson Family",
+      "sortName": "W Thompson Family",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1358": {
+      "id": 1358,
+      "name": "Drew Elhamalawy / Kirsten & David Abdo",
+      "sortName": "Drew Elhamalawy / Kirsten & David Abdo",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1359": {
+      "id": 1359,
+      "name": "Brandon Blaser / Davis-Carroll",
+      "sortName": "Brandon Blaser / Davis-Carroll",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1360": {
+      "id": 1360,
+      "name": "Crossroads Live / Marla McNally Phillips",
+      "sortName": "Crossroads Live / Marla McNally Phillips",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1361": {
+      "id": 1361,
+      "name": "Anthony & Maria Diaco / D’Angora Padgett Productions",
+      "sortName": "Anthony & Maria Diaco / D’Angora Padgett Productions",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1362": {
+      "id": 1362,
+      "name": "Nancy Glass / Handler-Pawliuk Family",
+      "sortName": "Nancy Glass / Handler-Pawliuk Family",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1363": {
+      "id": 1363,
+      "name": "Grove Entertainment / KLive Entertainment",
+      "sortName": "Grove Entertainment / KLive Entertainment",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1364": {
+      "id": 1364,
+      "name": "Howard-DePhillips / Jamie Stone O’Brien",
+      "sortName": "Howard-DePhillips / Jamie Stone O’Brien",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1365": {
+      "id": 1365,
+      "name": "Pam Hurst-Della Pietra & Stephen Della Pietra / Polly & Ed Han",
+      "sortName": "Pam Hurst-Della Pietra & Stephen Della Pietra / Polly & Ed Han",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1366": {
+      "id": 1366,
+      "name": "Willette Klausner / Waikit Lau",
+      "sortName": "Willette Klausner / Waikit Lau",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1367": {
+      "id": 1367,
+      "name": "Knudsen-Weissberger Productions / April Dovey Productions",
+      "sortName": "Knudsen-Weissberger Productions / April Dovey Productions",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1368": {
+      "id": 1368,
+      "name": "Nabatoff-Caise / Sean Nyberg",
+      "sortName": "Nabatoff-Caise / Sean Nyberg",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1369": {
+      "id": 1369,
+      "name": "Andy Raab / Ratelle-Eliason",
+      "sortName": "Andy Raab / Ratelle-Eliason",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1370": {
+      "id": 1370,
+      "name": "Orfeh / Braedon Young",
+      "sortName": "Orfeh / Braedon Young",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1371": {
+      "id": 1371,
+      "name": "David & Megan Scacco / Jason & Sarah Sobel",
+      "sortName": "David & Megan Scacco / Jason & Sarah Sobel",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1372": {
+      "id": 1372,
+      "name": "Jason Taylor / Michael Graf",
+      "sortName": "Jason Taylor / Michael Graf",
+      "kinds": [
+        "organization",
+        "producer"
+      ]
+    },
+    "1373": {
+      "id": 1373,
+      "name": "An 11:11 Experience",
+      "sortName": "An 11:11 Experience",
+      "kinds": [
+        "organization",
+        "producer"
       ]
     }
   },

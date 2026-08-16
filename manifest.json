@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b198",
-  "version": "v13.23.0",
-  "generated": "2026-08-13T12:01:00-04:00",
+  "build": "json-b201",
+  "version": "v13.26.0",
+  "generated": "2026-08-16T00:15:00-04:00",
   "storage": {
     "mode": "split-normalized",
     "loadMode": "parallel compatibility assembly",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "core.json",
-      "bytes": 4787067,
-      "sha256": "83d9b49f5c5b0562821bd0d69fcc96eb4c37bed2a0da8ef085452837310aba3e",
+      "bytes": 4818719,
+      "sha256": "b90e9640505c9bef3ba0d55bb0e783ae9117dc6e9fe3dfd4d852868b9d81b0d4",
       "kind": "data",
       "collections": [
         "meta",
@@ -34,8 +34,8 @@
     },
     {
       "path": "cast.json",
-      "bytes": 6878900,
-      "sha256": "f6b126b08a99f01ae338f3432379a0595aaff8dfb7732dc232451c65e950f627",
+      "bytes": 6897137,
+      "sha256": "d1c1318e9b0a442ed2ae0d5423567ed5883423ee5a5d095c8339b947d615a410",
       "kind": "data",
       "collections": [
         "appearances"
@@ -43,8 +43,8 @@
     },
     {
       "path": "credits.json",
-      "bytes": 2932913,
-      "sha256": "47662472137a31d3b71b3fd932decfcb59407980c0e624c53d8f990c3f040539",
+      "bytes": 2983944,
+      "sha256": "8b94dd43e0bf2211c67749e4299baf1329c2436a2e74f94551f7ce2de6d8af48",
       "kind": "data",
       "collections": [
         "creativeCredits",
@@ -55,8 +55,8 @@
     },
     {
       "path": "program-credits.json",
-      "bytes": 4903087,
-      "sha256": "7c532e289d76df7fc3f12dfb26e37af503f517055218b9e6a0c06a91757c93f8",
+      "bytes": 4942313,
+      "sha256": "b7a8d5240cde84d3a9cf1c63e5971109ad6223e6c4cb25a5fcebfebbd0829b32",
       "kind": "data",
       "collections": [
         "expandedCredits",
@@ -74,8 +74,8 @@
     },
     {
       "path": "production-archive.json",
-      "bytes": 3027433,
-      "sha256": "a4a3949bde5444dd89ba39d591b594ee89109b898c7ea98f5702d04938ef20e2",
+      "bytes": 3070771,
+      "sha256": "69edafe387aa98c1d0044bc43812daee3d3b61414a023bebdbbcf7fdf70757dc",
       "kind": "data",
       "collections": [
         "productionManagement",
@@ -92,23 +92,35 @@
     },
     {
       "path": "sources.json",
-      "bytes": 565647,
-      "sha256": "d1ff8c8387a4bc1050dab282caec3bacdafd0633a3e3714d097a9f2883757868",
+      "bytes": 571029,
+      "sha256": "65c84aa39288d510a5d053d3cd69a3caec19ffd19414445f86fcff85d8522cf5",
       "kind": "sources",
       "collections": [
         "values"
       ]
     }
   ],
-  "totalBytes": 23095047,
-  "largestFileBytes": 6878900,
+  "totalBytes": 23283913,
+  "largestFileBytes": 6897137,
   "counts": {
-    "performances": 1134,
-    "people": 19328,
-    "organizations": 1297,
-    "appearances": 18696,
-    "companionLinks": 602,
-    "creativeCredits": 16882,
-    "companyAssignments": 86
+    "performances": 1137,
+    "people": 19379,
+    "organizations": 1341,
+    "shows": 500,
+    "venues": 189,
+    "roles": 5906,
+    "appearances": 18740,
+    "creativeCredits": 16940,
+    "aboveTitleProducers": 1233,
+    "presentingOrganizations": 192,
+    "companionLinks": 603,
+    "expandedCredits": 12925,
+    "orchestraCredits": 4932,
+    "musicStaff": 809,
+    "productionManagement": 5206,
+    "coverPools": 2685,
+    "songLists": 4055,
+    "companyAssignments": 90,
+    "sources": 1360
   }
 }
