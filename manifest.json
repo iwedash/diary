@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b203",
-  "version": "v13.28.0",
-  "generated": "2026-08-17T00:44:35-04:00",
+  "build": "json-b204",
+  "version": "v13.29.0",
+  "generated": "2026-08-17T16:23:00-04:00",
   "storage": {
     "mode": "split-normalized",
     "loadMode": "parallel compatibility assembly",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "core.json",
-      "bytes": 4827741,
-      "sha256": "7b1e8284ac3a266b3cfa84cd53cc0e52c469bb2c040a09a54f606dfa2ba63855",
+      "bytes": 3066148,
+      "sha256": "2dc61cdc93b18b5a181403869af79ca31a5f3d47e1dc048f934352dcfe83b916",
       "kind": "data",
       "collections": [
         "meta",
@@ -100,7 +100,7 @@
       ]
     }
   ],
-  "totalBytes": 23297464,
+  "totalBytes": 21535871,
   "largestFileBytes": 6900776,
   "counts": {
     "performances": 1137,
