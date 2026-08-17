@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_200_FULL_UPLOAD.zip",
-    "generated": "2026-08-16T00:15:00-04:00",
+    "sourceFile": "Cuebook_Build_202_FULL_UPLOAD.zip",
+    "generated": "2026-08-17T00:44:35-04:00",
     "rowCount": 1137,
     "performanceCount": 1137,
-    "peopleCount": 19379,
+    "peopleCount": 19380,
     "showCount": 500,
     "venueCount": 189,
-    "roleCount": 5906,
-    "appearanceCount": 18740,
+    "roleCount": 5912,
+    "appearanceCount": 18745,
     "creativeCreditCount": 16940,
     "notesCount": 469,
-    "updated": "2026-08-16",
-    "notes": "Added Titanique Broadway 2026-08-15 evening attendance with Alex Parra, A 2, $49 Rush, and verified current cast with Sara Gallo back in.",
-    "updatedBy": "OpenAI / Isaac direct implementation",
-    "updatedAt": "2026-08-16T00:15:00-04:00",
+    "updated": "2026-08-17",
+    "notes": "Implemented queued cast-grid normalization and UI/export refresh: full-width grids, compact Excel export, refreshed global palette, Cast Book document layout, Annie/& Juliet/Oliver!/Titanique/Mamma Mia!/Into the Woods/Newsies grid rules, plus verified & Juliet, Mamma Mia!, and 2015 Newsies performance-specific cast corrections.",
+    "updatedBy": "OpenAI / Isaac direct correction",
+    "updatedAt": "2026-08-17T00:44:35-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "theatre-dashboard-v15-VERIFIED.zip",
-    "version": "v13.26.0",
-    "build": "json-b201",
-    "buildTime": "2026-08-16T00:15:00-04:00",
-    "buildDate": "2026-08-16",
+    "version": "v13.28.0",
+    "build": "json-b203",
+    "buildTime": "2026-08-17T00:44:35-04:00",
+    "buildDate": "2026-08-17",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "13.26.0",
-    "lastUpdated": "2026-08-16",
+    "buildVersion": "13.28.0",
+    "lastUpdated": "2026-08-17",
     "normalizationMerged": true,
     "roleMergeCount": 51,
     "principalRulesUpdated": true,
@@ -67,7 +67,7 @@
       "sourceRef": 0,
       "verifiedField": "conductorVerified"
     },
-    "lastUpdatedNote": "Build 201 adds Titanique Broadway on August 15, 2026 evening: A 2, $49 Rush, with Alex Parra; Sara Gallo back in the regular Background Vocalist lineup; Russell Daniels remains Temporary Replacement Ruth.",
+    "lastUpdatedNote": "Build 202 corrects Titanique Aug. 15 actual casting and simplifies cast-grid cells to performer + cover type only.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -525,6 +525,11 @@
         "version": "v13.26.0",
         "date": "2026-08-16",
         "notes": "Added Titanique Broadway 2026-08-15 evening attendance: A 2, $49 Rush, with Alex Parra; current actual cast corroborated, including Sara Gallo back in and Russell Daniels as temporary replacement Ruth. No conductor inferred."
+      },
+      {
+        "version": "v13.27.0",
+        "date": "2026-08-16",
+        "summary": "Build 202: corrected Titanique Aug. 15 actual cast (Brad Greer / Tess Marshall / Kyle Ramar Freeman remained on as understudies) and removed performance notes from cast-grid cells."
       }
     ],
     "normalizationNotesV32604": {
@@ -717,6 +722,11 @@
         "version": "v12.46.0",
         "date": "2026-07-13",
         "summary": "Executed Next to Normal, Anything Goes, How to Succeed, and Priscilla Broadway program queues. Preserved actual casts; added cover pools, songs, orchestra, production credits and archive metadata; split Jessica Walter from Jessica Walker."
+      },
+      {
+        "version": "v13.28.0",
+        "date": "2026-08-17",
+        "summary": "Build 203: implemented queued cast-grid normalization for Annie, & Juliet, Oliver!, Titanique, Mamma Mia!, Into the Woods, and Newsies; full-width cast grids, compact Excel export, Cast Book document styling, refreshed global palette, and verified performance-specific cast corrections."
       }
     ],
     "updateNote": "Applied & Juliet, Mamma Mia!, Waitress, Annie orphan-section, and Beetlejuice ensemble-feature routing rules; generated QA queue workbook.",
@@ -2090,6 +2100,51 @@
       "organizationNormalization": "Stewart Productions, LLC retained as canonical; printed STEWERT treated as source typo.",
       "producerPropagation": "Current New World Stages Spelling Bee title-page producer roster applied to all five New World Stages attendance entries.",
       "summary": "Resolved Build 197 spelling holds and propagated only the explicitly approved stable producer roster across the same New World Stages Spelling Bee production."
+    },
+    "build202Correction": {
+      "sourceBase": "json-b201",
+      "dataChanged": true,
+      "uiChanged": true,
+      "sourceRef": 1360,
+      "performanceTouched": 1139,
+      "titaniqueCorrection": [
+        "Brad Greer — Victor Garber / Luigi — Understudy",
+        "Tess Marshall — Molly Brown — Understudy",
+        "Kyle Ramar Freeman — Tour Guide / The Seaman / Iceberg — Understudy",
+        "Sara Gallo — Background Vocalist"
+      ],
+      "gridRule": "Web cast-grid cells show performer names and cover-type badges only; role/performance notes remain available on performance pages but are omitted from grids."
+    },
+    "build203QueueImplementation": {
+      "sourceBase": "json-b202",
+      "dataChanged": true,
+      "uiChanged": true,
+      "performancesTouched": [
+        73,
+        144,
+        145,
+        614,
+        776,
+        782,
+        800,
+        939
+      ],
+      "uiChanges": [
+        "Full-width Cast Grids with Cast Track Stats panel removed",
+        "Valid compact styled Cast Grid XLSX export",
+        "Coordinated Cuebook palette refresh",
+        "White sans-serif Cast Book document layout"
+      ],
+      "gridNormalizations": [
+        "Annie",
+        "& Juliet",
+        "Oliver!",
+        "Titanique",
+        "Mamma Mia!",
+        "Into the Woods",
+        "Newsies"
+      ],
+      "summary": "Implemented the complete approved post-Build-202 queue, including verified & Juliet, Mamma Mia!, and 2015 Newsies performance-specific role corrections."
     }
   },
   "people": {
@@ -170455,6 +170510,14 @@
         "producer",
         "creative"
       ]
+    },
+    "19921": {
+      "id": 19921,
+      "name": "Patrick Park",
+      "sortName": "Patrick Park",
+      "kinds": [
+        "performer"
+      ]
     }
   },
   "shows": {
@@ -202872,6 +202935,36 @@
     "6193": {
       "id": 6193,
       "name": "Billy Robbins"
+    },
+    "6194": {
+      "id": 6194,
+      "showId": 283,
+      "name": "Lucy / Lady Capulet"
+    },
+    "6195": {
+      "id": 6195,
+      "showId": 283,
+      "name": "Fletcher / Bouncer / Lord Capulet"
+    },
+    "6196": {
+      "id": 6196,
+      "showId": 283,
+      "name": "Eleanor / Portia / Benvolio"
+    },
+    "6197": {
+      "id": 6197,
+      "showId": 283,
+      "name": "Portia / Benvolio"
+    },
+    "6198": {
+      "id": 6198,
+      "showId": 7,
+      "name": "Father Alexandrios / Ensemble"
+    },
+    "6199": {
+      "id": 6199,
+      "showId": 7,
+      "name": "Pepper / Ensemble"
     }
   },
   "performances": {
@@ -219693,8 +219786,8 @@
       "type": "Broadway",
       "time": "Evening",
       "exactTime": "8:00 PM",
-      "notes": "Saturday 8:00 PM performance. Row A, Seat 2; $49 Rush; attended with Alex Parra. Isaac directly confirms Sara Gallo was back in the Background Vocalist lineup. Full on-stage cast is corroborated by the dated Recast performance record. Russell Daniels remained the temporary replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period. No actual conductor was supplied, so none is inferred.",
-      "sourceRef": 1359,
+      "notes": "Saturday 8:00 PM performance. Row A, Seat 2; $49 Rush; attended with Alex Parra. Brad Greer performed as understudy Victor Garber / Luigi, Tess Marshall as understudy Molly Brown, and Kyle Ramar Freeman as understudy Tour Guide / The Seaman / Iceberg, continuing the same three principal cover tracks as the August 14 performance. Sara Gallo was back as a regular Background Vocalist. Russell Daniels remained the temporary replacement Ruth DeWitt Bukater. No actual conductor was supplied, so none is inferred.",
+      "sourceRef": 1360,
       "seatLocation": {
         "row": "A",
         "seat": "2",
@@ -219717,27 +219810,28 @@
         "orchestraProductionKey": "titanique-broadway",
         "programBasePerformanceId": 1138,
         "programSource": "Current same-production program structure carried from the August 14, 2026 Titanique Broadway snapshot; current cast controlled by the August 15 attendance source.",
-        "actualCastSource": "Isaac direct report (Sara Gallo back in) plus dated Recast Aug. 15, 2026 evening performance record for the full on-stage lineup.",
+        "actualCastSource": "Isaac direct correction on 2026-08-16: Brad Greer, Tess Marshall, and Kyle Ramar Freeman remained on in the same tracks as Aug. 14; Sara Gallo was back as Background Vocalist.",
         "attendanceSource": "Isaac direct report",
-        "attendanceSourceRef": 1359,
+        "attendanceSourceRef": 1360,
         "ticketNote": "A 2; $49 Rush; attended with Alex Parra.",
         "companion": "Alex Parra",
         "backgroundVocalistTrackNote": "Regular Background Vocalists: Sara Gallo, Polanco Jones Jr., and Kristina Leopold.",
         "russellDanielsStatus": "Temporary Replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period.",
-        "actualConductorSupplied": false
+        "actualConductorSupplied": false,
+        "principalCoverTrackNote": "Brad Greer — Victor Garber / Luigi — Understudy; Tess Marshall — Molly Brown — Understudy; Kyle Ramar Freeman — Tour Guide / The Seaman / Iceberg — Understudy."
       },
       "programArchiveText": {
         "performanceId": 1139,
-        "sourceRef": 1359,
+        "sourceRef": 1360,
         "dateCaptured": "2026-08-16",
         "sections": {
           "attendance": "Saturday, August 15, 2026 at 8:00 PM; A 2; $49 Rush; attended with Alex Parra.",
-          "cast": "Marla Mindelle as Céline Dion; Russell Daniels as temporary replacement Ruth DeWitt Bukater; Deborah Cox as Molly Brown; Melissa Barrera as Rose DeWitt Bukater; Frankie Grande as Victor Garber / Luigi; John Riddle as Cal Hockley; Constantine Rousouli as Jack Dawson; Layton Williams as Tour Guide / The Seaman / Iceberg; Sara Gallo, Polanco Jones Jr., and Kristina Leopold as Background Vocalists.",
-          "covers": "Russell Daniels is marked Temporary Replacement. Current cover pool is retained as listed-only company information and is not counted as seen unless present in the actual cast.",
+          "cast": "Marla Mindelle as Céline Dion; Russell Daniels as temporary replacement Ruth DeWitt Bukater; Melissa Barrera as Rose DeWitt Bukater; John Riddle as Cal Hockley; Constantine Rousouli as Jack Dawson; Brad Greer as understudy Victor Garber / Luigi; Tess Marshall as understudy Molly Brown; Kyle Ramar Freeman as understudy Tour Guide / The Seaman / Iceberg; Sara Gallo, Polanco Jones Jr., and Kristina Leopold as Background Vocalists.",
+          "covers": "Brad Greer, Tess Marshall, and Kyle Ramar Freeman are actual Understudy appearances in their respective principal tracks. Russell Daniels is marked Temporary Replacement. Sara Gallo is a regular Background Vocalist.",
           "production": "Production/program credits follow the current same-production Aug. 14 snapshot.",
           "conductor": "No performance-specific conductor was supplied; none is inferred."
         },
-        "notes": "Isaac direct attendance report plus dated performance/schedule corroboration. No unsupported conductor or pit personnel inferred."
+        "notes": "Corrected by Isaac on 2026-08-16 after Build 201: Brad, Tess, and Kyle were on in the same tracks as Aug. 14. No conductor supplied."
       }
     }
   },
@@ -230943,28 +231037,51 @@
             "Lily St. Regis"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "FDR",
+          "aliases": [
+            "FDR",
+            "President Franklin Delano Roosevelt"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Drake",
+          "aliases": [
+            "Drake"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Star-to-Be",
+          "aliases": [
+            "Star-to-Be",
+            "Star to Be"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Bert Healy",
+          "aliases": [
+            "Bert Healy"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Molly",
           "aliases": [
             "Molly"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Kate",
-          "aliases": [
-            "Kate"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Tessie",
-          "aliases": [
-            "Tessie"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -230978,14 +231095,6 @@
           "confidence": "confirmed"
         },
         {
-          "label": "July",
-          "aliases": [
-            "July"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
           "label": "Duffy",
           "aliases": [
             "Duffy"
@@ -230994,10 +231103,25 @@
           "confidence": "confirmed"
         },
         {
-          "label": "President Franklin Delano Roosevelt",
+          "label": "July",
           "aliases": [
-            "FDR",
-            "President Franklin Delano Roosevelt"
+            "July"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Tessie",
+          "aliases": [
+            "Tessie"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Kate",
+          "aliases": [
+            "Kate"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231006,23 +231130,6 @@
           "label": "Sandy",
           "aliases": [
             "Sandy"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Drake",
-          "aliases": [
-            "Drake"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Star-to-Be",
-          "aliases": [
-            "Star to Be",
-            "Star-to-Be"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231253,28 +231360,55 @@
           "confidence": "confirmed"
         },
         {
-          "label": "Portia / Benvolio Track",
+          "label": "Lady Capulet",
           "aliases": [
-            "Eleanor / Benvolio / Portia",
-            "Eleanor/Benvolio/Portia",
-            "Gwynne / Portia / Benvolio",
-            "Gwynne/Portia/Benvolio",
-            "Sky / Portia / Eleanor",
-            "Sky/Portia/Eleanor"
+            "Lady Capulet"
           ],
-          "scope": "production-scoped",
+          "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Lord Capulet / Bouncer Track",
+          "label": "Lord Capulet",
           "aliases": [
-            "Lord Capulet / Sly / Bouncer",
-            "Lord Capulet/Sly/Bouncer",
-            "Lord Capulet / Crosse / Bouncer",
-            "Lord Capulet/Crosse/Bouncer"
+            "Lord Capulet"
           ],
-          "scope": "production-scoped",
+          "scope": "universal",
           "confidence": "confirmed"
+        },
+        {
+          "label": "Rosaline",
+          "aliases": [
+            "Rosaline"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Lucy",
+          "aliases": [
+            "Lucy"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Portia / Benvolio",
+          "aliases": [
+            "Portia / Benvolio",
+            "Portia",
+            "Benvolio"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Additional Ensemble",
+          "aliases": [
+            "Additional Ensemble"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "group": "remainingEnsemble"
         }
       ]
     },
@@ -231404,28 +231538,13 @@
             "Widow Corney"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Mr. Brownlow",
           "aliases": [
             "Mr. Brownlow"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Mr. Sowerberry",
-          "aliases": [
-            "Mr. Sowerberry"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Mrs. Sowerberry / Mrs. Bedwin",
-          "aliases": [
-            "Mrs. Sowerberry / Mrs. Bedwin"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231439,9 +231558,55 @@
           "confidence": "confirmed"
         },
         {
+          "label": "Mr. Sowerberry",
+          "aliases": [
+            "Mr. Sowerberry"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Mrs. Sowerberry / Mrs. Bedwin",
+          "aliases": [
+            "Mrs. Sowerberry / Mrs. Bedwin",
+            "Mrs. Sowerberry",
+            "Ms. Sowerberry",
+            "Mrs. Bedwin",
+            "Ms. Bedwin"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Noah Claypole",
+          "aliases": [
+            "Noah Claypole"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
           "label": "Charlotte",
           "aliases": [
             "Charlotte"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Old Sally",
+          "aliases": [
+            "Old Sally"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Charley Bates",
+          "aliases": [
+            "Charley Bates"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231694,17 +231859,19 @@
       "showId": 7,
       "tracks": [
         {
-          "label": "Sophie Sheridan",
+          "label": "Donna",
           "aliases": [
-            "Sophie Sheridan"
+            "Donna",
+            "Donna Sheridan"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Donna Sheridan",
+          "label": "Sophie",
           "aliases": [
-            "Donna Sheridan"
+            "Sophie",
+            "Sophie Sheridan"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231726,24 +231893,27 @@
           "confidence": "confirmed"
         },
         {
-          "label": "Sam Carmichael",
+          "label": "Sam",
           "aliases": [
+            "Sam",
             "Sam Carmichael"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Bill Austin",
+          "label": "Bill",
           "aliases": [
+            "Bill",
             "Bill Austin"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Harry Bright",
+          "label": "Harry",
           "aliases": [
+            "Harry",
             "Harry Bright"
           ],
           "scope": "universal",
@@ -231792,10 +231962,20 @@
         {
           "label": "Father Alexandrios",
           "aliases": [
-            "Father Alexandrios"
+            "Father Alexandrios",
+            "Father Alexander"
           ],
           "scope": "universal",
           "confidence": "confirmed"
+        },
+        {
+          "label": "Additional Ensemble",
+          "aliases": [
+            "Additional Ensemble"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "group": "mammaEnsemble"
         }
       ]
     },
@@ -231821,7 +232001,8 @@
         {
           "label": "Rose DeWitt Bukater",
           "aliases": [
-            "Rose DeWitt Bukater"
+            "Rose DeWitt Bukater",
+            "Rose"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231829,7 +232010,8 @@
         {
           "label": "Cal Hockley",
           "aliases": [
-            "Cal Hockley"
+            "Cal Hockley",
+            "Cal"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231853,7 +232035,9 @@
         {
           "label": "Victor Garber / Luigi",
           "aliases": [
-            "Victor Garber / Luigi"
+            "Victor Garber / Luigi",
+            "Victor Garber",
+            "Luigi"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231861,18 +232045,22 @@
         {
           "label": "Tour Guide / The Seaman / Iceberg",
           "aliases": [
-            "Tour Guide / The Seaman / Iceberg"
+            "Tour Guide / The Seaman / Iceberg",
+            "Tour Guide",
+            "The Seaman",
+            "Iceberg"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Background Vocalist",
+          "label": "Background Vocalists",
           "aliases": [
-            "Background Vocalist"
+            "Background Vocalists"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "group": "backgroundVocalists"
         }
       ]
     },
@@ -231957,25 +232145,9 @@
           "confidence": "confirmed"
         },
         {
-          "label": "Joseph Pulitzer",
-          "aliases": [
-            "Joseph Pulitzer"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
           "label": "Katherine Plumber",
           "aliases": [
             "Katherine Plumber"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Medda Larkin",
-          "aliases": [
-            "Medda Larkin"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -231989,14 +232161,6 @@
           "confidence": "confirmed"
         },
         {
-          "label": "Les",
-          "aliases": [
-            "Les"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
           "label": "Crutchie",
           "aliases": [
             "Crutchie"
@@ -232005,49 +232169,25 @@
           "confidence": "confirmed"
         },
         {
-          "label": "Race",
+          "label": "Les",
           "aliases": [
-            "Race"
+            "Les"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Snyder",
+          "label": "Joseph Pulitzer",
           "aliases": [
-            "Snyder"
+            "Joseph Pulitzer"
           ],
           "scope": "universal",
           "confidence": "confirmed"
         },
         {
-          "label": "Spot Conlon",
+          "label": "Medda Larkin",
           "aliases": [
-            "Spot Conlon"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Wiesel",
-          "aliases": [
-            "Wiesel"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Seitz",
-          "aliases": [
-            "Seitz"
-          ],
-          "scope": "universal",
-          "confidence": "confirmed"
-        },
-        {
-          "label": "Bunsen",
-          "aliases": [
-            "Bunsen"
+            "Medda Larkin"
           ],
           "scope": "universal",
           "confidence": "confirmed"
@@ -232067,6 +232207,163 @@
           ],
           "scope": "universal",
           "confidence": "confirmed"
+        },
+        {
+          "label": "Wiesel",
+          "aliases": [
+            "Wiesel"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Governor Roosevelt",
+          "aliases": [
+            "Governor Roosevelt"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Snyder",
+          "aliases": [
+            "Snyder"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Seitz",
+          "aliases": [
+            "Seitz"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Bunsen",
+          "aliases": [
+            "Bunsen"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Spot Conlon",
+          "aliases": [
+            "Spot Conlon"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Race",
+          "aliases": [
+            "Race"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Henry",
+          "aliases": [
+            "Henry"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Finch",
+          "aliases": [
+            "Finch"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Romeo",
+          "aliases": [
+            "Romeo"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Specs",
+          "aliases": [
+            "Specs"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Albert",
+          "aliases": [
+            "Albert"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Elmer",
+          "aliases": [
+            "Elmer"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Mush",
+          "aliases": [
+            "Mush"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Darcy",
+          "aliases": [
+            "Darcy"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Bill",
+          "aliases": [
+            "Bill"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Hannah",
+          "aliases": [
+            "Hannah"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Additional Ensemble",
+          "aliases": [
+            "Additional Ensemble"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "group": "remainingEnsemble"
         }
       ]
     },
@@ -232074,23 +232371,25 @@
       "showId": 122,
       "tracks": [
         {
-          "label": "The Baker",
+          "label": "Baker",
           "aliases": [
             "Baker",
             "The Baker"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "The Baker’s Wife",
+          "label": "Baker's Wife",
           "aliases": [
             "Baker's Wife",
             "The Baker's Wife",
             "The Baker’s Wife"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Cinderella",
@@ -232098,7 +232397,8 @@
             "Cinderella"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Jack",
@@ -232106,25 +232406,28 @@
             "Jack"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Little Red Riding Hood",
           "aliases": [
-            "Little Red Ridinghood",
-            "Little Red Riding Hood"
+            "Little Red Riding Hood",
+            "Little Red Ridinghood"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "The Witch",
+          "label": "Witch",
           "aliases": [
             "Witch",
             "The Witch"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Rapunzel",
@@ -232132,59 +232435,58 @@
             "Rapunzel"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Cinderella’s Prince",
+          "label": "Cinderella's Prince",
           "aliases": [
             "Cinderella's Prince",
-            "Cinderella’s Prince",
-            "Cinderella's Prince/Wolf",
-            "Cinderella’s Prince / Wolf"
+            "Cinderella’s Prince"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Rapunzel’s Prince",
+          "label": "Rapunzel's Prince",
           "aliases": [
             "Rapunzel's Prince",
-            "Rapunzel’s Prince",
-            "Rapunzel's Prince/Wolf",
-            "Rapunzel’s Prince / Wolf"
+            "Rapunzel’s Prince"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Wolf",
           "aliases": [
-            "Wolf",
-            "Cinderella's Prince/Wolf",
-            "Cinderella’s Prince / Wolf",
-            "Rapunzel's Prince/Wolf",
-            "Rapunzel’s Prince / Wolf"
+            "Wolf"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Jack’s Mother",
+          "label": "Jack's Mother",
           "aliases": [
             "Jack's Mother",
             "Jack’s Mother"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Cinderella’s Stepmother",
+          "label": "Cinderella's Stepmother",
           "aliases": [
             "Cinderella's Stepmother",
-            "Cinderella’s Stepmother"
+            "Cinderella’s Stepmother",
+            "Evil Stepmother"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Florinda",
@@ -232192,7 +232494,8 @@
             "Florinda"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Lucinda",
@@ -232200,7 +232503,8 @@
             "Lucinda"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Steward",
@@ -232208,48 +232512,77 @@
             "Steward"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Cinderella’s Father",
+          "label": "Cinderella's Father",
           "aliases": [
             "Cinderella's Father",
-            "Cinderella’s Father",
-            "Cinderella's Father/Puppeteer",
-            "Cinderella’s Father / Puppeteer"
+            "Cinderella’s Father"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
-          "label": "Mysterious Man",
+          "label": "Cinderella's Mother",
           "aliases": [
-            "Mysterious Man",
-            "Narrator/Mysterious Man",
-            "Narrator / Mysterious Man"
+            "Cinderella's Mother",
+            "Cinderella’s Mother"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Granny",
+          "aliases": [
+            "Granny",
+            "Red Riding Hood's Granny",
+            "Red Riding Hood’s Granny"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Giant / Voice of the Giant",
+          "aliases": [
+            "Giant / Voice of the Giant",
+            "Giant",
+            "Voice of the Giant"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Narrator",
           "aliases": [
-            "Narrator",
-            "Narrator/Mysterious Man",
-            "Narrator / Mysterious Man"
+            "Narrator"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
+        },
+        {
+          "label": "Mysterious Man",
+          "aliases": [
+            "Mysterious Man"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "sourceQualifier": true
         },
         {
           "label": "Milky White",
           "aliases": [
-            "Milky White",
-            "Milky White/Puppeteer",
-            "Milky White / Puppeteer"
+            "Milky White"
           ],
           "scope": "universal",
-          "confidence": "confirmed"
+          "confidence": "confirmed",
+          "sourceQualifier": true
         }
       ]
     },

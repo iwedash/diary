@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b201",
-  "version": "v13.26.0",
-  "generated": "2026-08-16T00:15:00-04:00",
+  "build": "json-b203",
+  "version": "v13.28.0",
+  "generated": "2026-08-17T00:44:35-04:00",
   "storage": {
     "mode": "split-normalized",
     "loadMode": "parallel compatibility assembly",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "core.json",
-      "bytes": 4818719,
-      "sha256": "b90e9640505c9bef3ba0d55bb0e783ae9117dc6e9fe3dfd4d852868b9d81b0d4",
+      "bytes": 4827741,
+      "sha256": "7b1e8284ac3a266b3cfa84cd53cc0e52c469bb2c040a09a54f606dfa2ba63855",
       "kind": "data",
       "collections": [
         "meta",
@@ -34,8 +34,8 @@
     },
     {
       "path": "cast.json",
-      "bytes": 6897137,
-      "sha256": "d1c1318e9b0a442ed2ae0d5423567ed5883423ee5a5d095c8339b947d615a410",
+      "bytes": 6900776,
+      "sha256": "070905534da7cf5c7707d475da634fa535478bb7df8cff773bf17ec8bc147beb",
       "kind": "data",
       "collections": [
         "appearances"
@@ -92,24 +92,24 @@
     },
     {
       "path": "sources.json",
-      "bytes": 571029,
-      "sha256": "65c84aa39288d510a5d053d3cd69a3caec19ffd19414445f86fcff85d8522cf5",
+      "bytes": 571919,
+      "sha256": "f4d049d550960b63e34f3d38380485e07b384c89074e9cc0116b38c73f8ca185",
       "kind": "sources",
       "collections": [
         "values"
       ]
     }
   ],
-  "totalBytes": 23283913,
-  "largestFileBytes": 6897137,
+  "totalBytes": 23297464,
+  "largestFileBytes": 6900776,
   "counts": {
     "performances": 1137,
-    "people": 19379,
+    "people": 19380,
     "organizations": 1341,
     "shows": 500,
     "venues": 189,
-    "roles": 5906,
-    "appearances": 18740,
+    "roles": 5912,
+    "appearances": 18745,
     "creativeCredits": 16940,
     "aboveTitleProducers": 1233,
     "presentingOrganizations": 192,
@@ -121,6 +121,6 @@
     "coverPools": 2685,
     "songLists": 4055,
     "companyAssignments": 90,
-    "sources": 1360
+    "sources": 1361
   }
 }

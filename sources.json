@@ -3626,6 +3626,19 @@
         "https://www.recast.show/shows/titanique-broadway/2026-08-15-evening"
       ],
       "notes": "No conductor or performance-specific improv note was supplied for this attendance. Production/program structure is carried from the current same-production snapshot, but orchestra roster is not treated as proof of the actual conductor or pit personnel."
+    },
+    {
+      "title": "Titanique — August 15, 2026 correction: understudies retained from August 14 and cast-grid display rule",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-08-16",
+      "correction": "Isaac clarifies that the August 15 evening performance had Brad Greer, Tess Marshall, and Kyle Ramar Freeman on in the same tracks as August 14, while Sara Gallo had returned as Background Vocalist.",
+      "actualCastCorrections": [
+        "Brad Greer — Victor Garber / Luigi — Understudy",
+        "Tess Marshall — Molly Brown — Understudy",
+        "Kyle Ramar Freeman — Tour Guide / The Seaman / Iceberg — Understudy",
+        "Sara Gallo — Background Vocalist — regular"
+      ],
+      "displayRule": "Cast grids should show the role/track and the performer with cover type only. Performance/cast notes must not render inside grid cells."
     }
   ]
 }
