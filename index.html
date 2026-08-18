@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b204">
+<meta name="archive-house-build" content="json-b205">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -728,6 +728,20 @@ html,body,#app{width:100%;max-width:100%;overflow-x:hidden!important;}
 
 /* Build 181 compact performance facts */
 .performanceFacts{padding:8px 10px!important;margin-top:8px!important}.performanceFacts .factsPanel{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:5px!important;margin:0!important}.performanceFacts .fact{min-height:0!important;padding:6px 8px!important;border-radius:11px!important}.performanceFacts .factWide{grid-column:1/-1}.performanceFacts .fact b{margin-bottom:1px!important;font-size:8px!important}.performanceFacts .fact span{font-size:11px!important}.dbMicro a{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:rgba(42,34,18,.72);background:rgba(255,240,100,.3);border:1px solid var(--cue-line);border-radius:999px;padding:3px 7px;text-decoration:none}.dbMicro a:hover{background:var(--ink);color:#fff}.performanceFacts+.programActions{margin-top:7px!important}@media(max-width:620px){.performanceFacts .factsPanel{grid-template-columns:1fr 1fr!important}.performanceFacts .factWide{grid-column:1/-1}.performanceFacts{padding:7px 8px!important}.performanceFacts .fact{padding:5px 7px!important}}
+
+/* Build 205 mobile Cast Grid polish */
+@media(max-width:700px){
+  .showGridCard{padding:12px 8px!important}
+  .castGridWrap{border-radius:10px!important;margin:0!important}
+  .castGrid th{top:0!important;overflow-wrap:normal!important;word-break:normal!important;hyphens:none!important}
+  .castGrid th,.castGrid td{min-width:112px!important;padding:6px 5px!important}
+  .castGrid th:first-child,.castGrid td:first-child{min-width:145px!important;max-width:145px!important}
+  .castGridPerformance .link{font-size:10.5px!important;line-height:1.18!important}
+  .castGridPerformance .note{font-size:9px!important;line-height:1.2!important;margin-top:3px!important}
+  .castGrid .entityInlineToggle .entityName{font-size:10.5px!important;line-height:1.08!important}
+  .castGrid .entityInlineToggle .pill{font-size:8.5px!important;padding:2px 5px!important}
+  .castGridCompactList{min-width:148px!important}
+}
 </style>
 
 <style id="cuebook-b146-authoritative">
@@ -950,7 +964,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b204"></script>
+<script src="data-loader.js?v=json-b205"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1031,17 +1045,17 @@ body{background:radial-gradient(circle at 9% -8%,rgba(215,164,73,.14),transparen
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b204">Souvenir Program</a><a href="castbook.html?v=json-b204">Cast Book</a><a href="companions.html?v=json-b204">Companions</a>
+    <a href="souvenir.html?v=json-b205">Souvenir Program</a><a href="castbook.html?v=json-b205">Cast Book</a><a href="companions.html?v=json-b205">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B204 · v13.29.0</div>
+  <div class="menuVersion">B205 · v13.30.0</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b204';
-const VERSION='v13.29.0';
+const BUILD='json-b205';
+const VERSION='v13.30.0';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1120,7 +1134,7 @@ function attended(p){let a=p.attendedWith||p.companions||[];if(typeof a==='strin
 function ticketMoney(p){let value=Number(p.ticketPrice),currency=String(p.ticketCurrency||'USD').toUpperCase();if(!Number.isFinite(value))return p.ticketPrice==null?'':String(p.ticketPrice);try{return new Intl.NumberFormat('en-US',{style:'currency',currency,minimumFractionDigits:2,maximumFractionDigits:2}).format(value);}catch(_){return value.toFixed(2)+' '+currency;}}
 function ticketDisplay(p){return [p.ticketType,p.ticketSource,p.ticketPrice!=null?ticketMoney(p):'',p.price].filter(Boolean).join(' · ');} 
 function markerDisplay(p){let a=[];if(Array.isArray(p.experienceMarkers))a=a.concat(p.experienceMarkers);if(p.tags){if(Array.isArray(p.tags))a=a.concat(p.tags);else a.push(p.tags);}return [...new Set(a.filter(Boolean))];}
-function labelCover(t){let m={understudy:'u/s',standby:'standby',swing:'s/w',alternate:'alt',temporary_replacement:'t/r',emergency_cover:'emergency',onstage_swing:'s/w',vacation_swing:'V/S',vacation_cover:'V/C',special_appearance:'special'};return m[t]||String(t||'').replace(/_/g,' ')}
+function labelCover(t){let m={understudy:'u/s',standby:'standby',swing:'s/w',alternate:'alt',temporary_replacement:'t/r',emergency_cover:'emergency',onstage_swing:'O/Sw',vacation_swing:'V/S',vacation_cover:'V/C',special_appearance:'special'};return m[t]||String(t||'').replace(/_/g,' ')}
 function displayRoleName(name){return String(name||'').replace(/\s*\/\s*/g,' / ').replace(/\s+/g,' ').trim();}
 function isCoverBadgeLabel(tag){return /^(?:u\/s|s\/w|s\/b|alt|t\/r|emergency|v\/s|v\/c|vacation swing|vacation cover|special)$/i.test(String(tag||'').trim());}
 function badgePillHtml(tag,extra=''){if(!tag)return'';let isCover=isCoverBadgeLabel(tag),tone=isCover?coverToneClass(tag):'',cls=isCover?'pill cover':'pill notePill';return `<span class="${cls}${tone?' '+tone:''}${extra?' '+extra:''}">${esc(tag)}</span>`;}
@@ -1494,7 +1508,7 @@ function castGridExportModel(showId,ps){
   let cfg=showGridConfig(showId),tracks=cfg?(cfg.tracks||[]):principalRoleStatsForShow(showId,ps).map(x=>({label:x.role||x.name,aliases:[x.role||x.name]}));
   let roles=tracks.map(t=>t.label).filter(Boolean),roleIndex=new Map(roles.map((name,i)=>[norm(name),i]));
   let rows=ps.slice().sort((a,b)=>String(a.date||'').localeCompare(String(b.date||''))||idNum(a.id)-idNum(b.id)).map(p=>{
-    let cells=tracks.map(t=>({track:t,apps:[],items:[],hasCover:false,compactList:!!t.group})),consumed=new Set(),all=(perfApps.get(idNum(p.id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||idNum(a.id)-idNum(b.id));
+    let cells=tracks.map(t=>({track:t,apps:[],items:[],hasCover:false,compactList:!!t.group||!!t.compactList})),consumed=new Set(),all=(perfApps.get(idNum(p.id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||idNum(a.id)-idNum(b.id));
     for(let a of all){
       let targets=cfg?gridTargetsForAppearance(showId,a):[];
       if(!cfg&&a.appearanceType==='principal')targets=[{label:gridRoleName(a),aliases:[gridRoleName(a)]}];
@@ -1525,8 +1539,8 @@ function buildCastGridXLSXBlob(showId){
   const headers=['Performance',...model.roles.map(displayRoleName)],lastCol=xlsxColName(headers.length),lastRow=model.rows.length+1;
   const rows=[];
   rows.push(`<row r="1" ht="30" customHeight="1">${headers.map((h,i)=>xlsxCell(`${xlsxColName(i+1)}1`,h,1)).join('')}</row>`);
-  model.rows.forEach((r,ix)=>{let rn=ix+2,cells=[xlsxCell(`A${rn}`,`${r.label}\n${r.sub}`,2)],maxLines=2;r.cells.forEach((c,j)=>{let compact=!!c.compactList,sep=compact?', ':'\n\n',text=(c.items||[]).map(it=>xlsxCastText(it,compact)).join(sep),lines=Math.max(1,text.split('\n').length);maxLines=Math.max(maxLines,lines);cells.push(xlsxCell(`${xlsxColName(j+2)}${rn}`,text,c.hasCover?4:3));});let ht=Math.min(88,Math.max(34,18+maxLines*11));rows.push(`<row r="${rn}" ht="${ht}" customHeight="1">${cells.join('')}</row>`);});
-  const cols=`<col min="1" max="1" width="28" customWidth="1"/><col min="2" max="${headers.length}" width="18" customWidth="1"/>`;
+  model.rows.forEach((r,ix)=>{let rn=ix+2,perfText=`${r.label}\n${r.sub}`,cells=[xlsxCell(`A${rn}`,perfText,2)],perfLines=Math.max(2,Math.ceil(String(r.label||'').length/27)+Math.ceil(String(r.sub||'').length/27)),maxLines=perfLines;r.cells.forEach((c,j)=>{let compact=!!c.compactList,sep=compact?', ':'\n\n',text=(c.items||[]).map(it=>xlsxCastText(it,compact)).join(sep),lines=Math.max(1,text.split('\n').length);maxLines=Math.max(maxLines,lines);cells.push(xlsxCell(`${xlsxColName(j+2)}${rn}`,text,c.hasCover?4:3));});let ht=Math.min(126,Math.max(62,26+maxLines*13));rows.push(`<row r="${rn}" ht="${ht}" customHeight="1">${cells.join('')}</row>`);});
+  const cols=`<col min="1" max="1" width="31" customWidth="1"/><col min="2" max="${headers.length}" width="18" customWidth="1"/>`;
   const sheet=`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><dimension ref="A1:${lastCol}${lastRow}"/><sheetViews><sheetView workbookViewId="0"><pane xSplit="1" ySplit="1" topLeftCell="B2" activePane="bottomRight" state="frozen"/></sheetView></sheetViews><sheetFormatPr defaultRowHeight="18"/><cols>${cols}</cols><sheetData>${rows.join('')}</sheetData><autoFilter ref="A1:${lastCol}${lastRow}"/><pageMargins left="0.3" right="0.3" top="0.5" bottom="0.5" header="0.2" footer="0.2"/></worksheet>`;
   const styles=`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="10"/><name val="Arial"/></font><font><b/><color rgb="FFFFFFFF"/><sz val="10"/><name val="Arial"/></font></fonts><fills count="5"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FF183139"/><bgColor indexed="64"/></patternFill></fill><fill><patternFill patternType="solid"><fgColor rgb="FFFAF7ED"/><bgColor indexed="64"/></patternFill></fill><fill><patternFill patternType="solid"><fgColor rgb="FFEAF4F8"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="2"><border><left/><right/><top/><bottom/><diagonal/></border><border><left style="thin"><color rgb="FFD7DFE1"/></left><right style="thin"><color rgb="FFD7DFE1"/></right><top style="thin"><color rgb="FFD7DFE1"/></top><bottom style="thin"><color rgb="FFD7DFE1"/></bottom><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="5"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="2" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf><xf numFmtId="0" fontId="0" fillId="3" borderId="1" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment vertical="center" wrapText="1"/></xf><xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf><xf numFmtId="0" fontId="0" fillId="4" borderId="1" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`;
   const workbook=`<?xml version="1.0" encoding="UTF-8" standalone="yes"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets><sheet name="Cast Grid" sheetId="1" r:id="rId1"/></sheets></workbook>`;
@@ -1537,7 +1551,7 @@ function buildCastGridXLSXBlob(showId){
 }
 window.downloadCastGridXLSX=function(showId){const blob=buildCastGridXLSXBlob(showId),show=S.get(idNum(showId));if(!blob){alert('No cast-grid data found for this show.');return;}const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=safeFileName(`${show?.title||show?.name||'show'}-cast-grid`)+'.xlsx';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1200);};
 function showView(id){let s=S.get(idNum(id));if(!s)return notFound();let ps=(showPerfs.get(idNum(id))||[]).slice();let years=[...new Set(ps.map(yearOf))].filter(Boolean).sort();let sub=`${num(ps.length)} performances${years.length?` · ${esc(years[0])}–${esc(years[years.length-1])}`:''}.`;let actions=`<div class="programActions"><button class="btn" type="button" onclick="downloadCastGridCSV(${idNum(id)})">Download Cast Grid CSV</button><button class="btn" type="button" onclick="downloadCastGridXLSX(${idNum(id)})">Download Cast Grid Excel</button><button class="btn downloadJpg" type="button" onclick="downloadCastGridJPG(${idNum(id)})">Download Cast Grid JPG</button><a class="btn secondary" href="#diary?type=all&q=${encodeURIComponent(s.title||s.name||'')}">Diary Search</a></div>`;shell(`${hero(s.title||s.name,sub,true)}${actions}<section class="card showGridCard"><h2>Cast Grid</h2>${castGrid(id,ps)}</section><section class="card"><h2>Performances</h2><div class="list">${ps.slice().reverse().map(perfRow).join('')}</div></section>`)}
-function personAppearanceKind(a){let c=String(a.coverType||'').toLowerCase();if(c==='standby')return's/b';if(c==='understudy')return'u/s';if(c==='swing'||c==='onstage_swing')return's/w';if(c==='vacation_swing')return'V/S';if(c==='vacation_cover')return'V/C';if(c==='alternate')return'alt';if(c==='temporary_replacement')return't/r';return c?labelCover(c):'';}
+function personAppearanceKind(a){let c=String(a.coverType||'').toLowerCase();if(c==='standby')return's/b';if(c==='understudy')return'u/s';if(c==='swing')return's/w';if(c==='onstage_swing')return'O/Sw';if(c==='vacation_swing')return'V/S';if(c==='vacation_cover')return'V/C';if(c==='alternate')return'alt';if(c==='temporary_replacement')return't/r';return c?labelCover(c):'';}
 function compactDateList(rows){let dates=[...new Set(rows.map(x=>x.perf?.date||performanceById(x.performanceId)?.date).filter(Boolean))].sort();if(!dates.length)return'';if(dates.length<=8)return dates.map(d=>fmtDate(d,true)).join(', ');return `${fmtDate(dates[0],true)}–${fmtDate(dates[dates.length-1],true)} · ${num(dates.length)} dates`;}
 function personProductionGroups(id){let rows=(personApps.get(idNum(id))||[]).map(a=>({a,perf:performanceById(a.performanceId)})).filter(x=>x.perf);let groups=new Map();function ensure(perf){let k=creditProductionKey(perf),key=`${idNum(perf.showId)}|${k}`;if(!groups.has(key))groups.set(key,{key,showId:idNum(perf.showId),prod:appearanceProductionDisplay(perf),rows:[],dates:[],latest:'',representative:perf.id});return groups.get(key)}rows.forEach(x=>{let g=ensure(x.perf);g.rows.push(x);g.dates.push(x.perf.date);if(String(x.perf.date)>g.latest){g.latest=x.perf.date;g.representative=x.perf.id;}});return [...groups.values()].map(g=>{g.perfCount=new Set(g.rows.map(x=>idNum(x.perf.id))).size;g.first=[...g.dates].sort()[0]||'';g.last=[...g.dates].sort().slice(-1)[0]||'';let roleGroups=new Map();g.rows.forEach(x=>{let role=displayRoleName(personSeenDisplayRole(x.a)),kind=personAppearanceKind(x.a),secondary=personTrackBits(x.a),key=[kind,role,secondary.join('|')].join('||');if(!roleGroups.has(key))roleGroups.set(key,{role,kind,secondary:new Set(),rows:[]});let rg=roleGroups.get(key);secondary.forEach(v=>rg.secondary.add(v));rg.rows.push(x)});g.roles=[...roleGroups.values()];return g;}).sort((a,b)=>b.latest.localeCompare(a.latest)||a.prod.localeCompare(b.prod));}
 function companyAssignmentKind(row,source){if(source==='coverPools')return personAppearanceKind({coverType:row.coverType})||labelCover(row.coverType);if(source==='productionAlternates')return'alt';if(source==='danceCaptains'||source==='fightCaptains')return'';let t=String(row.assignmentType||'').toLowerCase();return personAppearanceKind({coverType:t})||labelCover(t);}
