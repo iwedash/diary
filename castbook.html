@@ -38,7 +38,7 @@ html,body,button,input,select,textarea,a,span,div,section,article,aside,header,f
 <style id="cuebook-b146-tool-shell">
 :root{--ink:#241728;--berry:#6B263F;--gold:#F2C84B;--paper:#FFF8EC;--blush:#F3E3DF;--black:#151216;--muted:#75666f;--line:rgba(36,23,40,.16);--shadow:0 10px 28px rgba(36,23,40,.08);}
 body{background:linear-gradient(180deg,var(--paper),var(--blush))!important;color:var(--black)!important}.top,.topbar{background:linear-gradient(110deg,var(--ink),#38203a 65%,var(--berry))!important;border-bottom:1px solid rgba(242,200,75,.55)!important;color:#fff!important;box-shadow:none!important}.brand:after{content:none!important}.panel,.card,.controls,.hero{background:var(--paper)!important;border-color:var(--line)!important;box-shadow:var(--shadow)!important}.btn{min-height:44px!important;border-radius:999px!important;border-color:rgba(242,200,75,.55)!important}.toolMenu{position:relative;margin-left:auto}.toolMenu summary{list-style:none;cursor:pointer;border:1px solid var(--gold);background:var(--black);color:var(--gold);border-radius:999px;padding:11px 16px;font-weight:900}.toolMenu summary::-webkit-details-marker{display:none}.toolMenuPanel{position:absolute;right:0;top:calc(100% + 8px);z-index:50;width:230px;background:var(--paper);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:10px;display:grid;gap:7px}.toolMenuPanel a{padding:10px;border-radius:10px;text-decoration:none;color:var(--ink);font-weight:900;background:#fff;border:1px solid var(--line)}.toolMenuPanel small{padding:8px 4px 2px;color:var(--muted);font-size:9px;letter-spacing:.1em;text-transform:uppercase}@media(max-width:700px){.topin,.topbar{gap:8px!important;flex-wrap:wrap!important}}
-</style><script src="data-loader.js?v=json-b208"></script>
+</style><script src="data-loader.js?v=json-b212"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -66,9 +66,37 @@ html,body{background:#fff!important;color:var(--cb-ink)!important;font-family:Ar
 @media(max-width:650px){.wrap{padding:12px}.perfTitle{font-size:23px!important}.cbEntry{grid-template-columns:minmax(120px,.42fr) minmax(0,1fr);gap:8px}.cbRole{font-size:10.5px}.cbPerson{font-size:11.5px}}
 @media print{html,body{background:#fff!important}.wrap{padding:0!important}.perfSheet{border-bottom:1px solid #999!important;margin-bottom:4mm!important;padding-bottom:4mm!important}.perfTitle{font-size:17pt!important}.perfMeta{font-size:8pt!important}.cbGroup h3{font-size:8pt!important}.cbRole{font-size:8pt!important}.cbPerson{font-size:8.5pt!important}.cbBadge{font-size:6.5pt!important}.cbEntry{padding:1.2mm 0!important}.perfSheet{page-break-inside:avoid;break-inside:avoid}}
 </style>
+
+<style id="build211-castbook-flow">
+:root{--cb-ink:#202629;--cb-muted:#667176;--cb-rule:#bfc8cb;}
+html,body{background:#fff!important;color:var(--cb-ink)!important;font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;}
+.wrap{max-width:940px!important;}
+.perfSheet{border:0!important;border-bottom:1px solid var(--cb-rule)!important;border-radius:0!important;box-shadow:none!important;margin:0 0 13px!important;padding:0 0 13px!important;overflow:visible!important;break-inside:auto!important;page-break-inside:auto!important;}
+.perfHead{padding:0!important;margin:0 0 5px!important;border:0!important;break-after:avoid!important;page-break-after:avoid!important;}
+.perfTitle{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:18px!important;line-height:1.1!important;letter-spacing:0!important;margin:0 0 2px!important;font-weight:750!important;}
+.perfMeta{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:10px!important;line-height:1.2!important;text-transform:none!important;letter-spacing:.015em!important;color:var(--cb-muted)!important;font-weight:500!important;}
+.castLine{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:11.25px!important;line-height:1.4!important;padding:0!important;}
+.castCsv{display:block!important;margin:0!important;padding:0!important;}
+.ensembleCsv{margin-top:5px!important;padding-top:4px!important;border-top:1px solid rgba(32,38,41,.11)!important;}
+.ensembleLabel{font-weight:750!important;}
+.cbCsvItem{display:inline!important;}
+.cbName{font-weight:620!important;}
+.cbComma{display:inline!important;}
+.cbGroup,.cbEntries,.cbEntry,.cbRole,.cbPerson{display:contents!important;}
+@media print{
+  .wrap{max-width:none!important;padding:0!important;}
+  .perfSheet{margin:0 0 3.5mm!important;padding:0 0 3.5mm!important;border-bottom:.45pt solid #aab2b4!important;break-inside:auto!important;page-break-inside:auto!important;}
+  .perfTitle{font-size:11.5pt!important;}
+  .perfMeta{font-size:7.4pt!important;}
+  .castLine{font-size:8.6pt!important;line-height:1.34!important;}
+  .ensembleCsv{margin-top:1.5mm!important;padding-top:1.1mm!important;}
+  @page{size:auto;margin:.48in .5in .55in;}
+  @page{@bottom-center{content:"Page " counter(page);font:7pt Arial,"Helvetica Neue",Helvetica,sans-serif;color:#6b7376;}}
+}
+</style>
 </head>
 <body>
-<header class="topbar"><div><h1>Cuebook Cast Book</h1><p>Printable cast subsections by show family, covers, and production type.</p></div><div class="toolbar"><button class="btn" onclick="window.print()">Print / Save PDF</button><button class="btn" onclick="downloadWord()">Download compact .doc</button><button class="btn dark" onclick="downloadHtml()">Download HTML</button></div><details class="toolMenu"><summary>Menu</summary><div class="toolMenuPanel"><a href="index.html?v=json-b208">Dashboard</a><a href="souvenir.html?v=json-b208">Souvenir Program</a><a href="castbook.html?v=json-b208">Cast Book</a><a href="companions.html?v=json-b208">Companions</a><a href="qa.html?v=json-b208">Data Health</a><a href="logo-manager.html?v=json-b208">Logo Manager</a><small>B208 · v13.30.3</small></div></details></header>
+<header class="topbar"><div><h1>Cuebook Cast Book</h1><p>Compact comma-separated cast lists by performance, designed for print and reference.</p></div><div class="toolbar"><button class="btn" onclick="window.print()">Print / Save PDF</button><button class="btn" onclick="downloadWord()">Download compact .doc</button><button class="btn dark" onclick="downloadHtml()">Download HTML</button></div><details class="toolMenu"><summary>Menu</summary><div class="toolMenuPanel"><a href="index.html?v=json-b212">Dashboard</a><a href="souvenir.html?v=json-b212">Souvenir Program</a><a href="castbook.html?v=json-b212">Cast Book</a><a href="companions.html?v=json-b212">Companions</a><a href="qa.html?v=json-b212">Data Health</a><a href="logo-manager.html?v=json-b212">Logo Manager</a><small>B212 · v13.30.7</small></div></details></header>
 <main class="wrap"><section class="controls"><input id="q" placeholder="Filter by show, venue, city, date, or performer…"><select id="range"><option value="all">All performances</option><option value="lastYear">Last year</option><option value="lastFive">Last five years</option></select><select id="section"><option value="all">All cast books</option><option value="broadway">Broadway</option><option value="offbroadway">Off-Broadway</option><option value="arena">Arena Stage</option><option value="wicked">Wicked</option><option value="juliet">& Juliet</option><option value="dbh">Death Becomes Her</option><option value="six">SIX</option><option value="deh">Dear Evan Hansen</option><option value="heathers">Heathers</option><option value="waitress">Waitress</option><option value="mammamia">Mamma Mia!</option></select><select id="mode"><option value="all">Show all cast lists</option><option value="covers">Only performances with covers/special cast</option></select><select id="sort"><option value="old" selected>Oldest → newest</option><option value="new">Newest → oldest</option></select><div class="count" id="count">Loading…</div></section><div id="book"></div></main>
 <script>
 let DB=null, IDX=null;
@@ -93,8 +121,9 @@ function themeFor(title){let t=String(title||'').toLowerCase();
   let h=0; for(let i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))%360; return [`hsl(${h} 45% 89%)`,`hsl(${h} 44% 28%)`];
 }
 function castRole(a){return String(a.roleRaw||role(a.roleId)||'Ensemble').replace(/\s*\/\s*/g,' / ').replace(/\s+/g,' ').trim();}
-function castItem(a){let r=castRole(a),n=name(a.personId),badge=isCover(a)?`<span class="cbBadge">${esc(readableCover(a))}</span>`:'';return `<div class="cbEntry"><div class="cbRole">${esc(r)}</div><div class="cbPerson"><strong>${esc(n)}</strong>${badge}</div></div>`;}
-function castGroup(label,arr){if(!arr.length)return'';return `<section class="cbGroup"><h3>${esc(label)}</h3><div class="cbEntries">${arr.map(castItem).join('')}</div></section>`;}
+function castParen(a){let raw=String(a.raw||'').trim(),m=raw.match(/^[^(]+\((.*)\)\s*$/);if(m)return m[1].trim();let r=castRole(a);return (isCover(a)?`*${readableCover(a)} `:'')+r;}
+function castItem(a){return `<span class="cbCsvItem"><span class="cbName">${esc(name(a.personId))}</span> (${esc(castParen(a))})</span>`;}
+function castGroup(label,arr){if(!arr.length)return'';let body=arr.map(castItem).join('<span class="cbComma">, </span>');return `<p class="castCsv ${label==='Ensemble'?'ensembleCsv':'principalCsv'}">${label==='Ensemble'?'<strong class="ensembleLabel">Ensemble:</strong> ':''}${body}</p>`;}
 function orchestraOrder(label,index=0){let n=String(label||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();if(n.includes('associate conductor'))return 1;if(n.includes('assistant conductor'))return 2;if(n==='conductor'||n.startsWith('conductor ')||n.includes('music director conductor'))return 0;return 100+index;}
 function orchestraText(p){let orch=(IDX.orch[p.id]||[]).map((o,i)=>({o,i})).sort((a,b)=>orchestraOrder(a.o.chair,a.i)-orchestraOrder(b.o.chair,b.i)||a.i-b.i).map(x=>x.o); if(!orch.length)return''; return orch.map(o=>`${esc(o.chair)}: ${(o.personIds||[]).map(name).map(esc).join(', ')}`).join('; ');}
 function perfHtml(p){let apps=(IDX.apps[p.id]||[]).slice().sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));let title=show(p),principals=apps.filter(a=>String(a.appearanceType||'')==='principal'),ensemble=apps.filter(a=>String(a.appearanceType||'')!=='principal');let meta=[fmt(p.date),p.type,p.time,venue(p)].filter(Boolean).join(' · ');return `<article class="perfSheet"><header class="perfHead"><h2 class="perfTitle">${esc(title)}</h2><div class="perfMeta">${esc(meta)}</div></header><div class="castLine">${castGroup('Principals',principals)}${castGroup('Ensemble',ensemble)||(!principals.length?'<span class="empty">No cast stored.</span>':'')}</div></article>`;}
@@ -113,6 +142,34 @@ html,body,button,input,select,textarea,a,span,div,section,article,aside,header,f
 
 /* Build 187: lighter title typography. */
 h1,h2,h3,.title,.showTitle,.rowTitle,.cardTitle,.productionTitle{font-weight:650!important;letter-spacing:.005em!important;line-height:1.08!important;}
+</style>
+
+<style id="build211-castbook-flow">
+:root{--cb-ink:#202629;--cb-muted:#667176;--cb-rule:#bfc8cb;}
+html,body{background:#fff!important;color:var(--cb-ink)!important;font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;}
+.wrap{max-width:940px!important;}
+.perfSheet{border:0!important;border-bottom:1px solid var(--cb-rule)!important;border-radius:0!important;box-shadow:none!important;margin:0 0 13px!important;padding:0 0 13px!important;overflow:visible!important;break-inside:auto!important;page-break-inside:auto!important;}
+.perfHead{padding:0!important;margin:0 0 5px!important;border:0!important;break-after:avoid!important;page-break-after:avoid!important;}
+.perfTitle{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:18px!important;line-height:1.1!important;letter-spacing:0!important;margin:0 0 2px!important;font-weight:750!important;}
+.perfMeta{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:10px!important;line-height:1.2!important;text-transform:none!important;letter-spacing:.015em!important;color:var(--cb-muted)!important;font-weight:500!important;}
+.castLine{font-family:Arial,"Helvetica Neue",Helvetica,sans-serif!important;font-size:11.25px!important;line-height:1.4!important;padding:0!important;}
+.castCsv{display:block!important;margin:0!important;padding:0!important;}
+.ensembleCsv{margin-top:5px!important;padding-top:4px!important;border-top:1px solid rgba(32,38,41,.11)!important;}
+.ensembleLabel{font-weight:750!important;}
+.cbCsvItem{display:inline!important;}
+.cbName{font-weight:620!important;}
+.cbComma{display:inline!important;}
+.cbGroup,.cbEntries,.cbEntry,.cbRole,.cbPerson{display:contents!important;}
+@media print{
+  .wrap{max-width:none!important;padding:0!important;}
+  .perfSheet{margin:0 0 3.5mm!important;padding:0 0 3.5mm!important;border-bottom:.45pt solid #aab2b4!important;break-inside:auto!important;page-break-inside:auto!important;}
+  .perfTitle{font-size:11.5pt!important;}
+  .perfMeta{font-size:7.4pt!important;}
+  .castLine{font-size:8.6pt!important;line-height:1.34!important;}
+  .ensembleCsv{margin-top:1.5mm!important;padding-top:1.1mm!important;}
+  @page{size:auto;margin:.48in .5in .55in;}
+  @page{@bottom-center{content:"Page " counter(page);font:7pt Arial,"Helvetica Neue",Helvetica,sans-serif;color:#6b7376;}}
+}
 </style>
 </head><body><main class="wrap">${document.getElementById('book').innerHTML}</main></body></html>`}
 function downloadWord(){let blob=new Blob([docHtml()],{type:'application/msword'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='theatre-diary-compact-castbook.doc';a.click();URL.revokeObjectURL(a.href)}

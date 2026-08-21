@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b208">
+<meta name="archive-house-build" content="json-b212">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -964,7 +964,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b208"></script>
+<script src="data-loader.js?v=json-b212"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1045,17 +1045,17 @@ body{background:radial-gradient(circle at 9% -8%,rgba(215,164,73,.14),transparen
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b208">Souvenir Program</a><a href="castbook.html?v=json-b208">Cast Book</a><a href="companions.html?v=json-b208">Companions</a>
+    <a href="souvenir.html?v=json-b212">Souvenir Program</a><a href="castbook.html?v=json-b212">Cast Book</a><a href="companions.html?v=json-b212">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B208 · v13.30.3</div>
+  <div class="menuVersion">B212 · v13.30.7</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b208';
-const VERSION='v13.30.3';
+const BUILD='json-b212';
+const VERSION='v13.30.7';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1067,6 +1067,7 @@ let personCreditRows=new Map(),perfCredits=new Map(),showRoleStats=new Map(),ent
 let sortedPerfs=[];
 let state={view:'home',id:null,q:'',year:'all',type:'all',month:'all'};
 const PRINCIPAL_RULES={
+  'The Great Gatsby':['Jay Gatsby','Daisy Buchanan','Nick Carraway','Jordan Baker','Myrtle Wilson','Tom Buchanan','George Wilson','Meyer Wolfsheim'],
   'Death Becomes Her':['Madeline','Helen','Ernest','Viola','Chagall','Stefan','TV Announcer / Luciano / Doctor','Minister','Counselor','Director','Stacey','Woman #1','Woman #2 / Nurse #2','Chance','The Fall','Nurse #1','Silks Dance','Sarah','Priest','Ensemble'],
   'Wicked':['Elphaba','Glinda','Fiyero','Madame Morrible','The Wizard','Nessarose','Boq','Doctor Dillamond'],
   'Cats: The Jellicle Ball':['Old Deuteronomy','Munkustrap','Jennyanydots','Victoria','Tumblebrutus','Cassandra / Skimbleshanks','Rum Tum Tugger','Grizabella','Sillabub','Bustopher Jones','Mungojerrie','Rumpleteazer','Macavity','Demeter','Bombalurina','Gus','Jellylorum','Magical Mister Mistoffelees','Etcetera','Booth Singer / Police Officer / Server','DJ Griddlebone']
@@ -1442,6 +1443,8 @@ function cueCreditGroup(c){
   const productionFirst=/(stage manager|production manager|technical director|director of production|marketing director|casting director|company manager|general manager|board operator|follow spot|carpenter|electrician|dresser|wardrobe|costume director|producer|intern|consultant|location|press|marketing|advertising|business|payroll|legal|insurance)/;
   if(productionFirst.test(label))return'Production Staff';
   if(cat==='associate creative team'||cat==='dance captains'||cat==='fight captains')return'Additional Creative';
+  if(/(?:hair|wig|make[ -]?up)\b/.test(label))return'Creative Team';
+  if(/(?:dialect|voice director|vocal coach)\b/.test(label))return'Additional Creative';
   if(/associate|assistant|resident|additional|captain|consultant/.test(label))return'Additional Creative';
   const majorExact=['book','based on','music','lyrics','playwright','composer','lyricist','director','fight director','choreographer','choreography','music director','musical director','music direction','musical direction','music supervisor','music supervision','scenic design','set design','costume design','lighting design','sound design','projection design','video design','hair wig','hair and wig design','wig design','makeup design','orchestration','orchestrations','arrangement','arrangements','vocal arrangements','dance arrangements','dramaturg','dramaturgy','casting'];
   if(majorExact.some(x=>label===x||label.startsWith(x+' ')||label.endsWith(' '+x)))return'Creative Team';
