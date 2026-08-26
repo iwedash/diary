@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b234">
+<meta name="archive-house-build" content="json-b236">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -965,7 +965,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b234"></script>
+<script src="data-loader.js?v=json-b236"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1046,16 +1046,16 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b234">Souvenir Program</a><a href="castbook.html?v=json-b234">Cast Book</a><a href="companions.html?v=json-b234">Companions</a>
+    <a href="souvenir.html?v=json-b236">Souvenir Program</a><a href="castbook.html?v=json-b236">Cast Book</a><a href="companions.html?v=json-b236">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B234 · v13.31.00</div>
+  <div class="menuVersion">B236 · v13.32.00</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b234';
+const BUILD='json-b236';
 const VERSION='v13.30.8';
 const $=s=>document.querySelector(s);
 const app=$('#app');
@@ -1166,7 +1166,7 @@ function coverOnForName(a){
   if(!a||!a.coverType)return'';
   const normText=s=>String(s||'').replace(/[“”]/g,'"').replace(/[’]/g,"'").trim();
   const clean=s=>{let t=normText(s).replace(/^\*?\s*/,'').replace(/\b(?:s\/w|v\/s|v\/c|u\/s|t\/r|understudy|swing|standby|alternate|temporary replacement|onstage swing|vacation swing|vacation cover)\b/ig,' ').replace(/\b(?:in|on for)\b/ig,' ').replace(/['’]s\b/g,'').replace(/\btracks?\b/ig,' ').replace(/\b(?:out|role)\b$/ig,' ').replace(/[()*;,]/g,' ').replace(/\s+/g,' ').trim();t=t.replace(/^(?:for|of)\s+/i,'').trim();return(!t||/^(?:understudy|swing|standby|alternate|ensemble|track)$/i.test(t))?'':t;};
-  const texts=[a.coverFor,a.onFor,a.coveredFor,a.coverLabel,a.raw,a.roleNote].filter(Boolean).map(normText);
+  const texts=[a.onFor,a.trackOwnerName,a.coverFor,a.coveredFor,a.coverLabel,a.raw,a.roleNote].filter(Boolean).map(normText);
   for(const txt of texts){
     let m=txt.match(/\bon for\s+([^;,)]+)/i);if(m){let v=clean(m[1]);if(v)return v;}
     m=txt.match(/;\s*([^;()]+?)\s+out\b/i);if(m){let v=clean(m[1]);if(v)return v;}
@@ -1178,14 +1178,14 @@ function coverOnForName(a){
   }
   return'';
 }
-function coverOnForTextHtml(n){return n?` <span class="onForTag">[on for ${esc(n)}]</span>`:'';}
+function coverOnForTextHtml(n){return n?` <span class="onForTag">[On for ${esc(n)}]</span>`:'';}
 function coverOnForHtml(a){return coverOnForTextHtml(coverOnForName(a));}
 function personSeenDisplayRole(a){return roleNameForAppearance(a)||'Ensemble';}
 function personSeenTrackName(a){let role=displayRoleName(roleNameForAppearance(a));if(!/^ensemble$/i.test(role))return'';let owner=txt(a.trackOwnerName||a.coverFor||'');if(owner)return owner;let raw=txt(a.trackRoleOriginal||'');let m=raw.match(/^(.+?)(?:['’]s)?\s+(?:ensemble\s+)?track$/i);return m?m[1].trim():'';}
-function personTrackBits(a){let bits=[],role=displayRoleName(personSeenDisplayRole(a)),track=displayRoleName(personSeenTrackName(a)),onFor=coverOnForName(a);if(a.alsoEnsemble&&!/^ensemble$/i.test(role))bits.push('also Ensemble');if(track)bits.push('track: '+track);if(onFor)bits.push('on for '+onFor);if(a.splitTrackNote||a.roleNote==='Split track this performance')bits.push('Split track this performance');return [...new Set(bits)];}
+function personTrackBits(a){let bits=[],role=displayRoleName(personSeenDisplayRole(a)),onFor=coverOnForName(a);if(a.alsoEnsemble&&!/^ensemble$/i.test(role))bits.push('also Ensemble');if(onFor)bits.push('On for '+onFor);return [...new Set(bits)];}
 function personTrackText(a){return personTrackBits(a).join(' · ');}
 function personTrackHtml(a){let t=personTrackText(a);return t?` <span class="onForTag trackTag">[${esc(t)}]</span>`:'';}
-function personRoleGroupRows(rows){let groups=new Map();rows.forEach(a=>{let role=personSeenDisplayRole(a);if(!role)return;if(!groups.has(role))groups.set(role,{role,coverTypes:new Set(),tracks:new Map(),count:0});let g=groups.get(role);g.count++;if(a.coverType)g.coverTypes.add(a.coverType);if(isEnsembleTrackAppearance(a)){let cover=a.coverType||'';let track=displayRoleName(personSeenTrackName(a));let onFor=coverOnForName(a);if(track||onFor){let label=track?`track: ${displayRoleName(track)}${onFor?` · on for ${onFor}`:''}`:`on for ${onFor}`;let key=[track,onFor,cover].join('|');g.tracks.set(key,{label,coverType:cover});}}});return [...groups.values()].sort((a,b)=>a.role.localeCompare(b.role));}
+function personRoleGroupRows(rows){let groups=new Map();rows.forEach(a=>{let role=personSeenDisplayRole(a);if(!role)return;if(!groups.has(role))groups.set(role,{role,coverTypes:new Set(),tracks:new Map(),count:0});let g=groups.get(role);g.count++;if(a.coverType)g.coverTypes.add(a.coverType);if(isEnsembleTrackAppearance(a)){let cover=a.coverType||'';let onFor=coverOnForName(a);if(onFor){let label=`On for ${onFor}`;let key=[onFor,cover].join('|');g.tracks.set(key,{label,coverType:cover});}}});return [...groups.values()].sort((a,b)=>a.role.localeCompare(b.role));}
 function personRoleBitHtml(g,trackLimit=4){let covers=[...g.coverTypes].map(coverBadgeHtml).join('');let tracks=[...g.tracks.values()].slice(0,trackLimit).map(t=>`<span class="trackMini">${t.coverType?coverBadgeHtml(t.coverType):''}${esc(t.label)}</span>`).join('');let more=g.tracks.size>trackLimit?`<span class="trackMini">+${g.tracks.size-trackLimit} more tracks</span>`:'';return `<span class="seenRoleBit"><span>${esc(g.role)}</span>${covers}${tracks||more?`<span class="trackMiniStack">${tracks}${more}</span>`:''}</span>`;}
 function personAppearanceStatsForEntity(eid){let pid=personIdFromEntityId(eid);let rows=pid?(personApps.get(pid)||[]):[];let perfIds=new Set(rows.map(a=>idNum(a.performanceId)).filter(Boolean));let showIds=new Set([...perfIds].map(id=>performanceById(id)?.showId).filter(Boolean).map(idNum));let years=new Set([...perfIds].map(id=>{let px=performanceById(id);return px?yearOf(px):'';}).filter(Boolean));let roleBits=personRoleGroupRows(rows);return {rows,perfIds,showIds,years,roleBits};}
 function appearanceProductionDisplay(p){if(!p)return'';let bits=[showTitle(p.showId),productionLabelForPerformance(p),venueShortName(p.venueId)].filter(Boolean);return [...new Set(bits)].join(' · ');} 
@@ -1422,7 +1422,7 @@ function castLine(a){return castListRow(a)}
 function personDifferentRoles(pid){return new Set((personApps.get(idNum(pid))||[]).map(x=>personSeenDisplayRole(x)).filter(Boolean));}
 function personOtherRoleCountForAppearance(a){let set=personDifferentRoles(a.personId);let cur=personSeenDisplayRole(a);if(cur)set.delete(cur);return set.size;}
 function roleListLabel(a){let rn=displayRoleName(roleNameForAppearance(a));return `<div class="roleLine"><span class="roleText">${esc(rn)}</span></div>`;}
-function performanceCastNote(a){let bits=[];[a.roleNote].filter(Boolean).forEach(x=>{let t=String(x).trim();if(!t||/^swing$/i.test(t)||/^s\/?w$/i.test(t)||/\bon for\b|\bon in\b/i.test(t)||bits.some(b=>norm(b)===norm(t)))return;bits.push(t);});return bits.join(' · ');}
+function performanceCastNote(a){if(a.coverType){let onFor=coverOnForName(a);return onFor?'On for '+onFor:'';}let bits=[];[a.roleNote].filter(Boolean).forEach(x=>{let t=String(x).trim();if(!t||bits.some(b=>norm(b)===norm(t)))return;bits.push(t);});return bits.join(' · ');}
 function castListRow(a){let tag=a.coverType?labelCover(a.coverType):'',notes=performanceCastNote(a),eid=entityIdForPerson(a.personId),hasEntity=E.has(eid),did=hasEntity?nextEntityDrawerId('cast-drawer'):'';let person=hasEntity?entityInlineToggle(eid,personName(a.personId),tag,did):link('#person-'+a.personId,personName(a.personId),'linkBtn');let row=`<div class="castListRow"><div class="castRoleCell">${roleListLabel(a)}</div><div class="castNameCell"><div class="entityStack">${person}${notes?`<div class="castSubstitutionNote">${esc(notes)}</div>`:''}</div></div></div>`;return row+(hasEntity?entityDrawerRow(eid,did):'');}
 function castListSection(title,rows,cls){if(!rows.length)return'';let intro=cls==='full'?'Exact performance casting in program order.':cls==='principal'?'Actual performance casting.':cls==='background'?'Dedicated background-vocalist roster.':cls==='ensemble'?'Named ensemble tracks and ensemble rows.':cls==='orphan'?'Orphan / child-role casting.':'Additional onstage casting.';return `<div class="castListBlock ${esc(cls||'other')}"><div class="castListHead"><div><h3>${esc(title)}</h3><div class="sectionIntro">${esc(intro)}</div></div><span class="castListCount">${esc(num(rows.length))}</span></div><div class="castList">${rows.map(castListRow).join('')}</div></div>`;}
 function castSection(title,rows,cls){return castListSection(title,rows,cls)}
@@ -1469,7 +1469,7 @@ function copyDateLong(d){if(!d)return'';const m=String(d).match(/^(\d{4})-(\d{2}
 function copyRoleNameForAppearance(a){let p=performanceById(a.performanceId);let show=showTitle(p?.showId);let rn=displayRoleName(roleNameForAppearance(a));if(show==='Wicked'&&rn==='The Wizard')rn='The Wonderful Wizard of Oz';return rn.replace(/\s*\/\s*/g,'/').replace(/\s+/g,' ').trim();}
 function copyPossessiveName(name){name=String(name||'').trim();return name+(name.endsWith('s')?'’':'’s');}
 function copyIsEnsembleLine(a){let rn=copyRoleNameForAppearance(a);return /^ensemble$/i.test(rn)||(!rn&&displayAppearanceGroup(a)==='ensemble');}
-function copyCastAppearanceText(a,ensembleLine=false){let name=personName(a.personId);let cover=a.coverType?labelCover(a.coverType):'';if(ensembleLine){if(!cover)return name;let detail='*'+cover+' Ensemble';let on=coverOnForName(a);if(on)detail+=' - in '+copyPossessiveName(on)+' track';return `${name} (${detail})`;}let role=copyRoleNameForAppearance(a)||'Ensemble';let detail=(cover?'*'+cover+' ':'')+role;return `${name} (${detail})`;}
+function copyCastAppearanceText(a,ensembleLine=false){let name=personName(a.personId);let cover=a.coverType?labelCover(a.coverType):'';if(ensembleLine){if(!cover)return name;let detail='*'+cover+' Ensemble';let on=coverOnForName(a);if(on)detail+=' - On for '+on;return `${name} (${detail})`;}let role=copyRoleNameForAppearance(a)||'Ensemble';let detail=(cover?'*'+cover+' ':'')+role;let on=coverOnForName(a);if(on)detail+=' - On for '+on;return `${name} (${detail})`; }
 function performanceCastPlainText(id){let p=performanceById(id);if(!p)return'';let cast=(perfApps.get(idNum(id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));let venue=venueName(p.venueId);let meta=[venue,p.type,p.time].filter(Boolean).join(' | ');let named=cast.filter(a=>!copyIsEnsembleLine(a));let ens=cast.filter(copyIsEnsembleLine);let chunks=[`${showTitle(p.showId)} | ${copyDateLong(p.date)}`,meta];if(named.length)chunks.push('',named.map(a=>copyCastAppearanceText(a,false)).join(', '));if(ens.length)chunks.push('',`Ensemble: ${ens.map(a=>copyCastAppearanceText(a,true)).join(', ')}`);return chunks.join('\n');}
 window.copyPerformanceCastText=async function(id,btn){let text=performanceCastPlainText(id);if(!text)return;let ok=false;try{if(navigator.clipboard&&window.isSecureContext!==false){await navigator.clipboard.writeText(text);ok=true;}}catch(e){}if(!ok){let ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok=true;}catch(e){}ta.remove();}if(btn){let old=btn.textContent;btn.textContent=ok?'Copied Cast':'Copy Failed';setTimeout(()=>btn.textContent=old,1400);}else if(!ok){alert('Copy failed.');}};
 
