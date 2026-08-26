@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b236",
-  "version": "v13.32.00",
-  "generated": "2026-08-26T12:45:00-04:00",
+  "build": "json-b237",
+  "version": "v13.33.00",
+  "generated": "2026-08-26T15:15:00-04:00",
   "storage": {
     "mode": "split-normalized",
     "loadMode": "parallel compatibility assembly",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "core.json",
-      "bytes": 3135319,
-      "sha256": "7dd91707544483fdbf677f92744bf08974640b0d211d1eb0c99878a6a3ee926a",
+      "bytes": 3152732,
+      "sha256": "9fa38893c320bf2af9322e7d2a2a7ca99c65dcb176f497455d7ac6ff1966927f",
       "kind": "data",
       "collections": [
         "meta",
@@ -34,8 +34,8 @@
     },
     {
       "path": "cast.json",
-      "bytes": 4965875,
-      "sha256": "0e25c9ebadcab52b5887e069bf0816991d2f565eab78ebfd8d1ed94c61d325a6",
+      "bytes": 4965245,
+      "sha256": "25d38e4b283eac72fa16f046ca72a6c5a54b81154035f523c546c52769a10bc5",
       "kind": "data",
       "collections": [
         "appearances"
@@ -43,8 +43,8 @@
     },
     {
       "path": "credits.json",
-      "bytes": 2005131,
-      "sha256": "9f3a14273c2218125364b2a77be14800445a3868dcd3ac46812da0a455761597",
+      "bytes": 2017997,
+      "sha256": "cae886a3c631ef5bc95109bc527061f72ce339b30e615f30b932af505991e712",
       "kind": "data",
       "collections": [
         "creativeCredits",
@@ -55,8 +55,8 @@
     },
     {
       "path": "program-credits.json",
-      "bytes": 3243521,
-      "sha256": "53d9e6b8e8b5819e47f26caca5bd960f9f48e2909be886b4109fad15700898d6",
+      "bytes": 3304618,
+      "sha256": "02f13fc8dc405501792847c54e819b885ab38ed11f9ba2a05f4bd7178be3d19d",
       "kind": "data",
       "collections": [
         "expandedCredits",
@@ -74,8 +74,8 @@
     },
     {
       "path": "production-archive.json",
-      "bytes": 2084861,
-      "sha256": "87d119fe6d7358fd41184e2e8a5f07c7ba119f4a70d173d42101a12eef5f2624",
+      "bytes": 2123415,
+      "sha256": "d3543edd695a4e3c8cae6f0a8dbf4a5524acb94c4cb8e9b86a747853479e83e3",
       "kind": "data",
       "collections": [
         "productionManagement",
@@ -92,16 +92,16 @@
     },
     {
       "path": "sources.json",
-      "bytes": 594529,
-      "sha256": "e154caa5c2e238159fef4d57872617c36bdf5471722070193b2e907fc5824a67",
+      "bytes": 598490,
+      "sha256": "716b0c96c6f7eb078c294a02616801eea48ae4859a7ca2519e12bc2fd8c68197",
       "kind": "sources",
       "collections": [
         "values"
       ]
     }
   ],
-  "totalBytes": 16029236,
-  "largestFileBytes": 4965875,
+  "totalBytes": 16162497,
+  "largestFileBytes": 4965245,
   "counts": {
     "performances": 1143,
     "people": 19593,
