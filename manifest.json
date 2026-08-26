@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b233",
-  "version": "v13.30.28",
-  "generated": "2026-08-25T16:45:00-04:00",
+  "build": "json-b234",
+  "version": "v13.31.00",
+  "generated": "2026-08-25T22:30:00-04:00",
   "storage": {
     "mode": "split-normalized",
     "loadMode": "parallel compatibility assembly",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "core.json",
-      "bytes": 3124678,
-      "sha256": "52488fe6030b46e6b6bd5f0fe944097c085774e5b68c84a7d0c8430baa6b56a6",
+      "bytes": 3133573,
+      "sha256": "4f9501c38193213793cae8f0b65972fec18d0e40d8129a56308003d99ad6f8e3",
       "kind": "data",
       "collections": [
         "meta",
@@ -34,8 +34,8 @@
     },
     {
       "path": "cast.json",
-      "bytes": 4942767,
-      "sha256": "182f57705720cb2ab5d9f5960badd68d33a331a362bfd886d18a5ade60533ba7",
+      "bytes": 4947619,
+      "sha256": "9cd1e6034e3f84d307c11d3f0acf8a81f983f28a18280b903b0293b656e7f27b",
       "kind": "data",
       "collections": [
         "appearances"
@@ -43,8 +43,8 @@
     },
     {
       "path": "credits.json",
-      "bytes": 1999031,
-      "sha256": "fe28e10cab569c3e602d38357cb93df258b55eab33e48994b8ba71d74e52f6d6",
+      "bytes": 2003726,
+      "sha256": "f35a01a2de2606ffee2a9738f0fd517de8ac6bdb727514d80f6e25bd31ca5235",
       "kind": "data",
       "collections": [
         "creativeCredits",
@@ -55,8 +55,8 @@
     },
     {
       "path": "program-credits.json",
-      "bytes": 3233624,
-      "sha256": "e37dfa33960ce959b12b7a38f6f3cf1ef95940293757b5a7c919b3adf01babce",
+      "bytes": 3240018,
+      "sha256": "c575b409af7bf9d53be31d1514d1f0cb276213f906d230e801183dfaf32f9c2f",
       "kind": "data",
       "collections": [
         "expandedCredits",
@@ -74,8 +74,8 @@
     },
     {
       "path": "production-archive.json",
-      "bytes": 2075979,
-      "sha256": "0428acb902bb5d240d5896acd38e85e1c9ebe1d2476f4fea9438f7fe0786bd42",
+      "bytes": 2080421,
+      "sha256": "2f3f72108d2c6ea18f53e979d57ec02fb74a2fcf3fe6596046f7e375e4514f4d",
       "kind": "data",
       "collections": [
         "productionManagement",
@@ -92,49 +92,33 @@
     },
     {
       "path": "sources.json",
-      "bytes": 591606,
-      "sha256": "4d528c06090c288990ef9d4632a2b7f6caf7e730189d33682fccc115aae4555c",
+      "bytes": 592857,
+      "sha256": "bddabf95892735758095a6833ff2c608f3769da740b5a763658571bc35a46472",
       "kind": "sources",
       "collections": [
         "values"
       ]
     }
   ],
-  "totalBytes": 15967685,
-  "largestFileBytes": 4942767,
+  "totalBytes": 15998214,
+  "largestFileBytes": 4947619,
   "counts": {
-    "performances": 1142,
-    "people": 19552,
-    "organizations": 1320,
-    "shows": 500,
-    "venues": 186,
-    "roles": 5902,
-    "appearances": 18805,
-    "creativeCredits": 17063,
-    "aboveTitleProducers": 1334,
-    "presentingOrganizations": 215,
+    "performances": 1143,
+    "people": 19593,
+    "organizations": 1329,
+    "shows": 501,
+    "venues": 187,
+    "roles": 5954,
+    "appearances": 18816,
+    "creativeCredits": 17087,
+    "aboveTitleProducers": 1342,
+    "presentingOrganizations": 220,
     "companionLinks": 606,
-    "expandedCredits": 13042,
-    "orchestraCredits": 5054,
-    "musicStaff": 844,
-    "productionManagement": 5588,
-    "coverPools": 2800,
-    "songLists": 4100,
-    "companyAssignments": 184,
-    "sources": 1385,
-    "marketingAndPress": 644,
-    "ticketingRevenue": 65,
-    "danceCaptains": 264,
-    "fightCaptains": 65,
-    "associateCreativeTeam": 1762,
-    "musicTechnology": 202,
-    "specialEffects": 9,
-    "creativeConsultants": 4,
-    "productionMetadataSnapshots": 296,
-    "programArchive": 132,
-    "expandedProductionStaff": 0,
-    "productionAlternates": 20,
-    "performanceTags": 0,
-    "orchestra": 0
+    "expandedCredits": 13066,
+    "orchestraCredits": 5072,
+    "musicStaff": 850,
+    "productionManagement": 5606,
+    "coverPools": 2803,
+    "programArchive": 133
   }
 }
