@@ -1,0 +1,58 @@
+{
+  "build": "json-b255",
+  "version": "v13.49.00",
+  "sourceBase": "json-b254",
+  "result": "PASS",
+  "checksPassed": 12,
+  "checksTotal": 12,
+  "checks": [
+    {
+      "name": "Source base identified as Build 254",
+      "pass": true
+    },
+    {
+      "name": "Intended build identified as Build 255",
+      "pass": true
+    },
+    {
+      "name": "Two build operations present",
+      "pass": true
+    },
+    {
+      "name": "Magic School Bus attendance operation present",
+      "pass": true
+    },
+    {
+      "name": "Schmigadoon attendance operation present",
+      "pass": true
+    },
+    {
+      "name": "Schmigadoon ticket is $40 Rush",
+      "pass": true
+    },
+    {
+      "name": "Schmigadoon seat is Orchestra C18",
+      "pass": true
+    },
+    {
+      "name": "Keven Quillon understudy override present",
+      "pass": true
+    },
+    {
+      "name": "Jessica Mallare White is roster-only Vacation Swing",
+      "pass": true
+    },
+    {
+      "name": "David Wright Jr. is roster-only Vacation Swing",
+      "pass": true
+    },
+    {
+      "name": "Playbill source image 1 included",
+      "pass": true
+    },
+    {
+      "name": "Playbill source image 2 included",
+      "pass": true
+    }
+  ]
+}

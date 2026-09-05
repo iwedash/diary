@@ -1,0 +1,153 @@
+{
+  "patchType": "cuebook-logical-build-patch",
+  "status": "READY_TO_APPLY_TO_ACTIVE_BUILD_254_BASE",
+  "intendedBuild": "json-b255",
+  "sourceBase": "json-b254",
+  "generatedAt": "2026-09-04",
+  "guardrail": "This is not a standalone theatre-data build. Apply only to the active Build 254 package so later fixes are not lost.",
+  "operations": [
+    {
+      "operation": "add_attended_performance",
+      "key": "magic-school-bus-live-2026-09-03-matinee",
+      "show": {
+        "title": "Magic School Bus Live: Lost in the Solar System"
+      },
+      "performance": {
+        "date": "2026-09-03",
+        "time": "Matinee",
+        "clockTime": "12:30 PM",
+        "venue": null,
+        "ticketType": null,
+        "ticketPrice": null,
+        "ticketCurrency": null,
+        "seatLocation": null,
+        "companion": null
+      },
+      "actualCast": [
+        {"person": "Jenna Hochkammer", "role": "Ms. Frizzle"},
+        {"person": "Noah Ong Bamola", "role": "Arnold"},
+        {"person": "Emily Reilly", "role": "Janet"},
+        {"person": "Aaron Byrnes", "role": "Ralphie"},
+        {"person": "Victoria Pommalath", "role": "Wanda"},
+        {"person": "Julio Batista", "role": "Carlos"}
+      ],
+      "credits": [
+        {"person": "Jerrica D. White", "credit": "Director"},
+        {"person": "Michael Anthony Sylvester", "credit": "Choreographer"},
+        {"person": "Hope Rohrbaugh", "credit": "Stage Manager"}
+      ],
+      "doNotInfer": [
+        "venue",
+        "ticket source/type",
+        "ticket price",
+        "seat",
+        "companion",
+        "covers",
+        "swings",
+        "understudies",
+        "musicians"
+      ],
+      "sourceNote": "Approved running queue after Build 254. Unresolved attendance fields intentionally remain blank."
+    },
+    {
+      "operation": "clone_and_update_attended_performance",
+      "key": "schmigadoon-broadway-2026-09-04-evening",
+      "cloneFrom": {
+        "performanceId": 1109,
+        "date": "2026-07-18",
+        "showId": 390,
+        "venueId": 21
+      },
+      "performance": {
+        "showId": 390,
+        "venueId": 21,
+        "date": "2026-09-04",
+        "time": "Evening",
+        "clockTime": "7:00 PM",
+        "type": "Broadway",
+        "seatLocation": {"display": "Orchestra C18", "seat": "C18"},
+        "ticketType": "Rush",
+        "ticketPrice": 40,
+        "ticketCurrency": "USD",
+        "companion": null,
+        "performanceMetadata": {
+          "productionLabel": "Broadway",
+          "productionKey": "schmigadoon-broadway-2026"
+        }
+      },
+      "copyPerformanceScopedDataFrom1109": [
+        "regular actual cast except Josh Skinner substitution below",
+        "cover pools",
+        "orchestra roster",
+        "music staff",
+        "song list",
+        "creative credits",
+        "management / production credits",
+        "program archive / production archive metadata"
+      ],
+      "actualCastOverride": {
+        "remove": {"person": "Alex Brightman", "personId": 606, "role": "Josh Skinner", "roleId": 4260},
+        "add": {
+          "person": "Keven Quillon",
+          "personId": 1156,
+          "role": "Josh Skinner",
+          "roleId": 4260,
+          "roleRaw": "*u/s Josh Skinner",
+          "coverType": "understudy",
+          "coverLabel": "UNDERSTUDY",
+          "appearanceType": "principal",
+          "alsoEnsemble": false,
+          "displayOrder": 1,
+          "raw": "Keven Quillon (*u/s Josh Skinner)",
+          "roleNormalized": "Josh Skinner"
+        }
+      },
+      "productionRosterAdditions": [
+        {
+          "person": "Jessica Mallare White",
+          "personId": 8750,
+          "assignment": "Vacation swing",
+          "assignmentType": "vacation_swing",
+          "productionWide": true,
+          "role": null,
+          "actualAppearance": false,
+          "note": "Playbill At This Performance welcomes her as Vacation Swing; no onstage track was announced."
+        },
+        {
+          "person": "David Wright Jr.",
+          "personId": 9426,
+          "assignment": "Vacation swing",
+          "assignmentType": "vacation_swing",
+          "productionWide": true,
+          "role": null,
+          "actualAppearance": false,
+          "note": "Playbill At This Performance welcomes him as Vacation Swing; no onstage track was announced."
+        }
+      ],
+      "programArchiveUpdate": {
+        "dateCaptured": "2026-09-04",
+        "sourceFiles": ["IMG_1182.jpeg", "IMG_1183.png"],
+        "atThisPerformance": [
+          "Keven Quillon for Josh Skinner",
+          "Jessica Mallare White welcomed as Vacation Swing",
+          "David Wright Jr. welcomed as Vacation Swing"
+        ],
+        "attendance": "Evening, 7:00 PM; Orchestra C18; $40 Rush.",
+        "orchestraNote": "Carry the July 18 / June 21 production-level orchestra roster forward as archival roster only; do not assert performance-specific personnel without separate evidence."
+      },
+      "sourceNote": "Playbill At This Performance screenshots supplied by Isaac on 2026-09-04 plus direct attendance metadata. Remaining production data explicitly requested to copy from the July 18 entry."
+    }
+  ],
+  "verificationRequirements": [
+    "Apply against active Build 254, not an older monolithic theatre-data file.",
+    "Allocate new IDs from the active base; do not reuse IDs from this logical patch.",
+    "No unresolved Magic School Bus attendance fields are invented.",
+    "Schmigadoon 2026-09-04 has exactly one Josh Skinner appearance: Keven Quillon as understudy.",
+    "Alex Brightman is not counted as seen on 2026-09-04.",
+    "Jessica Mallare White and David Wright Jr. are roster-only Vacation Swings, not seen-onstage appearances.",
+    "Schmigadoon copied orchestra/production rows remain archival roster data unless performance-specific evidence exists.",
+    "All person, role, performance, company-assignment, cover-pool, credit, song, and orchestra references validate.",
+    "Split-file manifest hashes validate after application.",
+    "Running queue is empty after both operations are successfully applied."
+  ]
+}
