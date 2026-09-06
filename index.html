@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b248">
+<meta name="archive-house-build" content="json-b260">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -965,7 +965,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
   }
 }
 </style>
-<script src="data-loader.js?v=json-b248"></script>
+<script src="data-loader.js?v=json-b260"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1046,17 +1046,17 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
   <div class="menuHead"><div><b>Cuebook</b><small>Browse the archive</small></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="#qa">Health / QA</a>
-    <a href="souvenir.html?v=json-b248">Souvenir Program</a><a href="castbook.html?v=json-b248">Cast Book</a><a href="companions.html?v=json-b248">Companions</a>
+    <a href="souvenir.html?v=json-b260">Souvenir Program</a><a href="castbook.html?v=json-b260">Cast Book</a><a href="companions.html?v=json-b260">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B245 · v13.44.00</div>
+  <div class="menuVersion">B260 · v13.53.00</div>
 </aside>
 <div id="app" class="loading"><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b248';
-const VERSION='v13.44.00';
+const BUILD='json-b260';
+const VERSION='v13.53.00';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1364,17 +1364,30 @@ function monthTrendCard(){let counts=new Map();let valid=[];perfs.forEach(p=>{le
 function topCounts(items,limit=8){return items.slice(0,limit).map(([label,count,hash])=>`<div class="mini"><span>${hash?link(hash,label,'link'):esc(label)}</span><b>${esc(num(count))}</b></div>`).join('')||'<div class="empty">No rows.</div>'}
 function isoWeekInfo(input){let d=new Date(input.getFullYear(),input.getMonth(),input.getDate());d.setHours(12,0,0,0);let day=d.getDay()||7;d.setDate(d.getDate()+4-day);let isoYear=d.getFullYear(),yearStart=new Date(isoYear,0,1);yearStart.setHours(12,0,0,0);let week=Math.ceil((((d-yearStart)/86400000)+1)/7);return {year:isoYear,week};}
 function performanceIsoWeek(p){let d=dateObj(p.date);return isoWeekInfo(d);}
+function isoWeekStartDate(info){let jan4=new Date(info.year,0,4);jan4.setHours(12,0,0,0);let day=jan4.getDay()||7;let monday=new Date(jan4);monday.setDate(jan4.getDate()-(day-1)+(info.week-1)*7);return monday;}
+function showCountRows(rows){let m=new Map();rows.forEach(p=>m.set(idNum(p.showId),(m.get(idNum(p.showId))||0)+1));return [...m.entries()].map(([id,count])=>[showTitle(id),count,'#show-'+id]).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));}
+function heatmapCard(today){
+  let end=new Date(today.getFullYear(),today.getMonth(),today.getDate());end.setHours(12,0,0,0);let start=new Date(end);start.setFullYear(start.getFullYear()-1);start.setDate(start.getDate()+1);
+  let gridStart=new Date(start);let dow=(gridStart.getDay()+6)%7;gridStart.setDate(gridStart.getDate()-dow);
+  let gridEnd=new Date(end);let endDow=(gridEnd.getDay()+6)%7;gridEnd.setDate(gridEnd.getDate()+(6-endDow));
+  let counts=new Map();perfs.forEach(p=>{let d=String(p.date||'').slice(0,10);if(d)counts.set(d,(counts.get(d)||0)+1);});
+  let days=[],monthMarks=[];let d=new Date(gridStart),week=0,lastMonth='';
+  while(d<=gridEnd){let key=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;let inRange=d>=start&&d<=end,count=inRange?(counts.get(key)||0):0,level=count>=3?3:count===2?2:count===1?1:0;let month=d.toLocaleDateString(undefined,{month:'short'});if(inRange&&month!==lastMonth){monthMarks.push({week,label:month});lastMonth=month;}let title=inRange?`${fmtDate(key)} · ${count} performance${count===1?'':'s'}`:'';let cell=inRange?(count?`<a class="heatCell heat${level}" href="#search?q=${encodeURIComponent(key)}" title="${esc(title)}" aria-label="${esc(title)}"></a>`:`<span class="heatCell heat0" title="${esc(title)}"></span>`):`<span class="heatCell heatBlank"></span>`;days.push(cell);if(((d.getDay()+6)%7)===6)week++;d.setDate(d.getDate()+1);}
+  let weeks=Math.ceil(days.length/7);let labels=monthMarks.map(x=>`<span style="grid-column:${x.week+1}">${esc(x.label)}</span>`).join('');
+  return `<section class="card heatmapCard"><div class="sliderHead"><h2>Attendance Calendar</h2><span class="sliderHint">Last 12 months</span></div><div class="heatmapScroller"><div class="heatMonthLabels" style="grid-template-columns:repeat(${weeks},13px)">${labels}</div><div class="heatmapGrid" style="grid-template-columns:repeat(${weeks},13px)">${days.join('')}</div></div><div class="heatLegend"><span>Fewer</span><i class="heatCell heat0"></i><i class="heatCell heat1"></i><i class="heatCell heat2"></i><i class="heatCell heat3"></i><span>More</span></div></section>`;
+}
 function home(){
   const latest=sortedPerfs.slice(0,18);const years=[...new Set(perfs.map(yearOf))].filter(y=>/^\d{4}$/.test(y)).sort();
-  const showTop=[...showPerfs.entries()].map(([id,list])=>[showTitle(id),list.length,'#show-'+id]).sort((a,b)=>b[1]-a[1]).slice(0,8);
-  const today=new Date(),mm=String(today.getMonth()+1).padStart(2,'0'),dd=String(today.getDate()).padStart(2,'0'),md=mm+'-'+dd,onThis=sortedPerfs.filter(p=>String(p.date||'').slice(5)===md).slice(0,20);
-  const dayName=today.toLocaleDateString(undefined,{weekday:'long'}),dayLabel=today.toLocaleDateString(undefined,{month:'long',day:'numeric'}),iso=isoWeekInfo(today),lastIsoYear=iso.year-1;
-  const lastYearWeek=perfs.filter(p=>{let w=performanceIsoWeek(p);return w.year===lastIsoYear&&w.week===iso.week;}).length;
-  const acrossYearsWeek=perfs.filter(p=>performanceIsoWeek(p).week===iso.week).length;
+  const showTop=showCountRows(perfs);
+  const today=new Date(),mm=String(today.getMonth()+1).padStart(2,'0'),dd=String(today.getDate()).padStart(2,'0'),md=mm+'-'+dd,onThis=sortedPerfs.filter(p=>String(p.date||'').slice(5)===md).slice(0,40);
+  const dayLabel=today.toLocaleDateString(undefined,{month:'long',day:'numeric'}),iso=isoWeekInfo(today);
+  const onThisWeek=sortedPerfs.filter(p=>{let w=performanceIsoWeek(p);return w.week===iso.week&&w.year<iso.year;}).slice(0,60);
+  const cutoff=new Date(today.getFullYear()-1,today.getMonth(),today.getDate());cutoff.setHours(0,0,0,0);const recent12=perfs.filter(p=>{let d=dateObj(p.date);return d>=cutoff&&d<=today;});const recentShowTop=showCountRows(recent12);
   const homeHero=`<section class="hero homeHero"><h1>Cuebook</h1></section>`;
-  const todaySummary=`<section class="todayArchiveSummary"><b>${esc(dayLabel)}</b><span>${esc(dayName)}</span><small>${esc(num(perfs.length))} performances total <strong>·</strong> ${esc(num(lastYearWeek))} performances this ISO week last year <strong>·</strong> ${esc(num(acrossYearsWeek))} performances in this ISO week across all years</small></section>`;
   const onThisSection=`<section class="card sliderCard onThisDayCard"><div class="sliderHead"><h2>On This Day</h2><span class="sliderHint">${esc(dayLabel)}</span></div>${onThis.length?`<div class="rail wide onThisRail">${onThis.map(p=>perfTile(p,true)).join('')}</div>`:'<div class="empty">No shows on this calendar day yet.</div>'}</section>`;
-  shell(`${homeHero}<section class="stats homeStats">${stat(perfs.length,'Performances')}${stat(people.length,'People')}${stat(shows.length,'Shows')}${stat(venues.length,'Venues')}</section>${monthTrendCard()}${rail('Recently Seen',latest,p=>perfTile(p),true)}<section class="grid twoCol">${diaryJumpRow(years,'all')}${monthJumpRow('all')}</section>${todaySummary}${onThisSection}<section class="grid"><div class="card"><h2>Top Shows</h2>${topCounts(showTop)}</div></section>`);
+  const onThisWeekSection=`<section class="card sliderCard onThisWeekCard"><div class="sliderHead"><h2>On This Week</h2><span class="sliderHint">Past years</span></div>${onThisWeek.length?`<div class="rail wide onThisRail">${onThisWeek.map(p=>perfTile(p,true)).join('')}</div>`:'<div class="empty">No performances from this week in prior years yet.</div>'}</section>`;
+  const ranking=`<section class="grid twoCol homeShowRanks"><div class="card"><h2>Top Shows</h2>${topCounts(showTop,20)}</div><div class="card recentTopShows"><h2>Top Shows · Last 12 Months</h2>${topCounts(recentShowTop,10)}</div></section>`;
+  shell(`${homeHero}<section class="stats homeStats">${stat(perfs.length,'Performances')}${stat(people.length,'People')}${stat(shows.length,'Shows')}${stat(venues.length,'Venues')}</section>${monthTrendCard()}${rail('Recently Seen',latest,p=>perfTile(p),true)}<section class="grid twoCol">${diaryJumpRow(years,'all')}${monthJumpRow('all')}</section>${onThisSection}${onThisWeekSection}${ranking}${heatmapCard(today)}`);
 }
 function diary(){
   const years=[...new Set(perfs.map(yearOf))].filter(Boolean).sort().reverse();const types=[...new Set(perfs.map(p=>p.type).filter(Boolean))].sort();const monthLabels=['All months','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];let list=sortedPerfs.slice();if(state.year&&state.year!=='all')list=list.filter(p=>yearOf(p)===state.year);if(state.month&&state.month!=='all')list=list.filter(p=>String(p.date||'').slice(5,7)===state.month);if(state.type&&state.type!=='all')list=list.filter(p=>p.type===state.type);if(state.q){let q=norm(state.q);list=list.filter(p=>norm([showTitle(p.showId),venueName(p.venueId),p.date,p.time,p.type,p.notes,seatDisplay(p),attended(p).join(' ')].join(' ')).includes(q));}const shown=list.slice(0,240);
@@ -1525,7 +1538,7 @@ function performanceView(id){let p=performanceById(id);if(!p)return notFound();l
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<section class="card" id="archive"><h2>Source / Archive</h2>${chunks.map(c=>`<div class="sectionCard"><h3>${esc(c[0])}</h3><div class="sourceText">${esc(c[1])}</div></div>`).join('')}</section>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b117',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personName(a.personId),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row)})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b260',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personName(a.personId),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row)})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -1688,4 +1701,13 @@ window.addEventListener('hashchange',route);
 .onThisRail .perfTile{scroll-snap-align:none!important;flex:none!important}
 .onThisDayCard{overflow:hidden}
 @media(max-width:860px){.onThisRail{width:calc(100% + 2px)!important;max-width:none!important;padding-right:18px!important}.todayArchiveSummary{margin-top:10px}.todayArchiveSummary b{font-size:21px}.perfTile .tileBottom{font-size:9px}}
+
+/* Build 260: On This Week + expanded show rankings + attendance heat map */
+.onThisDayCard,.onThisWeekCard{overflow:hidden!important}
+.onThisRail{display:grid!important;grid-auto-flow:column!important;grid-auto-columns:minmax(240px,28%)!important;width:100%!important;max-width:100%!important;overflow-x:scroll!important;overflow-y:hidden!important;scroll-snap-type:none!important;overscroll-behavior-x:none!important;touch-action:pan-x!important;-webkit-overflow-scrolling:touch!important;padding:2px 18px 10px 2px!important}
+.onThisRail .perfTile{scroll-snap-align:none!important;min-width:0!important}
+.homeShowRanks .card{align-self:start}.recentTopShows{background:linear-gradient(180deg,#fff,#f7fbfd)}
+.heatmapCard{overflow:hidden}.heatmapScroller{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;padding:4px 2px 8px}.heatMonthLabels{display:grid;gap:3px;min-width:max-content;height:18px;align-items:end}.heatMonthLabels span{font-size:8px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}.heatmapGrid{display:grid;grid-template-rows:repeat(7,13px);grid-auto-flow:column;gap:3px;min-width:max-content}.heatCell{display:block;width:13px;height:13px;border-radius:3px;box-sizing:border-box}.heat0{background:rgba(26,68,91,.07);border:1px solid rgba(26,68,91,.07)}.heat1{background:#dcebf2;border:1px solid rgba(26,68,91,.08)}.heat2{background:#e7c45e;border:1px solid rgba(99,75,13,.10)}.heat3{background:#a77a18;border:1px solid rgba(85,59,8,.13)}.heatBlank{background:transparent;border:0}.heatmapGrid a.heatCell:hover{outline:2px solid rgba(26,68,91,.35);outline-offset:1px}.heatLegend{display:flex;align-items:center;justify-content:flex-end;gap:5px;margin-top:8px;color:var(--muted);font-size:9px}.heatLegend .heatCell{width:11px;height:11px}
+@media(max-width:860px){.onThisRail{grid-auto-columns:minmax(205px,72vw)!important}.homeShowRanks{grid-template-columns:1fr!important}.heatmapScroller{padding-bottom:10px}.heatmapCard{padding-right:10px}.heatMonthLabels,.heatmapGrid{padding-right:12px}}
+
 </style>
