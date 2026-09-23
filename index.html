@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b285">
+<meta name="archive-house-build" content="json-b287">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -1010,7 +1010,7 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b285"></script>
+<script src="data-loader.js?v=json-b287"></script>
 <style id="build180-palette">
 :root{--ink:#202736;--berry:#56466c;--gold:#d6a63a;--paper:#f8f4ea;--blush:#e7dfd8;--black:#121722;--muted:#676b78;--line:rgba(32,39,54,.18);--shadow:0 12px 30px rgba(24,29,40,.10);--green:#284a43;--green2:#356258;--gold2:#f3d47e;--cream:#fff1c8;--red:#7a4653;--chip:#efe6d2;--blue:#dce9ef;--violet:#e9e1f2;--cue-ink:#171d28;--cue-green:#284a43;--cue-green2:#356258;--cue-yellow:#e8bd52;--cue-cream:#fbf6e8;--cue-paper:#f8f4ea;--cue-line:rgba(32,39,54,.17);--cue-shadow:0 16px 42px rgba(24,29,40,.11);--plum:#202736;--ivory:#f8f4ea;--white:#fffdf8;--ui-ink:#202736;--ui-paper:#efe8db;--ui-card:#fffdf8;--ui-line:rgba(32,39,54,.16);--ui-gold:#d6a63a;--accent:#56466c;--accent2:#d6a63a;--wash:#eee6d5}
 body{background:radial-gradient(circle at 12% -8%,rgba(214,166,58,.18),transparent 31rem),radial-gradient(circle at 96% 2%,rgba(86,70,108,.12),transparent 28rem),linear-gradient(180deg,#f8f4ea,#eee7db)!important;color:var(--black)!important}
@@ -1164,40 +1164,75 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 }
 </style>
 
+<style id="cuebook-b287-person-mobile-compact">
+/* Build 287: compact, mobile-first person-page tables. Desktop table presentation is unchanged. */
+.personMobileAppearanceTop,.personMobileAppearanceRoles,.personMobileAppearanceMeta,.personMobileRoleTop,.personMobileRoleMeta,.personMobileRoleHistory{display:none}
+@media(max-width:760px){
+  .personArchiveWrap{gap:10px}
+  .personCompactHeader{padding:13px 14px;border-radius:18px;gap:10px}
+  .personCompactHeader h1{font-size:32px;line-height:1;margin:2px 0 5px}
+  .personCompactSub{font-size:10px}
+  .personRankBadge{font-size:8px;padding:5px 7px}
+  .personFactStrip{grid-template-columns:repeat(3,minmax(0,1fr))!important;border-radius:15px}
+  .personFact:nth-child(n){padding:8px 9px;border-top:1px solid var(--line)!important;border-right:1px solid var(--line)!important}
+  .personFact:nth-child(-n+3){border-top:0!important}
+  .personFact:nth-child(3n){border-right:0!important}
+  .personFact b{font-size:15px}.personFact span{font-size:7.5px;margin-top:3px}
+  .personInsightCard{padding:11px 13px;border-radius:15px}.personInsightText{font-size:12px;line-height:1.42}.personMicroGrid{margin-top:8px}.personMicro{font-size:8.5px;padding:4px 6px}
+  .personTableCard{border-radius:16px}
+  .personTableHead{padding:11px 13px 9px}.personTableHead h2{font-size:20px}.personTableHead p{font-size:9.5px;margin-top:2px}
+  .personProductionToggle>summary{padding:8px 12px;font-size:9.5px}
+  .personAppearanceFilters{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding:7px 9px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .personAppearanceFilters::-webkit-scrollbar{display:none}
+  .personAppearanceFilters select{flex:0 0 auto;max-width:none!important;width:auto;min-width:112px;padding:5px 24px 5px 8px;font-size:9px}
 
-<style id="build284-cover-display">
-/* Build 284: actual cover appearances use green text only; no colored row/cell fill. */
-.castListRow.coverAssignmentRow,.castListRow.coverAssignmentRow.coverRow-understudy,.castListRow.coverAssignmentRow.coverRow-standby,.castListRow.coverAssignmentRow.coverRow-swing,.castListRow.coverAssignmentRow.coverRow-alternate,.castListRow.coverAssignmentRow.coverRow-temporary,.castListRow.coverAssignmentRow.coverRow-replacement{background:transparent!important;border-color:var(--line)!important}
-.castListRow.coverAssignmentRow .roleText,.castListRow.coverAssignmentRow .entityName,.castListRow.coverAssignmentRow .castNameCell>.linkBtn{color:#1e7a3f!important}
-.castGridCoverCell{background:transparent!important}
-.castGridCoverCell .entityName,.castGridCoverCell .linkBtn,.castGridCoverCell .gridPerformedRole,.castGridCoverCell .gridQualifier{color:#1e7a3f!important}
-.gridPerformedRole{display:block;font-size:9.5px;line-height:1.18;margin-top:2px;font-weight:850}
-.castMergedNote{font-size:10px;color:var(--muted);font-style:italic;margin-top:2px}
+  /* Appearance history: three compact lines, no mobile pseudo-table. */
+  .personAppearanceTable .personDataRow{display:block!important;padding:9px 12px!important;border-bottom:1px solid rgba(32,39,54,.12);min-height:0}
+  .personAppearanceTable .personDataCell{display:none!important}
+  .personMobileAppearanceTop{display:flex;align-items:baseline;justify-content:space-between;gap:10px;min-width:0}
+  .personMobileAppearanceShow{font-size:12px;line-height:1.2;font-weight:850;color:var(--ink);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .personMobileAppearanceDate{font-size:8.5px;line-height:1.2;font-weight:750;color:var(--muted);text-decoration:none;white-space:nowrap;flex:0 0 auto}
+  .personMobileAppearanceRoles{display:block;margin-top:3px;font-size:10.5px;line-height:1.25}
+  .personMobileAppearanceRoles .personRoleAssignment{display:flex;align-items:baseline;gap:5px;flex-wrap:wrap}
+  .personMobileAppearanceRoles .personRoleAssignment+.personRoleAssignment{margin-top:3px;padding-top:3px}
+  .personMobileAppearanceRoles .personDataMeta{font-size:8.5px;margin:0}
+  .personMobileAppearanceMeta{display:block;margin-top:3px;font-size:8.5px;line-height:1.2;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* Roles & tracks: role/count + one metadata line, optional useful history line. */
+  .personRoleTable .personDataRow{display:block!important;padding:9px 12px!important;border-bottom:1px solid rgba(32,39,54,.12);min-height:0}
+  .personRoleTable .personDataCell{display:none!important}
+  .personMobileRoleTop{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+  .personMobileRoleName{font-size:11.5px;line-height:1.2;font-weight:850;min-width:0}
+  .personMobileRoleCount{font-size:10px;font-weight:900;color:var(--ink);white-space:nowrap}
+  .personMobileRoleMeta{display:flex;gap:4px;align-items:baseline;flex-wrap:wrap;margin-top:3px;font-size:8.5px;line-height:1.25;color:var(--muted)}
+  .personMobileRoleMeta a{font-weight:750}
+  .personMobileRoleHistory{display:block;margin-top:3px;font-size:8.5px;line-height:1.2;font-weight:750;color:var(--green)}
+}
 </style>
 </head>
 <body>
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b><small>Theatre performance database</small></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search shows, show codes, people, venues, notes…"><button>Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b285">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b287">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
 <aside class="menuPanel" id="menuPanel" aria-label="Cuebook menu" tabindex="-1" hidden>
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b><small>Browse the archive</small></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
-    <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b285">Money</a>
-    <a href="castbook.html?v=json-b285">Cast Book</a><a href="companions.html?v=json-b285">Companions</a>
+    <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b287">Money</a>
+    <a href="castbook.html?v=json-b287">Cast Book</a><a href="companions.html?v=json-b287">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B285 · v13.76.00</div>
+  <div class="menuVersion">B287 · v13.77.00</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script>
 (function(){
 'use strict';
-const BUILD='json-b285';
-const VERSION='v13.76.00';
+const BUILD='json-b287';
+const VERSION='v13.77.00';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let raw={};
@@ -1669,12 +1704,12 @@ function showGridNamedTracks(showId){return (showGridConfig(showId)?.tracks||[])
 function gridTargetsForAppearance(showId,a){let tracks=showGridNamedTracks(showId),src=gridSourceRole(a),hits=tracks.filter(t=>showGridTrackMatches(t,src));if(hits.length)return hits;let fallbacks=[a.roleNormalized,roleBaseName(a.roleId),roleNameForAppearance(a)].map(displayRoleName).filter(Boolean);for(let v of fallbacks){hits=tracks.filter(t=>showGridTrackMatches(t,v));if(hits.length)return hits;}return [];}
 function gridSourceQualifier(track,a,targets){if(!track?.sourceQualifier)return'';let src=gridSourceRole(a);if(!src.includes('/'))return'';return `Listed as ${src}`;}
 function gridIsEnsembleLike(a){let g=displayAppearanceGroup(a);if(a.appearanceType==='principal'||g==='principal')return false;return !!(a.alsoEnsemble||g==='ensemble'||g==='swing'||/\bensemble\b/i.test(String(a.roleRaw||'')));}
-function gridEntityHtml(a,qualifier='',compact=false,displayRole=''){let eid=entityIdForPerson(a.personId),tag=a.coverType?labelCover(a.coverType):'',did=E.has(eid)?nextEntityDrawerId('grid-drawer'):'',person=E.has(eid)?entityInlineToggle(eid,personName(a.personId),tag,did):`${link('#person-'+a.personId,personName(a.personId),'linkBtn')}${tag?coverBadgeHtml(a.coverType):''}`,roleLine=(a.coverType&&displayRole)?`<span class="gridPerformedRole">${esc(displayRole)}</span>`:'',q=qualifier?`<div class="gridQualifier">${esc(qualifier)}</div>`:'';return `<span class="${compact?'gridCompactPerson':'gridPersonEntry'}"><span class="entityStack">${person}</span>${roleLine}${q}${E.has(eid)?entityInlineDrawerSlot(eid,did):''}</span>`;}
+function gridEntityHtml(a,qualifier='',compact=false){let eid=entityIdForPerson(a.personId),tag=a.coverType?labelCover(a.coverType):'',did=E.has(eid)?nextEntityDrawerId('grid-drawer'):'',person=E.has(eid)?entityInlineToggle(eid,personName(a.personId),tag,did):`${link('#person-'+a.personId,personName(a.personId),'linkBtn')}${tag?coverBadgeHtml(a.coverType):''}`;let q=qualifier?`<div class="gridQualifier">${esc(qualifier)}</div>`:'';return `<span class="${compact?'gridCompactPerson':'gridPersonEntry'}"><span class="entityStack">${person}</span>${q}${E.has(eid)?entityInlineDrawerSlot(eid,did):''}</span>`;}
 function castGrid(showId,ps){
   let model=castGridExportModel(showId,ps);
   if(!model.roles.length||!model.rows.length)return '<div class="empty">No cast-grid rows available.</div>';
   let head=`<thead><tr><th>Performance</th>${model.roles.map(r=>`<th>${esc(r)}</th>`).join('')}</tr></thead>`;
-  let body=model.rows.map(row=>`<tr><td class="castGridPerformance"><a class="link" href="#perf-${row.performance.id}">${esc(row.label)}</a>${row.sub?`<div class="note">${esc(row.sub)}</div>`:''}</td>${row.cells.map(cell=>{if(!cell.items.length)return '<td>—</td>';let content=cell.compactList?cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,true,it.displayRole||'')).join('<span class="gridComma">, </span>'):cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,false,it.displayRole||'')).join('');return `<td class="${cell.hasCover?'castGridCoverCell ':''}${cell.compactList?'castGridCompactList':''}">${content}</td>`;}).join('')}</tr>`).join('');
+  let body=model.rows.map(row=>`<tr><td class="castGridPerformance"><a class="link" href="#perf-${row.performance.id}">${esc(row.label)}</a>${row.sub?`<div class="note">${esc(row.sub)}</div>`:''}</td>${row.cells.map(cell=>{if(!cell.items.length)return '<td>—</td>';let content=cell.compactList?cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,true)).join('<span class="gridComma">, </span>'):cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,false)).join('');return `<td class="${cell.hasCover?'castGridCoverCell ':''}${cell.compactList?'castGridCompactList':''}">${content}</td>`;}).join('')}</tr>`).join('');
   return `<div class="tableWrap castGridWrap"><table class="castGrid">${head}<tbody>${body}</tbody></table></div>`;
 }
 
@@ -1683,18 +1718,11 @@ function downloadCastGridCSV(showId){let ps=(showPerfs.get(idNum(showId))||[]).s
 
 function specialAppearancesSection(id){let pid=idNum(id);let rows=specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));if(!rows.length)return'';return `<section class="card" id="special-appearances"><h2>Special Appearances</h2><p class="sectionIntro">Guest appearances at this performance. These are not role credits and do not count as cast appearances.</p><div class="chips">${rows.map(r=>{let nm=personName(r.personId);return `<a class="pill" href="#person-${r.personId}">${esc(nm)}</a>`}).join('')}</div></section>`;}
 
-// Build 284: display-only consolidation for actual performance cast rows.
-function b284CleanRoleText(a){let rn=displayRoleName(roleNameForAppearance(a)||a.roleRaw||'Ensemble');rn=rn.replace(/^\s*\*?\s*(?:u\s*\/\s*s|s\s*\/\s*w|s\s*\/\s*b|v\s*\/\s*s|v\s*\/\s*c|o\s*\/\s*sw|alt|t\s*\/\s*r|understudy|swing|standby|alternate|temporary replacement)\s+/i,'').replace(/\s*\/\s*/g,' / ').replace(/\s+/g,' ').trim();return rn||'Ensemble';}
-function b284GroupCastRows(rows){let m=new Map();(rows||[]).forEach(a=>{let k=String(a.personId),g=m.get(k);if(!g){g={personId:a.personId,rows:[],order:Number(a.displayOrder||9999)};m.set(k,g);}g.rows.push(a);g.order=Math.min(g.order,Number(a.displayOrder||9999));});return [...m.values()].sort((a,b)=>a.order-b.order||personName(a.personId).localeCompare(personName(b.personId)));}
-function b284GroupInfo(g){let roles=[],owners=[],types=[];g.rows.forEach(a=>{let rn=b284CleanRoleText(a);if(rn&&!roles.includes(rn))roles.push(rn);if(a.alsoEnsemble&&!roles.some(r=>norm(r)==='ensemble'))roles.push('Ensemble');if(a.coverType&&!types.includes(a.coverType))types.push(a.coverType);let o=coverOnForName(a);if(o&&!owners.includes(o))owners.push(o);});let hasCover=types.length>0,note='';if(owners.length>1)note='split track for '+owners.join(' / ');else if(owners.length===1&&g.rows.some(a=>gridIsEnsembleLike(a)))note='on for '+owners[0];return {roles,owners,types,hasCover,note};}
-function castListGroupRow(g){let info=b284GroupInfo(g),a=g.rows[0],eid=entityIdForPerson(g.personId),hasEntity=E.has(eid),did=hasEntity?nextEntityDrawerId('cast-drawer'):'',person=hasEntity?entityInlineToggle(eid,personName(g.personId),'',did):link('#person-'+g.personId,personName(g.personId),'linkBtn');let badges=info.types.map(t=>`<span class="roleCoverStatus ${cueCoverStatusTone(t)}">${esc(cueCoverShort(t))}</span>`).join(''),roles=info.roles.join(' / '),rowTone=info.hasCover?cueCoverRowTone(info.types[0]):'';let row=`<div class="castListRow${info.hasCover?' coverAssignmentRow':''}${rowTone?' '+rowTone:''}"><div class="castRoleCell"><div class="roleLine"><span class="roleText">${esc(roles)}</span>${badges}</div></div><div class="castNameCell"><div class="entityStack">${person}${info.note?`<div class="castMergedNote">${esc(info.note)}</div>`:''}</div></div></div>`;return row+(hasEntity?entityDrawerRow(eid,did,'performancePersonPreview'):'');}
-function castListSection(title,rows,cls){if(!rows.length)return'';let grouped=b284GroupCastRows(rows),intro=cls==='full'?'Exact performance casting in program order.':cls==='principal'?'Actual performance casting.':cls==='background'?'Dedicated background-vocalist roster.':cls==='ensemble'?'Named ensemble tracks and ensemble rows.':cls==='child'?'Dedicated child-role company.':cls==='orphan'?'Orphan / child-role casting.':'Additional onstage casting.';return `<div class="castListBlock ${esc(cls||'other')}"><div class="castListHead"><div><h3>${esc(title)}</h3><div class="sectionIntro">${esc(intro)}</div></div><span class="castListCount">${esc(num(grouped.length))}</span></div><div class="castList">${grouped.map(castListGroupRow).join('')}</div></div>`;}
-
 function performanceView(id){let p=performanceById(id);if(!p)return notFound();let cast=(perfApps.get(idNum(id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));let groups={principal:[],child:[],orphan:[],background:[],ensemble:[],swing:[],other:[]};cast.forEach(a=>{let g=displayAppearanceGroup(a);(groups[g]||(groups[g]=[])).push(a);});let markers=markerDisplay(p).map(x=>`<span class="pill notePill">${esc(x)}</span>`).join('');let heroBlock=`<div class="heroNumber">${showNumberBadge(p)}</div>${hero(perfTitle(p),esc(perfMeta(p)),true)}<div class="dbMicro"><span>DB PERF ${esc(p.id)}</span><a href="#show-${p.showId}">DB SHOW ${esc(p.showId)}</a><span>DB VENUE ${esc(p.venueId)}</span></div>`;let actions=`<div class="programActions"><button class="btn" type="button" onclick="downloadProgramJSON(${idNum(p.id)})">Program JSON</button><button class="btn secondary" type="button" onclick="copyPerformanceCastText(${idNum(p.id)},this)">Copy Cast</button><button class="btn secondary" type="button" onclick="copyPerformanceCastDiscord(${idNum(p.id)},this)">Copy DC</button></div><nav class="anchorTabs"><a href="#perf-${p.id}">Top</a><a href="#cast">Cast</a><a href="#covers">Covers</a><a href="#credits">Credits</a><a href="#songs">Songs</a><a href="#archive">Archive</a></nav>`;let castHtml=(p.type==='Special Event')?castSection('Participants',cast,'full'):(SINGLE_CAST_LIST_SHOWS.has(showTitle(p.showId))||showTitle(p.showId)==='Message In A Bottle')?castSection('Cast',cast,'full'):`${castSection('Principals',groups.principal,'principal')}${castSection(showTitle(p.showId)==='The Sound of Music'?'Von Trapp Children':'Children',groups.child,'child')}${castSection('Orphans',groups.orphan,'orphan')}${castSection('Background Vocalists',groups.background,'background')}${castSection('Ensemble',groups.ensemble,'ensemble')}${castSection('Swings / Other',groups.swing.concat(groups.other),'')}`;let left=`${heroBlock}${performancePager(p)}${performanceFactStrip(p)}${actions}<section class="card castListCard" id="cast"><h2>Cast</h2>${castHtml}</section>${specialAppearancesSection(id)}${coverPoolSection(id)}${creditsSection(id)}${songsSection(id)}${sourceSection(p)}`;let right=`<aside><section class="card"><h3>Notes / Markers</h3>${markers?`<div class="chips">${markers}</div>`:'<div class="empty">No markers logged.</div>'}${p.notes?`<div class="divider"></div><h3>Notes</h3><div class="note">${esc(p.notes).replace(/\n/g,'<br>')}</div>`:''}</section>${relatedPerfSection(p)}${programMetaSection(p)}</aside>`;shell(`<div class="twoPane"><main>${left}</main>${right}</div>`)}
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<section class="card" id="archive"><h2>Source / Archive</h2>${chunks.map(c=>`<div class="sectionCard"><h3>${esc(c[0])}</h3><div class="sourceText">${esc(c[1])}</div></div>`).join('')}</section>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b285',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personName(a.personId),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b287',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personName(a.personId),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -1721,7 +1749,6 @@ function castGridExportModel(showId,ps){
       if(t.group==='mammaEnsemble')for(let a of all){if(!(a.appearanceType==='ensemble'||a.alsoEnsemble))continue;let c=cells[ix];c.apps.push(a);c.items.push({app:a,qualifier:''});if(a.coverType||a.onstageSwing)c.hasCover=true;}
       if(t.group==='backgroundVocalists')for(let a of all){let src=gridSourceRole(a);if(a.appearanceType!=='background_vocalist'&&!gridRoleParts(src).some(x=>norm(x)==='background vocalist'))continue;let c=cells[ix];c.apps.push(a);c.items.push({app:a,qualifier:''});if(a.coverType||a.onstageSwing)c.hasCover=true;}
     });
-    cells.forEach(c=>{let by=new Map();c.items.forEach(it=>{let k=String(it.app.personId),g=by.get(k);if(!g){g={app:it.app,apps:[],qualifiers:[],roles:[],owners:[]};by.set(k,g);}g.apps.push(it.app);if(it.qualifier&&!g.qualifiers.includes(it.qualifier))g.qualifiers.push(it.qualifier);let rr=b284CleanRoleText(it.app);if(rr&&!g.roles.includes(rr))g.roles.push(rr);if(it.app.alsoEnsemble&&!g.roles.some(x=>norm(x)==='ensemble'))g.roles.push('Ensemble');let oo=coverOnForName(it.app);if(oo&&!g.owners.includes(oo))g.owners.push(oo);if(it.app.coverType&&!g.app.coverType)g.app=it.app;});c.items=[...by.values()].map(g=>({app:g.app,qualifier:g.apps.length>1&&g.owners.length>1?'split track':g.qualifiers.join(' · '),displayRole:g.roles.join(' / '),apps:g.apps}));c.hasCover=c.items.some(it=>it.apps.some(a=>a.coverType||a.onstageSwing));});
     return {performance:p,label:`Show #${performanceNumber(p)} · ${fmtDate(p.date)} ${p.time||''}`.trim(),sub:venueName(p.venueId)||'',cells};
   });
   return {show:S.get(idNum(showId)),roles,tracks,rows};
@@ -2001,8 +2028,9 @@ function cuePersonRoleTable(id,roleStats){
   if(!roleStats.length)return'';
   let rows=roleStats.map(r=>{
     let history=cueRoleHistory266(id,r),hasRegular=r.rows.some(x=>!x.a.coverType),status=[...r.coverTypes].map(cueCoverShort);if(hasRegular)status.unshift('Regular');
-    let rid=r.rows.map(x=>idNum(x.a.roleId)).find(Boolean),roleHtml=rid?`<a href="#role-${rid}"><b>${esc(r.role)}</b></a>`:`<b>${esc(r.role)}</b>`;
-    return `<div class="personDataRow"><span class="personDataCell">${roleHtml}</span><span class="personDataCell"><a href="#show-${r.showId}">${esc(showTitle(r.showId))}</a></span><span class="personDataCell"><b>${num(r.count)}</b></span><span class="personDataCell">${esc(status.length?status.join(', '):'Regular')}</span><span class="personDataCell">${esc(fmtDate(r.first,true))}${r.last!==r.first?` – ${esc(fmtDate(r.last,true))}`:''}</span><span class="personDataCell ${history?'personRoleHistoryGood':'personRoleHistoryMuted'}">${esc(history||'—')}</span></div>`;
+    let rid=r.rows.map(x=>idNum(x.a.roleId)).find(Boolean),roleHtml=rid?`<a href="#role-${rid}"><b>${esc(r.role)}</b></a>`:`<b>${esc(r.role)}</b>`,
+        statusText=status.length?status.join(', '):'Regular',dateText=`${fmtDate(r.first,true)}${r.last!==r.first?` – ${fmtDate(r.last,true)}`:''}`;
+    return `<div class="personDataRow"><span class="personDataCell">${roleHtml}</span><span class="personDataCell"><a href="#show-${r.showId}">${esc(showTitle(r.showId))}</a></span><span class="personDataCell"><b>${num(r.count)}</b></span><span class="personDataCell">${esc(statusText)}</span><span class="personDataCell">${esc(dateText)}</span><span class="personDataCell ${history?'personRoleHistoryGood':'personRoleHistoryMuted'}">${esc(history||'—')}</span><span class="personMobileRoleTop"><span class="personMobileRoleName">${roleHtml}</span><span class="personMobileRoleCount">${num(r.count)}×</span></span><span class="personMobileRoleMeta"><a href="#show-${r.showId}">${esc(showTitle(r.showId))}</a><span>·</span><span>${esc(statusText)}</span><span>·</span><span>${esc(dateText)}</span></span>${history?`<span class="personMobileRoleHistory">${esc(history)}</span>`:''}</div>`;
   }).join('');
   return `<section class="personTableCard personRoleTable"><div class="personTableHead"><div><h2>Roles & tracks</h2></div></div><div class="personDataTable"><div class="personDataHeader"><span>Role</span><span>Show</span><span>Seen</span><span>Status</span><span>Dates</span><span>Your history</span></div>${rows}</div></section>`;
 }
@@ -2048,6 +2076,7 @@ function cuePersonAppearanceTable(groups){
         statuses=[...new Set(g.apps.map(a=>a.coverType?cueCoverShort(a.coverType):'regular'))],prod=creditProductionKey(g.perf);
     let rolesHtml=g.apps.map(a=>{let role=cueAppearanceRoleLabel(a),status=a.coverType?cueCoverShort(a.coverType):'',onFor=coverOnForName(a),rid=idNum(a.roleId);
       return `<div class="personRoleAssignment">${rid?`<a href="#role-${rid}"><b>${esc(role)}</b></a>`:`<b>${esc(role)}</b>`}${status?`<span class="personDataMeta">${esc(status)}${onFor?` · on for ${esc(onFor)}`:''}</span>`:''}</div>`;}).join('');
+    let mobileDate=`${fmtDate(g.perf.date,true)} ${cueDateYear(g.perf.date)}${g.perf.time?` · ${g.perf.time}`:''}`,mobileMeta=[venueName(g.perf.venueId),g.perf.type].filter(Boolean).join(' · ');
     return `<div class="personDataRow${tone?' '+tone:''}" data-show="${idNum(g.perf.showId)}" data-production="${esc(prod)}" data-roles="${esc(rolesNorm.join('|'))}" data-status="${esc(statuses.join('|'))}" data-year="${esc(cueDateYear(g.perf.date))}">
       <span class="personDataCell personDataDate"><a href="#perf-${g.perf.id}">${esc(fmtDate(g.perf.date,true))}</a><span class="personDataMeta">${esc(cueDateYear(g.perf.date))}</span></span>
       <span class="personDataCell personDataShow"><a href="#show-${g.perf.showId}"><b>${esc(showTitle(g.perf.showId))}</b></a><span class="personDataMeta">${esc(g.perf.time||'')}</span></span>
@@ -2055,6 +2084,9 @@ function cuePersonAppearanceTable(groups){
       <span class="personDataCell personDataStatus">${statuses.filter(x=>x!=='regular').length?statuses.filter(x=>x!=='regular').map(x=>`<span class="personStatusToken">${esc(x)}</span>`).join(''):'<span class="personStatusToken none">—</span>'}</span>
       <span class="personDataCell personDataVenue">${esc(venueName(g.perf.venueId))}</span>
       <span class="personDataCell personDataType">${esc(g.perf.type||'')}</span>
+      <span class="personMobileAppearanceTop"><a class="personMobileAppearanceShow" href="#show-${g.perf.showId}">${esc(showTitle(g.perf.showId))}</a><a class="personMobileAppearanceDate" href="#perf-${g.perf.id}">${esc(mobileDate)}</a></span>
+      <span class="personMobileAppearanceRoles">${rolesHtml}</span>
+      <span class="personMobileAppearanceMeta">${esc(mobileMeta)}</span>
     </div>`;
   }).join('');
   return `<section class="personTableCard personAppearanceTable"><div class="personTableHead"><div><h2>Appearance history</h2><p>${num(groups.length)} recorded performance${groups.length===1?'':'s'}, newest first.</p></div></div>${prodSummary}${filters}<div class="personDataTable"><div class="personDataHeader"><span>Date</span><span>Show</span><span>Role / Track</span><span>Status</span><span>Venue</span><span>Type</span></div>${rows}</div></section>`;
