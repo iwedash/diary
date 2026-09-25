@@ -2186,6 +2186,33 @@ window.addEventListener('hashchange',route);
 .homeRecentIntegrated{overflow:visible!important;padding-bottom:12px!important}.homeRecentPlain{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fffdf9;table-layout:fixed}.homeRecentPlain th,.homeRecentPlain td{border-bottom:1px solid rgba(29,40,48,.11);padding:10px 12px;text-align:left}.homeRecentPlain tr:last-child td{border-bottom:0}.homeRecentPlain th{background:#182229;color:#fff;font-size:10px;text-transform:uppercase;letter-spacing:.11em}.homeRecentPlain .homeShowNumHead{width:70px}.homeRecentPlain td:nth-child(2){width:auto!important;min-width:0!important}.homeRecentPlain td:nth-child(3){width:150px!important;min-width:0!important}.showTableCard{background:linear-gradient(180deg,#fffdf9,#f7f0e4)!important;border-color:rgba(29,40,48,.15)!important}.showGridCard .castGridWrap,.showGridCard .tableWrap{border-radius:18px!important;box-shadow:0 8px 22px rgba(24,34,41,.05)!important}.showGridCard .castGrid{font-size:12.5px!important}.showGridCard .castGrid th{background:#182229!important;color:#fff!important;letter-spacing:.08em;text-transform:uppercase}.showPerfTableWrap{overflow:visible;border:1px solid var(--line);border-radius:18px;background:#fffdf9}.showPerfTable{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:12.5px}.showPerfTable th,.showPerfTable td{border-bottom:1px solid rgba(29,40,48,.11);padding:10px 12px;text-align:left;vertical-align:middle}.showPerfTable tr:last-child td{border-bottom:0}.showPerfTable th{background:#182229;color:#fff;font-size:10px;text-transform:uppercase;letter-spacing:.11em}.showPerfTable th:first-child{width:70px}.showPerfTable th:nth-child(2){width:35%}.showPerfTable th:nth-child(3){width:22%}.showPerfTable th:nth-child(4){width:18%}.showPerfNum>span{min-height:50px}.showPageActions{margin:0 0 14px;display:flex;flex-wrap:wrap;gap:8px}.showPageActions .btn{font-size:10px!important;padding:8px 10px!important}
 @media(max-width:720px){.homeRecentPlain,.showPerfTable{table-layout:auto}.homeRecentPlain td:nth-child(3),.homeRecentPlain th:nth-child(3){display:none}.showPerfTable th:nth-child(3),.showPerfTable td:nth-child(3),.showPerfTable th:nth-child(5),.showPerfTable td:nth-child(5){display:none}.showPerfTable th:nth-child(2){width:auto}.showPerfTable th:nth-child(4){width:120px}.homeRecentPlain .homeShowNumHead,.showPerfTable th:first-child{width:54px}.homeShowNumCell>span{justify-content:center!important;padding-left:6px!important;padding-right:6px!important}}
 </style>
+
+<style id="cuebook-b322-mobile-break-fix">
+/* Build 322: stop show/performance cast tables from widening the mobile viewport. */
+html,body{max-width:100%!important;overflow-x:hidden!important}
+.wrap,#app{max-width:100vw!important;min-width:0!important;overflow-x:clip!important}
+.card,.hero,.castListCard,.showGridCard,.showTableCard,.performanceFacts,.performanceHero{max-width:100%!important;min-width:0!important;box-sizing:border-box!important}
+.castListBlock,.castGridWrap,.showPerfTableWrap,.tableWrap{max-width:100%!important;min-width:0!important;box-sizing:border-box!important}
+.castGridWrap,.showPerfTableWrap{overflow-x:auto!important;overflow-y:hidden!important;-webkit-overflow-scrolling:touch!important;overscroll-behavior-x:contain!important;touch-action:pan-x pan-y!important}
+.castGrid,.showPerfTable{max-width:none!important}
+.castGrid{width:max-content!important;min-width:100%!important;table-layout:auto!important}
+.castGrid th,.castGrid td{box-sizing:border-box!important}
+.castGrid .entityInlineToggle .entityName,.castGridCompactList .entityInlineToggle .entityName{overflow-wrap:anywhere!important;word-break:normal!important;hyphens:auto!important}
+.castListRow,.coverListRow,.creditListRow{max-width:100%!important;min-width:0!important;grid-template-columns:minmax(118px,42%) minmax(0,1fr)!important}
+.castRoleCell,.castNameCell,.coverRoleCell,.coverNameCell,.creditRoleCell,.creditEntityCell{min-width:0!important;max-width:100%!important;overflow-wrap:anywhere!important}
+.castNameCell .entityInlineToggle{min-width:0!important;max-width:100%!important}
+@media(max-width:720px){
+  .wrap{padding-left:12px!important;padding-right:12px!important}
+  .card{padding-left:14px!important;padding-right:14px!important}
+  .castListCard{padding:14px 10px!important}
+  .castListBlock{border-radius:16px!important;overflow:hidden!important}
+  .castListRow,.coverListRow,.creditListRow{grid-template-columns:minmax(102px,40%) minmax(0,1fr)!important;min-height:58px!important}
+  .castRoleCell,.castNameCell,.coverRoleCell,.coverNameCell,.creditRoleCell,.creditEntityCell{padding:11px 10px!important}
+  .roleText,.coverRoleText,.creditRoleCell{font-size:12px!important;line-height:1.15!important;letter-spacing:.025em!important}
+  .castGrid th,.castGrid td{min-width:118px!important}
+  .castGrid th:first-child,.castGrid td:first-child{min-width:142px!important;max-width:142px!important}
+}
+</style>
 </html>
 
 <style id="cuebook-b239-overrides">
