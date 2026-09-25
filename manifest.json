@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b305",
-  "version": "v13.95.00",
-  "generated": "2026-09-25T18:55:00+00:00",
+  "build": "json-b306",
+  "version": "v13.96.00",
+  "generated": "2026-09-25T19:20:00+00:00",
   "storage": "split-json",
   "files": [
     {
@@ -22,8 +22,8 @@
         "entitySystem",
         "showGridTracks"
       ],
-      "bytes": 5217943,
-      "sha256": "73e33fff565e3025d6e3e6f23c22bfa583d3095db49e096959b2454f0bcac97e"
+      "bytes": 3349278,
+      "sha256": "69264b678b9ca5f14f642db30e0527c447b485ae41db86194ec37643fc33131a"
     },
     {
       "path": "sources.json",
@@ -98,9 +98,15 @@
       "type": "text/markdown",
       "bytes": 1228,
       "sha256": "89aa691051ec66171b6a30c471caf0c8027969780134734a56e15cb2ebcaa169"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B306.md",
+      "type": "text/markdown",
+      "bytes": 733,
+      "sha256": "0cd9fd1e1a02e198845d421e51455f5c502e636a49977f9f32221aa9a6cbb328"
     }
   ],
-  "totalBytes": 25732436,
+  "totalBytes": 23862543,
   "largestFileBytes": 7368968,
   "counts": {
     "performances": 1182,

@@ -3,7 +3,7 @@
 const DEFAULT_MANIFEST='manifest.json';
 async function cueFetchJson(path,cache){
   const join=path.includes('?')?'&':'?';
-  const res=await fetch(path+join+'v=json-b300',{cache:cache||'no-store'});
+  const res=await fetch(path+join+'v=json-b306',{cache:cache||'no-store'});
   if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);
   return res.json();
 }
@@ -35,7 +35,11 @@ async function loadCuebookData(options={}){
   const manifest=await cueFetchJson(manifestPath,cache);
   if(manifest.schemaVersion!==13)throw new Error(`Unsupported Cuebook schema ${manifest.schemaVersion}`);
   const base=manifestPath.slice(0,manifestPath.lastIndexOf('/')+1);
-  const loaded=await Promise.all(manifest.files.map(async file=>({file,data:await cueFetchJson(base+file.path,cache)})));
+  const jsonFiles=(manifest.files||[]).filter(file=>{
+    const path=String(file.path||'');
+    return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);
+  });
+  const loaded=await Promise.all(jsonFiles.map(async file=>({file,data:await cueFetchJson(base+file.path,cache)})));
   const sourcePart=loaded.find(x=>
     x.file.kind==='sources' ||
     x.file.path==='sources.json' ||
