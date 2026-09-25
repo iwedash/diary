@@ -1,12 +1,14 @@
 {
   "schemaVersion": 13,
-  "build": "json-b306",
-  "version": "v13.96.00",
-  "generated": "2026-09-25T19:20:00+00:00",
+  "build": "json-b312",
+  "version": "v14.02.00",
+  "generated": "2026-09-25T22:05:00-04:00",
   "storage": "split-json",
   "files": [
     {
       "path": "core.json",
+      "bytes": 3361873,
+      "sha256": "13fafc707cc39ff4acccbf8c62f7aab1eb7d463a75002decb5d83db5cb3e31c4",
       "kind": "data",
       "collections": [
         "meta",
@@ -21,21 +23,21 @@
         "entityHealth",
         "entitySystem",
         "showGridTracks"
-      ],
-      "bytes": 3349278,
-      "sha256": "69264b678b9ca5f14f642db30e0527c447b485ae41db86194ec37643fc33131a"
+      ]
     },
     {
       "path": "sources.json",
+      "bytes": 703934,
+      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16",
       "kind": "sources",
       "collections": [
         "values"
-      ],
-      "bytes": 703934,
-      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16"
+      ]
     },
     {
       "path": "program-credits.json",
+      "bytes": 5405676,
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d",
       "kind": "data",
       "collections": [
         "expandedCredits",
@@ -49,33 +51,33 @@
         "musicTechnology",
         "specialEffects",
         "creativeConsultants"
-      ],
-      "bytes": 5405676,
-      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
+      ]
     },
     {
       "path": "cast.json",
+      "bytes": 5258044,
+      "sha256": "7d59f61014cfd8bee1a8ba9a0b5ad98174707c2e05da9d070b90f2d6a684a86d",
       "kind": "data",
       "collections": [
         "appearances"
-      ],
-      "bytes": 7368968,
-      "sha256": "4a240813586297deb7894e4b1db905b885b52a4d611ecb57712c519e375a6fa3"
+      ]
     },
     {
       "path": "credits.json",
+      "bytes": 2117532,
+      "sha256": "4a78659f0fb38aefb4a40fd8e56a7fe67347d08d33f164e8733192f11360dff8",
       "kind": "data",
       "collections": [
         "creativeCredits",
         "aboveTitleProducers",
         "presentingOrganizations",
         "companionLinks"
-      ],
-      "bytes": 3214259,
-      "sha256": "c6554ec9a6ec79edab827dbfe6e53b96d0d5bffb6e80817af29ade08b1ab3b5a"
+      ]
     },
     {
       "path": "production-archive.json",
+      "bytes": 3820428,
+      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29",
       "kind": "data",
       "collections": [
         "productionManagement",
@@ -89,28 +91,56 @@
         "orchestra",
         "companyAssignments",
         "specialAppearances"
-      ],
-      "bytes": 3820428,
-      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B305.md",
-      "type": "text/markdown",
-      "bytes": 1228,
-      "sha256": "89aa691051ec66171b6a30c471caf0c8027969780134734a56e15cb2ebcaa169"
+      ]
     },
     {
       "path": "Cuebook_CHANGELOG_B306.md",
-      "type": "text/markdown",
       "bytes": 733,
-      "sha256": "0cd9fd1e1a02e198845d421e51455f5c502e636a49977f9f32221aa9a6cbb328"
+      "sha256": "0cd9fd1e1a02e198845d421e51455f5c502e636a49977f9f32221aa9a6cbb328",
+      "type": "text/markdown"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B307.md",
+      "bytes": 980,
+      "sha256": "1562a0c5ea98ee2cb6d3d382a5367f308ef98481674d250527ecb87ccd161bf7",
+      "type": "text/markdown"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B308.md",
+      "bytes": 681,
+      "sha256": "a64ee59605bb4a1dd3157179cae7431854bbba0ae065afd26229415750f60a19",
+      "type": "text/markdown"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B309.md",
+      "bytes": 1208,
+      "sha256": "dd04b2cb3f16a8f9d036187fe00b37b30b1379152dd8a2d41598bc581cec08b0",
+      "type": "text/markdown"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B310.md",
+      "bytes": 896,
+      "sha256": "0ffb25b3fe31ab74dc92320c567c66b3d622ef458df6c1a90c7ba4b7c57764ef",
+      "type": "text/markdown"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B311.md",
+      "type": "text/markdown",
+      "bytes": 405,
+      "sha256": "8d1b088a835bb11641633721b53faa0b088b1f7c13dfde63a530dd63b316eeb7"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B312.md",
+      "type": "text/markdown",
+      "bytes": 592,
+      "sha256": "710af027bcafd8e9e3aa7a5f675f2da58393e09683edbe1340d64168f7884a47"
     }
   ],
-  "totalBytes": 23862543,
-  "largestFileBytes": 7368968,
+  "totalBytes": 20672982,
+  "largestFileBytes": 5405676,
   "counts": {
     "performances": 1182,
-    "people": 19950,
+    "people": 19951,
     "shows": 515,
     "venues": 199,
     "roles": 5907,
