@@ -1,151 +1,338 @@
 {
   "schemaVersion": 13,
-  "build": "json-b312",
-  "version": "v14.02.00",
-  "generated": "2026-09-25T22:05:00-04:00",
+  "build": "json-b321",
+  "version": "v14.11.00",
+  "generated": "2026-09-25T22:25:00-04:00",
   "storage": "split-json",
   "files": [
     {
-      "path": "core.json",
-      "bytes": 3361873,
-      "sha256": "13fafc707cc39ff4acccbf8c62f7aab1eb7d463a75002decb5d83db5cb3e31c4",
-      "kind": "data",
-      "collections": [
-        "meta",
-        "people",
-        "shows",
-        "venues",
-        "roles",
-        "performances",
-        "organizations",
-        "entitySchema",
-        "entityMigrationMap",
-        "entityHealth",
-        "entitySystem",
-        "showGridTracks"
-      ]
+      "path": "Cuebook_CHANGELOG_B288.md",
+      "kind": "changelog",
+      "bytes": 1946,
+      "sha256": "0fd3b91ee51bb3fc58a7ad62ce92731a3584cd3545a2f32ab1885116a8632f99"
     },
     {
-      "path": "sources.json",
-      "bytes": 703934,
-      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16",
-      "kind": "sources",
-      "collections": [
-        "values"
-      ]
+      "path": "Cuebook_CHANGELOG_B289.md",
+      "kind": "changelog",
+      "bytes": 1425,
+      "sha256": "041d27bff7b6ca8c897568648dda7e780cdf5970982c6f53428f70d3eae5fdae"
     },
     {
-      "path": "program-credits.json",
-      "bytes": 5405676,
-      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d",
-      "kind": "data",
-      "collections": [
-        "expandedCredits",
-        "orchestraCredits",
-        "musicStaff",
-        "marketingAndPress",
-        "ticketingRevenue",
-        "danceCaptains",
-        "fightCaptains",
-        "associateCreativeTeam",
-        "musicTechnology",
-        "specialEffects",
-        "creativeConsultants"
-      ]
+      "path": "Cuebook_CHANGELOG_B290.md",
+      "kind": "changelog",
+      "bytes": 799,
+      "sha256": "8c8037c8603365619f460a038efcc41848036c686fe070e0f043dc49c4e5ae93"
     },
     {
-      "path": "cast.json",
-      "bytes": 5258044,
-      "sha256": "7d59f61014cfd8bee1a8ba9a0b5ad98174707c2e05da9d070b90f2d6a684a86d",
-      "kind": "data",
-      "collections": [
-        "appearances"
-      ]
+      "path": "Cuebook_CHANGELOG_B291.md",
+      "kind": "changelog",
+      "bytes": 1129,
+      "sha256": "f2ef4742122ec05c00613081797af1ba69a30f8bd78703261928c2bc9bf4b9de"
     },
     {
-      "path": "credits.json",
-      "bytes": 2117532,
-      "sha256": "4a78659f0fb38aefb4a40fd8e56a7fe67347d08d33f164e8733192f11360dff8",
-      "kind": "data",
-      "collections": [
-        "creativeCredits",
-        "aboveTitleProducers",
-        "presentingOrganizations",
-        "companionLinks"
-      ]
+      "path": "Cuebook_CHANGELOG_B292.md",
+      "kind": "changelog",
+      "bytes": 1966,
+      "sha256": "e005a9443852d0d439e50484b628bc8e2109351fcd72e025b666a126793bb3ac"
     },
     {
-      "path": "production-archive.json",
-      "bytes": 3820428,
-      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29",
-      "kind": "data",
-      "collections": [
-        "productionManagement",
-        "coverPools",
-        "productionMetadataSnapshots",
-        "programArchive",
-        "songLists",
-        "expandedProductionStaff",
-        "productionAlternates",
-        "performanceTags",
-        "orchestra",
-        "companyAssignments",
-        "specialAppearances"
-      ]
+      "path": "Cuebook_CHANGELOG_B293.md",
+      "kind": "changelog",
+      "bytes": 2163,
+      "sha256": "d8ad9d38703f9abf46f40a5b27aeb3078348b525a2511c1a4db8772ca6acae31"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B294.md",
+      "kind": "changelog",
+      "bytes": 2542,
+      "sha256": "490695787e120c0fe039c948af6dd921295a32b7e20deec552b0388f9f814734"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B295.md",
+      "kind": "changelog",
+      "bytes": 1549,
+      "sha256": "f85f2a3053c15068344dc1f59abd20b9183beb218f626ccf51f46ca0b540fe44"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B296.md",
+      "kind": "changelog",
+      "bytes": 1881,
+      "sha256": "f417ef1ae934fe44998d78043d3a0c30f1835dad773cd753b734e80d70cd0ea9"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B297.md",
+      "kind": "changelog",
+      "bytes": 1807,
+      "sha256": "80ab293aa886fedd56abd6e1a09b211cba352364ce54b1b458a366f186d68c00"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B298.md",
+      "kind": "changelog",
+      "bytes": 3605,
+      "sha256": "69e0870f739b4deb68ef82ea58bebc662ab40720432c13eea0f82932db891b66"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B299.md",
+      "kind": "changelog",
+      "bytes": 3630,
+      "sha256": "055867e7b446a74709c82ffd7dbb2c3c4be7f9dd5a208e25f876e1bb87d47a4c"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B300.md",
+      "kind": "changelog",
+      "bytes": 1754,
+      "sha256": "d1e37938f42658b5eea7f28f85beb2831409cd21fbd35d1ae349265d0a66bf2f"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B301.md",
+      "kind": "changelog",
+      "bytes": 1224,
+      "sha256": "fbca8f77699938462363364dc703546e0950964ed53bf05ad4f1f46e8bda207c"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B302.md",
+      "kind": "changelog",
+      "bytes": 1470,
+      "sha256": "95592544581de2be8042eed1083b50411145e7578dbddee795d447ccd8351918"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B303.md",
+      "kind": "changelog",
+      "bytes": 606,
+      "sha256": "a32e61c539895a3e51dd011da9376dd30f5daf4dc30b50d7782f8325122d6a5c"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B304.md",
+      "kind": "changelog",
+      "bytes": 1505,
+      "sha256": "90792c4343ba9be966ee4384770ee9848b84aaaae923c0471506554e21d36c16"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B305.md",
+      "kind": "changelog",
+      "bytes": 1228,
+      "sha256": "89aa691051ec66171b6a30c471caf0c8027969780134734a56e15cb2ebcaa169"
     },
     {
       "path": "Cuebook_CHANGELOG_B306.md",
+      "kind": "changelog",
       "bytes": 733,
-      "sha256": "0cd9fd1e1a02e198845d421e51455f5c502e636a49977f9f32221aa9a6cbb328",
-      "type": "text/markdown"
+      "sha256": "0cd9fd1e1a02e198845d421e51455f5c502e636a49977f9f32221aa9a6cbb328"
     },
     {
       "path": "Cuebook_CHANGELOG_B307.md",
+      "kind": "changelog",
       "bytes": 980,
-      "sha256": "1562a0c5ea98ee2cb6d3d382a5367f308ef98481674d250527ecb87ccd161bf7",
-      "type": "text/markdown"
+      "sha256": "1562a0c5ea98ee2cb6d3d382a5367f308ef98481674d250527ecb87ccd161bf7"
     },
     {
       "path": "Cuebook_CHANGELOG_B308.md",
+      "kind": "changelog",
       "bytes": 681,
-      "sha256": "a64ee59605bb4a1dd3157179cae7431854bbba0ae065afd26229415750f60a19",
-      "type": "text/markdown"
+      "sha256": "a64ee59605bb4a1dd3157179cae7431854bbba0ae065afd26229415750f60a19"
     },
     {
       "path": "Cuebook_CHANGELOG_B309.md",
+      "kind": "changelog",
       "bytes": 1208,
-      "sha256": "dd04b2cb3f16a8f9d036187fe00b37b30b1379152dd8a2d41598bc581cec08b0",
-      "type": "text/markdown"
+      "sha256": "dd04b2cb3f16a8f9d036187fe00b37b30b1379152dd8a2d41598bc581cec08b0"
     },
     {
       "path": "Cuebook_CHANGELOG_B310.md",
+      "kind": "changelog",
       "bytes": 896,
-      "sha256": "0ffb25b3fe31ab74dc92320c567c66b3d622ef458df6c1a90c7ba4b7c57764ef",
-      "type": "text/markdown"
+      "sha256": "0ffb25b3fe31ab74dc92320c567c66b3d622ef458df6c1a90c7ba4b7c57764ef"
     },
     {
       "path": "Cuebook_CHANGELOG_B311.md",
-      "type": "text/markdown",
+      "kind": "changelog",
       "bytes": 405,
       "sha256": "8d1b088a835bb11641633721b53faa0b088b1f7c13dfde63a530dd63b316eeb7"
     },
     {
       "path": "Cuebook_CHANGELOG_B312.md",
-      "type": "text/markdown",
+      "kind": "changelog",
       "bytes": 592,
       "sha256": "710af027bcafd8e9e3aa7a5f675f2da58393e09683edbe1340d64168f7884a47"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B313.md",
+      "kind": "changelog",
+      "bytes": 720,
+      "sha256": "74b1a3f3b608934f98ef25809699929387f5a0e4c9a20d439b2c3ea9b05e144f"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B314.md",
+      "kind": "changelog",
+      "bytes": 639,
+      "sha256": "0458ea28d137bc6e752b84981f6586f83377e707bd5dac068fa8980e64da5628"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B315.md",
+      "kind": "changelog",
+      "bytes": 839,
+      "sha256": "1ebb12e5bc279131028bfb7905982b72ead05cf7aae1b6ef28c8e450ac975d23"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B316.md",
+      "kind": "changelog",
+      "bytes": 1312,
+      "sha256": "fc7b8b375d49e5c50ac48e8084a53bca888a81de3654c405aaf29301d6aeacc5"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B317.md",
+      "kind": "changelog",
+      "bytes": 1809,
+      "sha256": "48d3c3d606f57793961b14109a18cf1e7d68ac03eeaacc7098892f07ce6e791c"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B318.md",
+      "kind": "changelog",
+      "bytes": 1101,
+      "sha256": "4a7e350b4f3bb34389a52f8e5d831aabf0f4dad5aa37169f78c4a6c2b670829e"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B319.md",
+      "kind": "changelog",
+      "bytes": 932,
+      "sha256": "10093eaf6c73e019d00fd5b1b47186f4fe75c0614f113556a92532f54af5f550"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B320.md",
+      "kind": "changelog",
+      "bytes": 836,
+      "sha256": "bef0bfcb9d64d8fc66209ae294568e95c504e0be7d199a0e54a678e40577d76f"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B321.md",
+      "kind": "changelog",
+      "bytes": 1135,
+      "sha256": "900ceec2e05d22cd5a79bfa891ed674eb6b0bed1c73461fda94aac0fb0fbdcbf"
+    },
+    {
+      "path": "cast.json",
+      "kind": "data",
+      "bytes": 5263932,
+      "sha256": "3e1bce5849538539795e4389f75b1d8f747deab3bbcb554ec9f960a928ae82fa"
+    },
+    {
+      "path": "castbook.html",
+      "kind": "page",
+      "bytes": 38860,
+      "sha256": "d691059eee674fc5ee2dca5988109e563ebc300476753f5ef963906cd66049eb"
+    },
+    {
+      "path": "companions.html",
+      "kind": "page",
+      "bytes": 19972,
+      "sha256": "805eddd9d653b34d037f61ffb5bedaa4f62970e4d41f853e017f94d8043a8d12"
+    },
+    {
+      "path": "core.json",
+      "kind": "data",
+      "bytes": 3410567,
+      "sha256": "fee698d8f006d4ec8023d50af4c1091f27948286f6175c3f68a4ed5f721dc645"
+    },
+    {
+      "path": "credits.json",
+      "kind": "data",
+      "bytes": 2117820,
+      "sha256": "c13da6660905d964bd17c5a6afa0fb211b120357132da097e2724b1bdfa18569"
+    },
+    {
+      "path": "cuebook-logo.png",
+      "kind": "asset",
+      "bytes": 1066647,
+      "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
+    },
+    {
+      "path": "data-loader.js",
+      "kind": "script",
+      "bytes": 2873,
+      "sha256": "697745228d006be320e3f95b5cdd8203314eb7dc9482c4efc572f9d66cb35c9b"
+    },
+    {
+      "path": "index.html",
+      "kind": "page",
+      "bytes": 364662,
+      "sha256": "3baab9db2c07d6c5cabcb3db395c81bc1afb4d42719589b2202ef4d5b9ba6980"
+    },
+    {
+      "path": "loader-test.html",
+      "kind": "page",
+      "bytes": 445,
+      "sha256": "f19f2a21a17fe2b70b8fdff4da8dd86c467f9560d7eca2b868d4520764257a57"
+    },
+    {
+      "path": "logo-manager.html",
+      "kind": "page",
+      "bytes": 16019,
+      "sha256": "a1c2aab2650ca4a3e9691051428f43ae56cba804e9a6d8d0b415e4d6f170b757"
+    },
+    {
+      "path": "manifest.json",
+      "kind": "manifest",
+      "bytes": 10133,
+      "sha256": "1b7d1d25f2a8e9f932403376a42d0d27eb71dcd607965d2d5a153eedc4fe44e2"
+    },
+    {
+      "path": "money.html",
+      "kind": "page",
+      "bytes": 16991,
+      "sha256": "6a953e4e3e29538cc9b04fa4aa4a76c269b18c5656b216550632c2e31d1865c2"
+    },
+    {
+      "path": "production-archive.json",
+      "kind": "data",
+      "bytes": 3820428,
+      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29"
+    },
+    {
+      "path": "program-credits.json",
+      "kind": "data",
+      "bytes": 5405676,
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
+    },
+    {
+      "path": "pruned-records-b284.json",
+      "kind": "data",
+      "bytes": 22616,
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"
+    },
+    {
+      "path": "qa.html",
+      "kind": "page",
+      "bytes": 37796,
+      "sha256": "344e2ff28db4e6a915a2d92613cbbb921cd7dd5e91046f3814e2b62bae37199d"
+    },
+    {
+      "path": "sources.json",
+      "kind": "sources",
+      "bytes": 703934,
+      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16"
+    },
+    {
+      "path": "souvenir.html",
+      "kind": "page",
+      "bytes": 56858,
+      "sha256": "203498256718f4071c5a09b12bc4eb34f26e05eef40d7f94c67fea7bfc3c4177"
     }
   ],
-  "totalBytes": 20672982,
+  "totalBytes": 22423276,
   "largestFileBytes": 5405676,
   "counts": {
-    "performances": 1182,
-    "people": 19951,
+    "performances": 1185,
+    "people": 19954,
     "shows": 515,
     "venues": 199,
     "roles": 5907,
-    "appearances": 19620,
+    "appearances": 19638,
     "creativeCredits": 17576,
-    "specialAppearances": 219
-  }
+    "specialAppearances": 219,
+    "companionLinks": 628
+  },
+  "generatedAt": "2026-09-25T23:17:00-04:00",
+  "updatedAt": "2026-09-25T23:17:00-04:00",
+  "description": "Cuebook split-data build 321 with December 2018 audit corrections and UI refinements.",
+  "fileCount": 52
 }
