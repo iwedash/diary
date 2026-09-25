@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b301",
-  "version": "v13.91.00",
-  "generated": "2026-09-25T06:01:31+00:00",
+  "build": "json-b303",
+  "version": "v13.93.00",
+  "generated": "2026-09-25T17:18:00+00:00",
   "storage": "split-json",
   "files": [
     {
@@ -22,8 +22,8 @@
         "entitySystem",
         "showGridTracks"
       ],
-      "bytes": 5198088,
-      "sha256": "75a1e3714bf6d41a646779f26639d7bb5c14f3ac4fc975126f1ff488ba296e1e"
+      "bytes": 5209870,
+      "sha256": "9678a993537eb74118cc107aec58f9209356eb42fbb29ed7de46b3dc39d20d0e"
     },
     {
       "path": "sources.json",
@@ -31,8 +31,8 @@
       "collections": [
         "values"
       ],
-      "bytes": 702113,
-      "sha256": "08eccbba71f89d4bd138dda6f6dfb68f1141d9340c82257c61bf7ae21b1f0468"
+      "bytes": 703934,
+      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16"
     },
     {
       "path": "program-credits.json",
@@ -50,8 +50,8 @@
         "specialEffects",
         "creativeConsultants"
       ],
-      "bytes": 3454711,
-      "sha256": "d8007bd46ca7547ae3aa545ec67d94c09688c89c056c59f45c0589b21ef0d0c3"
+      "bytes": 5405676,
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
     },
     {
       "path": "cast.json",
@@ -59,8 +59,8 @@
       "collections": [
         "appearances"
       ],
-      "bytes": 7358778,
-      "sha256": "7053059e93f9f3458c3474412da6cf8e1ebd520e5d6cc65318489af2c1231f57"
+      "bytes": 7368968,
+      "sha256": "4a240813586297deb7894e4b1db905b885b52a4d611ecb57712c519e375a6fa3"
     },
     {
       "path": "credits.json",
@@ -71,8 +71,8 @@
         "presentingOrganizations",
         "companionLinks"
       ],
-      "bytes": 2117099,
-      "sha256": "0effcdc6065b621ad65a44b26631ecfe34c467a11ed510a91036b86a3c400698"
+      "bytes": 3214013,
+      "sha256": "d4590cbeec913db8c0b550b136160c9aa2738472b7a9f1cab66e692e8b635843"
     },
     {
       "path": "production-archive.json",
@@ -90,19 +90,19 @@
         "companyAssignments",
         "specialAppearances"
       ],
-      "bytes": 2466012,
-      "sha256": "6d369e7339ebdc1c20eb5dbc79f76ea336e0fe086353076a449862c4759dc6c5"
+      "bytes": 3820428,
+      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29"
     }
   ],
-  "totalBytes": 21296801,
-  "largestFileBytes": 7358778,
+  "totalBytes": 25722889,
+  "largestFileBytes": 7368968,
   "counts": {
-    "performances": 1181,
-    "people": 19946,
+    "performances": 1182,
+    "people": 19949,
     "shows": 515,
-    "venues": 194,
-    "roles": 5895,
-    "appearances": 19596,
+    "venues": 199,
+    "roles": 5907,
+    "appearances": 19620,
     "creativeCredits": 17576,
     "specialAppearances": 219
   }

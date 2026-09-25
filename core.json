@@ -1,29 +1,29 @@
 {
   "meta": {
     "sourceFile": "Cuebook_Build_273",
-    "generated": "2026-09-25T06:01:31+00:00",
-    "rowCount": 1181,
-    "performanceCount": 1181,
-    "peopleCount": 19946,
+    "generated": "2026-09-25T16:46:00+00:00",
+    "rowCount": 1182,
+    "performanceCount": 1182,
+    "peopleCount": 19949,
     "showCount": 515,
-    "venueCount": 194,
-    "roleCount": 5895,
-    "appearanceCount": 19596,
+    "venueCount": 199,
+    "roleCount": 5907,
+    "appearanceCount": 19620,
     "creativeCreditCount": 17576,
     "notesCount": 528,
     "updated": "2026-09-25",
-    "notes": "Build 301 removes two receipt-only records that were incorrectly treated as attendances, confirms Sarah Ford on The Notebook, and gives Cuebook a restrained palette refresh.",
-    "updatedBy": "OpenAI / Isaac attendance correction + UI refresh",
-    "updatedAt": "2026-09-25T06:01:31+00:00",
+    "notes": "Build 303 refreshes the Cuebook homepage: Recently Seen is now a compact table, Diary and Months are merged into year/month accordions, and On This Day / On This Week use compact dashboard tables. No attendance, cast, credit, or ticket facts changed from Build 302.",
+    "updatedBy": "OpenAI / Isaac homepage UI refresh",
+    "updatedAt": "2026-09-25T17:18:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b300",
-    "version": "v13.91.00",
-    "build": "json-b301",
-    "buildTime": "2026-09-25T06:01:31+00:00",
+    "sourceBase": "json-b302",
+    "version": "v13.93.00",
+    "build": "json-b303",
+    "buildTime": "2026-09-25T16:46:00+00:00",
     "buildDate": "2026-09-25",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v13.91.00",
+    "buildVersion": "v13.92.00",
     "lastUpdated": "2026-09-25",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 301: DEH 2022-09-22 and Sweeney Todd 2023-05-16 removed as non-attended purchases; Sarah Ford confirmed for The Notebook 2024-03-17; visual palette refreshed.",
+    "lastUpdatedNote": "Build 302: implemented released held queue through August 2017 + historical ticket corrections; added & Juliet 2026-09-24 Fan Night attendance/cast/program guardrail; verified September queue items already present.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -33458,11 +33458,15 @@
     },
     "3734": {
       "id": 3734,
-      "name": "Gencel Barista",
-      "sortName": "Gencel Barista",
+      "name": "Geocel Batista",
+      "sortName": "Geocel Batista",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Gencel Barista"
+      ],
+      "displayName": "Geocel Batista"
     },
     "3735": {
       "id": 3735,
@@ -34102,11 +34106,15 @@
     },
     "3820": {
       "id": 3820,
-      "name": "Kaylynn Creigton",
-      "sortName": "Kaylynn Creigton",
+      "name": "Kaylynn Creighton",
+      "sortName": "Kaylynn Creighton",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Kaylynn Creigton"
+      ],
+      "displayName": "Kaylynn Creighton"
     },
     "3821": {
       "id": 3821,
@@ -34150,11 +34158,15 @@
     },
     "3827": {
       "id": 3827,
-      "name": "Victoria Huston-Elm",
-      "sortName": "Victoria Huston-Elm",
+      "name": "Victoria Huston-Elem",
+      "sortName": "Victoria Huston-Elem",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Victoria Huston-Elm"
+      ],
+      "displayName": "Victoria Huston-Elem"
     },
     "3828": {
       "id": 3828,
@@ -34231,11 +34243,15 @@
     },
     "3837": {
       "id": 3837,
-      "name": "Dwelvan Davis",
-      "sortName": "Dwelvan Davis",
+      "name": "Dwelvan David",
+      "sortName": "Dwelvan David",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Dwelvan Davis"
+      ],
+      "displayName": "Dwelvan David"
     },
     "3838": {
       "id": 3838,
@@ -34633,11 +34649,15 @@
     },
     "3892": {
       "id": 3892,
-      "name": "Morgan Sott",
-      "sortName": "Morgan Sott",
+      "name": "Morgan Scott",
+      "sortName": "Morgan Scott",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Morgan Sott"
+      ],
+      "displayName": "Morgan Scott"
     },
     "3893": {
       "id": 3893,
@@ -34815,11 +34835,15 @@
     },
     "3917": {
       "id": 3917,
-      "name": "Michael Kevin Darnell",
-      "sortName": "Michael Kevin Darnell",
+      "name": "Michael Kevin Darnall",
+      "sortName": "Michael Kevin Darnall",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Michael Kevin Darnell"
+      ],
+      "displayName": "Michael Kevin Darnall"
     },
     "3918": {
       "id": 3918,
@@ -120224,16 +120248,17 @@
     },
     "14274": {
       "id": 14274,
-      "name": "Frank Cervarich",
-      "sortName": "Frank Cervarich",
+      "name": "Frank Cevarich",
+      "sortName": "Frank Cevarich",
       "kinds": [
         "creative",
         "performer",
         "production"
       ],
-      "displayName": "Frank Cervarich",
+      "displayName": "Frank Cevarich",
       "aliases": [
-        "Frank Cevarich"
+        "Frank Cevarich",
+        "Frank Cervarich"
       ]
     },
     "14275": {
@@ -120246,11 +120271,15 @@
     },
     "14276": {
       "id": 14276,
-      "name": "Sadie Leigh",
-      "sortName": "Sadie Leigh",
+      "name": "Sadie Leigh Rothman",
+      "sortName": "Sadie Leigh Rothman",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Sadie Leigh"
+      ],
+      "displayName": "Sadie Leigh Rothman"
     },
     "14277": {
       "id": 14277,
@@ -120262,19 +120291,27 @@
     },
     "14278": {
       "id": 14278,
-      "name": "Matt Sparacino",
-      "sortName": "Matt Sparacino",
+      "name": "Matthew Sparacino",
+      "sortName": "Matthew Sparacino",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Matt Sparacino"
+      ],
+      "displayName": "Matthew Sparacino"
     },
     "14279": {
       "id": 14279,
-      "name": "Matt Strote",
-      "sortName": "Matt Strote",
+      "name": "Matthew Strote",
+      "sortName": "Matthew Strote",
       "kinds": [
         "performer"
-      ]
+      ],
+      "aliases": [
+        "Matt Strote"
+      ],
+      "displayName": "Matthew Strote"
     },
     "14280": {
       "id": 14280,
@@ -177756,6 +177793,30 @@
       "kinds": [
         "performer"
       ]
+    },
+    "20935": {
+      "id": 20935,
+      "name": "Spencer Sutherland",
+      "sortName": "Spencer Sutherland",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20936": {
+      "id": 20936,
+      "name": "Anthony Gargiula",
+      "sortName": "Anthony Gargiula",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20937": {
+      "id": 20937,
+      "name": "Kenzie Ziegler",
+      "sortName": "Kenzie Ziegler",
+      "kinds": [
+        "performer"
+      ]
     }
   },
   "shows": {
@@ -180819,6 +180880,31 @@
       "id": 198,
       "name": "La MaMa Shares",
       "city": "New York, NY"
+    },
+    "199": {
+      "id": 199,
+      "name": "Mead Theatre Lab at Flashpoint",
+      "city": "Washington, DC"
+    },
+    "200": {
+      "id": 200,
+      "name": "Atlas Performing Arts Center · Sprenger Theatre",
+      "city": "Washington, DC"
+    },
+    "201": {
+      "id": 201,
+      "name": "Kreeger Theater",
+      "city": "Washington, DC"
+    },
+    "202": {
+      "id": 202,
+      "name": "Aaron & Cecile Goldman Theater · Edlavitch DCJCC",
+      "city": "Washington, DC"
+    },
+    "203": {
+      "id": 203,
+      "name": "Ainslie Arts Center",
+      "city": "Washington, DC"
     }
   },
   "roles": {
@@ -188358,7 +188444,7 @@
     "1710": {
       "id": 1710,
       "showId": 147,
-      "name": "Dubois / Basque"
+      "name": "DuBois / Basque"
     },
     "1711": {
       "id": 1711,
@@ -188428,7 +188514,7 @@
     "1724": {
       "id": 1724,
       "showId": 149,
-      "name": "Max Detweiller"
+      "name": "Max Detweiler"
     },
     "1725": {
       "id": 1725,
@@ -188438,7 +188524,7 @@
     "1726": {
       "id": 1726,
       "showId": 149,
-      "name": "Liesel Von Trapp"
+      "name": "Liesl von Trapp"
     },
     "1727": {
       "id": 1727,
@@ -188478,7 +188564,7 @@
     "1734": {
       "id": 1734,
       "showId": 149,
-      "name": "Sister Burke"
+      "name": "Sister Berthe"
     },
     "1735": {
       "id": 1735,
@@ -188498,7 +188584,7 @@
     "1738": {
       "id": 1738,
       "showId": 149,
-      "name": "Frau Schmdit"
+      "name": "Frau Schmidt"
     },
     "1739": {
       "id": 1739,
@@ -188518,12 +188604,12 @@
     "1742": {
       "id": 1742,
       "showId": 149,
-      "name": "Barroness Eberfeld"
+      "name": "Baroness Elberfeld"
     },
     "1743": {
       "id": 1743,
       "showId": 149,
-      "name": "admiral von schreiber"
+      "name": "Admiral von Schreiber"
     },
     "1745": {
       "id": 1745,
@@ -188668,7 +188754,7 @@
     "1775": {
       "id": 1775,
       "showId": 154,
-      "name": "albert"
+      "name": "Albert"
     },
     "1776": {
       "id": 1776,
@@ -188798,7 +188884,7 @@
     "1805": {
       "id": 1805,
       "showId": 157,
-      "name": "Eric, The Red"
+      "name": "Eric, the Red"
     },
     "1806": {
       "id": 1806,
@@ -210349,6 +210435,66 @@
       "id": 6555,
       "showId": 111,
       "name": "Diane & others"
+    },
+    "6556": {
+      "id": 6556,
+      "showId": 144,
+      "name": "Aphra Behn"
+    },
+    "6557": {
+      "id": 6557,
+      "showId": 144,
+      "name": "Nell Gwynne / Maria / Lady Davenant"
+    },
+    "6558": {
+      "id": 6558,
+      "showId": 144,
+      "name": "Jailor / King Charles II / William Scott"
+    },
+    "6559": {
+      "id": 6559,
+      "showId": 489,
+      "name": "Live Band / Performance Personnel"
+    },
+    "6560": {
+      "id": 6560,
+      "showId": 148,
+      "name": "Caiaphas"
+    },
+    "6561": {
+      "id": 6561,
+      "showId": 148,
+      "name": "Priest / Ensemble"
+    },
+    "6562": {
+      "id": 6562,
+      "showId": 149,
+      "name": "Baroness Elberfeld"
+    },
+    "6563": {
+      "id": 6563,
+      "showId": 154,
+      "name": "Mr. Henshaw / Ensemble"
+    },
+    "6564": {
+      "id": 6564,
+      "showId": 154,
+      "name": "Lord Cannan"
+    },
+    "6565": {
+      "id": 6565,
+      "showId": 149,
+      "name": "Sister Berthe / Ensemble"
+    },
+    "6566": {
+      "id": 6566,
+      "showId": 85,
+      "name": "Angel / George / Ensemble"
+    },
+    "6567": {
+      "id": 6567,
+      "showId": 156,
+      "name": "Sheriff Schmid"
     }
   },
   "performances": {
@@ -210371,7 +210517,11 @@
         "programUpdateVersion": "v4.24.00",
         "intermission": "One 15-minute intermission"
       },
-      "sourceRef": 27
+      "sourceRef": 27,
+      "ticketPrice": 89,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office",
+      "ticketSource": "Box Office"
     },
     "2": {
       "id": 2,
@@ -210386,7 +210536,11 @@
         "programUpdateVersion": "v4.24.00",
         "intermission": "One 15-minute intermission"
       },
-      "sourceRef": 28
+      "sourceRef": 28,
+      "ticketPrice": 80,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office",
+      "ticketSource": "Box Office"
     },
     "3": {
       "id": 3,
@@ -210399,9 +210553,14 @@
       "programArchiveText": "HAIRSPRAY — April 18, 2008 National Tour / Warner Theatre program snapshot. Program pages supplied by Isaac. NETworks Presentations, LLC presents Hairspray with book by Mark O’Donnell and Thomas Meehan, music by Marc Shaiman, lyrics by Scott Wittman and Marc Shaiman. Program snapshot lists David Rockwell scenery, William Ivey Long costumes, Paul Miller tour lighting based on Kenneth Posner's Broadway design, Shannon Slaton sound, Paul Huntley wigs/hair, GCP Casting / Bob Cline Casting, Harold Wheeler orchestrations, Lon Hoyt music supervision, John Mezzio music coordinator, Ross Scott Rawlings musical director/conductor, Gregory Vander Ploeg / Gentry & Associates general management, Justin Reiter production manager, Seth F. Barker production stage manager, Susan L. Brumley company manager, Seth Wenig executive producer, Danny James Austin choreography recreated, Jerry Mitchell choreography, Matt Lenz direction, Jack O’Brien original direction. New-cast insert notes Link Larkin is now Taylor Frey; Velma Von Tussle is now Jacqueline Grabois; Amber Von Tussle is now Katie Donohue; Lou Ann is now Lindsey Clayton; Brad is now Zach Trimmer; Sketch is now Kit Treece; Female Swing is now Stephanie Feigen. Orchestra: Ross Scott Rawlings musical director/keyboards; Joe Ryan Joseph associate musical director/keyboards; Chad Stearns keyboards; Brian Levels and Michael Flanagan reeds; Michael Karcher guitar; Sean Thomas McCarthy trombone; Jeff Katz trumpet; Kris Rogers bass; Greg Gascon percussion; Jamie Podojil drums.",
       "performanceMetadata": {
         "programUpdateVersion": "v4.24.00",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "ticketApproximatePrice": 65.0,
+        "ticketPriceStatus": "approximate",
+        "ticketNote": "Approximately $65 per ticket from Isaac recollection; not receipt-backed exact.",
+        "seatArea": "Mezzanine"
       },
-      "sourceRef": 29
+      "sourceRef": 29,
+      "ticketCurrency": "USD"
     },
     "4": {
       "id": 4,
@@ -210424,7 +210583,11 @@
         "side": "Right",
         "display": "Balcony Right"
       },
-      "sourceRef": 30
+      "sourceRef": 30,
+      "ticketPrice": 89,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office",
+      "ticketSource": "Box Office"
     },
     "5": {
       "id": 5,
@@ -210450,7 +210613,12 @@
       },
       "ticketPrice": 25,
       "ticketCurrency": "USD",
-      "sourceRef": 31
+      "sourceRef": 31,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "tags": [
+        "Lottery Win"
+      ]
     },
     "6": {
       "id": 6,
@@ -210473,7 +210641,10 @@
       "experienceMarkers": [
         "House Right Front Row"
       ],
-      "tags": "House Right Front Row",
+      "tags": [
+        "House Right Front Row",
+        "Lottery Win"
+      ],
       "programArchiveText": "WICKED — April 2009 National Tour / Birmingham Concert Hall program snapshot. Program pages supplied by Isaac. Cast roster snapshot led by Marcie Dodd as Elphaba and Heléne Yorke as Glinda. Standby for Elphaba: Carrie Manolakos. Understudy roster includes Anne Brummel and Natalie Weiss for Elphaba; Michelle London and Libby Servais for Glinda; Charles Hagerty and Daniel Torres for Fiyero; Peter C. Ermides and Don Richard for The Wizard/Dr. Dillamond; Jenn Furman and Erin Wilson for Madame Morrible; Zach Hanna and Kevin Samual Yee for Boq; Jacqui Graziano and Michelle London for Nessarose; Jeremy Duvall, Ryan Patrick Farrell and Nicky Venditti for Chistery; Peter C. Ermides and Daniel Torres for Witch's Father/Ozian Official. Swings: Peter C. Ermides, Jacqui Graziano, Shylo M. Martinez, Nicky Venditti. Dance Captains/Swings: Alicia L. Albright and Jeremy Duvall. Traveling Orchestra: Adam Souza conductor; Flint Hawes associate conductor/keyboard 2; Phillip Kirchman keyboard 1; Christopher Chung keyboard 3; David Boguslaw guitars; Romano Di Nillo drums. Program note says nine local Birmingham musicians played all performances, but they are not named in the supplied orchestra page. Staff pages include 321 Theatrical Management, Telsey + Company, Jake Bell Production Services, Phillip Aleman/Justin O’Neill, Jason Pelusio, Ken Silverman, Marc Borsak, Gregg Kirsopp, Alyssa Stone, Eric Cornell, Paul Dobie, Dominick Amendum, Patrick McCollum, Michael Cole, Nick Francone, Francis Keeping, Amanda Whidden, J. Jared Janas, Karen Spahn, Warren Flynn, Joel Shier, Kai Harada, Catherine Morris, Demfis Fyssicopoulos, Shawn Boyle, Keri Thibodeau, Gareth Smith, Aaron Wait and ZFX Flying Illusions.",
       "performanceMetadata": {
         "programUpdateVersion": "v4.24.00",
@@ -210482,7 +210653,11 @@
         "productionKey": "wicked-munchkinland-tour",
         "tour": "Munchkinland Tour"
       },
-      "sourceRef": 33
+      "sourceRef": 33,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD"
     },
     "8": {
       "id": 8,
@@ -210498,9 +210673,13 @@
         "intermission": "One 15-minute intermission",
         "productionLabel": "Munchkinland Tour",
         "productionKey": "wicked-munchkinland-tour",
-        "tour": "Munchkinland Tour"
+        "tour": "Munchkinland Tour",
+        "ticketApproximatePrice": 85.0,
+        "ticketPriceStatus": "approximate",
+        "ticketNote": "Approximately $85 per ticket from Isaac recollection; not receipt-backed exact."
       },
-      "sourceRef": 33
+      "sourceRef": 33,
+      "ticketCurrency": "USD"
     },
     "9": {
       "id": 9,
@@ -210518,7 +210697,14 @@
         "productionKey": "wicked-munchkinland-tour",
         "tour": "Munchkinland Tour"
       },
-      "sourceRef": 34
+      "sourceRef": 34,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Lottery Win"
+      ]
     },
     "10": {
       "id": 10,
@@ -210534,9 +210720,13 @@
         "intermission": "One 15-minute intermission",
         "productionLabel": "Munchkinland Tour",
         "productionKey": "wicked-munchkinland-tour",
-        "tour": "Munchkinland Tour"
+        "tour": "Munchkinland Tour",
+        "ticketApproximatePrice": 65.0,
+        "ticketPriceStatus": "approximate",
+        "ticketNote": "Approximately $65 per ticket from Isaac recollection; not receipt-backed exact."
       },
-      "sourceRef": 33
+      "sourceRef": 33,
+      "ticketCurrency": "USD"
     },
     "11": {
       "id": 11,
@@ -210549,7 +210739,10 @@
       "experienceMarkers": [
         "House Right Front Row"
       ],
-      "tags": "House Right Front Row",
+      "tags": [
+        "House Right Front Row",
+        "Lottery Win"
+      ],
       "programArchiveText": "WICKED — April 2009 National Tour / Birmingham Concert Hall program snapshot. Program pages supplied by Isaac. Cast roster snapshot led by Marcie Dodd as Elphaba and Heléne Yorke as Glinda. Standby for Elphaba: Carrie Manolakos. Understudy roster includes Anne Brummel and Natalie Weiss for Elphaba; Michelle London and Libby Servais for Glinda; Charles Hagerty and Daniel Torres for Fiyero; Peter C. Ermides and Don Richard for The Wizard/Dr. Dillamond; Jenn Furman and Erin Wilson for Madame Morrible; Zach Hanna and Kevin Samual Yee for Boq; Jacqui Graziano and Michelle London for Nessarose; Jeremy Duvall, Ryan Patrick Farrell and Nicky Venditti for Chistery; Peter C. Ermides and Daniel Torres for Witch's Father/Ozian Official. Swings: Peter C. Ermides, Jacqui Graziano, Shylo M. Martinez, Nicky Venditti. Dance Captains/Swings: Alicia L. Albright and Jeremy Duvall. Traveling Orchestra: Adam Souza conductor; Flint Hawes associate conductor/keyboard 2; Phillip Kirchman keyboard 1; Christopher Chung keyboard 3; David Boguslaw guitars; Romano Di Nillo drums. Program note says nine local Birmingham musicians played all performances, but they are not named in the supplied orchestra page. Staff pages include 321 Theatrical Management, Telsey + Company, Jake Bell Production Services, Phillip Aleman/Justin O’Neill, Jason Pelusio, Ken Silverman, Marc Borsak, Gregg Kirsopp, Alyssa Stone, Eric Cornell, Paul Dobie, Dominick Amendum, Patrick McCollum, Michael Cole, Nick Francone, Francis Keeping, Amanda Whidden, J. Jared Janas, Karen Spahn, Warren Flynn, Joel Shier, Kai Harada, Catherine Morris, Demfis Fyssicopoulos, Shawn Boyle, Keri Thibodeau, Gareth Smith, Aaron Wait and ZFX Flying Illusions.",
       "performanceMetadata": {
         "programUpdateVersion": "v4.24.00",
@@ -210558,7 +210751,11 @@
         "productionKey": "wicked-munchkinland-tour",
         "tour": "Munchkinland Tour"
       },
-      "sourceRef": 33
+      "sourceRef": 33,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD"
     },
     "12": {
       "id": 12,
@@ -214888,7 +215085,7 @@
       "ticketPrice": 20,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "$18 youth ticket + $2 restoration fee = $20 total; receipt supplied by Isaac.",
+        "ticketNote": "Receipt-backed correction: $18 youth ticket + $2 restoration fee = $20 total.",
         "ticketQuantity": 1,
         "orderTotal": 20,
         "baseTicketPrice": 18,
@@ -214934,9 +215131,9 @@
       "ticketPrice": 13,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "Industry Night: 3 tickets at $13 paid each; $39 order total.",
+        "ticketNote": "Industry Night order: three tickets at $13 paid each, $39 total.",
         "ticketQuantity": 3,
-        "orderTotal": 39.0,
+        "orderTotal": 39,
         "seatOrder": {
           "row": "B",
           "seats": [
@@ -216512,7 +216709,20 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 312
+      "sourceRef": 312,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "performanceMetadata": {
+        "companions": [
+          "Carolyn Hoehner"
+        ]
+      },
+      "attendedWith": "Carolyn Hoehner"
     },
     "360": {
       "id": 360,
@@ -216532,7 +216742,19 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 306
+      "sourceRef": 306,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp",
+        "Closing"
+      ],
+      "performanceMetadata": {
+        "eventStatus": "Closing Night",
+        "closingPerformance": true
+      }
     },
     "362": {
       "id": 362,
@@ -216542,7 +216764,22 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 314
+      "sourceRef": 314,
+      "tags": [
+        "Preview",
+        "Pay What You Can"
+      ],
+      "curtainTime": "8:00 PM",
+      "exactTime": "8:00 PM",
+      "performanceMetadata": {
+        "eventStatus": "Preview",
+        "ticketApproximatePrice": 20.0,
+        "ticketPriceStatus": "approximate",
+        "ticketNote": "Pay What You Can; approximately $20 from Isaac recollection, not receipt-backed exact."
+      },
+      "ticketType": "Pay What You Can",
+      "ticketSource": "Pay What You Can",
+      "ticketCurrency": "USD"
     },
     "363": {
       "id": 363,
@@ -216552,7 +216789,22 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 315
+      "sourceRef": 315,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp",
+        "First Preview"
+      ],
+      "performanceMetadata": {
+        "companions": [
+          "Brian Jon Moran"
+        ],
+        "eventStatus": "First Preview"
+      },
+      "attendedWith": "Brian Jon Moran"
     },
     "364": {
       "id": 364,
@@ -216562,7 +216814,14 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 316
+      "sourceRef": 316,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ]
     },
     "365": {
       "id": 365,
@@ -216581,17 +216840,30 @@
       "ticketSource": "MyTix",
       "ticketPrice": 35,
       "ticketCurrency": "USD",
-      "sourceRef": 317
+      "sourceRef": 317,
+      "performanceMetadata": {
+        "companions": [
+          "Alvin Ford"
+        ]
+      },
+      "attendedWith": "Alvin Ford"
     },
     "366": {
       "id": 366,
       "showId": 150,
       "date": "2017-06-23",
-      "venueId": 69,
+      "venueId": 200,
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 318
+      "sourceRef": 318,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ]
     },
     "367": {
       "id": 367,
@@ -216601,7 +216873,14 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 319
+      "sourceRef": 319,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ]
     },
     "368": {
       "id": 368,
@@ -216611,7 +216890,14 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": "v8.1.2 applied My Fair Lady Olney role-track corrections, cover pools, creative/staff, and orchestra from supplied program pages. Fixed Todd Scofield typo and Mrs. Pearce spelling.",
-      "sourceRef": 320
+      "sourceRef": 320,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ]
     },
     "369": {
       "id": 369,
@@ -216621,7 +216907,14 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 321
+      "sourceRef": 321,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ]
     },
     "370": {
       "id": 370,
@@ -216631,7 +216924,20 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": "Conducted by Ryan Cantwell (verified).",
-      "sourceRef": 322
+      "sourceRef": 322,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Lottery Win"
+      ],
+      "performanceMetadata": {
+        "companions": [
+          "Brian Jon Moran"
+        ]
+      },
+      "attendedWith": "Brian Jon Moran"
     },
     "371": {
       "id": 371,
@@ -216641,17 +216947,35 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": "Attended with Sam Abney; second time seeing this production in 2017.",
-      "sourceRef": 323
+      "sourceRef": 323,
+      "ticketType": "MyTix",
+      "ticketSource": "MyTix",
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "companions": [
+          "Sam Abney"
+        ]
+      },
+      "attendedWith": "Sam Abney"
     },
     "372": {
       "id": 372,
       "showId": 44,
       "date": "2017-07-13",
-      "venueId": 40,
+      "venueId": 201,
       "type": "Regional",
       "time": "Evening",
       "notes": "Attended with Joe Graf.",
-      "sourceRef": 324
+      "sourceRef": 324,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "performanceMetadata": {}
     },
     "373": {
       "id": 373,
@@ -216661,13 +216985,16 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": "Conducted by Gerald Steichen (verified).",
-      "sourceRef": 325
+      "sourceRef": 325,
+      "ticketType": "MyTix",
+      "ticketSource": "MyTix",
+      "ticketCurrency": "USD"
     },
     "374": {
       "id": 374,
       "showId": 155,
       "date": "2017-07-27",
-      "venueId": 46,
+      "venueId": 202,
       "type": "Regional",
       "time": "Evening",
       "notes": "Attended with Brian Moran.",
@@ -216676,20 +217003,44 @@
         "attendanceSource": "Isaac’s direct report",
         "attendanceSourceRef": 1340,
         "companions": [
-          "Brian Moran"
+          "Brian Jon Moran"
         ]
       },
-      "sourceRef": 326
+      "sourceRef": 326,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "attendedWith": "Brian Jon Moran"
     },
     "375": {
       "id": 375,
       "showId": 156,
       "date": "2017-07-31",
-      "venueId": 67,
+      "venueId": 203,
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 327
+      "sourceRef": 327,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp",
+        "Industry Night"
+      ],
+      "performanceMetadata": {
+        "companions": [
+          "Holly Hassett"
+        ],
+        "eventStatus": "Industry Night",
+        "producingCompany": "Monumental Theatre Company"
+      },
+      "attendedWith": "Holly Hassett"
     },
     "376": {
       "id": 376,
@@ -216704,8 +217055,19 @@
       "performanceMetadata": {
         "productionLabel": "Munchkinland Tour",
         "productionKey": "wicked-munchkinland-tour",
-        "tour": "Munchkinland Tour"
-      }
+        "tour": "Munchkinland Tour",
+        "companions": [
+          "Brian Jon Moran"
+        ]
+      },
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Lottery Win"
+      ],
+      "attendedWith": "Brian Jon Moran"
     },
     "377": {
       "id": 377,
@@ -216720,7 +217082,14 @@
         "productionLabel": "Munchkinland Tour",
         "productionKey": "wicked-munchkinland-tour",
         "tour": "Munchkinland Tour"
-      }
+      },
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Lottery Win"
+      ]
     },
     "378": {
       "id": 378,
@@ -216730,7 +217099,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 330
+      "sourceRef": 330,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "venueSpace": "Stage 4",
+      "performanceMetadata": {
+        "venueSpace": "Stage 4"
+      }
     },
     "379": {
       "id": 379,
@@ -216740,7 +217120,20 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 331
+      "sourceRef": 331,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "performanceMetadata": {
+        "companions": [
+          "Brian Jon Moran"
+        ]
+      },
+      "attendedWith": "Brian Jon Moran"
     },
     "380": {
       "id": 380,
@@ -227054,15 +227447,20 @@
       "id": 1082,
       "showId": 489,
       "date": "2017-05-06",
-      "venueId": 184,
+      "venueId": 199,
       "type": "Regional",
       "time": "Evening",
       "notes": "Date tentative from user memory: May 6, 2017 or sometime April/May 2017. Program title: .d0t:: a RotoPlastic Ballet.",
       "performanceMetadata": {
-        "dateConfidence": "Tentative",
-        "inspiredBy": "the visual world of Fortunato Depero"
+        "inspiredBy": "the visual world of Fortunato Depero",
+        "dateConfidence": "Confirmed",
+        "eventStatus": "Closing Night",
+        "closingPerformance": true
       },
-      "sourceRef": 968
+      "sourceRef": 968,
+      "tags": [
+        "Closing"
+      ]
     },
     "1083": {
       "id": 1083,
@@ -230136,8 +230534,23 @@
       "performanceMetadata": {
         "specialEventSubtype": "Gala / Benefit",
         "benefitFor": "Arena Stage",
-        "award": "Beth Newburger Schwartz Award presented to Arlene R. Kogod"
-      }
+        "award": "Beth Newburger Schwartz Award presented to Arlene R. Kogod",
+        "companions": [
+          "Brian Jon Moran"
+        ],
+        "startTime": "8:30 PM",
+        "eventStatus": "Gala / Benefit"
+      },
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp",
+        "Gala / Benefit"
+      ],
+      "attendedWith": "Brian Jon Moran",
+      "curtainTime": "8:30 PM"
     },
     "1168": {
       "id": 1168,
@@ -230819,6 +231232,39 @@
         "sourceRef": 1469
       },
       "sourceRef": 1469
+    },
+    "1185": {
+      "id": 1185,
+      "showId": 283,
+      "date": "2026-09-24",
+      "venueId": 18,
+      "type": "Broadway",
+      "time": "Evening",
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "M",
+        "seat": "2",
+        "display": "Orchestra M 2"
+      },
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Comp"
+      ],
+      "notes": "Thursday evening performance. Fan Night. Orchestra M 2; comp. Isaac-supplied ATP/performance-specific coverage governs; static printed Playbill cast page is archived as a contemporaneous program snapshot but does not override performance-specific coverage.",
+      "performanceMetadata": {
+        "productionLabel": "Broadway",
+        "productionKey": "juliet-broadway",
+        "programCaptured": "2026-09-24",
+        "attendanceSource": "Isaac direct report / held queue release",
+        "attendanceSourceRef": 1478,
+        "actualCastSource": "Isaac-supplied performance-specific coverage / ATP board; printed Playbill pages archived as program snapshot.",
+        "ticketNote": "Orchestra M 2; Comp.",
+        "specialEvent": "Fan Night",
+        "programArchiveNote": "Title/creative page, printed cast + understudy page, musical numbers/musicians page, and production/company staff page archived as contemporaneous snapshot. Static printed cast does not override ATP-board or Isaac-supplied coverage."
+      }
     }
   },
   "organizations": {

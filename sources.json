@@ -6006,6 +6006,43 @@
         "Dear Evan Hansen 2022-09-22 regular-company cast is a production-roster baseline, not claimed as performance-specific ATP evidence.",
         "Sweeney Todd 2023-05-16 is kept separate from the existing 2023-05-24 attendance."
       ]
+    },
+    {
+      "title": "Cuebook held queue after Build 301 through August 2017 + history + & Juliet",
+      "suppliedBy": "Isaac Evans approved implementation release",
+      "dateCaptured": "2026-09-25",
+      "scope": [
+        "May–August 2017 historical audit corrections",
+        "Historical ticket-price corrections",
+        "& Juliet — 2026-09-24 evening attendance"
+      ],
+      "directConfirmations": [
+        "User released the previously held queue for implementation on 2026-09-25.",
+        "Queue file baseline was Build 301; user’s current instruction superseded the standing HOLD line."
+      ],
+      "guardrails": [
+        "Unknown ticket amounts remained blank.",
+        "Approximate recollections are stored as approximate metadata, not exact top-level ticketPrice unless otherwise already receipt-backed.",
+        "Static printed cast pages do not override Isaac/ATP performance-specific coverage."
+      ]
+    },
+    {
+      "title": "Recovered September queue from previous chat — verification/no-op pass",
+      "suppliedBy": "Isaac Evans + prior approved queue context",
+      "dateCaptured": "2026-09-25",
+      "scope": [
+        "September 2016 audit verification",
+        "The Magic School Bus Live: Lost in the Solar System — 2026-09-03 matinee",
+        "Titanique — 2026-09-20 evening"
+      ],
+      "directConfirmations": [
+        "September 2016 queue items were verified against Build 301 and retained where already implemented.",
+        "Magic School Bus and Titanique September attendances were found already present in Build 301."
+      ],
+      "guardrails": [
+        "No duplicate Magic School Bus or Titanique attendance was created.",
+        "Waitress 2016-09-01 approximate TKTS amount remains approximate metadata, not exact ticketPrice."
+      ]
     }
   ]
 }
