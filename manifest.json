@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
-  "build": "json-b303",
-  "version": "v13.93.00",
-  "generated": "2026-09-25T17:18:00+00:00",
+  "build": "json-b305",
+  "version": "v13.95.00",
+  "generated": "2026-09-25T18:55:00+00:00",
   "storage": "split-json",
   "files": [
     {
@@ -22,8 +22,8 @@
         "entitySystem",
         "showGridTracks"
       ],
-      "bytes": 5209870,
-      "sha256": "9678a993537eb74118cc107aec58f9209356eb42fbb29ed7de46b3dc39d20d0e"
+      "bytes": 5217943,
+      "sha256": "73e33fff565e3025d6e3e6f23c22bfa583d3095db49e096959b2454f0bcac97e"
     },
     {
       "path": "sources.json",
@@ -71,8 +71,8 @@
         "presentingOrganizations",
         "companionLinks"
       ],
-      "bytes": 3214013,
-      "sha256": "d4590cbeec913db8c0b550b136160c9aa2738472b7a9f1cab66e692e8b635843"
+      "bytes": 3214259,
+      "sha256": "c6554ec9a6ec79edab827dbfe6e53b96d0d5bffb6e80817af29ade08b1ab3b5a"
     },
     {
       "path": "production-archive.json",
@@ -92,13 +92,19 @@
       ],
       "bytes": 3820428,
       "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B305.md",
+      "type": "text/markdown",
+      "bytes": 1228,
+      "sha256": "89aa691051ec66171b6a30c471caf0c8027969780134734a56e15cb2ebcaa169"
     }
   ],
-  "totalBytes": 25722889,
+  "totalBytes": 25732436,
   "largestFileBytes": 7368968,
   "counts": {
     "performances": 1182,
-    "people": 19949,
+    "people": 19950,
     "shows": 515,
     "venues": 199,
     "roles": 5907,

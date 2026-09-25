@@ -18,13 +18,13 @@
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "json-b302",
-    "version": "v13.93.00",
-    "build": "json-b303",
+    "version": "v13.95.00",
+    "build": "json-b305",
     "buildTime": "2026-09-25T16:46:00+00:00",
     "buildDate": "2026-09-25",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
     "buildVersion": "v13.92.00",
-    "lastUpdated": "2026-09-25",
+    "lastUpdated": "2026-09-25T18:55:00+00:00",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -3725,6 +3725,12 @@
       "companionConfirmation": "The Notebook — 2024-03-17: Sarah Ford; canonical companion link already existed and display metadata was reinforced.",
       "uiChanged": true,
       "uiNote": "Freshened palette only; no navigation, layout, or feature behavior changed."
+    },
+    "auditRules": {
+      "studioArenaTicketDefault": "For future historical audit packets and open historical records, assume Studio Theatre and Arena Stage attendances are Comp unless Isaac supplies a different ticket type/price.",
+      "coverVerification": "Only add/alter on-for track owners when current database rows, supplied performance notices, program slips, or explicit external/source verification supports the pairing.",
+      "dcNationalLotteryPriceHistorical": "For the 2017 Mean Girls DC tryout at the National Theatre, use $25 lottery price when Isaac says DC lotto price.",
+      "signatureRushPriceHistorical": "Use $35 for 2016-2017 Signature Theatre rush entries unless a performance-specific receipt/source gives a different amount."
     }
   },
   "people": {
@@ -164173,7 +164179,9 @@
       "name": "Holly Longstreth",
       "sortName": "Holly Longstreth",
       "kinds": [
-        "staff"
+        "staff",
+        "companion",
+        "guest"
       ]
     },
     "19252": {
@@ -164871,7 +164879,8 @@
       "name": "Kathryn (Perry) Natale",
       "sortName": "Kathryn (Perry) Natale",
       "kinds": [
-        "companion"
+        "companion",
+        "guest"
       ]
     },
     "19337": {
@@ -177816,6 +177825,15 @@
       "sortName": "Kenzie Ziegler",
       "kinds": [
         "performer"
+      ]
+    },
+    "20938": {
+      "id": 20938,
+      "name": "Will Wermerskirchen",
+      "sortName": "Will Wermerskirchen",
+      "kinds": [
+        "companion",
+        "guest"
       ]
     }
   },
@@ -217244,7 +217262,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 341
+      "sourceRef": 341,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed October 2017 audit item 1.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "391": {
       "id": 391,
@@ -217254,7 +217280,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 342
+      "sourceRef": 342,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed October 2017 audit item 2.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "392": {
       "id": 392,
@@ -217265,7 +217299,15 @@
       "time": "Evening",
       "notes": null,
       "programArchiveText": "SKELETON CREW Studio Theatre program pages supplied by Isaac. Presented by Studio Theatre by special arrangement with Samuel French Inc.; developed at the Lark Play Development Center and the 2014 Sundance Institute Theatre Lab; winner of the 2014 Sky Cooper New American Play Prize at Marin Theatre Company; world premiere presented by Atlantic Theater Company, New York City, 2016. Studio run note: beginning Sept. 6, 2017 in the Mead Theatre. Underwritten by Steve and Linda Skalet. v10.4 corrected Lauren Halvorsen to Dramaturg and added cover roster/production staff.",
-      "sourceRef": 337
+      "sourceRef": 337,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed October 2017 audit item 3. Companion Chris Blasting removed as erroneous.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "393": {
       "id": 393,
@@ -217275,7 +217317,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 343
+      "sourceRef": 343,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed October 2017 audit item 4.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "394": {
       "id": 394,
@@ -217286,7 +217336,15 @@
       "time": "Evening",
       "notes": null,
       "programArchiveText": "SKELETON CREW Studio Theatre program pages supplied by Isaac. Presented by Studio Theatre by special arrangement with Samuel French Inc.; developed at the Lark Play Development Center and the 2014 Sundance Institute Theatre Lab; winner of the 2014 Sky Cooper New American Play Prize at Marin Theatre Company; world premiere presented by Atlantic Theater Company, New York City, 2016. Studio run note: beginning Sept. 6, 2017 in the Mead Theatre. Underwritten by Steve and Linda Skalet. v10.4 corrected Lauren Halvorsen to Dramaturg and added cover roster/production staff.",
-      "sourceRef": 344
+      "sourceRef": 344,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed October 2017 audit item 5.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "395": {
       "id": 395,
@@ -217336,18 +217394,48 @@
         "confirmationNumber": "3-53261/NY4",
         "deliveryMethod": "Standard Mail",
         "personalSeatStatus": "Not identified from two-seat order",
-        "ticketNote": "2 Mezzanine E tickets (1, 3); $131.70 all-in order total; no per-ticket face/fee split supplied."
+        "ticketNote": "Ticketmaster order 3-53261/NY4; 2 Mezzanine E tickets (1, 3); $131.70 all-in order total; no per-ticket face/fee split supplied.",
+        "auditSource": "Isaac supplied Ticketmaster order details, 2026-09-25."
       }
     },
     "397": {
       "id": 397,
       "showId": 169,
-      "date": "2017-10-23",
+      "date": "2017-10-11",
       "venueId": 54,
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 347
+      "sourceRef": 347,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketType": "Discounted Single Tickets",
+      "ticketSource": "Constellation Theatre Company",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "seatLocation": {
+        "level": "Level A",
+        "row": "D",
+        "seats": [
+          "105",
+          "106"
+        ],
+        "display": "Level A · Row D · Seats 105, 106"
+      },
+      "performanceMetadata": {
+        "ticketQuantity": 2,
+        "orderTotal": 50.0,
+        "orderItemIds": [
+          "ITEM-000115027",
+          "ITEM-000115026"
+        ],
+        "faceValuePerTicket": 55.0,
+        "feePerTicket": 5.0,
+        "discountPerTicket": 35.0,
+        "ticketNote": "Constellation Theatre Company order: 2 Level A seats, Row D 105–106, $25 each after $35 discount; $50 order total.",
+        "auditSource": "Isaac supplied Constellation Theatre Company order details, 2026-09-25.",
+        "dateCorrection": "Changed from 2017-10-23 to 2017-10-11 based on order text: Wednesday, October 11 at 7:30 PM."
+      }
     },
     "398": {
       "id": 398,
@@ -217370,9 +217458,15 @@
       "performanceMetadata": {
         "setting": "Place: Africa / Illinois. Time: The Present.",
         "intermission": "One 15-minute intermission",
-        "sourceNote": "Pre-Broadway National Theatre program pages supplied by Isaac; program cover pool is listed-only unless separately marked as actual onstage."
+        "sourceNote": "Pre-Broadway National Theatre program pages supplied by Isaac; program cover pool is listed-only unless separately marked as actual onstage.",
+        "ticketNote": "Comp; Isaac confirmed MG was a comp during October 2017 audit.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
       },
-      "sourceRef": 349
+      "sourceRef": 349,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD"
     },
     "400": {
       "id": 400,
@@ -217385,9 +217479,18 @@
       "performanceMetadata": {
         "setting": "Place: Africa / Illinois. Time: The Present.",
         "intermission": "One 15-minute intermission",
-        "sourceNote": "Pre-Broadway National Theatre program pages supplied by Isaac; program cover pool is listed-only unless separately marked as actual onstage."
+        "sourceNote": "Pre-Broadway National Theatre program pages supplied by Isaac; program cover pool is listed-only unless separately marked as actual onstage.",
+        "ticketNote": "Lottery win; DC National Theatre lottery price set to $25 per Isaac shorthand and 2017 National Theatre lottery source.",
+        "auditSource": "Isaac direct correction, 2026-09-25.",
+        "sourceNotes": [
+          "Metro Weekly / National Theatre 2017 listing: up to two lottery tickets at $25 each for Mean Girls DC tryout."
+        ]
       },
-      "sourceRef": 349
+      "sourceRef": 349,
+      "ticketType": "Lottery Win",
+      "ticketSource": "Lottery",
+      "ticketPrice": 25,
+      "ticketCurrency": "USD"
     },
     "401": {
       "id": 401,
@@ -217397,7 +217500,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 350
+      "sourceRef": 350,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "402": {
       "id": 402,
@@ -217407,7 +217518,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 348
+      "sourceRef": 348,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "403": {
       "id": 403,
@@ -217417,7 +217536,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 351
+      "sourceRef": 351,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "404": {
       "id": 404,
@@ -217427,7 +217554,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 352
+      "sourceRef": 352,
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Rush ticket; price set to $35 based on Isaac shorthand and established Cuebook Signature Theatre rush price convention.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "405": {
       "id": 405,
@@ -217437,7 +217572,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 353
+      "sourceRef": 353,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "406": {
       "id": 406,
@@ -217447,7 +217590,15 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 354
+      "sourceRef": 354,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "407": {
       "id": 407,
@@ -217457,7 +217608,16 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 348
+      "sourceRef": 348,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25.",
+        "companionNote": "Isaac confirmed 2017-11-25 matinee was with Will Wermerskirchen, Holly Longstreth, and Sabrina Clark."
+      }
     },
     "408": {
       "id": 408,
@@ -217467,7 +217627,16 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 355
+      "sourceRef": 355,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp; Isaac confirmed Annie 2017-11-26 was comp with Kathryn Perry.",
+        "auditSource": "Isaac direct correction, 2026-09-25.",
+        "companionNote": "Isaac said Kathryn Perry; linked to existing canonical companion Kathryn (Perry) Natale."
+      }
     },
     "409": {
       "id": 409,
@@ -217477,7 +217646,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 356
+      "sourceRef": 356,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "410": {
       "id": 410,
@@ -217487,7 +217664,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 357
+      "sourceRef": 357,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "ticketNote": "Comp by standing Studio Theatre/Arena Stage historical audit rule supplied by Isaac on 2026-09-25.",
+        "auditSource": "Isaac direct correction, 2026-09-25."
+      }
     },
     "411": {
       "id": 411,
