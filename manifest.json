@@ -1,39 +1,42 @@
 {
   "schemaVersion": 13,
-  "build": "json-b324",
-  "version": "v14.14.00",
-  "generated": "2026-09-26T13:48:00-04:00",
+  "build": "json-b325",
+  "version": "v14.15.00",
+  "generated": "2026-09-26T15:03:00-04:00",
   "storage": "split-json",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B324.md",
-      "bytes": 600,
-      "sha256": "2fb17831aaee34949cab069c8386c6d565a531c4d376c0ee7da917cf08c5232d"
+      "path": "Cuebook_CHANGELOG_B325.md",
+      "bytes": 343,
+      "sha256": "50b0110a4b2dfea194f94a29f6cc2df8a90cbcf9c5b6b906095eba4086465b0a"
     },
     {
       "path": "cast.json",
       "bytes": 7377199,
-      "sha256": "e3c7f8eb883d3fbe1204020cacfa8b02150f8e41bfe666de6ea038b1d0cdc919"
+      "sha256": "e3c7f8eb883d3fbe1204020cacfa8b02150f8e41bfe666de6ea038b1d0cdc919",
+      "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38860,
-      "sha256": "d691059eee674fc5ee2dca5988109e563ebc300476753f5ef963906cd66049eb"
+      "sha256": "2bfdf7abe93013e309d8e46b5cb5cc9161c4679ac0a2a2c24347ffcba1a52f07"
     },
     {
       "path": "companions.html",
       "bytes": 19972,
-      "sha256": "805eddd9d653b34d037f61ffb5bedaa4f62970e4d41f853e017f94d8043a8d12"
+      "sha256": "a61573e3117b70da9038e558c2df976a5b921d3fe3a08ef64300df1f108fc825"
     },
     {
       "path": "core.json",
-      "bytes": 5306250,
-      "sha256": "3f092f4ad8d7810d9e4ea63a9af562b8d0e6ca34fe3306b4093cfbe720657e25"
+      "bytes": 3415558,
+      "sha256": "d7e853e1097f7ade51f423f4b4b7e78cff4372c17f7886a5845684e28fe9bc74",
+      "kind": "data"
     },
     {
       "path": "credits.json",
       "bytes": 3215079,
-      "sha256": "567e84e51dd1120277b5afaa711efb91a6c19fb2dae726957d70d64e7635a7e4"
+      "sha256": "567e84e51dd1120277b5afaa711efb91a6c19fb2dae726957d70d64e7635a7e4",
+      "kind": "data"
     },
     {
       "path": "cuebook-logo.png",
@@ -43,12 +46,12 @@
     {
       "path": "data-loader.js",
       "bytes": 2873,
-      "sha256": "697745228d006be320e3f95b5cdd8203314eb7dc9482c4efc572f9d66cb35c9b"
+      "sha256": "000bb7284c6686568d21ae6c5af61360ac83ddeefedb5dfdf20b69f6a1c81f25"
     },
     {
       "path": "index.html",
-      "bytes": 367080,
-      "sha256": "fed5fd756129d9ece6cf6610d838784a42eec2696643dc21e8b45f0a6544d55b"
+      "bytes": 371317,
+      "sha256": "33272e55d542f56dd3709e3093503fd2606c48e1fe3e2cdbaf6caea773116d74"
     },
     {
       "path": "loader-test.html",
@@ -58,45 +61,49 @@
     {
       "path": "logo-manager.html",
       "bytes": 16019,
-      "sha256": "a1c2aab2650ca4a3e9691051428f43ae56cba804e9a6d8d0b415e4d6f170b757"
+      "sha256": "26d1984049ad82fb44e4cb88591871ed05c949bea45e3fc8719d7abab4c238ae"
     },
     {
       "path": "money.html",
       "bytes": 16991,
-      "sha256": "6a953e4e3e29538cc9b04fa4aa4a76c269b18c5656b216550632c2e31d1865c2"
+      "sha256": "a613d3a43ff51fbeeb1e01e6d00a520258f5e2c660a1b3a9e8214c6ea877147d"
     },
     {
       "path": "production-archive.json",
       "bytes": 3820428,
-      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29"
+      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29",
+      "kind": "data"
     },
     {
       "path": "program-credits.json",
       "bytes": 5405676,
-      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d",
+      "kind": "data"
     },
     {
       "path": "pruned-records-b284.json",
       "bytes": 22616,
-      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c",
+      "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37796,
-      "sha256": "344e2ff28db4e6a915a2d92613cbbb921cd7dd5e91046f3814e2b62bae37199d"
+      "sha256": "c8897b30a09d67635b2ed2f8d30d490d3b1d2af4903454e4b090f3f518e2d71f"
     },
     {
       "path": "sources.json",
       "bytes": 703934,
-      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16"
+      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16",
+      "kind": "sources"
     },
     {
       "path": "souvenir.html",
       "bytes": 56858,
-      "sha256": "203498256718f4071c5a09b12bc4eb34f26e05eef40d7f94c67fea7bfc3c4177"
+      "sha256": "2225694b8a657a45edb356af9c14e9a3dbe7de9f8125d1b709c721fb53bdb0a5"
     }
   ],
-  "totalBytes": 27475323,
+  "totalBytes": 25588611,
   "largestFileBytes": 7377199,
   "counts": {
     "performances": 1186,
@@ -109,8 +116,8 @@
     "specialAppearances": 0,
     "companionLinks": 630
   },
-  "generatedAt": "2026-09-26T13:48:00-04:00",
-  "updatedAt": "2026-09-26T13:48:00-04:00",
-  "description": "Cuebook Build 324: March 2019 ticket corrections and clean changelog packaging.",
+  "generatedAt": "2026-09-26T15:03:00-04:00",
+  "updatedAt": "2026-09-26T15:03:00-04:00",
+  "description": "Cuebook Build 325: homepage/chart refresh and performance-page person-name display fix.",
   "fileCount": 18
 }
