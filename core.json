@@ -1,6 +1,6 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_321",
+    "sourceFile": "Cuebook_Build_323",
     "generated": "2026-09-25T18:05:00-04:00",
     "rowCount": 1182,
     "performanceCount": 1182,
@@ -12,19 +12,19 @@
     "creativeCreditCount": 17576,
     "notesCount": 528,
     "updated": "2026-09-25",
-    "notes": "Build 322 fixes mobile cast-table viewport overflow, applies January 2019 ticket corrections, and pulls in applicable TodayTix receipt data.",
-    "updatedBy": "OpenAI / Isaac January 2019 corrections, TodayTix sweep, mobile UI fix",
-    "updatedAt": "2026-09-25T19:49:45-04:00",
+    "notes": "Build 324 applies March 2019 ticket corrections and cleans packaged changelog files.",
+    "updatedBy": "OpenAI / Isaac March 2019 corrections",
+    "updatedAt": "2026-09-26T13:48:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b321",
-    "version": "v14.12.00",
-    "build": "json-b322",
-    "buildTime": "2026-09-25T23:49:45+00:00",
-    "buildDate": "2026-09-25",
+    "sourceBase": "json-b323",
+    "version": "v14.14.00",
+    "build": "json-b324",
+    "buildTime": "2026-09-26T17:48:00+00:00",
+    "buildDate": "2026-09-26",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
     "buildVersion": "v13.92.00",
-    "lastUpdated": "2026-09-25T19:49:45-04:00",
+    "lastUpdated": "2026-09-26T13:48:00-04:00",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 322: mobile show/performance cast table overflow fix; January 2019 corrections for Miss Saigon, The Prom, Wicked, Admissions, Band’s Visit, Pretty Woman; TodayTix sweep applied Born Yesterday free lottery win.",
+    "lastUpdatedNote": "Build 324 sets JQA/Admissions/Watsons to comp, marks Into the Woods as likely Ford’s pay-what-you-can/name-your-price, adds Admissions receipt seats/order, and keeps only the current changelog in the package.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -179008,7 +179008,11 @@
     },
     "246": {
       "id": 246,
-      "title": "The Watsons Go to Brimingham"
+      "title": "The Watsons Go to Birmingham--1963",
+      "aliases": [
+        "The Watsons Go to Brimingham",
+        "The Watsons Go to Birmingham"
+      ]
     },
     "247": {
       "id": 247,
@@ -221585,16 +221589,27 @@
       "venueId": 40,
       "type": "Regional",
       "time": "Evening",
-      "notes": "Attended with Brendan Padgett.",
+      "notes": "Attended with Brendan Padgett.\nTicket set to comp by Arena rule.",
       "performanceMetadata": {
         "attendanceSource": "Isaac’s direct report",
         "attendanceSourceRef": 1339,
         "companions": [
           "Brendan Padgett"
         ],
-        "companion": "Brendan Padgett"
+        "companion": "Brendan Padgett",
+        "ticketNote": "Comp by Arena rule."
       },
-      "sourceRef": 460
+      "sourceRef": 460,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ]
     },
     "540": {
       "id": 540,
@@ -221603,8 +221618,25 @@
       "venueId": 68,
       "type": "Regional",
       "time": "Evening",
-      "notes": null,
-      "sourceRef": 461
+      "notes": "Attended solo. Ticket set to comp per Isaac.",
+      "sourceRef": 461,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ],
+      "performanceMetadata": {
+        "ticketNote": "Comp; confirmed by Isaac. Solo attendance.",
+        "attendanceSource": "Isaac direct correction, 2026-09-25",
+        "attendanceNote": "Solo / by myself.",
+        "companions": [],
+        "companion": "Solo"
+      }
     },
     "541": {
       "id": 541,
@@ -221630,9 +221662,20 @@
         "companions": [
           "Allie Roy"
         ],
-        "companion": "Allie Roy"
+        "companion": "Allie Roy",
+        "ticketNote": "Comp by Arena rule; confirmed by Isaac unless noted otherwise."
       },
-      "sourceRef": 463
+      "sourceRef": 463,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ]
     },
     "543": {
       "id": 543,
@@ -221641,8 +221684,34 @@
       "venueId": 41,
       "type": "Regional",
       "time": "Evening",
-      "notes": null,
-      "sourceRef": 456
+      "notes": "Studio receipt order 709697; B Section E104/E102; comp/zero-dollar. Second attendee not yet identified.",
+      "sourceRef": 456,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ],
+      "performanceMetadata": {
+        "ticketNote": "Comp by Studio rule; Studio receipt found.",
+        "receiptOrder": "709697",
+        "receiptSource": "Studio Theatre order confirmation",
+        "receiptDate": "2019-03-16",
+        "receiptSeatText": "B Section E104/E102"
+      },
+      "seatLocation": {
+        "section": "B Section",
+        "row": "E",
+        "seats": [
+          "104",
+          "102"
+        ],
+        "display": "B Section · Row E · Seats 104, 102"
+      }
     },
     "544": {
       "id": 544,
@@ -221651,8 +221720,13 @@
       "venueId": 44,
       "type": "Regional",
       "time": "Evening",
-      "notes": null,
-      "sourceRef": 464
+      "notes": "Likely Ford's Theatre pay-what-you-can/name-your-price ticket; exact price unknown.",
+      "sourceRef": 464,
+      "ticketType": "Pay What You Can",
+      "ticketSource": "Ford's Theatre",
+      "performanceMetadata": {
+        "ticketNote": "Likely Ford's Theatre pay-what-you-can/name-your-price ticket; exact price unknown; per Isaac."
+      }
     },
     "545": {
       "id": 545,
@@ -221665,9 +221739,20 @@
       "performanceMetadata": {
         "companion": "Brendan Padgett",
         "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSourceRef": 1325,
+        "ticketNote": "Comp; confirmed by Isaac."
       },
-      "sourceRef": 465
+      "sourceRef": 465,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "tags": [
+        "Comp"
+      ]
     },
     "546": {
       "id": 546,
