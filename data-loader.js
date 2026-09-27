@@ -1,7 +1,7 @@
 (function(global){
 'use strict';
 const DEFAULT_MANIFEST='manifest.json';
-const BUILD_TOKEN='json-b331';
+const BUILD_TOKEN='json-b332';
 const ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
@@ -43,6 +43,20 @@ function restoreCompanions(db){
     if(!perf.attendedWith.includes(name))perf.attendedWith.push(name);
   });
 }
+
+function mergeOptionalPart(db,data,file){
+  const path=cuePath(file&&file.path||'');
+  if(/pruned-records/i.test(path)){
+    if(!Array.isArray(db.prunedRecords))db.prunedRecords=[];
+    db.prunedRecords.push({path,data});
+    return db;
+  }
+  const safe={...(data||{})};
+  // Optional sidecar files must never replace canonical core dictionaries.
+  ['people','roles','performances','shows','venues','organizations','appearances','meta','entities','entityCreditLinks','creativeCredits','companionLinks'].forEach(k=>{delete safe[k];});
+  Object.assign(db,safe);
+  return db;
+}
 async function loadFiles(files,base,cache,onProgress,phase,totalOffset,totalCount){
   let done=0;
   return Promise.all(files.map(async file=>{
@@ -83,7 +97,7 @@ async function loadCuebookData(options={}){
       return {file,data:reviveSources(data,sources)};
     })).then(results=>{
       const failed=[];
-      results.forEach(r=>{if(r.status==='fulfilled')Object.assign(db,r.value.data);else failed.push(String(r.reason&&r.reason.message||r.reason));});
+      results.forEach(r=>{if(r.status==='fulfilled')mergeOptionalPart(db,r.value.data,r.value.file);else failed.push(String(r.reason&&r.reason.message||r.reason));});
       if(db.meta){db.meta.optionalFilesPending=0;db.meta.optionalFilesFailed=failed;}
       return {failed};
     });
@@ -91,6 +105,6 @@ async function loadCuebookData(options={}){
   return db;
 }
 global.loadCuebookData=loadCuebookData;
-global.CuebookDataLoader={load:loadCuebookData,reviveSources,restoreCompanions};
+global.CuebookDataLoader={load:loadCuebookData,reviveSources,restoreCompanions,mergeOptionalPart};
 try{globalThis.loadCuebookData=loadCuebookData;globalThis.CuebookDataLoader=global.CuebookDataLoader;}catch(_){}
 })(window);
