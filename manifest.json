@@ -1,14 +1,14 @@
 {
   "schemaVersion": 13,
-  "build": "json-b330",
-  "version": "v14.20.00",
-  "generated": "2026-09-26T22:10:00-04:00",
+  "build": "json-b331",
+  "version": "v14.21.00",
+  "generated": "2026-09-26T22:18:00-04:00",
   "storage": "split-json",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B330.md",
-      "bytes": 790,
-      "sha256": "b669b688c6de2b780d1f3dac10bcc824ddf00b1a7fdcb2ffb29bcd419a28ac9f"
+      "path": "Cuebook_CHANGELOG_B331.md",
+      "bytes": 465,
+      "sha256": "d7fc7826dffd7746da34475d921452b7c08efacb59b5f4f13db493480d41536a"
     },
     {
       "path": "cast.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 3415793,
-      "sha256": "a47ab1e086e647c03a82e7b3806e0342d553309d07cb729a7234ca69e4ef9539",
+      "bytes": 3424376,
+      "sha256": "3bc761091ea13c64802bcb0ffa0171321462f3b8616bc28c77e351e81c82b923",
       "kind": "data"
     },
     {
@@ -46,27 +46,22 @@
     {
       "path": "data-loader.js",
       "bytes": 5426,
-      "sha256": "14143611926ebfdfc3452a1405a5f7beb4a825d3d7d88a18cd4f1aedc2f74cd0"
+      "sha256": "20d2cd4892b92426633dbfa7d5d4642f349299873a0a6e570ba82bf9e24cf9fe"
     },
     {
       "path": "index.html",
-      "bytes": 377036,
-      "sha256": "4435bcc9459d0d766352eb98d1ec85f3891b2d79dd76acd9a61528371cea486f"
+      "bytes": 377053,
+      "sha256": "16657471f184bb7653727ab62ada02b1c47cad13d6b7c508f808c289964c7154"
     },
     {
       "path": "loader-test.html",
       "bytes": 760,
-      "sha256": "10a8e5969c2d2b9c7c68197da4e6533a9d176c2683a8b23c8541dd926cc7436d"
+      "sha256": "43be04f23e3888fcef76570dc6b26117190bf92d626c9a973b7550ebabb53b68"
     },
     {
       "path": "logo-manager.html",
       "bytes": 16019,
       "sha256": "c0b22012f0ed1b2bd7fe2b60a3397350c908cce413b730ec2c1210e78cdbeeb9"
-    },
-    {
-      "path": "manifest.json",
-      "bytes": 3760,
-      "sha256": "d10df9bc35ab19dbe7681253a70576259f3726f1498da80fdefcce0f10b019c7"
     },
     {
       "path": "money.html",
@@ -108,7 +103,7 @@
       "sha256": "fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"
     }
   ],
-  "totalBytes": 25604870,
+  "totalBytes": 25609385,
   "largestFileBytes": 7377199,
   "counts": {
     "performances": 1186,
@@ -121,8 +116,8 @@
     "specialAppearances": 0,
     "companionLinks": 630
   },
-  "generatedAt": "2026-09-26T22:10:00-04:00",
-  "updatedAt": "2026-09-26T21:50:00-04:00",
-  "description": "Cuebook Build 329: true boot-path repair, visible loader status, global loader fallback, watchdog error state, and corrected splash progress selector.",
-  "fileCount": 19
+  "generatedAt": "2026-09-26T22:18:00-04:00",
+  "updatedAt": "2026-09-26T22:18:00-04:00",
+  "description": "Cuebook split data package Build 331, Safari castListRow strict-mode boot fix.",
+  "fileCount": 18
 }
