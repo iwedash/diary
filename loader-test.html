@@ -1,0 +1,7 @@
+<!doctype html><meta charset="utf-8"><title>Cuebook Loader Test B329</title><script src="data-loader.js?v=json-b329"></script><pre id="out">loading loader-test…</pre><script>
+const out=document.getElementById('out');
+function log(s){out.textContent+='\n'+s;}
+const loader=window.loadCuebookData||(window.CuebookDataLoader&&window.CuebookDataLoader.load);
+if(!loader){out.textContent='LOAD_FAIL loader missing';}
+else loader({cache:'no-store',loadOptional:false,onProgress:i=>log('progress '+(i.loaded??'?')+'/'+(i.total??'?')+' '+(i.file||''))}).then(db=>{out.textContent+='\nLOAD_OK performances='+Object.keys(db.performances||{}).length+' people='+Object.keys(db.people||{}).length;}).catch(e=>{out.textContent+='\nLOAD_FAIL '+(e&&e.stack||e);});
+</script>

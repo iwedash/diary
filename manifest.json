@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 13,
+  "build": "json-b329",
+  "version": "v14.19.00",
+  "generated": "2026-09-26T21:50:00-04:00",
+  "storage": "split-json",
+  "files": [
+    {
+      "path": "Cuebook_CHANGELOG_B329.md",
+      "bytes": 705,
+      "sha256": "23513ccbd8a963d9705fe28eb7fcfdbb77763aa2554cb06cf2afff2e7b7feff1"
+    },
+    {
+      "path": "cast.json",
+      "bytes": 7377199,
+      "sha256": "e3c7f8eb883d3fbe1204020cacfa8b02150f8e41bfe666de6ea038b1d0cdc919",
+      "kind": "data"
+    },
+    {
+      "path": "castbook.html",
+      "bytes": 38860,
+      "sha256": "c2a65fdc8422f79373a6f0e40d66cd63fdb7e3988d1417e413abc55f017b5bc8"
+    },
+    {
+      "path": "companions.html",
+      "bytes": 19972,
+      "sha256": "a96b78b31594dad9d4132bc881eed467ee621c4f92ba443106a67a71240e9fed"
+    },
+    {
+      "path": "core.json",
+      "bytes": 3415819,
+      "sha256": "6dfccdc44a3f54018ac48782c66b07dfc2c572a969906b6f61fd1ce5a702c53f",
+      "kind": "data"
+    },
+    {
+      "path": "credits.json",
+      "bytes": 3215079,
+      "sha256": "567e84e51dd1120277b5afaa711efb91a6c19fb2dae726957d70d64e7635a7e4",
+      "kind": "data"
+    },
+    {
+      "path": "cuebook-logo.png",
+      "bytes": 1066647,
+      "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
+    },
+    {
+      "path": "data-loader.js",
+      "bytes": 5426,
+      "sha256": "c6b27b917a47107f8477793c9a5b8f11ca6e9c3b1c4395848074365c7571fefe"
+    },
+    {
+      "path": "index.html",
+      "bytes": 375410,
+      "sha256": "d6e3f0e64cb0877db7f96ebdd4b76a99f5c2ffc31db4dccb8ee5d173559c1596"
+    },
+    {
+      "path": "loader-test.html",
+      "bytes": 760,
+      "sha256": "ead606d6414edd985c00f8613de3cc368638406994bb1514d5e48eec4bc966cb"
+    },
+    {
+      "path": "logo-manager.html",
+      "bytes": 16019,
+      "sha256": "c0b22012f0ed1b2bd7fe2b60a3397350c908cce413b730ec2c1210e78cdbeeb9"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 3733,
+      "sha256": "641bc2a3ccf691454ad89330106b2710632129bd1f5527332a9b8643fd9e71a4"
+    },
+    {
+      "path": "money.html",
+      "bytes": 20221,
+      "sha256": "a52951f7937f0abdb9c70ec2e59a5aec7d728940f843532ef45741bf5ac6d888"
+    },
+    {
+      "path": "production-archive.json",
+      "bytes": 3820428,
+      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29",
+      "kind": "data"
+    },
+    {
+      "path": "program-credits.json",
+      "bytes": 5405676,
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d",
+      "kind": "data"
+    },
+    {
+      "path": "pruned-records-b284.json",
+      "bytes": 22616,
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c",
+      "kind": "data"
+    },
+    {
+      "path": "qa.html",
+      "bytes": 37796,
+      "sha256": "7ce5959f24766c1e3d1e49ae96e78df005cb2bcb7e057060902a1aae0949ff1a"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 703934,
+      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16",
+      "kind": "sources"
+    },
+    {
+      "path": "souvenir.html",
+      "bytes": 56858,
+      "sha256": "fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"
+    }
+  ],
+  "totalBytes": 25603158,
+  "largestFileBytes": 7377199,
+  "counts": {
+    "performances": 1186,
+    "people": 19954,
+    "shows": 515,
+    "venues": 199,
+    "roles": 5907,
+    "appearances": 19642,
+    "creativeCredits": 17576,
+    "specialAppearances": 0,
+    "companionLinks": 630
+  },
+  "generatedAt": "2026-09-26T21:50:00-04:00",
+  "updatedAt": "2026-09-26T21:50:00-04:00",
+  "description": "Cuebook Build 329: true boot-path repair, visible loader status, global loader fallback, watchdog error state, and corrected splash progress selector.",
+  "fileCount": 19
+}
