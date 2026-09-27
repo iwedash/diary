@@ -1,14 +1,14 @@
 {
   "schemaVersion": 13,
-  "build": "json-b329",
-  "version": "v14.19.00",
-  "generated": "2026-09-26T21:50:00-04:00",
+  "build": "json-b330",
+  "version": "v14.20.00",
+  "generated": "2026-09-26T22:10:00-04:00",
   "storage": "split-json",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B329.md",
-      "bytes": 705,
-      "sha256": "23513ccbd8a963d9705fe28eb7fcfdbb77763aa2554cb06cf2afff2e7b7feff1"
+      "path": "Cuebook_CHANGELOG_B330.md",
+      "bytes": 790,
+      "sha256": "b669b688c6de2b780d1f3dac10bcc824ddf00b1a7fdcb2ffb29bcd419a28ac9f"
     },
     {
       "path": "cast.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 3415819,
-      "sha256": "6dfccdc44a3f54018ac48782c66b07dfc2c572a969906b6f61fd1ce5a702c53f",
+      "bytes": 3415793,
+      "sha256": "a47ab1e086e647c03a82e7b3806e0342d553309d07cb729a7234ca69e4ef9539",
       "kind": "data"
     },
     {
@@ -46,17 +46,17 @@
     {
       "path": "data-loader.js",
       "bytes": 5426,
-      "sha256": "c6b27b917a47107f8477793c9a5b8f11ca6e9c3b1c4395848074365c7571fefe"
+      "sha256": "14143611926ebfdfc3452a1405a5f7beb4a825d3d7d88a18cd4f1aedc2f74cd0"
     },
     {
       "path": "index.html",
-      "bytes": 375410,
-      "sha256": "d6e3f0e64cb0877db7f96ebdd4b76a99f5c2ffc31db4dccb8ee5d173559c1596"
+      "bytes": 377036,
+      "sha256": "4435bcc9459d0d766352eb98d1ec85f3891b2d79dd76acd9a61528371cea486f"
     },
     {
       "path": "loader-test.html",
       "bytes": 760,
-      "sha256": "ead606d6414edd985c00f8613de3cc368638406994bb1514d5e48eec4bc966cb"
+      "sha256": "10a8e5969c2d2b9c7c68197da4e6533a9d176c2683a8b23c8541dd926cc7436d"
     },
     {
       "path": "logo-manager.html",
@@ -65,8 +65,8 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 3733,
-      "sha256": "641bc2a3ccf691454ad89330106b2710632129bd1f5527332a9b8643fd9e71a4"
+      "bytes": 3760,
+      "sha256": "d10df9bc35ab19dbe7681253a70576259f3726f1498da80fdefcce0f10b019c7"
     },
     {
       "path": "money.html",
@@ -108,7 +108,7 @@
       "sha256": "fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"
     }
   ],
-  "totalBytes": 25603158,
+  "totalBytes": 25604870,
   "largestFileBytes": 7377199,
   "counts": {
     "performances": 1186,
@@ -121,7 +121,7 @@
     "specialAppearances": 0,
     "companionLinks": 630
   },
-  "generatedAt": "2026-09-26T21:50:00-04:00",
+  "generatedAt": "2026-09-26T22:10:00-04:00",
   "updatedAt": "2026-09-26T21:50:00-04:00",
   "description": "Cuebook Build 329: true boot-path repair, visible loader status, global loader fallback, watchdog error state, and corrected splash progress selector.",
   "fileCount": 19
