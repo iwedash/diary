@@ -1,19 +1,34 @@
 {
   "schemaVersion": 13,
-  "build": "json-b332",
-  "version": "v14.22.00",
-  "generated": "2026-09-26T22:40:00-04:00",
   "storage": "split-json",
+  "counts": {
+    "performances": 1187,
+    "people": 19968,
+    "shows": 516,
+    "venues": 199,
+    "roles": 5914,
+    "appearances": 19650,
+    "creativeCredits": 17587,
+    "specialAppearances": 0,
+    "companionLinks": 630
+  },
+  "generatedAt": "2026-09-27T17:21:00-04:00",
+  "updatedAt": "2026-09-27T17:21:00-04:00",
+  "description": "Cuebook split data package Build 334, May 2019 queue + The Imaginary Invalid 2026-09-27.",
+  "fileCount": 19,
+  "build": "json-b334",
+  "version": "v14.24.00",
+  "generated": "2026-09-27T17:21:00-04:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B332.md",
-      "bytes": 606,
-      "sha256": "8f5a29c29f326a412df964e698f0234b7757c43e34f48c93ed0d30539559c7e2"
+      "path": "Cuebook_CHANGELOG_B334.md",
+      "bytes": 825,
+      "sha256": "450b84a0564b32567abb28795436527b880e1eeaff4e536c615be8e22216b81f"
     },
     {
       "path": "cast.json",
-      "bytes": 7377199,
-      "sha256": "e3c7f8eb883d3fbe1204020cacfa8b02150f8e41bfe666de6ea038b1d0cdc919",
+      "bytes": 5266030,
+      "sha256": "9ed4fe3af772514753462800e1af6fa249e3146ec1bb0640df5ee31e95f25327",
       "kind": "data"
     },
     {
@@ -28,14 +43,14 @@
     },
     {
       "path": "core.json",
-      "bytes": 3416055,
-      "sha256": "215b5adea9e0270065c578c0e74400a88224ea53ee97960690ae0d63a333b6e2",
+      "bytes": 3423728,
+      "sha256": "c9e3d8060892dbc22a088aa455ff6d053879015b21431c5c6ec452cbf76ace82",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 3215079,
-      "sha256": "567e84e51dd1120277b5afaa711efb91a6c19fb2dae726957d70d64e7635a7e4",
+      "bytes": 2119186,
+      "sha256": "515a95fa62d22585f076126eb995e3f2b50dd4372912bdf73cbaac2bb26a6eff",
       "kind": "data"
     },
     {
@@ -46,22 +61,27 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "123cbe3ec042e5d5c52d6a84af95c406f4d6729ebfd75511cfd13e1910d0992b"
+      "sha256": "6a81195cb0f6fe4748d5b343876516f578f25163623fa0b11287ba8398d20d4c"
     },
     {
       "path": "index.html",
-      "bytes": 377550,
-      "sha256": "5c13234297aec03c7e8836f06386a2a359def5af11ee886257fa3246513d843a"
+      "bytes": 380814,
+      "sha256": "33e308c9c5d18f22e2681c1c2f74065329cda41f718c07855bfdb96be88d70aa"
     },
     {
       "path": "loader-test.html",
       "bytes": 760,
-      "sha256": "39977a986de3e0509a6c85c40e11899774a20d2cacf29f39badd40faa852d792"
+      "sha256": "6ca8b81205cca42cad53f928ea903d0544406a4c122c099da137bb23ca0c011c"
     },
     {
       "path": "logo-manager.html",
       "bytes": 16019,
       "sha256": "c0b22012f0ed1b2bd7fe2b60a3397350c908cce413b730ec2c1210e78cdbeeb9"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 3695,
+      "sha256": "e81aacc146d2e536470fee7aebc15a561cf251088472699f041025423620e4f9"
     },
     {
       "path": "money.html",
@@ -70,8 +90,8 @@
     },
     {
       "path": "production-archive.json",
-      "bytes": 3820428,
-      "sha256": "e6a5c8a41fbbd1b1a7eea9769bd16df0db3c07046b53caa2579be21229f5cf29",
+      "bytes": 2469879,
+      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9",
       "kind": "data"
     },
     {
@@ -93,9 +113,9 @@
     },
     {
       "path": "sources.json",
-      "bytes": 703934,
-      "sha256": "262480c5a3e1ae1dee11024a997107d87a735e09f59b8f6f18b18a3e8ac6de16",
-      "kind": "sources"
+      "bytes": 661445,
+      "sha256": "0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300",
+      "kind": "data"
     },
     {
       "path": "souvenir.html",
@@ -103,21 +123,6 @@
       "sha256": "fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"
     }
   ],
-  "totalBytes": 25602313,
-  "largestFileBytes": 7377199,
-  "counts": {
-    "performances": 1186,
-    "people": 19954,
-    "shows": 515,
-    "venues": 199,
-    "roles": 5907,
-    "appearances": 19642,
-    "creativeCredits": 17576,
-    "specialAppearances": 0,
-    "companionLinks": 630
-  },
-  "generatedAt": "2026-09-26T22:40:00-04:00",
-  "updatedAt": "2026-09-26T22:40:00-04:00",
-  "description": "Cuebook split data package Build 331, Safari castListRow strict-mode boot fix.",
-  "fileCount": 18
+  "totalBytes": 21017064,
+  "largestFileBytes": 5405676
 }
