@@ -1,1 +1,116 @@
-{"schemaVersion":13,"storage":"split-json","counts":{"performances":1188,"people":19970,"shows":516,"venues":199,"roles":5914,"appearances":19677,"creativeCredits":17587,"specialAppearances":0,"companionLinks":635},"generatedAt":"2026-09-28T13:05:00-04:00","updatedAt":"2026-09-28T13:05:00-04:00","description":"Cuebook split data package Build 338, queued Nov 2019–Jan 2020 audit corrections plus 2014–2015 ticket history.","fileCount":18,"build":"json-b338","version":"v14.28.00","generated":"2026-09-28T17:05:00+00:00","files":[{"path":"Cuebook_CHANGELOG_B338.md","bytes":900,"sha256":"144718a2cf3256180293dd6fe5c775bc87b5de301330c9cf6fe5fa58ea423ab3"},{"path":"cast.json","bytes":5272803,"sha256":"4614576c43f124ea2dd5ee45bbf58be43c74cc977f5e76143611b17a45460052"},{"path":"castbook.html","bytes":38860,"sha256":"c2a65fdc8422f79373a6f0e40d66cd63fdb7e3988d1417e413abc55f017b5bc8"},{"path":"companions.html","bytes":19972,"sha256":"a96b78b31594dad9d4132bc881eed467ee621c4f92ba443106a67a71240e9fed"},{"path":"core.json","bytes":3440557,"sha256":"4d0345cce90a7083f98e35a6fb570e58f246501e85f6e612792ae6a50e669af6"},{"path":"credits.json","bytes":2119426,"sha256":"7d10ca8f47ffe66e4d206039edda3b75a5180dec13142be7e2b910023c4e9b33"},{"path":"cuebook-logo.png","bytes":1066647,"sha256":"1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"},{"path":"data-loader.js","bytes":6037,"sha256":"6a81195cb0f6fe4748d5b343876516f578f25163623fa0b11287ba8398d20d4c"},{"path":"index.html","bytes":384283,"sha256":"b56e05fd19740240548a44cee3e898b600c42b6d8616a77a531f12d96753b1fa"},{"path":"loader-test.html","bytes":760,"sha256":"6ca8b81205cca42cad53f928ea903d0544406a4c122c099da137bb23ca0c011c"},{"path":"logo-manager.html","bytes":16019,"sha256":"c0b22012f0ed1b2bd7fe2b60a3397350c908cce413b730ec2c1210e78cdbeeb9"},{"path":"money.html","bytes":20221,"sha256":"a52951f7937f0abdb9c70ec2e59a5aec7d728940f843532ef45741bf5ac6d888"},{"path":"production-archive.json","bytes":2469879,"sha256":"115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9"},{"path":"program-credits.json","bytes":5405676,"sha256":"13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"},{"path":"pruned-records-b284.json","bytes":22616,"sha256":"2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"},{"path":"qa.html","bytes":37796,"sha256":"7ce5959f24766c1e3d1e49ae96e78df005cb2bcb7e057060902a1aae0949ff1a"},{"path":"sources.json","bytes":661445,"sha256":"0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300"},{"path":"souvenir.html","bytes":56858,"sha256":"fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"}],"totalBytes":21040755,"largestFileBytes":5405676}
+{
+  "schemaVersion": 13,
+  "storage": "split-json",
+  "counts": {
+    "performances": 1188,
+    "people": 19970,
+    "shows": 516,
+    "venues": 199,
+    "roles": 5914,
+    "appearances": 19677,
+    "creativeCredits": 17587,
+    "specialAppearances": 0,
+    "companionLinks": 635
+  },
+  "generatedAt": "2026-09-28T12:45:00-04:00",
+  "updatedAt": "2026-09-28T12:45:00-04:00",
+  "description": "Cuebook split data package Build 340: 2015 ticket audit, 2020–2021 queue, Money monthly heatmap.",
+  "fileCount": 18,
+  "build": "json-b340",
+  "version": "v14.30.00",
+  "generated": "2026-09-28T16:45:00+00:00",
+  "files": [
+    {
+      "path": "cast.json",
+      "bytes": 7389780,
+      "sha256": "3dc5ccda215bbf966f5f94010ac43cf5218fcb6cd64fb8b8bcb4e0b25f7e806e"
+    },
+    {
+      "path": "castbook.html",
+      "bytes": 38860,
+      "sha256": "93c2ac504867851244beb77ef64142bce266cb886667522dd02049ab5294613e"
+    },
+    {
+      "path": "companions.html",
+      "bytes": 20169,
+      "sha256": "5759bc2a076f8bc1e3d12d3497dc771d1fc60b9ac76afa75d2a9ea4c5b1d8fe1"
+    },
+    {
+      "path": "core.json",
+      "bytes": 5367928,
+      "sha256": "53ee12a10b028380536c78af64e0ea9de9a56bc63cc180df53380d6072c57258"
+    },
+    {
+      "path": "credits.json",
+      "bytes": 3217543,
+      "sha256": "83a024fbd223336eec21793d81653a6a0a34092ac7ee7a2b9cb5ea4e7d40c225"
+    },
+    {
+      "path": "cuebook-logo.png",
+      "bytes": 1066647,
+      "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B340.md",
+      "bytes": 1316,
+      "sha256": "13a07c8aaede07a58a8b78e39d1ec34ae6a9df2b9e760c174a16e21efbca9d25"
+    },
+    {
+      "path": "data-loader.js",
+      "bytes": 6037,
+      "sha256": "72f568899f7251abea967baa838e7999afd21ec4090db7b7de4f2a248ae68803"
+    },
+    {
+      "path": "index.html",
+      "bytes": 384283,
+      "sha256": "9f1146e55b576684187f67f9e3f43696e668e993c7f75b5983c8c4177660d742"
+    },
+    {
+      "path": "loader-test.html",
+      "bytes": 760,
+      "sha256": "5725f3c1108f8fc7a5352094c2570c3e114968b7afe11f6f00a7645fda199e3e"
+    },
+    {
+      "path": "logo-manager.html",
+      "bytes": 16019,
+      "sha256": "3e62f624cdd94966a3353cb22be8866649db93ceb27bc3becb430ea9a791dfd8"
+    },
+    {
+      "path": "money.html",
+      "bytes": 22872,
+      "sha256": "fd8b33a7e72299045e2a83ce8e4436016de479b70872547c0c98455faceeb3d2"
+    },
+    {
+      "path": "production-archive.json",
+      "bytes": 2469879,
+      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9"
+    },
+    {
+      "path": "program-credits.json",
+      "bytes": 5405676,
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
+    },
+    {
+      "path": "pruned-records-b284.json",
+      "bytes": 22616,
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"
+    },
+    {
+      "path": "qa.html",
+      "bytes": 37796,
+      "sha256": "c2de20516fd52d8868ceadf3f2b0beac9017b950b5fd617900d5e424b4f0a988"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 661445,
+      "sha256": "0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300"
+    },
+    {
+      "path": "souvenir.html",
+      "bytes": 56858,
+      "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
+    }
+  ],
+  "totalBytes": 26186484,
+  "largestFileBytes": 7389780
+}
