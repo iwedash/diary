@@ -6407,6 +6407,337 @@
         "The Song Inside of Me — 2026-03-01 9:30 PM — $36.87 — no matching shell",
         "Heathers — 2026-03-15 2:00 PM — $38.00 rush — no matching shell"
       ]
+    },
+    {
+      "title": "March–April 2026 ticket audit and The Song Inside of Me addition — Build 348",
+      "type": "user-supplied-table+gmail-linked+web-cast-list",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac corrected the March 2026 audit: The Song Inside of Me was attended and Heathers 2026-03-15 was not attended. Isaac supplied April 2026 ticket costs and Gmail message links. Gmail confirmed The Song Inside of Me ticket details; web sources confirmed the cabaret framing and the performer list used with generic Performer roles.",
+      "gmailMessageIds": [
+        "19c97adf82fc37ef",
+        "19d3fe6a7d9cdc1e",
+        "19d4a400680f4215",
+        "19d77b21cca4b1bc",
+        "19d7ca946b62da07",
+        "19d875d0e76ebe05",
+        "19d8c8ac80d5afd0",
+        "19d923c3b665a3de",
+        "19d8c7b6daa34341",
+        "19d9cd990b641ac1",
+        "19da65cd2dcb7692",
+        "19dac5a32ee3a727",
+        "19dc0fad889241f8",
+        "19dc66115bbff98f",
+        "19dc9e24ca5509e5",
+        "19cfc0aa078c37cc",
+        "19dc03569d992ce5"
+      ],
+      "webEvidence": [
+        {
+          "title": "Young Broadway Actor News — The Song Inside Of Me",
+          "url": "https://youngbway.org/event/the-song-inside-of-me/",
+          "notes": "Confirms March 1, 2026 9:30 PM at The Green Room 42 and cabaret framing with the Off-Broadway cast of Heathers."
+        },
+        {
+          "title": "MGS Trades — The Song Inside of Me: A Heathers Miscast Cabaret",
+          "url": "https://mgstrades.weebly.com/concerts.html",
+          "notes": "Only located full performer list; applied as generic Performer rows per Isaac direction."
+        }
+      ],
+      "directConfirmations": [
+        "Isaac confirmed The Song Inside of Me was attended and requested performers be listed as Performer.",
+        "Isaac confirmed Heathers on 2026-03-15 should remain unadded/not attended.",
+        "April 2026 costs were applied only to existing shells."
+      ],
+      "heldItems": [
+        "Heathers — 2026-03-15 2:00 PM — user clarified not attended; no performance shell created."
+      ],
+      "guardrails": [
+        "No existing cast, cover, conductor, orchestra, creative-credit, or production-archive facts were changed.",
+        "The Song Inside of Me performers were added only as generic Performer rows.",
+        "No missing April shells were created because all supplied April rows matched existing performance shells."
+      ]
+    },
+    {
+      "title": "November–December 2022 Ticketmaster receipt corrections — Build 349",
+      "type": "gmail-confirmed-ticket-audit",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Personal Gmail Ticketmaster confirmations located for Annie at Montgomery Performing Arts Centre and Six (Touring) at Saenger Theatre New Orleans. Annie receipt confirms 2022-11-01 7:30 PM, ORCH K 36–37, total $97.00. Six receipt confirms 2022-12-02 8:00 PM, ORCHR G 28/30, total $220.95, correcting the prior 2022-12-03 date.",
+      "gmailMessageIds": [
+        "183f1167bbdf48e6",
+        "184cbccfa7dd733a"
+      ],
+      "directConfirmations": [
+        "Annie — Ticketmaster order 4-27152/AGF — Tue Nov 01 2022 7:30 PM — Montgomery Performing Arts Centre — ORCH K 36–37 — total $97.00.",
+        "Six (Touring) — Ticketmaster order 58-15795/SCS — Fri Dec 02 2022 8:00 PM — Saenger Theatre New Orleans — ORCHR G 28 and 30 — total $220.95."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "May 2026 ticket-cost audit table — Build 349",
+      "type": "user-supplied-table+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied May 2026 ticket costs and Gmail message links. Matching existing shells were updated. Nicole Travolta Is Doing Alright, Forest High and the Glitch in the System, and Memoirs of a Drag Queen were identified as missing from the package and held rather than created without show/cast records.",
+      "gmailMessageIds": [
+        "19dee5ce129f1fff",
+        "19e0359ed5748e7a",
+        "19e032bdfb9f9639",
+        "19e24464f9edbb25",
+        "19e18ed3a862c0ab",
+        "19e2e1a0100341c2",
+        "19e2c879924a91cd",
+        "19e3d246ee2b3983",
+        "19e3b8fd15be2650",
+        "19e51aaaac1eee78",
+        "19e6a9d358b90d04"
+      ],
+      "heldItems": [
+        "Nicole Travolta Is Doing Alright — 2026-05-10 5:00 PM — $0 reservation for 2 — no matching shell in Build 348",
+        "Forest High and the Glitch in the System — 2026-05-14 7:00 PM — $0 reservation for 2 — no matching shell in Build 348",
+        "Memoirs of a Drag Queen — 2026-05-20 7:30 PM — $0 reservation — no matching shell in Build 348"
+      ],
+      "guardrails": [
+        "Applied costs only to existing matching performance shells.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "June 2026 ticket-cost audit table and May held-item clarification — Build 350",
+      "type": "user-supplied-table+gmail-confirmed+clarification",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied June 2026 ticket costs and Gmail message links. Matching attended existing shells were updated. Isaac clarified that Orfeh with Britani Bateman & James Carpinello and MJ on 2026-06-24 were not ultimately attended, so they were not added. Isaac also clarified that the previously held May 2026 items Nicole Travolta Is Doing Alright, Forest High and the Glitch in the System, and Memoirs of a Drag Queen were not attended, so no missing shells should be created for them.",
+      "gmailMessageIds": [
+        "19e6ef24e266b952",
+        "19e9983b7d4952d9",
+        "19e934ff0300fef3",
+        "19ec1155657b777a",
+        "19e6fc482d11d42d",
+        "19e662a18d8d34d4"
+      ],
+      "directConfirmations": [
+        "An Evening with Adrienne Warren — Club Free Time reservation: 2 free tickets, 2026-06-01 7:30 PM.",
+        "Heathers — Telecharge confirmation 100595166: 1 ticket for $49.00, 2026-06-05 7:00 PM.",
+        "Every Brilliant Thing — TodayTix confirmation: 2026-06-13 8:30 PM; user-supplied cost $45.00.",
+        "The Book of Mormon — Audience Rewards confirmation: Orchestra P 7, 2026-06-16 7:00 PM, 500 ShowPoints plus $42.",
+        "Orfeh with Britani Bateman & James Carpinello and MJ were explicitly clarified as not attended.",
+        "Nicole Travolta Is Doing Alright, Forest High and the Glitch in the System, and Memoirs of a Drag Queen were explicitly clarified as not attended."
+      ],
+      "notAttendedItems": [
+        "Orfeh with Britani Bateman & James Carpinello — 2026-06-05 8:00 PM — user clarified not attended.",
+        "MJ — 2026-06-24 7:00 PM — user clarified not attended.",
+        "Nicole Travolta Is Doing Alright — 2026-05-10 5:00 PM — user clarified not attended.",
+        "Forest High and the Glitch in the System — 2026-05-14 7:00 PM — user clarified not attended.",
+        "Memoirs of a Drag Queen — 2026-05-20 7:30 PM — user clarified not attended."
+      ],
+      "guardrails": [
+        "Applied June costs only to existing matching performance shells.",
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "July 2026 ticket-cost audit table and Label Less not-attended clarification — Build 351",
+      "type": "user-supplied-table+gmail-confirmed+clarification",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied July 2026 ticket costs and Gmail message links. Matching attended existing shells were updated. Isaac clarified that Label Less on 2026-07-05 was not attended, so no missing shell was created or priced.",
+      "gmailMessageIds": [
+        "19f2dac96f57c509",
+        "19f39255b66d611b",
+        "19f514503a507336",
+        "19f57463d6d0d911",
+        "19f803049abbb452",
+        "19fb8b3bb39a943f"
+      ],
+      "directConfirmations": [
+        "Label Less — 2026-07-05 5:30 PM — user clarified not attended.",
+        "CATS: The Jellicle Ball — Telecharge confirmation 100850515: 1 ticket for $49.00, 2026-07-06 7:00 PM.",
+        "Dad Don’t Read This — TodayTix order T071126327949: 2026-07-11 2:30 PM; user supplied $13.00 paid after $25 credit applied.",
+        "Music City — Club Free Time reservation: 2 free tickets, 2026-07-12 7:00 PM.",
+        "Heathers — Telecharge confirmation 100959618: 2 tickets for $98.00, 2026-07-20 7:00 PM.",
+        "The Great Gatsby — Telecharge confirmation 101040400: 1 ticket for $49.00, 2026-07-31 7:00 PM."
+      ],
+      "notAttendedItems": [
+        "Label Less — 2026-07-05 5:30 PM — user clarified not attended."
+      ],
+      "guardrails": [
+        "Applied July costs only to existing matching attended performance shells.",
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "August 2026 ticket-cost audit table and Label Less not-attended clarification — Build 352",
+      "type": "user-supplied-table+gmail-confirmed+clarification",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied August 2026 ticket costs and Gmail message links. Existing matching attended shells were updated. Isaac had clarified that Label Less was not attended, so the August 5 Label Less reservation was not added/priced.",
+      "gmailMessageIds": [
+        "19fd398ea64f9a1c",
+        "19fd285cccb37399",
+        "19fe1a59d7e3d11b",
+        "1a0023122330e54e",
+        "1a01f49fe657212b",
+        "1a02f6babd75bb08",
+        "19fa4f3d60944b28",
+        "1a0435b4ae76f7e1",
+        "1a04ef287fadc53a"
+      ],
+      "directConfirmations": [
+        "Heathers — Telecharge order 101081251: 2026-08-05 7:00 PM; Left Mezzanine B31; total $81.00.",
+        "Label Less — 2026-08-05 7:30 PM — user clarified Label Less not attended; not added/priced.",
+        "An American Daughter — TodayTix order T080826387502: 2026-08-08 7:00 PM; user supplied $35.00.",
+        "Titanique — Theatr App: 2026-08-14 7:30 PM; total $58.74.",
+        "The Rocky Horror Show — TodayTix order T082026678917: 2026-08-20 8:00 PM; user supplied $60.00 total for 2 lottery tickets.",
+        "Heathers — Telecharge confirmation 101208909: 2026-08-23 2:00 PM; $49.00.",
+        "The Whoopi Monologues — LCT order 101014808: 2026-08-25 7:30 PM; Right Orchestra E34; total $38.50 paid by gift card.",
+        "Titanique — TodayTix order T082726117083: 2026-08-27 7:30 PM; Orchestra Left D17; $49.00.",
+        "The Lion King — Broadway Direct Lottery: 2026-08-30 1:00 PM; $30 ticket + $5 fee x 2; balance due $70.00."
+      ],
+      "notAttendedItems": [
+        "Label Less — 2026-08-05 7:30 PM — user clarified Label Less not attended."
+      ],
+      "guardrails": [
+        "Applied August costs only to existing matching attended performance shells.",
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "January 2023 ticket audit corrections — Build 353",
+      "type": "user-supplied-memory+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied January 2023 audit corrections: Ride the Cyclone at Arena Stage should be comp, and Into the Woods at Signature should be priced. Personal Gmail located the Signature Theatre order for Into the Woods, showing order 643247, 2 tickets in Orchestra North C101/C103, total $175.20. The receipt describes the tickets as 2 x Full Price, so the exact receipt-backed price was used rather than a guessed rush price.",
+      "gmailMessageIds": [
+        "185e44d19545290c"
+      ],
+      "directConfirmations": [
+        "Ride the Cyclone — 2023-01-24 — Arena Stage — marked Comp by Isaac/Arena comp rule.",
+        "Into the Woods — 2023-01-25 7:30 PM — Signature Theatre order 643247 — Orchestra North C101/C103 — 2 tickets — $175.20 total; top-level ticketPrice set to $87.60 per ticket."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Receipt-backed Signature price was used even though the user initially described the correction as rush price."
+      ]
+    },
+    {
+      "title": "Early 2025 ticket-cost audit mini-batch — Build 354",
+      "type": "user-supplied-table+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied an early 2025 ticket-cost mini-batch for Titanique, Wicked, and Sister Act with Gmail message links. Matching existing performance shells were updated with cost, seat, order, and source metadata.",
+      "gmailMessageIds": [
+        "1949b75fd96c4b6b",
+        "194c7930d9ed945a",
+        "1957d8519aac5d7f"
+      ],
+      "directConfirmations": [
+        "Titanique — 2025-02-01 9:00 PM — TodayTix order T012525032075 — Orchestra B113 — $50.00.",
+        "Wicked — 2025-02-02 7:00 PM — TodayTix order T020225675443 — Orchestra BB6, restricted view — $152.00.",
+        "Sister Act — 2025-03-24 7:00 PM — TodayTix order T031025726551 — Right Orchestra B2 — $52.00."
+      ],
+      "guardrails": [
+        "Applied costs only to existing matching performance shells.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "April 2025 Annie ticket-cost audit mini-batch — Build 355",
+      "type": "user-supplied-table+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied an April 2025 Annie ticket-cost mini-batch with Gmail message links. Matching existing National Theatre performance shells were updated with cost, seat/seat-note, order/source metadata, and ticket type.",
+      "gmailMessageIds": [
+        "19640c8ba46674ad",
+        "19640394977a9a13",
+        "1964a23ed660fa82"
+      ],
+      "directConfirmations": [
+        "Annie — 2025-04-16 7:30 PM — Ticketmaster confirmation — Left Mezzanine G1 — $92.30.",
+        "Annie — 2025-04-17 7:30 PM — Broadway Direct Lottery confirmation — 2 lottery tickets — $68.00 total; seats not listed in email/table.",
+        "Annie — 2025-04-19 1:00 PM — Broadway Direct Lottery confirmation — 2 lottery tickets — $68.00 total; seats not listed in email/table."
+      ],
+      "guardrails": [
+        "Applied costs only to existing matching performance shells.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "February-May 2023 audit updates — Build 356",
+      "type": "user-correction+gmail-search+public-policy-check",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied cost/source corrections for February-May 2023. Personal Gmail was searched for the 2023-02-07 Wicked entry, the 2023-04-21 through 2023-04-23 Broadway weekend, and 2023-05-24 Sweeney Todd. Kimberly Akimbo ticket PDFs were found; Shucked rush price was corroborated by published 2023 Broadway rush policy; Sweeney Todd at Signature had no clean purchase confirmation found in Gmail and was marked Rush per Isaac’s instruction without a price.",
+      "gmailMessageIds": [
+        "187676cb5f8a2063"
+      ],
+      "gmailSearchNotes": [
+        "Wicked — 2023-02-07 — broad personal Gmail searches did not surface a clean purchase confirmation.",
+        "Moulin Rouge — 2023-04-21 — Gmail surfaced Jujamcyn pre-show/thank-you messages but no clean purchase confirmation or amount.",
+        "Some Like It Hot — 2023-04-22 matinee — no clean purchase confirmation found in the searched personal Gmail result sets.",
+        "Shucked — 2023-04-22 evening — no clean Gmail purchase confirmation found; Isaac identified the ticket source as rush.",
+        "Sweeney Todd — 2023-05-24 — no clean Signature order confirmation found; a cancelled 2023-05-16 Sweeney Todd TodayTix voucher and Signature cancellation/reschedule emails were found but not used as the 2023-05-24 ticket source."
+      ],
+      "directConfirmations": [
+        "Sometimes the Rain, Sometimes the Sea — 2023-04-13 — comped.",
+        "Kimberly Akimbo — 2023-04-23 3:00 PM — TelechargeOffers PDF: Mezzanine Right Row D seats 2 and 4, $79.00 each.",
+        "On the Far End — 2023-04-30 — comped.",
+        "Spamalot — 2023-05-14 — comped; Brendan Padgett added alongside Paul Villalovoz.",
+        "Here There Are Blueberries — 2023-05-21 evening — comped.",
+        "The World Goes 'Round — 2023-05-21 matinee — comped.",
+        "Arena Stage Annual Gala — 2023-05-23 — comped.",
+        "Sweeney Todd — 2023-05-24 — marked Rush per Isaac; no amount set because no receipt was found."
+      ],
+      "publicPolicyEvidence": [
+        "Shucked 2023 Broadway general rush policy: in-person rush tickets $35 per ticket at the Nederlander Theatre box office."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Where Gmail searches did not find purchase confirmations, ticket amounts were not invented unless Isaac supplied a source rule or the public rush policy supplied a price."
+      ]
+    },
+    {
+      "title": "November 2024 ticket-cost audit mini-batch — Build 356",
+      "type": "user-supplied-table+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied a November 2024 ticket-cost mini-batch with Gmail links. Matching existing performance shells were updated with cost, seat/seat-note, ticket source, and order metadata. Gmail confirmations were read for the four linked receipts.",
+      "gmailMessageIds": [
+        "193374d71abcadf5",
+        "1932dc92ecce502e",
+        "19347e909d5f61c7",
+        "193433e9225c73a4"
+      ],
+      "directConfirmations": [
+        "Death Becomes Her — 2024-11-20 2:00 PM — TodayTix — Right Mezzanine D128 — $87.50.",
+        "Once Upon a Mattress — 2024-11-20 7:00 PM — TDF general admission, seat unlisted — $64.00.",
+        "The Roommate — 2024-11-21 1:00 PM — TDF general admission, seat unlisted — $55.00.",
+        "Teeth — 2024-11-22 7:00 PM — TDF general admission, 2 tickets, seats unlisted — $82.00 total."
+      ],
+      "guardrails": [
+        "Applied costs only to existing matching performance shells.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "July-October 2024 ticket-cost audit mini-batch — Build 356",
+      "type": "user-supplied-table+gmail-confirmed+not-attended-holds",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied a July-October 2024 ticket-cost mini-batch with Gmail links and clarified that Re: Writing Bliss and Fowl Play were not attended. Matching attended shells were updated; not-attended items were held out.",
+      "gmailMessageIds": [
+        "19078b8f66933a59",
+        "190b3c50705cf150",
+        "1915c367faaa712d",
+        "19142250389e7b14",
+        "19256074eaf31bed"
+      ],
+      "directConfirmations": [
+        "& Juliet — 2024-07-03 7:30 PM — TodayTix — Mezzanine JJ14/JJ16 wheelchair/companion locations — $93.59 total for 2.",
+        "Re: Writing Bliss — 2024-07-18 — user clarified not attended; not added.",
+        "Wicked — 2024-08-17 2:00 PM — TodayTix — Orchestra BB6 restricted view — $105.00.",
+        "Fowl Play — 2024-08-17 — user clarified not attended; not added.",
+        "Lady Day at Emerson's Bar and Grill — 2024-10-09 7:30 PM — Mosaic comp — 2 tickets; seats unlisted."
+      ],
+      "guardrails": [
+        "No not-attended item was added or converted into attendance.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_346",
-    "generated": "2026-09-28T20:36:00+00:00",
-    "rowCount": 1188,
-    "performanceCount": 1188,
-    "peopleCount": 19970,
-    "showCount": 516,
-    "venueCount": 199,
-    "roleCount": 5914,
-    "appearanceCount": 19677,
-    "creativeCreditCount": 17587,
+    "sourceFile": "Cuebook_Build_355",
+    "generated": "2026-09-28T21:42:00+00:00",
+    "rowCount": 1190,
+    "performanceCount": 1190,
+    "peopleCount": 19973,
+    "showCount": 518,
+    "venueCount": 201,
+    "roleCount": 5921,
+    "appearanceCount": 19702,
+    "creativeCreditCount": 17591,
     "notesCount": 528,
     "updated": "2026-09-28",
-    "notes": "Build 347 applies September 2022 ticket audit clarifications and March 2026 ticket-cost rows, with unsupported missing March rows held.",
-    "updatedBy": "OpenAI / Isaac September 2022 and March 2026 ticket audit",
-    "updatedAt": "2026-09-28T16:36:00-04:00",
+    "notes": "Build 356 applies Feb-May 2023 audit corrections plus November 2024 and July-October 2024 ticket-cost mini-batches.",
+    "updatedBy": "OpenAI / Isaac audit corrections and ticket-cost mini-batches",
+    "updatedAt": "2026-09-28T17:42:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b346",
-    "version": "v14.37.00",
-    "build": "json-b347",
-    "buildTime": "2026-09-28T20:36:00+00:00",
+    "sourceBase": "json-b355",
+    "version": "v14.46.00",
+    "build": "json-b356",
+    "buildTime": "2026-09-28T21:42:00+00:00",
     "buildDate": "2026-09-28",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.37.00",
-    "lastUpdated": "2026-09-28T16:36:00-04:00",
+    "buildVersion": "v14.46.00",
+    "lastUpdated": "2026-09-28",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 347: September 2022 audit clarifications and March 2026 ticket-cost updates.",
+    "lastUpdatedNote": "Build 356: Feb-May 2023 audit corrections, Nov 2024 ticket costs, and Jul-Oct 2024 ticket-cost mini-batch.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -1383,7 +1383,7 @@
         "ticketSource": "Theatr App"
       }
     },
-    "buildNumber": 293,
+    "buildNumber": 353,
     "build153PeopleMusicians": {
       "dataChanged": false,
       "uiChanged": true,
@@ -4080,6 +4080,167 @@
         "Missing March 2026 performances were not created without show/cast source material."
       ],
       "updatedAt": "2026-09-28T16:36:00-04:00"
+    },
+    "sourcesCount": 1514,
+    "build348QueueImplementation": {
+      "updatedAt": "2026-09-28T16:55:00-04:00",
+      "summary": "Added The Song Inside of Me and applied April 2026 ticket-cost rows.",
+      "items": [
+        "Added The Song Inside of Me at The Green Room 42 on 2026-03-01 9:30 PM with Venuetix/Green Room ticket details.",
+        "Added located The Song Inside of Me performers as generic Performer rows.",
+        "Applied April 2026 supplied costs/reservations/lottery totals to matching existing performance shells.",
+        "Corrected Apr. 10 The Balusters time to 8:00 PM from TodayTix confirmation.",
+        "Left 2026-03-15 Heathers unadded because Isaac clarified he did not attend."
+      ],
+      "guardrails": [
+        "No existing cast, cover, conductor, orchestra, creative-credit, or production-archive facts were changed.",
+        "The Song Inside of Me performers were added only as generic Performer rows.",
+        "No missing April shells were created because all supplied April rows matched existing performance shells."
+      ]
+    },
+    "lastUpdatedAt": "2026-09-28T17:42:00-04:00",
+    "build349QueueImplementation": {
+      "updatedAt": "2026-09-28T17:18:00-04:00",
+      "summary": "Applied Ticketmaster receipt evidence for Annie and Six in late 2022 and May 2026 ticket-cost updates for existing performance shells.",
+      "items": [
+        "Annie 2022-11-01: added Ticketmaster total, seats, start time, and order metadata.",
+        "Six Touring: corrected date from 2022-12-03 to receipt-confirmed 2022-12-02 and added Ticketmaster total/seats/start time.",
+        "May 2026 matching shells updated for Heathers, Miracle on South Division Street, Andrea McArdle's Broadway On Demand, SIX, Celebrity Autobiography, Intringulis, and Death Becomes Her."
+      ],
+      "heldItems": [
+        "Nicole Travolta Is Doing Alright — 2026-05-10 5:00 PM — missing shell.",
+        "Forest High and the Glitch in the System — 2026-05-14 7:00 PM — missing shell.",
+        "Memoirs of a Drag Queen — 2026-05-20 7:30 PM — missing shell."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Missing May items were held rather than created without show/cast records."
+      ]
+    },
+    "build350QueueImplementation": {
+      "updatedAt": "2026-09-28T17:31:00-04:00",
+      "summary": "Applied June 2026 ticket-cost updates to existing matching attended shells; no missing or not-attended entries were created.",
+      "items": [
+        "An Evening with Adrienne Warren — 2026-06-01 — Club Free Time reservation for 2, $0.",
+        "Heathers — 2026-06-05 — Telecharge ticket, $49.00.",
+        "Every Brilliant Thing — 2026-06-13 — TodayTix ticket, $45.00.",
+        "The Book of Mormon — 2026-06-16 — Audience Rewards redemption, 500 ShowPoints plus $42."
+      ],
+      "notAttendedItems": [
+        "Orfeh with Britani Bateman & James Carpinello — 2026-06-05.",
+        "MJ — 2026-06-24.",
+        "Nicole Travolta Is Doing Alright — 2026-05-10.",
+        "Forest High and the Glitch in the System — 2026-05-14.",
+        "Memoirs of a Drag Queen — 2026-05-20."
+      ],
+      "guardrails": [
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Existing Book of Mormon cast/program sourceRef was preserved while ticket metadata was corrected from comp to paid Audience Rewards redemption."
+      ]
+    },
+    "build351QueueImplementation": {
+      "updatedAt": "2026-09-28T17:36:00-04:00",
+      "summary": "Applied July 2026 ticket-cost updates to existing matching attended shells; Label Less was recorded as not attended and not added.",
+      "items": [
+        "CATS: The Jellicle Ball — 2026-07-06 — Telecharge receipt, $49.00.",
+        "Dad Don’t Read This — 2026-07-11 — TodayTix order, $13.00 paid after $25.00 credit applied.",
+        "Music City — 2026-07-12 — Club Free Time reservation for 2, $0.",
+        "Heathers — 2026-07-20 — Telecharge receipt, 2 tickets, $98.00 total.",
+        "The Great Gatsby — 2026-07-31 — Telecharge receipt, $49.00."
+      ],
+      "notAttendedItems": [
+        "Label Less — 2026-07-05."
+      ],
+      "guardrails": [
+        "Applied July costs only to existing matching attended performance shells.",
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    "build352QueueImplementation": {
+      "updatedAt": "2026-09-28T17:51:00-04:00",
+      "summary": "Applied August 2026 ticket-cost updates to existing matching attended shells; Label Less was recorded as not attended and not added.",
+      "items": [
+        "Heathers — 2026-08-05 — corrected to $81.00 from Telecharge order 101081251.",
+        "An American Daughter — 2026-08-08 — TodayTix, $35.00.",
+        "Titanique — 2026-08-14 — Theatr App, $58.74.",
+        "The Rocky Horror Show — 2026-08-20 — TodayTix lottery, 2 tickets, $60.00 total.",
+        "Heathers — 2026-08-23 — Telecharge, $49.00.",
+        "The Whoopi Monologues — 2026-08-25 — LCT gift card, $38.50.",
+        "Titanique — 2026-08-27 — TodayTix, $49.00.",
+        "The Lion King — 2026-08-30 — Broadway Direct Lottery, 2 tickets, $70.00 total."
+      ],
+      "notAttendedItems": [
+        "Label Less — 2026-08-05."
+      ],
+      "guardrails": [
+        "Applied August costs only to existing matching attended performance shells.",
+        "No missing or not-attended entries were created.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    "generatedAt": "2026-09-28T17:42:00-04:00",
+    "build353QueueImplementation": {
+      "updatedAt": "2026-09-28T17:58:00-04:00",
+      "summary": "Applied January 2023 ticket audit corrections for Ride the Cyclone and Into the Woods at Signature Theatre.",
+      "items": [
+        "Ride the Cyclone — 2023-01-24 — Arena Stage — marked Comp under Isaac/Arena comp rule.",
+        "Into the Woods — 2023-01-25 — Signature Theatre — applied Gmail-confirmed order 643247, Orchestra North C101/C103, 2 tickets, $175.20 total ($87.60 per ticket)."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Exact Gmail receipt price was used for Into the Woods, not an inferred rush price."
+      ]
+    },
+    "build354QueueImplementation": {
+      "updatedAt": "2026-09-28T18:08:00-04:00",
+      "summary": "Applied early 2025 ticket-cost updates to existing matching performance shells.",
+      "items": [
+        "Titanique — 2025-02-01 — TodayTix, Orchestra B113, $50.00.",
+        "Wicked — 2025-02-02 — TodayTix, Orchestra BB6 restricted view, $152.00.",
+        "Sister Act — 2025-03-24 — TodayTix, Right Orchestra B2, $52.00."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Costs were applied only to existing matching attended shells."
+      ]
+    },
+    "build355QueueImplementation": {
+      "updatedAt": "2026-09-28T18:18:00-04:00",
+      "summary": "Applied April 2025 Annie ticket-cost updates to existing matching National Theatre performance shells.",
+      "items": [
+        "Annie — 2025-04-16 — Ticketmaster, Left Mezzanine G1, $92.30.",
+        "Annie — 2025-04-17 — Broadway Direct Lottery, 2 tickets, $68.00 total, seats not listed.",
+        "Annie — 2025-04-19 — Broadway Direct Lottery, 2 tickets, $68.00 total, seats not listed."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Costs were applied only to existing matching attended shells."
+      ]
+    },
+    "build356QueueImplementation": {
+      "updatedAt": "2026-09-28T17:42:00-04:00",
+      "summary": "Applied Feb-May 2023 comp/rush/Gmail-confirmed audit corrections plus November 2024 and July-October 2024 ticket-cost mini-batches.",
+      "implemented": [
+        "Sometimes the Rain, Sometimes the Sea comped.",
+        "Shucked 2023-04-22 marked Rush at $35 based on Isaac correction plus public 2023 rush policy.",
+        "Kimberly Akimbo 2023-04-23 updated from TelechargeOffers ticket PDF: MR D2/D4, $79 each.",
+        "On the Far End, Spamalot, Blueberries, World Goes Round, and Arena Gala comped; Brendan Padgett added to Spamalot.",
+        "Sweeney Todd 2023-05-24 marked Rush with amount unset due no receipt found.",
+        "November 2024 DBH/Mattress/Roommate/Teeth ticket costs applied.",
+        "& Juliet 2024-07-03, Wicked 2024-08-17, and Lady Day 2024-10-09 applied; Re: Writing Bliss and Fowl Play held as not attended."
+      ],
+      "heldOrUnpriced": [
+        "Wicked 2023-02-07: no clean Gmail purchase confirmation found; left amount blank.",
+        "Moulin Rouge 2023-04-21: no clean Gmail purchase confirmation found; left amount blank.",
+        "Some Like It Hot 2023-04-22: no clean Gmail purchase confirmation found; left amount blank.",
+        "Sweeney Todd 2023-05-24: marked Rush per Isaac; amount blank.",
+        "Re: Writing Bliss 2024-07-18 and Fowl Play 2024-08-17: not attended / not added."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
     }
   },
   "people": {
@@ -180486,6 +180647,12 @@
     "518": {
       "id": 518,
       "title": "Reunions"
+    },
+    "519": {
+      "id": 519,
+      "title": "The Song Inside of Me",
+      "type": "Special Event",
+      "sourceRef": 1502
     }
   },
   "venues": {
@@ -181499,6 +181666,15 @@
       "id": 204,
       "name": "New York City Center - Stage II",
       "city": "New York, NY"
+    },
+    "205": {
+      "id": 205,
+      "name": "The Green Room 42",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "address": "570 Tenth Avenue",
+      "sourceRef": 1502
     }
   },
   "roles": {
@@ -211167,6 +211343,11 @@
       "id": 6580,
       "showId": 518,
       "name": "Don Gonzalo"
+    },
+    "6581": {
+      "id": 6581,
+      "showId": 519,
+      "name": "Performer"
     }
   },
   "performances": {
@@ -226463,25 +226644,74 @@
       "notes": "Attended with Bryant Evans.",
       "performanceMetadata": {
         "companion": "Bryant Evans",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1503,
+        "ticketQuantity": 2,
+        "orderTotal": 97.0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Ticketmaster confirmation order 4-27152/AGF: Annie at Montgomery Performing Arts Centre, Tue Nov 01 2022 7:30 PM; ORCH Row K seats 36–37; total $97.00.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "183f1167bbdf48e6",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
       },
-      "sourceRef": 583
+      "sourceRef": 583,
+      "ticketPrice": 48.5,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "Ticketmaster",
+      "auditSourceRef": 1503,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "seatLocation": {
+        "section": "ORCH",
+        "row": "K",
+        "seats": [
+          "36",
+          "37"
+        ],
+        "display": "ORCH · Row K · Seats 36–37"
+      }
     },
     "682": {
       "id": 682,
       "showId": 259,
-      "date": "2022-12-03",
+      "date": "2022-12-02",
       "venueId": 32,
       "type": "National Tour",
       "time": "Evening",
       "notes": "Conducted by Katie Coleman (verified). Attended with Holland Chupek.",
       "performanceMetadata": {
         "companion": "Holland Chupek",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1503,
+        "ticketQuantity": 2,
+        "orderTotal": 220.95,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Ticketmaster confirmation order 58-15795/SCS: Six (Touring) at Saenger Theatre New Orleans, Fri Dec 02 2022 8:00 PM; ORCHR Row G seats 28 and 30; total $220.95. Corrects prior package date of 2022-12-03.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "184cbccfa7dd733a",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "originalDate": "2022-12-03",
+        "dateCorrection": "Corrected to 2022-12-02 from Ticketmaster confirmation email.",
+        "dateCorrectionSourceRef": 1503
       },
-      "sourceRef": 584
+      "sourceRef": 584,
+      "ticketPrice": 110.475,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "Ticketmaster",
+      "auditSourceRef": 1503,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "seatLocation": {
+        "section": "ORCHR",
+        "row": "G",
+        "seats": [
+          "28",
+          "30"
+        ],
+        "display": "ORCHR · Row G · Seats 28, 30"
+      }
     },
     "683": {
       "id": 683,
@@ -226491,7 +226721,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 585
+      "sourceRef": 585,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1508,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp from Isaac’s January 2023 audit clarification; Arena Stage entry treated under Arena comp rule.",
+        "ticketConfidence": "Isaac direct"
+      },
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD"
     },
     "684": {
       "id": 684,
@@ -226501,7 +226742,26 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 586
+      "sourceRef": 586,
+      "performanceMetadata": {
+        "attendanceSource": "Gmail Signature Theatre order confirmation",
+        "attendanceSourceRef": 1508,
+        "ticketQuantity": 2,
+        "orderTotal": 175.2,
+        "orderTotalCurrency": "USD",
+        "orderNumber": "643247",
+        "customerNumber": "64757",
+        "seatLocation": "Orchestra North C101, C103",
+        "seatSourceRef": 1508,
+        "gmailMessageId": "185e44d19545290c",
+        "ticketNote": "Signature Theatre order 643247: Into the Woods in The MAX, Orchestra North C101/C103, 2 x Full Price, total $175.20 paid on 2023-01-24.",
+        "ticketConfidence": "Gmail-confirmed",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
+      },
+      "ticketType": "Full Price",
+      "ticketSource": "Signature Theatre",
+      "ticketPrice": 87.6,
+      "ticketCurrency": "USD"
     },
     "685": {
       "id": 685,
@@ -226518,7 +226778,9 @@
       "performanceMetadata": {
         "productionLabel": "Munchkinland Tour",
         "productionKey": "wicked-munchkinland-tour",
-        "tour": "Munchkinland Tour"
+        "tour": "Munchkinland Tour",
+        "gmailSearchNote": "Build 356 personal Gmail searches for 2023-02-07 Wicked / Phillips Center / Gainesville did not find a clean purchase confirmation or amount.",
+        "gmailSearchSourceRef": 1511
       }
     },
     "686": {
@@ -226615,7 +226877,9 @@
       "performanceMetadata": {
         "attendanceSource": "Isaac’s direct report",
         "attendanceSourceRef": 1334,
-        "companion": "Brian Moran"
+        "companion": "Brian Moran",
+        "gmailSearchNote": "Build 356 search did not find a clean purchase confirmation or amount for 2023-04-22 Some Like It Hot matinee.",
+        "gmailSearchSourceRef": 1511
       },
       "sourceRef": 592
     },
@@ -226643,7 +226907,27 @@
         "section": "Orchestra Left Far Side",
         "display": "Orchestra Left Far Side"
       },
-      "sourceRef": 594
+      "sourceRef": 594,
+      "performanceMetadata": {
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
+        "ticketNote": "Shucked — user identified ticket as rush; 2023 public rush policy confirms $35 in-person rush tickets at the Nederlander Theatre box office.",
+        "ticketQuantity": 1,
+        "pricePerTicket": 35,
+        "orderTotal": 35,
+        "ticketPolicySource": "Broadway Direct / BroadwayWorld 2023 Shucked rush policy"
+      },
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Box Office Rush",
+      "tags": [
+        "Rush"
+      ],
+      "experienceMarkers": [
+        "Rush"
+      ],
+      "auditSourceRef": 1511
     },
     "692": {
       "id": 692,
@@ -226655,7 +226939,12 @@
       "notes": null,
       "seatLocation": {
         "section": "Mezzanine Right",
-        "display": "Mezzanine Right"
+        "row": "D",
+        "seats": [
+          "2",
+          "4"
+        ],
+        "display": "Mezzanine Right · Row D · Seats 2, 4"
       },
       "programArchiveText": {
         "dateCaptured": "2023-04-23",
@@ -226667,7 +226956,24 @@
         },
         "sourceRef": 170
       },
-      "sourceRef": 595
+      "sourceRef": 595,
+      "performanceMetadata": {
+        "attendanceSource": "Build 356 February-May 2023 audit correction and TelechargeOffers PDF",
+        "attendanceSourceRef": 1511,
+        "gmailMessageId": "187676cb5f8a2063",
+        "ticketNote": "Kimberly Akimbo — 2023-04-23 3:00 PM: TelechargeOffers PDF, Mezzanine Right Row D Seats 2 and 4, $79.00 each, 2 tickets.",
+        "ticketQuantity": 2,
+        "pricePerTicket": 79,
+        "orderTotal": 158,
+        "seatSourceRef": 1511,
+        "orderNumber": "91784854",
+        "personalSeatStatus": "Not identified from two-seat order"
+      },
+      "ticketPrice": 79,
+      "ticketCurrency": "USD",
+      "ticketType": "TelechargeOffers",
+      "ticketSource": "TelechargeOffers.com",
+      "auditSourceRef": 1511
     },
     "693": {
       "id": 693,
@@ -226684,7 +226990,9 @@
       "performanceMetadata": {
         "dateCorrectionSourceRef": 1334,
         "companion": "Paul Villalovoz",
-        "attendanceSource": "Isaac’s direct report"
+        "attendanceSource": "Isaac’s direct report",
+        "gmailSearchNote": "Build 356 search found Jujamcyn performance-information/thank-you emails but no clean purchase confirmation or amount for 2023-04-21 Moulin Rouge.",
+        "gmailSearchSourceRef": 1511
       },
       "sourceRef": 596
     },
@@ -226701,9 +227009,25 @@
         "engagement": "April 1–May 7, 2023",
         "pressNight": "April 10, 2023",
         "festival": "National Capital New Play Festival",
-        "repertoryWith": "Jennifer Who Is Leaving"
+        "repertoryWith": "Jennifer Who Is Leaving",
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
+        "ticketNote": "On the Far End — comp per Isaac correction.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
       },
-      "sourceRef": 597
+      "sourceRef": 597,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "695": {
       "id": 695,
@@ -226727,13 +227051,31 @@
       "venueId": 50,
       "type": "Regional",
       "time": null,
-      "notes": "Attended with Paul Villalovoz.",
+      "notes": "Attended with Paul Villalovoz and Brendan Padgett.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1334,
-        "companion": "Paul Villalovoz"
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
+        "companion": "Paul Villalovoz",
+        "ticketNote": "Spamalot — comp per Isaac correction; Brendan Padgett added as companion alongside Paul Villalovoz.",
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "companions": [
+          "Paul Villalovoz",
+          "Brendan Padgett"
+        ]
       },
-      "sourceRef": 599
+      "sourceRef": 599,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "697": {
       "id": 697,
@@ -226746,13 +227088,27 @@
       "performanceMetadata": {
         "productionKey": "here-there-are-blueberries-stc-2023",
         "productionLabel": "Shakespeare Theatre Company",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
         "companions": [
           "Ryan Merkel"
-        ]
+        ],
+        "ticketNote": "Here There Are Blueberries — comp per Isaac correction.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
       },
-      "sourceRef": 600
+      "sourceRef": 600,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "698": {
       "id": 698,
@@ -226763,13 +227119,27 @@
       "time": "Matinee",
       "notes": "Attended with Paul Villalovoz.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
         "companions": [
           "Paul Villalovoz"
-        ]
+        ],
+        "ticketNote": "The World Goes 'Round — comp per Isaac correction.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
       },
-      "sourceRef": 601
+      "sourceRef": 601,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "699": {
       "id": 699,
@@ -226779,7 +227149,23 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 602
+      "sourceRef": 602,
+      "performanceMetadata": {
+        "attendanceSource": "Build 356 February-May 2023 audit correction and Gmail search",
+        "attendanceSourceRef": 1511,
+        "ticketNote": "Sweeney Todd — 2023-05-24: no clean purchase confirmation found in personal Gmail searches; marked Rush per Isaac instruction. Amount not set because no receipt or price confirmation was found.",
+        "gmailSearchNote": "Searched personal Gmail around 2023-05-24; found 2023-05-16 cancellation/reschedule emails and promo messages, not a 2023-05-24 order receipt."
+      },
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "tags": [
+        "Rush"
+      ],
+      "experienceMarkers": [
+        "Rush"
+      ],
+      "auditSourceRef": 1511
     },
     "700": {
       "id": 700,
@@ -227787,10 +228173,31 @@
       },
       "performanceMetadata": {
         "companion": "Kate Lloyd",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSource": "July-October 2024 ticket-cost audit mini-batch and TodayTix e-ticket email",
+        "attendanceSourceRef": 1513,
+        "gmailMessageId": "19078b8f66933a59",
+        "ticketNote": "& Juliet — 2024-07-03 7:30 PM: TodayTix, Mezzanine JJ14/JJ16 wheelchair/companion locations, $93.59 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 93.59,
+        "seatSourceRef": 1513
       },
-      "sourceRef": 670
+      "sourceRef": 670,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 93.59,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1513,
+      "seatLocation": {
+        "section": "Mezzanine",
+        "row": "JJ",
+        "seats": [
+          "14",
+          "16"
+        ],
+        "display": "Mezzanine · Row JJ · Seats 14, 16 (wheelchair/companion locations)"
+      }
     },
     "770": {
       "id": 770,
@@ -227996,7 +228403,29 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 685
+      "sourceRef": 685,
+      "performanceMetadata": {
+        "attendanceSource": "July-October 2024 ticket-cost audit mini-batch and Mosaic comp ticket email",
+        "attendanceSourceRef": 1513,
+        "gmailMessageId": "19256074eaf31bed",
+        "ticketNote": "Lady Day at Emerson's Bar and Grill — 2024-10-09 7:30 PM: Mosaic comp, 2 tickets, seats unlisted.",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatLocation": "Seats unlisted"
+      },
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Mosaic Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1513
     },
     "785": {
       "id": 785,
@@ -228120,7 +228549,32 @@
         "notes": "Setting: Then, now and beyond. One 15-minute intermission. Bud Weber normalized to Luciano/Doctor/ensemble from supplied page; TV Announcer removed for this entry unless a separate source later supports it.",
         "sourceRef": 693
       },
-      "sourceRef": 694
+      "sourceRef": 694,
+      "performanceMetadata": {
+        "attendanceSource": "November 2024 ticket-cost audit mini-batch and TodayTix confirmation",
+        "attendanceSourceRef": 1512,
+        "gmailMessageId": "193374d71abcadf5",
+        "ticketNote": "Death Becomes Her — 2024-11-20 2:00 PM: TodayTix, Right Mezzanine D128, $87.50.",
+        "ticketQuantity": 1,
+        "orderTotal": 87.5,
+        "seatSourceRef": 1512,
+        "orderNumber": "T111624655747"
+      },
+      "startTime": "2:00 PM",
+      "curtainTime": "2:00 PM",
+      "ticketPrice": 87.5,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1512,
+      "seatLocation": {
+        "section": "Right Mezzanine",
+        "row": "D",
+        "seats": [
+          "128"
+        ],
+        "display": "Right Mezzanine · Row D · Seat 128"
+      }
     },
     "794": {
       "id": 794,
@@ -228133,9 +228587,28 @@
       "performanceMetadata": {
         "runtime": "Approximately 2 hours and 30 minutes",
         "intermission": "One intermission",
-        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast."
+        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast.",
+        "attendanceSource": "November 2024 ticket-cost audit mini-batch and TDF receipt",
+        "attendanceSourceRef": 1512,
+        "gmailMessageId": "1932dc92ecce502e",
+        "ticketNote": "Once Upon a Mattress — 2024-11-20 7:00 PM: TDF general admission, seat unlisted, $64.00.",
+        "ticketQuantity": 1,
+        "orderTotal": 64.0,
+        "seatSourceRef": 1512,
+        "orderNumber": "3503835"
       },
-      "sourceRef": 695
+      "sourceRef": 695,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketPrice": 64.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1512,
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seat unlisted"
+      }
     },
     "795": {
       "id": 795,
@@ -228170,7 +228643,28 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 697
+      "sourceRef": 697,
+      "performanceMetadata": {
+        "attendanceSource": "November 2024 ticket-cost audit mini-batch and TDF receipt",
+        "attendanceSourceRef": 1512,
+        "gmailMessageId": "19347e909d5f61c7",
+        "ticketNote": "The Roommate — 2024-11-21 1:00 PM: TDF general admission, seat unlisted, $55.00.",
+        "ticketQuantity": 1,
+        "orderTotal": 55.0,
+        "seatSourceRef": 1512,
+        "orderNumber": "3517250"
+      },
+      "startTime": "1:00 PM",
+      "curtainTime": "1:00 PM",
+      "ticketPrice": 55.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1512,
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seat unlisted"
+      }
     },
     "797": {
       "id": 797,
@@ -228192,7 +228686,29 @@
         "notes": "No performance slip visible. Existing Julia Bain u/s Keke actual appearance preserved unless separately corrected.",
         "sourceRef": 170
       },
-      "sourceRef": 698
+      "sourceRef": 698,
+      "performanceMetadata": {
+        "attendanceSource": "November 2024 ticket-cost audit mini-batch and TDF receipt",
+        "attendanceSourceRef": 1512,
+        "gmailMessageId": "193433e9225c73a4",
+        "ticketNote": "Teeth — 2024-11-22 7:00 PM: TDF general admission, 2 tickets, seats unlisted, $82.00 total.",
+        "ticketQuantity": 2,
+        "orderTotal": 82.0,
+        "pricePerTicket": 41.0,
+        "seatSourceRef": 1512,
+        "orderNumber": "3513851"
+      },
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketPrice": 82.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1512,
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seats unlisted"
+      }
     },
     "798": {
       "id": 798,
@@ -228316,9 +228832,23 @@
       "performanceMetadata": {
         "productionLabel": "Off-Broadway",
         "productionKey": "titanique-off-broadway",
-        "orchestraProductionKey": "titanique-off-broadway"
+        "orchestraProductionKey": "titanique-off-broadway",
+        "ticketQuantity": 1,
+        "orderTotal": 50.0,
+        "orderNumber": "T012525032075",
+        "seatLocation": "Orchestra B113",
+        "gmailMessageId": "1949b75fd96c4b6b",
+        "attendanceSource": "Early 2025 ticket-cost audit mini-batch and TodayTix confirmation",
+        "attendanceSourceRef": 1509,
+        "seatSourceRef": 1509,
+        "ticketNote": "TodayTix order T012525032075: Orchestra Row B, Seat 113; $50.00; 2025-02-01 9:00 PM."
       },
-      "sourceRef": 706
+      "sourceRef": 706,
+      "startTime": "9:00 PM",
+      "ticketPrice": 50,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix"
     },
     "806": {
       "id": 806,
@@ -228359,9 +228889,24 @@
       "notes": "Conducted by Dan Micciche (verified).\nProgram metadata: one 15-minute intermission.",
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "wicked-broadway"
+        "productionKey": "wicked-broadway",
+        "ticketQuantity": 1,
+        "orderTotal": 152.0,
+        "orderNumber": "T020225675443",
+        "seatLocation": "Orchestra BB6",
+        "seatNote": "Restricted view",
+        "gmailMessageId": "194c7930d9ed945a",
+        "attendanceSource": "Early 2025 ticket-cost audit mini-batch and TodayTix confirmation",
+        "attendanceSourceRef": 1509,
+        "seatSourceRef": 1509,
+        "ticketNote": "TodayTix order T020225675443: Orchestra BB6, restricted view; $152.00; 2025-02-02 7:00 PM."
       },
-      "sourceRef": 709
+      "sourceRef": 709,
+      "startTime": "7:00 PM",
+      "ticketPrice": 152,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix"
     },
     "809": {
       "id": 809,
@@ -228523,9 +229068,23 @@
       "notes": null,
       "performanceMetadata": {
         "productionKey": "sister-act-fords-2025",
-        "productionLabel": "Ford's Theatre"
+        "productionLabel": "Ford's Theatre",
+        "ticketQuantity": 1,
+        "orderTotal": 52.0,
+        "orderNumber": "T031025726551",
+        "seatLocation": "Right Orchestra B2",
+        "gmailMessageId": "1957d8519aac5d7f",
+        "attendanceSource": "Early 2025 ticket-cost audit mini-batch and TodayTix confirmation",
+        "attendanceSourceRef": 1509,
+        "seatSourceRef": 1509,
+        "ticketNote": "TodayTix order T031025726551: Right Orchestra Row B, Seat 2; $52.00; source snippet notes 50% saved; 2025-03-24 7:00 PM."
       },
-      "sourceRef": 720
+      "sourceRef": 720,
+      "startTime": "7:00 PM",
+      "ticketPrice": 52,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix Discount",
+      "ticketSource": "TodayTix"
     },
     "821": {
       "id": 821,
@@ -228617,7 +229176,22 @@
         "notes": "Orphan/principal logic preserved.",
         "sourceRef": 170
       },
-      "sourceRef": 724
+      "sourceRef": 724,
+      "performanceMetadata": {
+        "ticketQuantity": 1,
+        "orderTotal": 92.3,
+        "seatLocation": "Left Mezzanine G1",
+        "gmailMessageId": "19640c8ba46674ad",
+        "attendanceSource": "April 2025 Annie ticket-cost audit mini-batch and Ticketmaster confirmation",
+        "attendanceSourceRef": 1510,
+        "seatSourceRef": 1510,
+        "ticketNote": "Ticketmaster confirmation: Annie (Touring), 2025-04-16 7:30 PM; Sec LMEZZ, Row G, Seat 1; user-supplied total $92.30."
+      },
+      "startTime": "7:30 PM",
+      "ticketPrice": 92.3,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketmaster",
+      "ticketSource": "Ticketmaster"
     },
     "827": {
       "id": 827,
@@ -228639,7 +229213,24 @@
         "notes": "Orphan/principal logic preserved.",
         "sourceRef": 170
       },
-      "sourceRef": 723
+      "sourceRef": 723,
+      "performanceMetadata": {
+        "ticketQuantity": 2,
+        "orderTotal": 68.0,
+        "pricePerTicket": 29.0,
+        "feePerTicket": 5.0,
+        "seatLocation": "Lottery seats; locations not given",
+        "gmailMessageId": "19640394977a9a13",
+        "attendanceSource": "April 2025 Annie ticket-cost audit mini-batch and Broadway Direct Lottery confirmation",
+        "attendanceSourceRef": 1510,
+        "seatSourceRef": 1510,
+        "ticketNote": "Broadway Direct Lottery confirmation: Annie (Washington D.C.), 2025-04-17 7:30 PM; 2 lottery tickets at $29.00 + $5.00 handling fee each; $68.00 total; seat locations not provided."
+      },
+      "startTime": "7:30 PM",
+      "ticketPrice": 34.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Broadway Direct Lottery"
     },
     "828": {
       "id": 828,
@@ -228663,9 +229254,24 @@
       },
       "performanceMetadata": {
         "productionKey": "annie-national-tour-2025",
-        "productionLabel": "National Tour"
+        "productionLabel": "National Tour",
+        "ticketQuantity": 2,
+        "orderTotal": 68.0,
+        "pricePerTicket": 29.0,
+        "feePerTicket": 5.0,
+        "seatLocation": "Lottery seats; locations not given",
+        "gmailMessageId": "1964a23ed660fa82",
+        "attendanceSource": "April 2025 Annie ticket-cost audit mini-batch and Broadway Direct Lottery confirmation",
+        "attendanceSourceRef": 1510,
+        "seatSourceRef": 1510,
+        "ticketNote": "Broadway Direct Lottery confirmation: Annie (Washington D.C.), 2025-04-19 1:00 PM; 2 lottery tickets at $29.00 + $5.00 handling fee each; $68.00 total; seat locations not provided."
       },
-      "sourceRef": 725
+      "sourceRef": 725,
+      "startTime": "1:00 PM",
+      "ticketPrice": 34.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Broadway Direct Lottery"
     },
     "829": {
       "id": 829,
@@ -232723,7 +233329,25 @@
       "type": "Off-Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 895
+      "sourceRef": 895,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Free Reservation",
+      "ticketSource": "Reservation",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Free reservation for 2 supplied by Isaac with Club Free Time confirmation link.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d3fe6a7d9cdc1e"
+      }
     },
     "1007": {
       "id": 1007,
@@ -232820,7 +233444,22 @@
         "notes": "Applied as all-entries normalization/update pass for The Balusters Broadway 2026 entries already in JSON.",
         "sourceRef": 693
       },
-      "sourceRef": 894
+      "sourceRef": 894,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "TodayTix",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "TodayTix confirmation shows Apr. 10, 2026 at 8:00 PM; user-supplied table had 7:00 PM, corrected to receipt time.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19d77b21cca4b1bc"
+      }
     },
     "1012": {
       "id": 1012,
@@ -232837,11 +233476,25 @@
           "Paul Villalovoz"
         ],
         "companion": "Paul Villalovoz",
-        "attendanceSource": "Isaac's direct report",
-        "attendanceSourceRef": 1327,
-        "productionKey": "titanique-broadway"
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "productionKey": "titanique-broadway",
+        "ticketQuantity": 2,
+        "ticketNote": "Cost supplied/confirmed for 2 tickets: $98 total.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 98,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d7ca946b62da07"
       },
-      "sourceRef": 899
+      "sourceRef": 899,
+      "startTime": "3:00 PM",
+      "curtainTime": "3:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "TodayTix",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1013": {
       "id": 1013,
@@ -232908,7 +233561,25 @@
         "notes": "Program snapshot only; actual performance cast/cover state was not changed.",
         "sourceRef": 170
       },
-      "sourceRef": 902
+      "sourceRef": 902,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "Telecharge",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Telecharge confirmation / Isaac table: $98 total for 2.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 98,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d875d0e76ebe05"
+      }
     },
     "1016": {
       "id": 1016,
@@ -232920,9 +233591,25 @@
       "notes": "Conducted by Dave Pepin (verified).",
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "wicked-broadway"
+        "productionKey": "wicked-broadway",
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Broadway Direct lottery confirmation / Isaac table: $110 total for 2 including fees.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 110,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d8c8ac80d5afd0"
       },
-      "sourceRef": 903
+      "sourceRef": 903,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Lottery Win",
+      "ticketSource": "Broadway Direct Lottery",
+      "ticketPrice": 55,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1017": {
       "id": 1017,
@@ -232960,7 +233647,25 @@
       "time": "Evening",
       "notes": null,
       "runtimeNote": "Performed without an intermission.",
-      "sourceRef": 905
+      "sourceRef": 905,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Free Reservation",
+      "ticketSource": "Reservation",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Free reservation for 2 supplied by Isaac with Club Free Time confirmation link.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d923c3b665a3de"
+      }
     },
     "1019": {
       "id": 1019,
@@ -232970,7 +233675,25 @@
       "type": "Off-Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 906
+      "sourceRef": 906,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Free Reservation",
+      "ticketSource": "Reservation",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Free reservation for 2 supplied by Isaac with Club Free Time confirmation link.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d8c7b6daa34341"
+      }
     },
     "1020": {
       "id": 1020,
@@ -232993,9 +233716,25 @@
       "performanceMetadata": {
         "producerRosterSourceRef": 1357,
         "productionWideProducerRosterConfirmed": "Current Aug. 15 Playbill + IBDB; applied retroactively at Isaac’s direction.",
-        "canonicalSpellingCorrection": "Kyler England (prior Cuebook typo: Kylter England), confirmed by current Playbill and IBDB."
+        "canonicalSpellingCorrection": "Kyler England (prior Cuebook typo: Kylter England), confirmed by current Playbill and IBDB.",
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Broadway Direct lottery confirmation / Isaac table: $90 total for 2.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 90,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d9cd990b641ac1"
       },
-      "sourceRef": 908
+      "sourceRef": 908,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketType": "Lottery Win",
+      "ticketSource": "Broadway Direct Lottery",
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1022": {
       "id": 1022,
@@ -233005,7 +233744,22 @@
       "type": "Off-Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 909
+      "sourceRef": 909,
+      "startTime": "3:00 PM",
+      "curtainTime": "3:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "Telecharge",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "Telecharge confirmation / Isaac table: $49.00.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19da65cd2dcb7692"
+      }
     },
     "1023": {
       "id": 1023,
@@ -233038,9 +233792,22 @@
       "performanceMetadata": {
         "orchestraProductionKey": "titanique-broadway",
         "productionLabel": "Broadway",
-        "productionKey": "titanique-broadway"
+        "productionKey": "titanique-broadway",
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "Theatr confirmation / Isaac table: $48.05.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19dac5a32ee3a727"
       },
-      "sourceRef": 891
+      "sourceRef": 891,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketType": "Regular",
+      "ticketSource": "Theatr App",
+      "ticketPrice": 48.05,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1026": {
       "id": 1026,
@@ -233090,7 +233857,25 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": "Conducted by Daniel Edmonds (verified).",
-      "sourceRef": 914
+      "sourceRef": 914,
+      "startTime": "2:00 PM",
+      "curtainTime": "2:00 PM",
+      "ticketType": "Lottery Win",
+      "ticketSource": "Telecharge Lottery",
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Isaac identified as lottery tickets; Telecharge confirmation shows $90 total for 2.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 90,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19dc0fad889241f8"
+      }
     },
     "1031": {
       "id": 1031,
@@ -233100,7 +233885,22 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 915
+      "sourceRef": 915,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "Telecharge",
+      "ticketPrice": 69,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "Telecharge confirmation / Isaac table: $69.00.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19dc66115bbff98f"
+      }
     },
     "1032": {
       "id": 1032,
@@ -233110,7 +233910,22 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 916
+      "sourceRef": 916,
+      "startTime": "3:00 PM",
+      "curtainTime": "3:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "TodayTix",
+      "ticketPrice": 53,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "TodayTix confirmation / Isaac table: $53.00.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19dc9e24ca5509e5"
+      }
     },
     "1033": {
       "id": 1033,
@@ -233147,7 +233962,22 @@
       "type": "Off-Broadway",
       "time": "Evening",
       "notes": "Conducted by Mona Seyed-Bolorforosh (piano-conductor; verified).",
-      "sourceRef": 918
+      "sourceRef": 918,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "TodayTix",
+      "ticketPrice": 78.3,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "performanceMetadata": {
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "ticketNote": "TodayTix confirmation / Isaac table: $78.30.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "gmailMessageId": "19cfc0aa078c37cc"
+      }
     },
     "1036": {
       "id": 1036,
@@ -233172,10 +234002,24 @@
           "Sabrina Clark"
         ],
         "companion": "Sabrina Clark",
-        "attendanceSource": "Isaac's direct report",
-        "attendanceSourceRef": 1327
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "TDF confirmation / Isaac table: $127 total for 2. Existing Sabrina Clark companion preserved.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 127,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19dc03569d992ce5"
       },
-      "sourceRef": 920
+      "sourceRef": 920,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "Regular",
+      "ticketSource": "TDF",
+      "ticketPrice": 63.5,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1038": {
       "id": 1038,
@@ -233302,10 +234146,24 @@
           "Sabrina Clark"
         ],
         "companion": "Sabrina Clark",
-        "attendanceSource": "Isaac's direct report",
-        "attendanceSourceRef": 1327
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 2,
+        "orderTotal": 98.0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Telecharge confirmation 100258316: 2 tickets for $98.00, Heathers, Sun May 03 2026 6:30 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19dee5ce129f1fff",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
       },
-      "sourceRef": 924
+      "sourceRef": 924,
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "Telecharge",
+      "auditSourceRef": 1504,
+      "startTime": "6:30 PM",
+      "curtainTime": "6:30 PM"
     },
     "1043": {
       "id": 1043,
@@ -233331,13 +234189,36 @@
       "date": "2024-08-17",
       "venueId": 14,
       "type": "Broadway",
-      "time": "Evening",
+      "time": "Matinee",
       "notes": null,
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "wicked-broadway"
+        "productionKey": "wicked-broadway",
+        "attendanceSource": "July-October 2024 ticket-cost audit mini-batch and TodayTix confirmation",
+        "attendanceSourceRef": 1513,
+        "gmailMessageId": "1915c367faaa712d",
+        "ticketNote": "Wicked — 2024-08-17 2:00 PM: TodayTix, Orchestra BB6 restricted view, $105.00.",
+        "ticketQuantity": 1,
+        "orderTotal": 105.0,
+        "seatSourceRef": 1513,
+        "orderNumber": "T081624118085"
       },
-      "sourceRef": 926
+      "sourceRef": 926,
+      "startTime": "2:00 PM",
+      "curtainTime": "2:00 PM",
+      "ticketPrice": 105.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1513,
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "BB",
+        "seats": [
+          "6"
+        ],
+        "display": "Orchestra · Row BB · Seat 6 (restricted view)"
+      }
     },
     "1045": {
       "id": 1045,
@@ -233513,7 +234394,24 @@
       "type": "Off-Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 931
+      "sourceRef": 931,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Reservation",
+      "ticketSource": "Club Free Time",
+      "auditSourceRef": 1504,
+      "startTime": "2:00 PM",
+      "curtainTime": "2:00 PM",
+      "performanceMetadata": {
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 1,
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Club Free Time confirmation: 1 free ticket for Miracle on South Division Street, Sun May 10 2026 2:00 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e0359ed5748e7a"
+      }
     },
     "1053": {
       "id": 1053,
@@ -233601,9 +234499,25 @@
       "notes": null,
       "performanceMetadata": {
         "orchestraProductionKey": "six-broadway",
-        "productionLabel": "Broadway"
+        "productionLabel": "Broadway",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 2,
+        "orderTotal": 90.0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Broadway Direct Lottery confirmation: SIX (NY), Sat May 16 2026 8:00 PM, $40 + $5 fee per ticket, 2 tickets, $90 total.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e2e1a0100341c2",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
       },
-      "sourceRef": 935
+      "sourceRef": 935,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Broadway Direct Lottery",
+      "auditSourceRef": 1504,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM"
     },
     "1057": {
       "id": 1057,
@@ -233616,10 +234530,17 @@
       "performanceMetadata": {
         "orchestraProductionKey": "celebrity-autobiography-broadway-2026",
         "companion": "Jill Weissman",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": "unknown",
+        "ticketNote": "Table 7 RSVP confirmation supplied by Isaac; amount not stated in the supplied table/tool excerpt.",
+        "ticketConfidence": "Gmail-confirmed; amount not stated",
+        "gmailMessageId": "19e2c879924a91cd"
       },
-      "sourceRef": 936
+      "sourceRef": 936,
+      "ticketType": "Confirmed Reservation",
+      "ticketSource": "Table 7 RSVP",
+      "auditSourceRef": 1504
     },
     "1058": {
       "id": 1058,
@@ -233660,10 +234581,25 @@
       "performanceMetadata": {
         "orchestraProductionKey": "six-broadway",
         "productionLabel": "Broadway",
-        "dateCorrection": "Corrected from 2026-05-17 to 2026-05-18 in Build 225; Maggie Likcani Cleves debut independently corroborated as May 18, 2026."
+        "dateCorrection": "Corrected from 2026-05-17 to 2026-05-18 in Build 225; Maggie Likcani Cleves debut independently corroborated as May 18, 2026.",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 1,
+        "orderTotal": 53.99,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Theatr confirmation: Six, Mon May 18 2026 7:00 PM, quantity 1, total $53.99 including fees.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e3d246ee2b3983"
       },
       "correctionSourceRef": 1379,
-      "sourceRef": 938
+      "sourceRef": 938,
+      "ticketPrice": 53.99,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "Theatr App",
+      "auditSourceRef": 1504,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM"
     },
     "1060": {
       "id": 1060,
@@ -233841,9 +234777,25 @@
       "performanceMetadata": {
         "titleAlias": "Intringulis",
         "type": "Solo performance",
-        "sourceRef": 948
+        "sourceRef": 948,
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Club Free Time confirmation: 2 free tickets for Intringulis, Tue May 26 2026 7:00 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e51aaaac1eee78",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
       },
-      "sourceRef": 949
+      "sourceRef": 949,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Reservation",
+      "ticketSource": "Club Free Time",
+      "auditSourceRef": 1504,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM"
     },
     "1068": {
       "id": 1068,
@@ -233878,7 +234830,25 @@
         "notes": "Bud Weber u/s Stefan; Justin O'Brien swing in TV Announcer/Luciano/Doctor track.",
         "sourceRef": 951
       },
-      "sourceRef": 952
+      "sourceRef": 952,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Broadway Direct Lottery",
+      "auditSourceRef": 1504,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "performanceMetadata": {
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 2,
+        "orderTotal": 90.0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Broadway Direct Lottery confirmation: Death Becomes Her (NY), Thu May 28 2026 7:00 PM, $40 + $5 fee per ticket, 2 tickets, $90 total.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e6a9d358b90d04",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
+      }
     },
     "1070": {
       "id": 1070,
@@ -234059,12 +235029,27 @@
       },
       "performanceMetadata": {
         "runtime": "Approximately 2 hours and 30 minutes",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1505,
+        "ticketQuantity": 1,
+        "orderTotal": 49,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Telecharge confirmation 100595166: 1 ticket for $49.00, Heathers, Fri Jun 05 2026 7:00 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e9983b7d4952d9"
       },
       "conductor": "Josh Kight",
       "conductorVerified": true,
       "pianoConductor": true,
-      "sourceRef": 964
+      "sourceRef": 964,
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "Telecharge",
+      "auditSourceRef": 1505,
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM"
     },
     "1079": {
       "id": 1079,
@@ -234161,7 +235146,24 @@
       "time": "Evening",
       "notes": "Broadway performance at Hudson Theatre; Balcony C 13. Program/signage photos supplied.",
       "seatLocation": "Balcony C 13",
-      "sourceRef": 969
+      "sourceRef": 969,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "Regular",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1505,
+      "startTime": "8:30 PM",
+      "curtainTime": "8:30 PM",
+      "performanceMetadata": {
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1505,
+        "ticketQuantity": 1,
+        "orderTotal": 45,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "TodayTix confirmation supplied by Isaac for Every Brilliant Thing, Sat Jun 13 2026 8:30 PM; user-supplied cost $45.00.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19ec1155657b777a"
+      }
     },
     "1084": {
       "id": 1084,
@@ -234202,20 +235204,22 @@
       "startTime": "7:00 PM",
       "curtainTime": "7:00 PM",
       "seatLocation": {
-        "section": "Orchestra Left",
+        "section": "Orchestra",
         "row": "P",
         "seat": "7",
-        "display": "Orchestra Left P 7"
+        "display": "Orchestra · Row P · Seat 7"
       },
-      "ticketType": "Audience Rewards Comp",
-      "ticketPrice": 0,
+      "ticketType": "Audience Rewards Redemption",
+      "ticketPrice": 42,
       "ticketCurrency": "USD",
       "ticketOrderId": "4396960",
       "ticketSource": "Audience Rewards",
       "experienceMarkers": [
-        "Comp"
+        "Audience Rewards"
       ],
-      "tags": "Comp",
+      "tags": [
+        "Audience Rewards"
+      ],
       "conductor": "Adam Ben-David",
       "conductorVerified": true,
       "notes": "Audience Rewards comp; Orchestra Left P 7. Actual cast entered from at-this-performance slip supplied by Isaac. Conducted by Adam Ben-David per Isaac verification; program page lists Adam Ben-David as Associate Conductor. C.K. Edwards, Arbender J. Robinson, and Racquel Williams marked as swings per Isaac note.",
@@ -234223,10 +235227,22 @@
         "programUpdateVersion": "v8.11.2",
         "intermission": "One 15-minute intermission",
         "actualCastSource": "At This Performance slip supplied by Isaac",
-        "conductorSource": "Conducted by Adam Ben-David per Isaac verification; program page lists Adam Ben-David as Associate Conductor."
+        "conductorSource": "Conducted by Adam Ben-David per Isaac verification; program page lists Adam Ben-David as Associate Conductor.",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1505,
+        "ticketQuantity": 1,
+        "orderTotal": 42,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Audience Rewards confirmation: The Book of Mormon, Tue Jun 16 2026 7:00 PM; Orchestra P 7; cost 500 ShowPoints plus $42.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e6fc482d11d42d",
+        "showPointsRedeemed": 500,
+        "audienceRewardsOrderNumber": "122174198",
+        "ticketOrderId": "4396960"
       },
       "programArchiveText": "THE BOOK OF MORMON — Broadway / Eugene O'Neill Theatre / 2026-06-16 evening. Ticket: Orchestra Left P 7; Audience Rewards comp; order 4396960. Actual cast from at-this-performance slip supplied by Isaac. Orchestra/program/staff pages supplied by Isaac. Conducted by Adam Ben-David per Isaac verification; program lists Adam Ben-David as Associate Conductor.",
-      "sourceRef": 971
+      "sourceRef": 971,
+      "auditSourceRef": 1505
     },
     "1086": {
       "id": 1086,
@@ -234791,9 +235807,15 @@
         "atThisPerformanceSource": "Playbill At This Performance screenshots supplied by Isaac for 2026-07-06 7:00 PM.",
         "catsCastOrderNote": "Build 109 preserves the Build 108 CATS July 6 cast update and adds Isaac-supplied seat/ticket/conductor details.",
         "coverNote": "ATP screenshots list role exceptions only. Cover-type chips use existing CATS Broadway diary conventions where already established; Elisa Galindez remains temporary replacement per prior Isaac correction.",
-        "ticketNote": "Rush, $49; Orchestra G 2",
+        "ticketNote": "Rush, $49; Orchestra G 2; Telecharge confirmation 100850515.",
         "conductor": "William Waldrop",
-        "conductorVerified": true
+        "conductorVerified": true,
+        "ticketQuantity": 1,
+        "orderTotal": 49.0,
+        "confirmationNumber": "100850515",
+        "gmailMessageId": "19f39255b66d611b",
+        "attendanceSource": "July 2026 ticket-cost audit table and Telecharge receipt",
+        "attendanceSourceRef": 1506
       },
       "seatLocation": {
         "section": "Orchestra",
@@ -234802,7 +235824,7 @@
         "display": "Orchestra G 2"
       },
       "ticketType": "Rush",
-      "ticketSource": "Rush",
+      "ticketSource": "Telecharge",
       "ticketPrice": 49,
       "ticketCurrency": "USD",
       "conductor": "William Waldrop",
@@ -234868,15 +235890,25 @@
       "notes": "Seen July 11, 2026 afternoon at Greenwich House Theater. Seat Mezzanine BB1. Attended with Aaron Byrnes. TodayTix Rush ticket, $38. Runtime approximately 95 minutes with no intermission.",
       "performanceMetadata": {
         "implementationStatus": "Complete",
-        "sourceType": "Program and attendance details supplied directly by Isaac"
+        "sourceType": "Program and attendance details supplied directly by Isaac",
+        "ticketQuantity": 1,
+        "orderSubtotalBeforeCredit": 38.0,
+        "creditApplied": 25.0,
+        "orderTotal": 13.0,
+        "orderNumber": "T071126327949",
+        "gmailMessageId": "19f514503a507336",
+        "attendanceSource": "July 2026 ticket-cost audit table and TodayTix receipt",
+        "attendanceSourceRef": 1506,
+        "ticketNote": "TodayTix order T071126327949; $13 paid after $25 credit applied."
       },
       "seatLocation": "Mezzanine BB1",
-      "ticketSource": "TodayTix Rush",
-      "ticketPrice": 38,
+      "ticketSource": "TodayTix",
+      "ticketPrice": 13,
       "ticketCurrency": "USD",
       "runtime": "Approximately 95 minutes",
       "intermission": "No intermission",
-      "sourceRef": 1000
+      "sourceRef": 1000,
+      "ticketType": "TodayTix Credit / Paid Balance"
     },
     "1105": {
       "id": 1105,
@@ -234897,7 +235929,13 @@
         ],
         "setting": "East Nashville, TN",
         "programCaptured": "2026-07-12",
-        "programSource": "Build 145: Music City board and Playbill photographs supplied by Isaac on 2026-07-12"
+        "programSource": "Build 145: Music City board and Playbill photographs supplied by Isaac on 2026-07-12",
+        "ticketQuantity": 2,
+        "orderTotal": 0.0,
+        "gmailMessageId": "19f57463d6d0d911",
+        "attendanceSource": "July 2026 ticket-cost audit table and Club Free Time reservation",
+        "attendanceSourceRef": 1506,
+        "ticketNote": "Club Free Time reservation for 2, $0."
       },
       "setting": "East Nashville, TN",
       "programArchiveText": {
@@ -234913,7 +235951,10 @@
         },
         "sourceRef": 1001
       },
-      "sourceRef": 1002
+      "sourceRef": 1002,
+      "ticketPrice": 0,
+      "ticketType": "Reservation",
+      "ticketSource": "Club Free Time"
     },
     "1106": {
       "id": 1106,
@@ -235066,7 +236107,7 @@
         "display": "C 108"
       },
       "ticketType": "Rush",
-      "ticketSource": "Rush",
+      "ticketSource": "Telecharge",
       "ticketPrice": 49,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -235085,8 +236126,14 @@
         "programCaptured": "2026-07-20",
         "programSource": "Heathers July 20, 2026 program and at-this-performance board supplied by Isaac",
         "actualCastSource": "At-this-performance board photographed by Isaac, 2026-07-20",
-        "ticketNote": "C 108; $49 Rush; with Brian Moran",
-        "companion": "Brian Moran"
+        "ticketNote": "C 108; $49 per ticket; 2 tickets, $98 total; with Brian Moran; Telecharge confirmation 100959618.",
+        "companion": "Brian Moran",
+        "ticketQuantity": 2,
+        "orderTotal": 98.0,
+        "confirmationNumber": "100959618",
+        "gmailMessageId": "19f803049abbb452",
+        "attendanceSource": "July 2026 ticket-cost audit table and Telecharge receipt",
+        "attendanceSourceRef": 1506
       },
       "programArchiveText": {
         "dateCaptured": "2026-07-20",
@@ -235432,9 +236479,25 @@
           "Abby Cady"
         ],
         "timeStatus": "Evening supplied by attendance context; exact curtain not supplied",
-        "actualCastStatus": "No substitutions confirmed by user; printed eight-person cast is actual."
+        "actualCastStatus": "No substitutions confirmed by user; printed eight-person cast is actual.",
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
+        "ticketNote": "Sometimes the Rain, Sometimes the Sea — comped per Isaac correction.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
       },
-      "sourceRef": 1017
+      "sourceRef": 1017,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "1123": {
       "id": 1123,
@@ -235812,7 +236875,7 @@
         "display": "Orchestra Right L 13"
       },
       "ticketType": "Rush",
-      "ticketSource": "Rush",
+      "ticketSource": "Telecharge",
       "ticketPrice": 49,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -235828,9 +236891,9 @@
         "intermission": "One 15-minute intermission",
         "actualCastSource": "Isaac-supplied Playbill and current cast-change notice",
         "printedCompanySource": "Current Playbill pages supplied by Isaac",
-        "attendanceSource": "Isaac’s direct report and supplied photographs",
-        "attendanceSourceRef": 1345,
-        "ticketNote": "Orchestra Right L 13; $49 Rush",
+        "attendanceSource": "July 2026 ticket-cost audit table and Telecharge receipt",
+        "attendanceSourceRef": 1506,
+        "ticketNote": "Orchestra Right L 13; $49 Rush; Telecharge confirmation 101040400.",
         "currentPrincipalUpdate": {
           "role": "Mr. McKee & Bystander #2",
           "person": "Tanner Callicutt",
@@ -235841,7 +236904,11 @@
           "Emily Anne Nester — Mrs. McKee",
           "Elena Ricardo — Gilda Gray"
         ],
-        "temporaryReplacement": "Senzel Ahmady — Daisy Buchanan"
+        "temporaryReplacement": "Senzel Ahmady — Daisy Buchanan",
+        "ticketQuantity": 1,
+        "orderTotal": 49.0,
+        "confirmationNumber": "101040400",
+        "gmailMessageId": "19fb8b3bb39a943f"
       },
       "programArchiveText": {
         "id": 111,
@@ -235921,7 +236988,7 @@
         "seat": "31",
         "display": "Mezzanine B 31"
       },
-      "ticketPrice": 87,
+      "ticketPrice": 81,
       "ticketCurrency": "USD",
       "conductor": "Mona Seyed-Bolorforosh",
       "conductorVerified": true,
@@ -235939,7 +237006,7 @@
         "programCaptured": "2026-08-05",
         "programSource": "Current Heathers program pages supplied by Isaac",
         "actualCastSource": "At-this-performance slips and New World Stages lobby board supplied by Isaac, 2026-08-05",
-        "ticketNote": "Mezzanine B 31; $87 USD",
+        "ticketNote": "Left Mezzanine B31; total $81.00 including $12 fee; Telecharge order 101081251.",
         "companionStatus": "Not supplied",
         "roleDebut": "Kiara Michelle Lee — Veronica Sawyer",
         "substitutions": [
@@ -235948,7 +237015,13 @@
           "James Caleb Grice — Ram Sweeney (Understudy)",
           "Louis Griffin — Beleaguered Geek / Officer McCord (Swing)"
         ],
-        "sourceRef": 1027
+        "sourceRef": 1027,
+        "ticketQuantity": 1,
+        "orderTotal": 81.0,
+        "orderNumber": "101081251",
+        "gmailMessageId": "19fd398ea64f9a1c",
+        "attendanceSource": "August 2026 ticket-cost audit table and Telecharge receipt",
+        "attendanceSourceRef": 1507
       },
       "programArchiveText": {
         "dateCaptured": "2026-08-05",
@@ -235963,7 +237036,9 @@
         "notes": "Kiara Michelle Lee’s Veronica Sawyer debut.",
         "sourceRef": 1027
       },
-      "sourceRef": 1027
+      "sourceRef": 1027,
+      "ticketType": "Telecharge",
+      "ticketSource": "Telecharge"
     },
     "1134": {
       "id": 1134,
@@ -235993,10 +237068,14 @@
         "productionKey": "an-american-daughter-off-broadway-2026",
         "openingNight": "2026-08-11",
         "intermission": "One 15-minute intermission",
-        "attendanceSource": "Isaac’s direct report and supplied current program",
-        "attendanceSourceRef": 1352,
-        "ticketNote": "A 114; $35 TodayTix Rush",
-        "printedRosterOnly": false
+        "attendanceSource": "August 2026 ticket-cost audit table and TodayTix receipt",
+        "attendanceSourceRef": 1507,
+        "ticketNote": "A 114; $35 TodayTix Rush; TodayTix order T080826387502.",
+        "printedRosterOnly": false,
+        "ticketQuantity": 1,
+        "orderTotal": 35.0,
+        "orderNumber": "T080826387502",
+        "gmailMessageId": "19fe1a59d7e3d11b"
       },
       "programArchiveText": {
         "dateCaptured": "2026-08-08",
@@ -236226,7 +237305,7 @@
         "display": "C 14"
       },
       "ticketType": "Theatr App",
-      "ticketPrice": 58,
+      "ticketPrice": 58.74,
       "ticketCurrency": "USD",
       "conductor": "Geoffrey Ko",
       "conductorVerified": true,
@@ -236238,14 +237317,17 @@
         "programBasePerformanceId": 1132,
         "programSource": "Current Broadway production/program structure copied from the August 1, 2026 same-production snapshot; current official roster corroborated against the supplied Aug. 14 At This Performance changes.",
         "actualCastSource": "Isaac-supplied Playbill At This Performance screenshots + Isaac direct track/conductor/status confirmation + current official Broadway roster for unchanged regular tracks.",
-        "attendanceSource": "Isaac direct report",
-        "attendanceSourceRef": 1358,
-        "ticketNote": "C 14; Theatr App; $58 USD.",
+        "attendanceSource": "August 2026 ticket-cost audit table and Theatr App receipt",
+        "attendanceSourceRef": 1507,
+        "ticketNote": "C 14; Theatr App; total $58.74.",
         "actualConductorSupplied": true,
         "conductor": "Geoffrey Ko",
         "backgroundVocalistTrackNote": "Terrence Williams Jr. performed as Vacation Swing (V/S) in Sara Gallo’s Background Vocalist track. Polanco Jones Jr. and Kristina Leopold remained the other regular Background Vocalists.",
         "russellDanielsStatus": "Temporary Replacement Ruth DeWitt Bukater during the announced Aug. 1–16 coverage period.",
-        "improvNote": "“Bye, Karoline!” audience singalong."
+        "improvNote": "“Bye, Karoline!” audience singalong.",
+        "ticketQuantity": 1,
+        "orderTotal": 58.74,
+        "gmailMessageId": "1a0023122330e54e"
       },
       "programArchiveText": {
         "performanceId": 1138,
@@ -236261,7 +237343,8 @@
         "notes": "No companion supplied. No additional substitutions beyond the supplied At This Performance notices and direct track/status corrections were introduced.",
         "sourceRef": 1
       },
-      "sourceRef": 1
+      "sourceRef": 1,
+      "ticketSource": "Theatr App"
     },
     "1139": {
       "id": 1139,
@@ -236444,7 +237527,7 @@
         "display": "J 12"
       },
       "ticketType": "Lottery",
-      "ticketSource": "Lottery",
+      "ticketSource": "TodayTix",
       "ticketPrice": 30,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -236460,12 +237543,16 @@
         "companions": [
           "Brendan Padgett"
         ],
-        "attendanceSource": "Isaac direct report",
-        "attendanceSourceRef": 1368,
+        "attendanceSource": "August 2026 ticket-cost audit table and TodayTix receipt",
+        "attendanceSourceRef": 1507,
         "actualCastSource": "Current printed cast page supplied by Isaac; no separate At This Performance substitution notice supplied.",
         "programSource": "Current Studio 54 Playbill pages supplied by Isaac.",
         "openingNight": "2026-04-23",
-        "ticketNote": "J 12; $30 Lottery; attended with Brendan Padgett."
+        "ticketNote": "J 12; lottery; 2 tickets, $60 total; attended with Brendan Padgett; TodayTix order T082026678917.",
+        "ticketQuantity": 2,
+        "orderTotal": 60.0,
+        "orderNumber": "T082026678917",
+        "gmailMessageId": "1a01f49fe657212b"
       },
       "programArchiveText": {
         "performanceId": 1142,
@@ -236496,7 +237583,7 @@
         "display": "C 114"
       },
       "ticketType": "Rush",
-      "ticketSource": "Rush",
+      "ticketSource": "Telecharge",
       "ticketPrice": 49,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -236515,7 +237602,7 @@
         "programCaptured": "2026-08-23",
         "programSource": "Current Heathers program pages supplied by Isaac",
         "actualCastSource": "At-this-performance and conductor board photographed by Isaac, 2026-08-23",
-        "ticketNote": "C 114; $49 Rush",
+        "ticketNote": "C 114; $49 Rush; Telecharge confirmation 101208909.",
         "companionStatus": "Not supplied",
         "substitutions": [
           "Devin Lewis — Jason “J.D.” Dean (Understudy)",
@@ -236524,7 +237611,13 @@
           "Thalia Atallah — New Wave Party Girl / Ensemble (Swing)",
           "Devin Cortez — Beleaguered Geek / Officer McCord / Ensemble (Swing)"
         ],
-        "sourceRef": 1031
+        "sourceRef": 1031,
+        "ticketQuantity": 1,
+        "orderTotal": 49.0,
+        "confirmationNumber": "101208909",
+        "gmailMessageId": "1a02f6babd75bb08",
+        "attendanceSource": "August 2026 ticket-cost audit table and Telecharge receipt",
+        "attendanceSourceRef": 1507
       },
       "programArchiveText": {
         "dateCaptured": "2026-08-23",
@@ -236615,9 +237708,9 @@
         "seat": "32",
         "display": "D32"
       },
-      "ticketType": "LincTix",
-      "ticketSource": "LincTix",
-      "ticketPrice": 28,
+      "ticketType": "Gift Card",
+      "ticketSource": "Lincoln Center Theater",
+      "ticketPrice": 38.5,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "LincTix"
@@ -236636,11 +237729,11 @@
           "Forever"
         ],
         "runtimeNote": "Performed without an intermission.",
-        "attendanceSource": "Isaac direct report",
-        "attendanceSourceRef": 1386,
+        "attendanceSource": "August 2026 ticket-cost audit table and LCT confirmation",
+        "attendanceSourceRef": 1507,
         "actualCastSource": "At This Performance board and current Playbill pages supplied by Isaac.",
         "programSource": "Current Playbill title, cast, understudy, and show-specific staff pages supplied 2026-08-25.",
-        "ticketNote": "D32; $28 LincTix.",
+        "ticketNote": "Right Orchestra E34; total $38.50 paid by gift card; LCT order 101014808.",
         "substitutions": [
           {
             "role": "Blonde Girl",
@@ -236654,7 +237747,11 @@
             "actualPerformer": "Denise Manning",
             "coverType": "understudy"
           }
-        ]
+        ],
+        "ticketQuantity": 1,
+        "orderTotal": 38.5,
+        "orderNumber": "101014808",
+        "gmailMessageId": "19fa4f3d60944b28"
       },
       "programArchiveText": {
         "id": 133,
@@ -236687,8 +237784,8 @@
         "seat": "17",
         "display": "D17"
       },
-      "ticketType": "Rush",
-      "ticketSource": "Rush",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
       "ticketPrice": 49,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -236707,11 +237804,16 @@
         "programBasePerformanceId": 1144,
         "programSource": "Current Broadway company/program structure copied from 2026-08-24 same-production snapshot; attendance and Fan Night special appearances from Isaac direct report.",
         "actualCastSource": "Isaac direct report, 2026-08-27",
-        "attendanceSource": "Isaac direct report",
-        "ticketNote": "D17; $49 Rush.",
+        "attendanceSource": "August 2026 ticket-cost audit table and TodayTix receipt",
+        "ticketNote": "Orchestra Left D17; $49; TodayTix order T082726117083.",
         "actualConductorSupplied": false,
         "eventType": "Fan Night",
-        "specialAppearanceNote": "Special guest appearances are non-role performance relationships and do not count as cast or role credits."
+        "specialAppearanceNote": "Special guest appearances are non-role performance relationships and do not count as cast or role credits.",
+        "ticketQuantity": 1,
+        "orderTotal": 49.0,
+        "orderNumber": "T082726117083",
+        "gmailMessageId": "1a0435b4ae76f7e1",
+        "attendanceSourceRef": 1507
       },
       "sourceRef": 1033
     },
@@ -236783,7 +237885,7 @@
       "time": "Matinee",
       "startTime": "1:00 PM",
       "curtainTime": "1:00 PM",
-      "ticketType": "Rush",
+      "ticketType": "Lottery",
       "ticketPrice": 35,
       "ticketCurrency": "USD",
       "seatLocation": {
@@ -236795,9 +237897,18 @@
       "notes": "With Brendan Padgett. Michael Hollick u/s Pumbaa; Alia Kache s/w Ensemble (track owner unresolved); conducted by Cherie Rosen. Current Broadway Playbill/company snapshot captured.",
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "intermission": null
+        "intermission": null,
+        "ticketQuantity": 2,
+        "pricePerTicket": 30.0,
+        "feePerTicket": 5.0,
+        "orderTotal": 70.0,
+        "gmailMessageId": "1a04ef287fadc53a",
+        "attendanceSource": "August 2026 ticket-cost audit table and Broadway Direct Lottery receipt",
+        "attendanceSourceRef": 1507,
+        "ticketNote": "Lottery; $30 ticket + $5 handling fee per ticket; 2 tickets, $70 total."
       },
-      "sourceRef": 1411
+      "sourceRef": 1411,
+      "ticketSource": "Broadway Direct Lottery"
     },
     "1150": {
       "id": 1150,
@@ -237142,8 +238253,29 @@
       "startTime": "7:30 PM",
       "performanceMetadata": {
         "specialEventSubtype": "Concert",
-        "productionLabel": "92NY concert"
-      }
+        "productionLabel": "92NY concert",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1505,
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Club Free Time reservation confirmation: 2 free tickets for An Evening with Adrienne Warren, Mon Jun 1 2026 7:30 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e6ef24e266b952",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Reservation",
+      "ticketSource": "Club Free Time",
+      "auditSourceRef": 1505,
+      "curtainTime": "7:30 PM",
+      "experienceMarkers": [
+        "Reservation"
+      ],
+      "tags": [
+        "Reservation"
+      ]
     },
     "1160": {
       "id": 1160,
@@ -237204,8 +238336,23 @@
       "startTime": "7:00 PM",
       "performanceMetadata": {
         "specialEventSubtype": "Cabaret",
-        "format": "Audience-driven cabaret / musical memoir"
-      }
+        "format": "Audience-driven cabaret / musical memoir",
+        "attendanceSource": "Isaac ticket audit",
+        "attendanceSourceRef": 1504,
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketNote": "Club Free Time confirmation: 2 free tickets for Andrea McArdle's Broadway On Demand, Fri May 15 2026 7:00 PM.",
+        "ticketConfidence": "Gmail-confirmed",
+        "gmailMessageId": "19e18ed3a862c0ab",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Reservation",
+      "ticketSource": "Club Free Time",
+      "auditSourceRef": 1504,
+      "curtainTime": "7:00 PM"
     },
     "1163": {
       "id": 1163,
@@ -237219,8 +238366,23 @@
       "startTime": "7:00 PM",
       "performanceMetadata": {
         "specialEventSubtype": "Cabaret",
-        "format": "Cabaret residency"
-      }
+        "format": "Cabaret residency",
+        "attendanceSource": "Isaac April 2026 ticket audit",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 2,
+        "ticketNote": "Free reservation for 2 supplied by Isaac with Club Free Time confirmation link.",
+        "ticketConfidence": "User table / Gmail-linked",
+        "orderTotal": 0,
+        "orderTotalCurrency": "USD",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "gmailMessageId": "19d4a400680f4215"
+      },
+      "curtainTime": "7:00 PM",
+      "ticketType": "Free Reservation",
+      "ticketSource": "Reservation",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502
     },
     "1164": {
       "id": 1164,
@@ -237352,8 +238514,24 @@
         "specialEventSubtype": "Gala / Benefit",
         "honoring": "Molly Smith",
         "venueSpace": "Fichandler Stage",
-        "award": "Beth Newburger Schwartz Award"
-      }
+        "award": "Beth Newburger Schwartz Award",
+        "attendanceSource": "Build 356 February-May 2023 audit correction",
+        "attendanceSourceRef": 1511,
+        "ticketNote": "Arena Stage Annual Gala — comp per Isaac correction.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1511
     },
     "1169": {
       "id": 1169,
@@ -238286,6 +239464,46 @@
         "ticketNote": "TDF receipt/cost supplied by Isaac: $44.00.",
         "synopsis": "New musical adaptation of The Twelve Pound Look by J.M. Barrie and A Sunny Morning by the Quintero Brothers."
       }
+    },
+    "1193": {
+      "id": 1193,
+      "showId": 519,
+      "date": "2026-03-01",
+      "venueId": 205,
+      "type": "Special Event",
+      "time": "Evening",
+      "sourceRef": 1502,
+      "startTime": "9:30 PM",
+      "curtainTime": "9:30 PM",
+      "ticketType": "Regular",
+      "ticketSource": "Venuetix / Green Room 42",
+      "ticketPrice": 36.87,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1502,
+      "seatLocation": {
+        "section": "Booth",
+        "row": null,
+        "seats": [
+          "Booth"
+        ],
+        "display": "Booth"
+      },
+      "performanceMetadata": {
+        "specialEventSubtype": "Cabaret",
+        "format": "Miscast cabaret / benefit",
+        "attendanceSource": "Gmail ticket confirmation + Isaac correction",
+        "attendanceSourceRef": 1502,
+        "ticketQuantity": 1,
+        "orderTotal": 36.87,
+        "orderTotalCurrency": "USD",
+        "orderNumber": "03CC51062540",
+        "gmailMessageId": "19c97adf82fc37ef",
+        "ticketNote": "Venuetix/Green Room 42 confirmation: The Song Inside of Me on 2026-03-01 at 9:30 PM; Booth reservation/entry; total $36.87.",
+        "ticketConfidence": "Gmail receipt",
+        "performerListSource": "MGS Trades full performer list; roles intentionally stored as generic Performer per Isaac direction.",
+        "beneficiary": "The Trevor Project"
+      },
+      "notes": "The cast of Heathers in The Song Inside of Me: A Miscast Cabaret. Performer roles are intentionally generic per Isaac direction."
     }
   },
   "organizations": {

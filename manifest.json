@@ -2,34 +2,34 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1189,
+    "performances": 1190,
     "people": 19973,
-    "shows": 517,
-    "venues": 200,
-    "roles": 5920,
-    "appearances": 19683,
+    "shows": 518,
+    "venues": 201,
+    "roles": 5921,
+    "appearances": 19702,
     "creativeCredits": 17591,
     "specialAppearances": 0,
     "companionLinks": 636,
-    "sources": 1502
+    "sources": 1514
   },
-  "generatedAt": "2026-09-28T16:36:00-04:00",
-  "updatedAt": "2026-09-28T16:36:00-04:00",
-  "description": "Cuebook split data package Build 347: September 2022 audit clarifications and March 2026 ticket-cost updates.",
+  "generatedAt": "2026-09-28T17:42:00-04:00",
+  "updatedAt": "2026-09-28T17:42:00-04:00",
+  "description": "Cuebook split data package Build 356: Feb-May 2023 audit corrections, November 2024 ticket-cost mini-batch, and July-October 2024 ticket-cost mini-batch.",
   "fileCount": 19,
-  "build": "json-b347",
-  "version": "v14.37.00",
-  "generated": "2026-09-28T20:36:00+00:00",
+  "build": "json-b356",
+  "version": "v14.46.00",
+  "generated": "2026-09-28T21:42:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B346.md",
-      "bytes": 2152,
-      "sha256": "66f80d8b00460d8c8b853cbb7550fa25a6a1b9d6833d9d8212e279d37c73f4ee"
+      "path": "Cuebook_CHANGELOG_B356.md",
+      "bytes": 3613,
+      "sha256": "64f6125c66293543c8333d2f9dc3931cc22ec4ef2917a345ee5db6614539cdc0"
     },
     {
       "path": "cast.json",
-      "bytes": 5274419,
-      "sha256": "5499ceade81fa4858d57f3fed988d586317b11c37edd9eccd152fae2cd247e4d"
+      "bytes": 5279535,
+      "sha256": "f9d5a93a4daaef41f4600cff4ca0da4509a0674ee0ea12da9679416d23cd7751"
     },
     {
       "path": "castbook.html",
@@ -43,13 +43,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 5444358,
-      "sha256": "d6d5387beaf108de843a17047ad64e04ed47560dedd43013720bb516833af6c7"
+      "bytes": 5509236,
+      "sha256": "d37a9dff96892bcd0373e79830ea798c0e9259e1845cc80477eca0927066f644"
     },
     {
       "path": "credits.json",
-      "bytes": 3218290,
-      "sha256": "7fddaec04106062bb8776bdb2f7f3b8320bb1454df15b1788b1d26ef19853a59"
+      "bytes": 2119906,
+      "sha256": "e3950983239c269760692463ae9ca3da4cf8a911d77af8e089fd3ae0ebaa14d5"
     },
     {
       "path": "cuebook-logo.png",
@@ -103,20 +103,15 @@
     },
     {
       "path": "sources.json",
-      "bytes": 721926,
-      "sha256": "e59298ea715918f3ca253c201e79ac2e15a274918da719c3c866f8a4bbca463d"
+      "bytes": 743959,
+      "sha256": "0eafe56b0529d211ab80cb1ee30b27abac398d270079ba34558eb1fa0493677b"
     },
     {
       "path": "souvenir.html",
       "bytes": 56858,
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
-    },
-    {
-      "path": "manifest.json",
-      "bytes": 3540,
-      "sha256": "2d954667464c5767333e9efffaaf8b2cd2c9b8f8f7d3130174d4841972d05a4c"
     }
   ],
-  "totalBytes": 22262973,
-  "largestFileBytes": 5444358
+  "totalBytes": 21254537,
+  "largestFileBytes": 5509236
 }
