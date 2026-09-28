@@ -10,20 +10,25 @@
     "appearances": 19677,
     "creativeCredits": 17587,
     "specialAppearances": 0,
-    "companionLinks": 635
+    "companionLinks": 636
   },
-  "generatedAt": "2026-09-28T12:45:00-04:00",
-  "updatedAt": "2026-09-28T12:45:00-04:00",
-  "description": "Cuebook split data package Build 340: 2015 ticket audit, 2020–2021 queue, Money monthly heatmap.",
-  "fileCount": 18,
-  "build": "json-b340",
-  "version": "v14.30.00",
-  "generated": "2026-09-28T16:45:00+00:00",
+  "generatedAt": "2026-09-28T15:48:00-04:00",
+  "updatedAt": "2026-09-28T15:48:00-04:00",
+  "description": "Cuebook split data package Build 344: May 2022 ticket audit, Robert Biedermann spelling, homepage weekly desktop two-year display, and 2025 London cost table corrections.",
+  "fileCount": 19,
+  "build": "json-b344",
+  "version": "v14.34.00",
+  "generated": "2026-09-28T19:48:00+00:00",
   "files": [
     {
+      "path": "Cuebook_CHANGELOG_B344.md",
+      "bytes": 2269,
+      "sha256": "86630802875d4fc907b86ff2ad2a0c1673ff239a5cfa21732b4247cb9e7d4bcf"
+    },
+    {
       "path": "cast.json",
-      "bytes": 7389780,
-      "sha256": "3dc5ccda215bbf966f5f94010ac43cf5218fcb6cd64fb8b8bcb4e0b25f7e806e"
+      "bytes": 5272803,
+      "sha256": "f1ff1b8a6b09a9437a1e971c17582d11e0cef9fb2d89fd9004ca7e06ccd3569f"
     },
     {
       "path": "castbook.html",
@@ -37,8 +42,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 5367928,
-      "sha256": "53ee12a10b028380536c78af64e0ea9de9a56bc63cc180df53380d6072c57258"
+      "bytes": 3481084,
+      "sha256": "e334f7c7a2560f7417d3c40116a5087522685a90c646dd736e45426b5d5102f8"
     },
     {
       "path": "credits.json",
@@ -51,19 +56,14 @@
       "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
     },
     {
-      "path": "Cuebook_CHANGELOG_B340.md",
-      "bytes": 1316,
-      "sha256": "13a07c8aaede07a58a8b78e39d1ec34ae6a9df2b9e760c174a16e21efbca9d25"
-    },
-    {
       "path": "data-loader.js",
       "bytes": 6037,
       "sha256": "72f568899f7251abea967baa838e7999afd21ec4090db7b7de4f2a248ae68803"
     },
     {
       "path": "index.html",
-      "bytes": 384283,
-      "sha256": "9f1146e55b576684187f67f9e3f43696e668e993c7f75b5983c8c4177660d742"
+      "bytes": 385064,
+      "sha256": "e09f6edee0db2e1a91c3ff5544481d13bc58a9a562dc2c24a269082e9969f355"
     },
     {
       "path": "loader-test.html",
@@ -102,15 +102,20 @@
     },
     {
       "path": "sources.json",
-      "bytes": 661445,
-      "sha256": "0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300"
+      "bytes": 669427,
+      "sha256": "503e7a29abf8fa563081f1da1a24984f6ed9e778f7c0734d0f6f9c694ff24a9f"
     },
     {
       "path": "souvenir.html",
       "bytes": 56858,
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 3476,
+      "sha256": "cecafc05492c8b24752098956ef7f1274fad919fad537d01728bb8055d8f6b12"
     }
   ],
-  "totalBytes": 26186484,
-  "largestFileBytes": 7389780
+  "totalBytes": 22195855,
+  "largestFileBytes": 5405676
 }

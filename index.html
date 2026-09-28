@@ -2524,4 +2524,13 @@ html,body{width:100%;max-width:100%;overflow-x:hidden!important}
 }
 </style>
 
+
+<style id="cuebook-b344-weekly-two-years-desktop">
+/* Build 344: on desktop, render the homepage weekly activity counter as a full two-year/104-week grid instead of a horizontally scrolling strip. */
+@media (min-width:761px){
+  .weeklyActivityCard{overflow:visible!important;}
+  .weeklyActivityBars{display:grid!important;grid-template-columns:repeat(104,minmax(0,1fr))!important;gap:.6px!important;height:118px!important;align-items:end!important;overflow:visible!important;overflow-x:visible!important;overflow-y:visible!important;padding:8px 2px 0!important;max-width:100%!important;}
+  .weeklyActivityItem{display:grid!important;grid-template-rows:1fr 15px!important;height:100%!important;min-width:0!important;flex:0 1 auto!important;text-align:center!important;}
+}
+</style>
 </body></html>
