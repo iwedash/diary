@@ -10,26 +10,25 @@
     "appearances": 19650,
     "creativeCredits": 17587,
     "specialAppearances": 0,
-    "companionLinks": 630
+    "companionLinks": 631
   },
-  "generatedAt": "2026-09-27T17:21:00-04:00",
-  "updatedAt": "2026-09-27T17:21:00-04:00",
-  "description": "Cuebook split data package Build 334, May 2019 queue + The Imaginary Invalid 2026-09-27.",
+  "generatedAt": "2026-09-27T23:35:00-04:00",
+  "updatedAt": "2026-09-27T23:35:00-04:00",
+  "description": "Cuebook split data package Build 336, June-August 2019 audit corrections and person badge role-count fix.",
   "fileCount": 19,
-  "build": "json-b334",
-  "version": "v14.24.00",
-  "generated": "2026-09-27T17:21:00-04:00",
+  "build": "json-b336",
+  "version": "v14.26.00",
+  "generated": "2026-09-28T03:35:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B334.md",
-      "bytes": 825,
-      "sha256": "450b84a0564b32567abb28795436527b880e1eeaff4e536c615be8e22216b81f"
+      "path": "Cuebook_CHANGELOG_B336.md",
+      "bytes": 489,
+      "sha256": "d39d7b51d25795fc7b2ad099ed5bca444ef3f9ce7212d17fb80329cc9f271017"
     },
     {
       "path": "cast.json",
       "bytes": 5266030,
-      "sha256": "9ed4fe3af772514753462800e1af6fa249e3146ec1bb0640df5ee31e95f25327",
-      "kind": "data"
+      "sha256": "9ed4fe3af772514753462800e1af6fa249e3146ec1bb0640df5ee31e95f25327"
     },
     {
       "path": "castbook.html",
@@ -43,15 +42,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 3423728,
-      "sha256": "c9e3d8060892dbc22a088aa455ff6d053879015b21431c5c6ec452cbf76ace82",
-      "kind": "data"
+      "bytes": 5323470,
+      "sha256": "2aa98c0c570ad3213210901f75686b6d71164afab0f3b1a2dd0787d09364ab89"
     },
     {
       "path": "credits.json",
-      "bytes": 2119186,
-      "sha256": "515a95fa62d22585f076126eb995e3f2b50dd4372912bdf73cbaac2bb26a6eff",
-      "kind": "data"
+      "bytes": 3217215,
+      "sha256": "04814fc3343e4a48f67c480ba488c7d10f76854569c2348f8e8c547e2c871ed6"
     },
     {
       "path": "cuebook-logo.png",
@@ -65,8 +62,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 380814,
-      "sha256": "33e308c9c5d18f22e2681c1c2f74065329cda41f718c07855bfdb96be88d70aa"
+      "bytes": 382558,
+      "sha256": "f60cf46e7869797905457c7c9f5f93b95031018dc8dd65714658deb78ef229a5"
     },
     {
       "path": "loader-test.html",
@@ -80,8 +77,8 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 3695,
-      "sha256": "e81aacc146d2e536470fee7aebc15a561cf251088472699f041025423620e4f9"
+      "bytes": 3558,
+      "sha256": "45a9828a832ded326ff17dbfd2c4e49afa1bdee2401a66c82a37998e716381f5"
     },
     {
       "path": "money.html",
@@ -91,20 +88,17 @@
     {
       "path": "production-archive.json",
       "bytes": 2469879,
-      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9",
-      "kind": "data"
+      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9"
     },
     {
       "path": "program-credits.json",
       "bytes": 5405676,
-      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d",
-      "kind": "data"
+      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
     },
     {
       "path": "pruned-records-b284.json",
       "bytes": 22616,
-      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c",
-      "kind": "data"
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"
     },
     {
       "path": "qa.html",
@@ -114,8 +108,7 @@
     {
       "path": "sources.json",
       "bytes": 661445,
-      "sha256": "0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300",
-      "kind": "data"
+      "sha256": "0e7a469eeef3a452e1439e9f3992647ec9f52ab76372d46dfb2767f473129300"
     },
     {
       "path": "souvenir.html",
@@ -123,6 +116,6 @@
       "sha256": "fdf8e96f879e2571e2ea57519a58f7fda011f27a52da2608712b9daeffb90a2f"
     }
   ],
-  "totalBytes": 21017064,
+  "totalBytes": 24016106,
   "largestFileBytes": 5405676
 }
