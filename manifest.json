@@ -8,23 +8,23 @@
     "venues": 200,
     "roles": 5920,
     "appearances": 19683,
-    "creativeCredits": 17587,
+    "creativeCredits": 17591,
     "specialAppearances": 0,
     "companionLinks": 636,
-    "sources": 1496
+    "sources": 1502
   },
-  "generatedAt": "2026-09-28T16:08:00-04:00",
-  "updatedAt": "2026-09-28T16:08:00-04:00",
-  "description": "Cuebook split data package Build 345: Sept–Dec 2025 ticket-cost audit, missing Reunions entry/cast/creatives, and June–July 2022 ticket audit updates.",
+  "generatedAt": "2026-09-28T16:36:00-04:00",
+  "updatedAt": "2026-09-28T16:36:00-04:00",
+  "description": "Cuebook split data package Build 347: September 2022 audit clarifications and March 2026 ticket-cost updates.",
   "fileCount": 19,
-  "build": "json-b345",
-  "version": "v14.35.00",
-  "generated": "2026-09-28T20:08:00+00:00",
+  "build": "json-b347",
+  "version": "v14.37.00",
+  "generated": "2026-09-28T20:36:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B345.md",
-      "bytes": 2528,
-      "sha256": "4443040eb36170cd13b14a16a95c41c9eb000d2e38c8e541add641914580b7c8"
+      "path": "Cuebook_CHANGELOG_B346.md",
+      "bytes": 2152,
+      "sha256": "66f80d8b00460d8c8b853cbb7550fa25a6a1b9d6833d9d8212e279d37c73f4ee"
     },
     {
       "path": "cast.json",
@@ -43,13 +43,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 3505261,
-      "sha256": "b8a606274f43d0a1d03b2b76c176841ccd4b1c27f8b7609c8c654b27a3590855"
+      "bytes": 5444358,
+      "sha256": "d6d5387beaf108de843a17047ad64e04ed47560dedd43013720bb516833af6c7"
     },
     {
       "path": "credits.json",
-      "bytes": 2119858,
-      "sha256": "0290359ad3f09c83567721a2329abf381b0d2897b16a3a2f1b15e9efb5cc9f0e"
+      "bytes": 3218290,
+      "sha256": "7fddaec04106062bb8776bdb2f7f3b8320bb1454df15b1788b1d26ef19853a59"
     },
     {
       "path": "cuebook-logo.png",
@@ -103,8 +103,8 @@
     },
     {
       "path": "sources.json",
-      "bytes": 673413,
-      "sha256": "ee73bd22c1de75d4638af830b2dc86ed22185d882b3c3c50b6b6d9175422e71d"
+      "bytes": 721926,
+      "sha256": "e59298ea715918f3ca253c201e79ac2e15a274918da719c3c866f8a4bbca463d"
     },
     {
       "path": "souvenir.html",
@@ -113,10 +113,10 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 3481,
-      "sha256": "5fb692592a8f7d5e432ea90334e2578dde8dfc342afd8eafc4ff1f36d147587e"
+      "bytes": 3540,
+      "sha256": "2d954667464c5767333e9efffaaf8b2cd2c9b8f8f7d3130174d4841972d05a4c"
     }
   ],
-  "totalBytes": 19177248,
-  "largestFileBytes": 5274419
+  "totalBytes": 22262973,
+  "largestFileBytes": 5444358
 }
