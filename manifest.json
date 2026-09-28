@@ -2,33 +2,34 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1188,
-    "people": 19970,
-    "shows": 516,
-    "venues": 199,
-    "roles": 5914,
-    "appearances": 19677,
+    "performances": 1189,
+    "people": 19973,
+    "shows": 517,
+    "venues": 200,
+    "roles": 5920,
+    "appearances": 19683,
     "creativeCredits": 17587,
     "specialAppearances": 0,
-    "companionLinks": 636
+    "companionLinks": 636,
+    "sources": 1496
   },
-  "generatedAt": "2026-09-28T15:48:00-04:00",
-  "updatedAt": "2026-09-28T15:48:00-04:00",
-  "description": "Cuebook split data package Build 344: May 2022 ticket audit, Robert Biedermann spelling, homepage weekly desktop two-year display, and 2025 London cost table corrections.",
+  "generatedAt": "2026-09-28T16:08:00-04:00",
+  "updatedAt": "2026-09-28T16:08:00-04:00",
+  "description": "Cuebook split data package Build 345: Sept–Dec 2025 ticket-cost audit, missing Reunions entry/cast/creatives, and June–July 2022 ticket audit updates.",
   "fileCount": 19,
-  "build": "json-b344",
-  "version": "v14.34.00",
-  "generated": "2026-09-28T19:48:00+00:00",
+  "build": "json-b345",
+  "version": "v14.35.00",
+  "generated": "2026-09-28T20:08:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B344.md",
-      "bytes": 2269,
-      "sha256": "86630802875d4fc907b86ff2ad2a0c1673ff239a5cfa21732b4247cb9e7d4bcf"
+      "path": "Cuebook_CHANGELOG_B345.md",
+      "bytes": 2528,
+      "sha256": "4443040eb36170cd13b14a16a95c41c9eb000d2e38c8e541add641914580b7c8"
     },
     {
       "path": "cast.json",
-      "bytes": 5272803,
-      "sha256": "f1ff1b8a6b09a9437a1e971c17582d11e0cef9fb2d89fd9004ca7e06ccd3569f"
+      "bytes": 5274419,
+      "sha256": "5499ceade81fa4858d57f3fed988d586317b11c37edd9eccd152fae2cd247e4d"
     },
     {
       "path": "castbook.html",
@@ -42,13 +43,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 3481084,
-      "sha256": "e334f7c7a2560f7417d3c40116a5087522685a90c646dd736e45426b5d5102f8"
+      "bytes": 3505261,
+      "sha256": "b8a606274f43d0a1d03b2b76c176841ccd4b1c27f8b7609c8c654b27a3590855"
     },
     {
       "path": "credits.json",
-      "bytes": 3217543,
-      "sha256": "83a024fbd223336eec21793d81653a6a0a34092ac7ee7a2b9cb5ea4e7d40c225"
+      "bytes": 2119858,
+      "sha256": "0290359ad3f09c83567721a2329abf381b0d2897b16a3a2f1b15e9efb5cc9f0e"
     },
     {
       "path": "cuebook-logo.png",
@@ -87,8 +88,8 @@
     },
     {
       "path": "program-credits.json",
-      "bytes": 5405676,
-      "sha256": "13ff29f6a228f391f942ca10bb82679f58ae6a49b84d1bc8511258af0a30c54d"
+      "bytes": 3454711,
+      "sha256": "d8007bd46ca7547ae3aa545ec67d94c09688c89c056c59f45c0589b21ef0d0c3"
     },
     {
       "path": "pruned-records-b284.json",
@@ -102,8 +103,8 @@
     },
     {
       "path": "sources.json",
-      "bytes": 669427,
-      "sha256": "503e7a29abf8fa563081f1da1a24984f6ed9e778f7c0734d0f6f9c694ff24a9f"
+      "bytes": 673413,
+      "sha256": "ee73bd22c1de75d4638af830b2dc86ed22185d882b3c3c50b6b6d9175422e71d"
     },
     {
       "path": "souvenir.html",
@@ -112,10 +113,10 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 3476,
-      "sha256": "cecafc05492c8b24752098956ef7f1274fad919fad537d01728bb8055d8f6b12"
+      "bytes": 3481,
+      "sha256": "5fb692592a8f7d5e432ea90334e2578dde8dfc342afd8eafc4ff1f36d147587e"
     }
   ],
-  "totalBytes": 22195855,
-  "largestFileBytes": 5405676
+  "totalBytes": 19177248,
+  "largestFileBytes": 5274419
 }
