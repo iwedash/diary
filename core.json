@@ -1,29 +1,29 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_355",
-    "generated": "2026-09-28T21:42:00+00:00",
-    "rowCount": 1190,
-    "performanceCount": 1190,
-    "peopleCount": 19973,
-    "showCount": 518,
-    "venueCount": 201,
-    "roleCount": 5921,
-    "appearanceCount": 19702,
-    "creativeCreditCount": 17591,
+    "sourceFile": "Cuebook_Build_357",
+    "generated": "2026-09-29T02:12:00+00:00",
+    "rowCount": 1192,
+    "performanceCount": 1193,
+    "peopleCount": 19992,
+    "showCount": 520,
+    "venueCount": 203,
+    "roleCount": 5927,
+    "appearanceCount": 19719,
+    "creativeCreditCount": 17612,
     "notesCount": 528,
     "updated": "2026-09-28",
-    "notes": "Build 356 applies Feb-May 2023 audit corrections plus November 2024 and July-October 2024 ticket-cost mini-batches.",
-    "updatedBy": "OpenAI / Isaac audit corrections and ticket-cost mini-batches",
-    "updatedAt": "2026-09-28T17:42:00-04:00",
+    "notes": "Build 358 adds Memoirs of Amorous Gentlemen 2026-09-28 attendance with TodayTix receipt, performance board cast, creative team, stage managers, and conductor.",
+    "updatedBy": "OpenAI / Isaac live performance capture",
+    "updatedAt": "2026-09-28T22:12:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b355",
-    "version": "v14.46.00",
-    "build": "json-b356",
-    "buildTime": "2026-09-28T21:42:00+00:00",
+    "sourceBase": "json-b357",
+    "version": "v14.48.00",
+    "build": "json-b358",
+    "buildTime": "2026-09-29T02:12:00+00:00",
     "buildDate": "2026-09-28",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.46.00",
+    "buildVersion": "v14.48.00",
     "lastUpdated": "2026-09-28",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 356: Feb-May 2023 audit corrections, Nov 2024 ticket costs, and Jul-Oct 2024 ticket-cost mini-batch.",
+    "lastUpdatedNote": "Build 357: June-August 2023 audit corrections and January-June 2024 ticket-cost audit rows.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4081,7 +4081,7 @@
       ],
       "updatedAt": "2026-09-28T16:36:00-04:00"
     },
-    "sourcesCount": 1514,
+    "sourcesCount": 1517,
     "build348QueueImplementation": {
       "updatedAt": "2026-09-28T16:55:00-04:00",
       "summary": "Added The Song Inside of Me and applied April 2026 ticket-cost rows.",
@@ -4098,7 +4098,7 @@
         "No missing April shells were created because all supplied April rows matched existing performance shells."
       ]
     },
-    "lastUpdatedAt": "2026-09-28T17:42:00-04:00",
+    "lastUpdatedAt": "2026-09-28T22:12:00-04:00",
     "build349QueueImplementation": {
       "updatedAt": "2026-09-28T17:18:00-04:00",
       "summary": "Applied Ticketmaster receipt evidence for Annie and Six in late 2022 and May 2026 ticket-cost updates for existing performance shells.",
@@ -4180,7 +4180,7 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
     },
-    "generatedAt": "2026-09-28T17:42:00-04:00",
+    "generatedAt": "2026-09-28T17:56:00-04:00",
     "build353QueueImplementation": {
       "updatedAt": "2026-09-28T17:58:00-04:00",
       "summary": "Applied January 2023 ticket audit corrections for Ride the Cyclone and Into the Woods at Signature Theatre.",
@@ -4240,6 +4240,39 @@
       ],
       "guardrails": [
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    "build357QueueImplementation": {
+      "updatedAt": "2026-09-28T17:56:00-04:00",
+      "summary": "Applied June-August 2023 audit corrections and January-June 2024 ticket-cost rows, including two attended missing shells and one not-attended hold.",
+      "implemented": [
+        "MJIH/1776/Arena CRB comps, CRB 2023-07-23 evening, Seussical $45 fallback, Sweeney 2023-07-09 TodayTix/Signature seat proof, To Kill a Mockingbird comp normalization.",
+        "January-June 2024 ticket costs/seats for matching shells, Private Jones 2024-03-14 added, Sondheim Award 2024-04-29 added, Topdog/Underdog held as not attended.",
+        "Brendan Padgett companion link for 2023-05-14 Spamalot added to make the prior correction structural, not only metadata."
+      ],
+      "heldOrUnpriced": [
+        "Sweeney Todd 2023-07-09: price still blank; emails confirmed seat/time but not amount.",
+        "& Juliet 2024-03-16: seats/cost unknown; performance email confirms event.",
+        "2024 Sondheim Award Presentation: will call; cost/location unknown.",
+        "Topdog/Underdog 2024-06-18: not attended, not added."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    "companionLinkCount": 637,
+    "build358QueueImplementation": {
+      "updatedAt": "2026-09-28T22:12:00-04:00",
+      "summary": "Added Memoirs of Amorous Gentlemen live attendance and performance archive snapshot.",
+      "implemented": [
+        "Added 2026-09-28 8:00 PM Memoirs of Amorous Gentlemen at The Night Egg at the Culture Club.",
+        "Added TodayTix ticket metadata: order T092626170933, Main Floor Row B Seat 106, $49.70 total.",
+        "Added current cast from Isaac board photo and official production site, with named roles for Colette, Léon, Nana, Sakae, Madame and ensemble for remaining company.",
+        "Added creative team, stage managers Eloia Peterson/Alden Kennedy/Diallo Adams, and conductor Amanda Morton."
+      ],
+      "guardrails": [
+        "No understudy/cover status inferred.",
+        "No existing cast, cover, conductor, orchestra, or production-archive facts changed."
       ]
     }
   },
@@ -50393,7 +50426,8 @@
       "name": "Duncan Sheik",
       "sortName": "Duncan Sheik",
       "kinds": [
-        "creative"
+        "creative",
+        "musician"
       ]
     },
     "5817": {
@@ -157966,6 +158000,9 @@
       "sortName": "Marc Delacruz",
       "kinds": [
         "performer"
+      ],
+      "aliases": [
+        "Marc delaCruz"
       ]
     },
     "18483": {
@@ -178555,6 +178592,164 @@
         "creative"
       ],
       "sourceRef": 1492
+    },
+    "20962": {
+      "id": 20962,
+      "name": "Cory Jeacoma",
+      "sortName": "Cory Jeacoma",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20963": {
+      "id": 20963,
+      "name": "Nkeki Obi-Melekwe",
+      "sortName": "Nkeki Obi-Melekwe",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20964": {
+      "id": 20964,
+      "name": "Jenny Powers",
+      "sortName": "Jenny Powers",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20965": {
+      "id": 20965,
+      "name": "Kailin Brown",
+      "sortName": "Kailin Brown",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20966": {
+      "id": 20966,
+      "name": "Michael Everett",
+      "sortName": "Michael Everett",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20967": {
+      "id": 20967,
+      "name": "Jaedynn Latter",
+      "sortName": "Jaedynn Latter",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20968": {
+      "id": 20968,
+      "name": "Nika Lindsay",
+      "sortName": "Nika Lindsay",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20969": {
+      "id": 20969,
+      "name": "Caleb Marshall",
+      "sortName": "Caleb Marshall",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20970": {
+      "id": 20970,
+      "name": "Michael Starr",
+      "sortName": "Michael Starr",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20971": {
+      "id": 20971,
+      "name": "Thomas Winter",
+      "sortName": "Thomas Winter",
+      "kinds": [
+        "performer"
+      ]
+    },
+    "20972": {
+      "id": 20972,
+      "name": "Leah Nanako Winkler",
+      "sortName": "Leah Nanako Winkler",
+      "kinds": [
+        "creative"
+      ]
+    },
+    "20973": {
+      "id": 20973,
+      "name": "Moyoco Anno",
+      "sortName": "Moyoco Anno",
+      "kinds": [
+        "creative"
+      ]
+    },
+    "20974": {
+      "id": 20974,
+      "name": "Brian Tovar",
+      "sortName": "Brian Tovar",
+      "kinds": [
+        "creative"
+      ]
+    },
+    "20975": {
+      "id": 20975,
+      "name": "Veli Sadiku",
+      "sortName": "Veli Sadiku",
+      "kinds": [
+        "creative"
+      ]
+    },
+    "20976": {
+      "id": 20976,
+      "name": "Henry Nettleton",
+      "sortName": "Henry Nettleton",
+      "kinds": [
+        "creative",
+        "production"
+      ]
+    },
+    "20977": {
+      "id": 20977,
+      "name": "Eloia Peterson",
+      "sortName": "Eloia Peterson",
+      "kinds": [
+        "production",
+        "staff"
+      ]
+    },
+    "20978": {
+      "id": 20978,
+      "name": "Alden Kennedy",
+      "sortName": "Alden Kennedy",
+      "kinds": [
+        "production",
+        "staff"
+      ]
+    },
+    "20979": {
+      "id": 20979,
+      "name": "Diallo Adams",
+      "sortName": "Diallo Adams",
+      "kinds": [
+        "production",
+        "staff"
+      ]
+    },
+    "20980": {
+      "id": 20980,
+      "name": "Amanda Morton",
+      "sortName": "Amanda Morton",
+      "kinds": [
+        "creative",
+        "musician",
+        "orchestra"
+      ]
     }
   },
   "shows": {
@@ -180653,6 +180848,16 @@
       "title": "The Song Inside of Me",
       "type": "Special Event",
       "sourceRef": 1502
+    },
+    "520": {
+      "id": 520,
+      "title": "2024 Sondheim Award Presentation"
+    },
+    "521": {
+      "id": 521,
+      "title": "Memoirs of Amorous Gentlemen",
+      "type": "Off-Broadway",
+      "sourceRef": 1516
     }
   },
   "venues": {
@@ -181675,6 +181880,20 @@
       "country": "USA",
       "address": "570 Tenth Avenue",
       "sourceRef": 1502
+    },
+    "206": {
+      "id": 206,
+      "name": "The Anthem",
+      "city": "Washington, DC"
+    },
+    "207": {
+      "id": 207,
+      "name": "The Night Egg at the Culture Club",
+      "city": "New York",
+      "country": "USA",
+      "sourceRef": 1516,
+      "state": "NY",
+      "address": "530 W 27th Street"
     }
   },
   "roles": {
@@ -211348,6 +211567,36 @@
       "id": 6581,
       "showId": 519,
       "name": "Performer"
+    },
+    "6582": {
+      "id": 6582,
+      "showId": 521,
+      "name": "Colette"
+    },
+    "6583": {
+      "id": 6583,
+      "showId": 521,
+      "name": "Léon"
+    },
+    "6584": {
+      "id": 6584,
+      "showId": 521,
+      "name": "Nana"
+    },
+    "6585": {
+      "id": 6585,
+      "showId": 521,
+      "name": "Sakae"
+    },
+    "6586": {
+      "id": 6586,
+      "showId": 521,
+      "name": "Madame"
+    },
+    "6587": {
+      "id": 6587,
+      "showId": 521,
+      "name": "Ensemble"
     }
   },
   "performances": {
@@ -227175,7 +227424,25 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 603
+      "sourceRef": 603,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "701": {
       "id": 701,
@@ -227185,7 +227452,21 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 604
+      "sourceRef": 604,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "ticketNote": "No Seussical/Keegan Gmail receipt found in searched personal Gmail; Isaac instructed to use $45 if not found.",
+        "ticketQuantity": 1,
+        "pricePerTicket": 45,
+        "orderTotal": 45,
+        "gmailSearchNote": "No matching Seussical/Keegan receipt found in personal Gmail search."
+      },
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "Approximate/Fallback",
+      "ticketSource": "User fallback after no Gmail receipt found",
+      "auditSourceRef": 1514
     },
     "702": {
       "id": 702,
@@ -227195,7 +227476,33 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 602
+      "sourceRef": 602,
+      "performanceMetadata": {
+        "attendanceSource": "TodayTix reminder + Signature performance email, Build 357",
+        "attendanceSourceRef": 1514,
+        "gmailMessageIds": [
+          "1893b99530e3d2f5",
+          "1893675672031d47",
+          "1894208f00c640f2"
+        ],
+        "ticketNote": "Sweeney Todd — 2023-07-09 7:00 PM: TodayTix/Signature emails confirm attendance and Orchestra North Row B Seat 112. No visible price in read messages, so amount remains unset.",
+        "seatSourceRef": 1514,
+        "gmailSearchNote": "TodayTix reminder/post-show and Signature performance info found; no order-confirmation price visible."
+      },
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1514,
+      "seatLocation": {
+        "section": "Orchestra North",
+        "row": "B",
+        "seats": [
+          "112"
+        ],
+        "display": "Orchestra North · Row B · Seat 112"
+      }
     },
     "703": {
       "id": 703,
@@ -227206,13 +227513,27 @@
       "time": "Evening",
       "notes": "Attended with Timmy Metzner.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
         "companions": [
           "Timmy Metzner"
-        ]
+        ],
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
       },
-      "sourceRef": 605
+      "sourceRef": 605,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "704": {
       "id": 704,
@@ -227220,9 +227541,28 @@
       "date": "2023-07-23",
       "venueId": 40,
       "type": "Regional",
-      "time": null,
+      "time": "Evening",
       "notes": null,
-      "sourceRef": 605
+      "sourceRef": 605,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable.",
+        "timeCorrection": "Set to evening per Isaac correction in Build 357."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "705": {
       "id": 705,
@@ -227232,7 +227572,25 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 606
+      "sourceRef": 606,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "706": {
       "id": 706,
@@ -227242,7 +227600,25 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 607
+      "sourceRef": 607,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "707": {
       "id": 707,
@@ -227252,7 +227628,25 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 605
+      "sourceRef": 605,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "708": {
       "id": 708,
@@ -227362,14 +227756,28 @@
         "originalDate": "2023-09-23",
         "dateCorrectionSourceRef": 1338,
         "dateCorrection": "Corrected to August 17, 2023 from Isaac’s direct report.",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 357 June-August 2023 cleanup",
+        "attendanceSourceRef": 1514,
         "companions": [
           "Paul Villalovoz"
-        ]
+        ],
+        "ticketNote": "Existing metadata already recorded pricePaid 0.00; normalized ticket fields to comp/$0.",
+        "orderTotal": 0,
+        "ticketQuantity": 1
       },
-      "tags": "comp",
-      "sourceRef": 613
+      "tags": [
+        "comp",
+        "Comp"
+      ],
+      "sourceRef": 613,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp / Price paid $0",
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "713": {
       "id": 713,
@@ -227571,9 +227979,31 @@
         "programUpdateVersion": "v4.26.00",
         "intermission": "One 20-minute intermission",
         "setting": "New York City, December 1933",
-        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement"
+        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement",
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Ticketmaster email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18cf9aa0b68ac3ee",
+        "ticketNote": "Annie — 2024-01-25 7:30 PM: Right Orchestra A6, $115.05.",
+        "ticketQuantity": 1,
+        "orderTotal": 115.05,
+        "seatSourceRef": 1515
       },
-      "sourceRef": 628
+      "sourceRef": 628,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 115.05,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketmaster",
+      "ticketSource": "Ticketmaster",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Right Orchestra",
+        "row": "A",
+        "seats": [
+          "6"
+        ],
+        "display": "Right Orchestra · Row A · Seat 6"
+      }
     },
     "728": {
       "id": 728,
@@ -227607,16 +228037,39 @@
       "date": "2024-01-28",
       "venueId": 48,
       "type": "National Tour",
-      "time": null,
+      "time": "Evening",
       "notes": "Program metadata from Annie January 2024 / National Theatre DC added in v4.26.00. Existing cast/appearance rows preserved.",
       "programArchiveText": "ANNIE — January 2024 National Tour / National Theatre, Washington, DC program snapshot. Program pages supplied by Isaac. Existing performance-specific cast/appearance rows preserved; printed program roster archived as searchable metadata. Molly — Jade Smith; Pepper — Avery Hope; Duffy — Arianna Guller; July — Savannah Austin; Tessie — Kylie Noelle Patterson; Kate — Addie Jaymes; Annie — Rainier (Rainey) Treviño; Miss Hannigan — Stefanie Londino; Bundles McCloskey — Chance K. Ingalls; Apple Seller — Ryan Mulvaney; Dog Catcher — Mark Woodard; Assistant Dog Catcher — Kaleb Jenkins; Sandy — Seamus; Lt. Ward — Jerquintez A. Gipson; Sophie the Kettle — Jaelle Laguerre; Grace Farrell — Julia Nicole Hunter; Drake — Tony Mowatt; Mrs. Greer — Jaelle Laguerre; Mrs. Pugh — Kaylie Mae Wallace; Cecile — Caroline Glazier; Annette — Christopher Swan; Oliver Warbucks — Savannah Fisher; Star to Be — Jeffrey T. Kelly; Rooster Hannigan — Samantha Stevens; Lily — Kaleb Jenkins; Bert Healy — Jerquintez A. Gipson; Fred McCracken — Ryan Mulvaney; Jimmy Johnson — Savannah Fisher; Ronnie Boylan — Kaylie Mae Wallace; Connie Boylan — Caroline Glazier; Bonnie Boylan — Mark Woodard; FDR — Jerquintez A. Gipson; Ickes — Jaelle Laguerre; Perkins — Ryan Mulvaney; Hull — Kaleb Jenkins; Howe — Jerquintez A. Gipson; Brandeis — Chance K. Ingalls; Morgenthau — Chance K. Ingalls; Sound Effects Man — Chance K. Ingalls; Ensemble — Savannah Fisher, Jerquintez A. Gipson, Caroline Glazier, Chance K. Ingalls, Kaleb Jenkins, Jaelle Laguerre, Tony Mowatt, Ryan Mulvaney, Kaylie Mae Wallace. Dance Captain Callie Alexa; Assistant Dance Captain Trent Tyson; Swings Callie Alexa, Brooke Olivia Gatto, Trent Tyson. Printed understudy roster: Annie — Avery Hope; Oliver Warbucks — Tony Mowatt, Mark Woodard; Miss Hannigan — Caroline Glazier, Jaelle Laguerre; Grace Farrell — Caroline Glazier, Kaylie Mae Wallace; Rooster Hannigan — Jerquintez A. Gipson, Kaleb Jenkins; FDR — Tony Mowatt; Lily — Caroline Glazier, Kaylie Mae Wallace; Molly — Addie Jaymes; Sandy cover appears partially cut off in supplied photo and was not structured. Setting: New York City, December 1933. One 20-minute intermission. Orchestra: Jennifer Christina Music Director/Keyboard; Anthony Zediker Associate Music Director/Keyboard; Susan French Violin/Viola; Brian Lang Reed 1; Kevin Sakai Reed 2; Bill Dowling Cornet/Trumpet/Flugelhorn; Anthony Garcia Trombone/Euphonium; Clayton Nordhill Guitar/Banjo/Ukulele; Calvin Kaleel Acoustic Bass/Sousaphone; Avion Wright Drums. Music Coordinator Talitha Fehr / TL Management International. Tour staff includes Crossroads Live North America, Jayna Neagle, Deana Marie Kirsch, Emily Miu, Heather Chockley, Dave Burch, Soldanela Rivera, BOND Theatrical, Anita Dloniak & Associates, Hardt Casting, Anna K. Levit, Katy Gentry, Katie Birenboim, Jessica Blair, Charlotte Woerth, Craig Napoliello, Wheeler Moon, Josh Samuels, Joseph Shrope, Britny Hains, Matthew J. Pool, Ryan Driscoll, Matthew Smedal, and additional production/administrative staff captured in expanded credits.",
       "performanceMetadata": {
         "programUpdateVersion": "v4.26.00",
         "intermission": "One 20-minute intermission",
         "setting": "New York City, December 1933",
-        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement"
+        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement",
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Ticketmaster email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18cf9b37bca68cc8",
+        "ticketNote": "Annie — 2024-01-28 7:30 PM: Left Mezzanine L15/L17, $133.55 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 133.55,
+        "seatSourceRef": 1515
       },
-      "sourceRef": 626
+      "sourceRef": 626,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 133.55,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketmaster",
+      "ticketSource": "Ticketmaster",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Left Mezzanine",
+        "row": "L",
+        "seats": [
+          "15",
+          "17"
+        ],
+        "display": "Left Mezzanine · Row L · Seats 15, 17"
+      }
     },
     "730": {
       "id": 730,
@@ -227626,7 +228079,32 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 630
+      "sourceRef": 630,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18d765806a14b663",
+        "ticketNote": "Private Jones — 2024-02-08 8:00 PM: Left Orchestra D12/D14, $20 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 20.0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 20.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Signature Order",
+      "ticketSource": "Signature Theatre",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Left Orchestra",
+        "row": "D",
+        "seats": [
+          "12",
+          "14"
+        ],
+        "display": "Left Orchestra · Row D · Seats 12, 14"
+      }
     },
     "731": {
       "id": 731,
@@ -227651,18 +228129,23 @@
     "733": {
       "id": 733,
       "showId": 342,
-      "date": "2024-02-24",
+      "date": "2024-02-23",
       "venueId": 42,
       "type": "Regional",
       "time": "Evening",
       "notes": "Comp ticket; attended with Elizabeth Hawks.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1329,
-        "ticketNote": "Comp; with Elizabeth Hawks"
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Olney receipt",
+        "attendanceSourceRef": 1515,
+        "ticketNote": "Lend Me a Soprano — corrected to 2024-02-23 7:30 PM: Orchestra D6/D8, comp for 2.",
+        "gmailMessageId": "18dad4d8f54e3aca",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatSourceRef": 1515,
+        "dateCorrection": "Corrected from 2024-02-24 to 2024-02-23 from Olney ticket confirmation."
       },
       "ticketType": "Comp",
-      "ticketSource": "Comp",
+      "ticketSource": "Olney Comp",
       "ticketPrice": 0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
@@ -227671,7 +228154,19 @@
       "tags": [
         "Comp"
       ],
-      "sourceRef": 633
+      "sourceRef": 633,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "D",
+        "seats": [
+          "6",
+          "8"
+        ],
+        "display": "Orchestra · Row D · Seats 6, 8"
+      }
     },
     "734": {
       "id": 734,
@@ -227691,7 +228186,38 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 635
+      "sourceRef": 635,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e157d9f30f7bf4",
+        "ticketNote": "Penelope — 2024-03-07 8:00 PM: East Orchestra C107/C108, comp for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Signature Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "East Orchestra",
+        "row": "C",
+        "seats": [
+          "107",
+          "108"
+        ],
+        "display": "East Orchestra · Row C · Seats 107, 108"
+      }
     },
     "736": {
       "id": 736,
@@ -227753,7 +228279,17 @@
         "notes": "Do not use this archival text to alter cast/covers unless a source explicitly confirms an at-this-performance change.",
         "sourceRef": 637
       },
-      "sourceRef": 639
+      "sourceRef": 639,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Criterion performance email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e47b6fae251a9b",
+        "ticketNote": "& Juliet — 2024-03-16 8:00 PM: performance email confirms upcoming performance; seats and cost remain unknown."
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketSource": "Criterion Ticketing",
+      "auditSourceRef": 1515
     },
     "739": {
       "id": 739,
@@ -227778,7 +228314,31 @@
         "companions": [
           "Sarah Ford"
         ],
-        "companionSource": "Isaac confirmation, 2026-09-25; canonical companion link already existed."
+        "companionSource": "Isaac confirmation, 2026-09-25; canonical companion link already existed.",
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TodayTix email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e00ec694764d46",
+        "ticketNote": "The Notebook — 2024-03-17 7:00 PM: Left Orchestra partial-view B9/B11, $164 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 164.0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketPrice": 164.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Left Orchestra",
+        "row": "B",
+        "seats": [
+          "9",
+          "11"
+        ],
+        "display": "Left Orchestra · Row B · Seats 9, 11",
+        "note": "partial view"
       }
     },
     "741": {
@@ -227817,9 +228377,35 @@
       },
       "performanceMetadata": {
         "orchestraProductionKey": "outsiders-broadway",
-        "productionLabel": "Broadway"
+        "productionLabel": "Broadway",
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TodayTix email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e020e1cf8b174f",
+        "ticketNote": "The Outsiders — 2024-03-18 8:00 PM: Right Mezzanine J2, $0 after refund.",
+        "ticketQuantity": 1,
+        "orderTotal": 0,
+        "seatSourceRef": 1515,
+        "refundStatus": "Refunded / $0 after refund per Isaac table."
       },
-      "sourceRef": 643
+      "sourceRef": 643,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix / Refunded",
+      "ticketSource": "TodayTix",
+      "tags": [
+        "Refunded"
+      ],
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Right Mezzanine",
+        "row": "J",
+        "seats": [
+          "2"
+        ],
+        "display": "Right Mezzanine · Row J · Seat 2"
+      }
     },
     "743": {
       "id": 743,
@@ -227829,7 +228415,27 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 644
+      "sourceRef": 644,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TDF receipt",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e00d83685ed610",
+        "ticketNote": "Lempicka — 2024-03-20 8:00 PM: TDF general admission, $63.",
+        "ticketQuantity": 1,
+        "orderTotal": 63.0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 63.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seat unlisted"
+      }
     },
     "744": {
       "id": 744,
@@ -227911,7 +228517,27 @@
           "nancy_v43202": "Added Mosaic Theatre Company Nancy production credits from supplied program photo."
         }
       },
-      "sourceRef": 650
+      "sourceRef": 650,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TodayTix email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18efbabb91ec723f",
+        "ticketNote": "Nancy — 2024-04-20 8:00 PM: general admission, $20.38.",
+        "ticketQuantity": 1,
+        "orderTotal": 20.38,
+        "seatSourceRef": 1515
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 20.38,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "General admission",
+        "display": "General admission"
+      }
     },
     "750": {
       "id": 750,
@@ -227921,7 +228547,38 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 651
+      "sourceRef": 651,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18ed34e7ff63180f",
+        "ticketNote": "Hair — 2024-04-23 7:30 PM: Right Orchestra E20/E22, comp for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Signature Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Right Orchestra",
+        "row": "E",
+        "seats": [
+          "20",
+          "22"
+        ],
+        "display": "Right Orchestra · Row E · Seats 20, 22"
+      }
     },
     "751": {
       "id": 751,
@@ -227942,10 +228599,30 @@
       "time": "Evening",
       "notes": "Attended with Caroline Hunt.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1329
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Studio Theatre receipt",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18f5a0b38844e053",
+        "ticketNote": "Problems Between Sisters — 2024-05-09 7:30 PM: Mead Theatre D207/B205, $30 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 30.0,
+        "seatSourceRef": 1515
       },
-      "sourceRef": 653
+      "sourceRef": 653,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 30.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Studio Theatre Order",
+      "ticketSource": "Studio Theatre",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Mead Theatre",
+        "seats": [
+          "D207",
+          "B205"
+        ],
+        "display": "Mead Theatre · Seats D207 and B205"
+      }
     },
     "753": {
       "id": 753,
@@ -227970,10 +228647,31 @@
       "time": "Evening",
       "notes": "Attended with Brendan Padgett.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1329
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18f7e81bc7ea0dea",
+        "ticketNote": "Hair — 2024-05-15 7:30 PM: Left Orchestra A17/A19, $60 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 60.0,
+        "seatSourceRef": 1515
       },
-      "sourceRef": 655
+      "sourceRef": 655,
+      "startTime": "7:30 PM",
+      "curtainTime": "7:30 PM",
+      "ticketPrice": 60.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Signature Order",
+      "ticketSource": "Signature Theatre",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Left Orchestra",
+        "row": "A",
+        "seats": [
+          "17",
+          "19"
+        ],
+        "display": "Left Orchestra · Row A · Seats 17, 19"
+      }
     },
     "755": {
       "id": 755,
@@ -228007,10 +228705,27 @@
         "productionKey": "the-lonely-few-mcc-2024",
         "productionLabel": "MCC Theater",
         "pricePaid": "37.00",
-        "ticketSource": "TDF"
+        "ticketSource": "TDF",
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TDF receipt",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18fa1b2d4cefb431",
+        "ticketNote": "The Lonely Few — 2024-05-25 8:00 PM: TDF general admission, $45.",
+        "ticketQuantity": 1,
+        "orderTotal": 45.0,
+        "seatSourceRef": 1515
       },
-      "seatLocation": "Orch H19",
-      "sourceRef": 658
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seat unlisted"
+      },
+      "sourceRef": 658,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1515
     },
     "758": {
       "id": 758,
@@ -228018,9 +228733,30 @@
       "date": "2024-05-26",
       "venueId": 62,
       "type": "Broadway",
-      "time": "Evening",
+      "time": "Matinee",
       "notes": "Conducted by Emily Whitaker (verified).; One 15-minute intermission.",
-      "sourceRef": 659
+      "sourceRef": 659,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TDF receipt",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18f8c7b40df44366",
+        "ticketNote": "Suffs — 2024-05-26 3:00 PM: TDF general admission, $122 total for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 122.0,
+        "pricePerTicket": 61.0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "3:00 PM",
+      "curtainTime": "3:00 PM",
+      "ticketPrice": 122.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "TDF general admission",
+        "display": "TDF general admission; seats unlisted"
+      }
     },
     "759": {
       "id": 759,
@@ -228030,7 +228766,38 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 660
+      "sourceRef": 660,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18fcb918bf5f72cb",
+        "ticketNote": "Hair — 2024-05-30 8:00 PM: Left Orchestra D1/D3, comp for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Signature Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Left Orchestra",
+        "row": "D",
+        "seats": [
+          "1",
+          "3"
+        ],
+        "display": "Left Orchestra · Row D · Seats 1, 3"
+      }
     },
     "760": {
       "id": 760,
@@ -228086,7 +228853,31 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": "Conducted by Adam Laird (piano-conductor; verified).",
-      "sourceRef": 664
+      "sourceRef": 664,
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + TodayTix e-ticket email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "1901bfe537a5411b",
+        "ticketNote": "& Juliet — 2024-06-15 2:00 PM: Orchestra K1, $47.",
+        "ticketQuantity": 1,
+        "orderTotal": 47.0,
+        "seatSourceRef": 1515
+      },
+      "startTime": "2:00 PM",
+      "curtainTime": "2:00 PM",
+      "ticketPrice": 47.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "K",
+        "seats": [
+          "1"
+        ],
+        "display": "Orchestra · Row K · Seat 1"
+      }
     },
     "764": {
       "id": 764,
@@ -233847,7 +234638,25 @@
       "type": "Workshop/Developmental",
       "time": "Evening",
       "notes": "Workshop",
-      "sourceRef": 913
+      "sourceRef": 913,
+      "performanceMetadata": {
+        "attendanceSource": "Build 357 June-August 2023 audit correction",
+        "attendanceSourceRef": 1514,
+        "orderTotal": 0,
+        "ticketQuantity": 1,
+        "ticketNote": "Marked comp per Isaac correction / Arena comp rule where applicable."
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1514
     },
     "1030": {
       "id": 1030,
@@ -239504,6 +240313,135 @@
         "beneficiary": "The Trevor Project"
       },
       "notes": "The cast of Heathers in The Song Inside of Me: A Miscast Cabaret. Performer roles are intentionally generic per Isaac direction."
+    },
+    "1194": {
+      "id": 1194,
+      "showId": 339,
+      "date": "2024-03-14",
+      "venueId": 45,
+      "type": "Regional",
+      "time": "Evening",
+      "notes": "Added from January-June 2024 ticket audit. Comp; Center Orchestra E102/E104.",
+      "sourceRef": 1515,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18e1012cff5836e4",
+        "ticketNote": "Private Jones — 2024-03-14 8:00 PM: Center Orchestra E102/E104, comp for 2.",
+        "ticketQuantity": 2,
+        "orderTotal": 0,
+        "seatSourceRef": 1515
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Signature Comp",
+      "tags": [
+        "Comp"
+      ],
+      "experienceMarkers": [
+        "Comp"
+      ],
+      "auditSourceRef": 1515,
+      "seatLocation": {
+        "section": "Center Orchestra",
+        "row": "E",
+        "seats": [
+          "102",
+          "104"
+        ],
+        "display": "Center Orchestra · Row E · Seats 102, 104"
+      }
+    },
+    "1195": {
+      "id": 1195,
+      "showId": 520,
+      "date": "2024-04-29",
+      "venueId": 206,
+      "type": "Special Event",
+      "time": "Evening",
+      "notes": "Added from Signature Theatre performance information email. Tickets held at will call; seat location and cost not listed.",
+      "sourceRef": 1515,
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "performanceMetadata": {
+        "attendanceSource": "January-June 2024 ticket-cost audit table + Signature event information email",
+        "attendanceSourceRef": 1515,
+        "gmailMessageId": "18f25712f007ba08",
+        "ticketNote": "2024 Sondheim Award Presentation — 2024-04-29 8:00 PM at The Anthem; will call; cost and exact seat/location unknown.",
+        "seatLocation": "Will call; location unlisted"
+      },
+      "ticketSource": "Signature Theatre",
+      "auditSourceRef": 1515
+    },
+    "1196": {
+      "id": 1196,
+      "showId": 521,
+      "date": "2026-09-28",
+      "venueId": 207,
+      "type": "Off-Broadway",
+      "time": "Evening",
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "ticketPrice": 49.7,
+      "ticketCurrency": "USD",
+      "tags": [
+        "Preview",
+        "TodayTix"
+      ],
+      "experienceMarkers": [
+        "Preview",
+        "TodayTix"
+      ],
+      "sourceRef": 1516,
+      "auditSourceRef": 1516,
+      "seatLocation": {
+        "section": "Main Floor",
+        "row": "B",
+        "seat": "106",
+        "display": "Main Floor · Row B · Seat 106"
+      },
+      "notes": "Tonight’s performance captured from Isaac’s lobby-board photo and TodayTix receipt. Immersive Off-Broadway musical at The Night Egg at the Culture Club; 90 minutes, no intermission.",
+      "performanceMetadata": {
+        "productionLabel": "Off-Broadway",
+        "productionKey": "memoirs-of-amorous-gentlemen-off-broadway-2026",
+        "attendanceSource": "Isaac direct report + TodayTix Gmail receipt + lobby board photo + official production site",
+        "attendanceSourceRef": 1516,
+        "gmailMessageId": "1a0de449d2acb2ab",
+        "ticketQuantity": 1,
+        "orderTotal": 49.7,
+        "orderTotalCurrency": "USD",
+        "orderNumber": "T092626170933",
+        "ticketNote": "TodayTix order T092626170933: Memoirs of Amorous Gentlemen on 2026-09-28 at 8:00 PM; Main Floor Row B Seat 106; $49.70 total paid via Apple Pay/Visa ending 4167.",
+        "ticketConfidence": "Gmail TodayTix receipt + Isaac confirmation",
+        "receiptPriceBeforeDiscount": 95.0,
+        "receiptPricePaid": 49.7,
+        "receiptFeesIncluded": 8.0,
+        "receiptDiscountNote": "TodayTix receipt says saved 27% on this order.",
+        "intermission": "No intermission",
+        "runtime": "90 minutes",
+        "venueNote": "The Night Egg at the Culture Club, 530 W 27th Street, New York, NY 10001.",
+        "castSource": "Official production site + Isaac-supplied lobby board photo, 2026-09-28.",
+        "boardPhoto": "IMG_2256.jpeg",
+        "contentAdvisory": "Mature themes including violence, drug use, profanity, self-harm, loud noises, sexual content and nudity."
+      },
+      "programArchiveText": {
+        "performanceId": 1196,
+        "dateCaptured": "2026-09-28",
+        "sections": {
+          "attendance": "September 28, 2026, 8:00 PM; TodayTix order T092626170933; Main Floor Row B Seat 106; $49.70 total.",
+          "cast": "Sophia Anne Caruso as Colette; Cory Jeacoma as Léon; Nkeki Obi-Melekwe as Nana; Marc Delacruz as Sakae; Jenny Powers as Madame; ensemble/company: Leanne Antonio, Kailin Brown, Alexa De Barr, Michael Everett, Elsa Keefe, Jaedynn Latter, Austin Lesch, Nika Lindsay, Caleb Marshall, Jessie Peltier, Michael Starr, Thomas Winter.",
+          "creative": "Book by Leah Nanako Winkler; Music & Lyrics by Duncan Sheik; Based on the manga graphic novel Memoirs of Amorous Gentlemen by Moyoco Anno; Scenic Design by Scott Pask; Costume Design by Catherine Zuber; Lighting Design by Brian Tovar; Sound Design by Cody Spencer; Hair & Wig Design by Tom Watson; Makeup Design by Veli Sadiku; Casting by The Telsey Office / Patrick Goodwin, CSA / Alex Cortinas, CSA; Associate Director Henry Nettleton; Associate Choreographer Charlie Williams; Music Coordinator Kimberlee Wertz; Music Supervision, Vocal & Incidental Music Arrangements by Or Matias; Directed & Choreographed by Rob Ashford.",
+          "stageManagement": "Lobby board lists stage managers Eloia Peterson, Alden Kennedy, and Diallo Adams.",
+          "conductor": "Lobby board says this performance will be conducted by Amanda Morton.",
+          "sourceGuardrail": "No understudy or cover status was inferred from the lobby board. The current board/official site uses Marc Delacruz for Sakae, not previously announced Andy Bakun."
+        },
+        "sourceRef": 1516
+      }
     }
   },
   "organizations": {
@@ -255036,6 +255974,62 @@
           ],
           "scope": "universal",
           "confidence": "confirmed"
+        }
+      ]
+    },
+    "521": {
+      "showId": 521,
+      "sourceRef": 1516,
+      "tracks": [
+        {
+          "label": "Colette",
+          "aliases": [
+            "Colette"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Léon",
+          "aliases": [
+            "Léon",
+            "Leon"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Nana",
+          "aliases": [
+            "Nana"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Sakae",
+          "aliases": [
+            "Sakae"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Madame",
+          "aliases": [
+            "Madame"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed"
+        },
+        {
+          "label": "Ensemble",
+          "aliases": [
+            "Ensemble"
+          ],
+          "scope": "universal",
+          "confidence": "confirmed",
+          "group": "remainingEnsemble"
         }
       ]
     }

@@ -6738,6 +6738,116 @@
         "No not-attended item was added or converted into attendance.",
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
+    },
+    {
+      "title": "June-August 2023 ticket/source audit — Build 357",
+      "type": "user-correction+gmail-search+gmail-confirmed",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied June-August 2023 audit corrections. Personal Gmail was searched for Seussical and Sweeney Todd. Seussical did not surface a receipt, so the user-approved $45 fallback was used. Sweeney Todd had TodayTix and Signature performance/ticket emails confirming 2023-07-09 at 7:00 PM and Orchestra North Row B Seat 112, but the visible messages did not state a price.",
+      "gmailMessageIds": [
+        "1893b99530e3d2f5",
+        "1893675672031d47",
+        "1894208f00c640f2",
+        "188258dfd7cafc06"
+      ],
+      "gmailSearchNotes": [
+        "Seussical — 2023-07-08 — personal Gmail search for Seussical/Keegan/order/ticket/receipt returned no results; applied Isaac fallback $45.",
+        "Sweeney Todd — 2023-07-09 — TodayTix reminder and post-show email plus Signature performance info found; no visible price in the read messages.",
+        "Sweeney Todd — 2023-05-16 cancellation voucher found and preserved as context; no visible voucher value or July price was established from it."
+      ],
+      "directConfirmations": [
+        "My Joy is Heavy — 2023-06-23 — comped.",
+        "1776 — 2023-06-29 — comped.",
+        "Seussical — 2023-07-08 — no Gmail receipt found; set $45 per Isaac fallback.",
+        "Sweeney Todd — 2023-07-09 — TodayTix/Signature emails confirm 7:00 PM and Orchestra North Row B Seat 112; price left blank.",
+        "Cambodian Rock Band — all Arena Stage entries in this batch marked comp; 2023-07-23 set to evening.",
+        "To Kill a Mockingbird — existing $0/comp metadata normalized into ticket fields."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "January-June 2024 ticket-cost audit table — Build 357",
+      "type": "user-supplied-table+gmail-confirmed+not-attended-hold",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied January-June 2024 ticket-cost rows with Gmail links and clarified that Topdog/Underdog was not attended. Linked Gmail confirmations were read for representative rows and for the unknown & Juliet / Sondheim Award entries. Existing shells were updated; clearly attended missing shells for Private Jones 2024-03-14 and the 2024 Sondheim Award Presentation were added as attendance-only shells.",
+      "gmailMessageIds": [
+        "18cf9aa0b68ac3ee",
+        "18cf9b37bca68cc8",
+        "18d765806a14b663",
+        "18dad4d8f54e3aca",
+        "18e157d9f30f7bf4",
+        "18e1012cff5836e4",
+        "18e47b6fae251a9b",
+        "18e00ec694764d46",
+        "18e020e1cf8b174f",
+        "18e00d83685ed610",
+        "18efbabb91ec723f",
+        "18ed34e7ff63180f",
+        "18f25712f007ba08",
+        "18f5a0b38844e053",
+        "18f7e81bc7ea0dea",
+        "18fa1b2d4cefb431",
+        "18f8c7b40df44366",
+        "18fcb918bf5f72cb",
+        "1901bfe537a5411b",
+        "1901cb5503ea8250"
+      ],
+      "directConfirmations": [
+        "Annie — 2024-01-25 — $115.05, Right Orchestra A6.",
+        "Annie — 2024-01-28 — $133.55 total for 2, Left Mezzanine L15/L17.",
+        "Private Jones — 2024-02-08 — $20 total for 2, Left Orchestra D12/D14.",
+        "Lend Me a Soprano — corrected to 2024-02-23 7:30 PM, comp, Orchestra D6/D8.",
+        "Penelope — 2024-03-07 — comp, East Orchestra C107/C108.",
+        "Private Jones — 2024-03-14 — added shell, comp, Center Orchestra E102/E104.",
+        "& Juliet — 2024-03-16 — performance email confirms attendance window; seats/cost remain unknown.",
+        "The Notebook — 2024-03-17 — $164 total for 2, Left Orchestra B9/B11 partial view.",
+        "The Outsiders — 2024-03-18 — $0 after refund, Right Mezzanine J2.",
+        "Lempicka — 2024-03-20 — TDF, $63, general admission.",
+        "Nancy — 2024-04-20 — $20.38, general admission.",
+        "Hair — 2024-04-23 — comp, Right Orchestra E20/E22.",
+        "2024 Sondheim Award Presentation — added special-event shell, 2024-04-29 8 PM at The Anthem, will call; cost/location unknown.",
+        "Problems Between Sisters — 2024-05-09 — $30 total for 2, Mead Theatre D207/B205.",
+        "Hair — 2024-05-15 — $60 total for 2, Left Orchestra A17/A19.",
+        "The Lonely Few — 2024-05-25 — TDF, $45, general admission.",
+        "Suffs — 2024-05-26 — TDF, $122 total for 2, matinee at 3 PM.",
+        "Hair — 2024-05-30 — comp, Left Orchestra D1/D3.",
+        "& Juliet — 2024-06-15 — TodayTix, $47, Orchestra K1.",
+        "Topdog/Underdog — 2024-06-18 — user clarified not attended; no shell added."
+      ],
+      "guardrails": [
+        "Topdog/Underdog was not added as attendance.",
+        "Private Jones 2024-03-14 and 2024 Sondheim Award Presentation were added as attendance-only shells from linked ticket/performance emails.",
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
+      ]
+    },
+    {
+      "title": "Memoirs of Amorous Gentlemen opening-preview attendance capture — Build 358",
+      "type": "user-supplied-board-photo+todaytix-gmail+official-site",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac supplied the performance date, lobby board photo, cast/creative text, and TodayTix receipt details. Personal Gmail confirmed TodayTix order T092626170933 for Memoirs of Amorous Gentlemen on 2026-09-28 at 8:00 PM, Main Floor Row B Seat 106, total $49.70. Official production site was used to verify the current cast and creative team; lobby board photo verified the performance-specific company, stage managers, and conductor.",
+      "gmailMessageIds": [
+        "1a0de449d2acb2ab",
+        "1a0e550379c56444"
+      ],
+      "imageEvidence": [
+        "IMG_2256.jpeg — lobby board photo supplied by Isaac, 2026-09-28."
+      ],
+      "webEvidence": [
+        "Official production site MemoirsMusical.com current cast and creative team, crawled 2026-09-28.",
+        "Public sources note Marc Delacruz/Marc delaCruz replaced the previously announced Sakae performer; lobby board and official site agree on Marc Delacruz for this performance."
+      ],
+      "directConfirmations": [
+        "Memoirs of Amorous Gentlemen — 2026-09-28 8:00 PM — The Night Egg at the Culture Club — TodayTix order T092626170933, Main Floor Row B Seat 106, $49.70 total.",
+        "Performance board lists Sophia Anne Caruso, Cory Jeacoma, Nkeki Obi-Melekwe, Marc Delacruz, Jenny Powers, Leanne Antonio, Kailin Brown, Alexa De Barr, Michael Everett, Elsa Keefe, Jaedynn Latter, Austin Lesch, Nika Lindsay, Caleb Marshall, Jessie Peltier, Michael Starr, and Thomas Winter.",
+        "Performance board lists stage managers Eloia Peterson, Alden Kennedy, and Diallo Adams; conducted by Amanda Morton."
+      ],
+      "guardrails": [
+        "Added a new attendance performance and its current performance cast/creative only; no existing cast, cover, conductor, orchestra, or production-archive facts were changed.",
+        "No understudy/cover status was inferred; every listed performer is stored as the role printed or as Ensemble where no named role was supplied.",
+        "Marc Delacruz is linked to the existing canonical person record; Marc delaCruz is retained as an alias/source variant."
+      ]
     }
   ]
 }
