@@ -2,29 +2,29 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1193,
-    "people": 19992,
-    "shows": 520,
-    "venues": 203,
+    "performances": 1197,
+    "people": 19995,
+    "shows": 521,
+    "venues": 204,
     "roles": 5927,
     "appearances": 19719,
     "creativeCredits": 17612,
     "specialAppearances": 0,
-    "companionLinks": 637,
-    "sources": 1517
+    "companionLinks": 642,
+    "sources": 1519
   },
-  "generatedAt": "2026-09-28T22:12:00-04:00",
-  "updatedAt": "2026-09-28T22:12:00-04:00",
-  "description": "Cuebook split-json package — Build 358 adds Memoirs of Amorous Gentlemen live attendance capture.",
+  "generatedAt": "2026-09-29T14:47:00+00:00",
+  "updatedAt": "2026-09-29T10:47:00-04:00",
+  "description": "Cuebook split-json package — Build 360 applies queued ticket-cost, companion, and attendance cleanup bundle.",
   "fileCount": 19,
-  "build": "json-b358",
-  "version": "v14.48.00",
-  "generated": "2026-09-29T02:12:00+00:00",
+  "build": "json-b360",
+  "version": "v14.50.00",
+  "generated": "2026-09-29T14:47:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B358.md",
-      "bytes": 2280,
-      "sha256": "683826be5f75a9a4b0f8deafb17ddc54c1efc0284cdc3914f216e27a8e4585ec"
+      "path": "Cuebook_CHANGELOG_B360.md",
+      "bytes": 1678,
+      "sha256": "cf1e6c1f62250181ca737f8cf6911771cf9da20c66773c297ed02c792f4a3ad4"
     },
     {
       "path": "cast.json",
@@ -43,13 +43,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 5541783,
-      "sha256": "bf37f2bdf0e894b2b05a405597181ea35a6838741a813f44b35505e5b1a01fec"
+      "bytes": 5577050,
+      "sha256": "5772609992b349bc92587b3e192cd0cffbb2f9d138a6c870a02a6dffa5f53d86"
     },
     {
       "path": "credits.json",
-      "bytes": 3222244,
-      "sha256": "07df39d65ce12509f20edd31ea5b1e156b79ce539a4407fbd7c316e679f80e26"
+      "bytes": 3223189,
+      "sha256": "c83607b7d04ff4ceab5729ceb217e8022e2867108761178ea887ff9d013486fe"
     },
     {
       "path": "cuebook-logo.png",
@@ -63,8 +63,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 385064,
-      "sha256": "e09f6edee0db2e1a91c3ff5544481d13bc58a9a562dc2c24a269082e9969f355"
+      "bytes": 387757,
+      "sha256": "b6398efa21da3876265e6a5c21e92719c70b19b10c4a14686bfcf4f709ab3e89"
     },
     {
       "path": "loader-test.html",
@@ -103,8 +103,8 @@
     },
     {
       "path": "sources.json",
-      "bytes": 751470,
-      "sha256": "2082987c20436ca4bf340174e87227b57e0fc467c7014a38a3dbc8b15fd566a2"
+      "bytes": 755703,
+      "sha256": "24747f880f7354b4c437a73c4d9f31cbd9cb4c67feb4b1626df66859772f59de"
     },
     {
       "path": "souvenir.html",
@@ -112,6 +112,6 @@
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
     }
   ],
-  "totalBytes": 24521845,
+  "totalBytes": 24564381,
   "largestFileBytes": 7405780
 }

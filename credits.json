@@ -152500,6 +152500,41 @@
       "personId": 11938,
       "sourceRef": 1514,
       "note": "Added from Isaac correction: Brendan Padgett also attended Spamalot on 2023-05-14."
+    },
+    {
+      "id": 647,
+      "performanceId": 714,
+      "personId": 20981,
+      "sourceRef": 1517,
+      "note": "Added from Isaac correction: The Tell was attended with Maria Lee Lewis."
+    },
+    {
+      "id": 648,
+      "performanceId": 1118,
+      "personId": 20982,
+      "sourceRef": 1518,
+      "note": "Added from Isaac Build 360 queue: attended with Pat Hodgens."
+    },
+    {
+      "id": 649,
+      "performanceId": 719,
+      "personId": 20983,
+      "sourceRef": 1518,
+      "note": "Added from Isaac Build 360 queue: attended with John-Paul Hayworth."
+    },
+    {
+      "id": 650,
+      "performanceId": 720,
+      "personId": 16346,
+      "sourceRef": 1518,
+      "note": "Added from Isaac Build 360 queue: attended with Ric Birch."
+    },
+    {
+      "id": 651,
+      "performanceId": 721,
+      "personId": 19110,
+      "sourceRef": 1518,
+      "note": "Added from Isaac Build 360 queue: attended with Caroline Hunt."
     }
   ]
 }

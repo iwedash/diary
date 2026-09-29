@@ -777,6 +777,20 @@ html,body,#app{width:100%;max-width:100%;overflow-x:hidden!important;}
   .weeklyActivityItem{flex-basis:5px!important;min-width:5px!important}
 }
 
+
+/* Build 359: polished performance facts/detail panel */
+.performanceFactsPolished{padding:12px!important;margin-top:10px!important;border:1px solid rgba(13,44,37,.14)!important;background:linear-gradient(145deg,rgba(255,253,247,.96),rgba(255,250,229,.92) 58%,rgba(238,246,238,.92))!important;border-radius:24px!important;box-shadow:0 14px 34px rgba(23,18,7,.08)!important;overflow:hidden;}
+.performanceFactsPolished .perfInfoGrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:8px;margin:0!important;}
+.performanceFactsPolished .perfInfoBlock{position:relative;min-width:0;border:1px solid rgba(13,44,37,.12);background:rgba(255,255,255,.78);border-radius:16px;padding:10px 12px;box-shadow:inset 0 1px 0 rgba(255,255,255,.7);}
+.performanceFactsPolished .perfInfoBlockWide{grid-column:1/-1;}
+.performanceFactsPolished .perfInfoBlock b,.performanceFactsPolished .perfTicketLine b{display:block;margin:0 0 3px;font-size:9px!important;line-height:1.1;text-transform:uppercase;letter-spacing:.16em;color:rgba(13,44,37,.58);font-weight:950;}
+.performanceFactsPolished .perfInfoBlock span{display:block;min-width:0;font-size:13px!important;line-height:1.32;font-weight:900;color:var(--cue-ink);}
+.performanceFactsPolished .perfInfoBlock span em{font-style:normal;color:rgba(13,44,37,.34);padding:0 1px;}
+.performanceFactsPolished .perfInfoBlock .link{font-weight:1000;color:#184c72;text-decoration:none;border-bottom:1px solid rgba(24,76,114,.24);}
+.performanceFactsPolished .perfTicketLine{grid-column:1/-1;display:grid;grid-template-columns:minmax(92px,auto) 1fr;align-items:center;gap:10px;min-width:0;border-radius:18px;padding:11px 14px;background:linear-gradient(135deg,#0d2c25,#174538 72%,#1e5748);border:1px solid rgba(255,240,100,.26);box-shadow:0 10px 24px rgba(13,44,37,.16);}
+.performanceFactsPolished .perfTicketLine b{margin:0;color:rgba(255,255,255,.62)!important;}
+.performanceFactsPolished .perfTicketLine span{min-width:0;color:#fff;font-size:14px!important;line-height:1.25;font-weight:950;overflow-wrap:anywhere;}
+@media(max-width:620px){.performanceFactsPolished{padding:10px!important;border-radius:22px!important}.performanceFactsPolished .perfInfoGrid{grid-template-columns:1fr;gap:7px}.performanceFactsPolished .perfInfoBlock{padding:9px 10px;border-radius:15px}.performanceFactsPolished .perfInfoBlock span{font-size:12px!important}.performanceFactsPolished .perfTicketLine{grid-template-columns:1fr;gap:3px;padding:10px 12px;border-radius:16px}.performanceFactsPolished .perfTicketLine span{font-size:13px!important}}
 </style>
 
 <style id="cuebook-b146-authoritative">
@@ -1539,7 +1553,7 @@ function creditCollaboratorText(links,eid){let names=[],seen=new Set(),add=row=>
 function entityDrawerList(row){let ids=rowEntityIds(row);return ids.length?`<div class="entityStack">${ids.map(x=>entityDrawer(x.eid,x.label)).join('')}</div>`:esc(row.raw||nameList(row)||'');}
 function normalizedTicketDisplay(p){let bits=[];if(p.ticketType)bits.push(p.ticketType);if(p.ticketSource)bits.push(p.ticketSource);if(p.ticketPrice!=null)bits.push(ticketMoney(p));else if(p.price)bits.push(p.price);return bits.join(' · ');}
 function normalizedSeatDisplay(p){return seatDisplay(p)||'—';}
-function performanceFactStrip(p){let withTxt=attended(p).join(', ')||'—';let seat=normalizedSeatDisplay(p)||'—';let ticket=normalizedTicketDisplay(p)||'';let seatTicket=[seat,ticket].filter(x=>x&&x!=='—').join(' · ')||'—';let venue=venueName(p.venueId)||'—';let city=V.get(idNum(p.venueId))?.city||'';let production=p.performanceMetadata?.productionLabel||p.performanceMetadata?.productionKey||p.type||'—';return `<section class="card compactTop performanceFacts"><div class="factsPanel"><div class="fact factWide"><b>Theatre / Venue / Production</b><span>${link('#venue-'+p.venueId,venue,'link')}${city?` · ${esc(city)}`:''} · ${esc(production)}</span></div><div class="fact"><b>Date / Time</b><span>${esc([fmtPerformanceDate(p.date),p.time].filter(Boolean).join(' · '))}</span></div><div class="fact"><b>With</b><span>${esc(withTxt)}</span></div><div class="fact factWide"><b>Seat / Price</b><span>${esc(seatTicket)}</span></div></div></section>`;}
+function performanceFactStrip(p){let withTxt=attended(p).join(', ')||'—';let seat=normalizedSeatDisplay(p)||'—';let ticket=normalizedTicketDisplay(p)||'';let seatTicket=[seat,ticket].filter(x=>x&&x!=='—').join(' · ')||'—';let venue=venueName(p.venueId)||'—';let city=V.get(idNum(p.venueId))?.city||'';let production=p.performanceMetadata?.productionLabel||p.performanceMetadata?.productionKey||p.type||'—';let dateTxt=[fmtPerformanceDate(p.date),p.time].filter(Boolean).join(' · ')||'—';return `<section class="card compactTop performanceFacts performanceFactsPolished"><div class="perfInfoGrid"><div class="perfInfoBlock perfInfoBlockWide"><b>Theatre / Venue / Production</b><span>${link('#venue-'+p.venueId,venue,'link')}${city?` <em>·</em> ${esc(city)}`:''}${production?` <em>·</em> ${esc(production)}`:''}</span></div><div class="perfInfoBlock"><b>Date / Time</b><span>${esc(dateTxt)}</span></div><div class="perfInfoBlock"><b>With</b><span>${esc(withTxt)}</span></div><div class="perfTicketLine"><b>Seat / Price</b><span>${esc(seatTicket)}</span></div></div></section>`;}
 
 function showLink(id){return link('#show-'+id,showTitle(id),'link');}
 function perfLink(id,label){return link('#perf-'+id,label,'linkBtn');}

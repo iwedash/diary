@@ -6848,6 +6848,67 @@
         "No understudy/cover status was inferred; every listed performer is stored as the role printed or as Ensemble where no named role was supplied.",
         "Marc Delacruz is linked to the existing canonical person record; Marc delaCruz is retained as an alias/source variant."
       ]
+    },
+    {
+      "title": "September 2023 ticket/source audit and show-page polish — Build 359",
+      "type": "user-correction+ui-polish",
+      "dateCaptured": "2026-09-28",
+      "evidence": "Isaac confirmed all September 2023 audit-batch performances were comps and specified The Tell was attended with Maria Lee Lewis. He also requested the performance detail/header facts section be cleaned up visually to match the rest of the dashboard.",
+      "directConfirmations": [
+        "Ink — 2023-09-01 — comp.",
+        "Evita — 2023-09-06 — comp.",
+        "Sister Act — 2023-09-09 — comp.",
+        "My Mama and the Full-Scale Invasion — 2023-09-13 — comp.",
+        "Something Moving: A Meditation on Maynard — 2023-09-26 — comp.",
+        "The Tell — 2023-09-29 — comp; attended with Maria Lee Lewis."
+      ],
+      "uiChanges": [
+        "Restyled performance facts/detail card with a more polished two-column card, stronger labels, dark ticket ribbon, and mobile-friendly wrapping.",
+        "Kept existing data display semantics: theatre/production, date/time, with, and seat/price remain present."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Ticket corrections were limited to the September 2023 audit batch.",
+        "The dashboard UI change was limited to performance fact/header presentation in index.html."
+      ]
+    },
+    {
+      "title": "Queued ticket-cost, companion, and attendance cleanup bundle — Build 360",
+      "type": "user-supplied-audit-bundle+gmail-confirmed+limited-web-checks",
+      "dateCaptured": "2026-09-29",
+      "evidence": "Isaac supplied accumulated queue corrections for Oct-Dec 2023, Jan 2024, selected 2019/2023 receipt-backed rows, Wicked/Death Becomes Her/SIX/& Juliet/Titanique/Annie ticket corrections, and not-attended holds. Gmail message IDs from supplied receipt links were read for representative rows; web checks were used only to verify public run/venue context where needed.",
+      "gmailMessageIds": [
+        "1681064f7cdd763d",
+        "169ab2dc9dc732fa",
+        "16b801a3c20c430b",
+        "16c3a66789dfe01d",
+        "1892ccbec42e1e55",
+        "18a499e4c0af8b23",
+        "18b63e91aeed326d",
+        "18c5b396a395f9d5",
+        "188061fa76537d05",
+        "187070caa03c1fa0",
+        "18e47b6fae251a9b",
+        "190267a3916a2142"
+      ],
+      "implementedHighlights": [
+        "October-December 2023 queue implemented: comps, companions, ticket/seat corrections, and Ragtime $213 rush row.",
+        "January 2024 comps and July 2, 2024 Wicked Audience Rewards redemption applied.",
+        "2023 receipt-backed corrections applied; Play That Goes Wrong 2023-08-02 and Bridges 2023-09-08 added as attended shells.",
+        "Death Becomes Her missing prices filled per Isaac rule; SIX National Theatre entries normalized to $35 one-ticket lottery; & Juliet/Titanique/Heathers/Wicked/Annie corrections applied.",
+        "2019 receipt table applied where matching shells existed; missing attended Kings and Bianca Del Rio shells added; Katya held as not attended."
+      ],
+      "heldOrUnresolved": [
+        "Sweeney Todd — 2023-05-16 cancellation/voucher email was documented as a $35 voucher but was not added as an attended performance because the performance was canceled.",
+        "Wicked display/sequence references “perf 288” and “perf 392” did not map to raw DB performance IDs in Build 359; not applied to avoid wrong-show edits.",
+        "Annie Baltimore 2025 rush amount was not recovered from public search; Jan 8, Jan 9, and Jan 11 Baltimore entries were marked Rush with amount left blank.",
+        "Katya: Help Me I’m Dying — 2019-08-01 receipt row was explicitly marked not attended by Isaac and was not added."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Existing sourceRef values used for program/cast provenance were preserved where present; ticket audit provenance was added in performanceMetadata.",
+        "Not-attended/canceled items were not converted into attended performances."
+      ]
     }
   ]
 }

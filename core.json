@@ -1,30 +1,30 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_357",
-    "generated": "2026-09-29T02:12:00+00:00",
-    "rowCount": 1192,
-    "performanceCount": 1193,
-    "peopleCount": 19992,
-    "showCount": 520,
-    "venueCount": 203,
+    "sourceFile": "Cuebook_Build_360",
+    "generated": "2026-09-29T14:47:00+00:00",
+    "rowCount": 1197,
+    "performanceCount": 1197,
+    "peopleCount": 19995,
+    "showCount": 521,
+    "venueCount": 204,
     "roleCount": 5927,
     "appearanceCount": 19719,
     "creativeCreditCount": 17612,
     "notesCount": 528,
-    "updated": "2026-09-28",
-    "notes": "Build 358 adds Memoirs of Amorous Gentlemen 2026-09-28 attendance with TodayTix receipt, performance board cast, creative team, stage managers, and conductor.",
-    "updatedBy": "OpenAI / Isaac live performance capture",
-    "updatedAt": "2026-09-28T22:12:00-04:00",
+    "updated": "2026-09-29",
+    "notes": "Build 360 applies the queued ticket-cost/companion cleanup bundle through the 2019, 2023, 2024, 2025, and 2026 audit corrections supplied by Isaac.",
+    "updatedBy": "OpenAI / Isaac audit continuation",
+    "updatedAt": "2026-09-29T10:47:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b357",
-    "version": "v14.48.00",
-    "build": "json-b358",
-    "buildTime": "2026-09-29T02:12:00+00:00",
-    "buildDate": "2026-09-28",
+    "sourceBase": "json-b359",
+    "version": "v14.50.00",
+    "build": "json-b360",
+    "buildTime": "2026-09-29T14:47:00+00:00",
+    "buildDate": "2026-09-29",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.48.00",
-    "lastUpdated": "2026-09-28",
+    "buildVersion": "v14.50.00",
+    "lastUpdated": "2026-09-29",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 357: June-August 2023 audit corrections and January-June 2024 ticket-cost audit rows.",
+    "lastUpdatedNote": "Build 360: queued ticket-cost, companion, and attendance cleanup bundle.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4098,7 +4098,7 @@
         "No missing April shells were created because all supplied April rows matched existing performance shells."
       ]
     },
-    "lastUpdatedAt": "2026-09-28T22:12:00-04:00",
+    "lastUpdatedAt": "2026-09-28T22:18:00-04:00",
     "build349QueueImplementation": {
       "updatedAt": "2026-09-28T17:18:00-04:00",
       "summary": "Applied Ticketmaster receipt evidence for Annie and Six in late 2022 and May 2026 ticket-cost updates for existing performance shells.",
@@ -4180,7 +4180,7 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
     },
-    "generatedAt": "2026-09-28T17:56:00-04:00",
+    "generatedAt": "2026-09-29T14:47:00+00:00",
     "build353QueueImplementation": {
       "updatedAt": "2026-09-28T17:58:00-04:00",
       "summary": "Applied January 2023 ticket audit corrections for Ride the Cyclone and Into the Woods at Signature Theatre.",
@@ -4260,7 +4260,7 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
     },
-    "companionLinkCount": 637,
+    "companionLinkCount": 642,
     "build358QueueImplementation": {
       "updatedAt": "2026-09-28T22:12:00-04:00",
       "summary": "Added Memoirs of Amorous Gentlemen live attendance and performance archive snapshot.",
@@ -4273,6 +4273,45 @@
       "guardrails": [
         "No understudy/cover status inferred.",
         "No existing cast, cover, conductor, orchestra, or production-archive facts changed."
+      ]
+    },
+    "build359QueueImplementation": {
+      "updatedAt": "2026-09-28T22:18:00-04:00",
+      "summary": "Applied September 2023 audit corrections and polished the performance facts/detail section on show pages.",
+      "implemented": [
+        "Marked Ink, Evita, Sister Act, My Mama and the Full-Scale Invasion, Something Moving, and The Tell as comps.",
+        "Added Maria Lee Lewis as companion for The Tell on 2023-09-29.",
+        "Added Maria Lee Lewis as a companion person record because she was not already present.",
+        "Restyled the show-page performance facts block for a cleaner venue/date/with/seat-price display."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "No seat locations or costs were invented beyond confirmed comp status.",
+        "UI cleanup changed index.html presentation only."
+      ]
+    },
+    "sourceCount": 1519,
+    "build360QueueImplementation": {
+      "updatedAt": "2026-09-29T10:47:00-04:00",
+      "summary": "Applied Isaac’s queued ticket-cost, companion, and attendance cleanup bundle from Build 359 into Build 360.",
+      "sourceRef": 1518,
+      "implemented": [
+        "October-December 2023 queue implemented: comps, companions, ticket/seat corrections, and Ragtime $213 rush row.",
+        "January 2024 comps and July 2, 2024 Wicked Audience Rewards redemption applied.",
+        "2023 receipt-backed corrections applied; Play That Goes Wrong 2023-08-02 and Bridges 2023-09-08 added as attended shells.",
+        "Death Becomes Her missing prices filled per Isaac rule; SIX National Theatre entries normalized to $35 one-ticket lottery; & Juliet/Titanique/Heathers/Wicked/Annie corrections applied.",
+        "2019 receipt table applied where matching shells existed; missing attended Kings and Bianca Del Rio shells added; Katya held as not attended."
+      ],
+      "heldOrUnresolved": [
+        "Sweeney Todd — 2023-05-16 cancellation/voucher email was documented as a $35 voucher but was not added as an attended performance because the performance was canceled.",
+        "Wicked display/sequence references “perf 288” and “perf 392” did not map to raw DB performance IDs in Build 359; not applied to avoid wrong-show edits.",
+        "Annie Baltimore 2025 rush amount was not recovered from public search; Jan 8, Jan 9, and Jan 11 Baltimore entries were marked Rush with amount left blank.",
+        "Katya: Help Me I’m Dying — 2019-08-01 receipt row was explicitly marked not attended by Isaac and was not added."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
+        "Existing sourceRef values used for program/cast provenance were preserved where present; ticket audit provenance was added in performanceMetadata.",
+        "Not-attended/canceled items were not converted into attended performances."
       ]
     }
   },
@@ -178750,6 +178789,30 @@
         "musician",
         "orchestra"
       ]
+    },
+    "20981": {
+      "id": 20981,
+      "name": "Maria Lee Lewis",
+      "sortName": "Maria Lee Lewis",
+      "kinds": [
+        "companion"
+      ]
+    },
+    "20982": {
+      "id": 20982,
+      "name": "Pat Hodgens",
+      "sortName": "Pat Hodgens",
+      "kinds": [
+        "companion"
+      ]
+    },
+    "20983": {
+      "id": 20983,
+      "name": "John-Paul Hayworth",
+      "sortName": "John-Paul Hayworth",
+      "kinds": [
+        "companion"
+      ]
     }
   },
   "shows": {
@@ -180858,6 +180921,10 @@
       "title": "Memoirs of Amorous Gentlemen",
       "type": "Off-Broadway",
       "sourceRef": 1516
+    },
+    "522": {
+      "id": 522,
+      "title": "Bianca Del Rio: It’s Jester Joke"
     }
   },
   "venues": {
@@ -181894,6 +181961,13 @@
       "sourceRef": 1516,
       "state": "NY",
       "address": "530 W 27th Street"
+    },
+    "208": {
+      "id": 208,
+      "name": "Lincoln Theatre",
+      "city": "Washington, DC",
+      "address": "1215 U Street NW",
+      "sourceRef": 1518
     }
   },
   "roles": {
@@ -216058,7 +216132,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 212
+      "sourceRef": 212,
+      "ticketPrice": 30.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Wicked — 2016-02-05: queued as $30 lottery per Isaac."
+      }
     },
     "231": {
       "id": 231,
@@ -221955,8 +222038,16 @@
       "sourceRef": 422,
       "performanceMetadata": {
         "auditSource": "Gmail London receipt pull, 2026-09-25.",
-        "receiptSearchStatus": "No matching Wicked/Apollo Victoria ticket receipt found in Gmail pull."
-      }
+        "receiptSearchStatus": "No matching Wicked/Apollo Victoria ticket receipt found in Gmail pull.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "originalPrice": "£29.50",
+        "conversionNote": "User-requested conversion from £29.50 day seat; prior queue used GBP/USD 1.2918, approx. $38.11."
+      },
+      "ticketPrice": 38.11,
+      "ticketCurrency": "USD",
+      "ticketType": "Day Seat",
+      "ticketSource": "Apollo Victoria Theatre Box Office"
     },
     "493": {
       "id": 493,
@@ -222929,10 +223020,10 @@
       "sourceRef": 454,
       "ticketType": "TDF",
       "ticketSource": "TDF",
-      "ticketPrice": 49,
+      "ticketPrice": 53.0,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "TDF order 369540: 1 ticket at $49 plus $4 Broadway handling; $53 total.",
+        "ticketNote": "Pretty Woman — 2019-01-13 3:00 PM: assigned at box office, $53.00.",
         "ticketQuantity": 1,
         "orderNumber": "369540",
         "orderTotal": 53.0,
@@ -222940,8 +223031,16 @@
         "handlingFee": 4.0,
         "orderTotalCurrency": "USD",
         "gmailReceiptMessageId": "1683e4d7fd1682dd",
-        "auditSource": "Gmail TDF receipt, 2026-09-25."
-      }
+        "auditSource": "Gmail TDF receipt, 2026-09-25.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "1683e4d7fd1682dd"
+      },
+      "seatLocation": {
+        "section": "Assigned at box office",
+        "display": "Assigned at box office"
+      },
+      "ticketCount": 1
     },
     "532": {
       "id": 532,
@@ -223156,12 +223255,33 @@
     "541": {
       "id": 541,
       "showId": 244,
-      "date": "2019-03-06",
+      "date": "2019-03-31",
       "venueId": 41,
       "type": "Regional",
-      "time": "Evening",
+      "time": "Matinee",
       "notes": null,
-      "sourceRef": 462
+      "sourceRef": 462,
+      "startTime": "2:00 PM",
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Studio Theatre",
+      "seatLocation": {
+        "section": "B Section",
+        "row": "C",
+        "seats": [
+          "115",
+          "117"
+        ],
+        "display": "B Section C115, C117"
+      },
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "169ab2dc9dc732fa",
+        "ticketNote": "Queen of Basel — 2019-03-31 2:00 PM: B Section C115/C117, comp."
+      }
     },
     "542": {
       "id": 542,
@@ -223202,8 +223322,8 @@
       "notes": "Studio receipt order 709697; B Section E104/E102; comp/zero-dollar. Second attendee not yet identified.",
       "sourceRef": 456,
       "ticketType": "Comp",
-      "ticketSource": "Comp",
-      "ticketPrice": 0,
+      "ticketSource": "Studio Theatre",
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Comp"
@@ -223212,21 +223332,25 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp by Studio rule; Studio receipt found.",
+        "ticketNote": "Admissions — 2019-03-20 8:00 PM: B Section E102/E104, comp.",
         "receiptOrder": "709697",
         "receiptSource": "Studio Theatre order confirmation",
         "receiptDate": "2019-03-16",
-        "receiptSeatText": "B Section E104/E102"
+        "receiptSeatText": "B Section E104/E102",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16988a6294de5ae2"
       },
       "seatLocation": {
         "section": "B Section",
         "row": "E",
         "seats": [
-          "104",
-          "102"
+          "102",
+          "104"
         ],
-        "display": "B Section · Row E · Seats 104, 102"
-      }
+        "display": "B Section E102, E104"
+      },
+      "ticketCount": 2
     },
     "544": {
       "id": 544,
@@ -223306,14 +223430,30 @@
       "time": "Evening",
       "notes": "Attended with Brian Moran.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Brian Moran"
         ],
-        "companion": "Brian Moran"
+        "companion": "Brian Moran",
+        "gmailMessageId": "1699c26b9dbf8e28",
+        "ticketNote": "Grand Hotel — 2019-04-18 8:00 PM: Orchestra South C406/C407, comp."
       },
-      "sourceRef": 468
+      "sourceRef": 468,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Signature Theatre",
+      "seatLocation": {
+        "section": "Orchestra South",
+        "row": "C",
+        "seats": [
+          "406",
+          "407"
+        ],
+        "display": "Orchestra South C406, C407"
+      },
+      "ticketCount": 2
     },
     "549": {
       "id": 549,
@@ -223433,14 +223573,30 @@
       "time": "Matinee",
       "notes": "Attended with Val Daubert.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Val Daubert"
         ],
-        "companion": "Val Daubert"
+        "companion": "Val Daubert",
+        "gmailMessageId": "16a0e49905e1fdcd",
+        "ticketNote": "Hadestown — 2019-04-28 2:00 PM: Left Mezzanine H15/H17, $205.20."
       },
-      "sourceRef": 473
+      "sourceRef": 473,
+      "ticketPrice": 205.2,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketmaster",
+      "ticketSource": "Ticketmaster",
+      "seatLocation": {
+        "section": "Left Mezzanine",
+        "row": "H",
+        "seats": [
+          "15",
+          "17"
+        ],
+        "display": "Left Mezzanine H15, H17"
+      },
+      "ticketCount": 2
     },
     "554": {
       "id": 554,
@@ -223480,8 +223636,8 @@
       "notes": "Studio receipt/order 716575; Premium Section C206/C205.",
       "sourceRef": 475,
       "ticketType": "Comp",
-      "ticketSource": "Comp",
-      "ticketPrice": 0,
+      "ticketSource": "Studio Theatre",
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Comp"
@@ -223490,21 +223646,25 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp by Studio rule; Studio receipt/order 716575 confirms zero-dollar/blank price fields.",
+        "ticketNote": "The Children — 2019-05-02 8:00 PM: Premium Section C205/C206, comp.",
         "orderNumber": "716575",
         "ticketOrder": "Studio Theatre order 716575",
         "receiptSource": "Studio Theatre receipt found in Gmail",
-        "receiptDate": "2019-04-30"
+        "receiptDate": "2019-04-30",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16a70743be2e87b7"
       },
       "seatLocation": {
         "section": "Premium Section",
         "row": "C",
         "seats": [
-          "206",
-          "205"
+          "205",
+          "206"
         ],
-        "display": "Premium Section C206/C205"
-      }
+        "display": "Premium Section C205, C206"
+      },
+      "ticketCount": 2
     },
     "557": {
       "id": 557,
@@ -223516,8 +223676,8 @@
       "notes": "Olney receipt/order 3295667; Orchestra Zone A H-109/H-110; $0 total.",
       "sourceRef": 476,
       "ticketType": "Comp",
-      "ticketSource": "Comp",
-      "ticketPrice": 0,
+      "ticketSource": "Olney Theatre Center",
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Comp"
@@ -223526,36 +223686,51 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp; Olney receipt/order 3295667 confirms $0 total.",
+        "ticketNote": "Ken Ludwig’s A Comedy of Tenors — 2019-05-08 8:00 PM: Orchestra H109/H110, comp.",
         "orderNumber": "3295667",
         "ticketOrder": "Olney Theatre Center order 3295667",
         "receiptSource": "Olney Theatre Center receipt found in Gmail",
-        "receiptTotal": 0
+        "receiptTotal": 0,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16a986c78564d028"
       },
       "seatLocation": {
-        "section": "Orchestra Zone A",
+        "section": "Orchestra",
         "row": "H",
         "seats": [
           "109",
           "110"
         ],
-        "display": "Orchestra Zone A H-109/H-110"
-      }
+        "display": "Orchestra H109, H110"
+      },
+      "ticketCount": 2
     },
     "558": {
       "id": 558,
       "showId": 2,
-      "date": "2019-05-12",
+      "date": "2019-05-11",
       "venueId": 90,
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
       "seatLocation": {
-        "display": "Rear Orchestra Left",
-        "section": "Orchestra",
-        "side": "Left"
+        "section": "Assigned at box office",
+        "display": "Assigned at box office"
       },
-      "sourceRef": 477
+      "sourceRef": 477,
+      "startTime": "2:00 PM",
+      "ticketPrice": 102.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF / Box Office Assignment",
+      "ticketSource": "TDF",
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16a0cdd8c27fcc34",
+        "ticketNote": "The Phantom of the Opera — 2019-05-11 2:00 PM: assigned at box office, $102.00."
+      }
     },
     "559": {
       "id": 559,
@@ -223572,22 +223747,26 @@
           "111",
           "112"
         ],
-        "display": "MEZZ Row E Seats 111–112"
+        "display": "Mezzanine E111, E112"
       },
       "sourceRef": 478,
       "ticketType": "Ticketmaster",
       "ticketSource": "Ticketmaster",
-      "ticketPrice": 121.85,
+      "ticketPrice": 243.7,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "Ticketmaster order 58-40783/NY4; 2 tickets total $243.70; average stored per ticket.",
+        "ticketNote": "Tootsie — 2019-05-11 8:00 PM: Mezzanine E111/E112, $243.70.",
         "orderNumber": "58-40783/NY4",
         "orderTotal": 243.7,
         "orderTotalCurrency": "USD",
         "ticketAverage": 121.85,
         "receiptSource": "Ticketmaster Gmail receipt",
-        "dateCorrection": "Moved from 2019-05-12 to 2019-05-11 per Isaac confirmation."
-      }
+        "dateCorrection": "Moved from 2019-05-12 to 2019-05-11 per Isaac confirmation.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "169d42f5942c2896"
+      },
+      "ticketCount": 2
     },
     "560": {
       "id": 560,
@@ -223702,20 +223881,24 @@
         "intermission": "No intermission",
         "postShow": "Post-show discussion following the performance",
         "note": "Program metadata layer only; source cast string spelling corrected to Tarell Alvin McCraney; no structured appearance rows added.",
-        "ticketNote": "TodayTix Runway Seats; $20 face / $25 total; confirmation T060219086806.",
+        "ticketNote": "Ms. Blakk for President — 2019-06-02 3:00 PM: runway seat assigned at box office, $25.00.",
         "orderNumber": "T060219086806",
         "ticketFacePrice": 20,
-        "ticketTotal": 25
+        "ticketTotal": 25,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16b158d83339df0e"
       },
       "sourceRef": 481,
       "ticketType": "TodayTix",
       "ticketSource": "TodayTix",
-      "ticketPrice": 25,
+      "ticketPrice": 25.0,
       "ticketCurrency": "USD",
       "seatLocation": {
-        "section": "Runway Seats",
-        "display": "Runway Seats"
-      }
+        "section": "Runway seat",
+        "display": "Runway seat; number assigned at box office"
+      },
+      "ticketCount": 1
     },
     "565": {
       "id": 565,
@@ -223730,24 +223913,28 @@
         "section": "Lower Gallery",
         "row": "B",
         "seats": [
-          "35",
-          "34"
+          "34",
+          "35"
         ],
-        "display": "Lower Gallery · Row B · Seats 35, 34"
+        "display": "Lower Gallery B34, B35"
       },
       "ticketType": "Full Price",
       "ticketReference": "525805-3296883",
       "sourceRef": 482,
       "ticketSource": "Chicago Shakespeare Theatre",
-      "ticketPrice": 51,
+      "ticketPrice": 102.0,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "Chicago Shakespeare order 3296883; $48 each + $6 handling; $102 total / $51 average.",
+        "ticketNote": "SIX — 2019-06-04 7:45 PM: Lower Gallery B34/B35, $102.00.",
         "orderNumber": "3296883",
         "ticketFacePrice": 48,
         "ticketTotal": 102,
-        "ticketAverage": 51
-      }
+        "ticketAverage": 51,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16ae598f2920d677"
+      },
+      "ticketCount": 2
     },
     "566": {
       "id": 566,
@@ -223882,15 +224069,15 @@
     "571": {
       "id": 571,
       "showId": 263,
-      "date": "2019-06-18",
+      "date": "2019-06-23",
       "venueId": 41,
       "type": "Regional",
       "time": "Evening",
       "notes": "Attended with Brendan Padgett.",
       "sourceRef": 488,
       "ticketType": "Comp",
-      "ticketSource": "Comp",
-      "ticketPrice": 0,
+      "ticketSource": "Studio Theatre",
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Comp",
@@ -223901,13 +224088,26 @@
         "Invited Dress"
       ],
       "performanceMetadata": {
-        "ticketNote": "Invited Dress Rehearsal; comp confirmed by Isaac.",
+        "ticketNote": "Every Brilliant Thing — 2019-06-23 7:00 PM: GA 25/29, comp.",
         "eventStatus": "Invited Dress Rehearsal",
         "companions": [
           "Brendan Padgett"
         ],
-        "companion": "Brendan Padgett"
-      }
+        "companion": "Brendan Padgett",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16b801a3c20c430b"
+      },
+      "startTime": "7:00 PM",
+      "seatLocation": {
+        "section": "General Admission",
+        "seats": [
+          "25",
+          "29"
+        ],
+        "display": "General admission, 25 and 29"
+      },
+      "ticketCount": 2
     },
     "572": {
       "id": 572,
@@ -224051,21 +224251,22 @@
       "time": "Evening",
       "notes": "Conducted by Ben Cohn (verified).\nAttended with Sabrina Clark.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Sabrina Clark"
         ],
         "companion": "Sabrina Clark",
-        "ticketNote": "House-seat confirmation: 2 Standing Room, $84 total / $42 average.",
+        "ticketNote": "Dear Evan Hansen — 2019-07-19 8:00 PM: standing room, $84.00.",
         "ticketTotal": 84,
         "ticketAverage": 42,
-        "ticketCount": 2
+        "ticketCount": 2,
+        "gmailMessageId": "16bf69845929c420"
       },
       "sourceRef": 493,
       "ticketType": "Standing Room",
       "ticketSource": "House Seats",
-      "ticketPrice": 42,
+      "ticketPrice": 84.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Standing Room"
@@ -224075,8 +224276,9 @@
       ],
       "seatLocation": {
         "section": "Standing Room",
-        "display": "Standing Room"
-      }
+        "display": "Standing room"
+      },
+      "ticketCount": 2
     },
     "578": {
       "id": 578,
@@ -224229,25 +224431,36 @@
       "time": "Evening",
       "notes": "Attended with Brad Teague.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Brad Teague"
         ],
         "companion": "Brad Teague",
-        "ticketNote": "Comp; confirmed by Isaac."
+        "ticketNote": "Doubt — 2019-09-04 8:00 PM: A Section C102/C104, comp.",
+        "gmailMessageId": "16cd91f9661a9f61"
       },
       "sourceRef": 499,
       "ticketType": "Comp",
-      "ticketSource": "Comp",
-      "ticketPrice": 0,
+      "ticketSource": "Studio Theatre",
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "experienceMarkers": [
         "Comp"
       ],
       "tags": [
         "Comp"
-      ]
+      ],
+      "seatLocation": {
+        "section": "A Section",
+        "row": "C",
+        "seats": [
+          "102",
+          "104"
+        ],
+        "display": "A Section C102, C104"
+      },
+      "ticketCount": 2
     },
     "584": {
       "id": 584,
@@ -224326,17 +224539,31 @@
       "time": "Evening",
       "notes": "Attended with James Decker.",
       "sourceRef": 502,
-      "ticketPrice": 75,
+      "ticketPrice": 154.0,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "Paid ticket price supplied by Isaac: $75.",
+        "ticketNote": "Annie — 2019-10-04 5:30 PM: Main Floor F16 seats 3–4, $154.00.",
         "companions": [
           "James Decker"
         ],
         "companion": "James Decker",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339
-      }
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16d368c77ff4f817"
+      },
+      "startTime": "5:30 PM",
+      "ticketType": "Riverside Center Order",
+      "ticketSource": "Riverside Center for the Performing Arts",
+      "seatLocation": {
+        "section": "Main Floor",
+        "row": "F16",
+        "seats": [
+          "3",
+          "4"
+        ],
+        "display": "Main Floor F16, seats 3–4"
+      },
+      "ticketCount": 2
     },
     "587": {
       "id": 587,
@@ -224378,17 +224605,31 @@
       "time": "Evening",
       "notes": "Attended with David Small.",
       "sourceRef": 504,
-      "ticketPrice": 75,
+      "ticketPrice": 154.0,
       "ticketCurrency": "USD",
       "performanceMetadata": {
-        "ticketNote": "Paid ticket price supplied by Isaac: $75.",
+        "ticketNote": "Annie — 2019-10-19 5:30 PM: Main Floor F11 seats 3–4, $154.00.",
         "companions": [
           "David Small"
         ],
         "companion": "David Small",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339
-      }
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16d2bbc8785ece4e"
+      },
+      "startTime": "5:30 PM",
+      "ticketType": "Riverside Center Order",
+      "ticketSource": "Riverside Center for the Performing Arts",
+      "seatLocation": {
+        "section": "Main Floor",
+        "row": "F11",
+        "seats": [
+          "3",
+          "4"
+        ],
+        "display": "Main Floor F11, seats 3–4"
+      },
+      "ticketCount": 2
     },
     "589": {
       "id": 589,
@@ -226493,9 +226734,9 @@
       "notes": "Conducted by Valerie Maze (verified).",
       "sourceRef": 569,
       "performanceMetadata": {
-        "ticketNote": "SIX National Tour — 2022-07-07 7:30 PM: Holly Hassett-forwarded Broadway Direct lottery payment confirmation, $30 + $5 fee per ticket, quantity 2, total $70.00.",
-        "attendanceSource": "Build 345 ticket audit",
-        "attendanceSourceRef": 1495,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "ticketQuantity": 2,
         "pricePerTicket": 30,
         "feePerTicket": 5,
@@ -226505,10 +226746,10 @@
           "Holly Hassett"
         ]
       },
-      "ticketPrice": 70.0,
+      "ticketPrice": 35.0,
       "ticketCurrency": "USD",
-      "ticketType": "Lottery Win",
-      "ticketSource": "Broadway Direct Lottery",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
       "auditSourceRef": 1495,
       "tags": [
         "Lottery Win"
@@ -226517,7 +226758,8 @@
         "Lottery Win"
       ],
       "startTime": "7:30 PM",
-      "curtainTime": "7:30 PM"
+      "curtainTime": "7:30 PM",
+      "ticketCount": 1
     },
     "666": {
       "id": 666,
@@ -226531,7 +226773,17 @@
         "display": "Rear Mezzanine",
         "section": "Rear Mezzanine"
       },
-      "sourceRef": 570
+      "sourceRef": 570,
+      "ticketPrice": 35.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac."
+      }
     },
     "667": {
       "id": 667,
@@ -226570,7 +226822,17 @@
       "type": "National Tour",
       "time": null,
       "notes": "Conducted by Jo Ann Daugherty (verified).",
-      "sourceRef": 572
+      "sourceRef": 572,
+      "ticketPrice": 35.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac."
+      }
     },
     "669": {
       "id": 669,
@@ -226608,25 +226870,25 @@
       "notes": "Attended with Paul Villalovoz.",
       "performanceMetadata": {
         "companion": "Paul Villalovoz",
-        "attendanceSource": "Build 345 ticket audit",
-        "attendanceSourceRef": 1495,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "daypartResolution": {
           "status": "source-supported",
           "value": "Matinee",
           "implementedIn": "json-b284",
           "note": "Resolved from the high-confidence historical schedule/source audit approved for implementation after Build 283."
         },
-        "ticketNote": "SIX National Tour — 2022-07-31 2:00 PM: Broadway Direct lottery payment confirmation, $30 + $5 fee per ticket, quantity 2, total $70.00.",
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac.",
         "ticketQuantity": 2,
         "pricePerTicket": 30,
         "feePerTicket": 5,
         "gmailMessageId": "1825049cc8bc3ba4"
       },
       "sourceRef": 569,
-      "ticketPrice": 70.0,
+      "ticketPrice": 35.0,
       "ticketCurrency": "USD",
-      "ticketType": "Lottery Win",
-      "ticketSource": "Broadway Direct Lottery",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
       "auditSourceRef": 1495,
       "tags": [
         "Lottery Win"
@@ -226635,7 +226897,8 @@
         "Lottery Win"
       ],
       "startTime": "2:00 PM",
-      "curtainTime": "2:00 PM"
+      "curtainTime": "2:00 PM",
+      "ticketCount": 1
     },
     "671": {
       "id": 671,
@@ -226645,7 +226908,17 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": "Conducted by Jo Ann Daugherty (verified).",
-      "sourceRef": 574
+      "sourceRef": 574,
+      "ticketPrice": 35.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac."
+      }
     },
     "672": {
       "id": 672,
@@ -226931,12 +227204,12 @@
       "notes": "Conducted by Katie Coleman (verified). Attended with Holland Chupek.",
       "performanceMetadata": {
         "companion": "Holland Chupek",
-        "attendanceSource": "Isaac ticket audit",
-        "attendanceSourceRef": 1503,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "ticketQuantity": 2,
         "orderTotal": 220.95,
         "orderTotalCurrency": "USD",
-        "ticketNote": "Ticketmaster confirmation order 58-15795/SCS: Six (Touring) at Saenger Theatre New Orleans, Fri Dec 02 2022 8:00 PM; ORCHR Row G seats 28 and 30; total $220.95. Corrects prior package date of 2022-12-03.",
+        "ticketNote": "SIX — 2022-12-02 Saenger: count one ticket only from two-ticket order per Isaac.",
         "ticketConfidence": "Gmail-confirmed",
         "gmailMessageId": "184cbccfa7dd733a",
         "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
@@ -226945,7 +227218,7 @@
         "dateCorrectionSourceRef": 1503
       },
       "sourceRef": 584,
-      "ticketPrice": 110.475,
+      "ticketPrice": 110.48,
       "ticketCurrency": "USD",
       "ticketType": "Regular",
       "ticketSource": "Ticketmaster",
@@ -226960,7 +227233,8 @@
           "30"
         ],
         "display": "ORCHR · Row G · Seats 28, 30"
-      }
+      },
+      "ticketCount": 1
     },
     "683": {
       "id": 683,
@@ -226993,8 +227267,8 @@
       "notes": null,
       "sourceRef": 586,
       "performanceMetadata": {
-        "attendanceSource": "Gmail Signature Theatre order confirmation",
-        "attendanceSourceRef": 1508,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "ticketQuantity": 2,
         "orderTotal": 175.2,
         "orderTotalCurrency": "USD",
@@ -227003,14 +227277,24 @@
         "seatLocation": "Orchestra North C101, C103",
         "seatSourceRef": 1508,
         "gmailMessageId": "185e44d19545290c",
-        "ticketNote": "Signature Theatre order 643247: Into the Woods in The MAX, Orchestra North C101/C103, 2 x Full Price, total $175.20 paid on 2023-01-24.",
+        "ticketNote": "Into the Woods — 2023-01-25 7:30 PM: Orchestra North C101/C103, $175.20.",
         "ticketConfidence": "Gmail-confirmed",
         "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
       },
-      "ticketType": "Full Price",
+      "ticketType": "Signature Theatre Order",
       "ticketSource": "Signature Theatre",
-      "ticketPrice": 87.6,
-      "ticketCurrency": "USD"
+      "ticketPrice": 175.2,
+      "ticketCurrency": "USD",
+      "seatLocation": {
+        "section": "Orchestra North",
+        "row": "C",
+        "seats": [
+          "101",
+          "103"
+        ],
+        "display": "Orchestra North C101, C103"
+      },
+      "ticketCount": 2
     },
     "685": {
       "id": 685,
@@ -227029,8 +227313,15 @@
         "productionKey": "wicked-munchkinland-tour",
         "tour": "Munchkinland Tour",
         "gmailSearchNote": "Build 356 personal Gmail searches for 2023-02-07 Wicked / Phillips Center / Gainesville did not find a clean purchase confirmation or amount.",
-        "gmailSearchSourceRef": 1511
-      }
+        "gmailSearchSourceRef": 1511,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Wicked — 2023-02-07 evening at Phillips Center: no clean receipt found in prior searches; set to $69 per Isaac."
+      },
+      "ticketPrice": 69.0,
+      "ticketCurrency": "USD",
+      "ticketType": "User fallback / no receipt found",
+      "ticketSource": "User-supplied fallback"
     },
     "686": {
       "id": 686,
@@ -227067,7 +227358,7 @@
           "118",
           "120"
         ],
-        "display": "TR1 · Row F · Seats 118, 120"
+        "display": "TR1 F118, F120"
       },
       "performanceMetadata": {
         "seatSourceRef": 1327,
@@ -227075,14 +227366,18 @@
         "orderTotal": 120.0,
         "confirmationNumber": "T022523708562",
         "purchaseDate": "2023-02-25",
-        "ticketNote": "TodayTix receipt: 2 TR1 Row F tickets, seats 118 and 120; $60 paid per ticket; $120 order total. Supersedes the prior generic Mezzanine Right seat label.",
-        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only."
+        "ticketNote": "Into the Woods — 2023-03-07 7:30 PM: TR1 F118/F120, $120.00.",
+        "ticketPriceRule": "Top-level ticketPrice is the actual amount paid per ticket; multi-ticket order totals are metadata only.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "186899152ea91b0e"
       },
       "sourceRef": 589,
-      "ticketPrice": 60.0,
+      "ticketPrice": 120.0,
       "ticketCurrency": "USD",
       "ticketSource": "TodayTix",
-      "auditSourceRef": 1476
+      "auditSourceRef": 1476,
+      "ticketCount": 2
     },
     "688": {
       "id": 688,
@@ -227187,13 +227482,13 @@
       "time": "Matinee",
       "notes": null,
       "seatLocation": {
-        "section": "Mezzanine Right",
+        "section": "Right Mezzanine",
         "row": "D",
         "seats": [
           "2",
           "4"
         ],
-        "display": "Mezzanine Right · Row D · Seats 2, 4"
+        "display": "Right Mezzanine D2, D4"
       },
       "programArchiveText": {
         "dateCaptured": "2023-04-23",
@@ -227207,10 +227502,10 @@
       },
       "sourceRef": 595,
       "performanceMetadata": {
-        "attendanceSource": "Build 356 February-May 2023 audit correction and TelechargeOffers PDF",
-        "attendanceSourceRef": 1511,
-        "gmailMessageId": "187676cb5f8a2063",
-        "ticketNote": "Kimberly Akimbo — 2023-04-23 3:00 PM: TelechargeOffers PDF, Mezzanine Right Row D Seats 2 and 4, $79.00 each, 2 tickets.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "187070caa03c1fa0",
+        "ticketNote": "Kimberly Akimbo — 2023-04-23 3:00 PM: Right Mezzanine D2/D4, $188.00.",
         "ticketQuantity": 2,
         "pricePerTicket": 79,
         "orderTotal": 158,
@@ -227218,11 +227513,12 @@
         "orderNumber": "91784854",
         "personalSeatStatus": "Not identified from two-seat order"
       },
-      "ticketPrice": 79,
+      "ticketPrice": 188.0,
       "ticketCurrency": "USD",
       "ticketType": "TelechargeOffers",
       "ticketSource": "TelechargeOffers.com",
-      "auditSourceRef": 1511
+      "auditSourceRef": 1511,
+      "ticketCount": 2
     },
     "693": {
       "id": 693,
@@ -227368,27 +227664,38 @@
       "time": "Matinee",
       "notes": "Attended with Paul Villalovoz.",
       "performanceMetadata": {
-        "attendanceSource": "Build 356 February-May 2023 audit correction",
-        "attendanceSourceRef": 1511,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Paul Villalovoz"
         ],
-        "ticketNote": "The World Goes 'Round — comp per Isaac correction.",
+        "ticketNote": "The World Goes ’Round — 2023-05-21 2:00 PM: Orchestra J104/J105, comp.",
         "orderTotal": 0,
-        "ticketQuantity": 1
+        "ticketQuantity": 1,
+        "gmailMessageId": "18834b017c895ecb"
       },
       "sourceRef": 601,
-      "ticketPrice": 0,
+      "ticketPrice": 0.0,
       "ticketCurrency": "USD",
       "ticketType": "Comp",
-      "ticketSource": "Comp",
+      "ticketSource": "Olney Theatre Center",
       "tags": [
         "Comp"
       ],
       "experienceMarkers": [
         "Comp"
       ],
-      "auditSourceRef": 1511
+      "auditSourceRef": 1511,
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "J",
+        "seats": [
+          "104",
+          "105"
+        ],
+        "display": "Orchestra J104, J105"
+      },
+      "ticketCount": 2
     },
     "699": {
       "id": 699,
@@ -227478,16 +227785,17 @@
       "notes": null,
       "sourceRef": 602,
       "performanceMetadata": {
-        "attendanceSource": "TodayTix reminder + Signature performance email, Build 357",
-        "attendanceSourceRef": 1514,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "gmailMessageIds": [
           "1893b99530e3d2f5",
           "1893675672031d47",
           "1894208f00c640f2"
         ],
-        "ticketNote": "Sweeney Todd — 2023-07-09 7:00 PM: TodayTix/Signature emails confirm attendance and Orchestra North Row B Seat 112. No visible price in read messages, so amount remains unset.",
+        "ticketNote": "Sweeney Todd — 2023-07-09 7:00 PM: Orchestra North B112, $45.00.",
         "seatSourceRef": 1514,
-        "gmailSearchNote": "TodayTix reminder/post-show and Signature performance info found; no order-confirmation price visible."
+        "gmailSearchNote": "TodayTix reminder/post-show and Signature performance info found; no order-confirmation price visible.",
+        "gmailMessageId": "188061fa76537d05"
       },
       "startTime": "7:00 PM",
       "curtainTime": "7:00 PM",
@@ -227498,11 +227806,11 @@
       "seatLocation": {
         "section": "Orchestra North",
         "row": "B",
-        "seats": [
-          "112"
-        ],
-        "display": "Orchestra North · Row B · Seat 112"
-      }
+        "seat": "112",
+        "display": "Orchestra North B112"
+      },
+      "ticketPrice": 45.0,
+      "ticketCount": 1
     },
     "703": {
       "id": 703,
@@ -227661,9 +227969,19 @@
         "attendanceSourceRef": 1338,
         "companions": [
           "Paul Villalovoz"
-        ]
+        ],
+        "ticketNote": "Ink — comp per Isaac September 2023 audit correction.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0
       },
-      "sourceRef": 608
+      "sourceRef": 608,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517
     },
     "709": {
       "id": 709,
@@ -227693,7 +228011,11 @@
           "Donald Jolly",
           "Stephanie Atkinson",
           "Melissa Adler"
-        ]
+        ],
+        "ticketNote": "Evita — comp per Isaac September 2023 audit correction.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0
       },
       "programArchiveText": {
         "performanceId": 709,
@@ -227712,7 +228034,13 @@
         },
         "sourceRef": 609
       },
-      "sourceRef": 610
+      "sourceRef": 610,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517
     },
     "710": {
       "id": 710,
@@ -227722,7 +228050,19 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 611
+      "sourceRef": 611,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517,
+      "performanceMetadata": {
+        "ticketNote": "Sister Act — comp per Isaac September 2023 audit correction.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0
+      }
     },
     "711": {
       "id": 711,
@@ -227737,9 +228077,19 @@
         "attendanceSourceRef": 1338,
         "companions": [
           "Devin Dotson"
-        ]
+        ],
+        "ticketNote": "My Mama and the Full-Scale Invasion — comp per Isaac September 2023 audit correction.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0
       },
-      "sourceRef": 612
+      "sourceRef": 612,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517
     },
     "712": {
       "id": 712,
@@ -227790,9 +228140,19 @@
       "performanceMetadata": {
         "attendanceSource": "Isaac’s direct report",
         "attendanceSourceRef": 1334,
-        "companion": "Devin Dotson"
+        "companion": "Devin Dotson",
+        "ticketNote": "Something Moving: A Meditation on Maynard — comp per Isaac September 2023 audit correction.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0
       },
-      "sourceRef": 614
+      "sourceRef": 614,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517
     },
     "714": {
       "id": 714,
@@ -227801,8 +228161,23 @@
       "venueId": 116,
       "type": "Regional",
       "time": "Evening",
-      "notes": null,
-      "sourceRef": 615
+      "notes": "Attended with Maria Lee Lewis.",
+      "sourceRef": 615,
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "orderTotal": 0,
+      "auditSourceRef": 1517,
+      "performanceMetadata": {
+        "ticketNote": "The Tell — comp per Isaac September 2023 audit correction; attended with Maria Lee Lewis.",
+        "ticketAuditSource": "Build 359 September 2023 audit correction",
+        "ticketAuditSourceRef": 1517,
+        "orderTotal": 0,
+        "companions": [
+          "Maria Lee Lewis"
+        ]
+      }
     },
     "715": {
       "id": 715,
@@ -227812,7 +228187,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 616
+      "sourceRef": 616,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "716": {
       "id": 716,
@@ -227836,9 +228219,14 @@
       "performanceMetadata": {
         "dateCorrectionSourceRef": 1337,
         "companion": "Caroline Hunt",
-        "attendanceSource": "Isaac’s direct report"
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 618
+      "sourceRef": 618,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "717": {
       "id": 717,
@@ -227849,14 +228237,18 @@
       "time": "Evening",
       "notes": "Attended with Brendan Padgett and Stephanie Atkinson.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Brendan Padgett",
           "Stephanie Atkinson"
         ]
       },
-      "sourceRef": 619
+      "sourceRef": 619,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "718": {
       "id": 718,
@@ -227866,7 +228258,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 620
+      "sourceRef": 620,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "719": {
       "id": 719,
@@ -227876,7 +228276,24 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 621
+      "sourceRef": 621,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp / Ticket Transfer",
+      "ticketSource": "Ticketmaster Transfer",
+      "seatLocation": {
+        "section": "Left Mezzanine",
+        "row": "E",
+        "seat": "19",
+        "display": "Left Mezzanine E19"
+      },
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "18b63e91aeed326d",
+        "ticketNote": "The Wiz — 2023-10-24 8:00 PM: Ticketmaster transfer, Left Mezzanine E19, $0."
+      }
     },
     "720": {
       "id": 720,
@@ -227886,7 +228303,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Conducted by Will Van Dyke (verified).",
-      "sourceRef": 622
+      "sourceRef": 622,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "721": {
       "id": 721,
@@ -227896,7 +228321,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Conducted by Will Van Dyke (verified).",
-      "sourceRef": 622
+      "sourceRef": 622,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "722": {
       "id": 722,
@@ -227907,14 +228340,18 @@
       "time": "Evening",
       "notes": "Attended with Caroline Hunt and Alvin Ford.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "companions": [
           "Caroline Hunt",
           "Alvin Ford"
         ]
       },
-      "sourceRef": 623
+      "sourceRef": 623,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "723": {
       "id": 723,
@@ -227927,7 +228364,27 @@
       "runtime": "Approximately 3 hours",
       "intermission": "One 15-minute intermission",
       "programArchiveText": "Ragtime Signature Theatre program metadata captured from supplied screenshots: corrected creative/design credits; production and stage management; listed-only understudy/swing roster; orchestra chairs; dance and fight captain notes. Actual cast/appearance rows preserved.",
-      "sourceRef": 624
+      "sourceRef": 624,
+      "ticketPrice": 213.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Signature Theatre",
+      "seatLocation": {
+        "section": "Orchestra Center",
+        "row": "B",
+        "seats": [
+          "104",
+          "106"
+        ],
+        "display": "Orchestra Center B104, B106"
+      },
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "18c5b396a395f9d5",
+        "ticketNote": "Ragtime — 2023-12-14 8:00 PM: Signature rush/order, Orchestra Center B104/B106, $213.00 total."
+      }
     },
     "724": {
       "id": 724,
@@ -227937,7 +228394,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Conducted by Will Van Dyke (verified).",
-      "sourceRef": 625
+      "sourceRef": 625,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "725": {
       "id": 725,
@@ -227952,9 +228417,15 @@
         "programUpdateVersion": "v4.26.00",
         "intermission": "One 20-minute intermission",
         "setting": "New York City, December 1933",
-        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement"
+        "programSnapshot": "Annie January 2024 National Theatre / Washington, DC engagement",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 626
+      "sourceRef": 626,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "726": {
       "id": 726,
@@ -227964,7 +228435,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 627
+      "sourceRef": 627,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "727": {
       "id": 727,
@@ -228027,9 +228506,15 @@
       },
       "performanceMetadata": {
         "productionLabel": "Round House Theatre",
-        "productionKey": "next-to-normal-round-house"
+        "productionKey": "next-to-normal-round-house",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 629
+      "sourceRef": 629,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "729": {
       "id": 729,
@@ -228281,15 +228766,18 @@
       },
       "sourceRef": 639,
       "performanceMetadata": {
-        "attendanceSource": "January-June 2024 ticket-cost audit table + Criterion performance email",
-        "attendanceSourceRef": 1515,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
         "gmailMessageId": "18e47b6fae251a9b",
-        "ticketNote": "& Juliet — 2024-03-16 8:00 PM: performance email confirms upcoming performance; seats and cost remain unknown."
+        "ticketNote": "& Juliet — 2024-03-16 evening: $99 per Isaac."
       },
       "startTime": "8:00 PM",
       "curtainTime": "8:00 PM",
       "ticketSource": "Criterion Ticketing",
-      "auditSourceRef": 1515
+      "auditSourceRef": 1515,
+      "ticketPrice": 99.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Criterion Ticketing"
     },
     "739": {
       "id": 739,
@@ -228938,9 +229426,25 @@
       "notes": "Conducted by David Evans (verified).",
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "wicked-broadway"
+        "productionKey": "wicked-broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "190267a3916a2142",
+        "showPointsUsed": 500,
+        "ticketNote": "Wicked — 2024-07-02: Audience Rewards redemption, Orchestra V8, $54 plus 500 ShowPoints."
       },
-      "sourceRef": 669
+      "sourceRef": 669,
+      "ticketPrice": 54.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Audience Rewards Redemption",
+      "ticketSource": "Audience Rewards",
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "V",
+        "seat": "8",
+        "display": "Orchestra V8"
+      },
+      "ticketCount": 1
     },
     "769": {
       "id": 769,
@@ -229158,7 +229662,15 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 683
+      "sourceRef": 683,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "783": {
       "id": 783,
@@ -229540,9 +230052,15 @@
         "productionLabel": "National Tour · Kennedy Center",
         "staffProgramSourceRef": 1374,
         "orchestraSourceRef": 1374,
-        "staffAuditVersion": "json-b217"
+        "staffAuditVersion": "json-b217",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 701
+      "sourceRef": 701,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "801": {
       "id": 801,
@@ -229564,7 +230082,10 @@
       "notes": "Conducted by Andrew David Sotomayor (piano-conductor; verified). Program metadata added from MSG/Whoopi Goldberg engagement pages; roster pages do not overwrite actual at-this-performance cast.",
       "performanceMetadata": {
         "intermission": "One 20-minute intermission",
-        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast."
+        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie — 2025-01-05 matinee attended; price still unresolved in Build 360."
       },
       "sourceRef": 703
     },
@@ -229666,9 +230187,17 @@
       "notes": "Conducted by Valerie Maze (piano-conductor; verified). Conducted by Valerie Maze (verified).",
       "performanceMetadata": {
         "orchestraProductionKey": "six-broadway",
-        "productionLabel": "Broadway"
+        "productionLabel": "Broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX — 2025-02-02: approximately $69 per Isaac."
       },
-      "sourceRef": 708
+      "sourceRef": 708,
+      "ticketPrice": 69.0,
+      "ticketCurrency": "USD",
+      "ticketType": "User estimate",
+      "ticketSource": "User-supplied estimate",
+      "ticketCount": 1
     },
     "808": {
       "id": 808,
@@ -229702,7 +230231,7 @@
     "809": {
       "id": 809,
       "showId": 1,
-      "date": "2025-02-05",
+      "date": "2025-01-07",
       "venueId": 25,
       "type": "National Tour",
       "time": "Evening",
@@ -229717,7 +230246,17 @@
         "notes": "Corrections isolated to Baltimore IDs 809, 811, 812 only.",
         "sourceRef": 170
       },
-      "sourceRef": 710
+      "sourceRef": 710,
+      "startTime": "7:30 PM",
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie Baltimore first attended performance: comp per Isaac."
+      }
     },
     "810": {
       "id": 810,
@@ -229732,7 +230271,7 @@
     "811": {
       "id": 811,
       "showId": 1,
-      "date": "2025-02-07",
+      "date": "2025-01-08",
       "venueId": 25,
       "type": "National Tour",
       "time": "Evening",
@@ -229747,15 +230286,24 @@
         "notes": "Corrections isolated to Baltimore IDs 809, 811, 812 only.",
         "sourceRef": 170
       },
-      "sourceRef": 710
+      "sourceRef": 710,
+      "startTime": "7:30 PM",
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Hippodrome Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie Baltimore rush; amount unresolved because public rush price was not recovered."
+      }
     },
     "812": {
       "id": 812,
       "showId": 1,
-      "date": "2025-02-08",
+      "date": "2025-01-09",
       "venueId": 25,
       "type": "National Tour",
-      "time": "Matinee",
+      "time": "Evening",
       "notes": null,
       "programArchiveText": {
         "dateCaptured": "2025-02",
@@ -229767,7 +230315,16 @@
         "notes": "Corrections isolated to Baltimore IDs 809, 811, 812 only.",
         "sourceRef": 170
       },
-      "sourceRef": 712
+      "sourceRef": 712,
+      "startTime": "7:30 PM",
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Hippodrome Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie Baltimore rush; amount unresolved because public rush price was not recovered."
+      }
     },
     "813": {
       "id": 813,
@@ -229923,7 +230480,15 @@
         "notes": "Orphan/principal logic preserved.",
         "sourceRef": 170
       },
-      "sourceRef": 710
+      "sourceRef": 710,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "825": {
       "id": 825,
@@ -229945,7 +230510,16 @@
         "notes": "Orphan/principal logic preserved.",
         "sourceRef": 170
       },
-      "sourceRef": 723
+      "sourceRef": 723,
+      "ticketPrice": 34.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Broadway Direct Lottery",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie National Theatre — 2025-04-15: lottery; using $34 single-ticket lottery amount matching nearby Broadway Direct lottery receipts."
+      }
     },
     "826": {
       "id": 826,
@@ -230262,9 +230836,16 @@
       "performanceMetadata": {
         "productionLabel": "West End",
         "orchestraProductionKey": "titanique-london",
-        "productionKey": "titanique-london"
+        "productionKey": "titanique-london",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Titanique missing-price rule: box office rush at $49 per Isaac."
       },
-      "sourceRef": 736
+      "sourceRef": 736,
+      "ticketPrice": 49.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office Rush",
+      "ticketSource": "Box Office"
     },
     "843": {
       "id": 843,
@@ -230982,7 +231563,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Conducted by Ben Cohn (piano-conductor; verified).\nProgram metadata update applied v6.1.26: September 2025 title-page, creative, orchestra/band, musical numbers, and staff credits added from uploaded Playbill pages; actual cast preserved.",
-      "sourceRef": 774
+      "sourceRef": 774,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "883": {
       "id": 883,
@@ -231240,9 +231830,16 @@
       "notes": "Conducted by Ryan Fielding Garrett (verified).",
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "wicked-broadway"
+        "productionKey": "wicked-broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Wicked — 2025-09-30: student ticket, $69."
       },
-      "sourceRef": 783
+      "sourceRef": 783,
+      "ticketPrice": 69.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Student Ticket",
+      "ticketSource": "Student Ticket"
     },
     "892": {
       "id": 892,
@@ -231598,7 +232195,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Conducted by Ben Cohn (piano-conductor; verified).",
-      "sourceRef": 797
+      "sourceRef": 797,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "906": {
       "id": 906,
@@ -232601,7 +233207,16 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": "Conducted by Cameron Moncur (piano-conductor; verified).",
-      "sourceRef": 829
+      "sourceRef": 829,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "939": {
       "id": 939,
@@ -232680,7 +233295,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 832
+      "sourceRef": 832,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "943": {
       "id": 943,
@@ -232700,7 +233324,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Conducted by Ben Cohn (piano-conductor; verified).",
-      "sourceRef": 834
+      "sourceRef": 834,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "945": {
       "id": 945,
@@ -232846,7 +233479,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 842
+      "sourceRef": 842,
+      "ticketPrice": 99.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her 2025-12-17 evening: $99 per Isaac."
+      }
     },
     "953": {
       "id": 953,
@@ -232920,7 +233562,16 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Orchestra pit Conducted by Ben Cohn (piano-conductor; verified). Sat in orchestra pit.",
-      "sourceRef": 847
+      "sourceRef": 847,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "958": {
       "id": 958,
@@ -233064,7 +233715,16 @@
         "section": "Orchestra",
         "area": "Far side mid-left"
       },
-      "sourceRef": 853
+      "sourceRef": 853,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "964": {
       "id": 964,
@@ -233235,7 +233895,16 @@
       "time": "Evening",
       "notes": "Conducted by Ben Cohn (piano-conductor; verified). January 2026 program non-cast credits updated from Isaac-supplied pages; cast intentionally unchanged.",
       "intermission": "One 15-minute intermission",
-      "sourceRef": 860
+      "sourceRef": 860,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "971": {
       "id": 971,
@@ -233423,7 +234092,16 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 867
+      "sourceRef": 867,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
+      }
     },
     "979": {
       "id": 979,
@@ -233566,7 +234244,16 @@
         "notes": "Program snapshot only; actual performance cast/cover state was not changed.",
         "sourceRef": 170
       },
-      "sourceRef": 872
+      "sourceRef": 872,
+      "ticketPrice": 38.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Telecharge",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Heathers — 2026-02-22 matinee: Telecharge rush, $38.00."
+      }
     },
     "984": {
       "id": 984,
@@ -233793,7 +234480,16 @@
         "notes": "Program snapshot only; actual performance cast/cover state was not changed.",
         "sourceRef": 170
       },
-      "sourceRef": 882
+      "sourceRef": 882,
+      "ticketPrice": 38.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Telecharge",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Heathers — 2026-03-08 matinee: Telecharge rush, $38.00."
+      }
     },
     "993": {
       "id": 993,
@@ -234212,9 +234908,16 @@
       "performanceMetadata": {
         "orchestraProductionKey": "titanique-broadway",
         "productionLabel": "Broadway",
-        "productionKey": "titanique-broadway"
+        "productionKey": "titanique-broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Titanique — 2026-04-08 matinee: comp per Isaac."
       },
-      "sourceRef": 891
+      "sourceRef": 891,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1011": {
       "id": 1011,
@@ -234570,7 +235273,17 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 569
+      "sourceRef": 569,
+      "ticketPrice": 35.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac."
+      }
     },
     "1025": {
       "id": 1025,
@@ -234628,7 +235341,15 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Closing Night Conducted by Will Van Dyke (verified).",
-      "sourceRef": 622
+      "sourceRef": 622,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
+      }
     },
     "1029": {
       "id": 1029,
@@ -234886,10 +235607,15 @@
           "Sabrina Clark"
         ],
         "companion": "Sabrina Clark",
-        "attendanceSource": "Isaac's direct report",
-        "attendanceSourceRef": 1327
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
       },
-      "sourceRef": 922
+      "sourceRef": 922,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush"
     },
     "1040": {
       "id": 1040,
@@ -235418,21 +236144,38 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": "Added missing SIX National Tour performance. Conducted by Valerie Maze (piano-conductor; verified).",
-      "sourceRef": 939
+      "sourceRef": 939,
+      "ticketPrice": 35.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "SIX at the National Theatre: count one lottery seat at $35 per Isaac."
+      }
     },
     "1061": {
       "id": 1061,
       "showId": 1,
       "date": "2025-01-11",
-      "venueId": 123,
+      "venueId": 25,
       "type": "National Tour",
       "time": "Matinee",
       "notes": "Added from at-this-performance board. Conducted by Andrew David Sotomayor (piano-conductor; verified). Annie at-this-performance board confirmed by user. Duffy corrected from tour track review: Nora West as Duffy; Olive Ross-Kline as Molly. Program metadata added from MSG/Whoopi Goldberg engagement pages; roster pages do not overwrite actual at-this-performance cast.",
       "performanceMetadata": {
         "intermission": "One 20-minute intermission",
-        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast."
+        "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast.",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Annie Baltimore 2025-01-11 matinee rush; amount unresolved because public rush price was not recovered."
       },
-      "sourceRef": 940
+      "sourceRef": 940,
+      "startTime": "2:00 PM",
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Hippodrome Rush"
     },
     "1062": {
       "id": 1062,
@@ -235757,7 +236500,10 @@
       "performanceMetadata": {
         "orchestraProductionKey": "titanique-broadway",
         "productionLabel": "Broadway",
-        "productionKey": "titanique-broadway"
+        "productionKey": "titanique-broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Titanique missing-price rule: box office rush at $49 per Isaac."
       },
       "seatLocation": {
         "section": "Orchestra Left",
@@ -235765,7 +236511,11 @@
         "seat": "11",
         "display": "Orchestra Left C11"
       },
-      "sourceRef": 959
+      "sourceRef": 959,
+      "ticketPrice": 49.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office Rush",
+      "ticketSource": "Box Office"
     },
     "1075": {
       "id": 1075,
@@ -236107,10 +236857,17 @@
         "actualCastSource": "Playbill At This Performance screenshots supplied by Isaac, 2026-06-18",
         "programUpdateVersion": "v10.15",
         "copiedCreditsSourcePerformanceId": 1069,
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
       },
       "programArchiveText": "DEATH BECOMES HER Broadway / Lunt-Fontanne Theatre / 2026-06-18 evening. Seat: Orch G 16. Attended with Megan Riengling and Aaron Byrnes. At This Performance screenshots: Viola Van Horn played by Ximone Rose; Counselor played by Ayla Ciccone-Burton; Director played by Justin O'Brien; Woman #1 played by Alex Hartman; Person #2/Nurse #2 played by Lakota Knuckle; Chance played by Preston Perez. Staff and orchestra copied from 2026-05-28 DBH entry per Isaac.",
-      "sourceRef": 973
+      "sourceRef": 973,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush"
     },
     "1088": {
       "id": 1088,
@@ -236241,7 +236998,10 @@
         "programSource": "Death Becomes Her Playbill/program and At This Performance photos supplied by Isaac, 2026-06-24",
         "actualCastSource": "Playbill At This Performance screenshots supplied by Isaac, 2026-06-24",
         "copiedCreditsSourcePerformanceId": 1069,
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her missing-price rule: in-person rush set to $45 per Isaac."
       },
       "programArchiveText": {
         "performanceId": 1091,
@@ -236255,7 +237015,11 @@
         },
         "sourceRef": 979
       },
-      "sourceRef": 980
+      "sourceRef": 980,
+      "ticketPrice": 45.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "In-person Rush"
     },
     "1092": {
       "id": 1092,
@@ -236370,7 +237134,10 @@
         "actualCastSource": "Playbill At This Performance screenshots supplied by Isaac, 2026-06-28 3:00 PM",
         "copiedCreditsSourcePerformanceId": 1091,
         "intermission": "One 15-minute intermission",
-        "closingPerformance": true
+        "closingPerformance": true,
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Death Becomes Her closing performance: $69 per Isaac."
       },
       "programArchiveText": {
         "performanceId": 1094,
@@ -236382,7 +237149,11 @@
         },
         "sourceRef": 985
       },
-      "sourceRef": 986
+      "sourceRef": 986,
+      "ticketPrice": 69.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush"
     },
     "1095": {
       "id": 1095,
@@ -236489,7 +237260,10 @@
         "backgroundVocalistTrackNote": "Tess Marshall in Sara Gallo's track, Brad Greer in Kristina Leopold's track, and Kyle Ramar Freeman in Polanco Jones Jr.'s track.",
         "actualConductor": "Geoffrey Ko",
         "conductorVerified": true,
-        "productionKey": "titanique-broadway"
+        "productionKey": "titanique-broadway",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Titanique missing-price rule: box office rush at $49 per Isaac."
       },
       "programArchiveText": {
         "performanceId": 1097,
@@ -236503,7 +237277,11 @@
         },
         "sourceRef": 990
       },
-      "sourceRef": 991
+      "sourceRef": 991,
+      "ticketPrice": 49.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office Rush",
+      "ticketSource": "Box Office"
     },
     "1098": {
       "id": 1098,
@@ -237171,9 +237949,15 @@
         "printedRosterOnly": true,
         "milestone": "First Preview",
         "scheduledFirstPreviewCanceled": "2023-10-13",
-        "actualFirstPreview": "2023-10-14"
+        "actualFirstPreview": "2023-10-14",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 1014
+      "sourceRef": 1014,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1118": {
       "id": 1118,
@@ -237191,9 +237975,15 @@
         "engagement": "October 13-November 12, 2023",
         "runtime": "Approximately 1 hour 45 minutes including one 15-minute intermission",
         "printedRosterOnly": true,
-        "milestone": "Opening Night"
+        "milestone": "Opening Night",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 1014
+      "sourceRef": 1014,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1119": {
       "id": 1119,
@@ -237212,10 +238002,16 @@
         "runtime": "Approximately 1 hour 45 minutes including one 15-minute intermission",
         "printedRosterOnly": true,
         "milestone": "Closing",
-        "startTime": "2:00 PM"
+        "startTime": "2:00 PM",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
       "startTime": "2:00 PM",
-      "sourceRef": 1014
+      "sourceRef": 1014,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1120": {
       "id": 1120,
@@ -237329,9 +238125,15 @@
           "BrandNice",
           "The John F. Kennedy Center for the Performing Arts"
         ],
-        "specialEventSubtype": "Comedy Showcase"
+        "specialEventSubtype": "Comedy Showcase",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518
       },
-      "sourceRef": 1018
+      "sourceRef": 1018,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1124": {
       "id": 1124,
@@ -237757,9 +238559,9 @@
         "programBasePerformanceId": 1129,
         "programSource": "July 27, 2026 Titanique Broadway entry copied at Isaac’s direction, with current Aug. 1 title/program and welcome inserts",
         "actualCastSource": "Isaac’s direct Aug. 1, 2026 attendance and cast report",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1346,
-        "ticketNote": "A 3; ticket type and price not supplied",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Titanique missing-price rule: box office rush at $49 per Isaac.",
         "companion": "Steve Hohne",
         "actualConductorSupplied": false,
         "currentCompanyUpdates": [
@@ -237781,7 +238583,11 @@
         },
         "sourceRef": 1026
       },
-      "sourceRef": 1026
+      "sourceRef": 1026,
+      "ticketPrice": 49.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Office Rush",
+      "ticketSource": "Box Office"
     },
     "1133": {
       "id": 1133,
@@ -239252,8 +240058,20 @@
           "Potomac River Partners"
         ],
         "ticketing": "Free; registration/ticketing through TodayTix",
-        "rescheduledFrom": "2023-09-24 due to weather"
-      }
+        "rescheduledFrom": "2023-09-24 due to weather",
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "ticketNote": "Rolling on the River Concert — 2023-10-01 3:00 PM: free TodayTix registration for 2."
+      },
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Free Reservation",
+      "ticketSource": "TodayTix",
+      "seatLocation": {
+        "section": "General Admission",
+        "display": "General admission"
+      },
+      "ticketCount": 2
     },
     "1166": {
       "id": 1166,
@@ -240442,6 +241260,125 @@
         },
         "sourceRef": 1516
       }
+    },
+    "1197": {
+      "id": 1197,
+      "showId": 210,
+      "date": "2023-08-02",
+      "venueId": 50,
+      "type": "National Tour",
+      "time": "Evening",
+      "startTime": "8:00 PM",
+      "notes": "Added from Isaac ticket audit table in Build 360.",
+      "ticketPrice": 108.0,
+      "ticketCurrency": "USD",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "seatLocation": {
+        "section": "Balcony",
+        "row": "D",
+        "seats": [
+          "7",
+          "9"
+        ],
+        "display": "Balcony D7, D9"
+      },
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "1892ccbec42e1e55",
+        "ticketNote": "The Play That Goes Wrong — 2023-08-02 8:00 PM: Balcony D7/D9, $108.00."
+      },
+      "sourceRef": 1518
+    },
+    "1198": {
+      "id": 1198,
+      "showId": 103,
+      "date": "2023-09-08",
+      "venueId": 45,
+      "type": "Regional",
+      "time": "Evening",
+      "startTime": "8:00 PM",
+      "notes": "Added from Isaac ticket audit table in Build 360.",
+      "ticketPrice": 34.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Signature Theatre Order",
+      "ticketSource": "Signature Theatre",
+      "seatLocation": {
+        "section": "Orchestra North",
+        "row": "A",
+        "seats": [
+          "205",
+          "206"
+        ],
+        "display": "Orchestra North A205, A206"
+      },
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "18a499e4c0af8b23",
+        "ticketNote": "The Bridges of Madison County — 2023-09-08 8:00 PM: Orchestra North A205/A206, $34.00."
+      },
+      "sourceRef": 1518
+    },
+    "1199": {
+      "id": 1199,
+      "showId": 232,
+      "date": "2019-01-02",
+      "venueId": 41,
+      "type": "Regional",
+      "time": "Evening",
+      "startTime": "7:30 PM",
+      "notes": "Added from Isaac 2019 receipt table in Build 360.",
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Studio Theatre",
+      "seatLocation": {
+        "section": "General Admission",
+        "seat": "C7",
+        "display": "General admission, C7"
+      },
+      "ticketCount": 1,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "1681064f7cdd763d",
+        "ticketNote": "Kings — 2019-01-02 7:30 PM: General admission C7, $0."
+      },
+      "sourceRef": 1518
+    },
+    "1200": {
+      "id": 1200,
+      "showId": 522,
+      "date": "2019-10-18",
+      "venueId": 208,
+      "type": "Special Event",
+      "time": "Evening",
+      "notes": "Added from Isaac 2019 receipt table in Build 360. Start time unconfirmed in user table.",
+      "ticketPrice": 97.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketfly",
+      "ticketSource": "Ticketfly",
+      "seatLocation": {
+        "section": "Orchestra Left",
+        "row": "Z",
+        "seats": [
+          "3",
+          "5"
+        ],
+        "display": "Orchestra Left Z3, Z5"
+      },
+      "ticketCount": 2,
+      "performanceMetadata": {
+        "attendanceSource": "Build 360 queued audit bundle from Isaac",
+        "attendanceSourceRef": 1518,
+        "gmailMessageId": "16c3a66789dfe01d",
+        "ticketNote": "Bianca Del Rio: It’s Jester Joke — 2019-10-18: Orchestra Left Z3/Z5, $97.00; time unconfirmed."
+      },
+      "sourceRef": 1518
     }
   },
   "organizations": {
