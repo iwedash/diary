@@ -129323,6 +129323,142 @@
       "raw": "Conducted by Amanda Morton",
       "sourceRef": 1516,
       "personId": 20980
+    },
+    {
+      "id": 18632,
+      "performanceId": 1201,
+      "personId": 6323,
+      "credit": "Book",
+      "raw": "Cinco Paul",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18633,
+      "performanceId": 1201,
+      "personId": 6323,
+      "credit": "Music",
+      "raw": "Cinco Paul",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18634,
+      "performanceId": 1201,
+      "personId": 6323,
+      "credit": "Lyrics",
+      "raw": "Cinco Paul",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18635,
+      "performanceId": 1201,
+      "personId": 6323,
+      "credit": "Source Material / Co-Creator",
+      "raw": "Cinco Paul",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18636,
+      "performanceId": 1201,
+      "personId": 16233,
+      "credit": "Source Material / Co-Creator",
+      "raw": "Ken Daurio",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18637,
+      "performanceId": 1201,
+      "personId": 412,
+      "credit": "Scenic Design",
+      "raw": "Scott Pask",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18638,
+      "performanceId": 1201,
+      "personId": 1460,
+      "credit": "Costume Design",
+      "raw": "Linda Cho",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18639,
+      "performanceId": 1201,
+      "personId": 414,
+      "credit": "Lighting Design",
+      "raw": "Donald Holder",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18640,
+      "performanceId": 1201,
+      "personId": 4617,
+      "credit": "Sound Design",
+      "raw": "Walter Trarbach",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18641,
+      "performanceId": 1201,
+      "personId": 170,
+      "credit": "Hair & Wig Design",
+      "raw": "Tom Watson",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18642,
+      "performanceId": 1201,
+      "personId": 837,
+      "credit": "Makeup Design",
+      "raw": "Ashley Ryan",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18643,
+      "performanceId": 1201,
+      "personId": 836,
+      "credit": "Music Supervisor & Arranger",
+      "raw": "David Chase",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18644,
+      "performanceId": 1201,
+      "personId": 838,
+      "credit": "Orchestrations",
+      "raw": "Doug Besterman",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18645,
+      "performanceId": 1201,
+      "personId": 7781,
+      "credit": "Orchestrations",
+      "raw": "Mike Morris",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18646,
+      "performanceId": 1201,
+      "personId": 7780,
+      "credit": "Music Direction",
+      "raw": "Steven Malone",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18647,
+      "performanceId": 1201,
+      "personId": 515,
+      "credit": "Director",
+      "raw": "Christopher Gattelli",
+      "sourceRef": 1520
+    },
+    {
+      "id": 18648,
+      "performanceId": 1201,
+      "personId": 515,
+      "credit": "Choreography",
+      "raw": "Christopher Gattelli",
+      "sourceRef": 1520
     }
   ],
   "aboveTitleProducers": [
@@ -152535,6 +152671,28 @@
       "personId": 19110,
       "sourceRef": 1518,
       "note": "Added from Isaac Build 360 queue: attended with Caroline Hunt."
+    },
+    {
+      "id": 652,
+      "performanceId": 790,
+      "personId": 20984
+    },
+    {
+      "id": 653,
+      "performanceId": 802,
+      "personId": 10291
+    },
+    {
+      "id": 654,
+      "performanceId": 809,
+      "personId": 16309
+    },
+    {
+      "id": 655,
+      "performanceId": 1201,
+      "personId": 11938,
+      "sourceRef": 1520,
+      "note": "Added from Isaac 2026-09-29 Schmigadoon! direct report: attended with Brendan Padgett."
     }
   ]
 }

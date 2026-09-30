@@ -2,34 +2,34 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1197,
-    "people": 19995,
+    "performances": 1198,
+    "people": 19996,
     "shows": 521,
     "venues": 204,
     "roles": 5927,
-    "appearances": 19719,
-    "creativeCredits": 17612,
+    "appearances": 19742,
+    "creativeCredits": 17629,
     "specialAppearances": 0,
-    "companionLinks": 642,
-    "sources": 1519
+    "companionLinks": 646,
+    "sources": 1522
   },
-  "generatedAt": "2026-09-29T14:47:00+00:00",
-  "updatedAt": "2026-09-29T10:47:00-04:00",
-  "description": "Cuebook split-json package — Build 360 applies queued ticket-cost, companion, and attendance cleanup bundle.",
-  "fileCount": 19,
-  "build": "json-b360",
-  "version": "v14.50.00",
-  "generated": "2026-09-29T14:47:00+00:00",
+  "generatedAt": "2026-09-30T01:39:00+00:00",
+  "updatedAt": "2026-09-29T21:39:00-04:00",
+  "description": "Cuebook split-json package — Build 363 updates Schmigadoon! 2026-09-29 printed Playbill archive text and refreshes performance-page title/fact styling.",
+  "fileCount": 18,
+  "build": "json-b363",
+  "version": "v14.53.00",
+  "generated": "2026-09-30T01:39:00+00:00",
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B360.md",
-      "bytes": 1678,
-      "sha256": "cf1e6c1f62250181ca737f8cf6911771cf9da20c66773c297ed02c792f4a3ad4"
+      "path": "Cuebook_CHANGELOG_B363.md",
+      "bytes": 867,
+      "sha256": "981db118a8d5717dfdc42d879eb3004fc89d911139884d5ffe18898d1f1402b6"
     },
     {
       "path": "cast.json",
-      "bytes": 7405780,
-      "sha256": "b11ad8725eefc7281ee3de1e69ae44124785d6e6488decafc3b08d9ba0282edd"
+      "bytes": 7415086,
+      "sha256": "2ac1dd30e69bbff210425201ca65b988e3e0b15a142f127ec4affc4e0efb6109"
     },
     {
       "path": "castbook.html",
@@ -43,13 +43,13 @@
     },
     {
       "path": "core.json",
-      "bytes": 5577050,
-      "sha256": "5772609992b349bc92587b3e192cd0cffbb2f9d138a6c870a02a6dffa5f53d86"
+      "bytes": 5639321,
+      "sha256": "9a1be0be598fc8023492dad4822fd61cba5635b781f0daa4fad0f4713a4bd9c8"
     },
     {
       "path": "credits.json",
-      "bytes": 3223189,
-      "sha256": "c83607b7d04ff4ceab5729ceb217e8022e2867108761178ea887ff9d013486fe"
+      "bytes": 3226574,
+      "sha256": "52914ba6cbdf1a90564c7fbf5240548fa867cc0b70b97ea6a8daee099af6a4da"
     },
     {
       "path": "cuebook-logo.png",
@@ -63,8 +63,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 387757,
-      "sha256": "b6398efa21da3876265e6a5c21e92719c70b19b10c4a14686bfcf4f709ab3e89"
+      "bytes": 393869,
+      "sha256": "affdec47e7e25cf384206f2926b0dafa07e57a570a3acd27316b44dd552d2d94"
     },
     {
       "path": "loader-test.html",
@@ -103,8 +103,8 @@
     },
     {
       "path": "sources.json",
-      "bytes": 755703,
-      "sha256": "24747f880f7354b4c437a73c4d9f31cbd9cb4c67feb4b1626df66859772f59de"
+      "bytes": 762108,
+      "sha256": "628f053219f9c96a30ecb32dcd55a332e95c86c67ee50f8c67dfbdd168a43a57"
     },
     {
       "path": "souvenir.html",
@@ -112,6 +112,6 @@
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
     }
   ],
-  "totalBytes": 24564381,
-  "largestFileBytes": 7405780
+  "totalBytes": 24651049,
+  "largestFileBytes": 7415086
 }

@@ -6909,6 +6909,79 @@
         "Existing sourceRef values used for program/cast provenance were preserved where present; ticket audit provenance was added in performanceMetadata.",
         "Not-attended/canceled items were not converted into attended performances."
       ]
+    },
+    {
+      "title": "Historical pricing cleanup and hidden-ticket-field promotion — Build 361",
+      "type": "user-supplied-audit-bundle+metadata-sweep",
+      "dateCaptured": "2026-09-29",
+      "evidence": "Isaac supplied another pricing/cost pass for 2015-2016, Annie, SIX, Dear Evan Hansen, Waitress, Mamma Mia!, Freaky Friday, and related rows, and requested a sweep for price data sitting in hidden/legacy fields. Build 361 applies those user-supplied prices/comps, promotes obvious exact hidden price fields (legacy price/pricePaid/order totals/notes), and leaves approximate or intentionally unresolved rows unpromoted.",
+      "directConfirmations": [
+        "All other Arena Stage performances without explicit pricing should be treated as comp / $0.",
+        "ANNIE: 2024-11-09 comp with Bradley Barker; 2025-01-05 comp with Paul Villalovoz; 2025-01-07 with Brian Moran.",
+        "SIX: 2024-03-21 set to $69; National Theatre SIX entries count one $35 lottery ticket.",
+        "Dear Evan Hansen: Arena entries comp; 2016-04-23 Second Stage set to 30 Under 30 / $34; 2016-12-03 Music Box set to $69 box seat.",
+        "Waitress: 2016-08-13 matinee receipt corrected to Aug. 13 and kept at $59; 2016-12-03 set to $49 box; 2017-04-22 set to $89.",
+        "Mamma Mia!: 2020-02-06 Novello booking details retained/confirmed; 2025 Broadway entries set to $45 in-person rush; listing #817/Shucked set comp.",
+        "2015-2016 table prices and comps implemented, including Dames at Sea $32 rush, Cinderella $25 rush, Kennedy Center MyTix/Lottery rows, Tuck Everlasting $61.25, Chicago $37 rush, Something Rotten $50 lottery order, and Color Purple $98 TDF order."
+      ],
+      "metadataSweep": [
+        "Promoted Gypsy 2024-11-21 legacy pricePaid/price field to ticketPrice $49 and seat ORCH O 12.",
+        "Promoted Oh, Mary! 2025-02-02 hidden pricePaid $55 and seat note.",
+        "Promoted Wicked 2026-07-09 note price $86 and Orchestra BB 6 seat.",
+        "Promoted Waitress 2017-10-21 documented order total $131.70 from performance metadata.",
+        "Approximate-only or held-conflict rows were intentionally left unpromoted."
+      ],
+      "guardrails": [
+        "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts intentionally changed.",
+        "Display/show-list # numbers from the dashboard are treated as user-facing references; updates match by date/show/venue where raw database IDs differ."
+      ]
+    },
+    {
+      "title": "Conflict cleanup, Schmigadoon! 2026-09-29, and stats refresh — Build 362",
+      "type": "user-supplied-audit-bundle+playbill-at-this-performance+ui-refresh",
+      "dateCaptured": "2026-09-29",
+      "evidence": "Isaac approved the remaining conflict cleanup, confirmed Waitress should remain two performances, set Hir to $20 and Silver Belles to comp, and supplied Playbill At This Performance screenshots for Schmigadoon! on 2026-09-29. Isaac also requested moving forward with a full visual refresh of the stats page.",
+      "directConfirmations": [
+        "Waitress 2016: keep two performances; 2016-08-13 matinee remains TodayTix $59; 2016-09-01 evening remains separate and is set to $99 from the existing recollection hold.",
+        "Hir — 2017-05-23 — set to $20 Pay What You Can.",
+        "Silver Belles — 2016-12-19 — comp / $0.",
+        "Little Shop of Horrors — Kennedy Center — move from 2018-10-27 to receipt-backed 2018-10-26 8 PM; Orchestra Zone C R-8/R-6; 2 tickets at $39 each; $78 total; with Jackie Rucker.",
+        "Schmigadoon! — 2026-09-29 7 PM — with Brendan Padgett; $40 Rush; Orchestra H23.",
+        "Schmigadoon! cast changes: Jessica Mallare White and David Wright Jr. listed as Vacation Swings; Shina Ann Morris as Emma Tate; Lauralyn McClelland as Florence Menlove; Brandon Block on for Richard Riaz Yoder; Maria Briggs on for Shina Ann Morris."
+      ],
+      "uiChanges": [
+        "Stats page visual language refreshed with stronger hero tiles, glassy stat cards, improved spacing, richer dark gradients, and more polished list/chart treatments.",
+        "Stats page functional rankings are preserved; this pass is visual-first and intentionally avoids changing counting methods."
+      ],
+      "guardrails": [
+        "Schmigadoon! performance copied from the most recent Broadway production snapshot, with only the supplied 2026-09-29 performance-specific cast/ticket/companion changes applied.",
+        "Existing Little Shop London and later Little Shop Off-Broadway entries were not changed.",
+        "No unrelated creative-credit, orchestra, or archive facts intentionally changed."
+      ]
+    },
+    {
+      "title": "Schmigadoon! — September 29, 2026 printed Playbill, staff/orchestra comparison, and performance-page top-card redesign",
+      "type": "user-supplied-printed-playbill+ui-refresh",
+      "suppliedBy": "Isaac Evans",
+      "dateCaptured": "2026-09-29",
+      "files": [
+        "IMG_2274.jpeg",
+        "IMG_2272.jpeg",
+        "IMG_2273.jpeg"
+      ],
+      "performanceId": 1201,
+      "attendance": "Tuesday, September 29, 2026 at 7:00 PM; Nederlander Theatre; attended with Brendan Padgett; Orchestra H23; $40 Rush.",
+      "playbillSource": "Printed Playbill pages supplied by Isaac at the performance: musical numbers/orchestra page, staff page, and cast/understudy/swing page.",
+      "staffComparison": "Compared with the most recent stored Schmigadoon! Broadway printed-program baseline. No staff, orchestra, or musical-number changes were detected from the supplied pages; archive text was updated because Build 362 still carried stale September 12 programArchiveText on this performance.",
+      "performanceSpecificChanges": [
+        "Jessica Mallare White — Vacation Swing (listed/welcomed)",
+        "David Wright Jr. — Vacation Swing (listed/welcomed)",
+        "Shina Ann Morris — Emma Tate — understudy",
+        "Lauralyn McClelland — Florence Menlove — understudy",
+        "Brandon Block — roles usually played by Richard Riaz Yoder / Harvey the Innkeeper track — swing",
+        "Maria Briggs — roles usually played by Shina Ann Morris / Meg track — swing"
+      ],
+      "uiChange": "Performance pages were refreshed again: smaller show title, coordinated top fact card with title/theatre/date/with/seat/paid amount, and top-card price reduced to amount paid only."
     }
   ]
 }

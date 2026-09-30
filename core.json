@@ -1,29 +1,29 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_360",
-    "generated": "2026-09-29T14:47:00+00:00",
-    "rowCount": 1197,
-    "performanceCount": 1197,
-    "peopleCount": 19995,
+    "sourceFile": "Cuebook_Build_363",
+    "generated": "2026-09-30T01:39:00+00:00",
+    "rowCount": 1198,
+    "performanceCount": 1198,
+    "peopleCount": 19996,
     "showCount": 521,
     "venueCount": 204,
     "roleCount": 5927,
-    "appearanceCount": 19719,
-    "creativeCreditCount": 17612,
+    "appearanceCount": 19742,
+    "creativeCreditCount": 17629,
     "notesCount": 528,
     "updated": "2026-09-29",
-    "notes": "Build 360 applies the queued ticket-cost/companion cleanup bundle through the 2019, 2023, 2024, 2025, and 2026 audit corrections supplied by Isaac.",
+    "notes": "Build 363 updates the 2026-09-29 Schmigadoon! printed Playbill archive and refreshes performance-page title/fact styling.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-09-29T10:47:00-04:00",
+    "updatedAt": "2026-09-29T21:39:00-04:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b359",
-    "version": "v14.50.00",
-    "build": "json-b360",
-    "buildTime": "2026-09-29T14:47:00+00:00",
+    "sourceBase": "json-b362",
+    "version": "v14.53.00",
+    "build": "json-b363",
+    "buildTime": "2026-09-30T01:39:00+00:00",
     "buildDate": "2026-09-29",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.50.00",
+    "buildVersion": "v14.53.00",
     "lastUpdated": "2026-09-29",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 360: queued ticket-cost, companion, and attendance cleanup bundle.",
+    "lastUpdatedNote": "Build 363: Schmigadoon 2026-09-29 printed Playbill archive refresh and performance-page top-card redesign.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4260,7 +4260,7 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
     },
-    "companionLinkCount": 642,
+    "companionLinkCount": 645,
     "build358QueueImplementation": {
       "updatedAt": "2026-09-28T22:12:00-04:00",
       "summary": "Added Memoirs of Amorous Gentlemen live attendance and performance archive snapshot.",
@@ -4290,7 +4290,7 @@
         "UI cleanup changed index.html presentation only."
       ]
     },
-    "sourceCount": 1519,
+    "sourceCount": 1522,
     "build360QueueImplementation": {
       "updatedAt": "2026-09-29T10:47:00-04:00",
       "summary": "Applied Isaac’s queued ticket-cost, companion, and attendance cleanup bundle from Build 359 into Build 360.",
@@ -4312,6 +4312,40 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed.",
         "Existing sourceRef values used for program/cast provenance were preserved where present; ticket audit provenance was added in performanceMetadata.",
         "Not-attended/canceled items were not converted into attended performances."
+      ]
+    },
+    "build361PricingCleanup": {
+      "sourceRef": 1519,
+      "changedPerformanceEvents": 131,
+      "createdPeople": [
+        [
+          20984,
+          "Bradley Barker"
+        ]
+      ],
+      "companionLinksAdded": 3,
+      "hiddenPricePromotions": [
+        "Gypsy 2024-11-21",
+        "Oh, Mary! 2025-02-02",
+        "Wicked 2026-07-09",
+        "Waitress 2017-10-21"
+      ],
+      "arenaBlanketApplied": true
+    },
+    "build363Implementation": {
+      "updatedAt": "2026-09-29T21:39:00-04:00",
+      "sourceRef": 1521,
+      "summary": "Updated Schmigadoon! 2026-09-29 programArchiveText from Isaac-supplied printed Playbill pages and redesigned the performance-page top block.",
+      "implemented": [
+        "Replaced stale September 12 archive text on Schmigadoon! 2026-09-29 with performance-specific September 29 printed Playbill archive text.",
+        "Stored no-change comparison for staff, orchestra and song list against prior Schmigadoon! Broadway baseline.",
+        "Reduced performance-page show title sizing and rebuilt top fact panel around Title, Theatre, Date & Time, With, Seat and Paid Amount.",
+        "Top performance price display now suppresses price type/source and shows the amount paid only."
+      ],
+      "guardrails": [
+        "No cast appearance rows changed in this pass; already-entered 2026-09-29 actual cast changes were preserved.",
+        "No staff/orchestra credit rows were duplicated because no staff/orchestra/song changes were detected.",
+        "Stats page functionality was not changed in this pass."
       ]
     }
   },
@@ -178813,6 +178847,14 @@
       "kinds": [
         "companion"
       ]
+    },
+    "20984": {
+      "id": 20984,
+      "name": "Bradley Barker",
+      "sortName": "Bradley Barker",
+      "kinds": [
+        "companion"
+      ]
     }
   },
   "shows": {
@@ -214287,7 +214329,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 142
+      "sourceRef": 142,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "130": {
       "id": 130,
@@ -214297,7 +214350,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 143
+      "sourceRef": 143,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "131": {
       "id": 131,
@@ -214800,7 +214864,18 @@
         "seat": "115",
         "display": "Mezz B 115"
       },
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "153": {
       "id": 153,
@@ -214810,7 +214885,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "154": {
       "id": 154,
@@ -214820,7 +214906,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "155": {
       "id": 155,
@@ -214830,7 +214927,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "156": {
       "id": 156,
@@ -214840,7 +214948,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "157": {
       "id": 157,
@@ -214850,7 +214969,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "158": {
       "id": 158,
@@ -214860,7 +214990,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 164
+      "sourceRef": 164,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "159": {
       "id": 159,
@@ -214900,9 +215041,12 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp; confirmed by Isaac.",
-        "ticketConfidence": "User-confirmed"
-      }
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519
+      },
+      "auditSourceRef": 1519
     },
     "161": {
       "id": 161,
@@ -214921,9 +215065,12 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp; confirmed by Isaac.",
-        "ticketConfidence": "User-confirmed"
-      }
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519
+      },
+      "auditSourceRef": 1519
     },
     "162": {
       "id": 162,
@@ -214968,9 +215115,12 @@
         "Comp"
       ],
       "performanceMetadata": {
-        "ticketNote": "Comp; confirmed by Isaac.",
-        "ticketConfidence": "User-confirmed"
-      }
+        "ticketNote": "Dear Evan Hansen at Arena Stage comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519
+      },
+      "auditSourceRef": 1519
     },
     "164": {
       "id": 164,
@@ -215479,11 +215629,20 @@
         "actISetting": "A 42nd Street theatre",
         "actIISetting": "On the battleship",
         "intermission": "One 15-minute intermission",
-        "rehearsalLocation": "NOLA Sound Studios"
+        "rehearsalLocation": "NOLA Sound Studios",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Dames at Sea rush ticket; $32 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
       },
       "setting": "The early 1930s",
       "intermission": "One 15-minute intermission",
-      "sourceRef": 181
+      "sourceRef": 181,
+      "ticketPrice": 32,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "auditSourceRef": 1519
     },
     "182": {
       "id": 182,
@@ -215669,7 +215828,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 186
+      "sourceRef": 186,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "191": {
       "id": 191,
@@ -215679,7 +215849,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 187
+      "sourceRef": 187,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "192": {
       "id": 192,
@@ -215689,7 +215870,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 184
+      "sourceRef": 184,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "193": {
       "id": 193,
@@ -215699,7 +215891,18 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 188
+      "sourceRef": 188,
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Cinderella rush ticket; $25 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "194": {
       "id": 194,
@@ -215709,7 +215912,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 189
+      "sourceRef": 189,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "195": {
       "id": 195,
@@ -215724,8 +215938,17 @@
         "productionCompany": "Constellation Theatre Company",
         "productionVenue": "Source",
         "runStart": "2015-10-22",
-        "runEnd": "2015-11-22"
-      }
+        "runEnd": "2015-11-22",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "196": {
       "id": 196,
@@ -215735,7 +215958,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 191
+      "sourceRef": 191,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "197": {
       "id": 197,
@@ -215745,7 +215979,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 192
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "198": {
       "id": 198,
@@ -215755,7 +216000,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 193
+      "sourceRef": 193,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "199": {
       "id": 199,
@@ -215765,8 +216021,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": "SM Booth",
-      "auditSourceRef": 1367,
-      "sourceRef": 192
+      "auditSourceRef": 1519,
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "200": {
       "id": 200,
@@ -215776,7 +216042,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 184
+      "sourceRef": 184,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "201": {
       "id": 201,
@@ -215786,7 +216063,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 192
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "202": {
       "id": 202,
@@ -215796,7 +216084,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 192
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "203": {
       "id": 203,
@@ -215806,8 +216105,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Orchestra Pit",
-      "auditSourceRef": 1367,
-      "sourceRef": 192
+      "auditSourceRef": 1519,
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "204": {
       "id": 204,
@@ -215817,7 +216126,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 194
+      "sourceRef": 194,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "205": {
       "id": 205,
@@ -215827,8 +216147,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": "SM Booth",
-      "auditSourceRef": 1367,
-      "sourceRef": 192
+      "auditSourceRef": 1519,
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "206": {
       "id": 206,
@@ -215838,7 +216168,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 192
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "207": {
       "id": 207,
@@ -215849,9 +216190,18 @@
       "time": "Evening",
       "notes": null,
       "performanceMetadata": {
-        "roleNormalizationNote": "Cassie Silva role corrected from Miss Wormwood to Mrs. Wormwood per Isaac."
+        "roleNormalizationNote": "Cassie Silva role corrected from Miss Wormwood to Mrs. Wormwood per Isaac.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Matilda Kennedy Center MyTix; $35 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 195
+      "sourceRef": 195,
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "ticketType": "MyTix",
+      "ticketSource": "Kennedy Center MyTix",
+      "auditSourceRef": 1519
     },
     "208": {
       "id": 208,
@@ -215864,8 +216214,17 @@
       "sourceRef": 185,
       "performanceMetadata": {
         "openingNight": "November 23, 2015",
-        "performancesBegin": "November 17, 2015"
-      }
+        "performancesBegin": "November 17, 2015",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "209": {
       "id": 209,
@@ -215875,7 +216234,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 196
+      "sourceRef": 196,
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "ticketType": "MyTix",
+      "ticketSource": "Kennedy Center MyTix",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Bright Star Kennedy Center MyTix; $35 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "210": {
       "id": 210,
@@ -215885,7 +216255,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 197
+      "sourceRef": 197,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "211": {
       "id": 211,
@@ -215895,7 +216276,18 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 198
+      "sourceRef": 198,
+      "ticketPrice": 25,
+      "ticketCurrency": "USD",
+      "ticketType": "Lottery",
+      "ticketSource": "Lottery",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Motown lottery ticket; $25 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "212": {
       "id": 212,
@@ -215911,8 +216303,17 @@
         "intermission": "None",
         "returnEngagement": true,
         "returnEngagementBegan": "2015-12-03",
-        "venueWithinComplex": "Mead Theatre"
-      }
+        "venueWithinComplex": "Mead Theatre",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "213": {
       "id": 213,
@@ -215922,8 +216323,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "SM Booth",
-      "auditSourceRef": 1367,
-      "sourceRef": 192
+      "auditSourceRef": 1519,
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "214": {
       "id": 214,
@@ -215933,7 +216344,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 192
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "215": {
       "id": 215,
@@ -215943,7 +216365,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 200
+      "sourceRef": 200,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "216": {
       "id": 216,
@@ -215953,7 +216386,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 201
+      "sourceRef": 201,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "217": {
       "id": 217,
@@ -215963,8 +216407,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": "Closing Night",
-      "auditSourceRef": 1367,
-      "sourceRef": 192
+      "auditSourceRef": 1519,
+      "sourceRef": 192,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "218": {
       "id": 218,
@@ -215976,8 +216430,17 @@
       "notes": null,
       "sourceRef": 1399,
       "performanceMetadata": {
-        "sourceRunDateDiscrepancy": "AboutTheArtists lists 2015-11-11 through 2015-12-27; Cuebook attendance remains 2016-01-10."
-      }
+        "sourceRunDateDiscrepancy": "AboutTheArtists lists 2015-11-11 through 2015-12-27; Cuebook attendance remains 2016-01-10.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "219": {
       "id": 219,
@@ -215987,7 +216450,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 203
+      "sourceRef": 203,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "220": {
       "id": 220,
@@ -216007,7 +216481,18 @@
         "notes": "No orchestra section present. Runtime archived: approximately two and a half hours including one 15-minute intermission.",
         "sourceRef": 170
       },
-      "sourceRef": 204
+      "sourceRef": 204,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "221": {
       "id": 221,
@@ -216017,7 +216502,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 205
+      "sourceRef": 205,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "222": {
       "id": 222,
@@ -216027,7 +216523,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 206
+      "sourceRef": 206,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "223": {
       "id": 223,
@@ -216037,7 +216544,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 207
+      "sourceRef": 207,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "224": {
       "id": 224,
@@ -216047,7 +216565,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 208
+      "sourceRef": 208,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "225": {
       "id": 225,
@@ -216067,7 +216596,18 @@
         "notes": "No orchestra section present. Runtime archived: approximately two and a half hours including one 15-minute intermission.",
         "sourceRef": 170
       },
-      "sourceRef": 204
+      "sourceRef": 204,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "226": {
       "id": 226,
@@ -216082,7 +216622,18 @@
         "location": "Center",
         "display": "Center Orchestra"
       },
-      "sourceRef": 1400
+      "sourceRef": 1400,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "227": {
       "id": 227,
@@ -216095,9 +216646,18 @@
       "performanceMetadata": {
         "season": "2015/16",
         "setting": "Fall 1979 to January 2009; the living room of a townhouse in Georgetown, Washington, D.C.",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 210
+      "sourceRef": 210,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "228": {
       "id": 228,
@@ -216107,7 +216667,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 211
+      "sourceRef": 211,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "229": {
       "id": 229,
@@ -216120,9 +216691,18 @@
       "performanceMetadata": {
         "season": "2015/16",
         "setting": "Fall 1979 to January 2009; the living room of a townhouse in Georgetown, Washington, D.C.",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 210
+      "sourceRef": 210,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "230": {
       "id": 230,
@@ -216151,7 +216731,18 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 213
+      "sourceRef": 213,
+      "ticketPrice": 69,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticket",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "The Color Purple ticket; $69 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "232": {
       "id": 232,
@@ -216161,7 +216752,18 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 214
+      "sourceRef": 214,
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush / Discount",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "The King and I ticket; $35 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "233": {
       "id": 233,
@@ -216171,7 +216773,18 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 215
+      "sourceRef": 215,
+      "ticketPrice": 37,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush / Discount",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Les Misérables ticket; $37 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "234": {
       "id": 234,
@@ -216181,7 +216794,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 216
+      "sourceRef": 216,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "235": {
       "id": 235,
@@ -216191,7 +216815,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 217
+      "sourceRef": 217,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "236": {
       "id": 236,
@@ -216201,7 +216836,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 218
+      "sourceRef": 218,
+      "ticketPrice": 35,
+      "ticketCurrency": "USD",
+      "ticketType": "MyTix",
+      "ticketSource": "Kennedy Center MyTix",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "OLIVÉRio Kennedy Center MyTix; $35 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "237": {
       "id": 237,
@@ -216214,9 +216860,18 @@
       "performanceMetadata": {
         "season": "2015/16",
         "setting": "Fall 1979 to January 2009; the living room of a townhouse in Georgetown, Washington, D.C.",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 210
+      "sourceRef": 210,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "238": {
       "id": 238,
@@ -216226,7 +216881,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 219
+      "sourceRef": 219,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "239": {
       "id": 239,
@@ -216239,9 +216905,18 @@
       "performanceMetadata": {
         "season": "2015/16",
         "setting": "Fall 1979 to January 2009; the living room of a townhouse in Georgetown, Washington, D.C.",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 210
+      "sourceRef": 210,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "240": {
       "id": 240,
@@ -216504,10 +217179,16 @@
       "notes": null,
       "sourceRef": 226,
       "ticketType": "Under 35",
-      "ticketSource": "Ford's Under 35",
+      "ticketSource": "Ford's Theatre Under 35",
       "performanceMetadata": {
-        "ticketNote": "Ford's Under 35 program; exact price not yet verified."
-      }
+        "ticketNote": "Ford's Theatre youth/Under 35 program ticket; $28 confirmed by Isaac.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 28,
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1519
     },
     "251": {
       "id": 251,
@@ -216524,9 +217205,18 @@
         "setting": "A spacious apartment on New York’s Upper East Side, 2011–2012.",
         "sceneTiming": "The first two scenes take place in late summer of 2011. The third scene takes place three months later during fall. The fourth scene takes place six months later during spring.",
         "intermission": "Performed without an intermission",
-        "sponsorNote": "Disgraced is generously sponsored by Joan and David Maxwell."
+        "sponsorNote": "Disgraced is generously sponsored by Joan and David Maxwell.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 227
+      "sourceRef": 227,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "252": {
       "id": 252,
@@ -216544,9 +217234,17 @@
         "closingDate": "2016-05-29",
         "originallyPresentedAt": "Arena Stage",
         "sourceRef": 112,
-        "ticketNote": "Attended; ticket price/source currently unknown."
+        "ticketNote": "Dear Evan Hansen Second Stage 30 Under 30 / Youth ticket; $34 confirmed by Isaac.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 222
+      "sourceRef": 222,
+      "ticketPrice": 34,
+      "ticketCurrency": "USD",
+      "ticketType": "30 Under 30 / Youth",
+      "ticketSource": "Second Stage 30 Under 30",
+      "auditSourceRef": 1519
     },
     "253": {
       "id": 253,
@@ -216560,9 +217258,29 @@
         "openingNight": "April 26, 2016",
         "worldPremiere": "Alliance Theatre, Atlanta, Georgia",
         "rehearsal": "New 42nd Street Studios",
-        "intermission": "One 15-minute intermission"
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Tuck Everlasting: 2 tickets, Center Mezzanine H106/H107, $61.25 total.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 228
+      "sourceRef": 228,
+      "ticketPrice": 61.25,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticketmaster order",
+      "ticketSource": "Ticketmaster",
+      "ticketCount": 2,
+      "orderTotal": 61.25,
+      "auditSourceRef": 1519,
+      "seatLocation": {
+        "display": "Center Mezzanine H106/H107",
+        "section": "Center Mezzanine",
+        "row": "H",
+        "seats": [
+          "106",
+          "107"
+        ]
+      }
     },
     "254": {
       "id": 254,
@@ -216572,7 +217290,18 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 229
+      "sourceRef": 229,
+      "ticketPrice": 37,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Chicago rush ticket; $37 confirmed for audit fallback.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "255": {
       "id": 255,
@@ -216619,9 +217348,18 @@
         "setting": "A spacious apartment on New York’s Upper East Side, 2011–2012.",
         "sceneTiming": "The first two scenes take place in late summer of 2011. The third scene takes place three months later during fall. The fourth scene takes place six months later during spring.",
         "intermission": "Performed without an intermission",
-        "sponsorNote": "Disgraced is generously sponsored by Joan and David Maxwell."
+        "sponsorNote": "Disgraced is generously sponsored by Joan and David Maxwell.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 227
+      "sourceRef": 227,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "257": {
       "id": 257,
@@ -216631,7 +217369,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 231
+      "sourceRef": 231,
+      "ticketPrice": 28,
+      "ticketCurrency": "USD",
+      "ticketType": "Under 35",
+      "ticketSource": "Ford's Theatre Under 35",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Ford's Theatre youth/Under 35 program ticket; $28 inferred from Isaac’s matching 110 in the Shade row.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "258": {
       "id": 258,
@@ -216674,7 +217423,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 232
+      "sourceRef": 232,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "260": {
       "id": 260,
@@ -216689,7 +217449,11 @@
         "publishedPerformancesBegin": "2016-05-17",
         "publishedOpeningNight": "2016-05-24",
         "attendanceDatePreserved": "2016-05-15; confirmed as invited dress rehearsal preceding published performances.",
-        "eventType": "Invited Dress Rehearsal"
+        "eventType": "Invited Dress Rehearsal",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
       },
       "experienceMarkers": [
         "Invited Dress"
@@ -216697,7 +217461,11 @@
       "tags": [
         "Invited Dress"
       ],
-      "auditSourceRef": 1471
+      "auditSourceRef": 1519,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "261": {
       "id": 261,
@@ -216716,9 +217484,17 @@
       ],
       "performanceMetadata": {
         "eventStatus": "Opening Night",
-        "milestone": "Opening Night"
+        "milestone": "Opening Night",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
       },
-      "auditSourceRef": 1471
+      "auditSourceRef": 1519,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "262": {
       "id": 262,
@@ -217100,7 +217876,28 @@
         "sourceRef": 170
       },
       "sourceRef": 244,
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 50,
+      "ticketCurrency": "USD",
+      "ticketType": "Digital Lottery",
+      "ticketSource": "Broadway Direct / Digital Lottery",
+      "ticketCount": 2,
+      "orderTotal": 50,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Something Rotten! digital lottery order: 2 Orchestra Left Row B seats, $50 total.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "seatLocation": {
+        "display": "Orchestra Left B9/B11",
+        "section": "Orchestra Left",
+        "row": "B",
+        "seats": [
+          "9",
+          "11"
+        ]
+      }
     },
     "276": {
       "id": 276,
@@ -217113,20 +217910,28 @@
       "performanceMetadata": {
         "productionLabel": "Broadway",
         "productionKey": "waitress-broadway",
-        "ticketNote": "1 Rear Mezzanine ticket; $59.00 total including discounts and fees; receipt supplied by Isaac.",
+        "ticketNote": "Waitress TodayTix order T080716675372: 1 Rear Mezzanine ticket, $59.00 total.",
         "ticketQuantity": 1,
-        "orderTotal": 59.0
+        "orderTotal": 59.0,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed",
+        "confirmationNumber": "T080716675372"
       },
       "sourceRef": 245,
       "ticketPrice": 59,
       "ticketCurrency": "USD",
-      "auditSourceRef": 1474,
+      "auditSourceRef": 1519,
       "seatLocation": {
-        "section": "Rear Mezzanine",
-        "display": "Rear Mezzanine"
+        "display": "Rear Mezzanine",
+        "section": "Rear Mezzanine"
       },
       "startTime": "2:00 PM",
-      "curtainTime": "2:00 PM"
+      "curtainTime": "2:00 PM",
+      "ticketType": "TodayTix",
+      "ticketSource": "TodayTix",
+      "ticketCount": 1,
+      "orderTotal": 59
     },
     "277": {
       "id": 277,
@@ -217233,15 +218038,19 @@
       "performanceMetadata": {
         "productionLabel": "Broadway",
         "productionKey": "waitress-broadway",
-        "ticketNote": "TKTS; Isaac recalls approximately $99. Amount is approximate and intentionally not stored as an exact ticketPrice.",
+        "ticketNote": "TKTS-style performance retained as a separate Waitress visit; $99 set from Isaac’s two-performance confirmation and prior recollection hold.",
         "ticketApproximatePrice": 99.0,
-        "ticketPriceStatus": "approximate"
+        "ticketPriceStatus": "user-confirmed approximate",
+        "ticketConfidence": "User-confirmed approximate amount promoted for audit cleanup",
+        "attendanceSource": "Build 362 conflict cleanup from Isaac",
+        "attendanceSourceRef": 1520
       },
       "sourceRef": 247,
       "ticketType": "TKTS",
       "ticketSource": "TKTS",
       "ticketCurrency": "USD",
-      "auditSourceRef": 1474
+      "auditSourceRef": 1474,
+      "ticketPrice": 99.0
     },
     "281": {
       "id": 281,
@@ -217252,7 +218061,19 @@
       "time": "Evening",
       "notes": null,
       "sourceRef": 248,
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 98,
+      "ticketCurrency": "USD",
+      "ticketType": "TDF",
+      "ticketSource": "TDF",
+      "ticketCount": 2,
+      "orderTotal": 98,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "The Color Purple TDF eTix order: 2 tickets, $98.00 total including handling.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "282": {
       "id": 282,
@@ -217288,7 +218109,17 @@
       "time": "Matinee",
       "notes": null,
       "sourceRef": 250,
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 69,
+      "ticketCurrency": "USD",
+      "ticketType": "Partial View",
+      "ticketSource": "Box Office",
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Wicked partial-view ticket; $69 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "284": {
       "id": 284,
@@ -217426,11 +218257,19 @@
         "Press Night"
       ],
       "performanceMetadata": {
-        "milestone": "Press Night"
+        "milestone": "Press Night",
+        "ticketNote": "The Last Schwartz comp / $0 confirmed by Isaac in historical pricing table.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
       },
       "startTime": "7:30 PM",
       "curtainTime": "7:30 PM",
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "290": {
       "id": 290,
@@ -217472,11 +218311,17 @@
       "notes": "Attended with Paul Villalovoz.",
       "performanceMetadata": {
         "companion": "Paul Villalovoz",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1325
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
       },
       "sourceRef": 258,
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "292": {
       "id": 292,
@@ -217989,8 +218834,8 @@
       "sourceRef": 263,
       "startTime": "2:00 PM",
       "curtainTime": "2:00 PM",
-      "ticketType": "Multiple documented orders",
-      "ticketSource": "Box Office",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
       "ticketCurrency": "USD",
       "performanceMetadata": {
         "ticketOrders": [
@@ -218011,9 +218856,31 @@
             "total": 96.0
           }
         ],
-        "ticketNote": "Two distinct documented orders for the same performance; personal seat not identified, so no single ticketPrice is inferred."
+        "ticketNote": "Freaky Friday fallback: assume rush when no stronger personal ticket amount is identified; $35 standing rush price per prior Isaac corrections.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed",
+        "priorDocumentedOrdersHeld": [
+          {
+            "seats": [
+              "F110",
+              "F111"
+            ],
+            "priceEach": 50.5,
+            "total": 101.0
+          },
+          {
+            "seats": [
+              "D12",
+              "D14"
+            ],
+            "priceEach": 48.0,
+            "total": 96.0
+          }
+        ]
       },
-      "auditSourceRef": 1474
+      "auditSourceRef": 1519,
+      "ticketPrice": 35
     },
     "310": {
       "id": 310,
@@ -218138,9 +219005,16 @@
         "eventStatus": "Preview",
         "approximateTicketPrice": 69.0,
         "ticketPriceStatus": "Approximate memory",
-        "ticketNote": "Left Box; approximately $69, recalled by Isaac. Not promoted to exact ticketPrice."
+        "ticketNote": "Dear Evan Hansen left box seat; $69 confirmed by Isaac.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
       },
-      "auditSourceRef": 1475
+      "auditSourceRef": 1519,
+      "ticketPrice": 69,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Seat",
+      "ticketSource": "Box Office"
     },
     "315": {
       "id": 315,
@@ -218152,9 +219026,18 @@
       "notes": null,
       "performanceMetadata": {
         "productionLabel": "Broadway",
-        "productionKey": "waitress-broadway"
+        "productionKey": "waitress-broadway",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Waitress box ticket; $49 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 273
+      "sourceRef": 273,
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "ticketType": "Box Seat",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519
     },
     "316": {
       "id": 316,
@@ -218245,7 +219128,17 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 277
+      "sourceRef": 277,
+      "ticketPrice": 0.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "performanceMetadata": {
+        "ticketNote": "Comp / $0 confirmed by Isaac during Build 362 conflict cleanup.",
+        "ticketConfidence": "User-confirmed",
+        "attendanceSource": "Build 362 conflict cleanup from Isaac",
+        "attendanceSourceRef": 1520
+      }
     },
     "320": {
       "id": 320,
@@ -218942,7 +219835,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 303
+      "sourceRef": 303,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "349": {
       "id": 349,
@@ -218972,7 +219876,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 303
+      "sourceRef": 303,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "352": {
       "id": 352,
@@ -218982,7 +219897,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 306
+      "sourceRef": 306,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "353": {
       "id": 353,
@@ -219011,7 +219937,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 306
+      "sourceRef": 306,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "355": {
       "id": 355,
@@ -219030,8 +219967,26 @@
       "venueId": 61,
       "type": "Broadway",
       "time": "Evening",
-      "notes": null,
-      "sourceRef": 309
+      "notes": "Attended with Barbara Chin.",
+      "sourceRef": 309,
+      "ticketPrice": 89,
+      "ticketCurrency": "USD",
+      "ticketType": "Venmo / transferred ticket",
+      "ticketSource": "Venmo",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Waitress 2017-04-22: $89 Venmo charge between Barbara Chin and Isaac, confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "companions": [
+          "Barbara Chin"
+        ],
+        "companion": "Barbara Chin"
+      },
+      "attendedWith": [
+        "Barbara Chin"
+      ]
     },
     "357": {
       "id": 357,
@@ -219134,13 +220089,15 @@
       "exactTime": "8:00 PM",
       "performanceMetadata": {
         "eventStatus": "Preview",
-        "ticketApproximatePrice": 20.0,
-        "ticketPriceStatus": "approximate",
-        "ticketNote": "Pay What You Can; approximately $20 from Isaac recollection, not receipt-backed exact."
+        "ticketNote": "Set to $20 Pay What You Can from Isaac conflict cleanup.",
+        "ticketConfidence": "User-confirmed",
+        "attendanceSource": "Build 362 conflict cleanup from Isaac",
+        "attendanceSourceRef": 1520
       },
       "ticketType": "Pay What You Can",
       "ticketSource": "Pay What You Can",
-      "ticketCurrency": "USD"
+      "ticketCurrency": "USD",
+      "ticketPrice": 20.0
     },
     "363": {
       "id": 363,
@@ -219565,7 +220522,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 338
+      "sourceRef": 338,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "387": {
       "id": 387,
@@ -219575,7 +220543,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 338
+      "sourceRef": 338,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "388": {
       "id": 388,
@@ -219727,19 +220706,25 @@
         ],
         "display": "Mezzanine · Row E · Seats 1, 3"
       },
-      "ticketType": "Single Tickets",
+      "ticketType": "Ticketmaster order",
       "ticketSource": "Ticketmaster",
       "ticketCurrency": "USD",
-      "auditSourceRef": 1475,
+      "auditSourceRef": 1519,
       "performanceMetadata": {
         "ticketQuantity": 2,
         "orderTotal": 131.7,
         "confirmationNumber": "3-53261/NY4",
         "deliveryMethod": "Standard Mail",
         "personalSeatStatus": "Not identified from two-seat order",
-        "ticketNote": "Ticketmaster order 3-53261/NY4; 2 Mezzanine E tickets (1, 3); $131.70 all-in order total; no per-ticket face/fee split supplied.",
-        "auditSource": "Isaac supplied Ticketmaster order details, 2026-09-25."
-      }
+        "ticketNote": "Promoted from performance metadata: Ticketmaster order 3-53261/NY4; 2 Mezzanine E tickets, $131.70 order total.",
+        "auditSource": "Isaac supplied Ticketmaster order details, 2026-09-25.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 131.7,
+      "ticketCount": 2,
+      "orderTotal": 131.7
     },
     "397": {
       "id": 397,
@@ -219788,7 +220773,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 348
+      "sourceRef": 348,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "399": {
       "id": 399,
@@ -220666,14 +221662,21 @@
       "time": "Evening",
       "notes": "Attended with Mollie Goff.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
         "companions": [
           "Mollie Goff"
         ],
-        "companion": "Mollie Goff"
+        "companion": "Mollie Goff",
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 386
+      "sourceRef": 386,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "443": {
       "id": 443,
@@ -222397,20 +223400,40 @@
     "507": {
       "id": 507,
       "showId": 211,
-      "date": "2018-10-27",
+      "date": "2018-10-26",
       "venueId": 50,
       "type": "Regional",
       "time": "Evening",
-      "notes": "Attended with Jackie Rucker.",
-      "sourceRef": 437,
+      "notes": "Friday 8:00 PM performance. Attended with Jackie Rucker. Kennedy Center order 23002357: Orchestra Zone C R-8/R-6, 2 tickets at $39 each, $78 total.",
+      "sourceRef": 1520,
       "performanceMetadata": {
-        "auditHold": "Gmail receipt/reminder indicate Fri Oct. 26, 2018 8 PM, not current Oct. 27. Date move held pending Isaac confirmation.",
-        "heldReceiptDetails": "Kennedy Center order 23002357: Orchestra Zone C R-8/R-6, 2 tickets at $39 each, $78 total.",
         "companions": [
           "Jackie Rucker"
         ],
         "companion": "Jackie Rucker",
-        "attendanceSource": "Existing audit companion retained from prior record; date move held pending confirmation."
+        "attendanceSource": "Build 362 conflict cleanup from Isaac",
+        "auditHoldResolved": true,
+        "orderNumber": "23002357",
+        "ticketQuantity": 2,
+        "orderTotal": 78.0,
+        "ticketNote": "Moved from 2018-10-27 to receipt-backed Fri 2018-10-26 8 PM; Orchestra Zone C R-8/R-6; 2 tickets at $39 each; $78 total.",
+        "ticketConfidence": "Receipt-backed/user-approved date correction",
+        "attendanceSourceRef": 1520
+      },
+      "startTime": "8:00 PM",
+      "curtainTime": "8:00 PM",
+      "ticketPrice": 39.0,
+      "ticketCurrency": "USD",
+      "ticketType": "Single Tickets",
+      "ticketSource": "Kennedy Center",
+      "seatLocation": {
+        "section": "Orchestra Zone C",
+        "row": "R",
+        "seats": [
+          "8",
+          "6"
+        ],
+        "display": "Orchestra Zone C · Row R · Seats 8, 6"
       }
     },
     "508": {
@@ -223412,14 +224435,21 @@
       "time": "Evening",
       "notes": "Attended with Brendan Padgett.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1339,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
         "companions": [
           "Brendan Padgett"
         ],
-        "companion": "Brendan Padgett"
+        "companion": "Brendan Padgett",
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 467
+      "sourceRef": 467,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "548": {
       "id": 548,
@@ -225251,7 +226281,7 @@
         "startTime": "19:45",
         "restorationLevy": "£1.25",
         "bookingFee": "£2.50",
-        "ticketNote": "Stalls C15; £52.50 total including £3.75 fees.",
+        "ticketNote": "Stalls C15; £52.50 total including £3.75 fees; box office collection. Front row/stage-height seat note retained.",
         "programBranding": "20 years in London",
         "productionLabel": "West End",
         "ticketConfidence": "Receipt",
@@ -225262,11 +226292,14 @@
         "fxRateDate": "2020-02-06",
         "fxRateSource": "Historical GBP→USD performance-date rate used in Cuebook audit.",
         "fxConversionNote": "Converted £52.50 to $67.88 USD using 2020-02-06 GBP→USD rate 1.2930.",
-        "orderNumber": "12037933"
+        "orderNumber": "12037933",
+        "bookingReference": "12037933",
+        "seatInformation": "Front row; stage-height note from booking details."
       },
       "sourceRef": 522,
       "ticketSource": "Novello Theatre",
-      "ticketCurrency": "USD"
+      "ticketCurrency": "USD",
+      "auditSourceRef": 1519
     },
     "612": {
       "id": 612,
@@ -227332,13 +228365,20 @@
       "time": null,
       "notes": "Attended with Sabrina Clark.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
         "companions": [
           "Sabrina Clark"
-        ]
+        ],
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 588
+      "sourceRef": 588,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "687": {
       "id": 687,
@@ -227387,7 +228427,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 590
+      "sourceRef": 590,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "689": {
       "id": 689,
@@ -227402,13 +228453,20 @@
         "originalTime": "Matinee",
         "dateCorrectionSourceRef": 1338,
         "dateCorrection": "Corrected to March 5, 2023 evening from Isaac’s direct report.",
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1338,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
         "companions": [
           "Sabrina Clark"
-        ]
+        ],
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 591
+      "sourceRef": 591,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "690": {
       "id": 690,
@@ -227585,9 +228643,18 @@
       "performanceMetadata": {
         "season": "2022/23",
         "setting": "Los Angeles, California",
-        "award": "Edgerton Foundation New Play Award"
+        "award": "Edgerton Foundation New Play Award",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 598
+      "sourceRef": 598,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "696": {
       "id": 696,
@@ -228609,7 +229676,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 632
+      "sourceRef": 632,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "733": {
       "id": 733,
@@ -228958,9 +230036,18 @@
       },
       "performanceMetadata": {
         "orchestraProductionKey": "six-broadway",
-        "productionLabel": "Broadway"
+        "productionLabel": "Broadway",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "SIX 2024-03-21 set to $69 per Isaac.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 646
+      "sourceRef": 646,
+      "ticketPrice": 69,
+      "ticketCurrency": "USD",
+      "ticketType": "User-confirmed ticket",
+      "ticketSource": "User-supplied",
+      "auditSourceRef": 1519
     },
     "746": {
       "id": 746,
@@ -228980,7 +230067,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 648
+      "sourceRef": 648,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "748": {
       "id": 748,
@@ -229295,7 +230393,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 661
+      "sourceRef": 661,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "761": {
       "id": 761,
@@ -229612,7 +230721,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 678
+      "sourceRef": 678,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "778": {
       "id": 778,
@@ -229622,7 +230742,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 679
+      "sourceRef": 679,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "779": {
       "id": 779,
@@ -229787,9 +230918,18 @@
       "performanceMetadata": {
         "season": "2024/25",
         "setting": "Forest Hills, Queens, New York, 1998",
-        "productionContext": "Arena Stage presentation in association with The Public Theater"
+        "productionContext": "Arena Stage presentation in association with The Public Theater",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 688
+      "sourceRef": 688,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "789": {
       "id": 789,
@@ -229799,7 +230939,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 689
+      "sourceRef": 689,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "790": {
       "id": 790,
@@ -229808,8 +230959,26 @@
       "venueId": 74,
       "type": "National Tour",
       "time": "Evening",
-      "notes": "Invited dress rehearsal",
-      "sourceRef": 690
+      "notes": "Invited dress rehearsal\nAttended with Bradley Barker.",
+      "sourceRef": 690,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Annie 2024-11-09 comp / $0 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "companions": [
+          "Bradley Barker"
+        ],
+        "companion": "Bradley Barker"
+      },
+      "attendedWith": [
+        "Bradley Barker"
+      ]
     },
     "791": {
       "id": 791,
@@ -229922,8 +231091,6 @@
       "time": "Evening",
       "notes": "Conducted by Andy Einhorn (verified).\nTicket metadata: rush, $49, ORCH O 12. At this performance: Baby June played by Marley Gomes; Uncle Jocko Kid played by Jade Smith.",
       "tags": ", Rush",
-      "price": 49,
-      "seat": "ORCH O 12",
       "programArchiveText": {
         "sections": {
           "gypsyNov2024_v43202": "Added rush price/seat, at-this-performance insert for Baby June and Uncle Jocko Kid, orchestra, and expanded management/staff from supplied Playbill photos."
@@ -229934,9 +231101,24 @@
         "ticketSource": "Rush",
         "seatDisplay": "ORCH O 12",
         "orchestraProductionKey": "gypsy-broadway",
-        "productionLabel": "Broadway"
+        "productionLabel": "Broadway",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Promoted from legacy price/pricePaid hidden field: rush, $49, ORCH O 12.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 696
+      "sourceRef": 696,
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "auditSourceRef": 1519,
+      "seatLocation": {
+        "display": "ORCH O 12",
+        "section": "Orchestra",
+        "row": "O",
+        "seat": "12"
+      }
     },
     "796": {
       "id": 796,
@@ -230021,7 +231203,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 699
+      "sourceRef": 699,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "799": {
       "id": 799,
@@ -230031,7 +231224,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 700
+      "sourceRef": 700,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "800": {
       "id": 800,
@@ -230079,15 +231283,28 @@
       "venueId": 123,
       "type": "National Tour",
       "time": "Matinee",
-      "notes": "Conducted by Andrew David Sotomayor (piano-conductor; verified). Program metadata added from MSG/Whoopi Goldberg engagement pages; roster pages do not overwrite actual at-this-performance cast.",
+      "notes": "Conducted by Andrew David Sotomayor (piano-conductor; verified). Program metadata added from MSG/Whoopi Goldberg engagement pages; roster pages do not overwrite actual at-this-performance cast.\nAttended with Paul Villalovoz.",
       "performanceMetadata": {
         "intermission": "One 20-minute intermission",
         "programRosterNote": "Program roster is metadata only and does not overwrite actual performance cast.",
-        "attendanceSource": "Build 360 queued audit bundle from Isaac",
-        "attendanceSourceRef": 1518,
-        "ticketNote": "Annie — 2025-01-05 matinee attended; price still unresolved in Build 360."
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Annie 2025-01-05 matinee comp / $0 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "companions": [
+          "Paul Villalovoz"
+        ],
+        "companion": "Paul Villalovoz"
       },
-      "sourceRef": 703
+      "sourceRef": 703,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "attendedWith": [
+        "Paul Villalovoz"
+      ]
     },
     "803": {
       "id": 803,
@@ -230173,9 +231390,21 @@
       "performanceMetadata": {
         "pricePaid": "55.00",
         "seatDisplay": "Side mezzanine left partial view",
-        "ticketNote": "Betty Gilpin as Mary Todd Lincoln"
+        "ticketNote": "Promoted from hidden pricePaid field: side mezzanine left partial view, $55.",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 707
+      "sourceRef": 707,
+      "ticketPrice": 55,
+      "ticketCurrency": "USD",
+      "ticketType": "Partial View",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519,
+      "seatLocation": {
+        "display": "Side mezzanine left partial view",
+        "section": "Side Mezzanine Left"
+      }
     },
     "807": {
       "id": 807,
@@ -230235,7 +231464,7 @@
       "venueId": 25,
       "type": "National Tour",
       "time": "Evening",
-      "notes": null,
+      "notes": "Attended with Brian Moran.",
       "programArchiveText": {
         "dateCaptured": "2025-02",
         "sections": {
@@ -230248,15 +231477,24 @@
       },
       "sourceRef": 710,
       "startTime": "7:30 PM",
-      "ticketPrice": 0.0,
+      "ticketPrice": 0,
       "ticketCurrency": "USD",
       "ticketType": "Comp",
       "ticketSource": "Comp",
       "performanceMetadata": {
-        "attendanceSource": "Build 360 queued audit bundle from Isaac",
-        "attendanceSourceRef": 1518,
-        "ticketNote": "Annie Baltimore first attended performance: comp per Isaac."
-      }
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Annie 2025-01-07 Baltimore comp / $0 confirmed by Isaac.",
+        "ticketConfidence": "User-confirmed",
+        "companions": [
+          "Brian Moran"
+        ],
+        "companion": "Brian Moran"
+      },
+      "auditSourceRef": 1519,
+      "attendedWith": [
+        "Brian Moran"
+      ]
     },
     "810": {
       "id": 810,
@@ -230266,7 +231504,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 711
+      "sourceRef": 711,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "811": {
       "id": 811,
@@ -230344,7 +231593,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 714
+      "sourceRef": 714,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "815": {
       "id": 815,
@@ -230379,7 +231639,18 @@
       "type": "National Tour",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 717
+      "sourceRef": 717,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Listing #817 set comp / $0 per Isaac.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "818": {
       "id": 818,
@@ -230455,10 +231726,17 @@
       "setting": "Present-day Los Angeles",
       "programArchiveText": "Fake It Until You Make It Arena Stage program metadata captured from supplied program/handoff: full creative, producing organizations, production/stage management, listed-only understudies, Indigenous artwork/song acknowledgments, and support/scenery credits. Actual cast/appearance rows preserved.",
       "performanceMetadata": {
-        "attendanceSource": "Isaac’s direct report",
-        "attendanceSourceRef": 1329
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 722
+      "sourceRef": 722,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "824": {
       "id": 824,
@@ -230646,7 +231924,18 @@
       "type": "Regional",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 726
+      "sourceRef": 726,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "830": {
       "id": 830,
@@ -230674,9 +231963,18 @@
       "notes": "Invited dress rehearsal.",
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 728
+      "sourceRef": 728,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "832": {
       "id": 832,
@@ -230688,9 +231986,18 @@
       "notes": null,
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 728
+      "sourceRef": 728,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "833": {
       "id": 833,
@@ -230716,9 +232023,18 @@
       "notes": "Rebecca Madeira was on as understudy for Mrs Which. Dillan James Smith, a regular company swing, was on for the Ensemble/Beast track. Alyssa Enita Stanford, a regular company swing, was on in Rebecca Madeira’s Ensemble track.",
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 14
+      "sourceRef": 14,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "836": {
       "id": 836,
@@ -230730,9 +232046,18 @@
       "notes": null,
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 730
+      "sourceRef": 730,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "837": {
       "id": 837,
@@ -232704,7 +234029,18 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": null,
-      "sourceRef": 812
+      "sourceRef": 812,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "In-person Rush",
+      "ticketSource": "Box Office Rush",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Mamma Mia! 2025 Broadway in-person rush; $45 per Isaac / Broadway rush rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "922": {
       "id": 922,
@@ -233231,11 +234567,21 @@
         "section": "Box",
         "side": "House Left"
       },
-      "ticketType": "Rush",
+      "ticketType": "In-person Rush",
       "experienceMarkers": [
         "Rush"
       ],
-      "sourceRef": 830
+      "sourceRef": 830,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketSource": "Box Office Rush",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Mamma Mia! 2025 Broadway in-person rush; $45 per Isaac / Broadway rush rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "940": {
       "id": 940,
@@ -233552,7 +234898,18 @@
       "type": "Broadway",
       "time": "Matinee",
       "notes": "Conducted by Daniel Klintworth (verified).",
-      "sourceRef": 846
+      "sourceRef": 846,
+      "ticketPrice": 45,
+      "ticketCurrency": "USD",
+      "ticketType": "In-person Rush",
+      "ticketSource": "Box Office Rush",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Mamma Mia! 2025 Broadway in-person rush; $45 per Isaac / Broadway rush rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "957": {
       "id": 957,
@@ -235482,7 +236839,18 @@
       "type": "Regional",
       "time": "Matinee",
       "notes": null,
-      "sourceRef": 348
+      "sourceRef": 348,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      }
     },
     "1035": {
       "id": 1035,
@@ -235850,9 +237218,18 @@
       "notes": "Rebecca Madeira was on as understudy for Mrs Which. Alyssa Enita Stanford, a regular company swing, was on in Rebecca Madeira’s Ensemble track.",
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 14
+      "sourceRef": 14,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "1049": {
       "id": 1049,
@@ -235864,9 +237241,18 @@
       "notes": "Full company.",
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 728
+      "sourceRef": 728,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "1050": {
       "id": 1050,
@@ -235878,9 +237264,18 @@
       "notes": "Dillan James Smith, a regular company swing, was on for Charles Wallace. Kimberly Dodson was on as understudy for the Ensemble/Mother/Aunt Beast track. Alex De Bard, a regular company swing, was on for the Ensemble/Happy Medium/Beast track.",
       "performanceMetadata": {
         "programUpdateVersion": "v13.30.9",
-        "castHierarchySourceRef": 1370
+        "castHierarchySourceRef": 1370,
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
       },
-      "sourceRef": 14
+      "sourceRef": 14,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "1051": {
       "id": 1051,
@@ -237451,7 +238846,24 @@
       "type": "Broadway",
       "time": "Evening",
       "notes": "Thursday evening performance. Seat: Orchestra BB 6. $86. Conducted by Ben Cohn (verified from lobby board photo supplied by Isaac). At-this-performance lobby board supplied by Isaac: Emily Rogers on for Keri René Fuller as Elphaba; Alicia Newcom on for Alison Jantzie as Witch's Mother. Swing track coverage supplied by Isaac: Kelsey Kaufman in Emily Rogers's ensemble track; Alicia L. Albright in Hannah Florence's ensemble track; Jesse JP Johnson in Jeff Heimbrock's ensemble track; Tristan Hill in Jeremy Thompson's ensemble track. Current printed Playbill cast page and production/program pages supplied by Isaac.",
-      "sourceRef": 998
+      "sourceRef": 998,
+      "ticketPrice": 86,
+      "ticketCurrency": "USD",
+      "ticketType": "Ticket",
+      "ticketSource": "Box Office",
+      "auditSourceRef": 1519,
+      "performanceMetadata": {
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Promoted from notes: Orchestra BB 6, $86.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "seatLocation": {
+        "display": "Orchestra BB 6",
+        "section": "Orchestra",
+        "row": "BB",
+        "seat": "6"
+      }
     },
     "1103": {
       "id": 1103,
@@ -240086,7 +241498,11 @@
         "specialEventSubtype": "Gala / Benefit",
         "benefitFor": "Arena Stage",
         "award": "Inaugural Beth Newburger Schwartz Award",
-        "startTime": "8:30 PM"
+        "startTime": "8:30 PM",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Comp / $0 confirmed by Isaac in historical pricing table.",
+        "ticketConfidence": "User-confirmed"
       },
       "experienceMarkers": [
         "Gala / Benefit"
@@ -240094,7 +241510,11 @@
       "tags": [
         "Gala / Benefit"
       ],
-      "auditSourceRef": 1471
+      "auditSourceRef": 1519,
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp"
     },
     "1167": {
       "id": 1167,
@@ -240174,8 +241594,17 @@
         "specialEventSubtype": "Gala / Benefit",
         "venueSpace": "Fichandler Stage",
         "welcoming": "Hana S. Sharif",
-        "award": "Beth Newburger Schwartz Award to Marcia L. Fudge"
-      }
+        "award": "Beth Newburger Schwartz Award to Marcia L. Fudge",
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "1170": {
       "id": 1170,
@@ -240191,8 +241620,17 @@
         "awards": [
           "Beth Newburger Schwartz Award — Eleanor Holmes Norton",
           "American Voice Award — Deborah F. Rutter"
-        ]
-      }
+        ],
+        "attendanceSource": "Build 361 historical pricing cleanup from Isaac",
+        "attendanceSourceRef": 1519,
+        "ticketNote": "Arena Stage comp / $0 per Isaac standing audit rule.",
+        "ticketConfidence": "User-confirmed"
+      },
+      "ticketPrice": 0,
+      "ticketCurrency": "USD",
+      "ticketType": "Comp",
+      "ticketSource": "Comp",
+      "auditSourceRef": 1519
     },
     "1171": {
       "id": 1171,
@@ -241379,6 +242817,64 @@
         "ticketNote": "Bianca Del Rio: It’s Jester Joke — 2019-10-18: Orchestra Left Z3/Z5, $97.00; time unconfirmed."
       },
       "sourceRef": 1518
+    },
+    "1201": {
+      "id": 1201,
+      "showId": 390,
+      "date": "2026-09-29",
+      "venueId": 21,
+      "type": "Broadway",
+      "time": "Evening",
+      "notes": "7:00 PM evening performance. Orchestra H23, $40 Rush. Attended with Brendan Padgett. Playbill At This Performance: Jessica Mallare White and David Wright Jr. welcomed as Vacation Swings; Shina Ann Morris as Emma Tate; Lauralyn McClelland as Florence Menlove; Brandon Block s/w Harvey the Innkeeper on for Richard Riaz Yoder; Maria Briggs s/w Meg on for Shina Ann Morris.",
+      "seatLocation": {
+        "section": "Orchestra",
+        "row": "H",
+        "seat": "23",
+        "display": "Orchestra H23"
+      },
+      "ticketType": "Rush",
+      "ticketPrice": 40.0,
+      "ticketCurrency": "USD",
+      "performanceMetadata": {
+        "productionLabel": "Broadway",
+        "productionKey": "schmigadoon-broadway-2026",
+        "intermission": "One 15-minute intermission",
+        "attendanceSource": "Isaac direct report + Playbill At This Performance screenshots",
+        "attendanceSourceRef": 1520,
+        "actualCastSource": "Playbill At This Performance screenshots supplied by Isaac",
+        "programBasePerformanceId": 1176,
+        "companions": [
+          "Brendan Padgett"
+        ],
+        "companion": "Brendan Padgett",
+        "ticketNote": "Orchestra H23; $40 Rush.",
+        "vacationSwingsListed": [
+          "Jessica Mallare White",
+          "David Wright Jr."
+        ],
+        "programArchiveSourceRef": 1521,
+        "printedPlaybillSourceRef": 1521,
+        "staffComparison": "No staff/orchestra/song-list changes detected versus prior stored Schmigadoon Broadway printed-program snapshot."
+      },
+      "sourceRef": 1520,
+      "programArchiveText": {
+        "performanceId": 1201,
+        "dateCaptured": "2026-09-29",
+        "sourceRef": 1521,
+        "sections": {
+          "attendance": "Tuesday, September 29, 2026 at 7:00 PM; Nederlander Theatre; Orchestra H23; $40 Rush; attended with Brendan Padgett.",
+          "cast": "Current printed Playbill cast page captured. Performance-specific At This Performance changes: Shina Ann Morris appeared as Emma Tate; Lauralyn McClelland appeared as Florence Menlove; Brandon Block appeared in the role(s) usually played by Richard Riaz Yoder; Maria Briggs appeared in the role(s) usually played by Shina Ann Morris. Jessica Mallare White and David Wright Jr. were listed/welcomed as Vacation Swings only, not inferred onstage.",
+          "printedCast": "Printed cast page includes Alex Brightman, Sara Chase, Jennifer Simard, Ann Harada, Brad Oscar, Isabelle McCalla, Iván Hernández, Maulik Pancholy, Max Clayton, McKenzie Kurtz and Ayaan Diop among the principal company; townpeople listed include Afra Hines, Becca Petersen, Clyde Alves, Jess LeProtto, Joshua Burrage, Kaitlyn Davidson, Kimberly Immanuel, Lyrica Woodruff, Nathan Lucrezio, Richard Riaz Yoder, Shina Ann Morris and Zachary Downer. This section is preserved as printed-program roster context; actual performance exceptions are stored separately.",
+          "understudies": "Printed cover pool captured: covers listed for Josh Skinner, Melissa Gimble, Mildred Layton, Florence Menlove, Mayor Menlove, Emma Tate, Doc, The Reverend Layton/Leprechaun, Danny Bailey and Betsy. Alternate for Carson: Eldridge Taylor Jr. Swings: Brandon Block, Keven Quillon, Lauralyn McClelland and Maria Briggs. Dance Captain: Lauralyn McClelland. Assistant Dance Captain: Brandon Block.",
+          "songs": "Act I: Schmigadoon!; You Can’t Tame Me; Corn Puddin’; The Leprechaun Song; Lovers’ Spat; Somewhere Love Is Waiting for You; The Picnic Basket Auction; Enjoy the Ride; Not That Kinda Gal; You Don’t Tame Me; I’m Engaged; What’s the Matter With Men?; Cross That Bridge; Act I Finale. Act II: With All of Your Heart; Baby Talk; I Thought I Was the Only One; When the Night Is Darkest; Suddenly; Tribulation; Melissa’s Epiphany; Election Day; You Make Me Wanna Sing; How We Change.",
+          "orchestra": "Printed orchestra captured and compared to prior baseline: Steven Malone, conductor/keyboard; Kelly Thomas, associate conductor/keyboard; Caroline Cassio, violin/concertmaster; Phillip Payton, violin/viola; Rahel Lulseged, cello; Joe Nero, drums; Julia Adamy, bass; Colleen Bernstein, percussion; Alex Bender and Melissa Muñoz, trumpets; Burt Mason, trombone; Vito Chiavuzzo, piccolo/flute/clarinet/alto sax; Steven Lyon, flute/clarinet/tenor sax; Noelle Rueschman, baritone sax/clarinet/bass clarinet. Music coordinator: Michael Aarons & Anja Wood, M-Squared Music. Music copying: Anixter Rice Music Service. Synthesizer programming: Randy Cohen Keyboards, LLC. Associate synthesizer programmers: Sam Starobin, Drew Nichols, Nick Schenkel and Tim Crook.",
+          "production": "Staff page captured and checked against prior current Broadway snapshot. No material staff changes detected. Page includes Broadway Video, No Guarantees Productions, TT Partners general management, Carrie Jablansky as company manager, Abri Berg as assistant company manager, Juniper Street Productions production management, The Telsey Office casting, Rubenstein Communications press, Klaris legal counsel, stage management led by Matthew Lacey, and listed production/wardrobe/sound/props/marketing/accounting/support vendors."
+        },
+        "comparison": "No staff/orchestra/song-list changes detected from the supplied printed Playbill pages versus the most recent stored Schmigadoon! Broadway printed-program snapshot. Build 363 replaces the stale September 12 archive text that had been copied forward in Build 362."
+      },
+      "startTime": "7:00 PM",
+      "curtainTime": "7:00 PM",
+      "ticketSource": "Rush"
     }
   },
   "organizations": {
