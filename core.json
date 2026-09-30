@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_363",
-    "generated": "2026-09-30T01:39:00+00:00",
+    "sourceFile": "Cuebook_Build_364",
+    "generated": "2026-09-30T17:04:09+00:00",
     "rowCount": 1198,
     "performanceCount": 1198,
     "peopleCount": 19996,
@@ -11,20 +11,20 @@
     "appearanceCount": 19742,
     "creativeCreditCount": 17629,
     "notesCount": 528,
-    "updated": "2026-09-29",
-    "notes": "Build 363 updates the 2026-09-29 Schmigadoon! printed Playbill archive and refreshes performance-page title/fact styling.",
+    "updated": "2026-09-30",
+    "notes": "Build 365 guts and rebuilds the Stats page into top-20 table-first rankings and exports a missing-cost companion worksheet.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-09-29T21:39:00-04:00",
+    "updatedAt": "2026-09-30T17:04:09+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b362",
-    "version": "v14.53.00",
-    "build": "json-b363",
-    "buildTime": "2026-09-30T01:39:00+00:00",
+    "sourceBase": "json-b364",
+    "version": "v14.55.00",
+    "build": "json-b365",
+    "buildTime": "2026-09-30T17:04:09+00:00",
     "buildDate": "2026-09-29",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.53.00",
-    "lastUpdated": "2026-09-29",
+    "buildVersion": "v14.55.00",
+    "lastUpdated": "2026-09-30",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 363: Schmigadoon 2026-09-29 printed Playbill archive refresh and performance-page top-card redesign.",
+    "lastUpdatedNote": "Build 365: stats page table refresh and missing-cost spreadsheet export.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4180,7 +4180,7 @@
         "No cast, cover, conductor, orchestra, creative-credit, or production-archive facts changed."
       ]
     },
-    "generatedAt": "2026-09-29T14:47:00+00:00",
+    "generatedAt": "2026-09-30T17:04:09+00:00",
     "build353QueueImplementation": {
       "updatedAt": "2026-09-28T17:58:00-04:00",
       "summary": "Applied January 2023 ticket audit corrections for Ride the Cyclone and Into the Woods at Signature Theatre.",
@@ -242825,7 +242825,7 @@
       "venueId": 21,
       "type": "Broadway",
       "time": "Evening",
-      "notes": "7:00 PM evening performance. Orchestra H23, $40 Rush. Attended with Brendan Padgett. Playbill At This Performance: Jessica Mallare White and David Wright Jr. welcomed as Vacation Swings; Shina Ann Morris as Emma Tate; Lauralyn McClelland as Florence Menlove; Brandon Block s/w Harvey the Innkeeper on for Richard Riaz Yoder; Maria Briggs s/w Meg on for Shina Ann Morris.",
+      "notes": "7:00 PM evening performance. Orchestra H23, $40 Rush. Attended with Brendan Padgett. Playbill At This Performance: Jessica Mallare White and David Wright Jr. welcomed as Vacation Swings; Shina Ann Morris u/s Emma Tate; Lauralyn McClelland s/w Florence Menlove on for Ann Harada; Brandon Block s/w Harvey the Innkeeper on for Richard Riaz Yoder; Maria Briggs s/w Meg on for Shina Ann Morris.",
       "seatLocation": {
         "section": "Orchestra",
         "row": "H",
@@ -242854,7 +242854,8 @@
         ],
         "programArchiveSourceRef": 1521,
         "printedPlaybillSourceRef": 1521,
-        "staffComparison": "No staff/orchestra/song-list changes detected versus prior stored Schmigadoon Broadway printed-program snapshot."
+        "staffComparison": "No staff/orchestra/song-list changes detected versus prior stored Schmigadoon Broadway printed-program snapshot.",
+        "coverCorrection": "Lauralyn McClelland was on for Ann Harada as Florence Menlove."
       },
       "sourceRef": 1520,
       "programArchiveText": {
@@ -242863,7 +242864,7 @@
         "sourceRef": 1521,
         "sections": {
           "attendance": "Tuesday, September 29, 2026 at 7:00 PM; Nederlander Theatre; Orchestra H23; $40 Rush; attended with Brendan Padgett.",
-          "cast": "Current printed Playbill cast page captured. Performance-specific At This Performance changes: Shina Ann Morris appeared as Emma Tate; Lauralyn McClelland appeared as Florence Menlove; Brandon Block appeared in the role(s) usually played by Richard Riaz Yoder; Maria Briggs appeared in the role(s) usually played by Shina Ann Morris. Jessica Mallare White and David Wright Jr. were listed/welcomed as Vacation Swings only, not inferred onstage.",
+          "cast": "Current printed Playbill cast page captured. Performance-specific At This Performance changes: Shina Ann Morris appeared as u/s Emma Tate; Lauralyn McClelland appeared as s/w Florence Menlove on for Ann Harada; Brandon Block appeared in the role(s) usually played by Richard Riaz Yoder; Maria Briggs appeared in the role(s) usually played by Shina Ann Morris. Jessica Mallare White and David Wright Jr. were listed/welcomed as Vacation Swings only, not inferred onstage.",
           "printedCast": "Printed cast page includes Alex Brightman, Sara Chase, Jennifer Simard, Ann Harada, Brad Oscar, Isabelle McCalla, Iván Hernández, Maulik Pancholy, Max Clayton, McKenzie Kurtz and Ayaan Diop among the principal company; townpeople listed include Afra Hines, Becca Petersen, Clyde Alves, Jess LeProtto, Joshua Burrage, Kaitlyn Davidson, Kimberly Immanuel, Lyrica Woodruff, Nathan Lucrezio, Richard Riaz Yoder, Shina Ann Morris and Zachary Downer. This section is preserved as printed-program roster context; actual performance exceptions are stored separately.",
           "understudies": "Printed cover pool captured: covers listed for Josh Skinner, Melissa Gimble, Mildred Layton, Florence Menlove, Mayor Menlove, Emma Tate, Doc, The Reverend Layton/Leprechaun, Danny Bailey and Betsy. Alternate for Carson: Eldridge Taylor Jr. Swings: Brandon Block, Keven Quillon, Lauralyn McClelland and Maria Briggs. Dance Captain: Lauralyn McClelland. Assistant Dance Captain: Brandon Block.",
           "songs": "Act I: Schmigadoon!; You Can’t Tame Me; Corn Puddin’; The Leprechaun Song; Lovers’ Spat; Somewhere Love Is Waiting for You; The Picnic Basket Auction; Enjoy the Ride; Not That Kinda Gal; You Don’t Tame Me; I’m Engaged; What’s the Matter With Men?; Cross That Bridge; Act I Finale. Act II: With All of Your Heart; Baby Talk; I Thought I Was the Only One; When the Night Is Darkest; Suddenly; Tribulation; Melissa’s Epiphany; Election Day; You Make Me Wanna Sing; How We Change.",

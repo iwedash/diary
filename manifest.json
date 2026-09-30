@@ -13,18 +13,20 @@
     "companionLinks": 646,
     "sources": 1522
   },
-  "generatedAt": "2026-09-30T01:39:00+00:00",
-  "updatedAt": "2026-09-29T21:39:00-04:00",
-  "description": "Cuebook split-json package — Build 363 updates Schmigadoon! 2026-09-29 printed Playbill archive text and refreshes performance-page title/fact styling.",
+  "generatedAt": "2026-09-30T17:04:09+00:00",
+  "updatedAt": "2026-09-30T17:04:09+00:00",
+  "description": "Cuebook split-json package — Build 365 rebuilds the Stats page as table-first top-20 rankings and exports a missing-cost cleanup worksheet.",
   "fileCount": 18,
-  "build": "json-b363",
-  "version": "v14.53.00",
-  "generated": "2026-09-30T01:39:00+00:00",
+  "build": "json-b365",
+  "version": "v14.55.00",
+  "generated": "2026-09-30T17:04:09+00:00",
+  "totalBytes": 24660094,
+  "largestFileBytes": 7415086,
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B363.md",
-      "bytes": 867,
-      "sha256": "981db118a8d5717dfdc42d879eb3004fc89d911139884d5ffe18898d1f1402b6"
+      "path": "Cuebook_CHANGELOG_B365.md",
+      "bytes": 1054,
+      "sha256": "2c12738758c9efc65205c95435bce98c99181246c22564bed518979f476db90c"
     },
     {
       "path": "cast.json",
@@ -43,8 +45,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 5639321,
-      "sha256": "9a1be0be598fc8023492dad4822fd61cba5635b781f0daa4fad0f4713a4bd9c8"
+      "bytes": 5639428,
+      "sha256": "cfbbc3f6d9fa239cba3f94ce1106a457dea339ad3dc9ad2ce57500e0db173e64"
     },
     {
       "path": "credits.json",
@@ -63,8 +65,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 393869,
-      "sha256": "affdec47e7e25cf384206f2926b0dafa07e57a570a3acd27316b44dd552d2d94"
+      "bytes": 402620,
+      "sha256": "dce753b83c61c1afaf403e9ae4c76b5c3e43adcd42cb741bf2707aafc96b2634"
     },
     {
       "path": "loader-test.html",
@@ -111,7 +113,5 @@
       "bytes": 56858,
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
     }
-  ],
-  "totalBytes": 24651049,
-  "largestFileBytes": 7415086
+  ]
 }
