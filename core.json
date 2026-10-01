@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_372",
-    "generated": "2026-10-01T20:36:00+00:00",
+    "sourceFile": "Cuebook_Build_373",
+    "generated": "2026-10-01T21:27:00+00:00",
     "rowCount": 1199,
     "performanceCount": 1199,
     "peopleCount": 19997,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
-    "notes": "Build 373 delivers a broader mobile cleanup: compact header and section navigation, quieter cast rows, collapsed long reference sections, shorter home summaries, reliable route scroll reset, and removal of decorative subtitles.",
+    "notes": "Build 374 refreshes desktop density and hierarchy, restores primary show and performance sections to open-by-default, and displays a rolling year of weekly activity on the home page.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T20:36:00+00:00",
+    "updatedAt": "2026-10-01T21:27:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b372",
-    "version": "v14.61.00",
-    "build": "json-b373",
-    "buildTime": "2026-10-01T20:36:00+00:00",
+    "sourceBase": "json-b373",
+    "version": "v14.62.00",
+    "build": "json-b374",
+    "buildTime": "2026-10-01T21:27:00+00:00",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.61.00",
+    "buildVersion": "v14.62.00",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 373: mobile interface cleanup and subtitle removal; no attendance, cast, person, show, venue, credit, or source records changed.",
+    "lastUpdatedNote": "Build 374: desktop interface refresh, open-by-default show content, and 52-week home activity view; no attendance, cast, person, show, venue, credit, or source records changed.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -5029,6 +5029,17 @@
         "Reduced Recently Seen to eight entries and the mobile weekly chart to sixteen weeks with direct View all links.",
         "Removed decorative subtitles and helper copy across dashboard, performance, and person section headers.",
         "Added a post-render scroll reset so opening a new route starts at its title."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build374DesktopRefresh": {
+      "date": "2026-10-01T17:27:00-04:00",
+      "changes": [
+        "Tightened desktop page width, card spacing, headings, performance facts, and person profile density.",
+        "Placed the monthly and weekly home activity views side by side on wide screens.",
+        "Changed the home weekly activity view to a rolling 52 weeks on desktop and mobile.",
+        "Kept cast, Ensemble, Covers, Company and Credits, and Songs open when performance pages load; Source and Archive remains collapsed.",
+        "Added a sticky desktop performance sidebar and quieter show-page actions without changing mobile navigation."
       ],
       "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
