@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b369">
+<meta name="archive-house-build" content="json-b370">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <title>Cuebook</title>
 <style>
@@ -1072,13 +1072,13 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b340" defer></script>
+<script src="data-loader.js?v=json-b370" defer></script>
 <script>
 /* Build 328 rescue fallback: if data-loader.js is missing/cached wrong, define the lightweight loader inline. */
 if(!window.loadCuebookData){
 (function(global){
 'use strict';
-const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b340',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b370',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 async function cueFetchJson(path,cache,timeoutMs){const join=path.includes('?')?'&':'?',controller=(typeof AbortController!=='undefined')?new AbortController():null,timer=controller?setTimeout(()=>controller.abort(),Number(timeoutMs||45000)):null;try{const res=await fetch(path+join+'v='+BUILD_TOKEN,{cache:cache||'default',signal:controller?controller.signal:undefined});if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);return await res.json();}catch(err){if(err&&err.name==='AbortError')throw new Error(`Timed out loading ${path}`);throw err;}finally{if(timer)clearTimeout(timer);}}
@@ -1293,18 +1293,18 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b><small>Theatre performance database</small></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search shows, show codes, people, venues, notes…"><button>Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b340">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b370">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
 <aside class="menuPanel" id="menuPanel" aria-label="Cuebook menu" tabindex="-1" hidden>
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b><small>Browse the archive</small></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
-    <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b340">Money</a>
-    <a href="castbook.html?v=json-b340">Cast Book</a><a href="companions.html?v=json-b340">Companions</a>
+    <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b370">Money</a>
+    <a href="castbook.html?v=json-b370">Cast Book</a><a href="companions.html?v=json-b370">Companions</a>
     <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
   </div>
-  <div class="menuVersion">B369 · v14.59.00</div>
+  <div class="menuVersion">B370 · v14.60.00</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script id="cue-preboot">
@@ -1339,8 +1339,8 @@ setTimeout(function(){
 <script>
 (function(){
 'use strict';
-const BUILD='json-b369';
-const VERSION='v14.59.00';
+const BUILD='json-b370';
+const VERSION='v14.60.00';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 try{window.__cueBootStatus&&window.__cueBootStatus('Main Cuebook script executing…');}catch(_){}
@@ -1630,8 +1630,19 @@ function visiblePerformanceCastNote(a){
 function actualSubstitutionsSection(id){
   let rows=(perfApps.get(idNum(id))||[]).filter(a=>a.coverType||coverOnForName(a)||a.onstageSwing).sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));
   if(!rows.length)return'';
-  let body=rows.map(a=>{let role=displayRoleName(roleNameForAppearance(a)||'Ensemble'),person=personLabelFromAppearance(a),status=a.coverType?labelCover(a.coverType):(a.onstageSwing?'O/Sw':'cover'),onFor=coverOnForName(a)||'';return `<tr><td>${esc(role)}</td><td>${esc(person)}</td><td>${esc(status)}</td><td>${esc(onFor||'—')}</td></tr>`;}).join('');
+  let body=rows.map(a=>{let role=displayRoleName(roleNameForAppearance(a)||'Ensemble'),person=personLabelFromAppearance(a),status=a.coverType?labelCover(a.coverType):(a.onstageSwing?'O/Sw':'cover'),onFor=coverOnForName(a)||'';return `<tr><td data-label="Role / track">${esc(role)}</td><td data-label="Performer">${esc(person)}</td><td data-label="Status">${esc(status)}</td><td data-label="On for">${esc(onFor||'—')}</td></tr>`;}).join('');
   return `<section class="card actualChangesCard" id="at-this-performance"><h2>At This Performance</h2><p class="sectionIntro">Actual substitutions/covers for this performance. Principal “on for” details live here instead of cluttering the cast list.</p><div class="statsTableWrap actualChangesWrap"><table class="statsRankTable actualChangesTable"><thead><tr><th>Role / track</th><th>Performer</th><th>Status</th><th>On for</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+}
+
+function performanceToolsAndNav(p,id){
+  let pid=idNum(id),archive=programArchiveSectionsFor(p),links=[['top','Top'],['cast','Cast']];
+  if((perfApps.get(pid)||[]).some(a=>a.coverType||coverOnForName(a)||a.onstageSwing))links.push(['at-this-performance','Changes']);
+  if(coverPools.some(x=>idNum(x.performanceId)===pid)||archive.standbysSwingsUnderstudies)links.push(['covers','Covers']);
+  if((perfCredits.get(pid)||[]).length||archive.titleCreative||archive.orchestra||archive.staff)links.push(['credits','Credits']);
+  if(songs.some(x=>idNum(x.performanceId)===pid)||archive.songs)links.push(['songs','Songs']);
+  if(p.programArchiveText||p.programArchiveSummary||p.source?.castNormalized)links.push(['archive','Archive']);
+  let tools=`<details class="performanceTools"><summary>Tools / Export</summary><div class="programActions"><button class="btn" type="button" onclick="downloadProgramJSON(${pid})">Program JSON</button><button class="btn secondary" type="button" onclick="copyPerformanceCastText(${pid},this)">Copy Cast</button><button class="btn secondary" type="button" onclick="copyPerformanceCastDiscord(${pid},this)">Copy DC</button></div></details>`;
+  return `${tools}<nav class="anchorTabs" aria-label="Performance sections">${links.map(x=>`<a href="#perf-${p.id}" data-scroll-target="${x[0]}">${x[1]}</a>`).join('')}</nav>`;
 }
 
 function showLink(id){return link('#show-'+id,showTitle(id),'link');}
@@ -1905,11 +1916,11 @@ function downloadCastGridCSV(showId){let ps=(showPerfs.get(idNum(showId))||[]).s
 
 function specialAppearancesSection(id){let pid=idNum(id);let rows=specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));if(!rows.length)return'';let virtual=rows.filter(r=>r.appearanceType==='Virtual Ensemble (non-appearing)'),other=rows.filter(r=>r.appearanceType!=='Virtual Ensemble (non-appearing)');let out='';if(virtual.length)out+=`<section class="card" id="virtual-ensemble"><h2>Virtual Ensemble (non-appearing)</h2><p class="sectionIntro">Program-listed additional voices. These are archival listings only and never count as cast appearances or performance statistics.</p><div class="chips">${virtual.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;if(other.length)out+=`<section class="card" id="special-appearances"><h2>Special Appearances</h2><p class="sectionIntro">Guest appearances at this performance. These are not role credits and do not count as cast appearances.</p><div class="chips">${other.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;return out;}
 
-function performanceView(id){let p=performanceById(id);if(!p)return notFound();let cast=(perfApps.get(idNum(id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));let groups={principal:[],child:[],orphan:[],background:[],ensemble:[],swing:[],other:[]};cast.forEach(a=>{let g=displayAppearanceGroup(a);(groups[g]||(groups[g]=[])).push(a);});let markers=markerDisplay(p).map(x=>`<span class="pill notePill">${esc(x)}</span>`).join('');let heroBlock=`<div class="performanceHeaderSlim"><div class="heroNumber">${showNumberBadge(p)}</div><section class="hero heroSmall perfHeroCompact"><h1>${esc(perfTitle(p))}</h1></section><div class="dbMicro"><span>DB PERF ${esc(p.id)}</span><a href="#show-${p.showId}">DB SHOW ${esc(p.showId)}</a><span>DB VENUE ${esc(p.venueId)}</span></div></div>`;let actions=`<div class="programActions"><button class="btn" type="button" onclick="downloadProgramJSON(${idNum(p.id)})">Program JSON</button><button class="btn secondary" type="button" onclick="copyPerformanceCastText(${idNum(p.id)},this)">Copy Cast</button><button class="btn secondary" type="button" onclick="copyPerformanceCastDiscord(${idNum(p.id)},this)">Copy DC</button></div><nav class="anchorTabs"><a href="#perf-${p.id}">Top</a><a href="#cast">Cast</a><a href="#covers">Covers</a><a href="#credits">Credits</a><a href="#songs">Songs</a><a href="#archive">Archive</a></nav>`;let castHtml=(p.type==='Special Event')?castSection('Participants',cast,'full'):(SINGLE_CAST_LIST_SHOWS.has(showTitle(p.showId))||showTitle(p.showId)==='Message In A Bottle')?castSection('Cast',cast,'full'):`${castSection('Principals',groups.principal,'principal')}${castSection(showTitle(p.showId)==='The Sound of Music'?'Von Trapp Children':'Children',groups.child,'child')}${castSection('Orphans',groups.orphan,'orphan')}${castSection('Background Vocalists',groups.background,'background')}${castSection('Ensemble',groups.ensemble,'ensemble')}${castSection('Swings / Other',groups.swing.concat(groups.other),'')}`;let left=`${heroBlock}${performancePager(p)}${performanceFactStrip(p)}${actions}${actualSubstitutionsSection(id)}<section class="card castListCard" id="cast"><h2>Cast</h2>${castHtml}</section>${specialAppearancesSection(id)}${coverPoolSection(id)}${creditsSection(id)}${songsSection(id)}${sourceSection(p)}`;let right=`<aside><section class="card"><h3>Notes / Markers</h3>${markers?`<div class="chips">${markers}</div>`:'<div class="empty">No markers logged.</div>'}${p.notes?`<div class="divider"></div><h3>Notes</h3><div class="note">${esc(p.notes).replace(/\n/g,'<br>')}</div>`:''}</section>${relatedPerfSection(p)}${programMetaSection(p)}</aside>`;shell(`<div class="twoPane"><main>${left}</main>${right}</div>`)}
+function performanceView(id){let p=performanceById(id);if(!p)return notFound();let cast=(perfApps.get(idNum(id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));let groups={principal:[],child:[],orphan:[],background:[],ensemble:[],swing:[],other:[]};cast.forEach(a=>{let g=displayAppearanceGroup(a);(groups[g]||(groups[g]=[])).push(a);});let markers=markerDisplay(p).map(x=>`<span class="pill notePill">${esc(x)}</span>`).join('');let heroBlock=`<div class="performanceHeaderSlim"><div class="heroNumber">${showNumberBadge(p)}</div><section class="hero heroSmall perfHeroCompact"><h1>${esc(perfTitle(p))}</h1></section><div class="dbMicro"><span>DB PERF ${esc(p.id)}</span><a href="#show-${p.showId}">DB SHOW ${esc(p.showId)}</a><span>DB VENUE ${esc(p.venueId)}</span></div></div>`;let actions=performanceToolsAndNav(p,id);let castHtml=(p.type==='Special Event')?castSection('Participants',cast,'full'):(SINGLE_CAST_LIST_SHOWS.has(showTitle(p.showId))||showTitle(p.showId)==='Message In A Bottle')?castSection('Cast',cast,'full'):`${castSection('Principals',groups.principal,'principal')}${castSection(showTitle(p.showId)==='The Sound of Music'?'Von Trapp Children':'Children',groups.child,'child')}${castSection('Orphans',groups.orphan,'orphan')}${castSection('Background Vocalists',groups.background,'background')}${castSection('Ensemble',groups.ensemble,'ensemble')}${castSection('Swings / Other',groups.swing.concat(groups.other),'')}`;let left=`${heroBlock}${performancePager(p)}${performanceFactStrip(p)}${actions}${actualSubstitutionsSection(id)}<section class="card castListCard" id="cast"><h2>Cast</h2>${castHtml}</section>${specialAppearancesSection(id)}${coverPoolSection(id)}${creditsSection(id)}${songsSection(id)}${sourceSection(p)}`;let right=`<aside><section class="card"><h3>Notes / Markers</h3>${markers?`<div class="chips">${markers}</div>`:'<div class="empty">No markers logged.</div>'}${p.notes?`<div class="divider"></div><h3>Notes</h3><div class="note">${esc(p.notes).replace(/\n/g,'<br>')}</div>`:''}</section>${relatedPerfSection(p)}${programMetaSection(p)}</aside>`;shell(`<div class="twoPane"><main>${left}</main>${right}</div>`)}
 
-function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<section class="card archiveCard" id="archive"><h2>Source / Archive</h2>${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</section>`}
+function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<details class="card archiveCard" id="archive"><summary><span>Source / Archive</span><small>Open the full captured program</small></summary><div class="archiveBody">${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</div></details>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b340',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b370',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -2472,6 +2483,7 @@ function cueBootProgress(info){
     }catch(e){cueBootFatal(e);}
   }).catch(e=>{clearTimeout(slowTimer);clearTimeout(fatalTimer);cueBootFatal(e);});
 })();
+document.addEventListener('click',e=>{let a=e.target.closest('.anchorTabs [data-scroll-target]');if(!a)return;e.preventDefault();let target=a.dataset.scrollTarget;if(target==='top'){window.scrollTo({top:0,behavior:'smooth'});return;}let el=document.getElementById(target);if(el)el.scrollIntoView({block:'start',behavior:'smooth'});});
 window.addEventListener('hashchange',route);
 })();
 </script>
@@ -2770,6 +2782,55 @@ html,body{width:100%;max-width:100%;overflow-x:hidden!important}
   .performanceFactsB364 .perfInfoBlock span{font-size:12px!important;}
   .actualChangesTable{font-size:11px!important;}
 }
+</style>
+
+<style id="cuebook-b370-performance-experience-pass">
+/* Build 370: mobile-first performance navigation, compact tools, responsive changes, and a quieter archive. */
+.performanceTools{margin:8px 0 7px;border:1px solid rgba(31,40,55,.12);border-radius:15px;background:rgba(255,253,247,.82);overflow:hidden;}
+.performanceTools>summary{display:flex;align-items:center;justify-content:space-between;gap:10px;list-style:none;cursor:pointer;padding:9px 12px;font-family:var(--cue-entity-font);font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:rgba(21,18,22,.68);}
+.performanceTools>summary::-webkit-details-marker{display:none;}
+.performanceTools>summary:after{content:"open";border:1px solid var(--line);border-radius:999px;padding:2px 7px;font-size:8px;letter-spacing:.08em;background:#fff;}
+.performanceTools[open]>summary:after{content:"close";}
+.performanceTools .programActions{position:static!important;top:auto!important;margin:0!important;padding:0 10px 10px!important;background:transparent!important;backdrop-filter:none!important;overflow:visible!important;display:flex!important;flex-wrap:wrap!important;}
+.performanceTools .programActions .btn{flex:0 1 auto!important;white-space:normal!important;}
+.anchorTabs{display:flex!important;flex-wrap:wrap!important;overflow:visible!important;gap:6px!important;padding:0!important;margin:7px 0 12px!important;scrollbar-width:none;}
+.anchorTabs a{flex:0 1 auto!important;white-space:nowrap!important;}
+.archiveCard{scroll-margin-top:72px;overflow:hidden;}
+.archiveCard>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;list-style:none;cursor:pointer;}
+.archiveCard>summary::-webkit-details-marker{display:none;}
+.archiveCard>summary span{font-size:26px;font-weight:950;letter-spacing:-.035em;}
+.archiveCard>summary small{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.04em;text-align:right;}
+.archiveCard>summary small:after{content:"open";border:1px solid var(--line);border-radius:999px;padding:3px 7px;background:#fff;text-transform:uppercase;font-size:8px;letter-spacing:.08em;color:var(--ink);}
+.archiveCard[open]>summary small:after{content:"close";}
+.archiveCard .archiveBody{margin-top:13px;padding-top:12px;border-top:1px solid rgba(31,40,55,.10);}
+@media(max-width:760px){
+  .performanceTools{margin-top:7px;border-radius:14px;}
+  .performanceTools>summary{padding:8px 10px;}
+  .performanceTools .programActions{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:6px!important;padding:0 8px 8px!important;}
+  .performanceTools .programActions .btn{width:100%!important;min-width:0!important;padding:7px 5px!important;font-size:8.5px!important;line-height:1.1!important;}
+  .anchorTabs{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:5px!important;}
+  .anchorTabs a{display:flex!important;align-items:center!important;justify-content:center!important;min-width:0!important;padding:6px 5px!important;font-size:9px!important;letter-spacing:.06em!important;text-align:center!important;}
+  .actualChangesWrap{overflow:visible!important;border:0!important;background:transparent!important;}
+  .actualChangesTable,.actualChangesTable tbody,.actualChangesTable tr,.actualChangesTable td{display:block!important;width:100%!important;}
+  .actualChangesTable thead{display:none!important;}
+  .actualChangesTable tbody{display:grid!important;gap:8px!important;}
+  .actualChangesTable tr{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:0!important;border:1px solid rgba(31,40,55,.11)!important;border-radius:14px!important;overflow:hidden!important;background:#fff!important;}
+  .actualChangesTable td{min-width:0!important;padding:8px 9px!important;border:0!important;border-top:1px solid rgba(31,40,55,.07)!important;background:transparent!important;font-size:11px!important;line-height:1.2!important;overflow-wrap:anywhere!important;}
+  .actualChangesTable td:nth-child(-n+2){border-top:0!important;}
+  .actualChangesTable td:nth-child(odd){border-right:1px solid rgba(31,40,55,.07)!important;}
+  .actualChangesTable td:before{content:attr(data-label);display:block;margin-bottom:3px;color:var(--muted);font-size:7.5px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;}
+  .archiveCard>summary{grid-template-columns:1fr;gap:4px;}
+  .archiveCard>summary span{font-size:22px;}
+  .archiveCard>summary small{justify-content:space-between;text-align:left;}
+  .archiveCard .archiveBody{margin-top:10px;padding-top:10px;}
+}
+@media(max-width:390px){
+  .anchorTabs{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+  .actualChangesTable tr{grid-template-columns:1fr!important;}
+  .actualChangesTable td,.actualChangesTable td:nth-child(-n+2){border-top:1px solid rgba(31,40,55,.07)!important;border-right:0!important;}
+  .actualChangesTable td:first-child{border-top:0!important;}
+}
+@media print{.performanceTools{display:none!important}.archiveCard:not([open]) .archiveBody{display:block!important}.archiveCard>summary small{display:none!important}}
 </style>
 
 </body></html>

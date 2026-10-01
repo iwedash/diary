@@ -1,6 +1,6 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_368",
+    "sourceFile": "Cuebook_Build_369",
     "generated": "2026-10-01T14:31:00+00:00",
     "rowCount": 1199,
     "performanceCount": 1199,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
-    "notes": "Build 369 applies performance-page visual/system cleanup: lighter web name typography, sectioned archive rendering, actual substitution table, archive fallbacks for songs/credits/cover pool, and principal-cover on-for suppression in cast lists.",
+    "notes": "Build 370 applies a mobile-first performance-page experience pass: compact export tools, responsive section navigation and substitution cards, and a collapsed full program archive.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T16:40:00+00:00",
+    "updatedAt": "2026-10-01T17:15:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b368",
-    "version": "v14.59.00",
-    "build": "json-b369",
-    "buildTime": "2026-10-01T16:40:00+00:00",
+    "sourceBase": "json-b369",
+    "version": "v14.60.00",
+    "build": "json-b370",
+    "buildTime": "2026-10-01T17:15:00+00:00",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.59.00",
+    "buildVersion": "v14.60.00",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 369: visual/system pass for performance pages; no attendance, cast rows, sources, or Wicked records changed.",
+    "lastUpdatedNote": "Build 370: mobile-first performance-page experience pass; no attendance, cast, person, show, venue, credit, or source records changed.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4988,6 +4988,17 @@
         "Hid DB/source micro metadata from the performance header."
       ],
       "dataChange": "No core attendance/cast/person/show/venue data rows changed."
+    },
+    "build370PerformanceExperiencePass": {
+      "date": "2026-10-01T13:15:00-04:00",
+      "changes": [
+        "Moved performance export controls into a compact collapsed Tools / Export disclosure.",
+        "Made performance jump links wrap into a mobile-safe grid and omitted links for sections that do not exist.",
+        "Reformatted At This Performance substitutions as readable cards on narrow screens instead of a horizontally scrolling table.",
+        "Collapsed the full Source / Archive by default so captured program text does not repeat the visible Covers, Credits, and Songs sections during normal browsing.",
+        "Preserved full desktop tables, print output, archive content, and underlying performance data."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
   },
   "people": {

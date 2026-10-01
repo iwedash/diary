@@ -13,21 +13,16 @@
     "companionLinks": 652,
     "sources": 1526
   },
-  "generatedAt": "2026-10-01T16:40:00+00:00",
-  "updatedAt": "2026-10-01T16:40:00+00:00",
-  "description": "Cuebook split-json package — Build 369 performance-page visual/system pass; no attendance/cast/source data changes from Build 368.",
-  "fileCount": 18,
-  "build": "json-b369",
-  "version": "v14.59.00",
-  "generated": "2026-10-01T16:40:00+00:00",
-  "totalBytes": 22550953,
-  "largestFileBytes": 5683326,
+  "generatedAt": "2026-10-01T13:15:00-04:00",
+  "updatedAt": "2026-10-01T13:15:00-04:00",
+  "description": "Cuebook split-json package — Build 370 mobile-first performance-page experience pass; no attendance, cast, person, show, venue, credit, source, or Wicked data changes from Build 369.",
+  "fileCount": 19,
+  "build": "json-b370",
+  "version": "v14.60.00",
+  "generated": "2026-10-01T13:15:00-04:00",
+  "totalBytes": 22559780.0,
+  "largestFileBytes": 5684138.0,
   "files": [
-    {
-      "path": "Cuebook_CHANGELOG_B369.md",
-      "bytes": 1191,
-      "sha256": "c7ec19fc0ef1fae6c8f02a397c59bc833ba419c2d1f8d37e98ab33da0e2dd859"
-    },
     {
       "path": "cast.json",
       "bytes": 5299825,
@@ -46,8 +41,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 5683326,
-      "sha256": "20f71e1c1196728e19d700c527f75886b981fbee5c84f7f5c2408aa36db1c411",
+      "bytes": 5684138,
+      "sha256": "9fbfe1f5dc58c7135e141f282f5f5dffadd949e05e785672a6538bb56b5bc3c6",
       "kind": "data"
     },
     {
@@ -57,6 +52,16 @@
       "kind": "data"
     },
     {
+      "path": "Cuebook_CHANGELOG_B369.md",
+      "bytes": 1191,
+      "sha256": "c7ec19fc0ef1fae6c8f02a397c59bc833ba419c2d1f8d37e98ab33da0e2dd859"
+    },
+    {
+      "path": "Cuebook_CHANGELOG_B370.md",
+      "bytes": 1522,
+      "sha256": "93e9bd8e7b33bdd6808e2fba390ccc55ce8c58199b4b21d2a18416e36dd6618f"
+    },
+    {
       "path": "cuebook-logo.png",
       "bytes": 1066647,
       "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
@@ -64,12 +69,12 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "deb2a2f27ce4402b17c6a6751b2425b95e644fb325b11df65b5e0c78272f02c1"
+      "sha256": "3ff525d3481597e0154f16e04d7046bf09303428ae2a39d687bddf2c9688488c"
     },
     {
       "path": "index.html",
-      "bytes": 411622,
-      "sha256": "dc79fa1cad5fd8b34300e9c0a20764f1b6418bc93111ca6a0430500ecaf455b0"
+      "bytes": 418115,
+      "sha256": "942406ec7e38e62d1137d8dd5d8f6a6698bf7a0872e4ac4859f0c9de60993fd7"
     },
     {
       "path": "loader-test.html",
