@@ -152693,6 +152693,48 @@
       "personId": 11938,
       "sourceRef": 1520,
       "note": "Added from Isaac 2026-09-29 Schmigadoon! direct report: attended with Brendan Padgett."
+    },
+    {
+      "id": 656,
+      "performanceId": 349,
+      "personId": 10670,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #357."
+    },
+    {
+      "id": 657,
+      "performanceId": 446,
+      "personId": 10670,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #458."
+    },
+    {
+      "id": 658,
+      "performanceId": 447,
+      "personId": 10670,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #459."
+    },
+    {
+      "id": 659,
+      "performanceId": 555,
+      "personId": 11938,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #574."
+    },
+    {
+      "id": 660,
+      "performanceId": 736,
+      "personId": 11938,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #770."
+    },
+    {
+      "id": 661,
+      "performanceId": 741,
+      "personId": 18935,
+      "sourceRef": 1522,
+      "note": "Added from Isaac Build 366 cleanup row #775."
     }
   ]
 }
