@@ -1,6 +1,6 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_369",
+    "sourceFile": "Cuebook_Build_371",
     "generated": "2026-10-01T14:31:00+00:00",
     "rowCount": 1199,
     "performanceCount": 1199,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
-    "notes": "Build 370 applies a mobile-first performance-page experience pass: compact export tools, responsive section navigation and substitution cards, and a collapsed full program archive.",
+    "notes": "Build 372 color-codes At This Performance cover types with quiet row tints and colored status text instead of boxed badges.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T17:15:00+00:00",
+    "updatedAt": "2026-10-01T18:17:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b369",
-    "version": "v14.60.00",
-    "build": "json-b370",
-    "buildTime": "2026-10-01T17:15:00+00:00",
+    "sourceBase": "json-b371",
+    "version": "v14.60.02",
+    "build": "json-b372",
+    "buildTime": "2026-10-01T18:17:00+00:00",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.60.00",
+    "buildVersion": "v14.60.02",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 370: mobile-first performance-page experience pass; no attendance, cast, person, show, venue, credit, or source records changed.",
+    "lastUpdatedNote": "Build 372: quiet ATP cover-type color coding without badges; no attendance, cast, person, show, venue, credit, or source records changed.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4997,6 +4997,25 @@
         "Reformatted At This Performance substitutions as readable cards on narrow screens instead of a horizontally scrolling table.",
         "Collapsed the full Source / Archive by default so captured program text does not repeat the visible Covers, Credits, and Songs sections during normal browsing.",
         "Preserved full desktop tables, print output, archive content, and underlying performance data."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build371MobileAtpCompact": {
+      "date": "2026-10-01T14:13:00-04:00",
+      "changes": [
+        "Replaced oversized stacked mobile substitution cards with a compact four-column ATP table.",
+        "Reduced mobile ATP padding, heading size, header type, and row height.",
+        "Kept verbose explanatory copy out of the compact ATP presentation.",
+        "Kept the table within the viewport without horizontal scrolling."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build372AtpStatusColor": {
+      "date": "2026-10-01T14:17:00-04:00",
+      "changes": [
+        "Color-coded ATP standby, understudy, swing, alternate, temporary, replacement, and other cover rows.",
+        "Used a subtle row tint, a narrow left-edge accent, and colored status text instead of badges or boxed labels.",
+        "Kept every ATP field and the compact Build 371 mobile footprint."
       ],
       "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
