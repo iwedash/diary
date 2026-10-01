@@ -13,15 +13,15 @@
     "companionLinks": 652,
     "sources": 1526
   },
-  "generatedAt": "2026-10-01T18:17:00+00:00",
-  "updatedAt": "2026-10-01T18:17:00+00:00",
-  "description": "Cuebook split-json package — Build 372 quiet At This Performance cover-type color coding; no attendance, cast, person, show, venue, credit, source, or Wicked data changes from Build 371.",
-  "fileCount": 21,
-  "build": "json-b372",
-  "version": "v14.60.02",
-  "generated": "2026-10-01T18:17:00+00:00",
-  "totalBytes": 22566710.0,
-  "largestFileBytes": 5685165.0,
+  "generatedAt": "2026-10-01T20:36:00+00:00",
+  "updatedAt": "2026-10-01T20:36:00+00:00",
+  "description": "Cuebook split-json package — Build 373 mobile cleanup, compact navigation, collapsed reference sections, shorter home summaries, and subtitle removal; no attendance, cast, person, show, venue, credit, source, or Wicked data changes from Build 372.",
+  "fileCount": 22,
+  "build": "json-b373",
+  "version": "v14.61.00",
+  "generated": "2026-10-01T20:36:00+00:00",
+  "totalBytes": 22575633,
+  "largestFileBytes": 5686309,
   "files": [
     {
       "path": "cast.json",
@@ -41,8 +41,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 5685165,
-      "sha256": "327b3725e7c73c1265ac77e66c7008e8a452436c7748bcee6b183b3608418582",
+      "bytes": 5686309,
+      "sha256": "70007acb9a0d3f791b4f4884ad6146d3a7ac04ccaf746e0f31c34b55c0dfc83b",
       "kind": "data"
     },
     {
@@ -72,6 +72,11 @@
       "sha256": "c8691c6aef5310e94919672665edcd45cf0cec988d399396cff9396e2d1d2ced"
     },
     {
+      "path": "Cuebook_CHANGELOG_B373.md",
+      "bytes": 1737,
+      "sha256": "f272167fda78a408668928e09051f62455460035fd8e2b173318d1bffc4e48e6"
+    },
+    {
       "path": "cuebook-logo.png",
       "bytes": 1066647,
       "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
@@ -79,12 +84,12 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "f5cf8ac7fe5fb6302690b87900eb19bf5cb83561c13841138947640227e2cb94"
+      "sha256": "a606c001b068656bf267c2017546ff06d79c93e685a971af5b629c4fbe3adb73"
     },
     {
       "path": "index.html",
-      "bytes": 422308,
-      "sha256": "c1da9d3b9bba0b42b43f37eed79e043896e9b7001b78316ea8d6056226a0428a"
+      "bytes": 428350,
+      "sha256": "d9f6dd6d7b1e8ae379a5827aaed4e996378a08b96b4efa58c37edb6766d0daa5"
     },
     {
       "path": "loader-test.html",

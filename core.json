@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_371",
-    "generated": "2026-10-01T14:31:00+00:00",
+    "sourceFile": "Cuebook_Build_372",
+    "generated": "2026-10-01T20:36:00+00:00",
     "rowCount": 1199,
     "performanceCount": 1199,
     "peopleCount": 19997,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
-    "notes": "Build 372 color-codes At This Performance cover types with quiet row tints and colored status text instead of boxed badges.",
+    "notes": "Build 373 delivers a broader mobile cleanup: compact header and section navigation, quieter cast rows, collapsed long reference sections, shorter home summaries, reliable route scroll reset, and removal of decorative subtitles.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T18:17:00+00:00",
+    "updatedAt": "2026-10-01T20:36:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b371",
-    "version": "v14.60.02",
-    "build": "json-b372",
-    "buildTime": "2026-10-01T18:17:00+00:00",
+    "sourceBase": "json-b372",
+    "version": "v14.61.00",
+    "build": "json-b373",
+    "buildTime": "2026-10-01T20:36:00+00:00",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.60.02",
+    "buildVersion": "v14.61.00",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 372: quiet ATP cover-type color coding without badges; no attendance, cast, person, show, venue, credit, or source records changed.",
+    "lastUpdatedNote": "Build 373: mobile interface cleanup and subtitle removal; no attendance, cast, person, show, venue, credit, or source records changed.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -5016,6 +5016,19 @@
         "Color-coded ATP standby, understudy, swing, alternate, temporary, replacement, and other cover rows.",
         "Used a subtle row tint, a narrow left-edge accent, and colored status text instead of badges or boxed labels.",
         "Kept every ATP field and the compact Build 371 mobile footprint."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build373MobileCleanup": {
+      "date": "2026-10-01T16:36:00-04:00",
+      "changes": [
+        "Compressed the mobile header into one row with an integrated search action and icon-only menu control.",
+        "Replaced the performance jump-button grid with a single horizontally scrolling section strip that only lists available sections.",
+        "Softened cast names and history counts, removed duplicate on-for lines, and collapsed large Ensemble rosters on phones.",
+        "Collapsed Covers, Company and Credits, Songs, and Source Archive reference sections by default on phones.",
+        "Reduced Recently Seen to eight entries and the mobile weekly chart to sixteen weeks with direct View all links.",
+        "Removed decorative subtitles and helper copy across dashboard, performance, and person section headers.",
+        "Added a post-render scroll reset so opening a new route starts at its title."
       ],
       "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
