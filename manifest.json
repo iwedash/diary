@@ -9,29 +9,30 @@
     "roles": 5927,
     "appearances": 19772,
     "creativeCredits": 17629,
-    "specialAppearances": 0,
+    "specialAppearances": 219,
     "companionLinks": 652,
     "sources": 1526
   },
-  "generatedAt": "2026-10-01T14:31:00+00:00",
-  "updatedAt": "2026-10-01T14:31:00+00:00",
-  "description": "Cuebook split-json package — Build 368 adds Aladdin 2026-09-30 attendance, ATP covers, Playbill archive, and 7/10 comparison note.",
-  "fileCount": 19,
-  "build": "json-b368",
-  "version": "v14.58.00",
-  "generated": "2026-10-01T14:31:00+00:00",
-  "totalBytes": 20564014,
-  "largestFileBytes": 5299825,
+  "generatedAt": "2026-10-01T16:40:00+00:00",
+  "updatedAt": "2026-10-01T16:40:00+00:00",
+  "description": "Cuebook split-json package — Build 369 performance-page visual/system pass; no attendance/cast/source data changes from Build 368.",
+  "fileCount": 18,
+  "build": "json-b369",
+  "version": "v14.59.00",
+  "generated": "2026-10-01T16:40:00+00:00",
+  "totalBytes": 22550953,
+  "largestFileBytes": 5683326,
   "files": [
     {
-      "path": "Cuebook_CHANGELOG_B368.md",
-      "bytes": 1748,
-      "sha256": "3727ecc7c977f7e80ef1508a34ca83d614299d72c7eaeaf41fa225f71849c6cb"
+      "path": "Cuebook_CHANGELOG_B369.md",
+      "bytes": 1191,
+      "sha256": "c7ec19fc0ef1fae6c8f02a397c59bc833ba419c2d1f8d37e98ab33da0e2dd859"
     },
     {
       "path": "cast.json",
       "bytes": 5299825,
-      "sha256": "877c50a0d2a8dedde8ec0cc5b084a920eb7f045fefbcbdb4780518012e49eb23"
+      "sha256": "877c50a0d2a8dedde8ec0cc5b084a920eb7f045fefbcbdb4780518012e49eb23",
+      "kind": "data"
     },
     {
       "path": "castbook.html",
@@ -45,13 +46,15 @@
     },
     {
       "path": "core.json",
-      "bytes": 3701373,
-      "sha256": "ea34745c11fd7d37d3330d97a484f8b437c41fc29b038ff95b9de9b34028c4ff"
+      "bytes": 5683326,
+      "sha256": "20f71e1c1196728e19d700c527f75886b981fbee5c84f7f5c2408aa36db1c411",
+      "kind": "data"
     },
     {
       "path": "credits.json",
       "bytes": 3227589,
-      "sha256": "7531d79d6653d404e422dafcc7336c70e3a43189f580f632ddf4251596db3ff6"
+      "sha256": "7531d79d6653d404e422dafcc7336c70e3a43189f580f632ddf4251596db3ff6",
+      "kind": "data"
     },
     {
       "path": "cuebook-logo.png",
@@ -61,12 +64,12 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "72f568899f7251abea967baa838e7999afd21ec4090db7b7de4f2a248ae68803"
+      "sha256": "deb2a2f27ce4402b17c6a6751b2425b95e644fb325b11df65b5e0c78272f02c1"
     },
     {
       "path": "index.html",
-      "bytes": 402620,
-      "sha256": "dce753b83c61c1afaf403e9ae4c76b5c3e43adcd42cb741bf2707aafc96b2634"
+      "bytes": 411622,
+      "sha256": "dc79fa1cad5fd8b34300e9c0a20764f1b6418bc93111ca6a0430500ecaf455b0"
     },
     {
       "path": "loader-test.html",
@@ -86,17 +89,20 @@
     {
       "path": "production-archive.json",
       "bytes": 2469879,
-      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9"
+      "sha256": "115b141283c85270959c6b1c64a5a03dddf06748f52c14e7716414dc34cb41a9",
+      "kind": "data"
     },
     {
       "path": "program-credits.json",
       "bytes": 3454711,
-      "sha256": "d8007bd46ca7547ae3aa545ec67d94c09688c89c056c59f45c0589b21ef0d0c3"
+      "sha256": "d8007bd46ca7547ae3aa545ec67d94c09688c89c056c59f45c0589b21ef0d0c3",
+      "kind": "data"
     },
     {
       "path": "pruned-records-b284.json",
       "bytes": 22616,
-      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c"
+      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c",
+      "kind": "data"
     },
     {
       "path": "qa.html",
@@ -106,17 +112,13 @@
     {
       "path": "sources.json",
       "bytes": 714176,
-      "sha256": "265ea6e9fff1a0f2f8e22b26d67c10689e56ae9720a52895604ce76d1c06bdf8"
+      "sha256": "265ea6e9fff1a0f2f8e22b26d67c10689e56ae9720a52895604ce76d1c06bdf8",
+      "kind": "sources"
     },
     {
       "path": "souvenir.html",
       "bytes": 56858,
       "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
-    },
-    {
-      "path": "manifest.json",
-      "bytes": 3459,
-      "sha256": "9cb259b512b27c99971eb65f92e6920effc8233e51383440932e5d51f3068501"
     }
   ]
 }
