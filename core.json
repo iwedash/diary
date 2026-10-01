@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_373",
-    "generated": "2026-10-01T21:27:00+00:00",
+    "sourceFile": "Cuebook_Build_374",
+    "generated": "2026-10-01T21:42:00+00:00",
     "rowCount": 1199,
     "performanceCount": 1199,
     "peopleCount": 19997,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
-    "notes": "Build 374 refreshes desktop density and hierarchy, restores primary show and performance sections to open-by-default, and displays a rolling year of weekly activity on the home page.",
+    "notes": "Build 375 adds compact show overviews, production-period navigation, production filters, and cast-change intelligence without changing source data.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T21:27:00+00:00",
+    "updatedAt": "2026-10-01T21:42:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b373",
-    "version": "v14.62.00",
-    "build": "json-b374",
-    "buildTime": "2026-10-01T21:27:00+00:00",
+    "sourceBase": "json-b374",
+    "version": "v14.63.00",
+    "build": "json-b375",
+    "buildTime": "2026-10-01T21:42:00+00:00",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.62.00",
+    "buildVersion": "v14.63.00",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -5040,6 +5040,18 @@
         "Changed the home weekly activity view to a rolling 52 weeks on desktop and mobile.",
         "Kept cast, Ensemble, Covers, Company and Credits, and Songs open when performance pages load; Source and Archive remains collapsed.",
         "Added a sticky desktop performance sidebar and quieter show-page actions without changing mobile navigation."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build375ShowIntelligence": {
+      "date": "2026-10-01T17:42:00-04:00",
+      "changes": [
+        "Added a compact show overview with performance, production, venue, people, date-span, and most-seen summaries.",
+        "Added production-period navigation that merges incomplete production metadata by normalized label and type.",
+        "Added production filters for the cast grid, performance history, and cast-change summaries.",
+        "Added a recent cast-changes section that compares each visit with the previous recorded performance.",
+        "Highlighted changed cast-grid cells with a subtle tint and edge accent.",
+        "Made production navigation swipeable and cast-change summaries single-column on mobile."
       ],
       "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
