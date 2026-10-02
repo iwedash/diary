@@ -1,29 +1,29 @@
 {
   "meta": {
     "sourceFile": "Cuebook_Build_374",
-    "generated": "2026-10-01T21:42:00+00:00",
-    "rowCount": 1199,
-    "performanceCount": 1199,
-    "peopleCount": 19997,
+    "generated": "2026-10-02T01:25:00Z",
+    "rowCount": 1200,
+    "performanceCount": 1200,
+    "peopleCount": 19998,
     "showCount": 521,
     "venueCount": 204,
-    "roleCount": 5927,
-    "appearanceCount": 19772,
+    "roleCount": 5928,
+    "appearanceCount": 19796,
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-01",
     "notes": "Build 375 adds compact show overviews, production-period navigation, production filters, and cast-change intelligence without changing source data.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-01T21:42:00+00:00",
+    "updatedAt": "2026-10-02T01:25:00Z",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
     "sourceBase": "json-b374",
-    "version": "v14.63.00",
-    "build": "json-b375",
-    "buildTime": "2026-10-01T21:42:00+00:00",
+    "version": "v14.63.01",
+    "build": "json-b376",
+    "buildTime": "2026-10-02T01:25:00Z",
     "buildDate": "2026-10-01",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.63.00",
+    "buildVersion": "v14.63.01",
     "lastUpdated": "2026-10-01",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -68,7 +68,7 @@
       "verifiedField": "conductorVerified",
       "sourceRef": 0
     },
-    "lastUpdatedNote": "Build 374: desktop interface refresh, open-by-default show content, and 52-week home activity view; no attendance, cast, person, show, venue, credit, or source records changed.",
+    "lastUpdatedNote": "Build 376: added The Great Gatsby on October 1, 2026 with the supplied seat, rush price, performance-specific cast, split Additional Dancer track, and cut track; added a visible Show Page link on performance details.",
     "framework": {
       "personMilestoneTags": [
         "Debut",
@@ -4086,7 +4086,7 @@
       ],
       "updatedAt": "2026-09-28T16:36:00-04:00"
     },
-    "sourcesCount": 1524,
+    "sourcesCount": 1527,
     "build348QueueImplementation": {
       "updatedAt": "2026-09-28T16:55:00-04:00",
       "summary": "Added The Song Inside of Me and applied April 2026 ticket-cost rows.",
@@ -4295,7 +4295,7 @@
         "UI cleanup changed index.html presentation only."
       ]
     },
-    "sourceCount": 1524,
+    "sourceCount": 1527,
     "build360QueueImplementation": {
       "updatedAt": "2026-09-29T10:47:00-04:00",
       "summary": "Applied Isaac’s queued ticket-cost, companion, and attendance cleanup bundle from Build 359 into Build 360.",
@@ -5054,6 +5054,15 @@
         "Made production navigation swipeable and cast-change summaries single-column on mobile."
       ],
       "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
+    },
+    "build376GreatGatsbyOct1": {
+      "performanceId": 1207,
+      "sourceId": 1526,
+      "note": "Added October 1, 2026 The Great Gatsby Broadway attendance and cast assignments from Isaac-supplied Playbill/At This Performance photos and direct corrections."
+    },
+    "build376PerformanceShowLink": {
+      "label": "Show Page",
+      "target": "#show-[showId]"
     }
   },
   "people": {
@@ -179570,6 +179579,14 @@
       "kinds": [
         "performer"
       ]
+    },
+    "20986": {
+      "id": 20986,
+      "name": "Ryan Nixon",
+      "sortName": "Ryan Nixon",
+      "kinds": [
+        "performer"
+      ]
     }
   },
   "shows": {
@@ -212428,6 +212445,12 @@
       "id": 6587,
       "showId": 521,
       "name": "Ensemble"
+    },
+    "6588": {
+      "id": 6588,
+      "showId": 366,
+      "name": "Additional Dancer",
+      "normalized": "Additional Dancer"
     }
   },
   "performances": {
@@ -244232,6 +244255,69 @@
           "comparison": "Compared against the stored 2026-07-10 Aladdin capture per Isaac correction. The clear printed-company change in the stored cast/company capture is Kassim: Colt Prattes in July -> Wes Hart in September. The 2026-07-10 data does not contain a complete all-department printed staff snapshot, so this build stores tonight’s staff pages without asserting unsupported staff-department deltas."
         }
       }
+    },
+    "1207": {
+      "id": 1207,
+      "showId": 366,
+      "date": "2026-10-01",
+      "venueId": 9,
+      "type": "Broadway",
+      "time": "Evening",
+      "notes": "Orchestra Right E 1; $49 Rush. Jonathan Young performed Jay Gatsby; Joshua Elijah Dawson was on for Young in the ensemble. Alex Prakken performed Nick Carraway; Ryan Nixon performed Myrtle Wilson; Justin Keats performed Mr. McKee / Bystander #2; Haley Fish performed Gilda Gray. Drew Lake covered Haley Fish and Justin Keats in a split Additional Dancer track. Kurt Csolak was out; his Additional Partygoer track was cut. Conducted by Daniel Edmonds.",
+      "seatLocation": {
+        "section": "Orchestra Right",
+        "row": "E",
+        "seat": "1",
+        "display": "Orchestra Right E 1"
+      },
+      "ticketType": "Rush",
+      "ticketSource": "Rush",
+      "ticketPrice": 49,
+      "ticketCurrency": "USD",
+      "experienceMarkers": [
+        "Rush Seat"
+      ],
+      "tags": [
+        "Rush"
+      ],
+      "performanceMetadata": {
+        "intermission": "One 15-minute intermission",
+        "productionKey": "great-gatsby-broadway",
+        "productionLabel": "Broadway",
+        "programBasePerformanceId": 1182,
+        "programSource": "Current Broadway Playbill supplied October 1, 2026; production/orchestra/songs carried from the current program baseline and refreshed from the supplied pages.",
+        "actualCastSource": "Isaac-supplied October 1 Playbill, At This Performance board, and direct cast/track clarification.",
+        "attendanceSource": "Isaac direct report",
+        "attendanceSourceRef": 1526,
+        "ticketNote": "Orchestra Right E 1; $49 Rush.",
+        "exactTimeStatus": "Not supplied",
+        "substitutions": [
+          "Jonathan Young — Jay Gatsby (Understudy)",
+          "Alex Prakken — Nick Carraway (Understudy)",
+          "Ryan Nixon — Myrtle Wilson",
+          "Justin Keats — Mr. McKee / Bystander #2 (Swing; on for Dan Rosales)",
+          "Haley Fish — Gilda Gray (Swing; on for Dariana Mullen)",
+          "Joshua Elijah Dawson — Ensemble (Swing; on for Jonathan Young)",
+          "Drew Lake — Additional Dancer (Swing; split track, on for Haley Fish and Justin Keats)"
+        ],
+        "trackCuts": [
+          "Kurt Csolak — Additional Partygoer (out)"
+        ]
+      },
+      "programArchiveText": {
+        "performanceId": 1207,
+        "dateCaptured": "2026-10-01",
+        "sections": {
+          "attendance": "Thursday, October 1, 2026 evening; Broadway Theatre; Orchestra Right E 1; $49 Rush. Exact curtain time not supplied.",
+          "cast": "October 1 company with Jonathan Young as understudy Jay Gatsby, Alex Prakken as understudy Nick Carraway, Ryan Nixon as Myrtle Wilson, Justin Keats as Mr. McKee / Bystander #2, and Haley Fish as Gilda Gray. Joshua Elijah Dawson covered Jonathan Young’s ensemble track; Drew Lake split the Additional Dancer track for Haley Fish and Justin Keats. Kurt Csolak was out and his Additional Partygoer track was cut.",
+          "covers": "At This Performance assignments transcribed from the supplied lobby board and clarified by Isaac. Understudy and swing labels follow the current printed Playbill and the user’s track clarification.",
+          "orchestra": "Daniel Edmonds conducted, as stated on the supplied At This Performance board. Current printed orchestra roster carried forward from the current Playbill baseline.",
+          "production": "Current Broadway Playbill supplied October 1, 2026; stable production/staff credits retained from the September 19 captured programme."
+        },
+        "notes": "Current printed company baseline plus the October 1 At This Performance board and Isaac’s corrections. No companion was specified.",
+        "sourceRef": 1526
+      },
+      "sourceRef": 1526
     }
   },
   "organizations": {

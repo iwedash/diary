@@ -2,47 +2,47 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1199,
-    "people": 19997,
+    "performances": 1200,
+    "people": 19998,
     "shows": 521,
     "venues": 204,
-    "roles": 5927,
-    "appearances": 19772,
+    "roles": 5928,
+    "appearances": 19796,
     "creativeCredits": 17629,
     "specialAppearances": 219,
     "companionLinks": 652,
-    "sources": 1526
+    "sources": 1527
   },
-  "generatedAt": "2026-10-01T21:42:00+00:00",
-  "updatedAt": "2026-10-01T21:42:00+00:00",
-  "description": "Cuebook split-json package — Build 375 show-page overview, production-period navigation, and cast-change intelligence; no attendance, cast, person, show, venue, credit, source, or Wicked data changes from Build 374.",
-  "fileCount": 24,
-  "build": "json-b375",
-  "version": "v14.63.00",
-  "generated": "2026-10-01T21:42:00+00:00",
-  "totalBytes": 22596604,
-  "largestFileBytes": 5687903,
+  "generatedAt": "2026-10-02T01:25:00+00:00",
+  "updatedAt": "2026-10-02T01:25:00+00:00",
+  "description": "Cuebook split-json package — Build 376: runtime dashboard and linked user pages only; excludes changelogs, development tools, and unused datasets.",
+  "fileCount": 13,
+  "build": "json-b376",
+  "version": "v14.63.01",
+  "generated": "2026-10-02T01:25:00+00:00",
+  "totalBytes": 24687441,
+  "largestFileBytes": 7438156,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5299825,
-      "sha256": "877c50a0d2a8dedde8ec0cc5b084a920eb7f045fefbcbdb4780518012e49eb23",
+      "bytes": 7438156,
+      "sha256": "fe3ff0f26f21ccf4be1c652740c9fcebe6c5155b395071f10b3d058ed1cbea7e",
       "kind": "data"
     },
     {
       "path": "castbook.html",
-      "bytes": 38860,
-      "sha256": "93c2ac504867851244beb77ef64142bce266cb886667522dd02049ab5294613e"
+      "bytes": 38804,
+      "sha256": "4edb3b3b715199cf966b5b314da5099fb8432467ece03856eef8ed2eb3b55dd0"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "5759bc2a076f8bc1e3d12d3497dc771d1fc60b9ac76afa75d2a9ea4c5b1d8fe1"
+      "sha256": "2cf4db17399fee8706a8f7004c47a05558eb83751c2d3413206d34336d43bd09"
     },
     {
       "path": "core.json",
-      "bytes": 5687903,
-      "sha256": "6c809b23b202d084b739c4e95d78f1d816402607d2e0f59606679669436d4621",
+      "bytes": 5692414,
+      "sha256": "1de436f64ca111e28c464576d8840b34e89be2ea64e1516bdedefaa3b2055159",
       "kind": "data"
     },
     {
@@ -52,41 +52,6 @@
       "kind": "data"
     },
     {
-      "path": "Cuebook_CHANGELOG_B369.md",
-      "bytes": 1191,
-      "sha256": "c7ec19fc0ef1fae6c8f02a397c59bc833ba419c2d1f8d37e98ab33da0e2dd859"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B370.md",
-      "bytes": 1522,
-      "sha256": "93e9bd8e7b33bdd6808e2fba390ccc55ce8c58199b4b21d2a18416e36dd6618f"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B371.md",
-      "bytes": 827,
-      "sha256": "6acfe92f8a180deda05b9a71b65468b1661f8956dab2ee8882edf72ebf436caa"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B372.md",
-      "bytes": 883,
-      "sha256": "c8691c6aef5310e94919672665edcd45cf0cec988d399396cff9396e2d1d2ced"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B373.md",
-      "bytes": 1737,
-      "sha256": "f272167fda78a408668928e09051f62455460035fd8e2b173318d1bffc4e48e6"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B374.md",
-      "bytes": 1717,
-      "sha256": "0d51303e10c872ceacf1e12d982a3d7a710a6957784acfa91137affd37064991"
-    },
-    {
-      "path": "Cuebook_CHANGELOG_B375.md",
-      "bytes": 1326,
-      "sha256": "80b4a005fb2bf4ed4535889c20629f3e9ac6d09d5870e31d1e0444854fb86580"
-    },
-    {
       "path": "cuebook-logo.png",
       "bytes": 1066647,
       "sha256": "1ebf93d52de2625486506db911ec4bd1c3efb4316b018391f311d6898f2c3fa7"
@@ -94,27 +59,17 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "4da2e288e61eb70f85e0cc5e2d0733c60f63762cda42bedf1c8ed0929f82d509"
+      "sha256": "f48292bde329beb03bb1300d0a7b0f14ddcd20f4c941648b1be60fc3757e1b9a"
     },
     {
       "path": "index.html",
-      "bytes": 444684,
-      "sha256": "1246ee4d60ed408eebe9f2faa0088b91597f961b09eee966c93c5ea0e602f28d"
-    },
-    {
-      "path": "loader-test.html",
-      "bytes": 760,
-      "sha256": "5725f3c1108f8fc7a5352094c2570c3e114968b7afe11f6f00a7645fda199e3e"
-    },
-    {
-      "path": "logo-manager.html",
-      "bytes": 16019,
-      "sha256": "3e62f624cdd94966a3353cb22be8866649db93ceb27bc3becb430ea9a791dfd8"
+      "bytes": 444810,
+      "sha256": "c4196d5e5dcf7d43778a0c3b28df9c8deefe3d5be71c37cf7de1305927e8d64c"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "fd8b33a7e72299045e2a83ce8e4436016de479b70872547c0c98455faceeb3d2"
+      "sha256": "14e7ab68a33829441f250953a863400e4ac197d1149dce2ea42a378bbac9fbdd"
     },
     {
       "path": "production-archive.json",
@@ -129,26 +84,15 @@
       "kind": "data"
     },
     {
-      "path": "pruned-records-b284.json",
-      "bytes": 22616,
-      "sha256": "2bc0aad3fdcc16a7bdee04c88d30b0488693c34c86f2b20315ebd2bad1e8309c",
-      "kind": "data"
-    },
-    {
       "path": "qa.html",
-      "bytes": 37796,
-      "sha256": "c2de20516fd52d8868ceadf3f2b0beac9017b950b5fd617900d5e424b4f0a988"
+      "bytes": 37740,
+      "sha256": "af06392345f0f15168c0fa1312df3bb2cf751c5c1c8dcb48597e6d57da507319"
     },
     {
       "path": "sources.json",
-      "bytes": 714176,
-      "sha256": "265ea6e9fff1a0f2f8e22b26d67c10689e56ae9720a52895604ce76d1c06bdf8",
+      "bytes": 767613,
+      "sha256": "fb38ab54f3b9f1a2c0351dfb62d8697b6b3ab2b9216266f8c81941bb628d729a",
       "kind": "sources"
-    },
-    {
-      "path": "souvenir.html",
-      "bytes": 56858,
-      "sha256": "ceb1b27c7b690bd307f20042dfc6a9750c3772d8582b7ba2a53e291f4f603a0f"
     }
   ]
 }
