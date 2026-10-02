@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b377">
+<meta name="archive-house-build" content="json-b378">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <link rel="icon" href="cuebook-logo.png" type="image/png">
 <title>Cuebook</title>
@@ -1073,13 +1073,13 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b377" defer></script>
+<script src="data-loader.js?v=json-b378" defer></script>
 <script>
 /* Build 328 rescue fallback: if data-loader.js is missing/cached wrong, define the lightweight loader inline. */
 if(!window.loadCuebookData){
 (function(global){
 'use strict';
-const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b377',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b378',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 async function cueFetchJson(path,cache,timeoutMs){const join=path.includes('?')?'&':'?',controller=(typeof AbortController!=='undefined')?new AbortController():null,timer=controller?setTimeout(()=>controller.abort(),Number(timeoutMs||45000)):null;try{const res=await fetch(path+join+'v='+BUILD_TOKEN,{cache:cache||'default',signal:controller?controller.signal:undefined});if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);return await res.json();}catch(err){if(err&&err.name==='AbortError')throw new Error(`Timed out loading ${path}`);throw err;}finally{if(timer)clearTimeout(timer);}}
@@ -1294,7 +1294,7 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search Cuebook…"><button aria-label="Search">Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b377">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b378">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
@@ -1302,10 +1302,10 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <section class="menuGroup"><h2>Browse</h2><div class="menuGroupGrid"><a href="#home">Home</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a></div></section>
-    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b377">Money</a></div></section>
-    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b377">Cast Book</a><a href="companions.html?v=json-b377">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
+    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b378">Money</a></div></section>
+    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b378">Cast Book</a><a href="companions.html?v=json-b378">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
   </div>
-  <div class="menuVersion">B377 · v14.64.00</div>
+  <div class="menuVersion">B378 · v14.65.00</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script id="cue-preboot">
@@ -1340,8 +1340,8 @@ setTimeout(function(){
 <script>
 (function(){
 'use strict';
-const BUILD='json-b377';
-const VERSION='v14.64.00';
+const BUILD='json-b378';
+const VERSION='v14.65.00';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 try{window.__cueBootStatus&&window.__cueBootStatus('Main Cuebook script executing…');}catch(_){}
@@ -1910,21 +1910,26 @@ function gridSourceQualifier(track,a,targets){if(!track?.sourceQualifier)return'
 function gridIsEnsembleLike(a){let g=displayAppearanceGroup(a);if(a.appearanceType==='principal'||g==='principal')return false;return !!(a.alsoEnsemble||g==='ensemble'||g==='swing'||/\bensemble\b/i.test(String(a.roleRaw||'')));}
 function gridHasNamedRole(a){let parts=gridRoleParts(gridSourceRole(a)).map(norm),generic=new Set(['ensemble','additionalensemble','maleensemble','femaleensemble','ensemblemember','ensembledancer','ensemblesinger','chorus']);return parts.some(x=>x&&!generic.has(x));}
 function gridEntityHtml(a,qualifier='',compact=false){let eid=entityIdForPerson(a.personId),tag=a.coverType?labelCover(a.coverType):'',did=E.has(eid)?nextEntityDrawerId('grid-drawer'):'',person=E.has(eid)?entityInlineToggle(eid,personLabelFromAppearance(a),tag,did):`${link('#person-'+a.personId,personLabelFromAppearance(a),'linkBtn')}${tag?coverBadgeHtml(a.coverType):''}`;let q=qualifier?`<div class="gridQualifier">${esc(qualifier)}</div>`:'';return `<span class="${compact?'gridCompactPerson':'gridPersonEntry'}"><span class="entityStack">${person}</span>${q}${E.has(eid)?entityInlineDrawerSlot(eid,did):''}</span>`;}
+function durableCastCell(cell){
+  let ids=new Set(),unknown=false;
+  (cell?.items||[]).forEach(it=>{let a=it.app||{},temporary=!!(a.coverType||a.onstageSwing),pid=temporary?idNum(a.trackOwnerPersonId):idNum(a.personId);if(temporary&&!pid){unknown=true;return;}if(pid)ids.add(pid);});
+  let sorted=[...ids].sort((a,b)=>a-b);return {known:!unknown&&sorted.length>0,ids:sorted,signature:sorted.join('|'),names:sorted.map(personName).join(', ')};
+}
 function castGrid(showId,ps){
   let model=castGridExportModel(showId,ps);
   if(!model.roles.length||!model.rows.length)return '<div class="empty">No cast-grid rows available.</div>';
   let head=`<thead><tr><th>Performance</th>${model.roles.map(r=>`<th>${esc(r)}</th>`).join('')}</tr></thead>`;
-  let cellSignature=cell=>(cell.items||[]).map(it=>`${idNum(it.app.personId)}:${it.app.coverType||''}:${it.app.onstageSwing?'1':'0'}`).sort().join('|');
+  let productionByPerformance=new Map();showProductionGroups(ps).forEach(g=>g.performances.forEach(p=>productionByPerformance.set(idNum(p.id),g.key)));
   let body=model.rows.map((row,rowIndex)=>{
-    let previous=rowIndex?model.rows[rowIndex-1]:null,changedCount=0;
+    let previous=rowIndex?model.rows[rowIndex-1]:null,sameProduction=!!previous&&productionByPerformance.get(idNum(previous.performance.id))===productionByPerformance.get(idNum(row.performance.id)),changedCount=0;
     let cells=row.cells.map((cell,cellIndex)=>{
-      let changed=!!previous&&cellSignature(cell)!==cellSignature(previous.cells[cellIndex]);if(changed)changedCount++;
-      let classes=[cell.hasCover?'castGridCoverCell':'',cell.compactList?'castGridCompactList':'',changed?'castGridChangedCell':''].filter(Boolean).join(' '),changeTitle=changed?' title="Changed from the previous recorded visit"':'';
+      let currentRoster=durableCastCell(cell),previousRoster=previous?durableCastCell(previous.cells[cellIndex]):null,changed=!!(sameProduction&&currentRoster.known&&previousRoster?.known&&currentRoster.signature!==previousRoster.signature);if(changed)changedCount++;
+      let classes=[cell.hasCover?'castGridCoverCell':'',cell.compactList?'castGridCompactList':'',changed?'castGridChangedCell':''].filter(Boolean).join(' '),changeTitle=changed?' title="Durable company change from the previous recorded visit"':'';
       if(!cell.items.length)return `<td class="${classes}"${changeTitle}>—</td>`;
       let content=cell.compactList?cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,true)).join('<span class="gridComma">, </span>'):cell.items.map(it=>gridEntityHtml(it.app,it.qualifier,false)).join('');
       return `<td class="${classes}"${changeTitle}>${content}</td>`;
     }).join('');
-    return `<tr class="${changedCount?'castGridChangedRow':''}"><td class="castGridPerformance"><a class="link" href="#perf-${row.performance.id}">${esc(row.label)}</a>${row.sub?`<div class="note">${esc(row.sub)}</div>`:''}${changedCount?`<div class="castGridChangeCount">${esc(num(changedCount))} change${changedCount===1?'':'s'}</div>`:''}</td>${cells}</tr>`;
+    return `<tr class="${changedCount?'castGridChangedRow':''}"><td class="castGridPerformance"><a class="link" href="#perf-${row.performance.id}">${esc(row.label)}</a>${row.sub?`<div class="note">${esc(row.sub)}</div>`:''}${changedCount?`<div class="castGridChangeCount">${esc(num(changedCount))} company change${changedCount===1?'':'s'}</div>`:''}</td>${cells}</tr>`;
   }).join('');
   return `<div class="tableWrap castGridWrap"><table class="castGrid">${head}<tbody>${body}</tbody></table></div>`;
 }
@@ -1938,7 +1943,7 @@ function performanceView(id){let p=performanceById(id);if(!p)return notFound();l
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<details class="card archiveCard" id="archive"><summary><span>Source / Archive</span></summary><div class="archiveBody">${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</div></details>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b377',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b378',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -2022,18 +2027,37 @@ function showProductionNav(showId,groups,activeKey){
   let tiles=groups.map(g=>{let years=g.first&&g.last?(g.first===g.last?String(g.first).slice(0,4):`${String(g.first).slice(0,4)}–${String(g.last).slice(0,4)}`):'',places=g.venueNames.slice(0,2).join(' · ');return `<a class="showProductionTile ${activeKey===g.key?'active':''}" href="#show-${showId}?production=${encodeURIComponent(g.key)}"><span>${esc(g.label)}</span><b>${esc(num(g.performances.length))}</b><small>${esc([years,places].filter(Boolean).join(' · '))}</small></a>`}).join('');
   return `<section class="card showProductionCard"><div class="sliderHead"><h2>Productions</h2></div><div class="showProductionRail">${all}${tiles}</div></section>`;
 }
-function showCastChanges(showId,ps){
-  let model=castGridExportModel(showId,ps);if(model.rows.length<2||!model.roles.length)return'';
-  let signature=cell=>(cell.items||[]).map(it=>`${idNum(it.app.personId)}:${it.app.coverType||''}`).sort().join('|'),names=cell=>(cell.items||[]).map(it=>personName(it.app.personId)+(it.app.coverType?` (${cueCoverShort(it.app.coverType)})`:'')).join(', ')||'—',events=[];
-  for(let i=1;i<model.rows.length;i++){let previous=model.rows[i-1],current=model.rows[i],changes=[];current.cells.forEach((cell,j)=>{if(signature(cell)!==signature(previous.cells[j]))changes.push({role:model.roles[j],before:names(previous.cells[j]),after:names(cell)});});if(changes.length)events.push({current,previous,changes});}
-  let latest=events.slice(-4).reverse();if(!latest.length)return'';
-  return `<section class="card showChangeCard"><div class="sliderHead"><h2>Recent Cast Changes</h2></div><div class="showChangeList">${latest.map(event=>`<article class="showChangeEvent"><div class="showChangeHead"><a href="#perf-${event.current.performance.id}">${esc(fmtDate(event.current.performance.date,true))}</a><span>${esc(num(event.changes.length))} change${event.changes.length===1?'':'s'} since ${esc(fmtDate(event.previous.performance.date,true))}</span></div><div class="showChangeRows">${event.changes.slice(0,4).map(change=>`<div><b>${esc(change.role)}</b><span>${esc(change.before)}</span><i>→</i><strong>${esc(change.after)}</strong></div>`).join('')}${event.changes.length>4?`<div class="showChangeMore">+${esc(num(event.changes.length-4))} more in the cast grid</div>`:''}</div></article>`).join('')}</div></section>`;
+const STAFF_CHANGE_CATEGORIES=new Set(['Expanded Credits','Associate Creative Team','Production Management','Music Staff','Music Technology','Dance Captains','Fight Captains','Effects / Consultants','Marketing / Press','Ticketing / Revenue']);
+function productionStaffCredit(c){if(!STAFF_CHANGE_CATEGORIES.has(c.cat))return false;if(c.cat==='Expanded Credits'){let group=cueCreditGroup(c);return group==='Production Staff'||group==='Additional Creative';}return true;}
+function performanceStaffCaptureStatus(p){let rows=[p?.performanceMetadata,...snapshots.filter(x=>idNum(x.performanceId)===idNum(p?.id))].filter(Boolean);for(let row of rows){let value=norm(row.staffCaptureStatus||row.productionStaffCaptureStatus||'');if(['complete','partial','unavailable'].includes(value))return value;if(row.staffComplete===true)return'complete';}return'';}
+function performanceStaffSnapshot(p){
+  let credits=(perfCredits.get(idNum(p.id))||[]).filter(productionStaffCredit),labels=new Map(),categories=new Set(credits.map(c=>c.cat));
+  credits.forEach(c=>{let label=cueDisplayLabel(cueCreditLabel(c)),key=norm(label);if(!labels.has(key))labels.set(key,{label,entities:new Map(),raws:new Set()});let group=labels.get(key),entities=rowEntityIds(c.row);entities.forEach(x=>group.entities.set(String(x.eid),x.label));if(!entities.length){let raw=String(nameList(c.row)||c.row?.raw||'').trim();if(raw)group.raws.add(raw);}});
+  let roster=new Map();labels.forEach((group,key)=>{let entityPairs=[...group.entities.entries()].sort((a,b)=>a[0].localeCompare(b[0])),raws=[...group.raws].sort((a,b)=>a.localeCompare(b)),names=entityPairs.map(x=>x[1]).concat(raws);roster.set(key,{label:group.label,names:names.join(', ')||'—',signature:entityPairs.map(x=>x[0]).concat(raws.map(norm)).join('|')});});
+  let status=performanceStaffCaptureStatus(p),qualified=status==='complete';
+  return {performance:p,roster,status,qualified,categories:categories.size,creditCount:credits.length};
+}
+function staffSnapshotChanges(previous,current){let keys=new Set([...previous.roster.keys(),...current.roster.keys()]),changes=[];keys.forEach(key=>{let before=previous.roster.get(key),after=current.roster.get(key);if((before?.signature||'')!==(after?.signature||''))changes.push({role:after?.label||before?.label||'Staff',before:before?.names||'—',after:after?.names||'—'});});return changes.sort((a,b)=>cueCreditLabelOrder(a.role)-cueCreditLabelOrder(b.role)||a.role.localeCompare(b.role));}
+function showCompanyChanges(showId,ps){
+  let groups=showProductionGroups(ps),castEvents=[],staffEvents=[],completeStaff=[];
+  groups.forEach(group=>{
+    let model=castGridExportModel(showId,group.performances);
+    for(let i=1;i<model.rows.length;i++){let previous=model.rows[i-1],current=model.rows[i],changes=[];current.cells.forEach((cell,j)=>{let before=durableCastCell(previous.cells[j]),after=durableCastCell(cell);if(before.known&&after.known&&before.signature!==after.signature)changes.push({role:model.roles[j],before:before.names,after:after.names});});if(changes.length)castEvents.push({current:current.performance,previous:previous.performance,changes,production:group.label});}
+    let qualified=group.performances.map(performanceStaffSnapshot).filter(x=>x.qualified);completeStaff.push(...qualified);for(let i=1;i<qualified.length;i++){let changes=staffSnapshotChanges(qualified[i-1],qualified[i]);if(changes.length)staffEvents.push({current:qualified[i].performance,previous:qualified[i-1].performance,changes,production:group.label});}
+  });
+  castEvents.sort((a,b)=>String(b.current.date).localeCompare(String(a.current.date))||idNum(b.current.id)-idNum(a.current.id));staffEvents.sort((a,b)=>String(b.current.date).localeCompare(String(a.current.date))||idNum(b.current.id)-idNum(a.current.id));completeStaff.sort((a,b)=>String(b.performance.date).localeCompare(String(a.performance.date))||idNum(b.performance.id)-idNum(a.performance.id));
+  let latestCast=castEvents.slice(0,2),latestStaff=staffEvents.slice(0,2);if(!latestCast.length&&!completeStaff.length)return'';
+  let eventHtml=(event,type)=>`<article class="showChangeEvent"><div class="showChangeHead"><a href="#perf-${event.current.id}">${esc(fmtDate(event.current.date,true))}</a><span>${esc(num(event.changes.length))} ${esc(type)} change${event.changes.length===1?'':'s'} since ${esc(fmtDate(event.previous.date,true))}</span></div><div class="showChangeProduction">${esc(event.production)}</div><div class="showChangeRows">${event.changes.slice(0,4).map(change=>`<div><b>${esc(change.role)}</b><span>${esc(change.before)}</span><i>→</i><strong>${esc(change.after)}</strong></div>`).join('')}${event.changes.length>4?`<div class="showChangeMore">+${esc(num(event.changes.length-4))} more</div>`:''}</div></article>`;
+  let castBlock=latestCast.length?`<div class="companyChangeBlock"><div class="companyChangeBlockHead"><h3>Cast</h3><span>Covers excluded</span></div><div class="showChangeList">${latestCast.map(x=>eventHtml(x,'cast')).join('')}</div></div>`:'';
+  let staffSummary=completeStaff.length?`${num(completeStaff.length)} complete snapshot${completeStaff.length===1?'':'s'} · latest ${fmtDate(completeStaff[0].performance.date,true)}`:'No complete staff snapshots';
+  let staffBlock=`<div class="companyChangeBlock"><div class="companyChangeBlockHead"><h3>Production staff</h3><span>${esc(staffSummary)}</span></div>${latestStaff.length?`<div class="showChangeList">${latestStaff.map(x=>eventHtml(x,'staff')).join('')}</div>`:`<div class="companyChangeEmpty">${completeStaff.length>1?'No staff changes between complete snapshots.':'A second complete staff snapshot is needed before changes can be compared.'}</div>`}</div>`;
+  return `<section class="card showChangeCard companyChangeCard"><div class="sliderHead companyChangeHeader"><div><h2>Company Changes</h2><p>Roster changes only. Temporary cover appearances stay with the individual performance.</p></div></div>${castBlock}${staffBlock}</section>`;
 }
 function showView(id){
   let s=S.get(idNum(id));if(!s)return notFound();
   let ps=(showPerfs.get(idNum(id))||[]).slice(),groups=showProductionGroups(ps),activeKey=state.production||'',activeGroup=groups.find(g=>g.key===activeKey)||null,shown=activeGroup?activeGroup.performances:ps,label=activeGroup?activeGroup.label:'';
   let actions=`<div class="programActions showPageActions"><button class="btn" type="button" onclick="downloadCastGridCSV(${idNum(id)})">Download Cast Grid CSV</button><button class="btn" type="button" onclick="downloadCastGridXLSX(${idNum(id)})">Download Cast Grid Excel</button><button class="btn downloadJpg" type="button" onclick="downloadCastGridJPG(${idNum(id)})">Download Cast Grid JPG</button><a class="btn secondary" href="#diary?type=all&q=${encodeURIComponent(s.title||s.name||'')}">Diary Search</a></div>`;
-  shell(`${hero(s.title||s.name,'',true)}${showOverviewSection(ps,groups)}${showProductionNav(id,groups,activeKey)}${actions}${showCastChanges(id,shown)}<section class="card showGridCard showTableCard"><div class="sliderHead"><h2>Cast Grid${label?` · ${esc(label)}`:''}</h2></div>${castGrid(id,shown)}</section><section class="card showTableCard showPerfCard"><div class="sliderHead"><h2>Performances${label?` · ${esc(label)}`:''}</h2></div>${showPerfTable(shown)}</section>`);
+  shell(`${hero(s.title||s.name,'',true)}${showOverviewSection(ps,groups)}${showProductionNav(id,groups,activeKey)}${actions}${showCompanyChanges(id,shown)}<section class="card showGridCard showTableCard"><div class="sliderHead"><h2>Cast Grid${label?` · ${esc(label)}`:''}</h2></div>${castGrid(id,shown)}</section><section class="card showTableCard showPerfCard"><div class="sliderHead"><h2>Performances${label?` · ${esc(label)}`:''}</h2></div>${showPerfTable(shown)}</section>`);
 }
 function personAppearanceKind(a){let c=String(a.coverType||'').toLowerCase();if(c==='standby')return's/b';if(c==='understudy')return'u/s';if(c==='swing')return's/w';if(c==='onstage_swing')return'O/Sw';if(c==='vacation_swing')return'V/S';if(c==='vacation_cover')return'V/C';if(c==='alternate')return'alt';if(c==='temporary_replacement')return't/r';return c?labelCover(c):'';}
 function compactDateList(rows){let dates=[...new Set(rows.map(x=>x.perf?.date||performanceById(x.performanceId)?.date).filter(Boolean))].sort();if(!dates.length)return'';if(dates.length<=8)return dates.map(d=>fmtDate(d,true)).join(', ');return `${fmtDate(dates[0],true)}–${fmtDate(dates[dates.length-1],true)} · ${num(dates.length)} dates`;}
@@ -3181,6 +3205,27 @@ html,body{width:100%;max-width:100%;overflow-x:hidden!important}
   .homeNowStats b{font-size:22px;}
   .homeNowStats span{font-size:7px;letter-spacing:.055em;}
   .monthBarItem.monthBarYearStart{border-left:0;padding-left:0;}
+}
+</style>
+
+<style id="cuebook-b378-company-changes">
+/* Build 378: distinguish durable company movement from one-night cover activity. */
+.companyChangeCard{display:grid;gap:14px;}
+.companyChangeHeader{margin-bottom:0!important;}
+.companyChangeHeader p{max-width:700px;margin:3px 0 0;color:var(--muted);font-size:9px;line-height:1.35;}
+.companyChangeBlock{display:grid;gap:8px;}
+.companyChangeBlock+.companyChangeBlock{padding-top:13px;border-top:1px solid rgba(29,40,48,.11);}
+.companyChangeBlockHead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
+.companyChangeBlockHead h3{margin:0;font-size:13px;}
+.companyChangeBlockHead span{color:var(--muted);font-size:8px;font-weight:850;letter-spacing:.065em;text-transform:uppercase;}
+.showChangeProduction{padding:5px 10px 0;color:#567074;font-size:8px;font-weight:800;letter-spacing:.04em;}
+.companyChangeEmpty{padding:10px 12px;border:1px dashed rgba(29,40,48,.16);border-radius:12px;background:rgba(255,253,248,.6);color:var(--muted);font-size:9px;}
+@media(max-width:760px){
+  .companyChangeCard{gap:11px;}
+  .companyChangeBlock+.companyChangeBlock{padding-top:10px;}
+  .companyChangeBlockHead{align-items:flex-start;flex-direction:column;gap:2px;}
+  .showChangeHead{align-items:flex-start;}
+  .showChangeHead span{text-align:right;}
 }
 </style>
 

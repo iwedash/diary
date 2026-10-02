@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_376",
-    "generated": "2026-10-02T17:50:00+00:00",
+    "sourceFile": "Cuebook_Build_377",
+    "generated": "2026-10-02T18:03:00+00:00",
     "rowCount": 1200,
     "performanceCount": 1200,
     "peopleCount": 19998,
@@ -12,18 +12,18 @@
     "creativeCreditCount": 17629,
     "notesCount": 529,
     "updated": "2026-10-02",
-    "notes": "Build 377 refreshes the homepage hierarchy, gives desktop activity charts full width, shortens discovery sections, and groups navigation without changing source data.",
+    "notes": "Build 378 replaces noisy visit-to-visit cast deltas with durable company changes, excludes temporary cover activity, compares staff only from complete snapshots, and formalizes full production-staff capture without changing source records.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-02T17:50:00+00:00",
+    "updatedAt": "2026-10-02T18:03:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b376",
-    "version": "v14.64.00",
-    "build": "json-b377",
-    "buildTime": "2026-10-02T17:50:00+00:00",
+    "sourceBase": "json-b377",
+    "version": "v14.65.00",
+    "build": "json-b378",
+    "buildTime": "2026-10-02T18:03:00+00:00",
     "buildDate": "2026-10-02",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.64.00",
+    "buildVersion": "v14.65.00",
     "lastUpdated": "2026-10-02",
     "normalizationMerged": true,
     "roleMergeCount": 80,
@@ -67,6 +67,29 @@
     "conductorFramework": {
       "verifiedField": "conductorVerified",
       "sourceRef": 0
+    },
+    "productionStaffCapturePolicy": {
+      "statusField": "staffCaptureStatus",
+      "allowedStatuses": [
+        "complete",
+        "partial",
+        "unavailable"
+      ],
+      "requiredWhen": "Printed program staff pages are supplied",
+      "requiredCollections": [
+        "expandedCredits",
+        "associateCreativeTeam",
+        "productionManagement",
+        "musicStaff",
+        "musicTechnology",
+        "danceCaptains",
+        "fightCaptains",
+        "specialEffects",
+        "creativeConsultants",
+        "marketingAndPress",
+        "ticketingRevenue"
+      ],
+      "comparisonRule": "Only complete production-staff snapshots may generate staff-change events. Partial or unavailable captures never imply departures."
     },
     "lastUpdatedNote": "Build 376: added The Great Gatsby on October 1, 2026 with the supplied seat, rush price, performance-specific cast, split Additional Dancer track, and cut track; added a visible Show Page link on performance details.",
     "framework": {
