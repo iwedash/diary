@@ -13,14 +13,14 @@
     "companionLinks": 652,
     "sources": 1527
   },
-  "generatedAt": "2026-10-02T01:25:00+00:00",
-  "updatedAt": "2026-10-02T01:25:00+00:00",
-  "description": "Cuebook split-json package — Build 376: runtime dashboard and linked user pages only; excludes changelogs, development tools, and unused datasets.",
+  "generatedAt": "2026-10-02T17:50:00+00:00",
+  "updatedAt": "2026-10-02T17:50:00+00:00",
+  "description": "Cuebook split-json package — Build 377 homepage hierarchy, full-width desktop activity charts, shorter discovery flow, and grouped navigation; no data changes from Build 376.",
   "fileCount": 13,
-  "build": "json-b376",
-  "version": "v14.63.01",
-  "generated": "2026-10-02T01:25:00+00:00",
-  "totalBytes": 24687441,
+  "build": "json-b377",
+  "version": "v14.64.00",
+  "generated": "2026-10-02T17:50:00+00:00",
+  "totalBytes": 24694784,
   "largestFileBytes": 7438156,
   "files": [
     {
@@ -41,8 +41,8 @@
     },
     {
       "path": "core.json",
-      "bytes": 5692414,
-      "sha256": "1de436f64ca111e28c464576d8840b34e89be2ea64e1516bdedefaa3b2055159",
+      "bytes": 5693357,
+      "sha256": "8cda3dc321bd3edcee527d4fcb082885026f9f825c4d402aaab00c95cbc3dc0f",
       "kind": "data"
     },
     {
@@ -59,12 +59,12 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "f48292bde329beb03bb1300d0a7b0f14ddcd20f4c941648b1be60fc3757e1b9a"
+      "sha256": "ff711a5ae89a07f08273620c0ff390130c9e6496a8e17d6aa385c9dd5b4cd13e"
     },
     {
       "path": "index.html",
-      "bytes": 444810,
-      "sha256": "c4196d5e5dcf7d43778a0c3b28df9c8deefe3d5be71c37cf7de1305927e8d64c"
+      "bytes": 451210,
+      "sha256": "3021d22e668e436602e77d41cd41a7e24b7f61fa5ecd6751edc0897e347befc0"
     },
     {
       "path": "money.html",

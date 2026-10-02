@@ -6,8 +6,9 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b376">
+<meta name="archive-house-build" content="json-b377">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
+<link rel="icon" href="cuebook-logo.png" type="image/png">
 <title>Cuebook</title>
 <style>
 :root{
@@ -1072,13 +1073,13 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b376" defer></script>
+<script src="data-loader.js?v=json-b377" defer></script>
 <script>
 /* Build 328 rescue fallback: if data-loader.js is missing/cached wrong, define the lightweight loader inline. */
 if(!window.loadCuebookData){
 (function(global){
 'use strict';
-const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b376',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b377',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 async function cueFetchJson(path,cache,timeoutMs){const join=path.includes('?')?'&':'?',controller=(typeof AbortController!=='undefined')?new AbortController():null,timer=controller?setTimeout(()=>controller.abort(),Number(timeoutMs||45000)):null;try{const res=await fetch(path+join+'v='+BUILD_TOKEN,{cache:cache||'default',signal:controller?controller.signal:undefined});if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);return await res.json();}catch(err){if(err&&err.name==='AbortError')throw new Error(`Timed out loading ${path}`);throw err;}finally{if(timer)clearTimeout(timer);}}
@@ -1293,18 +1294,18 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search Cuebook…"><button aria-label="Search">Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b376">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b377">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
 <aside class="menuPanel" id="menuPanel" aria-label="Cuebook menu" tabindex="-1" hidden>
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
-    <a href="#home">Home Dashboard</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#entities">Entities</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b376">Money</a>
-    <a href="castbook.html?v=json-b376">Cast Book</a><a href="companions.html?v=json-b376">Companions</a>
-    <button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button>
+    <section class="menuGroup"><h2>Browse</h2><div class="menuGroupGrid"><a href="#home">Home</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a></div></section>
+    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b377">Money</a></div></section>
+    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b377">Cast Book</a><a href="companions.html?v=json-b377">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
   </div>
-  <div class="menuVersion">B375 · v14.63.00</div>
+  <div class="menuVersion">B377 · v14.64.00</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script id="cue-preboot">
@@ -1339,8 +1340,8 @@ setTimeout(function(){
 <script>
 (function(){
 'use strict';
-const BUILD='json-b376';
-const VERSION='v14.63.00';
+const BUILD='json-b377';
+const VERSION='v14.64.00';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 try{window.__cueBootStatus&&window.__cueBootStatus('Main Cuebook script executing…');}catch(_){}
@@ -1733,12 +1734,18 @@ function homeTableCell(text,cls=''){return `<td${cls?` class="${esc(cls)}"`:''}>
 function recentWeekday(p){let d=dateObj(p?.date);return d&&d.getFullYear()>1900?d.toLocaleDateString(undefined,{weekday:'short'}):'';}
 function venueShortName(id){const v=V.get(idNum(id));return v?(v.name||''):'';}
 function recentSeenTable(items){return `<section class="card homeTableCard homeRecentCard homeRecentIntegrated"><div class="sliderHead"><h2>Recently Seen</h2><a class="homeHeadAction" href="#diary?year=all&month=all&type=all&q=">View all</a></div>${items.length?`<div class="homeRecentList" role="table" aria-label="Recently Seen"><div class="homeRecentHeader" role="row"><div>#</div><div>Date / Show</div><div class="recentHeadTheatre">Theatre</div></div>${items.map(p=>{let n=performanceNumber(p);let day=copyDaypart(p),dow=recentWeekday(p),venue=venueShortName(p.venueId);return `<a class="homeRecentRow" role="row" href="#perf-${p.id}"><span class="homeRecentNo">${n?esc(num(n)):''}</span><span class="homeRecentMain"><span class="homeRecentWhen">${dow?`${esc(dow)}, `:''}${esc(fmtDate(p.date,true))}${day?` <em>${esc(day)}</em>`:''}</span><strong>${esc(perfTitle(p))}</strong></span><span class="homeRecentVenue">${esc(venue||'')}</span></a>`}).join('')}</div>`:'<div class="empty">No performances yet.</div>'}</section>`;}
-function diaryArchivePanel(years){let labels=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];let desc=years.slice().filter(y=>/^\d{4}$/.test(String(y))).sort((a,b)=>String(b).localeCompare(String(a)));let yearCounts=new Map(),monthCounts=new Map();perfs.forEach(p=>{let y=yearOf(p),m=String(p.date||'').slice(5,7);if(!/^\d{4}$/.test(String(y))||!/^[0-9]{2}$/.test(m))return;yearCounts.set(y,(yearCounts.get(y)||0)+1);let key=y+'-'+m;monthCounts.set(key,(monthCounts.get(key)||0)+1);});let latest=desc[0];let yearBlocks=desc.map(y=>{let months=labels.map((lab,i)=>{let m=String(i+1).padStart(2,'0'),n=monthCounts.get(y+'-'+m)||0;return `<a class="archiveMonthTile ${n?'':'emptyMonth'}" href="#diary?year=${encodeURIComponent(y)}&month=${m}&type=all&q="><b>${esc(lab)}</b><span>${esc(num(n))}</span></a>`}).join('');return `<details class="archiveYear" ${y===latest?'open':''}><summary><span>${esc(y)}</span><strong>${esc(num(yearCounts.get(y)||0))} views</strong></summary><div class="archiveMonthGrid"><a class="archiveMonthTile allMonths" href="#diary?year=${encodeURIComponent(y)}&month=all&type=all&q="><b>All</b><span>${esc(num(yearCounts.get(y)||0))}</span></a>${months}</div></details>`}).join('');return `<section class="card homeArchiveCard"><div class="sliderHead"><h2>Diary by Year + Month</h2><span class="sliderHint">All years</span></div><div class="archiveActions"><a class="btn secondary" href="#diary?year=all&month=all&type=all&q=">All diary</a><a class="btn secondary" href="#diary?year=${encodeURIComponent(latest||'all')}&month=all&type=all&q=">Latest year</a></div><div class="archiveYearGrid">${yearBlocks||'<div class="empty">No dated performances.</div>'}</div></section>`;}
-function anniversaryTable(title,subtitle,items,empty){return `<section class="card homeTableCard anniversaryCard"><div class="sliderHead"><h2>${esc(title)}</h2><span class="sliderHint">${esc(subtitle)}</span></div>${items.length?`<div class="tableWrap homeTableWrap"><table class="compactTable homeDashboardTable anniversaryTable"><thead><tr><th>When</th><th>Show</th><th>Venue</th><th>Details</th><th></th></tr></thead><tbody>${items.slice(0,16).map(p=>{let details=[copyDaypart(p),p.type,seatDisplay(p)].filter(Boolean).join(' · ');return `<tr><td><a href="#perf-${p.id}"><b>${esc(fmtDate(p.date,true))}</b></a><div class="tiny">${esc(String(p.date||'').slice(0,4))}</div></td><td><a class="link" href="#perf-${p.id}">${esc(perfTitle(p))}</a></td><td>${esc(venueName(p.venueId))}</td><td>${esc(details)}</td><td><a class="btn secondary tableBtn" href="#perf-${p.id}">Open</a></td></tr>`}).join('')}</tbody></table>${items.length>16?`<div class="tiny anniversaryMore">Showing 16 of ${esc(num(items.length))} matches.</div>`:''}</div>`:`<div class="empty">${esc(empty)}</div>`}</section>`;}
+function homeSpotlight(latest,today){
+  if(!latest)return'';
+  let currentYear=String(today.getFullYear()),yearRows=perfs.filter(p=>yearOf(p)===currentYear),showsThisYear=new Set(yearRows.map(p=>idNum(p.showId))).size,cutoff=new Date(today);cutoff.setDate(cutoff.getDate()-29);cutoff.setHours(0,0,0,0);let recent30=perfs.filter(p=>{let d=dateObj(p.date);return d>=cutoff&&d<=today;}).length,n=performanceNumber(latest),day=copyDaypart(latest),dow=recentWeekday(latest),when=[dow?`${dow}, ${fmtDate(latest.date,true)}`:fmtDate(latest.date,true),day].filter(Boolean).join(' · '),place=venueName(latest.venueId);
+  let metrics=[[yearRows.length,`${currentYear} performances`],[showsThisYear,`Shows in ${currentYear}`],[recent30,'Last 30 days'],[perfs.length,'All-time performances']];
+  return `<section class="homeWelcome"><article class="homeLatestFeature"><div class="homeLatestKicker"><span>Latest performance</span>${n?`<b>#${esc(num(n))}</b>`:''}</div><h1>${esc(perfTitle(latest))}</h1><div class="homeLatestMeta">${esc(when)}</div><div class="homeLatestVenue">${esc(place)}</div><div class="homeLatestActions"><a class="btn" href="#perf-${latest.id}">Open performance</a><a class="btn secondary" href="#diary">Diary</a><a class="btn secondary" href="#shows">Shows</a></div></article><div class="homeNowStats" aria-label="Current snapshot">${metrics.map(([value,label])=>`<div><b>${esc(num(value))}</b><span>${esc(label)}</span></div>`).join('')}</div></section>`;
+}
+function diaryArchivePanel(years){let labels=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];let allYears=years.slice().filter(y=>/^\d{4}$/.test(String(y))).sort((a,b)=>String(b).localeCompare(String(a))),desc=allYears.slice(0,6);let yearCounts=new Map(),monthCounts=new Map();perfs.forEach(p=>{let y=yearOf(p),m=String(p.date||'').slice(5,7);if(!/^\d{4}$/.test(String(y))||!/^[0-9]{2}$/.test(m))return;yearCounts.set(y,(yearCounts.get(y)||0)+1);let key=y+'-'+m;monthCounts.set(key,(monthCounts.get(key)||0)+1);});let latest=allYears[0];let yearBlocks=desc.map(y=>{let months=labels.map((lab,i)=>{let m=String(i+1).padStart(2,'0'),n=monthCounts.get(y+'-'+m)||0;return `<a class="archiveMonthTile ${n?'':'emptyMonth'}" href="#diary?year=${encodeURIComponent(y)}&month=${m}&type=all&q="><b>${esc(lab)}</b><span>${esc(num(n))}</span></a>`}).join('');return `<details class="archiveYear" ${y===latest?'open':''}><summary><span>${esc(y)}</span><strong>${esc(num(yearCounts.get(y)||0))} views</strong></summary><div class="archiveMonthGrid"><a class="archiveMonthTile allMonths" href="#diary?year=${encodeURIComponent(y)}&month=all&type=all&q="><b>All</b><span>${esc(num(yearCounts.get(y)||0))}</span></a>${months}</div></details>`}).join('');return `<section class="card homeArchiveCard"><div class="sliderHead"><h2>Browse the Archive</h2></div><div class="archiveActions"><a class="btn secondary" href="#diary?year=all&month=all&type=all&q=">All years</a><a class="btn secondary" href="#diary?year=${encodeURIComponent(latest||'all')}&month=all&type=all&q=">Latest year</a></div><div class="archiveYearGrid">${yearBlocks||'<div class="empty">No dated performances.</div>'}</div></section>`;}
+function anniversaryTable(title,subtitle,items,empty){return `<section class="card homeTableCard anniversaryCard"><div class="sliderHead"><h2>${esc(title)}</h2><span class="sliderHint">${esc(subtitle)}</span></div>${items.length?`<div class="tableWrap homeTableWrap"><table class="compactTable homeDashboardTable anniversaryTable"><thead><tr><th>When</th><th>Show</th><th>Venue</th><th>Details</th><th></th></tr></thead><tbody>${items.slice(0,6).map(p=>{let details=[copyDaypart(p),p.type,seatDisplay(p)].filter(Boolean).join(' · ');return `<tr><td><a href="#perf-${p.id}"><b>${esc(fmtDate(p.date,true))}</b></a><div class="tiny">${esc(String(p.date||'').slice(0,4))}</div></td><td><a class="link" href="#perf-${p.id}">${esc(perfTitle(p))}</a></td><td>${esc(venueName(p.venueId))}</td><td>${esc(details)}</td><td><a class="btn secondary tableBtn" href="#perf-${p.id}">Open</a></td></tr>`}).join('')}</tbody></table>${items.length>6?`<div class="tiny anniversaryMore">Showing 6 of ${esc(num(items.length))} matches.</div>`:''}</div>`:`<div class="empty">${esc(empty)}</div>`}</section>`;}
 
 function monthKeyFromDate(d){let m=String(d||'').match(/^(\d{4})-(\d{2})/);return m?`${m[1]}-${m[2]}`:'';}
 function shiftMonthKey(key,delta){let m=String(key||'').match(/^(\d{4})-(\d{2})$/);let d=m?new Date(Number(m[1]),Number(m[2])-1+delta,1):new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;}
-function monthTrendCard(){let counts=new Map();let valid=[];perfs.forEach(p=>{let k=monthKeyFromDate(p.date);if(k){valid.push(k);counts.set(k,(counts.get(k)||0)+1);}});if(!valid.length)return'';valid.sort();let anchor=valid[valid.length-1];let rows=[];for(let i=23;i>=0;i--){let key=shiftMonthKey(anchor,-i);let [y,m]=key.split('-').map(Number);let d=new Date(y,m-1,1);rows.push({key,month:d.toLocaleDateString(undefined,{month:'short'}),year:String(y),count:counts.get(key)||0,old:i>=12});}let max=Math.max(1,...rows.map(r=>r.count));return `<section class="card monthTrendCard"><div class="sliderHead"><h2>By Month</h2><span class="sliderHint">Last 24 months</span></div><div class="monthTrend">${rows.map((r)=>{let h=Math.max(4,Math.round((r.count/max)*100));return `<a class="monthBarItem ${r.old?'monthBarOld':''}" href="#diary?month=${String(r.key).slice(5,7)}&year=${esc(r.year)}&type=all&q=" title="${esc(r.month+' '+r.year+': '+num(r.count)+' views')}"><div class="monthBarTrack"><span class="monthBarValue">${esc(num(r.count))}</span><span class="monthBarFill" style="height:${h}%"></span></div><div class="monthBarLabel">${esc(r.month)}<span class="monthBarYear">${esc(r.year.slice(2))}</span></div></a>`}).join('')}</div></section>`;}
+function monthTrendCard(){let counts=new Map();let valid=[];perfs.forEach(p=>{let k=monthKeyFromDate(p.date);if(k){valid.push(k);counts.set(k,(counts.get(k)||0)+1);}});if(!valid.length)return'';valid.sort();let anchor=valid[valid.length-1];let rows=[];for(let i=23;i>=0;i--){let key=shiftMonthKey(anchor,-i);let [y,m]=key.split('-').map(Number);let d=new Date(y,m-1,1);rows.push({key,month:d.toLocaleDateString(undefined,{month:'short'}),year:String(y),count:counts.get(key)||0,old:i>=12,yearStart:m===1});}let max=Math.max(1,...rows.map(r=>r.count));return `<section class="card monthTrendCard"><div class="sliderHead"><h2>By Month</h2><span class="sliderHint">Last 24 months</span></div><div class="monthTrend">${rows.map((r)=>{let h=Math.max(4,Math.round((r.count/max)*100));return `<a class="monthBarItem ${r.old?'monthBarOld':''}${r.yearStart?' monthBarYearStart':''}" href="#diary?month=${String(r.key).slice(5,7)}&year=${esc(r.year)}&type=all&q=" title="${esc(r.month+' '+r.year+': '+num(r.count)+' views')}"><div class="monthBarTrack"><span class="monthBarValue">${esc(num(r.count))}</span><span class="monthBarFill" style="height:${h}%"></span></div><div class="monthBarLabel">${esc(r.month)}<span class="monthBarYear">${esc(r.year.slice(2))}</span></div></a>`}).join('')}</div></section>`;}
 function topCounts(items,limit=8){return items.slice(0,limit).map(([label,count,hash])=>`<div class="mini"><span>${hash?link(hash,label,'link'):esc(label)}</span><b>${esc(num(count))}</b></div>`).join('')||'<div class="empty">No rows.</div>'}
 function isoWeekInfo(input){let d=new Date(input.getFullYear(),input.getMonth(),input.getDate());d.setHours(12,0,0,0);let day=d.getDay()||7;d.setDate(d.getDate()+4-day);let isoYear=d.getFullYear(),yearStart=new Date(isoYear,0,1);yearStart.setHours(12,0,0,0);let week=Math.ceil((((d-yearStart)/86400000)+1)/7);return {year:isoYear,week};}
 function performanceIsoWeek(p){let d=dateObj(p.date);return isoWeekInfo(d);}
@@ -1759,17 +1766,16 @@ function weeklyActivityCard(today){
   return `<section class="card weeklyActivityCard"><div class="sliderHead"><h2>By Week</h2><a class="homeHeadAction" href="#diary?year=all&month=all&type=all&q=">View all</a></div><div class="weeklyActivityBars">${rows.map((r,i)=>{let h=r.count?Math.max(9,Math.round(r.count/max*100)):3;let title=`Week of ${r.start.toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'})}: ${r.count} performance${r.count===1?'':'s'}`;let prev=i?rows[i-1].start:null;let monthCue=(!prev||prev.getMonth()!==r.start.getMonth())?r.start.toLocaleDateString(undefined,{month:'short'}):'';if(i===rows.length-1)monthCue='This wk';return `<a class="weeklyActivityItem${i===rows.length-1?' currentWeek':''}" href="#diary?weekStart=${encodeURIComponent(r.key)}" title="${esc(title)}" aria-label="${esc(title)}"><span class="weeklyActivityTrack"><i style="height:${h}%" class="${r.count?'hasActivity':''}"></i></span><span class="weeklyActivityLabel">${esc(monthCue)}</span></a>`}).join('')}</div></section>`;
 }
 function home(){
-  const latest=sortedPerfs.slice(0,8);const years=[...new Set(perfs.map(yearOf))].filter(y=>/^\d{4}$/.test(y)).sort();
+  const latestRows=sortedPerfs.slice(0,6),latest=latestRows[0];const years=[...new Set(perfs.map(yearOf))].filter(y=>/^\d{4}$/.test(y)).sort();
   const showTop=showCountRows(perfs);
   const today=new Date(),mm=String(today.getMonth()+1).padStart(2,'0'),dd=String(today.getDate()).padStart(2,'0'),md=mm+'-'+dd,onThis=sortedPerfs.filter(p=>String(p.date||'').slice(5)===md).slice(0,40);
   const dayLabel=today.toLocaleDateString(undefined,{month:'long',day:'numeric'}),iso=isoWeekInfo(today);
   const onThisWeek=sortedPerfs.filter(p=>{let w=performanceIsoWeek(p);return w.week===iso.week&&w.year<iso.year;}).slice(0,60);
   const cutoff=new Date(today.getFullYear()-1,today.getMonth(),today.getDate());cutoff.setHours(0,0,0,0);const recent12=perfs.filter(p=>{let d=dateObj(p.date);return d>=cutoff&&d<=today;});const recentShowTop=showCountRows(recent12);
-  const homeHero='';
   const onThisSection=anniversaryTable('On This Day',dayLabel,onThis,'No shows on this calendar day yet.');
   const onThisWeekSection=anniversaryTable('On This Week','Past years',onThisWeek,'No performances from this week in prior years yet.');
-  const ranking=`<section class="grid twoCol homeShowRanks"><div class="card"><h2>Top Shows</h2>${topCounts(showTop,20)}</div><div class="card recentTopShows"><h2>Top Shows · Last 12 Months</h2>${topCounts(recentShowTop,10)}</div></section>`;
-  shell(`${homeHero}<section class="stats homeStats">${stat(perfs.length,'Performances')}${stat(people.length,'People')}${stat(shows.length,'Shows')}${stat(venues.length,'Venues')}</section><div class="homeTrendGrid">${monthTrendCard()}${weeklyActivityCard(today)}</div>${recentSeenTable(latest)}${diaryArchivePanel(years)}<section class="grid twoCol anniversaryGrid">${onThisSection}${onThisWeekSection}</section>${ranking}`);
+  const ranking=`<section class="grid twoCol homeShowRanks"><div class="card"><h2>Top Shows</h2>${topCounts(showTop,12)}</div><div class="card recentTopShows"><h2>Top Shows · Last 12 Months</h2>${topCounts(recentShowTop,8)}</div></section>`;
+  shell(`${homeSpotlight(latest,today)}<div class="homeTrendGrid">${monthTrendCard()}${weeklyActivityCard(today)}</div>${recentSeenTable(latestRows)}<section class="grid twoCol anniversaryGrid">${onThisSection}${onThisWeekSection}</section>${ranking}${diaryArchivePanel(years)}`);
 }
 function diary(){
   const years=[...new Set(perfs.map(yearOf))].filter(Boolean).sort().reverse();const types=[...new Set(perfs.map(p=>p.type).filter(Boolean))].sort();const monthLabels=['All months','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];let list=sortedPerfs.slice();if(state.weekStart){let ws=dateObj(state.weekStart),we=new Date(ws);we.setDate(we.getDate()+6);list=list.filter(p=>{let d=dateObj(p.date);return d>=ws&&d<=we;});}if(state.year&&state.year!=='all')list=list.filter(p=>yearOf(p)===state.year);if(state.month&&state.month!=='all')list=list.filter(p=>String(p.date||'').slice(5,7)===state.month);if(state.type&&state.type!=='all')list=list.filter(p=>p.type===state.type);if(state.q){let q=norm(state.q);list=list.filter(p=>norm([showTitle(p.showId),venueName(p.venueId),p.date,p.time,p.type,p.notes,seatDisplay(p),attended(p).join(' ')].join(' ')).includes(q));}const shown=list.slice(0,240);
@@ -1932,7 +1938,7 @@ function performanceView(id){let p=performanceById(id);if(!p)return notFound();l
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<details class="card archiveCard" id="archive"><summary><span>Source / Archive</span></summary><div class="archiveBody">${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</div></details>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b376',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b377',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -3117,6 +3123,64 @@ html,body{width:100%;max-width:100%;overflow-x:hidden!important}
   .showChangeCard{padding:12px!important;}
   .showChangeRows>div{grid-template-columns:minmax(76px,.7fr) minmax(0,1fr) 12px minmax(0,1fr);font-size:8.5px;}
   .showChangeRows b{font-size:8.5px;}
+}
+</style>
+
+<style id="cuebook-b377-home-flow">
+/* Build 377: lead with the latest visit, give desktop charts room, and make navigation easier to scan. */
+.menuLinks{display:block!important;padding:8px 0!important;overflow:auto!important;}
+.menuGroup{margin:0 0 15px;}
+.menuGroup:last-child{margin-bottom:0;}
+.menuGroup h2{margin:0 0 6px;padding:0 2px;color:var(--muted);font-family:var(--cue-entity-font);font-size:9px!important;font-weight:900;letter-spacing:.13em;text-transform:uppercase;}
+.menuGroupGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;}
+.menuGroupGrid a,.menuGroupGrid .menuRandom{min-height:43px!important;padding:8px 11px!important;border-radius:12px!important;font-size:10px!important;}
+.menuGroupGrid .menuRandom{grid-column:1/-1;width:100%;justify-content:center;text-align:center;}
+
+.homeWelcome{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(360px,.75fr);gap:12px;margin:2px 0 12px;}
+.homeLatestFeature{position:relative;overflow:hidden;min-height:190px;padding:20px 22px;border:1px solid rgba(225,188,78,.35);border-radius:24px;background:radial-gradient(circle at 82% 20%,rgba(236,203,104,.24),transparent 27%),linear-gradient(132deg,#14242d 0%,#173f3a 64%,#24363e 100%);box-shadow:0 16px 36px rgba(20,36,45,.16);color:#fff;}
+.homeLatestFeature:after{content:"";position:absolute;right:-45px;bottom:-65px;width:210px;height:210px;border:1px solid rgba(239,203,90,.16);border-radius:50%;box-shadow:0 0 0 26px rgba(239,203,90,.035),0 0 0 52px rgba(239,203,90,.025);pointer-events:none;}
+.homeLatestKicker{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:12px;color:rgba(255,255,255,.7);font-size:9px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;}
+.homeLatestKicker b{color:#f1d55e;font-size:12px;letter-spacing:.04em;}
+.homeLatestFeature h1{position:relative;z-index:1;max-width:820px;margin:21px 0 8px;color:#fff;font-size:clamp(34px,4vw,58px);font-weight:900;letter-spacing:-.04em;line-height:.94;}
+.homeLatestMeta{position:relative;z-index:1;color:#f1d55e;font-size:11px;font-weight:900;letter-spacing:.055em;text-transform:uppercase;}
+.homeLatestVenue{position:relative;z-index:1;margin-top:4px;color:rgba(255,255,255,.76);font-size:11px;font-weight:650;}
+.homeLatestActions{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:6px;margin-top:17px;}
+.homeLatestActions .btn{padding:7px 10px!important;font-size:9px!important;}
+.homeLatestActions .btn:not(.secondary){background:#f0d45c!important;color:#16252d!important;border-color:#f0d45c!important;}
+.homeLatestActions .btn.secondary{background:rgba(255,255,255,.08)!important;color:#fff!important;border-color:rgba(255,255,255,.24)!important;}
+.homeNowStats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+.homeNowStats>div{display:flex;min-width:0;flex-direction:column;justify-content:flex-end;padding:15px 16px;border:1px solid rgba(29,40,48,.13);border-radius:18px;background:linear-gradient(180deg,#fffdf9,#f7f2e8);box-shadow:0 8px 22px rgba(24,34,41,.055);}
+.homeNowStats b{font-family:var(--cue-entity-font);font-size:28px;font-weight:780;letter-spacing:-.035em;line-height:1;color:var(--ink);}
+.homeNowStats span{margin-top:7px;color:var(--muted);font-size:8px;font-weight:900;letter-spacing:.085em;text-transform:uppercase;}
+.monthBarItem.monthBarYearStart{border-left:1px solid rgba(29,40,48,.14);padding-left:5px;}
+.homeArchiveCard{margin-top:2px;}
+
+@media(min-width:1000px){
+  .homeTrendGrid{grid-template-columns:1fr!important;gap:12px!important;}
+  .homeTrendGrid>.card{height:auto!important;}
+  .monthTrend{height:140px!important;gap:10px!important;padding-left:4px!important;padding-right:4px!important;}
+  .monthBarLabel{font-size:9px!important;letter-spacing:.04em!important;}
+  .monthBarYear{font-size:8px!important;}
+  .weeklyActivityBars{height:126px!important;}
+}
+@media(max-width:999px){
+  .homeWelcome{grid-template-columns:1fr;}
+  .homeLatestFeature{min-height:170px;}
+}
+@media(max-width:760px){
+  .menuGroup{margin-bottom:13px;}
+  .menuGroupGrid{grid-template-columns:1fr;gap:6px;}
+  .menuGroupGrid .menuRandom{grid-column:auto;}
+  .homeWelcome{gap:8px;margin-top:0;}
+  .homeLatestFeature{min-height:0;padding:16px;border-radius:21px;}
+  .homeLatestFeature h1{margin:17px 0 7px;font-size:clamp(29px,10vw,42px);}
+  .homeLatestActions{display:grid;grid-template-columns:1fr 1fr;margin-top:14px;}
+  .homeLatestActions .btn:first-child{grid-column:1/-1;}
+  .homeNowStats{gap:6px;}
+  .homeNowStats>div{padding:11px 12px;border-radius:15px;}
+  .homeNowStats b{font-size:22px;}
+  .homeNowStats span{font-size:7px;letter-spacing:.055em;}
+  .monthBarItem.monthBarYearStart{border-left:0;padding-left:0;}
 }
 </style>
 

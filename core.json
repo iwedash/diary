@@ -1,7 +1,7 @@
 {
   "meta": {
-    "sourceFile": "Cuebook_Build_374",
-    "generated": "2026-10-02T01:25:00Z",
+    "sourceFile": "Cuebook_Build_376",
+    "generated": "2026-10-02T17:50:00+00:00",
     "rowCount": 1200,
     "performanceCount": 1200,
     "peopleCount": 19998,
@@ -11,20 +11,20 @@
     "appearanceCount": 19796,
     "creativeCreditCount": 17629,
     "notesCount": 529,
-    "updated": "2026-10-01",
-    "notes": "Build 375 adds compact show overviews, production-period navigation, production filters, and cast-change intelligence without changing source data.",
+    "updated": "2026-10-02",
+    "notes": "Build 377 refreshes the homepage hierarchy, gives desktop activity charts full width, shortens discovery sections, and groups navigation without changing source data.",
     "updatedBy": "OpenAI / Isaac audit continuation",
-    "updatedAt": "2026-10-02T01:25:00Z",
+    "updatedAt": "2026-10-02T17:50:00+00:00",
     "lastVerifiedExport": "v4-VERIFIED",
     "lastVerifiedExportAt": "2026-05-12T04:40:10Z",
-    "sourceBase": "json-b374",
-    "version": "v14.63.01",
-    "build": "json-b376",
-    "buildTime": "2026-10-02T01:25:00Z",
-    "buildDate": "2026-10-01",
+    "sourceBase": "json-b376",
+    "version": "v14.64.00",
+    "build": "json-b377",
+    "buildTime": "2026-10-02T17:50:00+00:00",
+    "buildDate": "2026-10-02",
     "base": "theatre-dashboard-v15-VERIFIED.zip",
-    "buildVersion": "v14.63.01",
-    "lastUpdated": "2026-10-01",
+    "buildVersion": "v14.64.00",
+    "lastUpdated": "2026-10-02",
     "normalizationMerged": true,
     "roleMergeCount": 80,
     "principalRulesUpdated": true,
@@ -5063,6 +5063,19 @@
     "build376PerformanceShowLink": {
       "label": "Show Page",
       "target": "#show-[showId]"
+    },
+    "build377HomepageFlow": {
+      "date": "2026-10-02T13:50:00-04:00",
+      "changes": [
+        "Added a latest-performance feature with direct Diary and Shows routes.",
+        "Replaced generic homepage totals with a current-year and recent-activity snapshot.",
+        "Stacked By Month and By Week at full desktop width while retaining the existing mobile chart treatment.",
+        "Reduced Recently Seen, On This Day, On This Week, and Top Shows to shorter discovery views.",
+        "Moved the archive browser to the end of the homepage and limited it to the six latest years.",
+        "Grouped the menu into Browse, Explore, and Tools and synchronized every runtime build label.",
+        "Reused the Cuebook logo as the site icon instead of requesting a missing favicon."
+      ],
+      "dataChange": "No attendance, cast, person, show, venue, credit, source, or Wicked records changed."
     }
   },
   "people": {
