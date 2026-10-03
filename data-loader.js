@@ -1,7 +1,7 @@
 (function(global){
 'use strict';
 const DEFAULT_MANIFEST='manifest.json';
-const BUILD_TOKEN='json-b378';
+const BUILD_TOKEN='json-b379';
 const ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
