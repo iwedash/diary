@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b388">
+<meta name="archive-house-build" content="json-b391">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <link rel="icon" href="cuebook-logo.png" type="image/png">
 <title>Cuebook</title>
@@ -1073,13 +1073,13 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b388" defer></script>
+<script src="data-loader.js?v=json-b391" defer></script>
 <script>
 /* Build 328 rescue fallback: if data-loader.js is missing/cached wrong, define the lightweight loader inline. */
 if(!window.loadCuebookData){
 (function(global){
 'use strict';
-const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b388',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b391',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 async function cueFetchJson(path,cache,timeoutMs){const join=path.includes('?')?'&':'?',controller=(typeof AbortController!=='undefined')?new AbortController():null,timer=controller?setTimeout(()=>controller.abort(),Number(timeoutMs||45000)):null;try{const res=await fetch(path+join+'v='+BUILD_TOKEN,{cache:cache||'default',signal:controller?controller.signal:undefined});if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);return await res.json();}catch(err){if(err&&err.name==='AbortError')throw new Error(`Timed out loading ${path}`);throw err;}finally{if(timer)clearTimeout(timer);}}
@@ -1294,7 +1294,7 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search Cuebook…"><button aria-label="Search">Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b388">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b391">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
@@ -1302,10 +1302,10 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <section class="menuGroup"><h2>Browse</h2><div class="menuGroupGrid"><a href="#home">Home</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a></div></section>
-    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b388">Money</a></div></section>
-    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b388">Cast Book</a><a href="companions.html?v=json-b388">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
+    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b391">Money</a></div></section>
+    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b391">Cast Book</a><a href="companions.html?v=json-b391">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
   </div>
-  <div class="menuVersion">B378 · v14.65.03</div>
+  <div class="menuVersion">B391 · v14.65.12</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script id="cue-preboot">
@@ -1340,8 +1340,8 @@ setTimeout(function(){
 <script>
 (function(){
 'use strict';
-const BUILD='json-b388';
-const VERSION='v14.65.03';
+const BUILD='json-b391';
+const VERSION='v14.65.12';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 try{window.__cueBootStatus&&window.__cueBootStatus('Main Cuebook script executing…');}catch(_){}
@@ -1918,7 +1918,7 @@ function durableCastCell(cell){
 function castGrid(showId,ps){
   let model=castGridExportModel(showId,ps);
   if(!model.roles.length||!model.rows.length)return '<div class="empty">No cast-grid rows available.</div>';
-  let head=`<thead><tr><th>Performance</th>${model.roles.map(r=>`<th>${esc(r)}</th>`).join('')}</tr></thead>`;
+  let head=`<thead><tr><th>Performance</th>${model.roles.map(r=>`<th><a class="castGridRoleLink" href="#show-${idNum(showId)}?role=${encodeURIComponent(encodeURIComponent(r))}" aria-label="See performers seen as ${esc(r)}">${esc(r)}</a></th>`).join('')}</tr></thead>`;
   let productionByPerformance=new Map();showProductionGroups(ps).forEach(g=>g.performances.forEach(p=>productionByPerformance.set(idNum(p.id),g.key)));
   let body=model.rows.map((row,rowIndex)=>{
     let previous=rowIndex?model.rows[rowIndex-1]:null,sameProduction=!!previous&&productionByPerformance.get(idNum(previous.performance.id))===productionByPerformance.get(idNum(row.performance.id)),changedCount=0;
@@ -1937,13 +1937,13 @@ function castGrid(showId,ps){
 function castGridRows(showId,ps){let model=castGridExportModel(showId,ps);let rows=[['Performance','Date','Time','Venue',...model.roles]];model.rows.forEach(r=>{let p=r.performance,vals=r.cells.map(c=>c.items.map(it=>{let t=personName(it.app.personId)+(it.app.coverType?` (${labelCover(it.app.coverType)})`:'');if(it.qualifier)t+=` — ${it.qualifier}`;return t;}).join(' / '));rows.push([perfTitle(p),p.date||'',p.time||'',venueName(p.venueId)||'',...vals]);});return rows;}
 function downloadCastGridCSV(showId){let ps=(showPerfs.get(idNum(showId))||[]).slice();let s=S.get(idNum(showId));let rows=castGridRows(showId,ps);let csv=rows.map(r=>r.map(csvCell).join(',')).join('\n');downloadTextFile(safeFileName(`${s?.title||s?.name||'show'}-cast-grid`)+'.csv',csv,'text/csv');}
 
-function specialAppearancesSection(id){let pid=idNum(id);let rows=specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));if(!rows.length)return'';let virtual=rows.filter(r=>r.appearanceType==='Virtual Ensemble (non-appearing)'),other=rows.filter(r=>r.appearanceType!=='Virtual Ensemble (non-appearing)');let out='';if(virtual.length)out+=`<section class="card" id="virtual-ensemble"><h2>Virtual Ensemble (non-appearing)</h2><p class="sectionIntro">Program-listed additional voices. These are archival listings only and never count as cast appearances or performance statistics.</p><div class="chips">${virtual.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;if(other.length)out+=`<section class="card" id="special-appearances"><h2>Special Appearances</h2><p class="sectionIntro">Guest appearances at this performance. These are not role credits and do not count as cast appearances.</p><div class="chips">${other.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;return out;}
+function specialAppearancesSection(id){let pid=idNum(id);let rows=specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999));if(!rows.length)return'';let virtual=rows.filter(r=>r.appearanceType==='Virtual Ensemble (non-appearing)'),voice=rows.filter(r=>r.voiceOnly===true),other=rows.filter(r=>r.appearanceType!=='Virtual Ensemble (non-appearing)'&&r.voiceOnly!==true);let out='';if(virtual.length)out+=`<section class="card" id="virtual-ensemble"><h2>Virtual Ensemble (non-appearing)</h2><p class="sectionIntro">Program-listed additional voices. These are archival listings only and never count as cast appearances or performance statistics.</p><div class="chips">${virtual.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;if(voice.length)out+=`<section class="card" id="recorded-voices"><h2>Recorded voice appearances</h2><div class="chips">${voice.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))} · ${esc(r.context||'Recorded voice')}</a>`).join('')}</div></section>`;if(other.length)out+=`<section class="card" id="special-appearances"><h2>Special Appearances</h2><p class="sectionIntro">Guest appearances at this performance. These are not role credits and do not count as cast appearances.</p><div class="chips">${other.map(r=>`<a class="pill" href="#person-${r.personId}">${esc(personName(r.personId))}</a>`).join('')}</div></section>`;return out;}
 
 function performanceView(id){let p=performanceById(id);if(!p)return notFound();let cast=(perfApps.get(idNum(id))||[]).slice().sort((a,b)=>(a.displayOrder||9999)-(b.displayOrder||9999)||String(roleNameForAppearance(a)).localeCompare(String(roleNameForAppearance(b))));let groups={principal:[],child:[],orphan:[],background:[],ensemble:[],swing:[],other:[]};cast.forEach(a=>{let g=displayAppearanceGroup(a);(groups[g]||(groups[g]=[])).push(a);});let markers=markerDisplay(p).map(x=>`<span class="pill notePill">${esc(x)}</span>`).join('');let heroBlock=`<div class="performanceHeaderSlim"><div class="heroNumber">${showNumberBadge(p)}</div><section class="hero heroSmall perfHeroCompact"><h1>${esc(perfTitle(p))}</h1></section><div class="dbMicro"><span>DB PERF ${esc(p.id)}</span><a href="#show-${p.showId}">DB SHOW ${esc(p.showId)}</a><span>DB VENUE ${esc(p.venueId)}</span></div></div>`;let actions=performanceToolsAndNav(p,id);let castHtml=(p.type==='Special Event')?castSection('Participants',cast,'full'):(SINGLE_CAST_LIST_SHOWS.has(showTitle(p.showId))||showTitle(p.showId)==='Message In A Bottle')?castSection('Cast',cast,'full'):`${castSection('Principals',groups.principal,'principal')}${castSection(showTitle(p.showId)==='The Sound of Music'?'Von Trapp Children':'Children',groups.child,'child')}${castSection('Orphans',groups.orphan,'orphan')}${castSection('Background Vocalists',groups.background,'background')}${castSection('Ensemble',groups.ensemble,'ensemble')}${castSection('Swings / Other',groups.swing.concat(groups.other),'')}`;let castBlock=cast.length?`<section class="card castListCard" id="cast"><h2>Cast</h2>${castHtml}</section>`:'';let left=`${heroBlock}${performancePager(p)}${performanceFactStrip(p)}${actions}${actualSubstitutionsSection(id)}${castBlock}${specialAppearancesSection(id)}${coverPoolSection(id)}${creditsSection(id)}${songsSection(id)}${sourceSection(p)}`;let right=`<aside><section class="card"><h3>Notes / Markers</h3>${markers?`<div class="chips">${markers}</div>`:'<div class="empty">No markers logged.</div>'}${p.notes?`<div class="divider"></div><h3>Notes</h3><div class="note">${esc(p.notes).replace(/\n/g,'<br>')}</div>`:''}</section>${relatedPerfSection(p)}${programMetaSection(p)}</aside>`;shell(`<div class="twoPane"><main>${left}</main>${right}</div>`)}
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<details class="card archiveCard" id="archive"><summary><span>Source / Archive</span></summary><div class="archiveBody">${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</div></details>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b388',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b391',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
@@ -2053,10 +2053,49 @@ function showCompanyChanges(showId,ps){
   let staffBlock=`<div class="companyChangeBlock"><div class="companyChangeBlockHead"><h3>Production staff</h3><span>${esc(staffSummary)}</span></div>${latestStaff.length?`<div class="showChangeList">${latestStaff.map(x=>eventHtml(x,'staff')).join('')}</div>`:`<div class="companyChangeEmpty">${completeStaff.length>1?'No staff changes between complete snapshots.':'A second complete staff snapshot is needed before changes can be compared.'}</div>`}</div>`;
   return `<section class="card showChangeCard companyChangeCard"><div class="sliderHead companyChangeHeader"><div><h2>Company Changes</h2><p>Roster changes only. Temporary cover appearances stay with the individual performance.</p></div></div>${castBlock}${staffBlock}</section>`;
 }
+function showRoleHistory(showId,ps){
+  const model=castGridExportModel(showId,ps),byRole=new Map(),represented=new Map();
+  function add(label,a,perf){
+    label=displayRoleName(label);let personId=idNum(a.personId),perfId=idNum(perf.id);
+    if(!label||!personId||!perfId)return;
+    if(!byRole.has(label))byRole.set(label,{label,people:new Map(),performances:new Set(),firstOrder:a.displayOrder||9999});
+    let role=byRole.get(label);role.firstOrder=Math.min(role.firstOrder,a.displayOrder||9999);
+    if(!role.people.has(personId))role.people.set(personId,{personId,performances:new Map()});
+    role.people.get(personId).performances.set(perfId,perf);role.performances.add(perfId);
+  }
+  model.rows.forEach(row=>{
+    let perf=row.performance,used=new Set();represented.set(idNum(perf.id),used);
+    row.cells.forEach((cell,i)=>cell.apps.forEach(a=>{used.add(idNum(a.id));add(model.roles[i],a,perf);}));
+  });
+  // Roles missing from the grid still belong in the show's actual performance history.
+  ps.forEach(perf=>(perfApps.get(idNum(perf.id))||[]).forEach(a=>{
+    if(!represented.get(idNum(perf.id))?.has(idNum(a.id)))add(gridRoleName(a),a,perf);
+  }));
+  return [...byRole.values()].map(r=>({
+    ...r,people:[...r.people.values()].map(person=>({
+      ...person,count:person.performances.size,
+      dates:[...person.performances.values()].sort((a,b)=>comparePerformancesChronological(b,a))
+    })).sort((a,b)=>b.count-a.count||personName(a.personId).localeCompare(personName(b.personId))),
+    count:r.performances.size
+  })).sort((a,b)=>b.count-a.count||a.firstOrder-b.firstOrder||a.label.localeCompare(b.label));
+}
+function showRoleHref(showId,label){return `#show-${idNum(showId)}?role=${encodeURIComponent(encodeURIComponent(label))}`;}
+function showRolesForShow(showId,ps,selectedRole){
+  let show=S.get(idNum(showId)),rolesSeen=showRoleHistory(showId,ps),role=selectedRole?rolesSeen.find(r=>r.label===selectedRole):null;
+  let nav=`<div class="programActions showPageActions"><a class="btn secondary" href="#show-${idNum(showId)}">Show page</a>${selectedRole?`<a class="btn secondary" href="#show-${idNum(showId)}?tab=roles">All roles</a>`:''}</div>`;
+  if(selectedRole&&!role){shell(`${hero(show.title||show.name,'Roles seen','small')}${nav}<section class="card"><h2>Role not found</h2><p>This show has no recorded onstage appearances for that role.</p></section>`);return;}
+  if(role){
+    let rows=role.people.map((p,i)=>`<article class="showRolePerson"><div class="showRolePersonHead"><span class="showRoleRank">${i+1}</span><a href="#person-${p.personId}">${esc(personName(p.personId))}</a><b>${esc(num(p.count))} performance${p.count===1?'':'s'}</b></div><details><summary>View ${esc(num(p.count))} performance${p.count===1?'':'s'}</summary><div class="showRoleDates">${p.dates.map(perf=>`<a href="#perf-${perf.id}">${esc(fmtDate(perf.date))}${perf.time?` · ${esc(perf.time)}`:''}${perf.type?` · ${esc(perf.type)}`:''}</a>`).join('')}</div></details></article>`).join('');
+    shell(`${hero(role.label,`${show.title||show.name} · ${num(role.count)} attended performances · ${num(role.people.length)} performers`,'small')}${nav}<section class="card showRolesCard"><h2>People you’ve seen in this role</h2><p>Ranked by distinct attended performances. Cover appearances count when the performer was onstage.</p>${rows||'<div class="empty">No recorded appearances.</div>'}</section>`);return;
+  }
+  let cards=rolesSeen.map(r=>`<a class="showRoleTile" href="${showRoleHref(showId,r.label)}"><span class="showRoleTileName">${esc(r.label)}</span><span class="showRoleTileMeta">${esc(num(r.people.length))} performer${r.people.length===1?'':'s'} · ${esc(num(r.count))} performance${r.count===1?'':'s'}</span><span class="showRoleTileTop">${esc(personName(r.people[0].personId))} ${esc(num(r.people[0].count))}×</span></a>`).join('');
+  shell(`${hero(show.title||show.name,`${num(rolesSeen.length)} roles seen across ${num(ps.length)} performances`,'small')}${nav}<section class="card showRolesCard"><h2>Roles seen</h2><p>From the actual cast at performances you attended. Tap a role for its performers, ranked by how often you saw them.</p><div class="showRoleTiles">${cards||'<div class="empty">No recorded roles yet.</div>'}</div></section>`);
+}
 function showView(id){
   let s=S.get(idNum(id));if(!s)return notFound();
   let ps=(showPerfs.get(idNum(id))||[]).slice(),groups=showProductionGroups(ps),activeKey=state.production||'',activeGroup=groups.find(g=>g.key===activeKey)||null,shown=activeGroup?activeGroup.performances:ps,label=activeGroup?activeGroup.label:'';
-  let actions=`<div class="programActions showPageActions"><button class="btn" type="button" onclick="downloadCastGridCSV(${idNum(id)})">Download Cast Grid CSV</button><button class="btn" type="button" onclick="downloadCastGridXLSX(${idNum(id)})">Download Cast Grid Excel</button><button class="btn downloadJpg" type="button" onclick="downloadCastGridJPG(${idNum(id)})">Download Cast Grid JPG</button><a class="btn secondary" href="#diary?type=all&q=${encodeURIComponent(s.title||s.name||'')}">Diary Search</a></div>`;
+  if(state.tab==='roles'||state.role){showRolesForShow(id,ps,state.role||'');return;}
+  let actions=`<div class="programActions showPageActions"><a class="btn" href="#show-${idNum(id)}?tab=roles">Roles seen</a><button class="btn" type="button" onclick="downloadCastGridCSV(${idNum(id)})">Download Cast Grid CSV</button><button class="btn" type="button" onclick="downloadCastGridXLSX(${idNum(id)})">Download Cast Grid Excel</button><button class="btn downloadJpg" type="button" onclick="downloadCastGridJPG(${idNum(id)})">Download Cast Grid JPG</button><a class="btn secondary" href="#diary?type=all&q=${encodeURIComponent(s.title||s.name||'')}">Diary Search</a></div>`;
   shell(`${hero(s.title||s.name,'',true)}${showOverviewSection(ps,groups)}${showProductionNav(id,groups,activeKey)}${actions}${showCompanyChanges(id,shown)}<section class="card showGridCard showTableCard"><div class="sliderHead"><h2>Cast Grid${label?` · ${esc(label)}`:''}</h2></div>${castGrid(id,shown)}</section><section class="card showTableCard showPerfCard"><div class="sliderHead"><h2>Performances${label?` · ${esc(label)}`:''}</h2></div>${showPerfTable(shown)}</section>`);
 }
 function personAppearanceKind(a){let c=String(a.coverType||'').toLowerCase();if(c==='standby')return's/b';if(c==='understudy')return'u/s';if(c==='swing')return's/w';if(c==='onstage_swing')return'O/Sw';if(c==='vacation_swing')return'V/S';if(c==='vacation_cover')return'V/C';if(c==='alternate')return'alt';if(c==='temporary_replacement')return't/r';return c?labelCover(c):'';}
@@ -3227,6 +3266,29 @@ html,body{width:100%;max-width:100%;overflow-x:hidden!important}
   .showChangeHead{align-items:flex-start;}
   .showChangeHead span{text-align:right;}
 }
+</style>
+
+<style id="cuebook-b391-show-roles">
+.castGrid th .castGridRoleLink{display:block;color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.48);text-underline-offset:3px;border-radius:4px}
+.castGrid th .castGridRoleLink:hover,.castGrid th .castGridRoleLink:focus-visible{color:#f4d649;text-decoration-color:#f4d649;outline-offset:3px}
+.showRolesCard>p{color:var(--muted);margin:0 0 15px;font-size:12px;line-height:1.5}
+.showRoleTiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.showRoleTile{display:flex;flex-direction:column;gap:6px;padding:14px;border:1px solid var(--line);border-radius:14px;background:#fffdf8;text-decoration:none;color:inherit;min-width:0}
+.showRoleTile:hover,.showRoleTile:focus-visible{border-color:#23877e;background:#f0faf6;box-shadow:0 5px 16px rgba(24,49,57,.1)}
+.showRoleTileName{font-size:15px;font-weight:850;color:#183139;line-height:1.25}
+.showRoleTileMeta{font-size:11px;color:#54676d}
+.showRoleTileTop{font-size:11px;color:#1e615b;margin-top:auto}
+.showRolePerson{border-top:1px solid var(--line);padding:13px 0}
+.showRolePersonHead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.showRolePersonHead>a{font-weight:800;color:#173f3a;font-size:15px}
+.showRolePersonHead>b{margin-left:auto;white-space:nowrap;font-size:12px}
+.showRoleRank{display:inline-grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#e6f3ed;color:#18423c;font-weight:900}
+.showRolePerson details{margin:9px 0 0 37px;font-size:11px}
+.showRolePerson summary{cursor:pointer;color:#286f69;font-weight:750}
+.showRoleDates{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.showRoleDates>a{padding:7px 9px;background:#f7f1e5;border-radius:9px;color:#183139;text-decoration:none}
+.showRoleDates>a:hover,.showRoleDates>a:focus-visible{text-decoration:underline}
+@media(max-width:760px){.showRoleTiles{grid-template-columns:1fr}.showRolePersonHead>b{width:100%;margin-left:37px}.showRolePerson details{margin-left:37px}}
 </style>
 
 </body></html>
