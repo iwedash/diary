@@ -13,14 +13,14 @@
     "companionLinks": 678,
     "sources": 1540
   },
-  "generatedAt": "2026-10-06T16:11:20.353644+00:00",
-  "updatedAt": "2026-10-06T16:11:20.353644+00:00",
-  "description": "Build 393: complete ticket audit, companion and seat corrections, and approved performance/show/role/diary design. Source-dependent program gaps remain unresolved.",
+  "generatedAt": "2026-10-06T16:40:10.084360+00:00",
+  "updatedAt": "2026-10-06T16:40:10.084378+00:00",
+  "description": "Build 394: restore Cuebook performance header styling and align new show, role and diary surfaces with the established visual style. Understudy board and all data preserved.",
   "fileCount": 13,
-  "build": "json-b393",
-  "version": "v14.66.0",
-  "generated": "2026-10-06T16:11:20.353644+00:00",
-  "totalBytes": 19916743,
+  "build": "json-b394",
+  "version": "v14.66.1",
+  "generated": "2026-10-06T16:40:10.084381+00:00",
+  "totalBytes": 19920811,
   "largestFileBytes": 5255903,
   "files": [
     {
@@ -32,17 +32,17 @@
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "4edb3b3b715199cf966b5b314da5099fb8432467ece03856eef8ed2eb3b55dd0"
+      "sha256": "ac38ae67efb9012893e76bb018739ff47d3e28e975f53974350a29916939e0a3"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "2cf4db17399fee8706a8f7004c47a05558eb83751c2d3413206d34336d43bd09"
+      "sha256": "3aebc858aa38f2265ee21ba2295c113db058dbb7ad03416cfc521d0b4eb2a8dd"
     },
     {
       "path": "core.json",
-      "bytes": 3825377,
-      "sha256": "55d162aac67f9a8998900bed0200d3f887dec5b5529d15f5875ccbf6ea866ed4",
+      "bytes": 3825345,
+      "sha256": "51464793f574d54d2aebd809852c37dbd845813828c3fc50333807836c59032b",
       "kind": "data"
     },
     {
@@ -59,17 +59,17 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "697679a14bebf7a9af73333ce113fcbb98dddeba8f5ae37abc39a482b45bd855"
+      "sha256": "c68a0c27c07f5c0f80b4f6ecd0a71f608f9c47892757eb7e2785bc58b7da821e"
     },
     {
       "path": "index.html",
-      "bytes": 478194,
-      "sha256": "010e924d3467f8b82836b7556ca312f5039f9843db3a7ad03e35eb50d409fdce"
+      "bytes": 482294,
+      "sha256": "d8b240e007bed611905d9b3704137747cdaa6496507c1b6d1d1c6cb69cb5efe2"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "14e7ab68a33829441f250953a863400e4ac197d1149dce2ea42a378bbac9fbdd"
+      "sha256": "00003673b6d5d970fab869cc18263fe7cf13d7bb949c5f04a3302d1e79be6cfa"
     },
     {
       "path": "production-archive.json",
@@ -86,7 +86,7 @@
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "af06392345f0f15168c0fa1312df3bb2cf751c5c1c8dcb48597e6d57da507319"
+      "sha256": "04f80224473bf2b3efad3499a47ecea1689d4d1adcca624786cb5984875aa510"
     },
     {
       "path": "sources.json",
