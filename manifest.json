@@ -3,24 +3,24 @@
   "storage": "split-json",
   "counts": {
     "performances": 1203,
-    "people": 20420,
+    "people": 20478,
     "shows": 521,
     "venues": 205,
     "roles": 5919,
     "appearances": 19658,
-    "creativeCredits": 17939,
+    "creativeCredits": 17943,
     "specialAppearances": 449,
     "companionLinks": 678,
-    "sources": 1540
+    "sources": 1541
   },
-  "generatedAt": "2026-10-06T16:40:10.084360+00:00",
-  "updatedAt": "2026-10-06T16:40:10.084378+00:00",
-  "description": "Build 394: restore Cuebook performance header styling and align new show, role and diary surfaces with the established visual style. Understudy board and all data preserved.",
+  "generatedAt": "2026-10-06T20:40:00.422204+00:00",
+  "updatedAt": "2026-10-06T20:40:00.422204+00:00",
+  "description": "Build 395: full printed Memoirs program for September 28 and October 3; show Most seen displays 8 and expands to 40. Actual cast, covers and attendance preserved.",
   "fileCount": 13,
-  "build": "json-b394",
-  "version": "v14.66.1",
-  "generated": "2026-10-06T16:40:10.084381+00:00",
-  "totalBytes": 19920811,
+  "build": "json-b395",
+  "version": "v14.66.2",
+  "generated": "2026-10-06T20:40:00.422204+00:00",
+  "totalBytes": 20048769,
   "largestFileBytes": 5255903,
   "files": [
     {
@@ -32,23 +32,23 @@
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "ac38ae67efb9012893e76bb018739ff47d3e28e975f53974350a29916939e0a3"
+      "sha256": "7dafbd6da0523be570c946f34dc09f9ea145aa9c8e2c1b3fff218d9713b8401f"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "3aebc858aa38f2265ee21ba2295c113db058dbb7ad03416cfc521d0b4eb2a8dd"
+      "sha256": "7d00eba8331d89780e1410fc826a0f1850eb5e7b204d61724717b228afb728d3"
     },
     {
       "path": "core.json",
-      "bytes": 3825345,
-      "sha256": "51464793f574d54d2aebd809852c37dbd845813828c3fc50333807836c59032b",
+      "bytes": 3845918,
+      "sha256": "1b397195273142ef8635178061f6cdb143ad613b2242cfce1b98b4cf76454eed",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2195214,
-      "sha256": "a6d65f3c176c1a2fdefa35b5891d90e8fb18926395c3cac0da57687ad4f13e3b",
+      "bytes": 2199405,
+      "sha256": "0237b35bf75439c876df55c3025e1f9b27c76d12bd8375d52fda7d2f86e0a089",
       "kind": "data"
     },
     {
@@ -59,39 +59,39 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "c68a0c27c07f5c0f80b4f6ecd0a71f608f9c47892757eb7e2785bc58b7da821e"
+      "sha256": "712575874b6c8b10d5c21e23176bf0befdf3100dd793cef6c299345d0c76d0ad"
     },
     {
       "path": "index.html",
-      "bytes": 482294,
-      "sha256": "d8b240e007bed611905d9b3704137747cdaa6496507c1b6d1d1c6cb69cb5efe2"
+      "bytes": 483590,
+      "sha256": "2ee0ac71c78f612f47777f581e144a4d4bd478649f4bc0bc75df2da866e3c6a3"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "00003673b6d5d970fab869cc18263fe7cf13d7bb949c5f04a3302d1e79be6cfa"
+      "sha256": "4daeabeb072578248938085aba97b2938c0f23ae7a6021700950816919cb3f5a"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2739862,
-      "sha256": "d07272e91e1cce60dca433ae176cf8d7494e2b1be7a8d828b2f579d9c5deccbb",
+      "bytes": 2810250,
+      "sha256": "25c79bfc65dc9d230a603f5e712edb4bad9c873030637049c7546f8710227bea",
       "kind": "data"
     },
     {
       "path": "program-credits.json",
-      "bytes": 3506127,
-      "sha256": "9b79ad58deef70b66bd076388ca09b1a36e488b249eaeeb5247a8bf4651bedf8",
+      "bytes": 3537186,
+      "sha256": "5e8eacca8f8c6fa56fda25a3d399f06e693de18a681909d30737e808e38e2b23",
       "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "04f80224473bf2b3efad3499a47ecea1689d4d1adcca624786cb5984875aa510"
+      "sha256": "60ca19172188f1bfd747b1c068e4569867f97437168ff2af21095792225644f4"
     },
     {
       "path": "sources.json",
-      "bytes": 723797,
-      "sha256": "94c78f5ae0af1229b106d5cc085a9c1e55c4649d1b696a42af64cc5e1b1cf4ab",
+      "bytes": 724248,
+      "sha256": "25bf55b2ef9739ef22f569d213f6e3608bdb1d1ebb44a71c2e2f98531a902a6f",
       "kind": "sources"
     }
   ]
