@@ -2,53 +2,53 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1204,
-    "people": 20504,
+    "performances": 1205,
+    "people": 20516,
     "shows": 522,
     "venues": 206,
-    "roles": 5921,
-    "appearances": 19660,
-    "creativeCredits": 17950,
+    "roles": 5932,
+    "appearances": 19671,
+    "creativeCredits": 17959,
     "specialAppearances": 449,
-    "companionLinks": 679,
-    "sources": 1542
+    "companionLinks": 680,
+    "sources": 1543
   },
-  "generatedAt": "2026-10-06T22:55:12.911549+00:00",
-  "updatedAt": "2026-10-06T22:55:12.911549+00:00",
-  "description": "Build 396 adds The Ask, October 6, 2026 evening, with Ute Schwemmer and full supplied printed credits.",
+  "generatedAt": "2026-10-07T23:10:18.121631+00:00",
+  "updatedAt": "2026-10-07T23:10:18.121631+00:00",
+  "description": "Build 397 adds Benjamin Button, October 7, 2026 invited dress at the Public Theater, comp with Steve Hohne, with supplied cast and creative credits.",
   "fileCount": 13,
-  "build": "json-b396",
-  "version": "v14.66.3",
-  "generated": "2026-10-06T22:55:12.911549+00:00",
-  "totalBytes": 20065574,
-  "largestFileBytes": 5256551,
+  "build": "json-b397",
+  "version": "v14.66.4",
+  "generated": "2026-10-07T23:10:18.121631+00:00",
+  "totalBytes": 20082221,
+  "largestFileBytes": 5261397,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5256551,
-      "sha256": "a3cc63ae82676dc4293ea3ec46c0ee7527f0dc3682ba2ba4154c4ad1db85011b",
+      "bytes": 5261397,
+      "sha256": "93868d2f51dd986165ac1d08b7f000dfc1b864711b4b522f6701d345768efafd",
       "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "5201438f2e5e799b742e4e34a4477746234dc9a63722f0fbf3da1cc2bba311c2"
+      "sha256": "fd8f76f495fa1d6054de62d8286311f6c799101f0dbb33d97faf5e77e8be0f30"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "a3586738b68c6bdc56392edc51cbc82c5629ac000d24d60ac8efff571c289087"
+      "sha256": "256226d0fa55a50121ce4092c80e6c53b4b5047dd6fb2cc765c0bb981f995157"
     },
     {
       "path": "core.json",
-      "bytes": 3853059,
-      "sha256": "4e4fea2a4e998d89aed490658e57f1f7e5d37f9734a595a352609481d38eb4e4",
+      "bytes": 3858553,
+      "sha256": "8fac839c2919ec0386a5b3af6b717a4baab536a09a4f3520e23a775515a67e8a",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2201529,
-      "sha256": "b985acf5473a61cb2081c03920b80b3b0c7b29730f987aaab00c915f275d05d9",
+      "bytes": 2203656,
+      "sha256": "3c80b5998056690ddbdadd69070ae7e538fd2cc08f872dadf41f81717a641f22",
       "kind": "data"
     },
     {
@@ -59,39 +59,39 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "987539136ee3da5f42f822c7de04b8d6cc2bf4682c7709fe9cf1ce7a8045cc2a"
+      "sha256": "1812952d48021afe62ace2b157672eb5af369f85e08afca91b9febe2de9a4445"
     },
     {
       "path": "index.html",
       "bytes": 483590,
-      "sha256": "e6247d99027dde26650af15c67be9e3cd1269c61e884694f2a60c08781716e22"
+      "sha256": "442dce35cff0dbb26f59d8b3fdd412a30ece2e0519543b225d9881815ab8808c"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "314579a5c461e26420f6642e8ed7f5b5084c576258ef61ee3b7127d6ed7b53fc"
+      "sha256": "6dec28a0ec3972071e4bc667ead9267b28c57c1f07cd52240abcba188dc37f9a"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2815632,
-      "sha256": "d2b1b2388242e0edd8203e8c54c02438e5c9bae279fadf151c2941f6cb486ada",
+      "bytes": 2818948,
+      "sha256": "fef6d0bf87a7f2fbc4a17320ce52a42353e7dfe5c5904678726f22f78bf786f0",
       "kind": "data"
     },
     {
       "path": "program-credits.json",
-      "bytes": 3538271,
-      "sha256": "7bfe84c42bb7defafeedb385395f90627b52f1e1096245c352cbbf75cfdaf723",
+      "bytes": 3538759,
+      "sha256": "680d9f9f348b3ea783b1000ddd35494a578523506f583425e0bcf5068d922b09",
       "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "e63060e9d9675c54edd12730680db338f53ba0195c0ca8538b111e41d2ec3f68"
+      "sha256": "460005650a9eac9c278ebbc042fad30ebc8b9dafffa68bab3c8a9b755c585a50"
     },
     {
       "path": "sources.json",
-      "bytes": 724673,
-      "sha256": "abb2213e9891fb2802a0d5f7f7b9fb916c23f003408fc296d59c10f5ec0025e3",
+      "bytes": 725049,
+      "sha256": "2afb48e8fd1c2135c9e4ccafc5871e43434a2a20edaac9418d82b68f2f060697",
       "kind": "sources"
     }
   ]
