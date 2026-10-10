@@ -13,14 +13,14 @@
     "companionLinks": 680,
     "sources": 1546
   },
-  "generatedAt": "2026-10-09T23:34:21.565792+00:00",
-  "updatedAt": "2026-10-09T23:34:21.565792+00:00",
-  "description": "Build 400 adds Dear Evan Hansen at White Plains Performing Arts Center, October 9 evening, AA6, $53, with supplied program credits.",
+  "generatedAt": "2026-10-10T01:04:56.992817+00:00",
+  "updatedAt": "2026-10-10T01:04:56.992817+00:00",
+  "description": "Build 401 consistently applies established show role order to performance cast, covers, role navigation, and cast copy/export formats. No attendance or credits changed.",
   "fileCount": 13,
-  "build": "json-b400",
-  "version": "v14.66.7",
-  "generated": "2026-10-09T23:34:21.565792+00:00",
-  "totalBytes": 20167499,
+  "build": "json-b401",
+  "version": "v14.66.8",
+  "generated": "2026-10-10T01:04:56.992817+00:00",
+  "totalBytes": 20167944,
   "largestFileBytes": 5274046,
   "files": [
     {
@@ -32,17 +32,17 @@
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "00664f0b1ec74a39afeac0f750f779a063a1bffe2c1b3b925c867592fc50b67f"
+      "sha256": "2a19b8cda46f78ba00fbe6fce029134437cfbdcd209592baeea59e3631b08cf5"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "f469baa7ab6e8b55a23b2f1535b53466b0bbba29a2e1dbe90576182dab8f8b73"
+      "sha256": "71993dafc40f6e22e157ae3610ce3576c161cef4e4031d1b24264a85315c7334"
     },
     {
       "path": "core.json",
-      "bytes": 3873740,
-      "sha256": "023a68e52db56b7b373cb62d6c0d771d80354cc20c949f0a4f5b647a0b3f5c42",
+      "bytes": 3873777,
+      "sha256": "23a384a3fc61338631ae9dc5c6222405c82d134cb7fc61dacd25825aeb3f4a44",
       "kind": "data"
     },
     {
@@ -59,17 +59,17 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "962b96faa0529395d2f21a63463abefaebfc33d27d5012fbd712e4af4e2d7a78"
+      "sha256": "569798b922c2646d77be23583abe04864615fe96024793f9eee74146c42254da"
     },
     {
       "path": "index.html",
-      "bytes": 485496,
-      "sha256": "ec615498b450eeb574f0de5f78ac128a1eb463fe579839c6147b2e987396ad6c"
+      "bytes": 485904,
+      "sha256": "51415c0f9106e0614a9835b00097a97224253278d77b4722ce9056bf706efa9b"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "6ae3346eb96ab94dacd6942d6901819f0dd42e88d48447d3ef3d2881d2213ee5"
+      "sha256": "b81a25f896e78bc5896f953951931d70c2069bda8de44e4a34b35821ed75ce10"
     },
     {
       "path": "production-archive.json",
@@ -86,7 +86,7 @@
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "32c17e38c0a9eecc262c3dd53625b70c69395860f3f5fbbd69d16b31728b5a71"
+      "sha256": "ac630591ebeb86572f3e03d58f9d0873b53529e72e7563372de033d958d2c53f"
     },
     {
       "path": "sources.json",
