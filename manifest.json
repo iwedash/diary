@@ -2,53 +2,53 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1207,
-    "people": 20553,
-    "shows": 522,
-    "venues": 207,
-    "roles": 5932,
-    "appearances": 19710,
-    "creativeCredits": 18002,
+    "performances": 1209,
+    "people": 20736,
+    "shows": 524,
+    "venues": 208,
+    "roles": 5948,
+    "appearances": 19730,
+    "creativeCredits": 18039,
     "specialAppearances": 449,
-    "companionLinks": 680,
-    "sources": 1546
+    "companionLinks": 681,
+    "sources": 1549
   },
-  "generatedAt": "2026-10-10T01:04:56.992817+00:00",
-  "updatedAt": "2026-10-10T01:04:56.992817+00:00",
-  "description": "Build 401 consistently applies established show role order to performance cast, covers, role navigation, and cast copy/export formats. No attendance or credits changed.",
+  "generatedAt": "2026-10-10T22:58:08.692712+00:00",
+  "updatedAt": "2026-10-10T22:58:08.692712+00:00",
+  "description": "Build 404 adds Good Time Charlie October 10 evening, D13 comp with Jill Weissman.",
   "fileCount": 13,
-  "build": "json-b401",
-  "version": "v14.66.8",
-  "generated": "2026-10-10T01:04:56.992817+00:00",
-  "totalBytes": 20167944,
-  "largestFileBytes": 5274046,
+  "build": "json-b404",
+  "version": "v14.66.11",
+  "generated": "2026-10-10T22:58:08.692712+00:00",
+  "totalBytes": 20276109,
+  "largestFileBytes": 5279096,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5274046,
-      "sha256": "79c17db34c73856bacaf851d61d8b45eb529cacac3ff0e97dbe5f9858688fca1",
+      "bytes": 5279096,
+      "sha256": "ea8b3a220002ff208b0b94d6752c9f748f6a7d63822d204c47458333bd7bd1d7",
       "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "2a19b8cda46f78ba00fbe6fce029134437cfbdcd209592baeea59e3631b08cf5"
+      "sha256": "49f7f6d8c63da10a8c8ce91327dbb4ead7a17f08873c8422de45cdecc2fccd7d"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "71993dafc40f6e22e157ae3610ce3576c161cef4e4031d1b24264a85315c7334"
+      "sha256": "94c8dec377202ce3e754dd52b8e29a54456e05d42a1ac97d2a43afe146903ec7"
     },
     {
       "path": "core.json",
-      "bytes": 3873777,
-      "sha256": "23a384a3fc61338631ae9dc5c6222405c82d134cb7fc61dacd25825aeb3f4a44",
+      "bytes": 3904128,
+      "sha256": "06773f5fbb7edd2f726953cd992f41c41b07230824bc9a0d91fe8506557a492d",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2210670,
-      "sha256": "5a7d036187a118fc3f775177fe8bfffc62c8152bced70463cc3f38060ccf681a",
+      "bytes": 2219478,
+      "sha256": "68b086f136a37043fe4aa43ba7dd15cea14dc76c27c82ac6e5c6427c954f4c4b",
       "kind": "data"
     },
     {
@@ -59,39 +59,39 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "569798b922c2646d77be23583abe04864615fe96024793f9eee74146c42254da"
+      "sha256": "4f6d2908c81ecdd88991a22f3e6b04cb56f62dbe8936db9cebfdf52c47eea6f4"
     },
     {
       "path": "index.html",
-      "bytes": 485904,
-      "sha256": "51415c0f9106e0614a9835b00097a97224253278d77b4722ce9056bf706efa9b"
+      "bytes": 485906,
+      "sha256": "c54760808fa5d789919366d858aac5600feda8565eb4b5bc320044aec3901120"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "b81a25f896e78bc5896f953951931d70c2069bda8de44e4a34b35821ed75ce10"
+      "sha256": "bf646264b890f85795e399fa336fba6222525da28bfd52f08256335aec79258c"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2854628,
-      "sha256": "c5a0719a022e8955a7e72c53fcccef9dc99711e5ec1251a9ebd4220fd1d6c00b",
+      "bytes": 2911190,
+      "sha256": "aae28ab63ea3691f9db2162ae3fc902903c8caa92978019b24ae5e74ed4c68ac",
       "kind": "data"
     },
     {
       "path": "program-credits.json",
-      "bytes": 3550365,
-      "sha256": "7f1d9cb6897d8905dd8ee833ce01c8ed30629f3e2eb0040c046b209eab6eb09c",
+      "bytes": 3556761,
+      "sha256": "e8e8be07fccfbd4618daff39ad85e9a21e90dd650d3ea74fb01b210c4d6d5bc9",
       "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "ac630591ebeb86572f3e03d58f9d0873b53529e72e7563372de033d958d2c53f"
+      "sha256": "851fe40567b06ac35ac963035585b6a110afc16d45322057201cf6d68ff99f2b"
     },
     {
       "path": "sources.json",
-      "bytes": 726285,
-      "sha256": "46464da292ec1c8324551d278fde3d21e7d73e741cc7aec2d7d64019821b1234",
+      "bytes": 727281,
+      "sha256": "881a4e163d497a8991deba086e43b1b4e26701a12a6b623e6cd7f294097a910e",
       "kind": "sources"
     }
   ]

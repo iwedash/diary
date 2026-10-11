@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="archive-house-build" content="json-b401">
+<meta name="archive-house-build" content="json-b404">
 <meta name="cuebook-cast-layout" content="entity-system-b144">
 <link rel="icon" href="cuebook-logo.png" type="image/png">
 <title>Cuebook</title>
@@ -1074,13 +1074,13 @@ html{background:var(--blush)!important}body{background:radial-gradient(circle at
  .personSecondaryGrid{grid-template-columns:1fr}
 }
 </style>
-<script src="data-loader.js?v=json-b401" defer></script>
+<script src="data-loader.js?v=json-b404" defer></script>
 <script>
 /* Build 328 rescue fallback: if data-loader.js is missing/cached wrong, define the lightweight loader inline. */
 if(!window.loadCuebookData){
 (function(global){
 'use strict';
-const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b401',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const DEFAULT_MANIFEST='manifest.json',BUILD_TOKEN='json-b404',ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 async function cueFetchJson(path,cache,timeoutMs){const join=path.includes('?')?'&':'?',controller=(typeof AbortController!=='undefined')?new AbortController():null,timer=controller?setTimeout(()=>controller.abort(),Number(timeoutMs||45000)):null;try{const res=await fetch(path+join+'v='+BUILD_TOKEN,{cache:cache||'default',signal:controller?controller.signal:undefined});if(!res.ok)throw new Error(`HTTP ${res.status} loading ${path}`);return await res.json();}catch(err){if(err&&err.name==='AbortError')throw new Error(`Timed out loading ${path}`);throw err;}finally{if(timer)clearTimeout(timer);}}
@@ -1295,7 +1295,7 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
 <header class="top cueTop"><div class="topInner cueTopInner">
   <div class="brandLine cueBrandLine"><a class="brand cueBrand" href="#home" aria-label="Cuebook home"><img class="cueLogo" src="cuebook-logo.png" alt=""><span class="brandWord"><b>Cuebook</b></span></a></div>
   <form class="globalSearch cueSearch" id="globalSearch"><label class="sr" for="topQ">Search</label><input id="topQ" type="search" autocomplete="off" placeholder="Search Cuebook…"><button aria-label="Search">Search</button><div id="searchSuggest" class="searchSuggest" hidden></div></form>
-  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b401">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
+  <nav class="nav cueNav" id="nav"><a href="#home" data-view="home">Home</a><a href="#diary" data-view="diary">Diary</a><a href="#shows" data-view="shows">Shows</a><a href="#people" data-view="people">People</a><a href="#roles" data-view="roles">Roles</a><a href="#entities" data-view="entities">Entities</a><a href="#venues" data-view="venues">Venues</a><a href="#musicians" data-view="musicians">Musicians</a><a href="#stats" data-view="stats">Stats</a><a href="money.html?v=json-b404">Money</a><button class="navRandom" type="button" id="randomPerfBtn">Random</button></nav>
   <button class="menuButton" id="menuToggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menuPanel">☰ Menu</button>
 </div></header>
 <div class="menuBackdrop" id="menuBackdrop" hidden></div>
@@ -1303,10 +1303,10 @@ body{background:radial-gradient(circle at 9% -8%,rgba(211,166,75,.18),transparen
   <div class="menuHead"><div class="menuHeadBrand"><img class="menuLogo" src="cuebook-logo.png" alt=""><div><b>Cuebook</b></div></div><button id="menuClose" type="button" aria-label="Close menu">×</button></div>
   <div class="menuLinks">
     <section class="menuGroup"><h2>Browse</h2><div class="menuGroupGrid"><a href="#home">Home</a><a href="#diary">Diary</a><a href="#shows">Shows</a><a href="#people">People</a><a href="#roles">Roles</a><a href="#venues">Venues</a></div></section>
-    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b401">Money</a></div></section>
-    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b401">Cast Book</a><a href="companions.html?v=json-b401">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
+    <section class="menuGroup"><h2>Explore</h2><div class="menuGroupGrid"><a href="#entities">Entities</a><a href="#musicians">Musicians</a><a href="#stats">Stats</a><a href="money.html?v=json-b404">Money</a></div></section>
+    <section class="menuGroup"><h2>Tools</h2><div class="menuGroupGrid"><a href="castbook.html?v=json-b404">Cast Book</a><a href="companions.html?v=json-b404">Companions</a><button class="menuRandom" type="button" id="menuRandomPerfBtn">Random Performance</button></div></section>
   </div>
-  <div class="menuVersion">B391 · v14.66.8</div>
+  <div class="menuVersion">B391 · v14.66.11</div>
 </aside>
 <div id="app" class="loading"><img class="loadingLogo" src="cuebook-logo.png" alt=""><b>Cuebook</b><p>Loading split Cuebook data…</p></div>
 <script id="cue-preboot">
@@ -1341,8 +1341,8 @@ setTimeout(function(){
 <script>
 (function(){
 'use strict';
-const BUILD='json-b401';
-const VERSION='v14.66.8';
+const BUILD='json-b404';
+const VERSION='v14.66.11';
 const $=s=>document.querySelector(s);
 const app=$('#app');
 try{window.__cueBootStatus&&window.__cueBootStatus('Main Cuebook script executing…');}catch(_){}
@@ -2013,7 +2013,7 @@ function performanceView(id){let p=performanceById(id);if(!p)return notFound();l
 
 function sourceSection(p){let chunks=[];if(p.programArchiveText)chunks.push(['Program Archive',p.programArchiveText]);if(p.programArchiveSummary)chunks.push(['Program Summary',p.programArchiveSummary]);if(p.source?.castNormalized)chunks.push(['Source Cast Text',p.source.castNormalized]);if(!chunks.length)return'';return `<details class="card archiveCard" id="archive"><summary><span>Source / Archive</span></summary><div class="archiveBody">${chunks.map(c=>cueRenderArchiveValue(c[0],c[1])).join('')}</div></details>`}
 function programMetaSection(p){let snap=snapshots.filter(x=>idNum(x.performanceId)===idNum(p.id));let pa=programArchive.filter(x=>idNum(x.performanceId)===idNum(p.id));if(!snap.length&&!pa.length&&!p.performanceMetadata&&!p.programUpdateVersion)return'';return `<details class="card compactDetails"><summary>Program Data</summary>${p.programUpdateVersion?`<div class="pill">v${esc(p.programUpdateVersion)}</div>`:''}${p.performanceMetadata?`<div class="sourceText collapsedSource">${esc(JSON.stringify(p.performanceMetadata,null,2))}</div>`:''}${snap.map(x=>`<div class="note"><b>${esc(x.label||'Snapshot')}</b><br>${esc(x.summary||x.source||'')}</div>`).join('')}${pa.map(x=>`<div class="note"><b>${esc(x.dateCaptured||'Archive')}</b><br>${esc(x.source||'')}</div>`).join('')}</details>`}
-function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b401',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
+function programPayload(id){let p=performanceById(id);if(!p)return null;let pid=idNum(id);return {exportedAt:new Date().toISOString(),build:raw?.meta?.build||'json-b404',sequenceNumber:performanceNumber(p),performance:p,show:S.get(idNum(p.showId))||null,venue:V.get(idNum(p.venueId))||null,cast:(perfApps.get(pid)||[]).map(a=>({role:roleNameForAppearance(a),person:personLabelFromAppearance(a),appearanceType:a.appearanceType||'',coverType:a.coverType||'',alsoEnsemble:!!a.alsoEnsemble,roleNote:a.roleNote||''})),coverPool:sortCoverPoolRows(pid,coverPools.filter(x=>idNum(x.performanceId)===pid)),specialAppearances:specialAppearances.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||999)-(b.displayOrder||999)).map(x=>({person:personName(x.personId),type:x.appearanceType||'Special Appearance',context:x.context||''})),credits:(perfCredits.get(pid)||[]).slice().sort((a,b)=>{let ga=cueCreditGroup(a),gb=cueCreditGroup(b),gd=cueCreditGroupOrder(ga)-cueCreditGroupOrder(gb);if(gd)return gd;if(ga==='Orchestra'){let oa=orchestraCreditSortValue(a.label,0),ob=orchestraCreditSortValue(b.label,0);if(oa!==ob)return oa-ob;}return cueCreditLabelOrder(a.label)-cueCreditLabelOrder(b.label);}).map(c=>({category:c.cat,label:c.label,names:nameList(c.row),note:c.row?.note||''})),songs:songs.filter(x=>idNum(x.performanceId)===pid).sort((a,b)=>(a.displayOrder||0)-(b.displayOrder||0)),programMetadata:p.performanceMetadata||null,source:p.source||null,programArchive:programArchive.filter(x=>idNum(x.performanceId)===pid),snapshots:snapshots.filter(x=>idNum(x.performanceId)===pid)};}
 function safeFileName(s){return String(s||'archive-house').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,90)||'archive-house';}
 window.downloadProgramJSON=function(id){let payload=programPayload(id);if(!payload)return;let p=payload.performance;let name=safeFileName(`${showTitle(p.showId)}-${p.date}-${p.time||''}-program`)+'.json';let blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);};
 function castGridMatrix(showId,ps){return castGridRows(showId,ps);}
