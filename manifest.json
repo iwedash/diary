@@ -2,53 +2,53 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1210,
+    "performances": 1211,
     "people": 20736,
     "shows": 524,
     "venues": 208,
     "roles": 5948,
-    "appearances": 19747,
-    "creativeCredits": 18050,
+    "appearances": 19753,
+    "creativeCredits": 18060,
     "specialAppearances": 449,
     "companionLinks": 681,
-    "sources": 1550
+    "sources": 1551
   },
-  "generatedAt": "2026-10-12T00:08:20.561372+00:00",
-  "updatedAt": "2026-10-12T00:08:20.561372+00:00",
-  "description": "Build 405 adds Heathers closing October 11 evening, Orchestra M1 $104, current program and coverage.",
+  "generatedAt": "2026-10-14T23:01:56.133543+00:00",
+  "updatedAt": "2026-10-14T23:01:56.133543+00:00",
+  "description": "Build 406 restores ANON for October 14 evening, A1 $33; October 10 remains cancelled.",
   "fileCount": 13,
-  "build": "json-b405",
-  "version": "v14.66.12",
-  "generated": "2026-10-12T00:08:20.561372+00:00",
-  "totalBytes": 20310590,
-  "largestFileBytes": 5284291,
+  "build": "json-b406",
+  "version": "v14.66.13",
+  "generated": "2026-10-14T23:01:56.133543+00:00",
+  "totalBytes": 20335765,
+  "largestFileBytes": 5286497,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5284291,
-      "sha256": "a8f79748725f348b54e76b60d2a6265d1d922aa4bb5f3ce6cab548eeb1b62d7c",
+      "bytes": 5286497,
+      "sha256": "c795997299c21a004de7b775e3e9699c9c3eca18bc7fdf326d3f22cff83f23b1",
       "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "e17a9a9da9d532bc7eb10b248b6186fd387cd5b7a6a37c5339e5c39a36f9e974"
+      "sha256": "3172bef96f0f4181a10f6f011bcfef17e1058507f3a66d480d771d1fc6c6e8ad"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "e2a38eca35a20b3e00bce550c031804d9089c7168ec34816ed635524d892a16f"
+      "sha256": "84a78f4467aea029f4b106456ef3c93067bd7e53a8761ce5b7b2bd61ad65fead"
     },
     {
       "path": "core.json",
-      "bytes": 3909109,
-      "sha256": "d447a058adde682b1e0ca56f4212a76ffd6f76e90696115b91320f2b830302b1",
+      "bytes": 3913639,
+      "sha256": "a7c49b6cb1ebd89116c11fbd61f8fb4583fe333d25dc76dba5386d1daaf57272",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2221478,
-      "sha256": "9c4eca428625b0f52acd89a8af08bf2446377b3d61b9acb20955511b94acc394",
+      "bytes": 2223704,
+      "sha256": "819637b89ae909ffb7cc93373fb79059c49265d2ac41cc675f326947f8fa8aa9",
       "kind": "data"
     },
     {
@@ -59,22 +59,22 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "f81e4513c05d0540706b03eef80557a61265c0b3356297b880745f00adb40621"
+      "sha256": "1a68715ca6612515605cf4a3985a709d3cec94b80f98f4f5b7108fa8fb72d852"
     },
     {
       "path": "index.html",
       "bytes": 485906,
-      "sha256": "0d148e455cc517bfccdb688b0e20b02d26413fc3747b79ed221c1b8a3b6165cf"
+      "sha256": "1c1bea913c77bdc0ff407e634c5a5858bcd38f307545602c44a31de9b35fd4bb"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "af088528aebcb53fd252971534377b8ac7b6005e4064664ac49f3b9e4a37f9a7"
+      "sha256": "aa7ff0da527b2da02a555586146a8ca2db641a9d1ec704212f7a0c39d1eb0005"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2923774,
-      "sha256": "454b3a94ba68759550cc28a9b047794e40bc881bbf59a952c1a879421fb28c3d",
+      "bytes": 2939710,
+      "sha256": "d6b8316a1962a6c626ffe744c25d4b3301fbb49e0cb1f6902ae59e73f5e7f35a",
       "kind": "data"
     },
     {
@@ -86,12 +86,12 @@
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "a21f30d8967445d21940c580c8cff298cf31c8784f3395c95a97b757f3266de6"
+      "sha256": "130c3938bdcf5f0e83b826379399835f77076cbc9d24a380cdcb657224795e1d"
     },
     {
       "path": "sources.json",
-      "bytes": 727537,
-      "sha256": "c33841a2bee61d97f2c416b1ae2d30aec605a36edb672ac61803c89050f3a30b",
+      "bytes": 727814,
+      "sha256": "bbd98f7ea172a05127a0d37eef7c0011ab59d39a482274179a8083f035e754a3",
       "kind": "sources"
     }
   ]
