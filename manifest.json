@@ -2,53 +2,53 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1211,
-    "people": 20736,
+    "performances": 1212,
+    "people": 20737,
     "shows": 524,
     "venues": 208,
     "roles": 5948,
-    "appearances": 19753,
-    "creativeCredits": 18060,
+    "appearances": 19774,
+    "creativeCredits": 18072,
     "specialAppearances": 449,
-    "companionLinks": 681,
-    "sources": 1551
+    "companionLinks": 682,
+    "sources": 1552
   },
-  "generatedAt": "2026-10-14T23:01:56.133543+00:00",
-  "updatedAt": "2026-10-14T23:01:56.133543+00:00",
-  "description": "Build 406 restores ANON for October 14 evening, A1 $33; October 10 remains cancelled.",
+  "generatedAt": "2026-10-16T04:54:42.583776+00:00",
+  "updatedAt": "2026-10-16T04:54:42.583776+00:00",
+  "description": "Build 407 adds & Juliet October 15 U10 comp with Alex Parra; user-confirmed coverage, off-duty swings excluded.",
   "fileCount": 13,
-  "build": "json-b406",
-  "version": "v14.66.13",
-  "generated": "2026-10-14T23:01:56.133543+00:00",
-  "totalBytes": 20335765,
-  "largestFileBytes": 5286497,
+  "build": "json-b407",
+  "version": "v14.66.14",
+  "generated": "2026-10-16T04:54:42.583776+00:00",
+  "totalBytes": 20372154,
+  "largestFileBytes": 5292422,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5286497,
-      "sha256": "c795997299c21a004de7b775e3e9699c9c3eca18bc7fdf326d3f22cff83f23b1",
+      "bytes": 5292422,
+      "sha256": "168042a1734e4f7446a54e0f137952e3abe61146f3a7416b9f0fc689ca4c9b99",
       "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "3172bef96f0f4181a10f6f011bcfef17e1058507f3a66d480d771d1fc6c6e8ad"
+      "sha256": "09cb5390f3082f14409baeec46dbf6c2b3614497fca7e7e779777bb706afc1c3"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "84a78f4467aea029f4b106456ef3c93067bd7e53a8761ce5b7b2bd61ad65fead"
+      "sha256": "981994546223cbe3f3bd3ed57f0aa0a549931e45e93901e9512e97cb3f8dda2b"
     },
     {
       "path": "core.json",
-      "bytes": 3913639,
-      "sha256": "a7c49b6cb1ebd89116c11fbd61f8fb4583fe333d25dc76dba5386d1daaf57272",
+      "bytes": 3916601,
+      "sha256": "fc60e02ddb976f20590f2dfc7e0e9ab5a49864590b6885780a3cb2bd3b462a12",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2223704,
-      "sha256": "819637b89ae909ffb7cc93373fb79059c49265d2ac41cc675f326947f8fa8aa9",
+      "bytes": 2227315,
+      "sha256": "576dfc95ec64717b75df17df6f5b38156817435d3fbd992d2de7b4fa85f92d54",
       "kind": "data"
     },
     {
@@ -59,39 +59,39 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "1a68715ca6612515605cf4a3985a709d3cec94b80f98f4f5b7108fa8fb72d852"
+      "sha256": "0a85c0d1967a079c6f7ecc8c5223b57cd62e409dced7909a81489c450701afb6"
     },
     {
       "path": "index.html",
       "bytes": 485906,
-      "sha256": "1c1bea913c77bdc0ff407e634c5a5858bcd38f307545602c44a31de9b35fd4bb"
+      "sha256": "0b086533eccb55a9c8d66b0f7e16df45f5ac78f9c437a0b90922a17cfef653f2"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "aa7ff0da527b2da02a555586146a8ca2db641a9d1ec704212f7a0c39d1eb0005"
+      "sha256": "32d829b83fb693485de19feea59f9221ebd02b3ddee702da379f3a984f42e4ba"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2939710,
-      "sha256": "d6b8316a1962a6c626ffe744c25d4b3301fbb49e0cb1f6902ae59e73f5e7f35a",
+      "bytes": 2959307,
+      "sha256": "76b0a1d9984b459a48d1c46b6576ec721a856eb32cbebe769662f95431f0d280",
       "kind": "data"
     },
     {
       "path": "program-credits.json",
-      "bytes": 3566226,
-      "sha256": "6d9a8038919d2a2ed1097cfa25be0f3f30901c5637922078bb8b420d8e8727c7",
+      "bytes": 3570024,
+      "sha256": "f0261fe44b5d9dbbd57ba682a0273eab4ed383267bc9a7aee0d94390bf593b5b",
       "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "130c3938bdcf5f0e83b826379399835f77076cbc9d24a380cdcb657224795e1d"
+      "sha256": "bca48d44e96a3bce7ddb4ed5d272f699e2fbd2c98f5c9ae37162ca517cca9fb7"
     },
     {
       "path": "sources.json",
-      "bytes": 727814,
-      "sha256": "bbd98f7ea172a05127a0d37eef7c0011ab59d39a482274179a8083f035e754a3",
+      "bytes": 728310,
+      "sha256": "9cbbaafb3655d30da70158cdd8daba65997b44b9ac0624c1d34abb92d916ee1b",
       "kind": "sources"
     }
   ]
