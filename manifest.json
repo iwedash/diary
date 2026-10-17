@@ -13,14 +13,14 @@
     "companionLinks": 683,
     "sources": 1553
   },
-  "generatedAt": "2026-10-17T02:09:48.701756+00:00",
-  "updatedAt": "2026-10-17T02:09:48.701756+00:00",
-  "description": "Build 409: show-page grids use coverage-only color without badges or company-change highlighting; incomplete grouped ensembles hidden. Attendance and copy/export data unchanged.",
+  "generatedAt": "2026-10-17T02:32:48.974814+00:00",
+  "updatedAt": "2026-10-17T02:32:48.974814+00:00",
+  "description": "Build 410 fixes show-page render error: restore durableCastCell helper for Company Changes without reintroducing grid highlighting.",
   "fileCount": 13,
-  "build": "json-b409",
-  "version": "v14.66.16",
-  "generated": "2026-10-17T02:09:48.701756+00:00",
-  "totalBytes": 20387427,
+  "build": "json-b410",
+  "version": "v14.66.17",
+  "generated": "2026-10-17T02:32:48.974814+00:00",
+  "totalBytes": 20387827,
   "largestFileBytes": 5294141,
   "files": [
     {
@@ -32,17 +32,17 @@
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "fc9c5389ef740f1540aa742b69c6d90ce991028a8fda388d76b9e6be3de6b08b"
+      "sha256": "2dbf6344b8a162cd660570c350388f42851ad143c41c8ce3fb97c4b47d4fb18d"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "1cc485161195069bcfef2313120806f130f50daddeda673281a54c8dff20f92a"
+      "sha256": "9864905eaf10de803239a1f216e6e5b582de03850a2fe2c610e9d62135581fd1"
     },
     {
       "path": "core.json",
-      "bytes": 3918899,
-      "sha256": "0de4876d6fd5f9d35845c9f3e11d68c4ae594683baf909c385807de09588339b",
+      "bytes": 3918853,
+      "sha256": "131007f0340f8fbf5fb6933366408ec8c5bc1906edda147ec4190008eae63ed7",
       "kind": "data"
     },
     {
@@ -59,17 +59,17 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "39e5c6662c073a36528618414b6817e44ed9b1aab5969d566357c4c7ef1ae860"
+      "sha256": "956dc45ef34d5878a5c5575e61614f9ecef5f709c1c0a5680806de31579e0837"
     },
     {
       "path": "index.html",
-      "bytes": 485792,
-      "sha256": "9c0269d2cf1aaed0c243ca442288a5f7de95700d02f5d0541326a670f6f16a76"
+      "bytes": 486238,
+      "sha256": "6ed51ad21e6258b67772dfa42962aa3e80680e6d5c0492836c7d5e1478aa2048"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "dcc3012f4b57a6c8c99d670e13e4bbb4fcea42fd35c7e8aa0c7cbbac93637029"
+      "sha256": "41a04bb90337c1a9a52463f5ba8c56ffe098f8db2ae3e68abe3baeaf9e778309"
     },
     {
       "path": "production-archive.json",
@@ -86,7 +86,7 @@
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "5f969ec1973f26ff33143febb7881f9fcd759b126d70d948aa98fbbe03f4d8a8"
+      "sha256": "ce5c7cfce61a02e66e44b78e3a61a729931c25a58a5240592727d7fc02f39d8b"
     },
     {
       "path": "sources.json",
