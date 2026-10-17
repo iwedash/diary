@@ -13,14 +13,14 @@
     "companionLinks": 683,
     "sources": 1553
   },
-  "generatedAt": "2026-10-17T02:32:48.974814+00:00",
-  "updatedAt": "2026-10-17T02:32:48.974814+00:00",
-  "description": "Build 410 fixes show-page render error: restore durableCastCell helper for Company Changes without reintroducing grid highlighting.",
+  "generatedAt": "2026-10-17T11:37:24.712334+00:00",
+  "updatedAt": "2026-10-17T11:37:24.712334+00:00",
+  "description": "Build 411 restores JPEG cast-grid export; compact measured rows, names-only coverage colors and footer key; compact Excel export with category fills and key.",
   "fileCount": 13,
-  "build": "json-b410",
-  "version": "v14.66.17",
-  "generated": "2026-10-17T02:32:48.974814+00:00",
-  "totalBytes": 20387827,
+  "build": "json-b411",
+  "version": "v14.66.18",
+  "generated": "2026-10-17T11:37:24.712334+00:00",
+  "totalBytes": 20394178,
   "largestFileBytes": 5294141,
   "files": [
     {
@@ -32,17 +32,17 @@
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "2dbf6344b8a162cd660570c350388f42851ad143c41c8ce3fb97c4b47d4fb18d"
+      "sha256": "e9b9f23623f54d747a535d4227e4a4a9ef7bd62f644120abcf6d7b6599bd0222"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "9864905eaf10de803239a1f216e6e5b582de03850a2fe2c610e9d62135581fd1"
+      "sha256": "8238bda847ad517181a018d8eec8d92934eaf8fa7e6e8a7b584155d920a568b4"
     },
     {
       "path": "core.json",
-      "bytes": 3918853,
-      "sha256": "131007f0340f8fbf5fb6933366408ec8c5bc1906edda147ec4190008eae63ed7",
+      "bytes": 3918879,
+      "sha256": "9e68b38c955db75649206dfeebb19663c2e0746f16ab079ba3918a29a689420d",
       "kind": "data"
     },
     {
@@ -59,17 +59,17 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "956dc45ef34d5878a5c5575e61614f9ecef5f709c1c0a5680806de31579e0837"
+      "sha256": "a1e93bb81db24aee97a24f3d42f87f2fa0b69dcf0d94d752665024298ee92df0"
     },
     {
       "path": "index.html",
-      "bytes": 486238,
-      "sha256": "6ed51ad21e6258b67772dfa42962aa3e80680e6d5c0492836c7d5e1478aa2048"
+      "bytes": 492563,
+      "sha256": "893234f9ba0dd7e79f28657bb85471af6b83f7ac510e0850a146960c09ec50e2"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "41a04bb90337c1a9a52463f5ba8c56ffe098f8db2ae3e68abe3baeaf9e778309"
+      "sha256": "c4ac689c84974554ccfe47a3d91b062a3c8d93f0d6cbccbeb4e8e42018bdcdf8"
     },
     {
       "path": "production-archive.json",
@@ -86,7 +86,7 @@
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "ce5c7cfce61a02e66e44b78e3a61a729931c25a58a5240592727d7fc02f39d8b"
+      "sha256": "3727b00fd1e09a543629b1b20183c7a9499c15c01889260af850eb72a76be95f"
     },
     {
       "path": "sources.json",
