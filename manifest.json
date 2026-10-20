@@ -2,53 +2,53 @@
   "schemaVersion": 13,
   "storage": "split-json",
   "counts": {
-    "performances": 1214,
-    "people": 20738,
-    "shows": 524,
+    "performances": 1215,
+    "people": 20806,
+    "shows": 525,
     "venues": 208,
-    "roles": 5949,
-    "appearances": 19801,
-    "creativeCredits": 18115,
+    "roles": 5957,
+    "appearances": 19809,
+    "creativeCredits": 18128,
     "specialAppearances": 450,
-    "companionLinks": 683,
-    "sources": 1554
+    "companionLinks": 684,
+    "sources": 1555
   },
-  "generatedAt": "2026-10-18T20:29:20.993503+00:00",
-  "updatedAt": "2026-10-18T20:29:20.993503+00:00",
-  "description": "October 18, 2026; The Lost Boys at the Palace Theatre. Balcony Box Left BB 7; $56. Julie McBride conducting. Mason Olshavsky u/s Michael Emerson; Ashley Jenkins u/s Lucy Emerson; Mateus Leite Cardoso u/s Dwayne; Hank Santos s/w in Ben Crawford’s track; Liesie Kelly s/w in Ashley Jenkins’s track. Curtain time, ticket method and companion not supplied.",
+  "generatedAt": "2026-10-19T23:00:21.550743+00:00",
+  "updatedAt": "2026-10-19T23:00:21.550743+00:00",
+  "description": "October 19, 2026 evening — Slam Frank, Orpheum Theatre, New York. G8; $40 TodayTix Rush; with Steve Hohne. Printed cast used; no substitutions reported. Exact curtain and seating section not supplied.",
   "fileCount": 13,
-  "build": "json-b412",
-  "version": "v14.66.19",
-  "generated": "2026-10-18T20:29:20.993503+00:00",
-  "totalBytes": 20451550,
-  "largestFileBytes": 5300145,
+  "build": "json-b413",
+  "version": "v14.66.20",
+  "generated": "2026-10-19T23:00:21.550743+00:00",
+  "totalBytes": 20475922,
+  "largestFileBytes": 5302342,
   "files": [
     {
       "path": "cast.json",
-      "bytes": 5300145,
-      "sha256": "689fc6051d0f89b9ae342373bc70324b2688cc44d0c4d52dd5b6cbaf682f3511",
+      "bytes": 5302342,
+      "sha256": "cd5ca24b1670171a1976a7c92ad585fe3f728a983fa4ffa53ae90b9e87dbd08f",
       "kind": "data"
     },
     {
       "path": "castbook.html",
       "bytes": 38804,
-      "sha256": "91b2baebfa10e97fa612c6c2b5195db8f3d8433c6d14eb23a4caf1dfb31bbd52"
+      "sha256": "ab8678e435242703c520971585c6cb0b32c64c0d0b0ada5ab7f07bc23b0a0890"
     },
     {
       "path": "companions.html",
       "bytes": 20169,
-      "sha256": "35c860c7da2bf5b05044af0fc19cbdc3a129162e2723fe82164903b9ccba0ce9"
+      "sha256": "ff9c22733fa563297bfbbc5c1156a0cf1afb921fdf0315b74eee2a1b4db2cbd2"
     },
     {
       "path": "core.json",
-      "bytes": 3922188,
-      "sha256": "078eb2505ee3f4b617e79473dcc4946fd7abb80e551cbddda93c4e7035665796",
+      "bytes": 3933268,
+      "sha256": "7dc5b686aed8ac7d1f7d5e121f987c443a87ae0ab21141986fb4946b4bb94e79",
       "kind": "data"
     },
     {
       "path": "credits.json",
-      "bytes": 2244043,
-      "sha256": "2992d83d615014ae3dad8c865637f82a99ea83f86190eb71b3d80458fc40e5bc",
+      "bytes": 2246452,
+      "sha256": "e519fb521285515fc640c6afe84e9b3662f7a45d0a9831799de93dec1008240b",
       "kind": "data"
     },
     {
@@ -59,39 +59,39 @@
     {
       "path": "data-loader.js",
       "bytes": 6037,
-      "sha256": "abd4d645b37d4d461b6aa8bb00893c8ed6ed3a17dec57bfa737736628fa23a5d"
+      "sha256": "c61aff1d14fa4142ca09649b1a1a5170021cef820e8c2d93b61d8866a010ef2f"
     },
     {
       "path": "index.html",
       "bytes": 492563,
-      "sha256": "d41fcb9d67d498202589637112bed19dde394f497521dd5451990fc340cd4994"
+      "sha256": "38c318688e3ce1a93cb3f74e36e33b63a26d9d62710994fe6b5e1fd7738b77ea"
     },
     {
       "path": "money.html",
       "bytes": 22872,
-      "sha256": "9481cc882fce1695fceb205661019b4fb47ce2a90611d33e1f4f83c8581df3e4"
+      "sha256": "0b4f0e1d14bc2a04a07300651be3e9e8c21f48b7bd4e4face301001eaf047cf0"
     },
     {
       "path": "production-archive.json",
-      "bytes": 2990558,
-      "sha256": "81308c69b960d352c742d59dd751c1352e7f9cdfebb54a016ba8e88e23929da6",
+      "bytes": 2996337,
+      "sha256": "52652f84cf9e21db2bd1a1dfd59c1a2421a667882b5b4a19ce1b18dbb8a0ea1e",
       "kind": "data"
     },
     {
       "path": "program-credits.json",
-      "bytes": 3580407,
-      "sha256": "dd6a2b8beabbc4f84d535308e8bd0f848d5eb7adea12e4dc1caa7fc20fd00198",
+      "bytes": 3582723,
+      "sha256": "6d4b52212cb0f6d396d9f07388e415d4b45b25e13eeb828c90b00a22d93133d2",
       "kind": "data"
     },
     {
       "path": "qa.html",
       "bytes": 37740,
-      "sha256": "665c4755e9b1f384fb672d126da8d88fa528d9deb08f9461f8a6a76a830613d9"
+      "sha256": "0d7f4dd8485fd6802cd9e5828d16d1c4ad2f0553cd47222cd3de05b683dc1fe4"
     },
     {
       "path": "sources.json",
-      "bytes": 729377,
-      "sha256": "06b84f6fa335139f91c48c96a74ca0b4adc2fdef3ee8086d823e8db1ae13b5ff",
+      "bytes": 729968,
+      "sha256": "4d76f4b0a629c35dbffa74b3526b74a5c1b78c37e54faa508596282facfa4291",
       "kind": "sources"
     }
   ]
