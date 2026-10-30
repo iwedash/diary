@@ -1,8 +1,8 @@
 (function(global){
 'use strict';
 const DEFAULT_MANIFEST='manifest.json';
-const BUILD_TOKEN='json-b425';
-const ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json']);
+const BUILD_TOKEN='json-b428';
+const ESSENTIAL_PATHS=new Set(['core.json','cast.json','credits.json','sources.json','attendance-overrides.json']);
 function cuePath(path){return String(path||'').split('?')[0].split('#')[0];}
 function isJsonFile(file){const path=String(file.path||'');return file.kind==='data'||file.kind==='sources'||/\.json(?:$|[?#])/i.test(path);}
 function isSourceFile(file,data){const path=cuePath(file.path);return file.kind==='sources'||path==='sources.json'||(Array.isArray(file.collections)&&file.collections.includes('values')&&Array.isArray(data&&data.values));}
@@ -87,6 +87,7 @@ async function loadCuebookData(options={}){
   const db={};
   loaded.filter(x=>x!==sourcePart).forEach(({data})=>Object.assign(db,reviveSources(data,sources)));
   restoreCompanions(db);
+  if(global.CueAttendance)global.CueAttendance.apply(db);
   if(!db.entities)db.entities={};
   if(db.meta){db.meta.loadedFromManifest=manifestPath;db.meta.splitFileCount=manifest.files.length;db.meta.optionalFilesPending=optional.length;}
   // Do not block first paint on large archive/program JSON files. They are merged in the background.
@@ -99,6 +100,7 @@ async function loadCuebookData(options={}){
       const failed=[];
       results.forEach(r=>{if(r.status==='fulfilled')mergeOptionalPart(db,r.value.data,r.value.file);else failed.push(String(r.reason&&r.reason.message||r.reason));});
       if(db.meta){db.meta.optionalFilesPending=0;db.meta.optionalFilesFailed=failed;}
+      if(global.CueAttendance)global.CueAttendance.apply(db);
       return {failed};
     });
   }
