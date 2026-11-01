@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='cuebook-json-b432';
+const CACHE='cuebook-json-b434';
 const base=new URL('./',self.location.href);
 let saving;
 function key(url){const u=new URL(url,base);u.search='';u.hash='';return u.href;}
@@ -7,7 +7,7 @@ async function saveApp(){
  if(saving)return saving;
  saving=(async()=>{
   const response=await fetch(new URL('manifest.json',base),{cache:'no-store'});if(!response.ok)throw Error('Manifest unavailable');const manifest=await response.json();
-  if(manifest.build!=='json-b432')throw Error('App files are still updating. Try again shortly.');
+  if(manifest.build!=='json-b434')throw Error('App files are still updating. Try again shortly.');
   const entries=[{path:'manifest.json'},...(manifest.files||[])],cache=await caches.open(CACHE);
   for(let i=0;i<entries.length;i+=4)await Promise.all(entries.slice(i,i+4).map(async file=>{const u=new URL(file.path,base),controller=new AbortController(),timer=setTimeout(()=>controller.abort(),25000);try{const r=await fetch(u,{cache:'reload',signal:controller.signal});if(!r.ok)throw Error('Could not save '+file.path);if(file.sha256&&file.path!=='attendance-overrides.json'){const digest=await crypto.subtle.digest('SHA-256',await r.clone().arrayBuffer()),hash=[...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==file.sha256)throw Error('File is still updating: '+file.path);}await cache.put(key(u),r);}finally{clearTimeout(timer);}}));
   await cache.put(new URL('offline-ready',base),new Response(new Date().toISOString()));
