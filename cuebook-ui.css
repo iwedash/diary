@@ -42,3 +42,23 @@ body #app h1,body #app h2,body #app h3{color:#37154f!important}body #app .editio
 
 /* B429: quiet, role-first printed cover listings. */
 .coverPlainList{font-size:14px;line-height:1.55}.coverPlainLine{margin:5px 0!important;padding:0!important;border:0!important;background:none!important}.coverPlainLine>span:first-child{font-weight:600}.coverPlainList .linkBtn{font:inherit!important;font-weight:400!important;display:inline!important;padding:0!important;background:none!important;border:0!important;box-shadow:none!important}.coverPlainQualifier{font-size:.86em;color:var(--muted,#6d6177)}.coverPlainSwings{margin-top:12px}.coverPlainSwings h3{font:600 14px Arial,sans-serif!important;margin:0 0 3px!important}.coverPlainSwings p{margin:0!important}
+
+/* B435: recent attendance, in the current compact palette. */
+body #app .activityTrendGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 12px}
+body #app .activityTrendCard{min-width:0;margin:0!important;padding:12px!important;overflow:hidden}
+body #app .activityTrendHead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:9px}
+body #app .activityTrendHead h2{font-size:14px!important;margin:0!important;line-height:1.2!important}
+body #app .activityTrendHead>span{font-size:10px;color:#826b92;white-space:nowrap;font-variant-numeric:tabular-nums}
+body #app .activityTrendBars{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:5px}
+body #app .activityTrendBar{display:grid;grid-template-rows:15px 82px 25px;gap:4px;min-width:0;text-decoration:none;color:#69437e;text-align:center;border-radius:4px}
+body #app .activityTrendValue{font-size:10px!important;font-weight:600;line-height:15px;font-variant-numeric:tabular-nums}
+body #app .activityTrendTrack{display:flex;align-items:flex-end;justify-content:center;width:100%;max-width:25px;height:82px;margin:0 auto;background:#f2eaf7;border-radius:4px;overflow:hidden}
+body #app .activityTrendTrack i{display:block;width:100%;background:linear-gradient(180deg,#b565cd,#7b2da1);border-radius:4px 4px 0 0;min-height:0}
+body #app .activityTrend-week .activityTrendTrack{background:#e8f2f3}
+body #app .activityTrend-week .activityTrendTrack i{background:linear-gradient(180deg,#61b8bd,#25878e)}
+body #app .activityTrendCurrent .activityTrendTrack i{background:linear-gradient(180deg,#f76caf,#d92588)}
+body #app .activityTrendLabel{font-size:9px!important;line-height:12px;white-space:nowrap;color:#7f6b8c;font-variant-numeric:tabular-nums}
+body #app .activityTrendLabel small{display:block;font-size:8px!important;line-height:11px;color:#a18eac}
+body #app .activityTrendCurrent .activityTrendLabel{color:#b31a73;font-weight:700}
+body #app .activityTrendBar:focus-visible{outline:2px solid #a02cb5;outline-offset:2px}
+@media(max-width:760px){body #app .activityTrendGrid{grid-template-columns:minmax(0,1fr);gap:10px}body #app .activityTrendCard{padding:10px!important}body #app .activityTrendBars{gap:4px}body #app .activityTrendBar{grid-template-rows:14px 72px 24px;gap:3px}body #app .activityTrendTrack{height:72px;max-width:23px}body #app .activityTrendHead{margin-bottom:7px}body #app .activityTrendHead h2{font-size:13px!important}}
