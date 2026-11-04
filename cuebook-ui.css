@@ -62,3 +62,34 @@ body #app .activityTrendLabel small{display:block;font-size:8px!important;line-h
 body #app .activityTrendCurrent .activityTrendLabel{color:#b31a73;font-weight:700}
 body #app .activityTrendBar:focus-visible{outline:2px solid #a02cb5;outline-offset:2px}
 @media(max-width:760px){body #app .activityTrendGrid{grid-template-columns:minmax(0,1fr);gap:10px}body #app .activityTrendCard{padding:10px!important}body #app .activityTrendBars{gap:4px}body #app .activityTrendBar{grid-template-rows:14px 72px 24px;gap:3px}body #app .activityTrendTrack{height:72px;max-width:23px}body #app .activityTrendHead{margin-bottom:7px}body #app .activityTrendHead h2{font-size:13px!important}}
+/* B439: artwork across attendance views and a single search treatment. */
+body #app .homeRecentRow{display:grid!important;grid-template-columns:38px 60px minmax(0,1fr) minmax(100px,24%)!important;gap:10px!important;align-items:center!important;padding:9px 0!important;min-height:64px!important;border-color:#e8daef!important}
+body #app .homeRecentMain,body #app .homeRecentVenue{padding:0!important}
+body #app .homeRecentNo{color:#9a72aa!important}
+body #app .homeRecentWhen,body #app .homeRecentWhen em,body #app .homeRecentVenue{color:#8b719a!important}
+body #app .homeRecentMain strong{margin-top:4px!important;color:#42175d!important}
+body #app .homeRecentRow:hover{background:#faf5fd!important}
+body #app .homeRecentMore{margin-top:10px!important;width:100%;font-size:12px!important}
+body #app .homeRecentMore[hidden]{display:none!important}
+body #app .homeFeaturedShow{display:flex;align-items:center;gap:13px;min-width:0}
+body #app .homeFeaturedShow>.showArtwork{width:96px;height:68px;border-color:#ffffff30}
+body #app .homeFeaturedShow>div{min-width:0}
+body #app .performanceHeaderSlim .perfHeroCompact{display:flex!important;align-items:center!important;gap:12px!important;min-width:0!important}
+body #app .perfHeroCompact>.showArtwork{width:90px;height:64px}
+body #app .performanceHeaderSlim h1{min-width:0!important;font-size:26px!important;line-height:1.12!important;margin:0!important;overflow-wrap:anywhere}
+body .globalSearch.cueSearch{display:flex!important;align-items:center!important;position:relative!important;gap:0!important;height:36px!important;padding:0!important;min-width:0!important;border:1px solid #ffffff35!important;border-radius:8px!important;background:#ffffff12!important;box-shadow:none!important;transition:border-color .15s,box-shadow .15s}
+body .globalSearch.cueSearch:focus-within{border-color:#ee82bc!important;box-shadow:0 0 0 2px #ec258b25!important}
+body .globalSearch.cueSearch input{flex:1 1 auto!important;width:100%!important;min-width:0!important;height:34px!important;border:0!important;background:transparent!important;box-shadow:none!important;color:#fff!important;border-radius:7px!important;padding:0 10px!important;font:400 13px Arial,sans-serif!important;outline:none!important}
+body .globalSearch.cueSearch input::placeholder{color:#d7bcdf!important;opacity:1}
+body .globalSearch.cueSearch button{position:static!important;display:grid!important;place-items:center!important;flex:0 0 32px!important;width:32px!important;min-width:32px!important;height:28px!important;min-height:28px!important;margin:0 3px 0 0!important;padding:0!important;border:0!important;border-radius:5px!important;background:#d91f83!important;color:white!important;box-shadow:none!important}
+body .globalSearch.cueSearch button:before{content:none!important}
+body .globalSearch.cueSearch button svg{display:block;width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+body .globalSearch.cueSearch button:hover{background:#f0349e!important}
+body .globalSearch.cueSearch button:focus-visible{outline:2px solid #7ce4e3!important;outline-offset:2px!important}
+body #searchSuggest.searchSuggestPortal{background:#fff!important;border:1px solid #dfcbe9!important;border-radius:9px!important;box-shadow:0 12px 32px #32114f25!important;padding:5px!important;font-family:Arial,sans-serif!important}
+body #searchSuggest .searchSuggestRow{border-radius:5px!important;color:#3e1755!important;padding:8px!important;gap:8px!important}
+body #searchSuggest .searchSuggestRow:hover,body #searchSuggest .searchSuggestRow.active{background:#f2e6fa!important}
+body #searchSuggest .searchSuggestCode{background:#eee0f6!important;color:#822a9d!important;border:0!important;font:600 10px Arial,sans-serif!important;letter-spacing:.02em!important;border-radius:4px!important;min-width:50px!important}
+body #searchSuggest .searchSuggestTitle{color:#42175c!important;font:600 13px Arial,sans-serif!important;line-height:1.25!important}
+body #searchSuggest .searchSuggestMeta,body #searchSuggest .searchSuggestKind{color:#8f739e!important;font-family:Arial,sans-serif!important}
+@media(max-width:760px){body #app .homeRecentRow{grid-template-columns:30px 60px minmax(0,1fr)!important;column-gap:8px!important;row-gap:3px!important}body #app .homeRecentNo,body #app .homeRecentRow>.showArtwork{grid-row:1 / 3}body #app .homeRecentMain{grid-column:3;grid-row:1}body #app .homeRecentVenue{grid-column:3!important;grid-row:2!important;justify-content:flex-start!important;text-align:left!important;margin:0!important;font-size:10px!important}body #app .perfHeroCompact>.showArtwork{width:72px;height:52px}body #app .performanceHeaderSlim h1{font-size:23px!important}body #app .homeFeaturedShow>.showArtwork{width:78px;height:56px}body #app .homeFeaturedShow{gap:10px}body #searchSuggest .searchSuggestTitle{font-size:12px!important}}
